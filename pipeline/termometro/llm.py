@@ -187,7 +187,7 @@ class AnthropicIA(_ConUso):
         import anthropic
 
         self.modelo = modelo
-        self.cliente = anthropic.Anthropic(api_key=config().clave("ANTHROPIC_API_KEY"), max_retries=4)
+        self.cliente = anthropic.Anthropic(api_key=config().clave("ANTHROPIC_API_KEY"), max_retries=2, timeout=900.0)
         self._tl = threading.local()
 
     def generar(self, sol: Solicitud) -> BaseModel:
@@ -206,6 +206,9 @@ class AnthropicIA(_ConUso):
             fallbacks="default",  # si un clasificador rechaza, el servidor reintenta con el modelo de respaldo
             output_config={"effort": "high" if sol.paso in ("extraccion", "enfoques_validacion") else "medium"},
             output_format=sol.esquema,
+            # El razonamiento se transmite resumido: sin esto no llega ningún byte mientras el modelo
+            # piensa y, en documentos largos, la conexión se corta por tiempo de espera.
+            thinking={"type": "adaptive", "display": "summarized"},
             messages=[{"role": "user", "content": contenido}],
             **extra,
         ) as stream:

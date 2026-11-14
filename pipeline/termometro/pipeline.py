@@ -146,7 +146,7 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     # [1] extracción
     p = cargar_prompt("extraccion")
     usuario = p.render(TEMAS=lista_temas, PAGINAS=paginas_marcadas(paginas))
-    sol = Solicitud("extraccion", "", usuario, Extraccion, pdf=pdf if texto.escaneado else None, extra={"paginas": paginas})
+    sol = Solicitud("extraccion", "", usuario, Extraccion, extra={"paginas": paginas})
     ext = cache.obtener("extraccion", p.version, eq.extractor.modelo, huella([texto.sha256, ids_temas]), Extraccion, lambda: llamar(eq.extractor, sol, Extraccion))
 
     verificadas: dict[str, PropuestaVerificada] = {}
@@ -179,7 +179,7 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     p = cargar_prompt("cobertura")
     extraidas = "\n".join(f"- [{v.tema}] {v.resumen}" for v in verificadas.values())
     usuario = p.render(TEMAS_IDS=", ".join(ids_temas), EXTRAIDAS=extraidas, PAGINAS=paginas_marcadas(paginas))
-    sol = Solicitud("cobertura", "", usuario, Extraccion, pdf=pdf if texto.escaneado else None, extra={"paginas": paginas})
+    sol = Solicitud("cobertura", "", usuario, Extraccion, extra={"paginas": paginas})
     cob = cache.obtener("cobertura", p.version, eq.cobertura.modelo, huella([texto.sha256, sorted(verificadas)]), Extraccion, lambda: llamar(eq.cobertura, sol, Extraccion))
     incorporar(cob.propuestas, "cobertura")
 

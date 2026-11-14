@@ -18,3 +18,3752 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/cesar-diaz/plan-de-trabajo_2026-11-14.pdf
   paginas: 22
   sha256: b5c8772b1bacd800f9af09624ee70369975ec04ba53a91bee9dfab72d808e6b4
+propuestas:
+- id: cesar-diaz-24662950
+  tema: movilidad
+  resumen: Instalar mesas de movilidad con la participación de usuarios, transportistas y ciclistas.
+  cita: • Mesas de movilidad con usuarios, transportistas y ciclistas.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 2. Movilidad y transporte sostenible
+    pagina: 7
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mesas de movilidad" es un tipo de instancia sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «mesas de movilidad con usuarios, transportistas y ciclistas» no tienen una cantidad ni una cobertura
+          definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra un tipo de instancia ("Mesas de movilidad") sin especificar cuántas se crearán ni un resultado
+          cuantificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «mesas de movilidad» no señala cuándo se constituirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no contiene ninguna referencia temporal sobre cuándo se instalarán las mesas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El texto sobre «mesas de movilidad» no menciona montos, fuentes ni mecanismos de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican costos o fuentes de financiamiento para esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El tránsito y transporte son competencia municipal y las mesas de participación dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «mesas de movilidad con usuarios, transportistas y ciclistas» se inscriben en las competencias
+          municipales de movilidad y participación ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Organizar "Mesas de movilidad con usuarios, transportistas y ciclistas" corresponde a las competencias
+          municipales de participación ciudadana y transporte.
+- id: cesar-diaz-35fb4d5b
+  tema: seguridad
+  resumen: Crear una Sala Metropolitana de Comando y Control con videovigilancia, botones de auxilio y alarmas comunitarias,
+    coordinada con el ECU-911 y la Policía Nacional.
+  cita: Sala Metropolitana de Comando y Control con videovigilancia, botones de auxilio y alarmas comunitarias, coordinada
+    con el ECU-911 y la Policía Nacional.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 1. Seguridad ciudadana, convivencia y paz
+    pagina: 7
+  - texto: 'Costo referencial (2027–2031): USD 60–120 millones'
+    pagina: 7
+  - texto: 'Financiamiento: presupuesto municipal priorizado, tasa de seguridad transparente y auditable, cooperación internacional
+      y alianzas público-privadas.'
+    pagina: 7
+  - texto: Instalación formal del Consejo Metropolitano de Seguridad y plan de despliegue por fases de la Sala de Comando
+      y Control.
+    pagina: 17
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra única: la "Sala Metropolitana de Comando y Control" con sus componentes, aunque sin
+          cantidades.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Sala Metropolitana de Comando y Control» nombra un sistema sin ubicación física definida ni cantidades
+          o cobertura de «videovigilancia, botones de auxilio y alarmas comunitarias».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque nombra la "Sala Metropolitana de Comando y Control", la acompaña de equipamiento genérico ("videovigilancia,
+          botones de auxilio y alarmas comunitarias") sin indicar cantidades ni cobertura.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona "despliegue por fases" y el período 2027–2031 sin fechas específicas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan de despliegue por fases» carece de fechas y «2027–2031» solo identifica el período completo
+          de gobierno.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona el período completo "(2027–2031)" y un "plan de despliegue por fases" sin fechas asignadas.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "USD 60–120 millones" y fuentes como "tasa de seguridad" y presupuesto municipal priorizado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'Se indican un «costo referencial (2027–2031): USD 60–120 millones» y una «tasa de seguridad transparente
+          y auditable» como fuente específica.'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto especifica tanto un monto ("Costo referencial (2027–2031): USD 60–120 millones") como
+          fuentes identificables como una "tasa de seguridad transparente y auditable".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cámaras municipales coordinadas con ECU-911 y la Policía son funciones municipales de seguridad ciudadana.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La videovigilancia y las alarmas municipales «coordinadas con el ECU-911 y la Policía Nacional» corresponden
+          a funciones locales de prevención y coordinación de seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar una sala municipal con "videovigilancia, botones de auxilio y alarmas comunitarias, coordinada
+          con el ECU-911 y la Policía Nacional" se enmarca en las funciones municipales de seguridad ciudadana.
+- id: cesar-diaz-4cf64a7c
+  tema: movilidad
+  resumen: Elaborar un plan maestro de expansión del Metro con estudios de ramales al sur, norte y valles mediante tren elevado;
+    se estima unos USD 450 M para trenes elevados por concesión.
+  cita: Plan maestro de expansión del Metro con estudios de ramales al sur, al norte y a los valles, mediante el sistema de
+    tren elevado
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 'Costo referencial (2027–2031): USD 170–380 millones'
+    pagina: 7
+  - texto: De alrededor de $450 M para la implementación del sistema de trenes elevados ( Labrador-Zabala y Marín-El
+    pagina: 7
+  - texto: Triángulo), mediante un modelo de gestión vía concesión internacional.
+    pagina: 9
+  - texto: Inicio de estudios de ramales del Metro.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Prevé estudios de ramales del Metro al sur, norte y valles y la implementación de trenes elevados Labrador-Zabala
+          y Marín-El Triángulo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto delimita la expansión física mediante los tramos «Labrador-Zabala y Marín-El Triángulo».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto define obras físicas con alcance geográfico concreto al precisar la «implementación del
+          sistema de trenes elevados ( Labrador-Zabala y Marín-El Triángulo)» junto a los estudios de ramales.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece "2027–2031" y "Inicio de estudios" sin fecha específica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El período «2027–2031» no distingue una fecha de cumplimiento y «Inicio de estudios de ramales del
+          Metro» tampoco está fechado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se menciona el horizonte completo «(2027–2031)» y un «Inicio de estudios de ramales del Metro»
+          sin fijar fechas concretas.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "USD 170–380 millones" y "alrededor de $450 M" mediante concesión internacional.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto incluye «USD 170–380 millones» y un «modelo de gestión vía concesión internacional».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'Se especifican tanto montos en «Costo referencial (2027–2031): USD 170–380 millones» y «alrededor
+          de $450 M» como el mecanismo «vía concesión internacional».'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Metro y el transporte son competencia del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Plan maestro de expansión del Metro» y sus estudios se encuadran en la competencia municipal de
+          transporte terrestre.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La planificación y gestión del transporte público masivo como la «expansión del Metro» y el «sistema
+          de tren elevado» corresponden al Distrito Metropolitano.
+- id: cesar-diaz-51b413a4
+  tema: seguridad
+  resumen: Conducir la seguridad desde un Consejo Metropolitano de Seguridad con secretaría técnica y mesas operativas con
+    Policía, Fuerzas Armadas y Fiscalía.
+  cita: Conducción desde el Consejo Metropolitano de Seguridad, con secretaría técnica y mesas operativas con Policía Nacional,
+    Fuerzas Armadas y Fiscalía.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: Instalación del Consejo Metropolitano de Seguridad y diseño por fases de la Sala de Comando y Control.
+    pagina: 13
+  - texto: Evaluación semanal de indicadores operativos.
+    pagina: 7
+  - texto: Reducción sostenida de la tasa de homicidios a un dígito por cada 100.000 habitantes.
+    pagina: 7
+  - texto: USD 0,2–0,5 millones
+    pagina: 17
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "reducción sostenida de la tasa de homicidios a un dígito por cada 100.000 habitantes".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija como resultado la reducción de la tasa de homicidios «a un dígito por cada 100.000
+          habitantes», un umbral cuantitativo verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto establece un resultado cuantificable de "Reducción sostenida de la tasa de homicidios a
+          un dígito por cada 100.000 habitantes".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo hay "evaluación semanal" (periodicidad) y "reducción sostenida", sin fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación semanal de indicadores operativos» es una periodicidad de seguimiento y el «diseño por
+          fases» no tiene fechas de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo menciona un "diseño por fases" sin fechas y una periodicidad de "Evaluación semanal", sin fijar
+          cuándo estará cumplida la propuesta.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica un costo de "USD 0,2–0,5 millones".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna un monto de «USD 0,2–0,5 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto especifica un monto estimado de "USD 0,2–0,5 millones".
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El resultado de bajar homicidios depende principalmente de la Policía Nacional, Fuerzas Armadas y Fiscalía.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «conducción desde el Consejo Metropolitano de Seguridad» y las «mesas operativas» con instituciones
+          nacionales corresponden a las funciones municipales de coordinación de seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La "Conducción desde el Consejo Metropolitano de Seguridad, con secretaría técnica y mesas operativas"
+          en coordinación con otras entidades está dentro de las atribuciones municipales.
+- id: cesar-diaz-727775ac
+  tema: movilidad
+  resumen: Integrar física y tarifariamente el transporte público con un sistema de pago unificado.
+  cita: Integración física y tarifaria del transporte público con pago unificado.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: Sistema de integración tarifaria operando.
+    pagina: 7
+  - texto: Estudios técnicos de demanda y factibilidad previos a cualquier ramal o ajuste tarifario.
+    pagina: 7
+  - texto: Reducción sostenida del tiempo promedio de viaje ruralidad–hipercentro no mayor a 60 minutos.
+    pagina: 7
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Incluye un resultado verificable: tiempo de viaje "no mayor a 60 minutos" y sistema de integración
+          tarifaria operando.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija un resultado cuantificado al señalar un «tiempo promedio de viaje ruralidad–hipercentro
+          no mayor a 60 minutos».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto establece un resultado cuantificable verificable: "tiempo promedio de viaje ruralidad–hipercentro
+          no mayor a 60 minutos".'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración que indique cuándo estará operando.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «60 minutos» miden la duración del viaje, mientras que «sistema de integración tarifaria operando»
+          no señala una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica ninguna fecha, año ni duración para tener el "Sistema de integración tarifaria operando".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «integración física y tarifaria del transporte público con pago unificado» no identifica costos
+          ni fuentes de financiamiento para implementarla.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Alude a "ajuste tarifario" condicional a estudios, pero no menciona el costo de implementar el sistema
+          de pago unificado ni su fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El transporte público y su tarifa son competencia del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «integración física y tarifaria del transporte público» corresponde a las competencias municipales
+          de tránsito y transporte terrestre.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La "Integración física y tarifaria del transporte público" es competencia exclusiva del Distrito Metropolitano
+          en materia de tránsito y transporte.
+- id: cesar-diaz-96c6654d
+  tema: movilidad
+  resumen: Construir el segundo túnel Guayasamín y ampliar parcialmente la Av. Simón Bolívar.
+  cita: construcción del segundo túnel Guayasamín, ampliación parcial de la Av. Simón Bolívar.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 2. Movilidad y transporte sostenible
+    pagina: 7
+  - texto: 'Costo referencial (2027–2031): USD 170–380 millones'
+    pagina: 7
+  - texto: 'Financiamiento: recursos propios, crédito multilateral para infraestructura de gran escala y alianzas público-privadas
+      reguladas.'
+    pagina: 9
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra obras físicas únicas: "segundo túnel Guayasamín" y "ampliación parcial de la Av. Simón Bolívar".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «construcción del segundo túnel Guayasamín» identifica una obra física única y localizada, aunque
+          la ampliación vial adicional no precise su alcance.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Identifica una obra física única con ubicación concreta al proponer la "construcción del segundo túnel
+          Guayasamín", aun cuando la "ampliación parcial de la Av. Simón Bolívar" no detalla su alcance.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo el período "2027–2031" completo, sin fecha específica de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El intervalo «2027–2031» del costo referencial no establece un plazo distinto del período completo
+          de gobierno.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Únicamente menciona el período de gobierno completo "(2027–2031)", sin precisar en qué fecha estará
+          terminada la obra.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cita "USD 170–380 millones" y "crédito multilateral" y "alianzas público-privadas".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta incluye un «costo referencial» de «USD 170–380 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'Indica un "Costo referencial (2027–2031): USD 170–380 millones" junto con mecanismos como "crédito
+          multilateral" y "alianzas público-privadas reguladas".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vialidad y el tránsito son competencia del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «construcción del segundo túnel Guayasamín» y la «ampliación parcial de la Av. Simón Bolívar» corresponden
+          a la infraestructura vial y movilidad municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La ejecución de infraestructura vial como el "segundo túnel Guayasamín" y la "Av. Simón Bolívar" corresponde
+          a la competencia municipal de vialidad y transporte.
+- id: cesar-diaz-9ee26af4
+  tema: movilidad
+  resumen: Ejecutar un programa de aceras seguras, ciclovías y peatonalización, además de mantenimiento y pavimentación vial
+    barrial y rural.
+  cita: Programa de aceras seguras, ciclovías y peatonalización; mantenimiento y pavimentación vial barrial y rural.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: mercado nacional para pavimentación, aceras y ciclovías, USD 80–180/m² de vía
+    pagina: 7
+  - texto: Mesas de movilidad con usuarios, transportistas y ciclistas.
+    pagina: 7
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Programa de aceras seguras, ciclovías y peatonalización" no dice cuántos kilómetros ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa de aceras seguras, ciclovías y peatonalización» y la pavimentación no indican cantidades
+          ni identifican una obra única con alcance definido.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se enuncia un «Programa de aceras seguras, ciclovías y peatonalización; mantenimiento y pavimentación
+          vial barrial y rural» sin precisar kilómetros, metros cuadrados ni ubicaciones específicas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha, año ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa de aceras seguras, ciclovías y peatonalización» no tiene una fecha o duración de cumplimiento
+          en la cita ni en el contexto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no incluye ninguna fecha, hito temporal ni plazo de ejecución para el programa vial.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto da un costo unitario de "USD 80–180/m² de vía".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto proporciona un costo unitario de «USD 80–180/m² de vía» para «pavimentación, aceras y ciclovías».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo menciona una referencia unitaria de «mercado nacional para pavimentación, aceras y
+          ciclovías, USD 80–180/m² de vía», sin indicar el presupuesto total del programa ni la fuente de los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Aceras, ciclovías y vialidad son competencias municipales de tránsito y espacio público.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «aceras seguras, ciclovías y peatonalización» son intervenciones comprendidas en las competencias
+          municipales de movilidad y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La construcción y mantenimiento de «aceras seguras, ciclovías y peatonalización» así como la «pavimentación
+          vial» urbana y parroquial corresponden a la competencia vial municipal.
+- id: cesar-diaz-a55057d3
+  tema: seguridad
+  resumen: Implementar una red de cámaras inteligentes con lectura de placas y fortalecer el Cuerpo de Agentes de Control
+    y los distritos zonales de seguridad.
+  cita: Red de cámaras inteligentes con lectura de placas; fortalecimiento del Cuerpo de Agentes de Control y distritos zonales
+    de seguridad.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 1. Seguridad ciudadana, convivencia y paz
+    pagina: 7
+  - texto: Implementación por fases de la Sala de Comando y Control y la red de cámaras; despliegue diferenciado según mapas
+      de calor.
+    pagina: 7
+  - texto: Primera fase de la red de cámaras y alarmas comunitarias.
+    pagina: 15
+  - texto: 'Costo referencial (2027–2031): USD 60–120 millones'
+    pagina: 7
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "Red de cámaras inteligentes" y "fortalecimiento" sin número de cámaras ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Red de cámaras inteligentes» y el «fortalecimiento del Cuerpo de Agentes de Control» no especifican
+          cantidades ni cobertura medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se propone una "Red de cámaras inteligentes" y el "fortalecimiento del Cuerpo de Agentes de Control"
+          sin cuantificar el número de cámaras, agentes ni "distritos zonales de seguridad".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de "Primera fase" e "implementación por fases" sin fechas, y solo el período "2027–2031".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Primera fase» carece de fechas y «2027–2031» solo identifica el período completo de gobierno.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Mencionar la "Primera fase" sin fechas y el horizonte completo "(2027–2031)" no establece cuándo estará
+          cumplida la propuesta.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 60–120 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'La propuesta cuenta con un «Costo referencial (2027–2031): USD 60–120 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto establece un presupuesto estimado bajo el rubro "Costo referencial (2027–2031): USD 60–120
+          millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cámaras municipales, agentes de control y consejos de seguridad son funciones del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «red de cámaras» y el «Cuerpo de Agentes de Control» son instrumentos municipales de prevención
+          y seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La instalación de una "Red de cámaras" municipales y la gestión del "Cuerpo de Agentes de Control"
+          son competencias directas del Municipio en seguridad ciudadana y control.
+- id: cesar-diaz-b217e5a4
+  tema: seguridad
+  resumen: Crear una Red de Apoyo y Rescate Infantil y Juvenil, un Sistema Metropolitano de Prevención de Adicciones y entornos
+    seguros para mujeres.
+  cita: Red de Apoyo y Rescate Infantil y Juvenil; Sistema Metropolitano de Prevención de Adicciones; entornos seguros para
+    mujeres.
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: 1. Seguridad ciudadana, convivencia y paz
+    pagina: 7
+  - texto: Cámaras inteligentes y centros de rescate infantil en operación, con cobertura creciente por fases.
+    pagina: 7
+  - texto: Cobertura creciente de la Sala de Comando y Control y de los centros de rescate infantil.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra programas y sistemas sin cantidad; "cobertura creciente" no es una meta cuantificada.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Red de Apoyo y Rescate Infantil y Juvenil» y la «cobertura creciente por fases» no establecen cantidades,
+          porcentajes ni instalaciones con ubicación determinada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra redes y sistemas con "cobertura creciente" sin precisar la cantidad de centros, beneficiarios
+          o alcance específico.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona "por fases" sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «cobertura creciente por fases» no indica fechas ni duración de esas fases.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Alude únicamente a una implementación "por fases" sin establecer fechas ni duraciones.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Red de Apoyo y Rescate Infantil y Juvenil» y el «Sistema Metropolitano de Prevención de Adicciones»
+          se presentan sin costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto, rubro ni fuente de financiamiento en la cita ni en su contexto.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Prevención, protección de derechos, equidad y seguridad ciudadana son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La prevención de adicciones, el «rescate infantil» y los «entornos seguros para mujeres» corresponden
+          a funciones municipales de prevención, inclusión y protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene competencias en protección de derechos, prevención y seguridad ciudadana para crear
+          una "Red de Apoyo y Rescate Infantil" y "entornos seguros".
+- id: cesar-diaz-2f2b5f4a
+  tema: vivienda
+  resumen: Desarrollar vivienda de interés social y el programa de legalización de barrios “Regula tu barrio”, con meta plurianual.
+  cita: Rehabilitación del Centro Histórico, vivienda de interés social y programa “Regula tu barrio”.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: vivienda social y barrios legalizados con meta plurianual.
+    pagina: 9
+  - texto: vivienda de interés social, USD 280–380/m² de construcción, valor tope referencial MIDUVI ≈USD 47.940/unidad).
+    pagina: 9
+  - texto: Programa “Regula tu barrio” en marcha.
+    pagina: 15
+  - texto: Expansión de vivienda social y regularización de barrios.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona "meta plurianual" sin cifra de viviendas ni barrios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «vivienda social y barrios legalizados con meta plurianual» no cuantifica viviendas o barrios, y
+          la «Rehabilitación del Centro Histórico» no delimita una obra específica.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque el contexto menciona "vivienda social y barrios legalizados con meta plurianual", no especifica
+          cuántas viviendas se construirán ni cuántos barrios se regularizarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "en marcha" y "meta plurianual" sin fecha concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las expresiones «meta plurianual» y «Programa “Regula tu barrio” en marcha» no fijan una fecha ni una
+          duración de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Las expresiones "meta plurianual" y "en marcha" son referencias vagas que no definen una fecha o duración
+          concreta de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Da un costo unitario "USD 280–380/m² de construcción" con tope referencial MIDUVI de USD 47.940 por
+          unidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece costos de «USD 280–380/m² de construcción» y un «valor tope referencial MIDUVI
+          ≈USD 47.940/unidad».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo cita costos unitarios referenciales como "USD 280–380/m² de construcción" y el tope
+          "MIDUVI ≈USD 47.940/unidad", sin indicar el monto total a invertir ni la fuente de los recursos municipales.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Vivienda de interés social, patrimonio y regularización de barrios son competencias del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Rehabilitación del Centro Histórico», la «vivienda de interés social» y la «regularización de barrios»
+          corresponden a competencias municipales de patrimonio, vivienda y ordenamiento territorial.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La "Rehabilitación del Centro Histórico", la "vivienda de interés social" y la regularización de asentamientos
+          mediante "Regula tu barrio" son competencias propias del gobierno municipal.
+- id: cesar-diaz-404eaf96
+  tema: ambiente
+  resumen: Incrementar las áreas verdes priorizando la periferia y promover el reciclaje con inclusión de recicladores de
+    base.
+  cita: Incremento de áreas verdes priorizando periferia; reciclaje e inclusión de recicladores de base.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: '3. Quito Verde: ambiente, residuos y gestión de riesgos'
+    pagina: 9
+  - texto: mercado nacional para parques, arbolado y obras de mitigación
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Incremento de áreas verdes" y "reciclaje" no dicen cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «incremento de áreas verdes priorizando periferia» y el «reciclaje e inclusión de recicladores de
+          base» no establecen cantidades ni coberturas determinadas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone el "Incremento de áreas verdes" y la "inclusión de recicladores de base" sin precisar cantidades,
+          porcentajes ni ubicaciones concretas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El apartado «Quito Verde: ambiente, residuos y gestión de riesgos» no proporciona una fecha o duración
+          para cumplir la propuesta.'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica ninguna fecha, año ni duración para alcanzar el resultado propuesto.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mercado nacional para parques, arbolado y obras" no indica monto ni fuente de financiamiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «mercado nacional para parques, arbolado y obras de mitigación» no precisa un monto ni
+          identifica cómo se obtendrán los recursos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No señala montos ni fuentes de financiamiento, pues solo alude al "mercado nacional para parques, arbolado
+          y obras de mitigación".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Áreas verdes, espacio público y gestión de residuos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «áreas verdes», el «reciclaje» y la «inclusión de recicladores de base» corresponden a las funciones
+          municipales de espacio público, gestión de residuos e inclusión.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de "áreas verdes" y el "reciclaje" son competencias propias del gobierno municipal.
+- id: cesar-diaz-44c5fb09
+  tema: ambiente
+  resumen: Implementar contenerización inteligente de residuos con sala de control de recolección en tiempo real, desplegada
+    progresivamente por manzana.
+  cita: Contenerización inteligente con sala de control de recolección en tiempo real.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: 'Despliegue progresivo de contenerización inteligente por manzana (línea base: sistema incompleto, 2026).'
+    pagina: 9
+  - texto: 'Costo referencial (2027–2031): USD 70–155 millones'
+    pagina: 9
+  - texto: 'Financiamiento restante : vía eficiencia en el gasto de recolección, cooperación internacional y esquemas de economía
+      circular.'
+    pagina: 9
+  - texto: Primeras intervenciones de contenerización inteligente y descontaminación de ríos.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Despliegue progresivo de contenerización inteligente por manzana" no dice cuántos contenedores o
+          cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «contenerización inteligente» y su «despliegue progresivo [...] por manzana» no especifican cuántos
+          contenedores o manzanas se cubrirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra un sistema de "Contenerización inteligente con sala de control" y un "Despliegue progresivo"
+          por manzana sin indicar la cantidad ni el porcentaje de cobertura a lograr.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Primeras intervenciones" y 2027–2031 son vagos o abarcan todo el período; 2026 es solo línea base.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «línea base» de «2026» no es una fecha de cumplimiento y «2027–2031» representa el período completo
+          de gobierno.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona el período completo "(2027–2031)", una línea base de "2026" y "Primeras intervenciones" sin
+          asignar fechas concretas de ejecución.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cita "USD 70–155 millones" y financiamiento vía eficiencia, cooperación internacional y economía circular.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija un «costo referencial» de «USD 70–155 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto establece un monto estimado mediante el "Costo referencial (2027–2031): USD 70–155 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La recolección de desechos es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «contenerización inteligente con sala de control de recolección» corresponde a la competencia municipal
+          de gestión de desechos sólidos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El manejo de residuos mediante "Contenerización inteligente" y "recolección" es una competencia exclusiva
+          municipal.
+- id: cesar-diaz-4cf3b8f2
+  tema: agua-servicios
+  resumen: Ampliar la capacidad de tratamiento de aguas residuales en el Distrito Metropolitano de Quito.
+  cita: • Incremento sostenido del tratamiento de aguas residuales; km de río urbano en recuperación.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: '3. Quito Verde: ambiente, residuos y gestión de riesgos'
+    pagina: 9
+  - texto: 'Costo referencial (2027–2031): USD 70–155 millones (mercado nacional para parques, arbolado y obras de mitigación;
+      referencias de mercado internacional para contenerización inteligente con sensores y ampliación de capacidad de tratamiento
+      de aguas residuales).'
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "Incremento sostenido del tratamiento" y "km de río urbano en recuperación" sin cifra ni
+          cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incremento sostenido» y «km de río urbano en recuperación» no indican cuánto aumentará el tratamiento
+          ni cuántos kilómetros se recuperarán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta habla de un «Incremento sostenido del tratamiento de aguas residuales; km de río urbano
+          en recuperación» sin especificar cuántos kilómetros ni qué porcentaje se alcanzará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El único dato temporal es "2027–2031", que equivale al período completo de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El único período indicado, «2027–2031», corresponde al gobierno completo y no fija un plazo específico
+          de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El único dato temporal en el contexto es el período completo de gobierno «(2027–2031)», lo cual no
+          constituye un plazo específico de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto da un "Costo referencial (2027–2031): USD 70–155 millones" que incluye la ampliación del
+          tratamiento de aguas residuales.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece un «Costo referencial» de «USD 70–155 millones» que incluye la «ampliación de
+          capacidad de tratamiento de aguas residuales».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto señala un monto estimado al indicar «Costo referencial (2027–2031): USD 70–155 millones»
+          que incluye la «ampliación de capacidad de tratamiento de aguas residuales».'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El tratamiento de aguas residuales y la recuperación de ríos son competencias municipales de agua,
+          alcantarillado y control de la contaminación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «tratamiento de aguas residuales» corresponde a las competencias municipales de saneamiento y control
+          de la contaminación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El «tratamiento de aguas residuales» y el cuidado ambiental de ríos urbanos son competencias exclusivas
+          del gobierno municipal.
+- id: cesar-diaz-5b00ec55
+  tema: ambiente
+  resumen: Descontaminar progresivamente los ríos Machángara, Monjas y San Pedro y proteger las microcuencas de Antisana,
+    Pita, Papallacta y Oyacachi.
+  cita: Descontaminación progresiva de los ríos Machángara, Monjas y San Pedro; protección de microcuencas (Antisana, Pita,
+    Papallacta, Oyacachi).
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Incremento sostenido del tratamiento de aguas residuales; km de río urbano en recuperación.
+    pagina: 9
+  - texto: Cooperación internacional para descontaminación y clima.
+    pagina: 9
+  - texto: 'Costo referencial (2027–2031): USD 70–155 millones'
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "descontaminación progresiva" e "incremento sostenido" sin porcentaje ni cantidad de km.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Descontaminación progresiva» y los «km de río urbano en recuperación» no establecen cuántos kilómetros
+          se recuperarán ni un nivel verificable de descontaminación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto plantea una "Descontaminación progresiva" y menciona "km de río urbano en recuperación", pero
+          no establece cuántos kilómetros ni qué porcentaje de tratamiento se alcanzará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el período completo "2027–2031".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia «2027–2031» abarca todo el período de gobierno sin fijar un plazo específico de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto únicamente señala el período administrativo completo "(2027–2031)", sin fijar un plazo
+          específico de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 70–155 millones" y cooperación internacional.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto asigna un «Costo referencial (2027–2031): USD 70–155 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto indica cuánto costará la intervención con un "Costo referencial (2027–2031): USD 70–155
+          millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Saneamiento, control de la contaminación y gestión ambiental son competencias del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Descontaminación progresiva de los ríos» mediante el «tratamiento de aguas residuales» corresponde
+          a las competencias municipales de saneamiento y control de la contaminación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "tratamiento de aguas residuales", la recuperación de ríos urbanos y la "protección de microcuencas"
+          forman parte de las competencias municipales de alcantarillado, agua y control ambiental.
+- id: cesar-diaz-5eeae09b
+  tema: vivienda
+  resumen: Crear un Sistema de Megacentralidades (Calderón, Ilaló–Tumbaco, Los Chillos, eje equinoccial–norcentral, noroccidente)
+    con ventanilla única y presupuesto territorializado.
+  cita: Sistema de Megacentralidades (Calderón, Ilaló–Tumbaco, Los Chillos, eje equinoccial–norcentral, noroccidente) con
+    ventanilla única y presupuesto territorializado.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Seis megacentralidades en construcción ; mayoría de trámites resueltos sin necesidad de ir al hipercentro, autonomía
+      total.
+    pagina: 9
+  - texto: 'Costo referencial (2027–2031): USD 70–140 millones'
+    pagina: 9
+  - texto: Diseño y primera ordenanza del Sistema de Megacentralidades.
+    pagina: 17
+  - texto: Puesta en marcha de las primeras megacentralidades con ventanilla única.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra cinco megacentralidades con ubicación concreta y "ventanilla única".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija el resultado cuantificado de «Seis megacentralidades en construcción».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La propuesta cuantifica y ubica su alcance al señalar «Seis megacentralidades en construcción» e identificar
+          los sectores «(Calderón, Ilaló–Tumbaco, Los Chillos, eje equinoccial–norcentral, noroccidente)».
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto solo da "2027–2031", el período completo, y fases sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «2027–2031» abarca el período completo y las referencias a «Diseño» y «Puesta en marcha» no tienen
+          fechas propias.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El único referente temporal es el período administrativo completo en «Costo referencial (2027–2031)»,
+          sin fechas para las fases de diseño o puesta en marcha.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto señala "Costo referencial (2027–2031): USD 70–140 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece un «Costo referencial» de «USD 70–140 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto establece el monto estimado del proyecto al indicar «Costo referencial (2027–2031): USD
+          70–140 millones».'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Trámites municipales, ventanilla única y presupuesto territorializado dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «ventanilla única y presupuesto territorializado» corresponde a la organización administrativa y
+          prestación de trámites municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La organización administrativa territorial mediante una «ordenanza del Sistema de Megacentralidades»
+          y la atención de trámites en «ventanilla única» son competencias exclusivas del Municipio.
+- id: cesar-diaz-a16ebef6
+  tema: cultura
+  resumen: Rehabilitar el Centro Histórico liberando y repoblando progresivamente inmuebles patrimoniales, con una ordenanza
+    para su administración.
+  cita: Inmuebles patrimoniales del Centro Histórico liberados y repoblados progresivamente
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Ordenanzas metropolitanas para el Sistema de Megacentralidades y la Administración del Centro Histórico.
+    pagina: 9
+  - texto: rehabilitación patrimonial en el Centro Histórico
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Liberados y repoblados progresivamente" no dice cuántos inmuebles ni qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Inmuebles patrimoniales del Centro Histórico liberados y repoblados progresivamente» no indica cuántos
+          inmuebles se intervendrán ni identifica una obra única.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La frase «Inmuebles patrimoniales del Centro Histórico liberados y repoblados progresivamente» no especifica
+          cuántos inmuebles se intervendrán ni qué cobertura tendrá la medida.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Progresivamente" es vago y no hay fecha.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «progresivamente» no establece una fecha ni una duración verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El adverbio «progresivamente» no establece una fecha ni un plazo verificable para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente de financiamiento para esta propuesta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las referencias a «Ordenanzas metropolitanas» y «rehabilitación patrimonial» no incluyen montos ni
+          fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican cuánto costará la «rehabilitación patrimonial en el Centro Histórico»
+          ni de dónde saldrán los fondos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La administración del Centro Histórico y el patrimonio son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «rehabilitación patrimonial en el Centro Histórico» corresponde a las funciones municipales de patrimonio,
+          vivienda y ordenamiento urbano.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión del patrimonio arquitectónico y el uso del suelo mediante «Ordenanzas metropolitanas para
+          el Sistema de Megacentralidades y la Administración del Centro Histórico» son competencias municipales.
+- id: cesar-diaz-f2029f61
+  tema: riesgos
+  resumen: Ejecutar un plan de cambio climático con metas verificables y obras de mitigación de riesgos, articulado con asentamientos
+    en riesgo.
+  cita: Plan de cambio climático ejecutado con metas verificables.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Articulación con ordenamiento territorial (asentamientos en riesgo) y movilidad (calidad del aire).
+    pagina: 9
+  - texto: Avance de obras de mitigación de riesgos.
+    pagina: 15
+  - texto: '3. Quito Verde: ambiente, residuos y gestión de riesgos'
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Metas verificables" no especifica ninguna meta concreta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «plan de cambio climático ejecutado con metas verificables» no especifica esas metas ni
+          cuantifica el «avance de obras de mitigación de riesgos».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Afirma que habrá un "Plan de cambio climático ejecutado con metas verificables" y "Avance de obras
+          de mitigación", pero no enuncia ninguna meta cuantitativa ni obra específica.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El apartado «Quito Verde: ambiente, residuos y gestión de riesgos» no aporta una fecha ni una duración
+          para ejecutar el plan.'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto contienen fechas o plazos para la ejecución del plan o de las obras.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «articulación con ordenamiento territorial [...] y movilidad» no identifica montos, fuentes ni mecanismos
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto de inversión ni fuente de financiamiento para esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Control de la contaminación y gestión de riesgos son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El plan vincula «ordenamiento territorial», «calidad del aire» y «obras de mitigación de riesgos»,
+          ámbitos comprendidos en las funciones municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Ejecutar un "Plan de cambio climático" articulado con "ordenamiento territorial", "calidad del aire"
+          y "obras de mitigación de riesgos" está dentro de las competencias municipales.
+- id: cesar-diaz-f7812524
+  tema: vivienda
+  resumen: Impulsar una ruta hacia la cantonización con estudios de viabilidad y consulta popular.
+  cita: Ruta responsable hacia la cantonización, con estudios de viabilidad y consulta popular.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Estudios de viabilidad de cantonización publicados por polo viable.
+    pagina: 9
+  - texto: 4. Ordenamiento territorial, hábitat y vivienda
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Una "ruta responsable hacia la cantonización" con estudios no indica un resultado cuantificado ni alcance
+          preciso.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «Estudios de viabilidad de cantonización publicados por polo viable» no precisan cuántos estudios
+          se publicarán ni identifican los polos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto promete "Estudios de viabilidad de cantonización publicados por polo viable" y una "consulta
+          popular" sin determinar cuántos estudios o polos se evaluarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Ruta responsable hacia la cantonización» no establece fecha ni duración para los estudios o la
+          consulta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna fecha, año ni hito temporal en la cita ni en su contexto que indique cuándo se cumplirá
+          la ruta propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «estudios de viabilidad y consulta popular» no tienen monto ni fuente de financiamiento indicada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no señala cuánto costarán los "estudios de viabilidad" ni de dónde saldrán los recursos
+          para financiarlos.
+    competencia_municipal:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La creación de cantones depende de la Asamblea y el Ejecutivo, no del Municipio, por lo que la consulta
+          popular excede su competencia.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «cantonización» requiere decisiones legislativas nacionales y la «consulta popular» involucra autoridades
+          electorales, por lo que el resultado no está principalmente en manos del Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Materializar una "Ruta responsable hacia la cantonización" con "consulta popular" excede la competencia
+          municipal, pues convocar dicha consulta y crear cantones corresponde al Ejecutivo nacional, al órgano electoral
+          y a la Asamblea Nacional.
+- id: cesar-diaz-207741a6
+  tema: empleo
+  resumen: Crear un observatorio económico y de empleo del Distrito y establecer alianzas con universidades, gremios y sector
+    privado.
+  cita: Alianzas con universidades, gremios y sector privado. • Observatorio económico y de empleo del Distrito.
+  pagina: 11
+  cita_verificada: true
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra 'Alianzas' y un 'Observatorio económico y de empleo' sin cantidad, cobertura ni alcance
+          verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Alianzas con universidades, gremios y sector privado» y el «Observatorio económico y de empleo
+          del Distrito» no especifican cantidades, cobertura ni una obra física única ubicada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra de forma general "Alianzas con universidades, gremios y sector privado" y un "Observatorio
+          económico y de empleo del Distrito" sin especificar cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Alianzas» y de un «Observatorio económico y de empleo del Distrito» no incluye ninguna
+          fecha ni duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto incluyen fechas, años o duraciones para cumplir la creación del "Observatorio
+          económico y de empleo del Distrito".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto, fuente ni mecanismo de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Alianzas con universidades, gremios y sector privado» no identifican aportes, montos ni un mecanismo
+          concreto de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto sobre "Alianzas con universidades, gremios y sector privado" y el observatorio no menciona
+          ningún monto, presupuesto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un observatorio distrital y alianzas con universidades y gremios corresponden al desarrollo económico
+          local del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «Alianzas con universidades, gremios y sector privado» y el «Observatorio económico y de empleo
+          del Distrito» corresponden a las funciones municipales de desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Promover "Alianzas con universidades, gremios y sector privado" y crear un "Observatorio económico
+          y de empleo del Distrito" se enmarca en la competencia municipal de desarrollo económico local.
+- id: cesar-diaz-a6192f41
+  tema: empleo
+  resumen: Modernizar la infraestructura de los mercados municipales e impulsar la economía popular y solidaria.
+  cita: • Plan metropolitano de turismo; modernización de mercados y economía popular y solidaria.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 5. Desarrollo económico, empleo e innovación
+    pagina: 11
+  - texto: 'Costo referencial (2027–2031): USD 45–100 millones (mercado nacional para infraestructura de mercados y habilitación
+      de la zona de innovación; referencias internacionales para plataformas digitales de trámites e incubación).'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Plan metropolitano de turismo" y "modernización de mercados" no indican cuántos mercados ni resultado
+          medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan metropolitano de turismo» y la «modernización de mercados y economía popular y solidaria»
+          no indican cuántos mercados se intervendrán ni una cobertura verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona de forma general un "Plan metropolitano de turismo; modernización de mercados" sin especificar
+          cuántos mercados ni qué alcance tendrá.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el período completo 2027–2031.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El intervalo «2027–2031» identifica el período completo de gobierno, sin precisar cuándo se cumplirán
+          las intervenciones.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo aparece el período completo de gestión "(2027–2031)" asociado al costo referencial, sin precisar
+          cuándo se cumplirá.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 45–100 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto consigna un «costo referencial (2027–2031): USD 45–100 millones» e incluye expresamente
+          la «infraestructura de mercados».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto detalla un "Costo referencial (2027–2031): USD 45–100 millones" que incluye expresamente
+          la "infraestructura de mercados".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Turismo, mercados y desarrollo económico local son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «turismo», la «modernización de mercados» y la «economía popular y solidaria» corresponden a funciones
+          municipales de turismo, mercados y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "turismo", la "modernización de mercados" y el fomento de la "economía popular y solidaria" son
+          competencias municipales directas.
+- id: cesar-diaz-ac667037
+  tema: empleo
+  resumen: Simplificar y digitalizar los trámites productivos y de construcción con plazos definidos.
+  cita: Simplificación y digitalización de trámites productivos y de construcción, con plazos definidos.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Reducción sostenida del tiempo de trámites productivos y de construcción.
+    pagina: 11
+  - texto: 'Costo referencial (2027–2031): USD 45–100 millones'
+    pagina: 11
+  - texto: 'Financiamiento: eficiencia municipal, cooperación internacional y alianzas público-privadas reguladas.'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "plazos definidos" y "reducción sostenida" sin cantidad ni trámites específicos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «simplificación y digitalización de trámites» y la «reducción sostenida del tiempo» no especifican
+          cuántos trámites se transformarán ni cuánto disminuirán sus tiempos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo promete una "Simplificación y digitalización de trámites" y "Reducción sostenida del tiempo" sin
+          especificar cuántos trámites ni cuánto tiempo se reducirá.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el período completo "2027–2031" y "plazos definidos" sin fecha concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «con plazos definidos» no proporciona un plazo concreto y «2027–2031» corresponde al período
+          completo de gobierno.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona el período completo "(2027–2031)" y "con plazos definidos" para los trámites, pero no indica
+          cuándo estará cumplida la propuesta.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 45–100 millones" y fuentes como cooperación internacional
+          y alianzas público-privadas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto establece un «costo referencial (2027–2031): USD 45–100 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto incluye el "Costo referencial (2027–2031): USD 45–100 millones" para el eje que abarca
+          la simplificación de trámites.'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites productivos y de construcción son trámites municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «simplificación y digitalización de trámites productivos y de construcción» corresponde a la administración
+          de trámites municipales y a la regulación local de actividades económicas y construcciones.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de "trámites productivos y de construcción" municipales es competencia exclusiva del Distrito
+          Metropolitano.
+- id: cesar-diaz-b08b84c6
+  tema: empleo
+  resumen: Crear un parque tecnológico, puerto seco y zona franca en predios del nuevo Aeropuerto de Quito, gestionados mediante
+    concesión.
+  cita: Creación y desarrollo del parque tecnológico, puerto seco y zona franca, en predios del nuevo Aeropuerto de Quito
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Modelo de gestión mediante concesión para el parque tecnológico, puerto seco y zona franca.
+    pagina: 11
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única con ubicación: parque tecnológico, puerto seco y zona franca "en predios
+          del nuevo Aeropuerto de Quito".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Se identifican obras concretas y su ubicación al proponer un «parque tecnológico, puerto seco y zona
+          franca, en predios del nuevo Aeropuerto de Quito».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'Nombra obras físicas únicas con su ubicación específica: "el parque tecnológico, puerto seco y zona
+          franca, en predios del nuevo Aeropuerto de Quito".'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha, año ni duración alguna en la cita ni en el contexto de la concesión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «creación y desarrollo del parque tecnológico, puerto seco y zona franca» no tiene fecha ni duración
+          de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan alguna fecha o plazo para la creación y desarrollo del proyecto.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto indica un mecanismo identificable: "Modelo de gestión mediante concesión".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «modelo de gestión mediante concesión» identifica un mecanismo de financiamiento para las instalaciones
+          propuestas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto especifica un mecanismo identificable al señalar un "Modelo de gestión mediante concesión".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local, uso del suelo y concesión de infraestructura son funciones del Distrito
+          Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El desarrollo de un «parque tecnológico, puerto seco y zona franca» en predios aeroportuarios corresponde
+          al desarrollo económico y territorial municipal, aunque requiera autorizaciones nacionales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Si bien el Municipio gestiona el desarrollo económico local y predios aeroportuarios, la creación de
+          una "zona franca" depende principalmente de autorizaciones del Gobierno Central.
+- id: cesar-diaz-b6f779b2
+  tema: empleo
+  resumen: Crear un sistema municipal de apoyo al emprendedor con meta anual creciente de negocios acompañados o formalizados.
+  cita: Sistema municipal de apoyo al emprendedor; zona de innovación, logística y comercio en el entorno del nuevo aeropuerto.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Meta anual creciente de emprendedores/negocios acompañados o formalizados.
+    pagina: 11
+  - texto: Conducción desde las secretarías/agencias de Desarrollo Productivo y de Turismo, con ventanillas territorializadas
+      en las megacentralidades.
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'Meta anual creciente' no indica cifra ni porcentaje, y el 'sistema municipal de apoyo' y la 'zona
+          de innovación' no tienen alcance cuantificado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Meta anual creciente de emprendedores/negocios acompañados o formalizados» carece de cifra y la
+          «zona de innovación, logística y comercio» no define una obra física concreta con alcance verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona una "Meta anual creciente de emprendedores/negocios" y una "zona de innovación, logística
+          y comercio en el entorno del nuevo aeropuerto" sin fijar cifras concretas ni el alcance exacto de una obra.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo hay una meta 'anual creciente' sin fecha ni año en que estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Meta anual creciente» indica periodicidad, pero no establece cuándo estará cumplida la
+          propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión "Meta anual creciente" indica solo una periodicidad y no establece una fecha o plazo de
+          cumplimiento para el sistema o la zona propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Conducción desde las secretarías/agencias de Desarrollo Productivo y de Turismo» identifica responsables,
+          pero no un monto, fuente o mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque asigna la conducción a las "secretarías/agencias de Desarrollo Productivo y de Turismo", no
+          señala cuánto costará ni de dónde saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Apoyo al emprendedor y desarrollo productivo conducidos por secretarías municipales son parte del desarrollo
+          económico local.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Sistema municipal de apoyo al emprendedor» y la «zona de innovación, logística y comercio» corresponden
+          al desarrollo económico local y al ordenamiento territorial municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar un "Sistema municipal de apoyo al emprendedor" y regular una "zona de innovación, logística
+          y comercio" corresponde a las funciones municipales de desarrollo económico local y uso del suelo.
+- id: cesar-diaz-bb41acda
+  tema: inclusion
+  resumen: Ampliar y modernizar la atención integral al adulto mayor, incluyendo centros de atención.
+  cita: Ampliación y modernización de la atención integral al adulto mayor.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Ampliación sostenida de la cobertura de atención integral al adulto mayor.
+    pagina: 11
+  - texto: 'Costo referencial (2027–2031): USD 38–76 millones (mercado nacional'
+    pagina: 11
+  - texto: Infraestructura social —centros de atención al adulto mayor y casas de acogida— y gasto operativo plurianual de
+      los programas de atención).
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ampliación sostenida de la cobertura" no dice cuánto ni a cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ampliación y modernización» y la «ampliación sostenida de la cobertura» no indican cuántos adultos
+          mayores o centros se atenderán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea la "Ampliación y modernización de la atención integral al adulto mayor" y una "Ampliación sostenida"
+          sin cuantificar beneficiarios ni número de centros.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece "2027–2031", el período completo de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia «2027–2031» abarca todo el período de gobierno y no fija un momento de cumplimiento dentro
+          de él.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo refiere el horizonte completo "(2027–2031)" y un gasto "plurianual", sin definir cuándo se cumplirá
+          la ampliación.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "USD 38–76 millones" de costo referencial.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto señala un «costo referencial» de «USD 38–76 millones» para infraestructura social y gasto
+          operativo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto especifica cuánto costará mediante un "Costo referencial (2027–2031): USD 38–76 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Centros de atención y casas de acogida son servicios de inclusión municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «atención integral al adulto mayor» mediante «centros de atención» y «casas de acogida» corresponde
+          a las funciones municipales de inclusión y protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La provisión de "centros de atención al adulto mayor y casas de acogida" forma parte de las funciones
+          municipales de inclusión e infraestructura social.
+- id: cesar-diaz-bfa45be3
+  tema: cultura
+  resumen: Crear un distrito de industrias creativas en el Centro Histórico y un programa de patrimonio cultural inmaterial
+    y memoria barrial.
+  cita: Distrito de industrias creativas en el Centro Histórico; programa de patrimonio cultural inmaterial y memoria barrial.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 6. Educación, cultura y deporte
+    pagina: 11
+  - texto: 'Financiamiento: alianzas con universidades y empresa privada, cooperación internacional y recursos municipales.'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra tipos de programa como "Distrito de industrias creativas" y "programa de patrimonio cultural
+          inmaterial" sin cantidad ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Distrito de industrias creativas» y el «programa de patrimonio cultural inmaterial» no fijan cantidades
+          ni identifican una obra física única.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta solo enuncia un "Distrito de industrias creativas en el Centro Histórico" y un "programa
+          de patrimonio cultural inmaterial" sin precisar cantidades, cobertura ni una obra física concreta.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Distrito de industrias creativas en el Centro Histórico» no contiene fecha ni duración
+          de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto incluyen fechas, años o una duración determinada para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona "alianzas con universidades y empresa privada, cooperación internacional y recursos
+          municipales" como fuentes de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «alianzas con universidades y empresa privada, cooperación internacional y recursos municipales»
+          no identifican un monto, una alianza concreta ni una entidad cooperante.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto menciona de forma genérica "alianzas con universidades y empresa privada, cooperación internacional
+          y recursos municipales", sin especificar montos ni fuentes concretas identificables.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cultura, patrimonio y desarrollo económico local son competencias del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «patrimonio cultural inmaterial y memoria barrial» y las «industrias creativas» corresponden a las
+          funciones municipales de cultura, patrimonio y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El fomento de las "industrias creativas", la cultura y el "patrimonio cultural inmaterial y memoria
+          barrial" corresponden a las competencias municipales de cultura, patrimonio y desarrollo económico local.
+- id: cesar-diaz-c07de327
+  tema: cultura
+  resumen: Gestionar la creación de la Universidad Tecnológica para el sur de Quito con aporte municipal a su infraestructura.
+  cita: Creación de la Universidad Tecnológica para el sur de Quito.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Avance de la gestión de la sede de educación superior en el sur.
+    pagina: 11
+  - texto: aporte municipal a infraestructura de la sede de educación superior en gestión conjunta con universidades y el
+      nivel nacional).
+    pagina: 11
+  - texto: 'Costo referencial (2027–2031): USD 35–70 millones'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única con ubicación: "Universidad Tecnológica para el sur de Quito".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Creación de la Universidad Tecnológica para el sur de Quito» identifica una infraestructura educativa
+          única con ubicación territorial.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La propuesta define la creación de un equipamiento único con ubicación determinada al plantear la "Creación
+          de la Universidad Tecnológica para el sur de Quito".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El único dato temporal es el período completo "2027–2031".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El único horizonte indicado es «2027–2031», que corresponde al período completo de gobierno y no distingue
+          cuándo se cumplirá la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El único dato temporal en el contexto es el período completo de gobierno "(2027–2031)", lo cual no
+          precisa cuándo dentro de la administración se cumplirá.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 35–70 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto establece un «Costo referencial (2027–2031): USD 35–70 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto especifica un monto estimado mediante el "Costo referencial (2027–2031): USD 35–70 millones".'
+    competencia_municipal:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La creación de una universidad corresponde al nivel nacional y el municipio solo aporta infraestructura
+          en "gestión conjunta".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Aunque se prevé un «aporte municipal a infraestructura», la «Creación de la Universidad Tecnológica»
+          depende principalmente de las autoridades del sistema de educación superior y no del Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La "Creación de la Universidad Tecnológica" depende principalmente del sistema nacional de educación
+          superior y de la Función Legislativa, como refleja el contexto al indicar una "gestión conjunta con universidades
+          y el nivel nacional".
+- id: cesar-diaz-c685bbe5
+  tema: empleo
+  resumen: Crear una zona de innovación, logística y comercio en el entorno del nuevo aeropuerto, vinculada a empleos jóvenes.
+  cita: zona de innovación, logística y comercio en el entorno del nuevo aeropuerto.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Avance de la zona de innovación aeroportuaria; empleos jóvenes vinculados con meta anual creciente.
+    pagina: 11
+  - texto: Consolidación de la zona de innovación aeroportuaria.
+    pagina: 15
+  - texto: 'Costo referencial (2027–2031): USD 45–100 millones'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La "zona de innovación, logística y comercio" no tiene alcance definido y la meta de empleos es solo
+          "anual creciente" sin cifra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «zona de innovación, logística y comercio en el entorno del nuevo aeropuerto» identifica una intervención
+          física única con ubicación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta nombra una "zona de innovación, logística y comercio" y alude a una "meta anual creciente"
+          de empleos jóvenes sin precisar cifras ni el alcance de una obra física única.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el período completo "2027–2031".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Consolidación de la zona» no tiene fecha y el horizonte «2027–2031» comprende toda la administración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Las referencias a una "meta anual" y al período completo "(2027–2031)" no determinan una fecha o plazo
+          concreto de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 45–100 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto indica un «Costo referencial (2027–2031): USD 45–100 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto incluye una estimación económica explícita al señalar un "Costo referencial (2027–2031):
+          USD 45–100 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local y uso del suelo en el entorno del aeropuerto son competencias del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «zona de innovación, logística y comercio» corresponde al ordenamiento del suelo y al desarrollo
+          económico local que puede impulsar el Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La planificación del uso del suelo y el impulso de una "zona de innovación, logística y comercio" están
+          dentro de las competencias municipales de ordenamiento territorial y desarrollo económico local.
+- id: cesar-diaz-cca68b1c
+  tema: cultura
+  resumen: Crear una red de canchas y espacios deportivos de barrio con prioridad en la periferia y barrios de mayor riesgo.
+  cita: Red de canchas y espacios deportivos de barrio, con prioridad en la periferia.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Cobertura progresiva de canchas y espacios deportivos recuperados, con prioridad en periferia.
+    pagina: 11
+  - texto: Priorización de barrios de mayor riesgo, en coordinación con el Eje de Seguridad.
+    pagina: 11
+  - texto: 'Costo referencial (2027–2031): USD 35–70 millones'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Red de canchas" con "cobertura progresiva" no indica cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «red de canchas y espacios deportivos de barrio» y su «cobertura progresiva» no precisan cuántos
+          espacios se recuperarán ni identifican obras únicas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone una "Red de canchas y espacios deportivos de barrio" con "Cobertura progresiva" sin especificar
+          cuántos espacios se intervendrán ni cuáles serán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo "2027–2031", el período completo de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El intervalo «2027–2031» corresponde al período completo y la «cobertura progresiva» no determina cuándo
+          se cumplirá la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo incluye el período completo "(2027–2031)" y una cobertura "progresiva", sin señalar una fecha
+          de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto da "USD 35–70 millones" de costo referencial.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto incluye un «costo referencial» de «USD 35–70 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto señala explícitamente un "Costo referencial (2027–2031): USD 35–70 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Deporte y espacio público son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La recuperación de «canchas y espacios deportivos de barrio» corresponde a las funciones municipales
+          de deporte y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La recuperación y gestión de "canchas y espacios deportivos de barrio" es competencia municipal en
+          materia de espacio público y deporte.
+- id: cesar-diaz-cda955d0
+  tema: cultura
+  resumen: Elaborar un plan metropolitano de turismo.
+  cita: Plan metropolitano de turismo; modernización de mercados y economía popular y solidaria.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 5. Desarrollo económico, empleo e innovación
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Plan metropolitano de turismo; modernización de mercados" nombra tipos de programa sin cantidad ni
+          mercados específicos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan metropolitano de turismo» y la «modernización de mercados» no indican cantidades, cobertura
+          ni una obra única localizada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La cita se limita a enunciar un "Plan metropolitano de turismo; modernización de mercados y economía
+          popular y solidaria" sin fijar cantidades, ubicaciones ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan metropolitano de turismo» y su contexto no incluyen ninguna referencia temporal de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto y su contexto carecen por completo de fechas o referencias temporales para la ejecución de
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «modernización de mercados y economía popular y solidaria» no menciona costos ni fuentes
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto, presupuesto ni fuente de financiamiento en la cita ni en el contexto.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Turismo, mercados y desarrollo económico son competencias del Distrito.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «turismo», los «mercados» y la «economía popular y solidaria» corresponden a funciones municipales
+          de promoción turística, gestión de mercados y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La elaboración de un "Plan metropolitano de turismo" y la "modernización de mercados y economía popular
+          y solidaria" son competencias exclusivas y funciones propias del Municipio.
+- id: cesar-diaz-d99e15cb
+  tema: cultura
+  resumen: Implementar programas municipales de apoyo escolar y formación para el trabajo territorializados por megacentralidad.
+  cita: • Meta anual creciente de beneficiarios de apoyo escolar y formación para el trabajo.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 6. Educación, cultura y deporte
+    pagina: 11
+  - texto: • Conducción desde las secretarías de Educación, Cultura y Deporte, con oferta territorializada por megacentralidad.
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Meta anual creciente de beneficiarios" no indica ninguna cifra.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Meta anual creciente de beneficiarios» no fija una cantidad, porcentaje o cobertura de personas beneficiadas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque el texto anuncia una «Meta anual creciente de beneficiarios de apoyo escolar y formación para
+          el trabajo», no indica ninguna cifra o porcentaje concreto de beneficiarios.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anual creciente" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Anual» expresa una periodicidad, pero no señala cuándo estará cumplida la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Mencionar una «Meta anual» describe únicamente una periodicidad y no establece una fecha o plazo de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay monto ni fuente en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Conducción desde las secretarías de Educación, Cultura y Deporte» identifica responsables, pero
+          no un monto o fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe mención alguna al costo del programa ni a la fuente de recursos para financiarlo.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Apoyo escolar y formación se ofrecen desde las secretarías municipales de Educación, Cultura y Deporte.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «apoyo escolar y formación para el trabajo» desde las secretarías municipales puede prestarse como
+          servicio complementario de educación y desarrollo local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Ofrecer servicios educativos complementarios y capacitación laboral bajo «Conducción desde las secretarías
+          de Educación, Cultura y Deporte» está dentro de las funciones municipales.
+- id: cesar-diaz-01948a2b
+  tema: transparencia
+  resumen: Establecer veedurías ciudadanas permanentes mediante alianzas con la academia y la sociedad civil.
+  cita: • Alianzas con academia y sociedad civil para veeduría.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: 8. Gobernabilidad, modernización institucional y participación
+    pagina: 13
+  - texto: Presupuestos participativos y veedurías ciudadanas
+    pagina: 19
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Alianzas con academia y sociedad civil para veeduría" no indica cuántas alianzas ni qué resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Alianzas con academia y sociedad civil para veeduría» no especifica cuántas alianzas o veedurías se
+          concretarán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto solo menciona «Alianzas con academia y sociedad civil para veeduría» sin indicar cuántas alianzas
+          o veedurías se conformarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Alianzas con academia y sociedad civil para veeduría» ni su contexto contienen una fecha o duración
+          de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto contienen alguna fecha, año o duración para concretar las alianzas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Alianzas con academia y sociedad civil» no identifican aportes económicos, montos ni un mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto de inversión ni fuente de financiamiento para implementar las «veedurías
+          ciudadanas».
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana, la transparencia y las veedurías son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «Presupuestos participativos y veedurías ciudadanas» forman parte de las funciones municipales
+          de participación y transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Promover mecanismos de participación y control social como «Presupuestos participativos y veedurías
+          ciudadanas» sobre la gestión local está en manos del Municipio.
+- id: cesar-diaz-3d4a8b99
+  tema: transparencia
+  resumen: Establecer presupuestos participativos por megacentralidad, consejos ciudadanos, asambleas locales y silla vacía,
+    con ejecución del 100 % por polo.
+  cita: Presupuestos participativos por megacentralidad; consejos ciudadanos, asambleas locales y silla vacía.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Presupuesto participativo ejecutado al 100 % por polo; cumplimiento creciente de metas de gestión por resultados.
+    pagina: 13
+  - texto: Alianzas con academia y sociedad civil para veeduría.
+    pagina: 13
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "Presupuesto participativo ejecutado al 100 % por polo".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece una cobertura verificable de «Presupuesto participativo ejecutado al 100 % por
+          polo».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto fija un porcentaje verificable de resultado al comprometer un «Presupuesto participativo
+          ejecutado al 100 % por polo».
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay año, fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto participativo ejecutado al 100 % por polo» no señala una fecha ni una duración para alcanzar
+          esa ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica ningún año, fecha o plazo concreto para implementar estas instancias ni alcanzar dicha
+          ejecución.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuestos participativos» identifica el instrumento de participación presupuestaria, pero no precisa
+          un monto ni una fuente o mecanismo para financiar la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombrar los «Presupuestos participativos» alude al mecanismo ciudadano de decisión del gasto, pero
+          no especifica un monto asignado ni la fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Presupuestos participativos, consejos ciudadanos y silla vacía son mecanismos de participación municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «consejos ciudadanos, asambleas locales y silla vacía» son mecanismos comprendidos en las funciones
+          municipales de participación ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar «Presupuestos participativos», «consejos ciudadanos, asambleas locales y silla vacía» es
+          una función directa de participación ciudadana del gobierno municipal.
+- id: cesar-diaz-641ca145
+  tema: inclusion
+  resumen: Implementar un plan de accesibilidad universal y programas municipales de salud preventiva.
+  cita: Plan de accesibilidad universal; programas municipales de salud preventiva.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: incremento sostenido de accesibilidad universal.
+    pagina: 13
+  - texto: 'Costo referencial (2027–2031): USD 38–76 millones (mercado nacional'
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Plan de accesibilidad universal" e "incremento sostenido" no dicen cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan de accesibilidad universal», los «programas municipales de salud preventiva» y el «incremento
+          sostenido» no especifican cantidades ni cobertura medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra planes y programas genéricos con un "incremento sostenido de accesibilidad universal" sin indicar
+          cifras ni obras concretas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el período completo 2027–2031 en el costo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La única referencia temporal, «2027–2031», abarca el período completo de gobierno y no fija un plazo
+          interno de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El único dato temporal es el período completo de gobierno "(2027–2031)", lo que no constituye un plazo
+          específico.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica "Costo referencial (2027–2031): USD 38–76 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'El contexto proporciona un «costo referencial (2027–2031): USD 38–76 millones».'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto señala un monto estimado mediante el "Costo referencial (2027–2031): USD 38–76 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La accesibilidad en espacio público y los programas municipales de salud preventiva son atribuciones
+          municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «accesibilidad universal» y los «programas municipales de salud preventiva» corresponden a funciones
+          locales de inclusión, espacio público y servicios propios de salud.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene competencias sobre espacio público e inclusión para un "Plan de accesibilidad universal"
+          y para "programas municipales de salud preventiva".
+- id: cesar-diaz-9e2ba9db
+  tema: inclusion
+  resumen: Erradicar progresivamente el trabajo infantil y la mendicidad, con reducción anual verificable del trabajo infantil
+    en mercados.
+  cita: Erradicación progresiva del trabajo infantil y la mendicidad
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Reducción anual verificable del trabajo infantil en mercados.
+    pagina: 13
+  - texto: 7. Inclusión social, grupos prioritarios y salud
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Erradicación progresiva" y "reducción anual verificable" no indican porcentaje ni cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «erradicación progresiva» y la «reducción anual verificable del trabajo infantil en mercados» no
+          cuantifican la reducción comprometida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Habla de "Erradicación progresiva" y "Reducción anual verificable" sin precisar en qué porcentaje o
+          cantidad se reducirá el trabajo infantil.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anual" y "progresiva" son vagos y no fijan cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «reducción anual verificable» establece una periodicidad, pero no una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona una periodicidad ("Reducción anual"), pero no establece una fecha ni plazo para concretar
+          la erradicación propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «erradicación progresiva del trabajo infantil y la mendicidad» no incluye costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún costo referencial ni fuente de recursos en la cita ni en el contexto.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Protección de derechos y regulación de mercados son funciones del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La reducción del «trabajo infantil en mercados» corresponde a funciones municipales de protección de
+          derechos, inclusión social y gestión de mercados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La protección de grupos prioritarios y el control del "trabajo infantil en mercados" entran dentro
+          de las funciones municipales de inclusión y gestión de mercados.
+- id: cesar-diaz-d0f9894d
+  tema: transparencia
+  resumen: Crear una plataforma única de trámites en línea, con la mayoría de trámites disponibles en línea y resolubles en
+    la megacentralidad.
+  cita: Plataforma única de trámites en línea; portal de transparencia integral (“cada dólar con nombre y destino”).
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Mayoría de trámites disponibles en línea y resolubles en la megacentralidad .
+    pagina: 13
+  - texto: 'Costo referencial (2027–2031): USD 25–50 millones'
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Plataforma única" y "mayoría de trámites" no precisan cuántos trámites ni cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «plataforma única» y el «portal de transparencia integral» nombran sistemas, mientras que «mayoría
+          de trámites» no precisa una cantidad o porcentaje de cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra sistemas como la "Plataforma única de trámites en línea" y el "portal de transparencia integral"
+          y alude a la "Mayoría de trámites" sin precisar una cantidad o porcentaje exacto.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El único dato temporal es "2027–2031", el período de gobierno completo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El único intervalo señalado, «2027–2031», corresponde al período completo y no distingue cuándo estará
+          cumplida la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El único dato temporal es el período completo de gobierno "(2027–2031)", lo que no constituye un plazo
+          específico de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto da un "costo referencial: USD 25–50 millones".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece un «costo referencial» de «USD 25–50 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto detalla un monto en el "Costo referencial (2027–2031): USD 25–50 millones".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales y la transparencia son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «plataforma única de trámites en línea» y el «portal de transparencia integral» corresponden a la
+          administración y transparencia de los servicios municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar una "Plataforma única de trámites en línea" y un "portal de transparencia integral" sobre
+          recursos municipales es competencia directa del Municipio.
+- id: cesar-diaz-dccb8cdb
+  tema: inclusion
+  resumen: Fortalecer las redes de atención a víctimas de violencia intrafamiliar y de género, incluidas casas de acogida.
+  cita: fortalecimiento de redes de atención a víctimas de violencia intrafamiliar y de género.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Cobertura y calidad crecientes de mujeres atendidas por redes de protección
+    pagina: 13
+  - texto: 'Financiamiento: presupuesto municipal con enfoque de género y ciclo de vida, cooperación y convenios interinstitucionales.'
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "fortalecimiento de redes de atención" y "cobertura y calidad crecientes", sin cantidad ni
+          resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «fortalecimiento de redes» y la «cobertura y calidad crecientes» no especifican cuántas personas
+          serán atendidas ni una cobertura determinada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo plantea el "fortalecimiento de redes de atención" y una "Cobertura y calidad crecientes" sin especificar
+          una cantidad o porcentaje verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «fortalecimiento de redes de atención» no incluye una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan una fecha o plazo para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona "presupuesto municipal con enfoque de género y ciclo de vida, cooperación y convenios
+          interinstitucionales", un mecanismo identificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «presupuesto municipal con enfoque de género y ciclo de vida, cooperación y convenios interinstitucionales»
+          no identifica un monto, un rubro reasignado ni una cooperación o convenio concreto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona de forma genérica "presupuesto municipal con enfoque de género y ciclo de vida, cooperación
+          y convenios interinstitucionales" sin indicar montos ni fuentes específicas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La protección de derechos y la atención a víctimas es función municipal de equidad e inclusión (COOTAD
+          54-55).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «redes de atención a víctimas de violencia intrafamiliar y de género» corresponden a las funciones
+          municipales de inclusión y protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La protección de derechos mediante "redes de atención a víctimas de violencia intrafamiliar y de género"
+          corresponde a las funciones municipales de equidad e inclusión.
+- id: cesar-diaz-dd58f76c
+  tema: transparencia
+  resumen: Territorializar el presupuesto municipal con techos zonales plurianuales.
+  cita: Territorialización del presupuesto con techos zonales plurianuales.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: 8. Gobernabilidad, modernización institucional y participación
+    pagina: 13
+  - texto: Ordenanzas de desconcentración y transparencia, conducidas desde la Alcaldía y la Secretaría General de Planificación.
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Techos zonales plurianuales" no indica cuántas zonas ni qué porcentaje del presupuesto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «territorialización del presupuesto con techos zonales plurianuales» no establece montos, número
+          de zonas ni cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea la "Territorialización del presupuesto con techos zonales" como mecanismo administrativo sin
+          fijar porcentajes, montos ni metas cuantificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El término «plurianuales» no fija una fecha ni una duración para cumplir la territorialización presupuestaria.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El adjetivo "plurianuales" describe los techos presupuestarios pero no fija un plazo o fecha para cumplir
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia al «presupuesto con techos zonales plurianuales» describe una forma de distribución presupuestaria,
+          pero no identifica cuánto costará implementarla ni una fuente específica para hacerlo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque trata sobre el presupuesto municipal, no indica cuánto costará implementar la reforma ni de
+          qué fuente saldrán esos recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El presupuesto municipal y las ordenanzas son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «ordenanzas de desconcentración y transparencia, conducidas desde la Alcaldía y la Secretaría General
+          de Planificación» pertenecen a la organización y gestión presupuestaria municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Aprobar "Ordenanzas de desconcentración" y estructurar el presupuesto municipal son atribuciones propias
+          de la Alcaldía y el Concejo.
+- id: cesar-diaz-5d5a40ed
+  tema: seguridad
+  resumen: Elaborar en los primeros 100 días un catastro y línea base pública y georreferenciada del Sistema Metropolitano
+    de Seguridad, con costo de USD 0,3–0,6 millones.
+  cita: Catastro y línea base del Sistema Metropolitano de Seguridad (homicidios, delitos de alto impacto, cámaras, tiempos
+    de respuesta).
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: 4.2 Agenda de los primeros 100 días
+    pagina: 15
+  - texto: Línea base pública y georreferenciada.
+    pagina: 15
+  - texto: USD 0,3–0,6 millones
+    pagina: 15
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Entrega un producto verificable: "Línea base pública y georreferenciada" del sistema de seguridad
+          con indicadores nombrados.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Catastro y línea base del Sistema Metropolitano de Seguridad» nombra un instrumento sin cuantificar
+          su cobertura ni el resultado que alcanzará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta nombra una herramienta técnica como el "Catastro y línea base del Sistema Metropolitano
+          de Seguridad" sin expresar una cantidad, porcentaje ni obra física medible.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Está en la "Agenda de los primeros 100 días".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta está incluida en la «Agenda de los primeros 100 días».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica claramente el cumplimiento de esta propuesta dentro de la "4.2 Agenda de los primeros
+          100 días".
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica un monto de "USD 0,3–0,6 millones".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta «USD 0,3–0,6 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto asigna un monto específico para esta acción de "USD 0,3–0,6 millones".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un catastro y línea base del sistema metropolitano de seguridad es gestión municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Elaborar una «Línea base pública y georreferenciada» del sistema de seguridad es una actividad municipal
+          de diagnóstico y planificación, aunque incluya datos sobre delitos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Levantar un "Catastro y línea base del Sistema Metropolitano de Seguridad" está al alcance de las funciones
+          municipales de planificación y coordinación de la seguridad ciudadana.
+- id: cesar-diaz-5d40ca80
+  tema: transparencia
+  resumen: Realizar en los primeros 100 días una auditoría de servicios, contratos, empresas públicas y obras paralizadas,
+    con informe público y costo de USD 0,3–0,6 millones.
+  cita: Auditoría de servicios, contratos, empresas públicas y obras paralizadas.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: Informe público inicial.
+    pagina: 17
+  - texto: Alcaldía y empresas públicas metropolitanas.
+    pagina: 17
+  - texto: USD 0,3–0,6 millones
+    pagina: 17
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "Auditoría de servicios, contratos, empresas públicas y obras paralizadas" sin cuantificar cuántos
+          contratos u obras se auditarán, aunque habrá un informe público inicial.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Auditoría de servicios, contratos, empresas públicas y obras paralizadas» no cuantifica los elementos
+          que serán auditados ni delimita su cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se propone una «Auditoría de servicios, contratos, empresas públicas y obras paralizadas» y un «Informe
+          público inicial» sin cuantificar cuántos contratos, empresas u obras serán auditados.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Informe público inicial" no tiene fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Informe público inicial» señala un momento relativo, pero no establece una fecha ni una duración para
+          cumplir la auditoría.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia a un «Informe público inicial» es temporalmente vaga y no fija una fecha o número de
+          días concretos desde el inicio de la gestión.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica un costo de "USD 0,3–0,6 millones".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 0,3–0,6 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto precisa cuánto costará la medida al señalar el monto de «USD 0,3–0,6 millones».
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se audita la "Alcaldía y empresas públicas metropolitanas", que está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La auditoría se refiere a la «Alcaldía y empresas públicas metropolitanas», cuyo seguimiento y transparencia
+          corresponden al ámbito municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Auditar la gestión propia de la «Alcaldía y empresas públicas metropolitanas» está dentro de las atribuciones
+          administrativas del Municipio.
+- id: cesar-diaz-b5fe7a99
+  tema: espacio-publico
+  resumen: Aplicar en los primeros 100 días un plan emergente de mantenimiento vial, iluminación y limpieza en puntos críticos,
+    con costo de USD 2–4 millones.
+  cita: Plan emergente de mantenimiento vial, iluminación y limpieza en puntos críticos.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: Cronograma público y primeras intervenciones.
+    pagina: 17
+  - texto: EPMMOP, EMASEO, Secretaría de Movilidad.
+    pagina: 17
+  - texto: USD 2–4 millones
+    pagina: 17
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'puntos críticos' sin decir cuántos ni cuáles, y 'primeras intervenciones' no es cuantificado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan emergente de mantenimiento vial, iluminación y limpieza en puntos críticos» no cuantifica
+          las intervenciones ni identifica los puntos que cubrirá.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone un "Plan emergente de mantenimiento vial, iluminación y limpieza en puntos críticos" y "primeras
+          intervenciones" sin cuantificar vías, luminarias ni lugares específicos.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'Cronograma público' y 'primeras intervenciones' pero sin fecha o duración concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de un «Cronograma público y primeras intervenciones» no aporta fechas ni una duración concreta
+          para cumplir la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Hablar de un "Plan emergente" y de "primeras intervenciones" es temporalmente vago y no define una
+          fecha ni duración verificable.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica un monto de 'USD 2–4 millones'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 2–4 millones».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto especifica un monto estimado de "USD 2–4 millones" para ejecutar el plan.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Mantenimiento vial, iluminación y limpieza son espacio público a cargo de EPMMOP, EMASEO y la Secretaría
+          de Movilidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «mantenimiento vial, iluminación y limpieza» corresponde a servicios e infraestructura municipales,
+          y el contexto identifica a «EPMMOP, EMASEO, Secretaría de Movilidad» como responsables.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "mantenimiento vial, iluminación y limpieza" ejecutado mediante "EPMMOP, EMASEO, Secretaría de Movilidad"
+          es competencia directa del Municipio.
+- id: cesar-diaz-b775329d
+  tema: transparencia
+  resumen: Lanzar en los primeros 100 días un portal de transparencia integral y un tablero de gestión por resultados, con
+    costo de USD 0,5–1,2 millones.
+  cita: Lanzamiento del portal de transparencia integral y del tablero de gestión por resultados.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: Portal en operación con presupuesto, contratación y obras.
+    pagina: 17
+  - texto: USD 0,5–1,2 millones
+    pagina: 17
+  - texto: Indicadores públicos de los ocho ejes, por secretaría y por territorio.
+    pagina: 19
+  - texto: Mejora sostenida del índice de transparencia y datos abiertos publicados.
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Es un portal único "en operación con presupuesto, contratación y obras" e indicadores públicos de los
+          ocho ejes.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «portal de transparencia integral» y el «tablero de gestión por resultados» nombran herramientas
+          sin cuantificar su cobertura, mientras «los ocho ejes» cuenta partes del propio plan.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El «Lanzamiento del portal de transparencia integral y del tablero de gestión por resultados» solo
+          nombra herramientas informáticas y cuenta partes del propio plan como «los ocho ejes» sin fijar una meta cuantificable
+          de resultado.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Lanzamiento" no tiene fecha ni año.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Lanzamiento» y «Portal en operación» no están asociados a una fecha ni a una duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala en qué fecha, año o plazo desde el inicio de la administración estará «en operación» el
+          portal.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "USD 0,5–1,2 millones".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto indica un monto de «USD 0,5–1,2 millones» para la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto detalla cuánto costará la implementación mediante el rango de «USD 0,5–1,2 millones».
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia y los datos abiertos municipales son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar «presupuesto, contratación y obras» mediante un portal corresponde a las funciones municipales
+          de transparencia y rendición de cuentas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Publicar información municipal en un «portal de transparencia integral» con datos de «presupuesto,
+          contratación y obras» depende directamente del Municipio.
+- id: cesar-diaz-130f044a
+  tema: transparencia
+  resumen: Efectuar auditorías públicas periódicas de procesos críticos, en especial sobre el uso de la tasa de seguridad,
+    con 100 % auditados y publicados.
+  cita: Origen y destino de los recursos, de manera destacada la tasa de seguridad.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 100 % de procesos críticos auditados y publicados.
+    pagina: 19
+  - texto: Auditorías públicas finales.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "100 % de procesos críticos auditados y publicados".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece una cobertura verificable de «100 % de procesos críticos auditados y publicados».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto fija un porcentaje verificable al señalar el "100 % de procesos críticos auditados y publicados".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Auditorías públicas finales" no ofrece fecha o duración concreta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «auditorías públicas finales» no indica una fecha ni una etapa con duración definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia a "Auditorías públicas finales" es vaga y no establece una fecha o plazo concreto de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente; solo refiere transparentar el origen de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «tasa de seguridad» aparece como objeto de transparencia sobre el «origen y destino de los recursos»,
+          no como fuente para financiar las auditorías o su publicación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque nombra la "tasa de seguridad" como objeto de rendición de cuentas, no indica cuánto costará
+          ni cómo se financiará esta medida de transparencia.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y rendición de cuentas municipal están en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar el «origen y destino de los recursos» y los procesos «auditados y publicados» corresponde
+          a la transparencia de la gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Transparentar el "Origen y destino de los recursos, de manera destacada la tasa de seguridad" mediante
+          auditorías municipales está en manos del Municipio.
+- id: cesar-diaz-1b2ceb12
+  tema: transparencia
+  resumen: Realizar una rendición de cuentas anual en audiencia pública ante el CPCCS y presentar informes semestrales por
+    eje ante el Concejo Metropolitano.
+  cita: Balance de gestión de los ocho ejes, con informes territorializados por megacentralidad.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: Audiencia pública ante el CPCCS y documentos abiertos.
+    pagina: 19
+  - texto: 2 informes por eje al año (16 informes anuales).
+    pagina: 19
+  - texto: Audiencia de mitad de período.
+    pagina: 15
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cuantifica "2 informes por eje al año (16 informes anuales)" y balance de los ocho ejes.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto cuantifica el producto mediante «2 informes por eje al año (16 informes anuales)».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto cuantifica el resultado verificable al comprometer "2 informes por eje al año (16 informes
+          anuales)" junto con una "Audiencia pública".
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija una "Audiencia de mitad de período" como hito dentro del mandato.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «16 informes anuales» expresan periodicidad y la «Audiencia de mitad de período» no está vinculada
+          a una fecha o duración explícita.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La entrega de "16 informes anuales" expresa una periodicidad y la "Audiencia de mitad de período" es
+          parcial y sin fecha exacta, por lo que no se fija cuándo se cumplirá integralmente la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Audiencia pública ante el CPCCS y documentos abiertos» no incluye un monto ni un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican cuánto costará elaborar los informes y audiencias ni con qué partida
+          se financiarán.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Rendición de cuentas y transparencia son responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Balance de gestión» y los «informes territorializados» corresponden a las obligaciones municipales
+          de transparencia y rendición de cuentas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Rendir un "Balance de gestión" con "documentos abiertos" y audiencias públicas depende directamente
+          de las funciones municipales de transparencia y participación ciudadana.
+- id: cesar-diaz-52000b79
+  tema: transparencia
+  resumen: Publicar datos abiertos de gestión de forma permanente en un portal en formatos reutilizables.
+  cita: Información en formatos reutilizables para academia, medios y ciudadanía.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: Conjuntos de datos publicados y actualizados.
+    pagina: 19
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Conjuntos de datos publicados y actualizados'' no dice cuántos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Información en formatos reutilizables» y los «Conjuntos de datos publicados y actualizados» no
+          precisan cuántos conjuntos se publicarán ni su cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ofrece "Información en formatos reutilizables" y "Conjuntos de datos publicados y actualizados" sin
+          precisar cuántos conjuntos o qué información específica se publicará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha, año ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Conjuntos de datos publicados y actualizados» no establece una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta de publicar "Conjuntos de datos publicados y actualizados" carece por completo de fechas,
+          hitos o plazos de ejecución.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La publicación de «Información en formatos reutilizables para academia, medios y ciudadanía» no menciona
+          costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica ningún costo ni fuente de financiamiento para proveer "Información en formatos reutilizables
+          para academia, medios y ciudadanía".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar información municipal en datos abiertos es parte de la transparencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Ofrecer «Información en formatos reutilizables para academia, medios y ciudadanía» forma parte de las
+          funciones municipales de transparencia y acceso a la información.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Publicar "Información en formatos reutilizables para academia, medios y ciudadanía" sobre la gestión
+          local forma parte de las funciones municipales de transparencia.
