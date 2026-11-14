@@ -72,6 +72,7 @@
 			<li><span class="text-acento">→</span> Si marcaste “Ni idea”: cuenta si tiene propuestas sobre el tema (hasta {TOPE_COBERTURA}; más cantidad no suma).</li>
 			<li><span class="text-acento">→</span> <span><strong class="text-texto">La concreción multiplica:</strong> proponer lo que quieres sin ningún detalle vale como máximo el {PISO_CONCRECION * 100}%.</span></li>
 			<li><span class="text-acento">→</span> Las propuestas fuera de la competencia municipal no cuentan.</li>
+			<li><span class="text-acento">→</span> Un monto o una meta de todo un eje o programa <strong class="text-texto">no cuenta</strong> para cada propuesta de ese eje: tiene que ser de esa propuesta.</li>
 			<li><span class="text-acento">→</span> Si dos candidatos están a menos de {UMBRAL_EMPATE} puntos, es empate técnico.</li>
 		</ul>
 	</section>
@@ -79,7 +80,9 @@
 	<section class="mt-14 rounded-3xl bg-alerta/[0.07] p-6 ring-1 ring-alerta/15">
 		<h2 class="flex items-center gap-2 text-xl font-extrabold text-alerta"><Icono nombre="info" tipo="ui" tam={22} /> Límites</h2>
 		<p class="mt-2 text-texto-2">
-			Un plan de trabajo no garantiza lo que hará un candidato, y la concreción no mide si una idea es buena. Úsalo como
+			Un plan de trabajo no garantiza lo que hará un candidato, y la concreción no mide si una idea es buena
+			<strong class="text-texto">ni si es viable</strong>: una obra enorme con monto, fecha y fuente puntúa como concreta aunque sea
+			difícil de cumplir. Por eso mostramos las cifras tal como las escribió cada candidato, para que tú las juzgues. Úsalo como
 			punto de partida: lee las propuestas, revisa las citas y contrasta con otras fuentes.
 		</p>
 	</section>

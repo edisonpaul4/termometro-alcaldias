@@ -1,4 +1,4 @@
-# Rúbrica del Termómetro de concreción · v3
+# Rúbrica del Termómetro de concreción · v4
 
 Esta rúbrica la aplican **por separado** tres jurados de IA de empresas distintas a **cada propuesta**.
 Los jurados no ven el nombre del candidato ni de su partido, ni el resumen que muestra la web:
@@ -17,7 +17,15 @@ Evalúa solo si está formulada de manera **concreta y verificable**, y si **le 
 Cada criterio es **Sí / No**. Ante la duda, **No**: la carga de la concreción está en quien propone.
 Cuenta lo que dicen la cita y su contexto, no lo que "probablemente" quiso decir. Un dato del contexto
 (una meta, un plazo o un monto en la fila de una tabla o en el título de una fase) vale igual que si
-estuviera en la cita, siempre que se refiera claramente a esa propuesta.
+estuviera en la cita, **solo si es de esa propuesta en particular**.
+
+**Los datos de conjunto no cuentan para cada propuesta.** Un monto, una meta o un horizonte que se
+refieren a todo un eje, programa, área o plan, y que cubren varias propuestas a la vez, no valen como
+meta, plazo ni financiamiento de cada una de ellas. Ejemplos que **no** cuentan:
+- "Eje Seguridad. Costo referencial 2027–2031: USD 60–120 millones" → No en financiamiento para cada propuesta del eje.
+- "Financiamiento del eje: presupuesto municipal, tasa de seguridad y cooperación" → No, salvo que diga qué propuesta paga cuál fuente.
+- "Meta del eje: reducir los homicidios a un dígito" → No en meta para cada propuesta del eje.
+Sí cuentan si el plan los asigna a esa propuesta: "Sala de Comando: USD 15 millones, crédito CAF".
 
 ### Meta medible: ¿dice cuánto o qué resultado verificable se logrará?
 
