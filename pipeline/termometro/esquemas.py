@@ -41,6 +41,18 @@ class VotoRubrica(BaseModel):
     competencia_municipal: VotoCriterio
 
 
+class EvaluacionPropuesta(BaseModel):
+    numero: int
+    meta: VotoCriterio
+    plazo: VotoCriterio
+    financiamiento: VotoCriterio
+    competencia_municipal: VotoCriterio
+
+
+class VotosLote(BaseModel):
+    evaluaciones: list[EvaluacionPropuesta]
+
+
 class EnfoquePropuesto(BaseModel):
     id: str = Field(description="slug en minúsculas con guiones")
     nombre: str = Field(description="Máx. 4 palabras")

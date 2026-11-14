@@ -36,6 +36,7 @@ def _leer_env(ruta: Path) -> dict[str, str]:
 class Config:
     modo: str  # "mock" | "real"
     modelo_anthropic: str
+    modelo_jurado_anthropic: str
     modelo_openai: str
     modelo_gemini: str
     max_usd: float
@@ -51,7 +52,7 @@ class Config:
         return bool(self._claves.get(nombre))
 
     def __repr__(self) -> str:  # jamás exponer claves
-        return f"Config(modo={self.modo!r}, anthropic={self.modelo_anthropic!r}, openai={self.modelo_openai!r}, gemini={self.modelo_gemini!r}, max_usd={self.max_usd})"
+        return f"Config(modo={self.modo!r}, anthropic={self.modelo_anthropic!r}, jurado_anthropic={self.modelo_jurado_anthropic!r}, openai={self.modelo_openai!r}, gemini={self.modelo_gemini!r}, max_usd={self.max_usd})"
 
 
 @cache
@@ -63,6 +64,7 @@ def config() -> Config:
     return Config(
         modo=modo,
         modelo_anthropic=v.get("MODELO_ANTHROPIC", "claude-opus-5-5"),
+        modelo_jurado_anthropic=v.get("MODELO_JURADO_ANTHROPIC", "claude-sonnet-5-5"),
         modelo_openai=v.get("MODELO_OPENAI", "gpt-6.1-sol"),
         modelo_gemini=v.get("MODELO_GEMINI", "gemini-4-carbon"),
         max_usd=float(v.get("MAX_USD", "15")),

@@ -32,6 +32,7 @@ from .esquemas import (
     ResultadoDocumento,
     Transcripcion,
     VotoRubrica,
+    VotosLote,
 )
 from .llm import Equipo, PresupuestoAgotado, ProveedorIA, Solicitud, cargar_prompt, equipo, llamar
 from .modelos import Calificacion, Candidato, Criterio, Enfoque, Enfoques, Propuesta, Rubrica, Tema, VotoJurado
@@ -178,26 +179,74 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
 # ─── [4] Jurado ─────────────────────────────────────────────────────────────
 
 
-def votar(pv: PropuestaVerificada, jurado: list[ProveedorIA], terminos: list[str], cache: Cache, rep: Reporte) -> dict[str, list[VotoJurado]]:
-    p = cargar_prompt("jurado")
-    resumen, cita = anonimizar(pv.resumen, terminos), anonimizar(pv.cita, terminos)
-    usuario = p.render(TEMA=pv.tema, RESUMEN=resumen, CITA=cita)
-    entrada = huella([pv.tema, resumen, cita])
-    por_criterio: dict[str, list[VotoJurado]] = {k: [] for k in CRITERIOS}
+TAM_LOTE = 10
+
+
+def juzgar(todas: list[PropuestaVerificada], jurado: list[ProveedorIA], terminos: dict[str, list[str]], cache: Cache,
+           rep: Reporte, paralelo: int) -> dict[str, dict[str, list[VotoJurado]]]:
+    """[4] Jurado a ciegas en LOTES (opción A): cada llamada evalúa hasta 10 propuestas, numeradas 1..10,
+    mezcladas entre candidaturas y anonimizadas. El resultado se cachea POR PROPUESTA, así que el
+    pipeline sigue siendo incremental: solo se juzga lo que no tiene voto en caché."""
+    p = cargar_prompt("jurado_lote")
+    anon = {}
+    for pv in todas:
+        r, c = anonimizar(pv.resumen, terminos[pv.candidato]), anonimizar(pv.cita, terminos[pv.candidato])
+        anon[pv.id] = (pv.tema, r, c, huella([pv.tema, r, c]))
+
+    votos: dict[str, dict[str, VotoRubrica | None]] = {pv.id: {} for pv in todas}
+    tareas = []
     for j in jurado:
-        sol = Solicitud("jurado", "", usuario, VotoRubrica, extra={"cita": cita, "tema": pv.tema})
+        faltan = []
+        for pv in todas:
+            v = cache.leer("jurado", p.version, j.modelo, anon[pv.id][3], VotoRubrica)
+            if v is not None:
+                votos[pv.id][j.modelo] = v
+            else:
+                faltan.append(pv.id)
+        faltan.sort(key=lambda pid: anon[pid][3])  # orden pseudoaleatorio estable: mezcla candidaturas
+        tareas += [(j, faltan[k : k + TAM_LOTE]) for k in range(0, len(faltan), TAM_LOTE)]
+
+    def ejecutar_lote(tarea):
+        j, ids = tarea
+        bloques = [f"### Propuesta {n}\nTema: {anon[pid][0]}\nResumen: {anon[pid][1]}\nCita textual del plan: \"{anon[pid][2]}\""
+                   for n, pid in enumerate(ids, start=1)]
+        sol = Solicitud("jurado_lote", "", p.render(PROPUESTAS="\n\n".join(bloques)), VotosLote,
+                        extra={"citas": [anon[pid][2] for pid in ids]})
         try:
-            vr = cache.obtener("jurado", p.version, j.modelo, entrada, VotoRubrica, lambda j=j, sol=sol: llamar(j, sol, VotoRubrica))
-            for k in CRITERIOS:
-                vc = getattr(vr, k)
-                por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=vc.valor, justificacion=vc.justificacion))
-        except RuntimeError as e:  # jurado caído: voto nulo, NO se cachea (se reintenta en la próxima corrida)
+            lote = llamar(j, sol, VotosLote)
+        except RuntimeError as e:
             if isinstance(e, PresupuestoAgotado):
-                raise  # el tope de gasto detiene TODO; no es un "jurado caído"
-            rep.errores.append(f"jurado {j.modelo} en {pv.id}: {e}")
+                raise
+            rep.errores.append(f"jurado {j.modelo}: lote de {len(ids)} falló: {str(e)[:200]}")
+            return
+        por_num = {ev.numero: ev for ev in lote.evaluaciones}
+        omitidas = [pid for n, pid in enumerate(ids, start=1) if n not in por_num]
+        if omitidas and len(ids) > 1:  # reintento solo con las omitidas (lote más chico)
+            ejecutar_lote((j, omitidas))
+        for n, pid in enumerate(ids, start=1):
+            ev = por_num.get(n)
+            if ev is None:
+                if len(ids) == 1:  # ni siquiera sola: voto nulo, se reintenta en la próxima corrida
+                    rep.errores.append(f"jurado {j.modelo}: omitió {pid}")
+                continue
+            vr = VotoRubrica(**{k: getattr(ev, k) for k in CRITERIOS})
+            cache.guardar("jurado", p.version, j.modelo, anon[pid][3], vr)
+            votos[pid][j.modelo] = vr
+
+    with ThreadPoolExecutor(max_workers=paralelo) as ex:
+        list(ex.map(ejecutar_lote, tareas))
+
+    salida: dict[str, dict[str, list[VotoJurado]]] = {}
+    for pv in todas:
+        por_criterio: dict[str, list[VotoJurado]] = {k: [] for k in CRITERIOS}
+        for j in jurado:
+            vr = votos[pv.id].get(j.modelo)
             for k in CRITERIOS:
-                por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=None, justificacion=None))
-    return por_criterio
+                vc = getattr(vr, k) if vr else None
+                por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo,
+                                                  valor=vc.valor if vc else None, justificacion=vc.justificacion if vc else None))
+        salida[pv.id] = por_criterio
+    return salida
 
 
 # ─── [6] Enfoques ───────────────────────────────────────────────────────────
@@ -268,8 +317,7 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
 
     # [4] + [5]
     terminos = {c.id: terminos_identificables(c) for c in dc.candidatos}
-    with ThreadPoolExecutor(max_workers=8 if cfg.modo == "real" else 1) as ex:
-        votos = dict(zip([pv.id for pv in todas], ex.map(lambda pv: votar(pv, eq.jurado, terminos[pv.candidato], cache, rep), todas)))
+    votos = juzgar(todas, eq.jurado, terminos, cache, rep, paralelo=8 if cfg.modo == "real" else 1)
     rubricas: dict[str, Rubrica] = {}
     for pv in todas:
         cal: dict[str, Calificacion] = {}

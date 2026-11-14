@@ -23,6 +23,8 @@ from .esquemas import (
     Transcripcion,
     VotoCriterio,
     VotoRubrica,
+    VotosLote,
+    EvaluacionPropuesta,
 )
 from .llm import Solicitud
 from .modelos import Proveedor
@@ -129,6 +131,16 @@ class MockIA:
                 raise RuntimeError("mock: respuesta inválida simulada")
             votos[crit] = VotoCriterio(valor=(not v) if r < 0.12 else v, justificacion=f"[MOCK] {'Sí' if v else 'No'} según heurística.")
         return VotoRubrica(**votos)
+
+    def _jurado_lote(self, sol: Solicitud) -> VotosLote:
+        evals = []
+        for n, cita in enumerate(sol.extra["citas"], start=1):
+            try:
+                vr = self._jurado(Solicitud("jurado", "", "", VotoRubrica, extra={"cita": cita}))
+            except RuntimeError:
+                continue  # el mock "olvida" esta propuesta: se reintenta en la próxima corrida
+            evals.append(EvaluacionPropuesta(numero=n, **vr.model_dump()))
+        return VotosLote(evaluaciones=evals)
 
     # [6] enfoques: catálogo fijo por tema, asignación por palabras
     def _enfoques(self, sol: Solicitud) -> Agrupacion:

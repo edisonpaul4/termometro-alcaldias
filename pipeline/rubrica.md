@@ -17,7 +17,9 @@ Solo cuenta lo que dice el texto citado y su contexto inmediato en el plan, no l
 **¿La propuesta dice cuánto o qué resultado verificable se logrará?**
 
 - **Sí** si dice **cuánto** (una cantidad, porcentaje o cobertura: "500 luminarias", "el 100% de la parroquia", "todas las escuelas municipales")
-  o si nombra **una obra única e identificable** (con lugar o nombre propio: "el nuevo mercado de Calderón", "la extensión del Metro hasta Carapungo").
+  o si nombra **una obra física única con su ubicación o alcance** ("el nuevo mercado de Calderón", "la extensión del Metro hasta Carapungo").
+  Un nombre propio de programa, sistema o trámite no basta ("Expediente Único de Edificación", "Plan Quito Seguro"), ni una obra
+  sin alcance ("la extensión del Metro", sin decir hasta dónde). Tampoco "todos los X" si no se sabe cuántos son ni cuándo se cubren.
 - **No** si solo nombra un **tipo** de cosa o de programa sin decir cuánto ni dónde ("semaforización adaptativa", "sensores de alerta temprana",
   "un programa de emprendimiento"), aunque suene técnico o específico. Tampoco si solo describe una intención o usa un verbo genérico
   ("mejorar", "fortalecer", "impulsar", "promover").

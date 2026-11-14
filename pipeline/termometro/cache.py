@@ -77,6 +77,21 @@ class Cache:
     def _ruta(self, paso: str, clave: str) -> Path:
         return self.dir / paso / clave[:2] / f"{clave}.json"
 
+    def leer(self, paso: str, version: str, modelo: str, entrada: str, tipo: type[M]) -> M | None:
+        ruta = self._ruta(paso, self.clave(paso, version, modelo, entrada))
+        if ruta.exists():
+            self.stats.registrar(paso, True)
+            return tipo.model_validate_json(ruta.read_text(encoding="utf-8"))
+        return None
+
+    def guardar(self, paso: str, version: str, modelo: str, entrada: str, valor: BaseModel) -> None:
+        ruta = self._ruta(paso, self.clave(paso, version, modelo, entrada))
+        ruta.parent.mkdir(parents=True, exist_ok=True)
+        tmp = ruta.with_suffix(".tmp")
+        tmp.write_text(valor.model_dump_json(), encoding="utf-8")
+        tmp.replace(ruta)
+        self.stats.registrar(paso, False)
+
     def obtener(self, paso: str, version: str, modelo: str, entrada: str, tipo: type[M], calcular: Callable[[], M]) -> M:
         clave = self.clave(paso, version, modelo, entrada)
         ruta = self._ruta(paso, clave)

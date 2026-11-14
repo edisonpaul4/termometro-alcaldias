@@ -119,6 +119,7 @@ def llamar(prov: ProveedorIA, sol: Solicitud, tipo: type[M], intentos: int = 3) 
 # Gemini 4 Carbon duplica su precio el 1 dic 2026. Los tokens de razonamiento se cobran como salida.
 PRECIOS = {
     "claude-opus-5-5": (4.00, 20.00),
+    "claude-sonnet-5-5": (2.00, 10.00),
     "gpt-6.1-sol": (2.00, 10.00),
     "gemini-4-carbon": (2.00, 10.00),
 }
@@ -300,8 +301,11 @@ def equipo() -> Equipo:
         from .mock_llm import MockIA
 
         a, o, g = (MockIA(Proveedor.mock, f"mock-{n}") for n in ("anthropic", "openai", "google"))
+        aj = a
     else:
         a, o, g = AnthropicIA(cfg.modelo_anthropic), OpenAIIA(cfg.modelo_openai), GoogleIA(cfg.modelo_gemini)
+        # Jurado de Claude con un modelo más económico (opción C); el extractor sigue en Opus
+        aj = a if cfg.modelo_jurado_anthropic == cfg.modelo_anthropic else AnthropicIA(cfg.modelo_jurado_anthropic)
     return Equipo(
-        extractor=a, transcriptor=g, cobertura=g, jurado=[a, o, g], enfoques_propone=o, enfoques_valida=a, neutralidad=o
+        extractor=a, transcriptor=g, cobertura=g, jurado=[aj, o, g], enfoques_propone=o, enfoques_valida=a, neutralidad=o
     )
