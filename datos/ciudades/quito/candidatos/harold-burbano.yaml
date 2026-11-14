@@ -36,6 +36,9 @@ propuestas:
     pagina: 5
   - texto: Aumento anual
     pagina: 5
+  enfoques:
+  - seguridad-entornos-seguros
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -121,6 +124,8 @@ propuestas:
     pagina: 4
   - texto: Parques y entornos escolares recuperados
     pagina: 5
+  enfoques:
+  - seguridad-entornos-seguros
   rubrica:
     meta:
       valor: false
@@ -204,6 +209,8 @@ propuestas:
   contexto:
   - texto: Agentes metropolitanos por territorio
     pagina: 4
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -289,6 +296,10 @@ propuestas:
     pagina: 5
   - texto: Tiempo municipal de respuesta a incidentes y riesgos
     pagina: 5
+  enfoques:
+  - riesgos-monitoreo-y-alertas
+  - riesgos-preparacion-comunitaria
+  - riesgos-respuesta-a-emergencias
   rubrica:
     meta:
       valor: false
@@ -371,6 +382,9 @@ propuestas:
   contexto:
   - texto: Quito se cuida
     pagina: 5
+  enfoques:
+  - seguridad-prevencion-comunitaria
+  - seguridad-entornos-seguros
   rubrica:
     meta:
       valor: false
@@ -448,6 +462,8 @@ propuestas:
   cita: Mapa único de incidentes, riesgos, iluminación, cámaras y capacidad operativa.
   pagina: 5
   cita_verificada: true
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -530,6 +546,8 @@ propuestas:
     pagina: 5
   - texto: Mejora verificable
     pagina: 5
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -614,6 +632,8 @@ propuestas:
   contexto:
   - texto: Mecanismos de implementación
     pagina: 5
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -700,6 +720,8 @@ propuestas:
     pagina: 5
   - texto: Aumento sostenido
     pagina: 5
+  enfoques:
+  - seguridad-entornos-seguros
   rubrica:
     meta:
       valor: false
@@ -778,6 +800,8 @@ propuestas:
   cita: Protocolos específicos para actuaciones en mercados, transporte, eventos masivos, parques y patrimonio.
   pagina: 5
   cita_verificada: true
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -863,6 +887,8 @@ propuestas:
   contexto:
   - texto: Gobierno Inteligente aplicado
     pagina: 5
+  enfoques:
+  - seguridad-vigilancia-y-alertas
   rubrica:
     meta:
       valor: false
@@ -942,6 +968,8 @@ propuestas:
   cita: Programa plurianual de mantenimiento vial coordinado con EPMAPS, EPMMOP y administraciones zonales.
   pagina: 6
   cita_verificada: true
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -1024,6 +1052,8 @@ propuestas:
   contexto:
   - texto: Un solo viaje, una sola información
     pagina: 6
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1105,6 +1135,9 @@ propuestas:
   contexto:
   - texto: Conexiones metropolitanas
     pagina: 6
+  enfoques:
+  - movilidad-gestion-transito
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1188,6 +1221,8 @@ propuestas:
     pagina: 6
   - texto: Accesibilidad en paradas y estaciones
     pagina: 7
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: false
@@ -1272,6 +1307,8 @@ propuestas:
     pagina: 6
   - texto: Kilómetros de vías con mantenimiento preventivo
     pagina: 7
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -1351,6 +1388,8 @@ propuestas:
   cita: Autoridad técnica de integración operativa con metas y cronograma público.
   pagina: 6
   cita_verificada: true
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1438,6 +1477,8 @@ propuestas:
     pagina: 6
   - texto: Viajes con integración física, tecnológica o tarifaria
     pagina: 7
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1521,6 +1562,8 @@ propuestas:
     pagina: 6
   - texto: Siniestros graves y muertes viales
     pagina: 7
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: false
@@ -1603,6 +1646,8 @@ propuestas:
   contexto:
   - texto: Regularidad y cumplimiento de frecuencias
     pagina: 7
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1684,6 +1729,8 @@ propuestas:
   contexto:
   - texto: Tiempo promedio de viaje en corredores priorizados
     pagina: 7
+  enfoques:
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -1769,6 +1816,8 @@ propuestas:
     pagina: 7
   - texto: Barrios con intervención integral
     pagina: 8
+  enfoques:
+  - vivienda-legalizar-mejorar-barrios
   rubrica:
     meta:
       valor: false
@@ -1852,6 +1901,9 @@ propuestas:
   contexto:
   - texto: Gobierno Inteligente aplicado
     pagina: 7
+  enfoques:
+  - movilidad-gestion-transito
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1932,6 +1984,9 @@ propuestas:
     y financiamiento.
   pagina: 7
   cita_verificada: true
+  enfoques:
+  - movilidad-obras-viales
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -2016,6 +2071,8 @@ propuestas:
     pagina: 8
   - texto: Activos con mantenimiento preventivo vigente
     pagina: 8
+  enfoques:
+  - espacio-publico-priorizar-mantenimiento
   rubrica:
     meta:
       valor: false
@@ -2098,6 +2155,8 @@ propuestas:
     pagina: 7
   - texto: Mecanismos de implementación
     pagina: 8
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -2181,6 +2240,8 @@ propuestas:
     pagina: 8
   - texto: Ejecución física y presupuestaria de la cartera priorizada
     pagina: 8
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -2265,6 +2326,8 @@ propuestas:
   contexto:
   - texto: Centralidades que acercan
     pagina: 8
+  enfoques:
+  - vivienda-ordenar-crecimiento
   rubrica:
     meta:
       valor: false
@@ -2349,6 +2412,9 @@ propuestas:
     pagina: 8
   - texto: Cobertura de agua, alcantarillado y drenaje
     pagina: 8
+  enfoques:
+  - agua-servicios-ampliar-cobertura
+  - agua-servicios-mantener-sistemas
   rubrica:
     meta:
       valor: false
@@ -2427,6 +2493,8 @@ propuestas:
   cita: Coordinación con GAD parroquiales, Prefectura y Gobierno Nacional cuando corresponda.
   pagina: 8
   cita_verificada: true
+  enfoques:
+  - rural-gestion-parroquial
   rubrica:
     meta:
       valor: false
@@ -2510,6 +2578,8 @@ propuestas:
     pagina: 8
   - texto: Reducción
     pagina: 8
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -2594,6 +2664,9 @@ propuestas:
   - texto: El tablero impedirá que una obra se declare terminada si todavía quedan servicios, acabados o condiciones de seguridad
       pendientes.
     pagina: 8
+  enfoques:
+  - transparencia-informacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -2676,6 +2749,8 @@ propuestas:
   contexto:
   - texto: Patrimonio vivo
     pagina: 8
+  enfoques:
+  - cultura-recuperar-patrimonio
   rubrica:
     meta:
       valor: false
@@ -2757,6 +2832,9 @@ propuestas:
   contexto:
   - texto: Quito rural productivo y conectado
     pagina: 8
+  enfoques:
+  - rural-vias-y-servicios
+  - rural-economia-productiva
   rubrica:
     meta:
       valor: false
@@ -2842,6 +2920,8 @@ propuestas:
     pagina: 8
   - texto: Población expuesta a riesgos mitigables
     pagina: 8
+  enfoques:
+  - riesgos-obras-y-recuperacion
   rubrica:
     meta:
       valor: false
@@ -2921,6 +3001,9 @@ propuestas:
   cita: Contratos con hitos verificables, control georreferenciado y publicación de avances.
   pagina: 8
   cita_verificada: true
+  enfoques:
+  - transparencia-control
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3000,6 +3083,8 @@ propuestas:
   contexto:
   - texto: Trámites y requisitos eliminados o interoperables
     pagina: 10
+  enfoques:
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -3083,6 +3168,8 @@ propuestas:
     pagina: 9
   - texto: Tiempo promedio de habilitación de actividades
     pagina: 10
+  enfoques:
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -3163,6 +3250,9 @@ propuestas:
   cita: Acuerdos sectoriales con gremios, academia y empresas para resolver barreras concretas.
   pagina: 9
   cita_verificada: true
+  enfoques:
+  - empleo-inversion-e-innovacion
+  - empleo-apoyo-a-negocios
   rubrica:
     meta:
       valor: false
@@ -3240,6 +3330,8 @@ propuestas:
   cita: Agenda anual de eventos y promoción de Quito como destino de inversión, turismo y conocimiento.
   pagina: 9
   cita_verificada: true
+  enfoques:
+  - cultura-turismo-eventos
   rubrica:
     meta:
       valor: false
@@ -3323,6 +3415,9 @@ propuestas:
     pagina: 9
   - texto: Negocios acompañados que mantienen formalidad
     pagina: 10
+  enfoques:
+  - empleo-tramites-y-formalizacion
+  - empleo-apoyo-a-negocios
   rubrica:
     meta:
       valor: false
@@ -3406,6 +3501,8 @@ propuestas:
     pagina: 9
   - texto: Personas vinculadas a empleo o prácticas mediante alianzas
     pagina: 10
+  enfoques:
+  - empleo-formacion-y-vacantes
   rubrica:
     meta:
       valor: false
@@ -3485,6 +3582,9 @@ propuestas:
   cita: Inspecciones coordinadas y basadas en riesgo, con trazabilidad y control anticorrupción.
   pagina: 9
   cita_verificada: true
+  enfoques:
+  - transparencia-control
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3565,6 +3665,8 @@ propuestas:
   contexto:
   - texto: Comercio con dignidad
     pagina: 9
+  enfoques:
+  - espacio-publico-ordenar-comercio
   rubrica:
     meta:
       valor: false
@@ -3649,6 +3751,8 @@ propuestas:
     pagina: 9
   - texto: Mercados con estándares integrales mejorados
     pagina: 10
+  enfoques:
+  - espacio-publico-modernizar-mercados
   rubrica:
     meta:
       valor: false
@@ -3732,6 +3836,8 @@ propuestas:
   contexto:
   - texto: Economía rural metropolitana
     pagina: 9
+  enfoques:
+  - rural-economia-productiva
   rubrica:
     meta:
       valor: false
@@ -3817,6 +3923,8 @@ propuestas:
     pagina: 9
   - texto: Inversión facilitada compatible con planificación
     pagina: 10
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -3894,6 +4002,8 @@ propuestas:
   cita: Uso estratégico de compras públicas municipales, respetando competencia, transparencia y normativa.
   pagina: 10
   cita_verificada: true
+  enfoques:
+  - empleo-apoyo-a-negocios
   rubrica:
     meta:
       valor: false
@@ -3982,6 +4092,8 @@ propuestas:
   - texto: 'Los sistemas no aprobarán automáticamente decisiones sensibles: ofrecerán información, alertas y trazabilidad
       para que el servidor responsable decida conforme a la ley.'
     pagina: 10
+  enfoques:
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -4063,6 +4175,8 @@ propuestas:
     pagina: 10
   - texto: Expediente ciudadano metropolitano
     pagina: 10
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4144,6 +4258,8 @@ propuestas:
   contexto:
   - texto: Administraciones resolutivas
     pagina: 10
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4222,6 +4338,8 @@ propuestas:
   cita: Arquitectura de datos común, interoperabilidad y estándares de ciberseguridad.
   pagina: 11
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4303,6 +4421,8 @@ propuestas:
   contexto:
   - texto: Presupuesto por resultados
     pagina: 11
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4386,6 +4506,9 @@ propuestas:
     pagina: 11
   - texto: Contratos y obras con información pública completa
     pagina: 11
+  enfoques:
+  - transparencia-control
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -4470,6 +4593,9 @@ propuestas:
   contexto:
   - texto: IA responsable para la ciudad
     pagina: 11
+  enfoques:
+  - transparencia-gestion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -4553,6 +4679,8 @@ propuestas:
     pagina: 11
   - texto: Casos resueltos en plazo
     pagina: 11
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4632,6 +4760,9 @@ propuestas:
   cita: Evaluación semestral de empresas públicas y dependencias con compromisos correctivos.
   pagina: 11
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -4712,6 +4843,8 @@ propuestas:
   contexto:
   - texto: Satisfacción ciudadana con atención municipal
     pagina: 11
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4790,6 +4923,8 @@ propuestas:
   cita: Oficina de Cumplimiento y Entrega Estratégica, sin duplicar órganos de control ni aumentar burocracia.
   pagina: 11
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4875,6 +5010,8 @@ propuestas:
     pagina: 11
   - texto: Servicios interoperables
     pagina: 11
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -4958,6 +5095,9 @@ propuestas:
     pagina: 12
   - texto: 'Primer año: ordenar y responder'
     pagina: 13
+  enfoques:
+  - transparencia-control
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5047,6 +5187,8 @@ propuestas:
     pagina: 12
   - texto: Estudios, capacidad de pago, sostenibilidad operativa y evaluación social.
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5136,6 +5278,8 @@ propuestas:
     pagina: 12
   - texto: Operación, mantenimiento, servicios e inversión anual
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5223,6 +5367,8 @@ propuestas:
     pagina: 12
   - texto: Sin deteriorar servicios ni derechos laborales.
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5310,6 +5456,8 @@ propuestas:
     pagina: 12
   - texto: Resultados medibles y transferencia de capacidades.
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5398,6 +5546,8 @@ propuestas:
     pagina: 12
   - texto: Aplicación legal, equidad, participación y trazabilidad del destino.
     pagina: 12
+  enfoques:
+  - vivienda-gestion-territorial
   rubrica:
     meta:
       valor: false
@@ -5485,6 +5635,9 @@ propuestas:
     pagina: 12
   - texto: Conveniencia pública, competencia, transparencia, regulación y control.
     pagina: 12
+  enfoques:
+  - transparencia-gestion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -5571,6 +5724,8 @@ propuestas:
     pagina: 12
   - texto: Taxonomía, medición de impacto y cumplimiento ambiental.
     pagina: 12
+  enfoques:
+  - ambiente-contaminacion-y-clima
   rubrica:
     meta:
       valor: false
@@ -5651,6 +5806,8 @@ propuestas:
   cita: Evaluación independiente de políticas prioritarias cuando corresponda.
   pagina: 13
   cita_verificada: true
+  enfoques:
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -5734,6 +5891,8 @@ propuestas:
   contexto:
   - texto: Gobierno de compromisos
     pagina: 13
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -5816,6 +5975,8 @@ propuestas:
   contexto:
   - texto: Participación y rendición de cuentas
     pagina: 13
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -5896,6 +6057,8 @@ propuestas:
   contexto:
   - texto: Participación y rendición de cuentas
     pagina: 13
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -5973,6 +6136,8 @@ propuestas:
   cita: Las empresas públicas presentarán sus planes de inversión y mantenimiento alineados al programa metropolitano.
   pagina: 13
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -6050,6 +6215,9 @@ propuestas:
     territorialmente.
   pagina: 13
   cita_verificada: true
+  enfoques:
+  - transparencia-informacion
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -6132,6 +6300,8 @@ propuestas:
   contexto:
   - texto: Gestión territorial
     pagina: 13
+  enfoques:
+  - rural-gestion-parroquial
   rubrica:
     meta:
       valor: false
@@ -6212,6 +6382,9 @@ propuestas:
   contexto:
   - texto: Mostrar avances completos
     pagina: 14
+  enfoques:
+  - transparencia-informacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -6294,6 +6467,9 @@ propuestas:
   contexto:
   - texto: Rendición territorial y participación ciudadana
     pagina: 15
+  enfoques:
+  - transparencia-informacion
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -6379,6 +6555,8 @@ propuestas:
     pagina: 10
   - texto: Seguimiento del alcalde y publicación ciudadana de metas, presupuesto, contratos y resultados.
     pagina: 10
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -6463,6 +6641,8 @@ propuestas:
   contexto:
   - texto: Informe público semestral de compromisos.
     pagina: 13
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -6546,6 +6726,8 @@ propuestas:
   contexto:
   - texto: Rendición pública anual de la gestión
     pagina: 15
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: true
@@ -6629,6 +6811,8 @@ propuestas:
   contexto:
   - texto: Transparencia activa y datos abiertos
     pagina: 16
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -6712,6 +6896,8 @@ propuestas:
   contexto:
   - texto: Seguimiento ciudadano y control social
     pagina: 16
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -6794,6 +6980,8 @@ propuestas:
   contexto:
   - texto: Balance final del cumplimiento del Plan de Trabajo
     pagina: 16
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false

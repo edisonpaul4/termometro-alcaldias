@@ -31,6 +31,9 @@ propuestas:
     pagina: 7
   - texto: Inclusión y envejecimiento activo
     pagina: 7
+  enfoques:
+  - inclusion-cuidados-proteccion
+  - inclusion-acceso-sin-barreras
   rubrica:
     meta:
       valor: false
@@ -118,6 +121,8 @@ propuestas:
     pagina: 8
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 8
+  enfoques:
+  - seguridad-prevencion-comunitaria
   rubrica:
     meta:
       valor: false
@@ -205,6 +210,8 @@ propuestas:
     pagina: 8
   - texto: el inicio de la recuperación del orden en el espacio público
     pagina: 12
+  enfoques:
+  - espacio-publico-recuperar-espacios
   rubrica:
     meta:
       valor: false
@@ -291,6 +298,8 @@ propuestas:
     pagina: 8
   - texto: entre las capitales más seguras de la región; integrar la videovigilancia municipal al ECU-911
     pagina: 7
+  enfoques:
+  - seguridad-vigilancia-y-alertas
   rubrica:
     meta:
       valor: false
@@ -376,6 +385,8 @@ propuestas:
     pagina: 8
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 8
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -459,6 +470,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: false
@@ -540,6 +553,9 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-segura-accesible
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -620,6 +636,9 @@ propuestas:
     pagina: 8
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 8
+  enfoques:
+  - seguridad-prevencion-comunitaria
+  - seguridad-entornos-seguros
   rubrica:
     meta:
       valor: false
@@ -703,6 +722,9 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -790,6 +812,9 @@ propuestas:
     pagina: 9
   - texto: la constitución de la Autoridad Metropolitana Única de Movilidad
     pagina: 12
+  enfoques:
+  - movilidad-transporte-publico
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -873,6 +898,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -958,6 +985,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1039,6 +1068,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1122,6 +1153,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -1210,6 +1243,8 @@ propuestas:
     pagina: 9
   - texto: Integrar física y tarifariamente el sistema
     pagina: 7
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1291,6 +1326,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1377,6 +1414,8 @@ propuestas:
     pagina: 9
   - texto: intervenir 400 km de vialidad
     pagina: 7
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: true
@@ -1459,6 +1498,8 @@ propuestas:
     pagina: 9
   - texto: repotenciar el corredor Simón Bolívar
     pagina: 7
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: true
@@ -1542,6 +1583,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -1625,6 +1668,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 4 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - vivienda-gestion-territorial
   rubrica:
     meta:
       valor: false
@@ -1705,6 +1750,8 @@ propuestas:
     pagina: 9
   - texto: 'Proyectos del eje: 13 · horizonte 2027–2031.'
     pagina: 9
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -1787,6 +1834,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 4 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - vivienda-ordenar-crecimiento
   rubrica:
     meta:
       valor: false
@@ -1870,6 +1919,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 4 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - vivienda-legalizar-mejorar-barrios
   rubrica:
     meta:
       valor: false
@@ -1957,6 +2008,8 @@ propuestas:
     pagina: 10
   - texto: tiempos de emisión de permisos municipales
     pagina: 7
+  enfoques:
+  - vivienda-gestion-territorial
   rubrica:
     meta:
       valor: false
@@ -2043,6 +2096,10 @@ propuestas:
   - texto: Vincular a decenas de miles de personas a empleo y emprendimiento formal a través de la agencia metropolitana de
       desarrollo
     pagina: 7
+  enfoques:
+  - empleo-formacion-y-vacantes
+  - empleo-apoyo-a-negocios
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -2126,6 +2183,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 4 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - vivienda-ordenar-crecimiento
   rubrica:
     meta:
       valor: false
@@ -2214,6 +2273,9 @@ propuestas:
     pagina: 10
   - texto: el aprovechamiento de reciclables (complejo ambiental, APP con el BID)
     pagina: 7
+  enfoques:
+  - ambiente-mejorar-servicios-de-basura
+  - ambiente-reciclar-y-aprovechar-residuos
   rubrica:
     meta:
       valor: false
@@ -2300,6 +2362,9 @@ propuestas:
     pagina: 10
   - texto: Reducir en 15 % las pérdidas de agua en 4 años (EPMAPS)
     pagina: 7
+  enfoques:
+  - agua-servicios-ampliar-cobertura
+  - agua-servicios-mantener-sistemas
   rubrica:
     meta:
       valor: true
@@ -2382,6 +2447,8 @@ propuestas:
     pagina: 11
   - texto: ampliar la red de hospitales y colegios metropolitanos en los valles
     pagina: 7
+  enfoques:
+  - inclusion-educacion-oportunidades
   rubrica:
     meta:
       valor: false
@@ -2466,6 +2533,9 @@ propuestas:
     pagina: 11
   - texto: 'Proyectos del eje: 4 · horizonte 2027–2031.'
     pagina: 11
+  enfoques:
+  - inclusion-acceso-sin-barreras
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -2548,6 +2618,9 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - empleo-apoyo-a-negocios
+  - empleo-formacion-y-vacantes
   rubrica:
     meta:
       valor: false
@@ -2634,6 +2707,8 @@ propuestas:
     pagina: 11
   - texto: regenerar 100 km de aceras (caminería productiva)
     pagina: 7
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: true
@@ -2714,6 +2789,9 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - empleo-apoyo-a-negocios
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -2798,6 +2876,8 @@ propuestas:
     pagina: 10
   - texto: 'Proyectos del eje: 5 · horizonte 2027–2031.'
     pagina: 10
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -2879,6 +2959,9 @@ propuestas:
     pagina: 11
   - texto: ampliar la red de hospitales y colegios metropolitanos en los valles
     pagina: 7
+  enfoques:
+  - inclusion-salud-comunitaria
+  - inclusion-acceso-sin-barreras
   rubrica:
     meta:
       valor: false
@@ -2963,6 +3046,8 @@ propuestas:
     pagina: 11
   - texto: 'Proyectos del eje: 3 · horizonte 2027–2031.'
     pagina: 11
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: false
@@ -3045,6 +3130,8 @@ propuestas:
     pagina: 11
   - texto: 'Proyectos del eje: 3 · horizonte 2027–2031.'
     pagina: 11
+  enfoques:
+  - cultura-recuperar-patrimonio
   rubrica:
     meta:
       valor: false
@@ -3132,6 +3219,8 @@ propuestas:
     pagina: 7
   - texto: las primeras intervenciones del programa de envejecimiento activo
     pagina: 12
+  enfoques:
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -3217,6 +3306,8 @@ propuestas:
     pagina: 12
   - texto: recuperar quebradas y laderas
     pagina: 7
+  enfoques:
+  - riesgos-obras-y-recuperacion
   rubrica:
     meta:
       valor: false
@@ -3298,6 +3389,8 @@ propuestas:
     pagina: 11
   - texto: integrar la información en una plataforma única
     pagina: 7
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3384,6 +3477,8 @@ propuestas:
     pagina: 7
   - texto: el arranque del Municipio Digital con la ventanilla única
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3464,6 +3559,8 @@ propuestas:
   contexto:
   - texto: 8. Gobernanza, Transparencia y Finanzas Municipales
     pagina: 11
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3542,6 +3639,9 @@ propuestas:
   contexto:
   - texto: 8. Gobernanza, Transparencia y Finanzas Municipales
     pagina: 11
+  enfoques:
+  - transparencia-gestion
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -3627,6 +3727,8 @@ propuestas:
     pagina: 12
   - texto: el tablero de indicadores y la plataforma de proyectos se actualizarán de forma continua
     pagina: 13
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3709,6 +3811,9 @@ propuestas:
   contexto:
   - texto: 4. Mecanismos periódicos y públicos de rendición de cuentas
     pagina: 12
+  enfoques:
+  - transparencia-participacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3790,6 +3895,9 @@ propuestas:
   contexto:
   - texto: 4. Mecanismos periódicos y públicos de rendición de cuentas
     pagina: 12
+  enfoques:
+  - transparencia-informacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3872,6 +3980,8 @@ propuestas:
   contexto:
   - texto: 4. Mecanismos periódicos y públicos de rendición de cuentas
     pagina: 12
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3953,6 +4063,8 @@ propuestas:
   contexto:
   - texto: 4. Mecanismos periódicos y públicos de rendición de cuentas
     pagina: 12
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -4035,6 +4147,8 @@ propuestas:
   contexto:
   - texto: 4. Mecanismos periódicos y públicos de rendición de cuentas
     pagina: 12
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false

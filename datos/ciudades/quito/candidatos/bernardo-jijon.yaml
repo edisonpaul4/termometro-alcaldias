@@ -27,6 +27,9 @@ propuestas:
     primer empleo.
   pagina: 4
   cita_verificada: true
+  enfoques:
+  - empleo-apoyo-a-negocios
+  - empleo-formacion-y-vacantes
   rubrica:
     meta:
       valor: false
@@ -106,6 +109,8 @@ propuestas:
   cita: Cerrar los compromisos de infraestructura social pendientes de administraciones anteriores.
   pagina: 5
   cita_verificada: true
+  enfoques:
+  - inclusion-acceso-sin-barreras
   rubrica:
     meta:
       valor: false
@@ -187,6 +192,8 @@ propuestas:
   - texto: Extensión de la red de puntos de trámite asistido y de la capa de intercambio de datos a los servicios sociales
       municipales (protección de derechos, salud comunitaria, cuidado).
     pagina: 10
+  enfoques:
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -268,6 +275,8 @@ propuestas:
   cita: 'Cuenta Ciudad: tarjeta y billetera digital única para el sistema integrado de transporte'
   pagina: 7
   cita_verificada: true
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -348,6 +357,8 @@ propuestas:
   contexto:
   - texto: monitoreo de subsidencia en Solanda
     pagina: 10
+  enfoques:
+  - riesgos-monitoreo-y-alertas
   rubrica:
     meta:
       valor: false
@@ -427,6 +438,8 @@ propuestas:
   cita: 'Sensores de alerta temprana multiamenaza: pluviómetros, inclinómetros y nivel de quebrada'
   pagina: 7
   cita_verificada: true
+  enfoques:
+  - riesgos-monitoreo-y-alertas
   rubrica:
     meta:
       valor: false
@@ -509,6 +522,9 @@ propuestas:
     pagina: 11
   - texto: Semaforización adaptativa con prioridad al bus y carril de alta ocupación
     pagina: 11
+  enfoques:
+  - movilidad-gestion-transito
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -597,6 +613,8 @@ propuestas:
       la reducción del gasto administrativo; y fortalecer la autonomía financiera del Municipio mediante una gestión tributaria
       más eficiente.'
     pagina: 13
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -678,6 +696,8 @@ propuestas:
   contexto:
   - texto: FASE 1 — Orden y fiscalización
     pagina: 8
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -766,6 +786,8 @@ propuestas:
     pagina: 13
   - texto: de gasto administrativo y no como partida nueva de gran magnitud
     pagina: 14
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -854,6 +876,8 @@ propuestas:
     pagina: 12
   - texto: Ordenanza aprobada y catálogo de trámites clasificado por riesgo
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -941,6 +965,8 @@ propuestas:
     pagina: 8
   - texto: Instalar los ocho PMO pendientes en zonas de riesgo alto
     pagina: 12
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: true
@@ -1021,6 +1047,8 @@ propuestas:
   contexto:
   - texto: FASE 1 — Orden y fiscalización
     pagina: 8
+  enfoques:
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -1108,6 +1136,8 @@ propuestas:
     pagina: 11
   - texto: trámites de mayor volumen
     pagina: 12
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: true
@@ -1192,6 +1222,8 @@ propuestas:
     pagina: 8
   - texto: Impulso técnico, no ejecución directa
     pagina: 13
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -1275,6 +1307,8 @@ propuestas:
   contexto:
   - texto: FASE 1 — Orden y fiscalización
     pagina: 8
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -1361,6 +1395,8 @@ propuestas:
   - texto: Extensión de la red de puntos de trámite asistido y de la capa de intercambio de datos a los servicios sociales
       municipales (protección de derechos, salud comunitaria, cuidado).
     pagina: 10
+  enfoques:
+  - rural-atencion-municipal
   rubrica:
     meta:
       valor: false
@@ -1443,6 +1479,8 @@ propuestas:
   contexto:
   - texto: FASE 3 — Enfoque social y territorial
     pagina: 9
+  enfoques:
+  - inclusion-salud-comunitaria
   rubrica:
     meta:
       valor: false
@@ -1524,6 +1562,9 @@ propuestas:
   contexto:
   - texto: FASE 3 — Enfoque social y territorial
     pagina: 9
+  enfoques:
+  - inclusion-cuidados-proteccion
+  - inclusion-acceso-sin-barreras
   rubrica:
     meta:
       valor: false
@@ -1607,6 +1648,8 @@ propuestas:
   - texto: aceptar una identificación municipal con firma electrónica simple al amparo del artículo 14 de la Ley de Comercio
       Electrónico
     pagina: 8
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -1686,6 +1729,8 @@ propuestas:
   contexto:
   - texto: FASE 2 — Trabajo y obra pública
     pagina: 9
+  enfoques:
+  - empleo-formacion-y-vacantes
   rubrica:
     meta:
       valor: false
@@ -1774,6 +1819,8 @@ propuestas:
     pagina: 12
   - texto: 10.000 escrituras entregadas en tres años
     pagina: 12
+  enfoques:
+  - vivienda-legalizar-mejorar-barrios
   rubrica:
     meta:
       valor: true
@@ -1856,6 +1903,9 @@ propuestas:
     pagina: 9
   - texto: Reducir tiempos de viaje en corredores críticos
     pagina: 12
+  enfoques:
+  - movilidad-transporte-publico
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -1938,6 +1988,8 @@ propuestas:
   contexto:
   - texto: FASE 2 — Trabajo y obra pública
     pagina: 9
+  enfoques:
+  - seguridad-vigilancia-y-alertas
   rubrica:
     meta:
       valor: false
@@ -2026,6 +2078,8 @@ propuestas:
     pagina: 12
   - texto: Formalización exprés operativa en las tres zonas prioritarias
     pagina: 12
+  enfoques:
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: true
@@ -2116,6 +2170,8 @@ propuestas:
     pagina: 9
   - texto: Reloj público en cada etapa y asiento catastral automático
     pagina: 12
+  enfoques:
+  - vivienda-gestion-territorial
   rubrica:
     meta:
       valor: false
@@ -2199,6 +2255,8 @@ propuestas:
   contexto:
   - texto: FASE 2 — Trabajo y obra pública
     pagina: 9
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -2280,6 +2338,8 @@ propuestas:
   contexto:
   - texto: FASE 2 — Trabajo y obra pública
     pagina: 9
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -2367,6 +2427,8 @@ propuestas:
     pagina: 12
   - texto: Reducir 20% la violencia intrafamiliar en los núcleos críticos
     pagina: 12
+  enfoques:
+  - seguridad-prevencion-comunitaria
   rubrica:
     meta:
       valor: true
@@ -2452,6 +2514,8 @@ propuestas:
     pagina: 9
   - texto: Tarifa técnica y pago por kilómetro, no por unidad
     pagina: 12
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -2534,6 +2598,8 @@ propuestas:
   contexto:
   - texto: FASE 3 — Enfoque social y territorial
     pagina: 9
+  enfoques:
+  - rural-gestion-parroquial
   rubrica:
     meta:
       valor: false
@@ -2618,6 +2684,8 @@ propuestas:
     pagina: 10
   - texto: El último tramo se dedica a consolidar, evaluar y garantizar que los avances permanezcan más allá de esta gestión.
     pagina: 10
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -2699,6 +2767,8 @@ propuestas:
   contexto:
   - texto: FASE 3 — Enfoque social y territorial
     pagina: 9
+  enfoques:
+  - espacio-publico-recuperar-espacios
   rubrica:
     meta:
       valor: false
@@ -2786,6 +2856,8 @@ propuestas:
     pagina: 10
   - texto: Priorizar la planta de tratamiento del río Monjas
     pagina: 11
+  enfoques:
+  - agua-servicios-tratar-reutilizar
   rubrica:
     meta:
       valor: false
@@ -2867,6 +2939,8 @@ propuestas:
   contexto:
   - texto: FASE 4 — Sostenibilidad de lo logrado
     pagina: 10
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -2949,6 +3023,9 @@ propuestas:
     pagina: 10
   - texto: Reporte público de integración y actualización del PMDOT aprobada
     pagina: 13
+  enfoques:
+  - transparencia-gestion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3034,6 +3111,8 @@ propuestas:
   contexto:
   - texto: FASE 4 — Sostenibilidad de lo logrado
     pagina: 10
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -3116,6 +3195,9 @@ propuestas:
   contexto:
   - texto: FASE 4 — Sostenibilidad de lo logrado
     pagina: 10
+  enfoques:
+  - transparencia-informacion
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3196,6 +3278,9 @@ propuestas:
   contexto:
   - texto: FASE 4 — Sostenibilidad de lo logrado
     pagina: 10
+  enfoques:
+  - transparencia-informacion
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3279,6 +3364,8 @@ propuestas:
   contexto:
   - texto: FASE 3 — Enfoque social y territorial
     pagina: 9
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3362,6 +3449,9 @@ propuestas:
   contexto:
   - texto: Panamericana Norte (Calderón)
     pagina: 11
+  enfoques:
+  - movilidad-gestion-transito
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -3444,6 +3534,8 @@ propuestas:
   contexto:
   - texto: aceleración de la disposición final de residuos
     pagina: 10
+  enfoques:
+  - ambiente-mejorar-servicios-de-basura
   rubrica:
     meta:
       valor: true
@@ -3523,6 +3615,9 @@ propuestas:
   contexto:
   - texto: Av. Maldonado (Guajaló-Santo Domingo)
     pagina: 11
+  enfoques:
+  - movilidad-gestion-transito
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -3604,6 +3699,8 @@ propuestas:
   contexto:
   - texto: La Delicia
     pagina: 11
+  enfoques:
+  - ambiente-contaminacion-y-clima
   rubrica:
     meta:
       valor: false
@@ -3685,6 +3782,9 @@ propuestas:
   contexto:
   - texto: Centro Manuela Sáenz
     pagina: 11
+  enfoques:
+  - riesgos-monitoreo-y-alertas
+  - riesgos-preparacion-comunitaria
   rubrica:
     meta:
       valor: false
@@ -3768,6 +3868,9 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-participacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3851,6 +3954,8 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3933,6 +4038,9 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-informacion
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -4016,6 +4124,8 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -4098,6 +4208,8 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -4181,6 +4293,9 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-control
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -4265,6 +4380,8 @@ propuestas:
   contexto:
   - texto: Mecanismos adicionales
     pagina: 14
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false

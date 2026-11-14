@@ -1,2 +1,246 @@
 # Generado por el pipeline (paso 6)
-enfoques: []
+enfoques:
+- id: seguridad-control-y-coordinacion
+  tema: seguridad
+  nombre: Coordinación, agentes y evaluación
+  descripcion: Fortalecer a los agentes municipales, coordinar con otras instituciones y medir resultados de seguridad.
+  icono: handshake
+- id: seguridad-vigilancia-y-alertas
+  tema: seguridad
+  nombre: Vigilancia y alertas
+  descripcion: Usar cámaras, análisis de datos y alertas para detectar incidentes y responder a emergencias.
+  icono: security-camera
+- id: seguridad-entornos-seguros
+  tema: seguridad
+  nombre: Espacios iluminados y seguros
+  descripcion: Mejorar iluminación, recuperar espacios públicos y crear rutas seguras en barrios, escuelas y transporte.
+  icono: lightbulb
+- id: seguridad-prevencion-comunitaria
+  tema: seguridad
+  nombre: Prevención y apoyo comunitario
+  descripcion: Organizar a los barrios, prevenir violencias, acompañar a niños y jóvenes y atender a víctimas.
+  icono: users-three
+- id: movilidad-transporte-publico
+  tema: movilidad
+  nombre: Mejorar el transporte público
+  descripcion: Ampliar e integrar Metro, cables y buses, mejorar rutas, frecuencias y flotas, y unificar pagos y gestión.
+  icono: bus
+- id: movilidad-obras-viales
+  tema: movilidad
+  nombre: Construir y mantener vías
+  descripcion: Rehabilitar calles y puentes, resolver conexiones viales y preparar obras con estudios y financiamiento.
+  icono: road-horizon
+- id: movilidad-gestion-transito
+  tema: movilidad
+  nombre: Ordenar el tránsito
+  descripcion: Gestionar tráfico, semáforos, estacionamiento y carga con datos, controles y participación ciudadana.
+  icono: traffic-signal
+- id: movilidad-segura-accesible
+  tema: movilidad
+  nombre: Movilidad segura y accesible
+  descripcion: Mejorar aceras, ciclovías y accesibilidad, prevenir siniestros y proteger a quienes se desplazan.
+  icono: person-simple-walk
+- id: agua-servicios-ampliar-cobertura
+  tema: agua-servicios
+  nombre: Llevar servicios a barrios
+  descripcion: Ampliar agua potable, alcantarillado y drenaje en barrios y parroquias con servicios insuficientes.
+  icono: house-line
+- id: agua-servicios-tratar-reutilizar
+  tema: agua-servicios
+  nombre: Tratar y reutilizar aguas
+  descripcion: Construir interceptores y plantas de tratamiento de aguas residuales y aprovechar el agua tratada.
+  icono: recycle
+- id: agua-servicios-mantener-sistemas
+  tema: agua-servicios
+  nombre: Mejorar los sistemas existentes
+  descripcion: Reducir pérdidas de agua y mejorar la operación y el mantenimiento de redes y plantas existentes.
+  icono: wrench
+- id: agua-servicios-proteger-fuentes
+  tema: agua-servicios
+  nombre: Proteger fuentes y ríos
+  descripcion: Conservar páramos y zonas de recarga, recuperar quebradas y sanear ríos urbanos.
+  icono: leaf
+- id: ambiente-mejorar-servicios-de-basura
+  tema: ambiente
+  nombre: Mejorar servicios de basura
+  descripcion: Reforzar barrido, recolección, transporte y disposición final de residuos, con infraestructura y tarifas adecuadas.
+  icono: trash
+- id: ambiente-reciclar-y-aprovechar-residuos
+  tema: ambiente
+  nombre: Reciclar y aprovechar residuos
+  descripcion: Separar residuos en la fuente, impulsar el reciclaje con recicladores y aprovechar orgánicos, materiales y
+    energía.
+  icono: recycle
+- id: ambiente-cuidar-naturaleza-y-animales
+  tema: ambiente
+  nombre: Cuidar naturaleza y animales
+  descripcion: Recuperar parques, árboles, ríos, quebradas y ecosistemas, proteger fuentes de agua y atender a los animales.
+  icono: tree
+- id: ambiente-contaminacion-y-clima
+  tema: ambiente
+  nombre: Contaminación, clima y educación
+  descripcion: Vigilar aire, agua y ruido, controlar descargas, enfrentar el cambio climático y promover educación ambiental.
+  icono: wind
+- id: empleo-formacion-y-vacantes
+  tema: empleo
+  nombre: Formar y conectar trabajadores
+  descripcion: Priorizar capacitación, certificación, prácticas y conexión con vacantes para facilitar el acceso al empleo.
+  icono: briefcase
+- id: empleo-apoyo-a-negocios
+  tema: empleo
+  nombre: Impulsar negocios locales
+  descripcion: Apoyar emprendimientos y negocios con financiamiento, asesoría, incubación y acceso a compradores.
+  icono: storefront
+- id: empleo-tramites-y-formalizacion
+  tema: empleo
+  nombre: Simplificar trámites y formalizar
+  descripcion: Agilizar permisos, reducir requisitos y acompañar la formalización de negocios.
+  icono: clipboard-text
+- id: empleo-inversion-e-innovacion
+  tema: empleo
+  nombre: Atraer inversión e innovación
+  descripcion: Promover inversiones, alianzas, distritos de innovación y espacios productivos y logísticos.
+  icono: rocket-launch
+- id: espacio-publico-recuperar-espacios
+  tema: espacio-publico
+  nombre: Recuperar espacios públicos
+  descripcion: Recuperar y ampliar parques, plazas y calles con accesibilidad, mobiliario y espacios para uso comunitario.
+  icono: park
+- id: espacio-publico-priorizar-mantenimiento
+  tema: espacio-publico
+  nombre: Priorizar el mantenimiento
+  descripcion: Conservar en buen estado lo existente con limpieza, iluminación, reparaciones, presupuestos y participación
+    barrial.
+  icono: wrench
+- id: espacio-publico-ordenar-comercio
+  tema: espacio-publico
+  nombre: Regular el comercio autónomo
+  descripcion: Regular el comercio en calles con zonas, permisos, controles, reubicación y apoyo a la formalización.
+  icono: clipboard-text
+- id: espacio-publico-modernizar-mercados
+  tema: espacio-publico
+  nombre: Modernizar los mercados
+  descripcion: Mejorar mercados y ferias con infraestructura, sanidad, seguridad, digitalización y promoción comercial.
+  icono: storefront
+- id: riesgos-monitoreo-y-alertas
+  tema: riesgos
+  nombre: Monitoreo y alertas
+  descripcion: Detectar peligros con sensores, mapas y vigilancia permanente, y avisar a tiempo a la población.
+  icono: siren
+- id: riesgos-obras-y-recuperacion
+  tema: riesgos
+  nombre: Obras y recuperación
+  descripcion: Reducir riesgos con drenaje, recuperación de quebradas y laderas, obras y reubicación de familias.
+  icono: cloud-rain
+- id: riesgos-preparacion-comunitaria
+  tema: riesgos
+  nombre: Preparación comunitaria
+  descripcion: Preparar a barrios y familias mediante brigadas, formación, simulacros y planes de emergencia.
+  icono: users-three
+- id: riesgos-respuesta-a-emergencias
+  tema: riesgos
+  nombre: Respuesta a emergencias
+  descripcion: Fortalecer bomberos, atención de incendios, logística, albergues y asistencia a personas afectadas.
+  icono: fire-truck
+- id: rural-vias-y-servicios
+  tema: rural
+  nombre: Mejorar vías y servicios
+  descripcion: Priorizar caminos, transporte, agua, conectividad digital y equipamientos en las parroquias rurales.
+  icono: road-horizon
+- id: rural-economia-productiva
+  tema: rural
+  nombre: Impulsar la economía rural
+  descripcion: Apoyar la producción, comercialización, formación técnica y turismo, y proteger el suelo productivo.
+  icono: plant
+- id: rural-gestion-parroquial
+  tema: rural
+  nombre: Fortalecer la gestión parroquial
+  descripcion: Coordinar con gobiernos parroquiales, asignar presupuestos y planes territoriales, con participación de comunas.
+  icono: users-three
+- id: rural-atencion-municipal
+  tema: rural
+  nombre: Acercar la atención municipal
+  descripcion: Llevar trámites y atención municipal a las parroquias mediante puntos asistidos y servicios móviles.
+  icono: clipboard-text
+- id: transparencia-informacion
+  tema: transparencia
+  nombre: Publicar información y rendir cuentas
+  descripcion: Abrir datos, presupuestos y avances de obras, y rendir cuentas periódicamente sobre el cumplimiento de metas.
+  icono: eye
+- id: transparencia-participacion
+  tema: transparencia
+  nombre: Decidir con la ciudadanía
+  descripcion: Incorporar a la ciudadanía en las decisiones, los presupuestos y el seguimiento de la gestión municipal.
+  icono: users-three
+- id: transparencia-control
+  tema: transparencia
+  nombre: Fortalecer controles e integridad
+  descripcion: Auditar contratos y recursos, prevenir irregularidades y facilitar denuncias y evaluaciones independientes.
+  icono: shield-check
+- id: transparencia-gestion
+  tema: transparencia
+  nombre: Modernizar trámites y gestión
+  descripcion: Digitalizar y simplificar trámites, ordenar finanzas, personal y entidades para servicios municipales más eficientes.
+  icono: wrench
+- id: inclusion-cuidados-proteccion
+  tema: inclusion
+  nombre: Cuidados y protección
+  descripcion: Reforzar cuidados, alimentación y redes de apoyo; proteger frente a violencia, discriminación y maltrato animal.
+  icono: hand-heart
+- id: inclusion-salud-comunitaria
+  tema: inclusion
+  nombre: Salud cercana y preventiva
+  descripcion: Ampliar la atención de salud física y mental, con prevención, brigadas y servicios comunitarios.
+  icono: heartbeat
+- id: inclusion-educacion-oportunidades
+  tema: inclusion
+  nombre: Educación y oportunidades
+  descripcion: Mejorar la educación municipal y ofrecer formación, habilidades e inclusión laboral.
+  icono: graduation-cap
+- id: inclusion-acceso-sin-barreras
+  tema: inclusion
+  nombre: Acceso sin barreras
+  descripcion: Eliminar barreras físicas, digitales y territoriales y facilitar el acceso a espacios y servicios municipales.
+  icono: wheelchair
+- id: cultura-recuperar-patrimonio
+  tema: cultura
+  nombre: Recuperar el patrimonio
+  descripcion: Rehabilitar inmuebles y espacios históricos, repoblar el Centro Histórico y conservar memorias y saberes de
+    la ciudad.
+  icono: bank
+- id: cultura-turismo-eventos
+  tema: cultura
+  nombre: Impulsar turismo y eventos
+  descripcion: Desarrollar rutas y destinos, promocionar Quito y atraer visitantes con grandes eventos, congresos y gastronomía.
+  icono: map-pin
+- id: cultura-formacion-comunitaria
+  tema: cultura
+  nombre: Arte, cultura y formación
+  descripcion: Ampliar la agenda cultural, la educación y los espacios de creación, con apoyo a artistas y participación barrial.
+  icono: mask-happy
+- id: cultura-deporte-recreacion
+  tema: cultura
+  nombre: Deporte y recreación
+  descripcion: Mejorar canchas y espacios recreativos y ofrecer actividades y escuelas deportivas en barrios y parroquias.
+  icono: soccer-ball
+- id: vivienda-legalizar-mejorar-barrios
+  tema: vivienda
+  nombre: Legalizar y mejorar barrios
+  descripcion: Regularizar asentamientos, entregar títulos y completar servicios e infraestructura en los barrios.
+  icono: seal-check
+- id: vivienda-acceso-rehabilitacion
+  tema: vivienda
+  nombre: Vivienda asequible y rehabilitación
+  descripcion: Impulsar vivienda asequible, alquiler y rehabilitación de viviendas y edificios, protegiendo a sus residentes.
+  icono: house
+- id: vivienda-ordenar-crecimiento
+  tema: vivienda
+  nombre: Planificar el territorio
+  descripcion: Planificar usos del suelo, centralidades y división territorial, evitando expansión desordenada y zonas de
+    riesgo.
+  icono: map-pin
+- id: vivienda-gestion-territorial
+  tema: vivienda
+  nombre: Trámites, catastro y suelo
+  descripcion: Simplificar permisos, actualizar el catastro y gestionar suelo, información y recursos para obras.
+  icono: clipboard-text

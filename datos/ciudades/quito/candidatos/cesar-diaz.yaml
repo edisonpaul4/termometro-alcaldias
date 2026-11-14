@@ -28,6 +28,8 @@ propuestas:
   contexto:
   - texto: 2. Movilidad y transporte sostenible
     pagina: 7
+  enfoques:
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -116,6 +118,9 @@ propuestas:
   - texto: Instalación formal del Consejo Metropolitano de Seguridad y plan de despliegue por fases de la Sala de Comando
       y Control.
     pagina: 17
+  enfoques:
+  - seguridad-vigilancia-y-alertas
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -206,6 +211,8 @@ propuestas:
     pagina: 9
   - texto: Inicio de estudios de ramales del Metro.
     pagina: 15
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -295,6 +302,8 @@ propuestas:
     pagina: 7
   - texto: USD 0,2–0,5 millones
     pagina: 17
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: true
@@ -379,6 +388,8 @@ propuestas:
     pagina: 7
   - texto: Reducción sostenida del tiempo promedio de viaje ruralidad–hipercentro no mayor a 60 minutos.
     pagina: 7
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -466,6 +477,8 @@ propuestas:
   - texto: 'Financiamiento: recursos propios, crédito multilateral para infraestructura de gran escala y alianzas público-privadas
       reguladas.'
     pagina: 9
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: true
@@ -550,6 +563,9 @@ propuestas:
     pagina: 7
   - texto: Mesas de movilidad con usuarios, transportistas y ciclistas.
     pagina: 7
+  enfoques:
+  - movilidad-segura-accesible
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: false
@@ -639,6 +655,9 @@ propuestas:
     pagina: 15
   - texto: 'Costo referencial (2027–2031): USD 60–120 millones'
     pagina: 7
+  enfoques:
+  - seguridad-vigilancia-y-alertas
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -725,6 +744,8 @@ propuestas:
     pagina: 7
   - texto: Cobertura creciente de la Sala de Comando y Control y de los centros de rescate infantil.
     pagina: 15
+  enfoques:
+  - seguridad-prevencion-comunitaria
   rubrica:
     meta:
       valor: false
@@ -810,6 +831,9 @@ propuestas:
     pagina: 15
   - texto: Expansión de vivienda social y regularización de barrios.
     pagina: 15
+  enfoques:
+  - vivienda-acceso-rehabilitacion
+  - vivienda-legalizar-mejorar-barrios
   rubrica:
     meta:
       valor: false
@@ -896,6 +920,9 @@ propuestas:
     pagina: 9
   - texto: mercado nacional para parques, arbolado y obras de mitigación
     pagina: 9
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
+  - ambiente-reciclar-y-aprovechar-residuos
   rubrica:
     meta:
       valor: false
@@ -984,6 +1011,8 @@ propuestas:
     pagina: 9
   - texto: Primeras intervenciones de contenerización inteligente y descontaminación de ríos.
     pagina: 15
+  enfoques:
+  - ambiente-mejorar-servicios-de-basura
   rubrica:
     meta:
       valor: false
@@ -1069,6 +1098,8 @@ propuestas:
       referencias de mercado internacional para contenerización inteligente con sensores y ampliación de capacidad de tratamiento
       de aguas residuales).'
     pagina: 9
+  enfoques:
+  - agua-servicios-tratar-reutilizar
   rubrica:
     meta:
       valor: false
@@ -1160,6 +1191,9 @@ propuestas:
     pagina: 9
   - texto: 'Costo referencial (2027–2031): USD 70–155 millones'
     pagina: 9
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
+  - ambiente-contaminacion-y-clima
   rubrica:
     meta:
       valor: false
@@ -1249,6 +1283,9 @@ propuestas:
     pagina: 17
   - texto: Puesta en marcha de las primeras megacentralidades con ventanilla única.
     pagina: 15
+  enfoques:
+  - vivienda-ordenar-crecimiento
+  - vivienda-gestion-territorial
   rubrica:
     meta:
       valor: true
@@ -1332,6 +1369,8 @@ propuestas:
     pagina: 9
   - texto: rehabilitación patrimonial en el Centro Histórico
     pagina: 9
+  enfoques:
+  - cultura-recuperar-patrimonio
   rubrica:
     meta:
       valor: false
@@ -1417,6 +1456,8 @@ propuestas:
     pagina: 15
   - texto: '3. Quito Verde: ambiente, residuos y gestión de riesgos'
     pagina: 9
+  enfoques:
+  - riesgos-obras-y-recuperacion
   rubrica:
     meta:
       valor: false
@@ -1499,6 +1540,8 @@ propuestas:
     pagina: 9
   - texto: 4. Ordenamiento territorial, hábitat y vivienda
     pagina: 9
+  enfoques:
+  - vivienda-ordenar-crecimiento
   rubrica:
     meta:
       valor: false
@@ -1581,6 +1624,8 @@ propuestas:
   cita: Alianzas con universidades, gremios y sector privado. • Observatorio económico y de empleo del Distrito.
   pagina: 11
   cita_verificada: true
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -1668,6 +1713,8 @@ propuestas:
   - texto: 'Costo referencial (2027–2031): USD 45–100 millones (mercado nacional para infraestructura de mercados y habilitación
       de la zona de innovación; referencias internacionales para plataformas digitales de trámites e incubación).'
     pagina: 11
+  enfoques:
+  - empleo-apoyo-a-negocios
   rubrica:
     meta:
       valor: false
@@ -1755,6 +1802,8 @@ propuestas:
     pagina: 11
   - texto: 'Financiamiento: eficiencia municipal, cooperación internacional y alianzas público-privadas reguladas.'
     pagina: 11
+  enfoques:
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -1838,6 +1887,8 @@ propuestas:
   contexto:
   - texto: Modelo de gestión mediante concesión para el parque tecnológico, puerto seco y zona franca.
     pagina: 11
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: true
@@ -1923,6 +1974,9 @@ propuestas:
   - texto: Conducción desde las secretarías/agencias de Desarrollo Productivo y de Turismo, con ventanillas territorializadas
       en las megacentralidades.
     pagina: 11
+  enfoques:
+  - empleo-apoyo-a-negocios
+  - empleo-tramites-y-formalizacion
   rubrica:
     meta:
       valor: false
@@ -2012,6 +2066,8 @@ propuestas:
   - texto: Infraestructura social —centros de atención al adulto mayor y casas de acogida— y gasto operativo plurianual de
       los programas de atención).
     pagina: 13
+  enfoques:
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -2096,6 +2152,9 @@ propuestas:
     pagina: 11
   - texto: 'Financiamiento: alianzas con universidades y empresa privada, cooperación internacional y recursos municipales.'
     pagina: 11
+  enfoques:
+  - cultura-formacion-comunitaria
+  - cultura-recuperar-patrimonio
   rubrica:
     meta:
       valor: false
@@ -2184,6 +2243,8 @@ propuestas:
     pagina: 11
   - texto: 'Costo referencial (2027–2031): USD 35–70 millones'
     pagina: 11
+  enfoques:
+  - cultura-formacion-comunitaria
   rubrica:
     meta:
       valor: true
@@ -2270,6 +2331,9 @@ propuestas:
     pagina: 15
   - texto: 'Costo referencial (2027–2031): USD 45–100 millones'
     pagina: 11
+  enfoques:
+  - empleo-inversion-e-innovacion
+  - empleo-formacion-y-vacantes
   rubrica:
     meta:
       valor: false
@@ -2355,6 +2419,8 @@ propuestas:
     pagina: 11
   - texto: 'Costo referencial (2027–2031): USD 35–70 millones'
     pagina: 11
+  enfoques:
+  - cultura-deporte-recreacion
   rubrica:
     meta:
       valor: false
@@ -2435,6 +2501,8 @@ propuestas:
   contexto:
   - texto: 5. Desarrollo económico, empleo e innovación
     pagina: 11
+  enfoques:
+  - cultura-turismo-eventos
   rubrica:
     meta:
       valor: false
@@ -2518,6 +2586,8 @@ propuestas:
     pagina: 11
   - texto: • Conducción desde las secretarías de Educación, Cultura y Deporte, con oferta territorializada por megacentralidad.
     pagina: 11
+  enfoques:
+  - cultura-formacion-comunitaria
   rubrica:
     meta:
       valor: false
@@ -2599,6 +2669,9 @@ propuestas:
     pagina: 13
   - texto: Presupuestos participativos y veedurías ciudadanas
     pagina: 19
+  enfoques:
+  - transparencia-participacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -2684,6 +2757,8 @@ propuestas:
     pagina: 13
   - texto: Alianzas con academia y sociedad civil para veeduría.
     pagina: 13
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: true
@@ -2768,6 +2843,9 @@ propuestas:
     pagina: 13
   - texto: 'Costo referencial (2027–2031): USD 38–76 millones (mercado nacional'
     pagina: 11
+  enfoques:
+  - inclusion-acceso-sin-barreras
+  - inclusion-salud-comunitaria
   rubrica:
     meta:
       valor: false
@@ -2852,6 +2930,8 @@ propuestas:
     pagina: 13
   - texto: 7. Inclusión social, grupos prioritarios y salud
     pagina: 11
+  enfoques:
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -2934,6 +3014,8 @@ propuestas:
     pagina: 13
   - texto: 'Costo referencial (2027–2031): USD 25–50 millones'
     pagina: 13
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3016,6 +3098,8 @@ propuestas:
     pagina: 13
   - texto: 'Financiamiento: presupuesto municipal con enfoque de género y ciclo de vida, cooperación y convenios interinstitucionales.'
     pagina: 13
+  enfoques:
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -3101,6 +3185,8 @@ propuestas:
     pagina: 13
   - texto: Ordenanzas de desconcentración y transparencia, conducidas desde la Alcaldía y la Secretaría General de Planificación.
     pagina: 13
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3188,6 +3274,8 @@ propuestas:
     pagina: 15
   - texto: USD 0,3–0,6 millones
     pagina: 15
+  enfoques:
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -3273,6 +3361,9 @@ propuestas:
     pagina: 17
   - texto: USD 0,3–0,6 millones
     pagina: 17
+  enfoques:
+  - transparencia-control
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3359,6 +3450,8 @@ propuestas:
     pagina: 17
   - texto: USD 2–4 millones
     pagina: 17
+  enfoques:
+  - espacio-publico-priorizar-mantenimiento
   rubrica:
     meta:
       valor: false
@@ -3447,6 +3540,8 @@ propuestas:
     pagina: 19
   - texto: Mejora sostenida del índice de transparencia y datos abiertos publicados.
     pagina: 13
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -3531,6 +3626,9 @@ propuestas:
     pagina: 19
   - texto: Auditorías públicas finales.
     pagina: 15
+  enfoques:
+  - transparencia-control
+  - transparencia-informacion
   rubrica:
     meta:
       valor: true
@@ -3615,6 +3713,9 @@ propuestas:
     pagina: 19
   - texto: Audiencia de mitad de período.
     pagina: 15
+  enfoques:
+  - transparencia-informacion
+  - transparencia-participacion
   rubrica:
     meta:
       valor: true
@@ -3695,6 +3796,8 @@ propuestas:
   contexto:
   - texto: Conjuntos de datos publicados y actualizados.
     pagina: 19
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false

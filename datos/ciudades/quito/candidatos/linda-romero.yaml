@@ -27,6 +27,9 @@ propuestas:
     coordinación con los
   pagina: 3
   cita_verificada: true
+  enfoques:
+  - transparencia-participacion
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -116,6 +119,8 @@ propuestas:
     pagina: 11
   - texto: Corto plazo
     pagina: 20
+  enfoques:
+  - seguridad-vigilancia-y-alertas
   rubrica:
     meta:
       valor: false
@@ -198,6 +203,9 @@ propuestas:
   cita: Corredores escolares seguros • Iluminación. • Cámaras. • Señalización. • Presencia coordinada de agentes metropolitanos.
   pagina: 12
   cita_verificada: true
+  enfoques:
+  - seguridad-entornos-seguros
+  - seguridad-control-y-coordinacion
   rubrica:
     meta:
       valor: false
@@ -273,6 +281,8 @@ propuestas:
   cita: • Control del comercio irregular donde afecte la convivencia.
   pagina: 12
   cita_verificada: true
+  enfoques:
+  - espacio-publico-ordenar-comercio
   rubrica:
     meta:
       valor: false
@@ -357,6 +367,8 @@ propuestas:
     pagina: 27
   - texto: Permanente
     pagina: 20
+  enfoques:
+  - espacio-publico-recuperar-espacios
   rubrica:
     meta:
       valor: true
@@ -438,6 +450,8 @@ propuestas:
     pagina: 11
   - texto: Alcanzar 95%
     pagina: 27
+  enfoques:
+  - seguridad-entornos-seguros
   rubrica:
     meta:
       valor: true
@@ -519,6 +533,9 @@ propuestas:
   contexto:
   - texto: 'Programa 2: Prevención social de la violencia'
     pagina: 12
+  enfoques:
+  - inclusion-cuidados-proteccion
+  - inclusion-educacion-oportunidades
   rubrica:
     meta:
       valor: false
@@ -599,6 +616,9 @@ propuestas:
   cita: • Red metropolitana de atención psicosocial. • Programa Quito sin violencia intrafamiliar.
   pagina: 13
   cita_verificada: true
+  enfoques:
+  - inclusion-salud-comunitaria
+  - inclusion-cuidados-proteccion
   rubrica:
     meta:
       valor: false
@@ -681,6 +701,9 @@ propuestas:
   contexto:
   - texto: 'Programa 1: Consolidación del Metro de Quito'
     pagina: 13
+  enfoques:
+  - movilidad-transporte-publico
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -768,6 +791,9 @@ propuestas:
     pagina: 27
   - texto: Reducir a 10 minutos
     pagina: 27
+  enfoques:
+  - riesgos-monitoreo-y-alertas
+  - riesgos-respuesta-a-emergencias
   rubrica:
     meta:
       valor: true
@@ -850,6 +876,8 @@ propuestas:
   contexto:
   - texto: 'Programa 3: Gestión metropolitana de riesgos'
     pagina: 13
+  enfoques:
+  - riesgos-respuesta-a-emergencias
   rubrica:
     meta:
       valor: false
@@ -927,6 +955,8 @@ propuestas:
   cita: • Sistema inteligente de alertas tempranas.
   pagina: 13
   cita_verificada: true
+  enfoques:
+  - riesgos-monitoreo-y-alertas
   rubrica:
     meta:
       valor: false
@@ -1015,6 +1045,8 @@ propuestas:
     pagina: 20
   - texto: Mediano plazo
     pagina: 20
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: false
@@ -1095,6 +1127,8 @@ propuestas:
   contexto:
   - texto: 2. Incrementar la cobertura de infraestructura peatonal y ciclista.
     pagina: 13
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: false
@@ -1172,6 +1206,8 @@ propuestas:
   cita: 'Programa 4: Movilidad activa • Accesibilidad universal. • Recuperación de aceras. • Cruces seguros.'
   pagina: 14
   cita_verificada: true
+  enfoques:
+  - movilidad-segura-accesible
   rubrica:
     meta:
       valor: false
@@ -1259,6 +1295,8 @@ propuestas:
     pagina: 20
   - texto: Alcanzar 85%
     pagina: 27
+  enfoques:
+  - movilidad-obras-viales
   rubrica:
     meta:
       valor: true
@@ -1339,6 +1377,8 @@ propuestas:
   contexto:
   - texto: 'Programa 3: Infraestructura vial metropolitana'
     pagina: 14
+  enfoques:
+  - rural-vias-y-servicios
   rubrica:
     meta:
       valor: false
@@ -1415,6 +1455,9 @@ propuestas:
   cita: • Construcción de pasos deprimidos priorizados. • Intervenciones inteligentes en intersecciones críticas.
   pagina: 14
   cita_verificada: true
+  enfoques:
+  - movilidad-obras-viales
+  - movilidad-gestion-transito
   rubrica:
     meta:
       valor: false
@@ -1496,6 +1539,8 @@ propuestas:
   contexto:
   - texto: 1. Incrementar la inversión privada.
     pagina: 15
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -1581,6 +1626,8 @@ propuestas:
     pagina: 20
   - texto: Llegar a 3,5 noches
     pagina: 28
+  enfoques:
+  - cultura-turismo-eventos
   rubrica:
     meta:
       valor: true
@@ -1669,6 +1716,9 @@ propuestas:
     pagina: 15
   - texto: Corto plazo
     pagina: 20
+  enfoques:
+  - empleo-tramites-y-formalizacion
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -1752,6 +1802,8 @@ propuestas:
     pagina: 15
   - texto: Corto plazo
     pagina: 20
+  enfoques:
+  - cultura-turismo-eventos
   rubrica:
     meta:
       valor: false
@@ -1835,6 +1887,8 @@ propuestas:
     pagina: 15
   - texto: 4. Modernizar la infraestructura de mercados.
     pagina: 15
+  enfoques:
+  - espacio-publico-modernizar-mercados
   rubrica:
     meta:
       valor: false
@@ -1917,6 +1971,8 @@ propuestas:
     pagina: 28
   - texto: Restaurar 3.000 ha
     pagina: 28
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: true
@@ -2003,6 +2059,9 @@ propuestas:
     pagina: 20
   - texto: 5. Recuperar quebradas priorizadas.
     pagina: 16
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
+  - ambiente-contaminacion-y-clima
   rubrica:
     meta:
       valor: false
@@ -2089,6 +2148,8 @@ propuestas:
     pagina: 16
   - texto: • Protección de zonas de recarga.
     pagina: 16
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: false
@@ -2173,6 +2234,8 @@ propuestas:
   contexto:
   - texto: 'Programa 2: Quito verde'
     pagina: 17
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: false
@@ -2260,6 +2323,8 @@ propuestas:
     pagina: 20
   - texto: 3. Incrementar el porcentaje de reciclaje.
     pagina: 16
+  enfoques:
+  - ambiente-reciclar-y-aprovechar-residuos
   rubrica:
     meta:
       valor: false
@@ -2345,6 +2410,9 @@ propuestas:
     pagina: 20
   - texto: • Modernización de redes.
     pagina: 17
+  enfoques:
+  - agua-servicios-tratar-reutilizar
+  - agua-servicios-mantener-sistemas
   rubrica:
     meta:
       valor: false
@@ -2429,6 +2497,8 @@ propuestas:
     pagina: 28
   - texto: Permanente
     pagina: 20
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: true
@@ -2505,6 +2575,8 @@ propuestas:
   cita: • Conectar parques, quebradas y reservas ecológicas mediante infraestructura ambiental continua.
   pagina: 17
   cita_verificada: true
+  enfoques:
+  - ambiente-cuidar-naturaleza-y-animales
   rubrica:
     meta:
       valor: false
@@ -2587,6 +2659,9 @@ propuestas:
     pagina: 18
   - texto: • Simulacros metropolitanos.
     pagina: 18
+  enfoques:
+  - riesgos-monitoreo-y-alertas
+  - riesgos-preparacion-comunitaria
   rubrica:
     meta:
       valor: false
@@ -2675,6 +2750,8 @@ propuestas:
     pagina: 20
   - texto: Reducir a 5 días
     pagina: 28
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: true
@@ -2755,6 +2832,9 @@ propuestas:
   cita: 'App Quito • Aplicación única para: pagos; denuncias; reportes ciudadanos; seguimiento de obras; participación.'
   pagina: 18
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
+  - transparencia-participacion
   rubrica:
     meta:
       valor: false
@@ -2834,6 +2914,8 @@ propuestas:
   contexto:
   - texto: • Valorización energética.
     pagina: 18
+  enfoques:
+  - ambiente-reciclar-y-aprovechar-residuos
   rubrica:
     meta:
       valor: false
@@ -2911,6 +2993,8 @@ propuestas:
   cita: Creación del Centro Metropolitano de Analítica para apoyar la toma de decisiones.
   pagina: 19
   cita_verificada: true
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -2992,6 +3076,9 @@ propuestas:
   contexto:
   - texto: Observatorio ciudadano
     pagina: 19
+  enfoques:
+  - transparencia-participacion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3073,6 +3160,8 @@ propuestas:
     pagina: 19
   - texto: Revisión integral de la normativa municipal.
     pagina: 22
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3159,6 +3248,8 @@ propuestas:
     pagina: 29
   - texto: Gobierno abierto metropolitano
     pagina: 20
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: true
@@ -3243,6 +3334,8 @@ propuestas:
     pagina: 29
   - texto: Presupuesto participativo inteligente
     pagina: 19
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: true
@@ -3330,6 +3423,8 @@ propuestas:
     pagina: 27
   - texto: 'Programa 2: Quito emprende'
     pagina: 15
+  enfoques:
+  - empleo-apoyo-a-negocios
   rubrica:
     meta:
       valor: true
@@ -3413,6 +3508,8 @@ propuestas:
     pagina: 20
   - texto: Mediano plazo
     pagina: 20
+  enfoques:
+  - cultura-turismo-eventos
   rubrica:
     meta:
       valor: false
@@ -3495,6 +3592,10 @@ propuestas:
     pagina: 28
   - texto: Proyectos emblemáticos de la administración 2027–2031
     pagina: 20
+  enfoques:
+  - seguridad-vigilancia-y-alertas
+  - seguridad-entornos-seguros
+  - seguridad-prevencion-comunitaria
   rubrica:
     meta:
       valor: true
@@ -3587,6 +3688,8 @@ propuestas:
     pagina: 28
   - texto: Reducir a 60 minutos
     pagina: 27
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -3672,6 +3775,9 @@ propuestas:
     pagina: 15
   - texto: • Incubadoras empresariales. • Capacitación empresarial.
     pagina: 15
+  enfoques:
+  - empleo-apoyo-a-negocios
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -3758,6 +3864,9 @@ propuestas:
     pagina: 22
   - texto: Transparencia financiera.
     pagina: 22
+  enfoques:
+  - transparencia-gestion
+  - transparencia-control
   rubrica:
     meta:
       valor: false
@@ -3841,6 +3950,8 @@ propuestas:
     pagina: 22
   - texto: Incentivos vinculados al cumplimiento de metas.
     pagina: 22
+  enfoques:
+  - transparencia-gestion
   rubrica:
     meta:
       valor: false
@@ -3918,6 +4029,9 @@ propuestas:
   cita: 'Gobiernos parroquiales: Se establecerán mesas permanentes para:'
   pagina: 24
   cita_verificada: true
+  enfoques:
+  - rural-gestion-parroquial
+  - rural-vias-y-servicios
   rubrica:
     meta:
       valor: false
@@ -4001,6 +4115,8 @@ propuestas:
   - texto: 'Seguimiento trimestral: Cada dependencia municipal reportará: avance físico, avance financiero, cumplimiento de
       indicadores y'
     pagina: 26
+  enfoques:
+  - transparencia-informacion
   rubrica:
     meta:
       valor: false
@@ -4087,6 +4203,8 @@ propuestas:
     pagina: 25
   - texto: 8.5 Alianzas público-privadas.
     pagina: 26
+  enfoques:
+  - empleo-inversion-e-innovacion
   rubrica:
     meta:
       valor: false
@@ -4175,6 +4293,8 @@ propuestas:
   contexto:
   - texto: Llegar a 150 km
     pagina: 27
+  enfoques:
+  - movilidad-transporte-publico
   rubrica:
     meta:
       valor: true
@@ -4257,6 +4377,8 @@ propuestas:
     pagina: 28
   - texto: 150 por año
     pagina: 28
+  enfoques:
+  - transparencia-participacion
   rubrica:
     meta:
       valor: true
