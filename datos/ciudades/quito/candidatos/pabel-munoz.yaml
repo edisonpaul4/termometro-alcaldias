@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: pabel-munoz
+nombre: Pabel Muñoz
+lista: 2-17-70
+organizacion: Alianza Ciudadana
+foto: fuentes/ciudades/quito/candidatos/pabel-munoz/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1713278305.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/pabel-munoz/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/10443/469
+    titulo: Plan de trabajo Pabel Muñoz — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/pabel-munoz/plan-de-trabajo_2026-11-14.pdf
+  paginas: 93
+  sha256: 50dd13df4253d7f326701f1c212c54b34b5443a62529ea82560eb75566c010cf
+propuestas: []

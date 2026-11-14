@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: bernardo-jijon
+nombre: Bernardo Jijón
+lista: '3'
+organizacion: Partido Sociedad Patriótica 21 de Enero
+foto: fuentes/ciudades/quito/candidatos/bernardo-jijon/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1716822430.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/bernardo-jijon/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/1610/3231
+    titulo: Plan de trabajo Bernardo Jijón — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/bernardo-jijon/plan-de-trabajo_2026-11-14.pdf
+  paginas: 15
+  sha256: a4560d3dca273fbea9f66be64dc40fd3809a7a3f1a62bb23e953eafd7e511273
+propuestas: []

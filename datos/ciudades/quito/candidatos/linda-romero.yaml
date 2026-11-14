@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: linda-romero
+nombre: Linda Romero
+lista: '6'
+organizacion: Partido Social Cristiano
+foto: fuentes/ciudades/quito/candidatos/linda-romero/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1716776750.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/linda-romero/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/567/3902
+    titulo: Plan de trabajo Linda Romero — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/linda-romero/plan-de-trabajo_2026-11-14.pdf
+  paginas: 31
+  sha256: 8329f7bd739034e642efacea297b8323b83b360dfd8c2c34315ba8490e1b2bb3
+propuestas: []

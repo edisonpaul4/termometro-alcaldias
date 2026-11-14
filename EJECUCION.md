@@ -95,12 +95,12 @@ Orden por valor:
 ✅ **Listo cuando:** un solo comando lleva de un PDF ficticio a la web funcionando, sin ninguna API real.
 
 ### F5 · Fuentes reales (en paralelo desde el día 1)
-- [ ] Lista oficial de candidatos de Quito en el CNE: confirmar nombres, listas y estado de calificación
-- [ ] Los 10 planes de trabajo en PDF, en `fuentes/ciudades/quito/candidatos/<slug>/`
-- [ ] Fotos oficiales (CNE o fuente pública, con la fuente registrada)
+- [x] Lista oficial de candidatos de Quito en el CNE: confirmar nombres, listas y estado de calificación
+- [x] Los 10 planes de trabajo en PDF, en `fuentes/ciudades/quito/candidatos/<slug>/` (3 son escaneos: OCR pendiente)
+- [x] Fotos oficiales (CNE o fuente pública, con la fuente registrada) — miniaturas
 - [x] COOTAD (art. 55 y relacionados) en `fuentes/nacional/` (versión AME, vigente a RO 584 de jun 2024)
 - [ ] Trayectoria básica de cada candidato con fuentes
-- [ ] `fuentes.yaml` con URL, fecha y sha256 en cada carpeta
+- [x] `fuentes.yaml` con URL, fecha y sha256 en cada carpeta
 
 ✅ **Listo cuando:** los 10 planes están descargados y registrados, o hay un "no disponible" documentado.
 

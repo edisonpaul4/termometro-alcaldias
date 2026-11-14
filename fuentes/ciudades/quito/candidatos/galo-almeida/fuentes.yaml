@@ -1,6 +1,16 @@
-- archivo: null
+# Fuentes de GALO ALMEIDA GARZON — Lista 1 — MOVIMIENTO CENTRO DEMOCRÁTICO
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/4726
+- archivo: plan-de-trabajo_2026-11-14.pdf
   tipo: plan_trabajo
-  url: https://votoinformado.cne.gob.ec/
-  descargado: null
-  sha256: null
-  notas: "Plan de trabajo NO descargado (2026-11-14). La fuente oficial (Voto Informado del CNE, que publica los planes de trabajo por cantón) bloquea acceso automatizado (Incapsula; curl y WebFetch fallan). No se encontró copia en cne.gob.ec ni versión alojada por la campaña mediante búsqueda web. Pendiente: descargar desde Voto Informado con un navegador real (pestaña Alcaldes > Pichincha > Quito)."
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/4726/6181
+  descargado: '2026-11-14'
+  sha256: 43d7198fa6849b70a847c3c8cf5fa55c186e7979b216a81344e673b2622211a0
+  notas: '63 páginas; texto extraíble: sí (101386 caracteres). Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE
+    y verificados por sha256 calculado en el navegador.'
+- archivo: foto_2026-11-14.webp
+  tipo: foto
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1720161049.webp
+  descargado: '2026-11-14'
+  sha256: a380be1aa2010f62b92f58e47fc6a33cca79a2c02b29039e8978a9ddca942449
+  notas: Foto oficial (miniatura) publicada por el CNE. Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
+    por sha256 calculado en el navegador.

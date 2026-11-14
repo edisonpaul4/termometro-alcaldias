@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: harold-burbano
+nombre: Harold Burbano
+lista: '7'
+organizacion: Movimiento Acción Democrática Nacional (ADN)
+foto: fuentes/ciudades/quito/candidatos/harold-burbano/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/0401225404.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/harold-burbano/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/310/9950
+    titulo: Plan de trabajo Harold Burbano — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/harold-burbano/plan-de-trabajo_2026-11-14.pdf
+  paginas: 18
+  sha256: 3448c34046b2d72d11b4626839ee915c1555e9129bd7d44ee5d7c4970e60af70
+propuestas: []

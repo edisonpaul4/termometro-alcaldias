@@ -1,6 +1,16 @@
-- archivo: null
+# Fuentes de CESAR DIAZ — Lista 4 — MOVIMIENTO PUEBLO IGUALDAD DEMOCRACIA "PID"
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/3766
+- archivo: plan-de-trabajo_2026-11-14.pdf
   tipo: plan_trabajo
-  url: https://votoinformado.cne.gob.ec/
-  descargado: null
-  sha256: null
-  notas: "Plan de trabajo NO descargado (2026-11-14). La fuente oficial (Voto Informado del CNE, que publica los planes de trabajo por cantón) bloquea acceso automatizado (Incapsula; curl y WebFetch fallan). No se encontró copia en cne.gob.ec ni versión alojada por la campaña mediante búsqueda web. Pendiente: descargar desde Voto Informado con un navegador real (pestaña Alcaldes > Pichincha > Quito)."
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/3766/10658
+  descargado: '2026-11-14'
+  sha256: b5c8772b1bacd800f9af09624ee70369975ec04ba53a91bee9dfab72d808e6b4
+  notas: '22 páginas; texto extraíble: NO (requiere OCR) (0 caracteres). Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend
+    del CNE y verificados por sha256 calculado en el navegador.'
+- archivo: foto_2026-11-14.webp
+  tipo: foto
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/0501545214.webp
+  descargado: '2026-11-14'
+  sha256: 2d78154d07c6e95bb2b499106aaf3c00e5a2f70ce7522357ef10d2fe9b7d81df
+  notas: Foto oficial (miniatura) publicada por el CNE. Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
+    por sha256 calculado en el navegador.

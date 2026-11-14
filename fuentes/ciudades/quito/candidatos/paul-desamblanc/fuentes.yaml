@@ -1,6 +1,16 @@
-- archivo: null
+# Fuentes de PAUL DESAMBLANC — Lista 20 — MOVIMIENTO FUTURO
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/4686
+- archivo: plan-de-trabajo_2026-11-14.pdf
   tipo: plan_trabajo
-  url: https://votoinformado.cne.gob.ec/
-  descargado: null
-  sha256: null
-  notas: "Plan de trabajo NO descargado (2026-11-14). La fuente oficial (Voto Informado del CNE, que publica los planes de trabajo por cantón) bloquea acceso automatizado (Incapsula; curl y WebFetch fallan). No se encontró copia en cne.gob.ec ni versión alojada por la campaña mediante búsqueda web. Pendiente: descargar desde Voto Informado con un navegador real (pestaña Alcaldes > Pichincha > Quito)."
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/4686/5095
+  descargado: '2026-11-14'
+  sha256: cdcf79376c465ff2f05211b61886b3863b434ceb4ce9339f7fe04f481220fb94
+  notas: '45 páginas; texto extraíble: NO (requiere OCR) (0 caracteres). Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend
+    del CNE y verificados por sha256 calculado en el navegador.'
+- archivo: foto_2026-11-14.webp
+  tipo: foto
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1708445216.webp
+  descargado: '2026-11-14'
+  sha256: a527f7657f96bc1c78d5f99af75012cdba4e506f2657bda150d0efc11ef76141
+  notas: Foto oficial (miniatura) publicada por el CNE. Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
+    por sha256 calculado en el navegador.

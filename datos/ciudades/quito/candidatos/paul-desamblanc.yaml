@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: paul-desamblanc
+nombre: Paúl Desamblanc
+lista: '20'
+organizacion: Movimiento Futuro
+foto: fuentes/ciudades/quito/candidatos/paul-desamblanc/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1708445216.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/paul-desamblanc/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/4686/5095
+    titulo: Plan de trabajo Paúl Desamblanc — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/paul-desamblanc/plan-de-trabajo_2026-11-14.pdf
+  paginas: 45
+  sha256: cdcf79376c465ff2f05211b61886b3863b434ceb4ce9339f7fe04f481220fb94
+propuestas: []

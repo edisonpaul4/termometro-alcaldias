@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: cesar-diaz
+nombre: César Díaz
+lista: '4'
+organizacion: Movimiento Pueblo, Igualdad y Democracia (PID)
+foto: fuentes/ciudades/quito/candidatos/cesar-diaz/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/0501545214.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/cesar-diaz/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/3766/10658
+    titulo: Plan de trabajo César Díaz — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/cesar-diaz/plan-de-trabajo_2026-11-14.pdf
+  paginas: 22
+  sha256: b5c8772b1bacd800f9af09624ee70369975ec04ba53a91bee9dfab72d808e6b4
+propuestas: []

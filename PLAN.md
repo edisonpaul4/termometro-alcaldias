@@ -25,13 +25,13 @@ Una web estática, neutral y verificable para que un votante indeciso de Quito p
 
 ### Candidatos (10)
 
-Datos según la prensa. **Pendiente: verificar números de lista y estado de calificación en el CNE.**
+✅ **Verificada contra Voto Informado del CNE (14 nov 2026).** Planes de trabajo en `fuentes/`.
 
 | Lista | Candidato | Organización | Nota |
 |---|---|---|---|
-| 1 | Galo Almeida | Centro Democrático | |
+| 1 | Galo Almeida Garzón | Centro Democrático | |
 | 2-17-70 | Pabel Muñoz | Alianza Ciudadana | Alcalde actual, busca la reelección |
-| 3 | Felipe Bernardo Jijón | Sociedad Patriótica | |
+| 3 | Bernardo Jijón | Sociedad Patriótica | |
 | 4 | César Díaz | Pueblo, Igualdad y Democracia | |
 | 6 | Linda Romero | Partido Social Cristiano | |
 | 7 | Harold Burbano | ADN | |

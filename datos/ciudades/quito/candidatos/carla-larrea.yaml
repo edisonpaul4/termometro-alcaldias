@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: carla-larrea
+nombre: Carla Larrea
+lista: '21'
+organizacion: Movimiento CREO, Creando Oportunidades
+foto: fuentes/ciudades/quito/candidatos/carla-larrea/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1707296057.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/carla-larrea/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/3784/3063
+    titulo: Plan de trabajo Carla Larrea — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/carla-larrea/plan-de-trabajo_2026-11-14.pdf
+  paginas: 15
+  sha256: d02580411d7aeebff8aa2a68735b69e24870356bc39664b8f5bbb7ad0dbdd58e
+propuestas: []

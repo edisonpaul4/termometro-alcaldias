@@ -1,6 +1,16 @@
-- archivo: null
+# Fuentes de LINDA ROMERO — Lista 6 — PARTIDO SOCIAL CRISTIANO
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/567
+- archivo: plan-de-trabajo_2026-11-14.pdf
   tipo: plan_trabajo
-  url: https://votoinformado.cne.gob.ec/
-  descargado: null
-  sha256: null
-  notas: "Plan de trabajo NO descargado (2026-11-14). La fuente oficial (Voto Informado del CNE, que publica los planes de trabajo por cantón) bloquea acceso automatizado (Incapsula; curl y WebFetch fallan). No se encontró copia en cne.gob.ec ni versión alojada por la campaña mediante búsqueda web. Pendiente: descargar desde Voto Informado con un navegador real (pestaña Alcaldes > Pichincha > Quito)."
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/567/3902
+  descargado: '2026-11-14'
+  sha256: 8329f7bd739034e642efacea297b8323b83b360dfd8c2c34315ba8490e1b2bb3
+  notas: '31 páginas; texto extraíble: sí (38959 caracteres). Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE
+    y verificados por sha256 calculado en el navegador.'
+- archivo: foto_2026-11-14.webp
+  tipo: foto
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1716776750.webp
+  descargado: '2026-11-14'
+  sha256: 4be54cd560964698e60c8b2a9b909551adc173387bc8f6de2735fe4bd5a48eab
+  notas: Foto oficial (miniatura) publicada por el CNE. Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
+    por sha256 calculado en el navegador.

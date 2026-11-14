@@ -1,0 +1,21 @@
+# Datos REALES. Propuestas pendientes del pipeline (F6).
+id: jorge-yunda
+nombre: Jorge Yunda
+lista: '8'
+organizacion: Partido Avanza
+foto: fuentes/ciudades/quito/candidatos/jorge-yunda/foto_2026-11-14.webp
+foto_fuente:
+  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1708052814.webp
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-14'
+  archivo: fuentes/ciudades/quito/candidatos/jorge-yunda/foto_2026-11-14.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/6252/3409
+    titulo: Plan de trabajo Jorge Yunda — Alcaldía de Quito 2026 (CNE)
+    consultado: '2026-11-14'
+    archivo: fuentes/ciudades/quito/candidatos/jorge-yunda/plan-de-trabajo_2026-11-14.pdf
+  paginas: 41
+  sha256: 9ce22e57f9db9863910da875e466a25dc9dc68f3c1f77f52fbd78c9a7931dd63
+propuestas: []
