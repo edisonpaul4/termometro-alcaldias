@@ -15,6 +15,7 @@ Roles (ver PLAN.md §8):
 from __future__ import annotations
 
 import json
+import threading
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -95,45 +96,188 @@ def llamar(prov: ProveedorIA, sol: Solicitud, tipo: type[M], intentos: int = 3) 
     """Llama al proveedor con reintentos (backoff exponencial) y valida la salida."""
     ultimo: Exception | None = None
     for i in range(intentos):
+        GASTO.verificar()
         t0 = time.monotonic()
         try:
             r = prov.generar(sol)
             salida = tipo.model_validate(r.model_dump() if isinstance(r, BaseModel) else r)
-            registrar(sol, prov, time.monotonic() - t0)
+            registrar(sol, prov, time.monotonic() - t0, getattr(prov, "ultimo_uso", None))
             return salida
-        except NotImplementedError:
+        except (NotImplementedError, PresupuestoAgotado):
             raise
         except Exception as e:  # noqa: BLE001 — se registra y se reintenta
             ultimo = e
-            registrar(sol, prov, time.monotonic() - t0, error=f"{type(e).__name__}: {e}")
+            registrar(sol, prov, time.monotonic() - t0, getattr(prov, "ultimo_uso", None), error=f"{type(e).__name__}: {str(e)[:300]}")
             if i < intentos - 1 and config().modo == "real":
                 time.sleep(2**i)
     raise RuntimeError(f"{prov.proveedor.value}/{prov.modelo} falló en {sol.paso}: {ultimo}") from ultimo
 
 
-# ─── Proveedores reales (F6) ────────────────────────────────────────────────
+# ─── Costos y presupuesto ───────────────────────────────────────────────────
+
+# USD por millón de tokens (entrada, salida). Fuente: páginas oficiales de precios, 14 nov 2026.
+# Gemini 4 Carbon duplica su precio el 1 dic 2026. Los tokens de razonamiento se cobran como salida.
+PRECIOS = {
+    "claude-opus-5-5": (4.00, 20.00),
+    "gpt-6.1-sol": (2.00, 10.00),
+    "gemini-4-carbon": (2.00, 10.00),
+}
 
 
-class _Real:
-    proveedor: Proveedor
-
-    def __init__(self, modelo: str):
-        self.modelo = modelo
-
-    def generar(self, sol: Solicitud) -> BaseModel:
-        raise NotImplementedError(f"Proveedor {self.proveedor.value} real: se implementa en F6")
+class PresupuestoAgotado(RuntimeError):
+    pass
 
 
-class AnthropicIA(_Real):
+class Contador:
+    """Gasto acumulado de la corrida (thread-safe). Corta todo al superar MAX_USD."""
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self.usd = 0.0
+        self.tokens_in = 0
+        self.tokens_out = 0
+        self.llamadas = 0
+
+    def sumar(self, modelo: str, tin: int, tout: int) -> float:
+        pin, pout = PRECIOS.get(modelo, (0.0, 0.0))
+        costo = (tin * pin + tout * pout) / 1_000_000
+        with self._lock:
+            self.usd += costo
+            self.tokens_in += tin
+            self.tokens_out += tout
+            self.llamadas += 1
+        return costo
+
+    def verificar(self) -> None:
+        tope = config().max_usd
+        if self.usd >= tope:
+            raise PresupuestoAgotado(f"Presupuesto agotado: USD {self.usd:.2f} ≥ MAX_USD {tope:.2f}")
+
+
+GASTO = Contador()
+
+
+# ─── Proveedores reales ─────────────────────────────────────────────────────
+
+
+class _ConUso:
+    """Uso de la última llamada, por hilo (las llamadas del jurado corren en paralelo)."""
+
+    _tl: threading.local
+
+    @property
+    def ultimo_uso(self) -> dict:
+        return getattr(self._tl, "uso", {})
+
+
+def _uso(modelo: str, tin: int, tout: int) -> dict:
+    return {"tokens_entrada": tin, "tokens_salida": tout, "usd": round(GASTO.sumar(modelo, tin, tout), 5)}
+
+
+class AnthropicIA(_ConUso):
+    """Claude vía SDK oficial: streaming + salida estructurada (Pydantic) + fallback ante rechazos."""
+
     proveedor = Proveedor.anthropic
 
+    def __init__(self, modelo: str):
+        import anthropic
 
-class OpenAIIA(_Real):
+        self.modelo = modelo
+        self.cliente = anthropic.Anthropic(api_key=config().clave("ANTHROPIC_API_KEY"), max_retries=4)
+        self._tl = threading.local()
+
+    def generar(self, sol: Solicitud) -> BaseModel:
+        import base64
+
+        contenido: list[dict] = []
+        if sol.pdf:
+            datos = base64.standard_b64encode(sol.pdf.read_bytes()).decode("ascii")
+            contenido.append({"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": datos}})
+        contenido.append({"type": "text", "text": sol.usuario})
+        extra = {"system": sol.sistema} if sol.sistema else {}
+        with self.cliente.beta.messages.stream(
+            model=self.modelo,
+            max_tokens=64000,
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",  # si un clasificador rechaza, el servidor reintenta con el modelo de respaldo
+            output_config={"effort": "high" if sol.paso in ("extraccion", "enfoques_validacion") else "medium"},
+            output_format=sol.esquema,
+            messages=[{"role": "user", "content": contenido}],
+            **extra,
+        ) as stream:
+            msg = stream.get_final_message()
+        self._tl.uso = _uso(self.modelo, msg.usage.input_tokens + (msg.usage.cache_read_input_tokens or 0) + (msg.usage.cache_creation_input_tokens or 0), msg.usage.output_tokens)
+        if msg.stop_reason == "refusal":
+            raise RuntimeError(f"rechazo del modelo: {getattr(msg.stop_details, 'category', None)}")
+        if msg.stop_reason == "max_tokens":
+            raise RuntimeError("respuesta truncada (max_tokens)")
+        if msg.parsed_output is None:
+            raise RuntimeError("sin salida estructurada")
+        return msg.parsed_output
+
+
+class OpenAIIA(_ConUso):
     proveedor = Proveedor.openai
 
+    def __init__(self, modelo: str):
+        import openai
 
-class GoogleIA(_Real):
+        self.modelo = modelo
+        self.cliente = openai.OpenAI(api_key=config().clave("OPENAI_API_KEY"), max_retries=4)
+        self._tl = threading.local()
+
+    def generar(self, sol: Solicitud) -> BaseModel:
+        if sol.pdf:
+            raise NotImplementedError("OpenAI no recibe PDFs en este pipeline (rol sin documentos)")
+        r = self.cliente.responses.parse(
+            model=self.modelo,
+            instructions=sol.sistema or None,
+            input=[{"role": "user", "content": sol.usuario}],
+            text_format=sol.esquema,
+        )
+        u = r.usage
+        self._tl.uso = _uso(self.modelo, u.input_tokens if u else 0, u.output_tokens if u else 0)
+        if r.output_parsed is None:
+            raise RuntimeError("sin salida estructurada")
+        return r.output_parsed
+
+
+class GoogleIA(_ConUso):
     proveedor = Proveedor.google
+
+    def __init__(self, modelo: str):
+        from google import genai
+
+        self.modelo = modelo
+        self.cliente = genai.Client(api_key=config().clave("GEMINI_API_KEY"))
+        self._tl = threading.local()
+
+    def generar(self, sol: Solicitud) -> BaseModel:
+        from google.genai import types
+
+        partes: list = []
+        if sol.pdf:
+            partes.append(types.Part.from_bytes(data=sol.pdf.read_bytes(), mime_type="application/pdf"))
+        partes.append(sol.usuario)
+        r = self.cliente.models.generate_content(
+            model=self.modelo,
+            contents=partes,
+            config=types.GenerateContentConfig(
+                system_instruction=sol.sistema or None,
+                response_mime_type="application/json",
+                response_schema=sol.esquema,
+                max_output_tokens=65536,
+            ),
+        )
+        um = r.usage_metadata
+        tin = (um.prompt_token_count or 0) if um else 0
+        tout = ((um.candidates_token_count or 0) + (um.thoughts_token_count or 0)) if um else 0
+        self._tl.uso = _uso(self.modelo, tin, tout)
+        if isinstance(r.parsed, BaseModel):
+            return r.parsed
+        if r.text:
+            return sol.esquema.model_validate_json(r.text)
+        raise RuntimeError(f"sin salida estructurada (finish_reason={r.candidates[0].finish_reason if r.candidates else None})")
 
 
 # ─── Fábrica ────────────────────────────────────────────────────────────────

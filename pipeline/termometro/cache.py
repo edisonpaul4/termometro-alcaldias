@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import threading
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -46,7 +47,13 @@ class Estadisticas:
     calculos: int = 0
     por_paso: dict[str, list[int]] = field(default_factory=dict)
 
+    _lock: threading.Lock = field(default_factory=threading.Lock, repr=False)
+
     def registrar(self, paso: str, acierto: bool) -> None:
+        with self._lock:
+            self._registrar(paso, acierto)
+
+    def _registrar(self, paso: str, acierto: bool) -> None:
         a, c = self.por_paso.setdefault(paso, [0, 0])
         self.por_paso[paso] = [a + acierto, c + (not acierto)]
         if acierto:

@@ -108,6 +108,9 @@ def cmd_pipeline(args) -> int:
     print(f"✓ {len(rep.documentos)} documentos · {v} citas verificadas · {d} descartadas · {rep.exportadas} propuestas exportadas")
     print("  kappa: " + " · ".join(f"{k}={'—' if x is None else x}" for k, x in rep.kappa.items()))
     print(f"  cola de revisión humana: {len(rep.pendientes)} · observaciones de neutralidad: {len(rep.neutralidad)} · errores: {len(rep.errores)}")
+    from .llm import GASTO
+
+    print(f"  gasto: USD {GASTO.usd:.3f} · {GASTO.llamadas} llamadas · {GASTO.tokens_in:,} tokens entrada · {GASTO.tokens_out:,} salida")
     print("  caché:\n" + rep.cache)
     print(f"  reporte: {DIR_SALIDA / args.ciudad / 'reporte.md'}")
     return 0

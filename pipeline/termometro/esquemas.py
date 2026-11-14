@@ -1,4 +1,9 @@
-"""Esquemas de salida de cada paso del pipeline (lo que se pide a la IA como JSON estructurado)."""
+"""Esquemas de salida de cada paso del pipeline (lo que se pide a la IA como JSON estructurado).
+
+Sin restricciones de largo/patrón/rango en los esquemas que van a la API: no todos los proveedores
+las soportan en salidas estructuradas. Esas reglas se aplican después, en el pipeline
+(recorte de resúmenes, saneamiento de ids e íconos, verificación de citas).
+"""
 
 from __future__ import annotations
 
@@ -11,9 +16,9 @@ from .citas import ResultadoCita
 
 class PropuestaExtraida(BaseModel):
     tema: str = Field(description="id de uno de los temas permitidos")
-    resumen: str = Field(max_length=220, description="Resumen neutral en una oración, sin adjetivos valorativos")
+    resumen: str = Field(description="Resumen neutral en una oración (máx. 200 caracteres), sin adjetivos valorativos")
     cita: str = Field(description="Fragmento COPIADO LITERALMENTE del plan, sin cambiar ni una palabra")
-    pagina: int = Field(ge=1, description="Página del PDF donde está la cita")
+    pagina: int = Field(description="Página del PDF donde está la cita (1 = primera)")
 
 
 class Extraccion(BaseModel):
@@ -26,7 +31,7 @@ class Transcripcion(BaseModel):
 
 class VotoCriterio(BaseModel):
     valor: bool
-    justificacion: str = Field(max_length=300)
+    justificacion: str = Field(description="Una oración")
 
 
 class VotoRubrica(BaseModel):
@@ -37,9 +42,9 @@ class VotoRubrica(BaseModel):
 
 
 class EnfoquePropuesto(BaseModel):
-    id: str = Field(pattern=r"^[a-z0-9]+(-[a-z0-9]+)*$")
-    nombre: str = Field(max_length=40)
-    descripcion: str = Field(max_length=120)
+    id: str = Field(description="slug en minúsculas con guiones")
+    nombre: str = Field(description="Máx. 4 palabras")
+    descripcion: str = Field(description="Máx. 120 caracteres")
     icono: str
 
 
@@ -49,7 +54,7 @@ class Asignacion(BaseModel):
 
 
 class Agrupacion(BaseModel):
-    enfoques: list[EnfoquePropuesto] = Field(min_length=2, max_length=4)
+    enfoques: list[EnfoquePropuesto] = Field(description="Entre 2 y 4 enfoques")
     asignaciones: list[Asignacion]
 
 

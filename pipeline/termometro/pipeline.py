@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import re
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -216,12 +217,16 @@ def agrupar_enfoques(tema: Tema, props: list[PropuestaVerificada], eq: Equipo, c
 
     # Saneamiento determinístico: prefijo de id, íconos válidos, asignaciones conocidas
     validos = {}
-    for e in ag.enfoques:
-        eid = e.id if e.id.startswith(f"{tema.id}-") else f"{tema.id}-{e.id}"
+    for e in ag.enfoques[:4]:
+        slug = re.sub(r"[^a-z0-9]+", "-", e.id.lower()).strip("-") or "enfoque"
+        eid = slug if slug.startswith(f"{tema.id}-") else f"{tema.id}-{slug}"
         icono = e.icono if e.icono in iconos else tema.icono
         if icono != e.icono:
             rep.errores.append(f"enfoque {eid}: ícono '{e.icono}' no permitido → '{icono}'")
-        validos[e.id] = e.model_copy(update={"id": eid, "icono": icono})
+        validos[e.id] = e.model_copy(update={"id": eid, "icono": icono, "nombre": e.nombre.strip()[:40], "descripcion": e.descripcion.strip()[:160]})
+    if len(validos) < 2:
+        rep.errores.append(f"tema {tema.id}: menos de 2 enfoques válidos, se omite")
+        return None
     asign = [a.model_copy(update={"enfoques": [validos[x].id for x in a.enfoques if x in validos]}) for a in ag.asignaciones if a.propuesta_id in ids]
     return Agrupacion(enfoques=list(validos.values()), asignaciones=asign)
 
@@ -243,11 +248,9 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
     revision = _leer_revision(dir_datos / "ciudades" / ciudad / "revision.yaml")
 
     candidatos = [c for c in dc.candidatos if not solo or c.id in solo]
-    docs: dict[str, ResultadoDocumento] = {}
-    for c in candidatos:
-        r = procesar_documento(c, sitio.temas, eq, cache, rep)
-        if r:
-            docs[c.id] = r
+    with ThreadPoolExecutor(max_workers=4 if cfg.modo == "real" else 1) as ex:
+        resultados = list(ex.map(lambda c: procesar_documento(c, sitio.temas, eq, cache, rep), candidatos))
+    docs: dict[str, ResultadoDocumento] = {r.candidato: r for r in resultados if r}
 
     todas = [pv for r in docs.values() for pv in r.verificadas if not revision.get(pv.id, {}).get("descartar")]
     for pv in todas:  # ediciones humanas de resumen/tema
@@ -259,7 +262,8 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
 
     # [4] + [5]
     terminos = {c.id: terminos_identificables(c) for c in dc.candidatos}
-    votos = {pv.id: votar(pv, eq.jurado, terminos[pv.candidato], cache, rep) for pv in todas}
+    with ThreadPoolExecutor(max_workers=8 if cfg.modo == "real" else 1) as ex:
+        votos = dict(zip([pv.id for pv in todas], ex.map(lambda pv: votar(pv, eq.jurado, terminos[pv.candidato], cache, rep), todas)))
     rubricas: dict[str, Rubrica] = {}
     for pv in todas:
         cal: dict[str, Calificacion] = {}
