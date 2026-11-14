@@ -75,24 +75,31 @@ Orden por valor:
 
 ✅ **Listo cuando:** la ciudad `demo` se puede recorrer entera en el celular y el build estático funciona.
 
-### F4 · Pipeline (con IA mock)
-- [ ] Interfaz `LLMProvider` con las implementaciones `MockProvider` (respuestas fijas desde `pipeline/fixtures/`), `ClaudeProvider`, `OpenAIProvider` y `GeminiProvider`. Los tres reales quedan como esqueleto.
-- [ ] `LLM_MODE=mock|real` elige el proveedor
-- [ ] Pasos implementados y probados con el mock:
-  - [ ] [0] PDF → texto por página (más OCR de respaldo)
-  - [ ] [1] Extracción
-  - [ ] [2] **Verificación de citas** (lógica real, sin IA). Los fixtures incluyen a propósito una cita inventada para comprobar que se descarta.
-  - [ ] [3] Auditoría de cobertura
-  - [ ] [4] Jurado anonimizado (3 proveedores en paralelo)
-  - [ ] [5] Consenso por mayoría, kappa de Fleiss y cola de revisión
-  - [ ] [6] Enfoques
-  - [ ] [7] Auditoría de neutralidad
-  - [ ] [8] Exportación a `datos/` (valida contra el schema)
-- [ ] Caché por hash, bitácora de llamadas y reporte de calidad
-- [ ] **Herramienta de revisión humana**: CLI simple para aprobar, corregir o descartar los elementos de la cola
-- [ ] Test end-to-end: un **plan de trabajo ficticio en PDF** → pipeline mock → `datos/ciudades/demo/` → build de la web
+### F4 ✅ · Pipeline (con IA mock)
+- [x] Interfaz `LLMProvider` con las implementaciones `MockProvider` (respuestas fijas desde `pipeline/fixtures/`), `ClaudeProvider`, `OpenAIProvider` y `GeminiProvider`. Los tres reales quedan como esqueleto.
+- [x] `LLM_MODE=mock|real` elige el proveedor
+- [x] Pasos implementados y probados con el mock:
+  - [x] [0] PDF → texto por página (más OCR de respaldo)
+  - [x] [1] Extracción
+  - [x] [2] **Verificación de citas** (lógica real, sin IA). Los fixtures incluyen a propósito una cita inventada para comprobar que se descarta.
+  - [x] [3] Auditoría de cobertura
+  - [x] [4] Jurado anonimizado (3 proveedores en paralelo)
+  - [x] [5] Consenso por mayoría, kappa de Fleiss y cola de revisión
+  - [x] [6] Enfoques
+  - [x] [7] Auditoría de neutralidad
+  - [x] [8] Exportación a `datos/` (valida contra el schema)
+- [x] Caché por hash, bitácora de llamadas y reporte de calidad
+- [x] **Revisión humana**: el pipeline genera `pipeline/.salida/<ciudad>/pendientes.yaml`; las decisiones van en `datos/ciudades/<ciudad>/revision.yaml` y se re-aplican en cada corrida
+- [x] Test end-to-end: un **plan de trabajo ficticio en PDF** → pipeline mock → `datos/ciudades/demo/` → build de la web
 
 ✅ **Listo cuando:** un solo comando lleva de un PDF ficticio a la web funcionando, sin ninguna API real.
+
+
+**Notas de F4:**
+- Incremental: cada llamada a la IA se cachea por (entrada, versión del prompt = hash de su contenido, modelo). Una segunda corrida sin cambios cuesta USD 0, y lo verifica un test.
+- Planes escaneados: Gemini transcribe (paso 0b) y las citas se verifican contra esa transcripción, independiente del extractor (Claude).
+- En modo mock la salida va a `pipeline/.salida/datos/`, nunca a `datos/` de una ciudad real.
+- Ensayo con los 10 PDF reales de Quito en mock: 319 de 329 citas verificadas; las 10 descartadas son exactamente las 10 inventadas a propósito por el mock.
 
 ### F5 · Fuentes reales (en paralelo desde el día 1)
 - [x] Lista oficial de candidatos de Quito en el CNE: confirmar nombres, listas y estado de calificación

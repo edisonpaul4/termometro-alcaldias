@@ -96,6 +96,23 @@ def cmd_demo(args) -> int:
     return 0
 
 
+def cmd_pipeline(args) -> int:
+    from .config import DIR_SALIDA, config
+    from .pipeline import ejecutar
+
+    cfg = config()
+    print(f"▶ pipeline · ciudad={args.ciudad} · {cfg!r}")
+    rep = ejecutar(args.ciudad, solo=args.solo or None, destino=Path(args.destino) if args.destino else None)
+    v = sum(d["verificadas"] for d in rep.documentos.values())
+    d = sum(d["descartadas"] for d in rep.documentos.values())
+    print(f"✓ {len(rep.documentos)} documentos · {v} citas verificadas · {d} descartadas · {rep.exportadas} propuestas exportadas")
+    print("  kappa: " + " · ".join(f"{k}={'—' if x is None else x}" for k, x in rep.kappa.items()))
+    print(f"  cola de revisión humana: {len(rep.pendientes)} · observaciones de neutralidad: {len(rep.neutralidad)} · errores: {len(rep.errores)}")
+    print("  caché:\n" + rep.cache)
+    print(f"  reporte: {DIR_SALIDA / args.ciudad / 'reporte.md'}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="termometro", description="Pipeline del Termómetro de Alcaldías")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -119,6 +136,12 @@ def main(argv: list[str] | None = None) -> int:
     d = sub.add_parser("demo", help="Regenera la ciudad ficticia 'demo' (datos mock)")
     d.add_argument("--datos", default=str(DIR_DATOS))
     d.set_defaults(func=cmd_demo)
+
+    pl = sub.add_parser("pipeline", help="Corre el pipeline multi-IA (incremental) para una ciudad")
+    pl.add_argument("--ciudad", required=True)
+    pl.add_argument("--solo", nargs="*", help="Procesar solo estos candidatos (ids)")
+    pl.add_argument("--destino", help="Directorio datos/ de salida (por defecto: datos/ en modo real, pipeline/.salida/datos en mock)")
+    pl.set_defaults(func=cmd_pipeline)
 
     args = p.parse_args(argv)
     return args.func(args)

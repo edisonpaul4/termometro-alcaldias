@@ -6,7 +6,7 @@ CIUDAD  ?= quito
 DATOS_WEB := web/src/lib/server/datos.gen.json
 FOTOS_WEB := web/static/fotos
 
-.PHONY: ayuda setup test validar validar-produccion schema datos web build
+.PHONY: ayuda setup test validar validar-produccion schema datos web build pipeline
 
 ayuda:
 	@echo "setup               Instala dependencias (pipeline + web)"
@@ -16,6 +16,7 @@ ayuda:
 	@echo "schema              Regenera JSON Schema + tipos TypeScript desde los modelos"
 	@echo "web                 Servidor de desarrollo de la web"
 	@echo "build               Build estático de PRODUCCIÓN (falla si hay mocks activos)"
+	@echo "pipeline            Pipeline multi-IA incremental: make pipeline CIUDAD=quito (LLM_MODE en .env)"
 
 setup:
 	python3 -m venv pipeline/.venv
@@ -45,3 +46,6 @@ web: datos
 build:
 	$(PY)/termometro exportar --produccion --out $(DATOS_WEB) --fotos $(FOTOS_WEB)
 	cd web && npm run build
+
+pipeline:
+	$(PY)/termometro pipeline --ciudad $(CIUDAD)

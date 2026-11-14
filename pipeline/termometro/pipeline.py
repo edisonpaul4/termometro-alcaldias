@@ -1,0 +1,367 @@
+"""Orquestador del pipeline multi-IA (PLAN.md §8). Incremental: cada llamada a la IA se cachea
+por el hash de su entrada + versión del prompt + modelo; volver a correr solo procesa lo nuevo.
+
+    [0] texto por página (pdftotext)          [0b] transcripción si es escaneado (Gemini)
+    [1] extracción (Claude)                   [2] verificación de citas (sin IA)
+    [3] auditoría de cobertura (Gemini)       [4] jurado a ciegas (Claude, GPT, Gemini)
+    [5] consenso + kappa                      [6] enfoques (GPT propone, Claude valida)
+    [7] auditoría de neutralidad (GPT)        [8] exportación + cola de revisión humana
+"""
+
+from __future__ import annotations
+
+import re
+from collections import defaultdict
+from dataclasses import dataclass, field
+from pathlib import Path
+
+import yaml
+
+from .cache import Cache, huella
+from .citas import normalizar, verificar
+from .config import DIR_SALIDA, config
+from .consenso import consolidar, kappa_fleiss, resolver_humano
+from .datos import DIR_DATOS, RAIZ_REPO, cargar
+from .esquemas import (
+    Agrupacion,
+    AuditoriaNeutralidad,
+    Extraccion,
+    PropuestaExtraida,
+    PropuestaVerificada,
+    ResultadoDocumento,
+    Transcripcion,
+    VotoRubrica,
+)
+from .llm import Equipo, ProveedorIA, Solicitud, cargar_prompt, equipo, llamar
+from .modelos import Calificacion, Candidato, Criterio, Enfoque, Enfoques, Propuesta, Rubrica, Tema, VotoJurado
+from .texto import texto_pdf
+
+CRITERIOS = [c.value for c in Criterio]
+
+
+# ─── Utilidades ─────────────────────────────────────────────────────────────
+
+
+def id_propuesta(candidato: str, cita: str) -> str:
+    """Estable entre corridas: mismo candidato + misma cita = mismo id."""
+    return f"{candidato}-{huella(normalizar(cita))[:8]}"
+
+
+def iconos_permitidos() -> set[str]:
+    """Única fuente de verdad: el registro de íconos de la web."""
+    ts = (RAIZ_REPO / "web/src/lib/iconos.ts").read_text(encoding="utf-8")
+    bloque = ts.split("export const contenido", 1)[1].split("};", 1)[0]
+    return set(re.findall(r"'([a-z0-9-]+)':", bloque))
+
+
+def anonimizar(texto: str, terminos: list[str]) -> str:
+    for t in sorted(terminos, key=len, reverse=True):
+        texto = re.sub(re.escape(t), "[candidatura]", texto, flags=re.IGNORECASE)
+    return texto
+
+
+def terminos_identificables(c: Candidato) -> list[str]:
+    genericas = {"movimiento", "partido", "alianza", "ciudadana", "democracia", "nacional", "oportunidades"}
+    palabras = [w for w in re.findall(r"[\wÁÉÍÓÚáéíóúÑñ]+", c.nombre) if len(w) >= 4]
+    org = [w for w in re.findall(r"[\wÁÉÍÓÚáéíóúÑñ]+", c.organizacion) if len(w) >= 5 and w.lower() not in genericas]
+    return [c.nombre, c.organizacion, *palabras, *org]
+
+
+def paginas_marcadas(paginas: list[str]) -> str:
+    return "\n\n".join(f"=== Página {i} ===\n{p.strip()}" for i, p in enumerate(paginas, start=1))
+
+
+# ─── Reporte ────────────────────────────────────────────────────────────────
+
+
+@dataclass
+class Reporte:
+    ciudad: str
+    modo: str
+    documentos: dict[str, dict] = field(default_factory=dict)
+    descartadas: list[PropuestaVerificada] = field(default_factory=list)
+    pendientes: dict[str, dict] = field(default_factory=dict)  # propuesta_id → qué falta decidir
+    neutralidad: list[dict] = field(default_factory=list)
+    kappa: dict[str, float | None] = field(default_factory=dict)
+    errores: list[str] = field(default_factory=list)
+    exportadas: int = 0
+    cache: str = ""
+
+    def markdown(self) -> str:
+        l = [f"# Reporte de calidad · {self.ciudad} · modo {self.modo}", ""]
+        l += ["## Documentos", "", "| Candidato | Págs | Escaneado | Verificadas | Descartadas |", "|---|---|---|---|---|"]
+        for c, d in sorted(self.documentos.items()):
+            l.append(f"| {c} | {d['paginas']} | {'sí' if d['escaneado'] else 'no'} | {d['verificadas']} | {d['descartadas']} |")
+        total_v = sum(d["verificadas"] for d in self.documentos.values())
+        total_d = sum(d["descartadas"] for d in self.documentos.values())
+        pct = 100 * total_v / max(1, total_v + total_d)
+        l += ["", f"**Citas verificadas: {total_v} de {total_v + total_d} ({pct:.1f}%)**", ""]
+        l += ["## Acuerdo entre jurados (kappa de Fleiss)", ""]
+        for crit, k in self.kappa.items():
+            nivel = "—" if k is None else "casi perfecto" if k >= 0.8 else "sustancial" if k >= 0.6 else "moderado" if k >= 0.4 else "⚠️ bajo: revisar la rúbrica"
+            l.append(f"- {crit}: {'—' if k is None else k} ({nivel})")
+        l += ["", f"## Cola de revisión humana: {len(self.pendientes)}", ""]
+        for pid, motivo in list(self.pendientes.items())[:50]:
+            l.append(f"- `{pid}`: {motivo['motivo']}")
+        l += ["", f"## Auditoría de neutralidad: {len(self.neutralidad)} observaciones", ""]
+        for o in self.neutralidad[:50]:
+            l.append(f"- `{o['propuesta_id']}`: {o['problema']} → {o['sugerencia']}")
+        l += ["", f"## Citas descartadas (no encontradas en el plan): {len(self.descartadas)}", ""]
+        for p in self.descartadas[:50]:
+            l.append(f"- {p.candidato} p.{p.pagina}: “{p.cita[:140]}” ({p.verificacion.metodo}, similitud {p.verificacion.similitud})")
+        if self.errores:
+            l += ["", "## Errores", "", *[f"- {e}" for e in self.errores]]
+        l += ["", f"Propuestas exportadas: **{self.exportadas}**", "", "## Caché", "", "```", self.cache, "```"]
+        return "\n".join(l) + "\n"
+
+
+# ─── Pasos por documento [0]–[3] ────────────────────────────────────────────
+
+
+def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache, rep: Reporte) -> ResultadoDocumento | None:
+    if not c.plan_trabajo.disponible or not c.plan_trabajo.fuente or not c.plan_trabajo.fuente.archivo:
+        return None
+    pdf = RAIZ_REPO / c.plan_trabajo.fuente.archivo
+    texto = texto_pdf(pdf, cache)
+    paginas = texto.paginas
+
+    if texto.escaneado:  # [0b] transcripción independiente del extractor
+        p = cargar_prompt("transcripcion")
+        sol = Solicitud("transcripcion", p.texto, "Transcribe el documento adjunto.", Transcripcion, pdf=pdf, extra={"paginas": paginas})
+        tr = cache.obtener("transcripcion", p.version, eq.transcriptor.modelo, texto.sha256, Transcripcion, lambda: llamar(eq.transcriptor, sol, Transcripcion))
+        paginas = tr.paginas or paginas
+
+    ids_temas = [t.id for t in temas]
+    lista_temas = "\n".join(f"  - `{t.id}`: {t.nombre} ({t.descripcion})" for t in temas)
+
+    # [1] extracción
+    p = cargar_prompt("extraccion")
+    usuario = p.render(TEMAS=lista_temas, PAGINAS=paginas_marcadas(paginas))
+    sol = Solicitud("extraccion", "", usuario, Extraccion, pdf=pdf if texto.escaneado else None, extra={"paginas": paginas})
+    ext = cache.obtener("extraccion", p.version, eq.extractor.modelo, huella([texto.sha256, ids_temas]), Extraccion, lambda: llamar(eq.extractor, sol, Extraccion))
+
+    verificadas: dict[str, PropuestaVerificada] = {}
+    descartadas: list[PropuestaVerificada] = []
+
+    def incorporar(props: list[PropuestaExtraida], origen: str) -> None:
+        for pe in props:
+            r = verificar(pe.cita, paginas, pe.pagina)
+            pv = PropuestaVerificada(
+                id=id_propuesta(c.id, pe.cita), candidato=c.id, tema=pe.tema if pe.tema in ids_temas else "",
+                resumen=pe.resumen.strip(), cita=pe.cita.strip(), pagina=r.pagina or pe.pagina, verificacion=r, origen=origen,
+            )
+            if r.verificada and pv.tema and pv.id not in verificadas:
+                verificadas[pv.id] = pv
+            elif not r.verificada or not pv.tema:
+                descartadas.append(pv)
+
+    incorporar(ext.propuestas, "extraccion")  # [2]
+
+    # [3] cobertura (una vuelta)
+    p = cargar_prompt("cobertura")
+    extraidas = "\n".join(f"- [{v.tema}] {v.resumen}" for v in verificadas.values())
+    usuario = p.render(TEMAS_IDS=", ".join(ids_temas), EXTRAIDAS=extraidas, PAGINAS=paginas_marcadas(paginas))
+    sol = Solicitud("cobertura", "", usuario, Extraccion, pdf=pdf if texto.escaneado else None, extra={"paginas": paginas})
+    cob = cache.obtener("cobertura", p.version, eq.cobertura.modelo, huella([texto.sha256, sorted(verificadas)]), Extraccion, lambda: llamar(eq.cobertura, sol, Extraccion))
+    incorporar(cob.propuestas, "cobertura")
+
+    rep.documentos[c.id] = {"paginas": len(paginas), "escaneado": texto.escaneado, "verificadas": len(verificadas), "descartadas": len(descartadas)}
+    rep.descartadas += descartadas
+    return ResultadoDocumento(candidato=c.id, sha256=texto.sha256, escaneado=texto.escaneado, verificadas=list(verificadas.values()), descartadas=descartadas)
+
+
+# ─── [4] Jurado ─────────────────────────────────────────────────────────────
+
+
+def votar(pv: PropuestaVerificada, jurado: list[ProveedorIA], terminos: list[str], cache: Cache, rep: Reporte) -> dict[str, list[VotoJurado]]:
+    p = cargar_prompt("jurado")
+    resumen, cita = anonimizar(pv.resumen, terminos), anonimizar(pv.cita, terminos)
+    usuario = p.render(TEMA=pv.tema, RESUMEN=resumen, CITA=cita)
+    entrada = huella([pv.tema, resumen, cita])
+    por_criterio: dict[str, list[VotoJurado]] = {k: [] for k in CRITERIOS}
+    for j in jurado:
+        sol = Solicitud("jurado", "", usuario, VotoRubrica, extra={"cita": cita, "tema": pv.tema})
+        try:
+            vr = cache.obtener("jurado", p.version, j.modelo, entrada, VotoRubrica, lambda j=j, sol=sol: llamar(j, sol, VotoRubrica))
+            for k in CRITERIOS:
+                vc = getattr(vr, k)
+                por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=vc.valor, justificacion=vc.justificacion))
+        except RuntimeError as e:  # jurado caído: voto nulo, NO se cachea (se reintenta en la próxima corrida)
+            rep.errores.append(f"jurado {j.modelo} en {pv.id}: {e}")
+            for k in CRITERIOS:
+                por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=None, justificacion=None))
+    return por_criterio
+
+
+# ─── [6] Enfoques ───────────────────────────────────────────────────────────
+
+
+def agrupar_enfoques(tema: Tema, props: list[PropuestaVerificada], eq: Equipo, cache: Cache, rep: Reporte) -> Agrupacion | None:
+    if len(props) < 2:
+        return None
+    iconos = iconos_permitidos()
+    lista = "\n".join(f"- `{x.id}`: {x.resumen}" for x in sorted(props, key=lambda x: x.id))
+    entrada = huella([tema.id, [(x.id, x.resumen) for x in sorted(props, key=lambda x: x.id)]])
+    ids = [x.id for x in props]
+
+    p1 = cargar_prompt("enfoques")
+    u1 = p1.render(TEMA=f"{tema.nombre} ({tema.descripcion})", PREFIJO=tema.id, ICONOS=", ".join(sorted(iconos)), PROPUESTAS=lista)
+    s1 = Solicitud("enfoques", "", u1, Agrupacion, extra={"tema": tema.id, "propuestas": ids})
+    ag = cache.obtener("enfoques", p1.version, eq.enfoques_propone.modelo, entrada, Agrupacion, lambda: llamar(eq.enfoques_propone, s1, Agrupacion))
+
+    p2 = cargar_prompt("enfoques_validacion")
+    u2 = p2.render(TEMA=tema.nombre, ICONOS=", ".join(sorted(iconos)), AGRUPACION=ag.model_dump_json(indent=1), PROPUESTAS=lista)
+    s2 = Solicitud("enfoques_validacion", "", u2, Agrupacion, extra={"agrupacion": ag.model_dump()})
+    ag = cache.obtener("enfoques_val", p2.version, eq.enfoques_valida.modelo, huella([entrada, ag.model_dump()]), Agrupacion, lambda: llamar(eq.enfoques_valida, s2, Agrupacion))
+
+    # Saneamiento determinístico: prefijo de id, íconos válidos, asignaciones conocidas
+    validos = {}
+    for e in ag.enfoques:
+        eid = e.id if e.id.startswith(f"{tema.id}-") else f"{tema.id}-{e.id}"
+        icono = e.icono if e.icono in iconos else tema.icono
+        if icono != e.icono:
+            rep.errores.append(f"enfoque {eid}: ícono '{e.icono}' no permitido → '{icono}'")
+        validos[e.id] = e.model_copy(update={"id": eid, "icono": icono})
+    asign = [a.model_copy(update={"enfoques": [validos[x].id for x in a.enfoques if x in validos]}) for a in ag.asignaciones if a.propuesta_id in ids]
+    return Agrupacion(enfoques=list(validos.values()), asignaciones=asign)
+
+
+# ─── Orquestación ───────────────────────────────────────────────────────────
+
+
+def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None = None, solo: list[str] | None = None,
+             cache: Cache | None = None, eq: Equipo | None = None, dir_salida: Path = DIR_SALIDA) -> Reporte:
+    cfg = config()
+    cache = cache or Cache()
+    eq = eq or equipo()
+    sitio = cargar(dir_datos)
+    dc = sitio.datos[ciudad]
+    rep = Reporte(ciudad=ciudad, modo=cfg.modo)
+    # En modo mock NUNCA se escribe sobre datos/ de una ciudad real
+    if destino is None:
+        destino = dir_datos if (cfg.modo == "real" or dc.ciudad.es_mock) else dir_salida / "datos"
+    revision = _leer_revision(dir_datos / "ciudades" / ciudad / "revision.yaml")
+
+    candidatos = [c for c in dc.candidatos if not solo or c.id in solo]
+    docs: dict[str, ResultadoDocumento] = {}
+    for c in candidatos:
+        r = procesar_documento(c, sitio.temas, eq, cache, rep)
+        if r:
+            docs[c.id] = r
+
+    todas = [pv for r in docs.values() for pv in r.verificadas if not revision.get(pv.id, {}).get("descartar")]
+    for pv in todas:  # ediciones humanas de resumen/tema
+        ed = revision.get(pv.id, {})
+        if ed.get("resumen"):
+            pv.resumen = ed["resumen"]
+        if ed.get("tema"):
+            pv.tema = ed["tema"]
+
+    # [4] + [5]
+    terminos = {c.id: terminos_identificables(c) for c in dc.candidatos}
+    votos = {pv.id: votar(pv, eq.jurado, terminos[pv.candidato], cache, rep) for pv in todas}
+    rubricas: dict[str, Rubrica] = {}
+    for pv in todas:
+        cal: dict[str, Calificacion] = {}
+        faltan = []
+        for k in CRITERIOS:
+            decision = revision.get(pv.id, {}).get("criterios", {}).get(k)
+            if decision:
+                cal[k] = resolver_humano(votos[pv.id][k], bool(decision["valor"]), decision.get("nota") or "Revisado")
+            elif (cons := consolidar(votos[pv.id][k])) is not None:
+                cal[k] = cons
+            else:
+                faltan.append(k)
+        if faltan:
+            rep.pendientes[pv.id] = {"motivo": f"jurado sin mayoría en: {', '.join(faltan)}", "criterios": faltan, "propuesta": pv}
+        else:
+            rubricas[pv.id] = Rubrica(**cal)
+    rep.kappa = {k: kappa_fleiss([[v.valor for v in votos[pid][k]] for pid in votos]) for k in CRITERIOS}
+
+    # [6]
+    por_tema: dict[str, list[PropuestaVerificada]] = defaultdict(list)
+    for pv in todas:
+        por_tema[pv.tema].append(pv)
+    enfoques: list[Enfoque] = []
+    asignacion: dict[str, list[str]] = {}
+    for t in sitio.temas:
+        ag = agrupar_enfoques(t, por_tema.get(t.id, []), eq, cache, rep)
+        if ag:
+            enfoques += [Enfoque(id=e.id, tema=t.id, nombre=e.nombre, descripcion=e.descripcion, icono=e.icono) for e in ag.enfoques]
+            asignacion |= {a.propuesta_id: a.enfoques for a in ag.asignaciones}
+
+    # [7]
+    _auditar_neutralidad(todas, dc.candidatos, eq, cache, rep)
+
+    # [8]
+    _exportar(ciudad, dc.candidatos, todas, rubricas, asignacion, enfoques, dir_datos, destino, cfg.modo == "mock", rep)
+    rep.cache = cache.stats.resumen()
+    _escribir_salidas(ciudad, rep, dir_salida)
+    return rep
+
+
+def _auditar_neutralidad(todas: list[PropuestaVerificada], candidatos: list[Candidato], eq: Equipo, cache: Cache, rep: Reporte) -> None:
+    if not todas:
+        return
+    letra = {c.id: chr(65 + i) for i, c in enumerate(sorted(candidatos, key=lambda x: huella(x.id)))}
+    resumenes = {pv.id: pv.resumen for pv in todas}
+    texto = "\n".join(f"- Candidatura {letra[pv.candidato]} · `{pv.id}`: {pv.resumen}" for pv in sorted(todas, key=lambda x: x.id))
+    p = cargar_prompt("neutralidad")
+    sol = Solicitud("neutralidad", "", p.render(RESUMENES=texto), AuditoriaNeutralidad, extra={"resumenes": resumenes})
+    au = cache.obtener("neutralidad", p.version, eq.neutralidad.modelo, huella(sorted(resumenes.items())), AuditoriaNeutralidad, lambda: llamar(eq.neutralidad, sol, AuditoriaNeutralidad))
+    rep.neutralidad = [o.model_dump() for o in au.observaciones if o.propuesta_id in resumenes]
+
+
+def _leer_revision(ruta: Path) -> dict[str, dict]:
+    if not ruta.exists():
+        return {}
+    return (yaml.safe_load(ruta.read_text(encoding="utf-8")) or {}).get("propuestas", {}) or {}
+
+
+def _exportar(ciudad, candidatos, todas, rubricas, asignacion, enfoques, dir_datos, destino, es_mock, rep) -> None:
+    dir_c = destino / "ciudades" / ciudad
+    (dir_c / "candidatos").mkdir(parents=True, exist_ok=True)
+    por_cand: dict[str, list[Propuesta]] = defaultdict(list)
+    ids_enfoques = {e.id for e in enfoques}
+    for pv in sorted(todas, key=lambda x: (x.pagina, x.id)):
+        if pv.id not in rubricas:
+            continue  # pendiente de revisión: no se publica
+        por_cand[pv.candidato].append(Propuesta(
+            id=pv.id, tema=pv.tema, resumen=pv.resumen[:220], cita=pv.cita, pagina=pv.pagina, cita_verificada=True,
+            enfoques=[e for e in asignacion.get(pv.id, []) if e in ids_enfoques], rubrica=rubricas[pv.id],
+        ))
+    for c in candidatos:
+        actualizado = c.model_copy(update={"propuestas": por_cand.get(c.id, []), "es_mock": c.es_mock or es_mock})
+        Candidato.model_validate(actualizado.model_dump())  # valida el contrato antes de escribir
+        _escribir_yaml(dir_c / "candidatos" / f"{c.id}.yaml", actualizado, "Generado por el pipeline. Ediciones: usar revision.yaml")
+        rep.exportadas += len(por_cand.get(c.id, []))
+    _escribir_yaml(dir_c / "enfoques.yaml", Enfoques(enfoques=enfoques), "Generado por el pipeline (paso 6)")
+    if destino != dir_datos:  # copia mínima para que la salida sea un datos/ válido por sí mismo
+        (destino / "temas.yaml").write_text((dir_datos / "temas.yaml").read_text(encoding="utf-8"), encoding="utf-8")
+        registro = [r for r in (yaml.safe_load((dir_datos / "ciudades.yaml").read_text(encoding="utf-8")) or []) if r["id"] == ciudad]
+        (destino / "ciudades.yaml").write_text(yaml.safe_dump(registro, allow_unicode=True, sort_keys=False), encoding="utf-8")
+        ciudad_src = (dir_datos / "ciudades" / ciudad / "ciudad.yaml").read_text(encoding="utf-8")
+        if es_mock and "es_mock: true" not in ciudad_src:
+            ciudad_src += "es_mock: true\n"
+        (dir_c / "ciudad.yaml").write_text(ciudad_src, encoding="utf-8")
+
+
+def _escribir_yaml(ruta: Path, modelo, comentario: str) -> None:
+    datos = modelo.model_dump(mode="json", exclude_defaults=True)
+    ruta.write_text(f"# {comentario}\n" + yaml.safe_dump(datos, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+
+
+def _escribir_salidas(ciudad: str, rep: Reporte, dir_salida: Path = DIR_SALIDA) -> None:
+    dir_s = dir_salida / ciudad
+    dir_s.mkdir(parents=True, exist_ok=True)
+    (dir_s / "reporte.md").write_text(rep.markdown(), encoding="utf-8")
+    # Plantilla para la revisión humana: copiar las decisiones a datos/ciudades/<c>/revision.yaml
+    plantilla = {"propuestas": {
+        pid: {
+            "_contexto": {"candidato": d["propuesta"].candidato, "resumen": d["propuesta"].resumen, "cita": d["propuesta"].cita, "pagina": d["propuesta"].pagina},
+            "criterios": {k: {"valor": None, "nota": ""} for k in d["criterios"]},
+        } for pid, d in rep.pendientes.items()
+    }}
+    (dir_s / "pendientes.yaml").write_text(
+        "# Decisiones pendientes. Completar valor (true/false) y nota, y copiar a datos/ciudades/<ciudad>/revision.yaml\n"
+        + yaml.safe_dump(plantilla, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")

@@ -270,9 +270,15 @@ Al hacer clic se ven las 3 justificaciones. Esto le da al votante **transparenci
 
 - **Orquestación:** Python, con un paso = un módulo. Se ejecuta con `make pipeline CIUDAD=quito` o con un paso suelto (`make jurado CIUDAD=quito`).
 - **Multi-ciudad:** todo se parametriza por ciudad; los temas y la rúbrica son comunes.
-- **Caché por hash** de (archivo de entrada + versión del prompt + modelo): si nada cambió, no se vuelve a llamar a la API. Ahorra dinero y permite reprocesar solo lo que cambió (por ejemplo, un plan actualizado).
+- **Pipeline incremental (diseño central):** cada documento es una unidad independiente identificada por el **sha256 de su contenido**. Cada paso guarda su resultado con la clave `hash(entrada) + paso + versión del prompt + modelo` en `pipeline/.cache/`. Al correr, solo se procesa lo que falta, como `make`:
+  - un documento nuevo o editado → solo ese documento
+  - un prompt nuevo → solo ese paso, para todos
+  - nada cambió → USD 0
+  - los pasos globales (enfoques, auditoría de neutralidad) se recalculan sobre resultados ya cacheados y cuestan centavos
+- **IDs de propuesta estables:** se derivan del candidato y de la cita normalizada. Así una nueva corrida no rompe enlaces ni decisiones humanas ya tomadas.
+- **Decisiones humanas persistentes:** van en `datos/ciudades/<c>/revision.yaml` y se re-aplican en cada exportación.
 - **Salidas estructuradas** (JSON schema) en todos los proveedores y validación con Pydantic.
-- **Temperatura 0** y prompts versionados en `pipeline/prompts/`.
+- **Prompts versionados** en `pipeline/prompts/`, con la versión en el nombre (cambiar el prompt invalida solo la caché de su paso). No se usa `temperature`: los modelos actuales de Claude la rechazan. El determinismo viene de la caché y de las salidas estructuradas.
 - **Bitácora completa:** cada llamada (prompt, modelo, respuesta, costo) se guarda en `pipeline/logs/`. Es auditable y publicable.
 - **Tolerancia a fallos:** reintentos con backoff. Si un proveedor cae, el jurado funciona con 2 y esas calificaciones van automáticamente a 🟡.
 - **Claves de API** en `.env`, que **nunca se sube al repositorio**.
@@ -392,3 +398,27 @@ web/                             sitio SvelteKit (routes, componentes, lib/afini
 ## 14. Próximo paso inmediato
 
 👉 **Conseguir los 10 planes de trabajo del CNE** y verificar la lista oficial de candidatos.
+
+## 15. Fases futuras (después del lanzamiento): noticias y redes oficiales
+
+Ambas entran al **mismo pipeline incremental** como tipos de fuente nuevos (`noticia`, `post_oficial`, `comunicado`). Solo se procesa lo nuevo.
+
+### Noticias
+- **Mismo trato para todos:** la misma lista pública de medios (nacionales y locales), los mismos términos de búsqueda y el mismo período para cada candidato.
+- **Sin "buena/mala":** se clasifica por **tipo**: propuesta o anuncio · hecho de gestión verificable · proceso judicial o administrativo (con su estado) · controversia o declaración. El jurado de 3 IA a ciegas aplica la clasificación.
+- **Solo lo verificable:** que tenga autor, fecha y fuente identificable. Sin columnas de opinión ni redes de terceros.
+- **Archivo:** copia local y enlace a Internet Archive, porque las notas se editan o se borran.
+- **Deduplicación:** la misma historia publicada en varios medios se cuenta una sola vez.
+- **Presentación:** sección "En las noticias" de la ficha, como línea de tiempo con fuentes. **No afecta al termómetro ni a la afinidad.**
+
+### Redes y comunicados oficiales
+- **Solo por caminos legítimos:**
+  - Instagram con la API oficial de Meta (función *Business Discovery*: posts públicos de cuentas de empresa o creador). Requiere una cuenta profesional de Instagram y una app de Meta.
+  - Webs y salas de prensa de campaña, respetando `robots.txt`.
+  - Curaduría manual por link.
+  - Facebook y TikTok requieren revisiones o aprobaciones lentas; X es de pago.
+- **Nunca** raspar plataformas que lo prohíben, ni saltar logins o bloqueos anti-bot.
+- **Solo cuentas oficiales** del candidato y de su organización. Sin comentarios ni seguidores.
+- **Valor:** **lo que promete en redes vs. lo que inscribió en su plan** (📄 en el plan · 🆕 promesa nueva · ↔️ contradice). Mismo análisis que el debate.
+- **Derechos de autor:** en la web, solo una cita corta y el link o la inserción oficial del post.
+
