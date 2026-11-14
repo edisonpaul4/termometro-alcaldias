@@ -24,7 +24,7 @@ export interface CandidatoMin {
 	lista: string;
 	organizacion: string;
 	foto?: string | null;
-	plan_trabajo: { disponible: boolean };
+	plan_trabajo: { disponible: boolean; paginas?: number | null };
 	propuestas?: PropuestaMin[];
 }
 

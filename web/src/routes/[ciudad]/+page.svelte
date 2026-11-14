@@ -25,33 +25,42 @@
 
 <svelte:head><title>Candidatos a {data.registro.dignidad} de {data.ciudad.nombre} · Termómetro</title></svelte:head>
 
-<section class="contenedor pt-10">
-	<p class="text-sm font-medium tracking-wide text-acento uppercase">
-		{data.registro.dignidad} de {data.ciudad.nombre} · {dias > 0 ? `faltan ${dias} días` : 'día de elecciones'}
-	</p>
-	<h1 class="mt-1 text-3xl font-extrabold tracking-tight sm:text-4xl">{data.candidatos.length} candidaturas</h1>
-
-	<a
-		href="/{c}/lo-que-me-importa/"
-		class="group mt-6 block rounded-3xl bg-acento p-6 text-white shadow-lg shadow-acento/20 transition hover:bg-acento-fuerte"
-	>
-		<p class="text-sm font-medium text-acento-suave">2 minutos · sin registro · nada sale de tu teléfono</p>
-		<p class="mt-1 text-2xl font-bold text-balance">¿Quién se apega más a lo que te importa?</p>
-		<p class="mt-3 inline-flex items-center gap-1 font-semibold">
-			Empezar <span class="transition group-hover:translate-x-1">→</span>
+<section class="relative overflow-hidden bg-noche text-white">
+	<div class="pointer-events-none absolute -top-32 -right-24 size-80 rounded-full bg-menta/20 blur-3xl"></div>
+	<div class="contenedor relative pt-8 pb-10">
+		<a href="/" class="text-sm text-white/60 hover:text-white">← Inicio</a>
+		<p class="mt-4 inline-flex rounded-full bg-white/10 px-3 py-1 text-sm font-medium">
+			🗳️ {dias > 0 ? `Faltan ${dias} días` : 'Hoy se vota'}
 		</p>
-	</a>
+		<h1 class="mt-3 text-4xl leading-none font-extrabold tracking-tight sm:text-5xl">
+			{data.registro.dignidad} de {data.ciudad.nombre}
+		</h1>
+		<p class="mt-2 text-white/70">{data.candidatos.length} candidaturas · planes de trabajo oficiales del CNE</p>
 
-	{#if sinPropuestas}
-		<p class="mt-6 rounded-2xl bg-alerta-suave p-4 text-sm text-alerta">
-			⏳ Estamos procesando los planes de trabajo oficiales. Las propuestas y el termómetro aparecerán aquí pronto.
-		</p>
-	{/if}
+		<a
+			href="/{c}/lo-que-me-importa/"
+			class="group mt-6 flex items-center justify-between gap-4 rounded-3xl bg-menta p-5 text-noche shadow-[0_0_40px_-10px] shadow-menta transition active:scale-[0.98]"
+		>
+			<span>
+				<span class="display block text-xl leading-tight font-extrabold text-balance">¿Quién propone lo que te importa?</span>
+				<span class="mt-1 block text-sm font-medium text-noche/70">60 segundos · sin registro · nada sale de tu teléfono</span>
+			</span>
+			<span class="grid size-12 shrink-0 place-items-center rounded-full bg-noche text-xl text-menta transition group-hover:translate-x-1">▶</span>
+		</a>
+	</div>
 </section>
+
+{#if sinPropuestas}
+	<p class="contenedor mt-6">
+		<span class="block rounded-2xl bg-alerta-suave p-4 text-sm text-alerta">
+			⏳ Estamos procesando los planes de trabajo oficiales. Las propuestas y el termómetro aparecerán aquí pronto.
+		</span>
+	</p>
+{/if}
 
 <section class="contenedor mt-10">
 	<div class="flex items-baseline justify-between">
-		<h2 class="text-xl font-bold">Candidatos</h2>
+		<h2 class="text-2xl font-extrabold tracking-tight">Candidatos</h2>
 		<p class="text-xs text-tinta-suave">{barajado ? 'Orden aleatorio' : ''}</p>
 	</div>
 	<ul class="mt-4 grid gap-3 sm:grid-cols-2">
@@ -85,7 +94,7 @@
 </section>
 
 <section class="contenedor mt-12">
-	<h2 class="text-xl font-bold">Comparar por tema</h2>
+	<h2 class="text-2xl font-extrabold tracking-tight">Comparar por tema</h2>
 	<p class="mt-1 text-sm text-tinta-suave">Qué propone cada candidato en un mismo tema, lado a lado.</p>
 	<ul class="mt-4 grid grid-cols-3 gap-2 sm:grid-cols-4">
 		{#each data.temas as tema (tema.id)}
@@ -101,3 +110,10 @@
 		{/each}
 	</ul>
 </section>
+
+<a
+	href="/{c}/lo-que-me-importa/"
+	class="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-30 flex items-center justify-center gap-2 rounded-full bg-noche py-3.5 font-bold text-white shadow-2xl ring-1 ring-white/10 transition active:scale-95 sm:hidden"
+>
+	<span class="text-menta">▶</span> ¿Quién propone lo que te importa?
+</a>

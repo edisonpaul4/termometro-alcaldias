@@ -98,8 +98,16 @@ describe('afinidad', () => {
 		const r = calcularAfinidad([c, b, a], { temas: ['s'], enfoques: { s: ['tec'] } });
 		expect(r.map((x) => x.candidato.id)).toEqual(['a', 'b', 'c']);
 		expect(r[0].afinidad).toBeCloseTo(100);
-		expect(r[1].afinidad).toBeCloseTo(60);
-		expect(r[2].afinidad).toBeCloseTo(40);
+		expect(r[1].afinidad).toBeCloseTo(50); // propone lo que quiero, sin detalle: vale la mitad
+		expect(r[2].afinidad).toBeCloseTo(0); // concreto, pero no propone lo que elegí
+	});
+
+	it('la concreción se mide solo sobre el enfoque elegido', () => {
+		// Concreto en "control", vago en "tec": si elijo "tec", cuenta su vaguedad
+		const a = cand('a', [prop('s', { ...TODO, enfoques: ['control'] }), prop('s', { enfoques: ['tec'] })]);
+		const r = calcularAfinidad([a], { temas: ['s'], enfoques: { s: ['tec'] } });
+		expect(r[0].afinidad).toBeCloseTo(50);
+		expect(r[0].detalle[0].concrecion).toBe(0);
 	});
 
 	it('sin propuestas en el tema = 0', () => {

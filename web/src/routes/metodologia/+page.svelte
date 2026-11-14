@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { PESO_COBERTURA, PESO_ENFOQUE, TOPE_COBERTURA, UMBRAL_EMPATE } from '#lib/afinidad.js';
+	import { PISO_CONCRECION, TOPE_COBERTURA, UMBRAL_EMPATE } from '#lib/afinidad.js';
 </script>
 
 <svelte:head><title>Metodología · Termómetro de Alcaldías</title></svelte:head>
@@ -57,12 +57,15 @@
 		<ul class="mt-2 space-y-1">
 			<li>Cada tema que eliges pesa según tu prioridad: con 5 temas, los pesos son 5, 4, 3, 2 y 1.</li>
 			<li>
-				Si elegiste enfoques: puntaje del tema = {PESO_ENFOQUE * 100}% coincidencia de enfoques + {Math.round((1 - PESO_ENFOQUE) * 100)}%
-				concreción.
+				Si elegiste enfoques: cuenta qué parte de tus enfoques propone el candidato, medida con la concreción de
+				<em>esas</em> propuestas.
 			</li>
 			<li>
-				Si marcaste “no estoy seguro”: {PESO_COBERTURA * 100}% cobertura del tema (hasta {TOPE_COBERTURA} propuestas; más
-				cantidad no suma) + {PESO_COBERTURA * 100}% concreción.
+				Si marcaste “no sé”: cuenta si tiene propuestas sobre el tema (hasta {TOPE_COBERTURA}; más cantidad no suma).
+			</li>
+			<li>
+				<strong>La concreción multiplica:</strong> proponer lo que quieres sin ningún detalle vale como máximo el
+				{PISO_CONCRECION * 100}%; con meta, plazo y financiamiento vale el 100%.
 			</li>
 			<li>Las propuestas <strong>fuera de la competencia municipal no cuentan</strong>.</li>
 			<li>Afinidad = promedio ponderado de los temas.</li>

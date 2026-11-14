@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/bricolage-grotesque';
 
 /*
  * Paleta deliberadamente NEUTRAL: casi todos los colores fuertes están asociados a algún
@@ -8,6 +9,7 @@
  */
 @theme {
 	--font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	--font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
 
 	--color-tinta: #1c1917;
 	--color-tinta-suave: #57534e;
@@ -29,6 +31,13 @@
 
 	--color-alerta: #b45309;
 	--color-alerta-suave: #fef3c7;
+	/* Modo inmersivo (flujo tipo "stories") */
+	--color-noche: #0c0a09;
+	--color-noche-2: #1c1917;
+	--color-noche-3: #292524;
+	--color-menta: #5eead4;
+	--color-menta-fuerte: #2dd4bf;
+
 	--color-demo: #7c3aed;
 	--color-demo-suave: #ede9fe;
 }
@@ -39,6 +48,12 @@
 	}
 	body {
 		@apply bg-papel text-tinta antialiased;
+	}
+	h1,
+	h2,
+	.display {
+		font-family: var(--font-display);
+		font-optical-sizing: auto;
 	}
 	:focus-visible {
 		@apply outline-2 outline-offset-2 outline-acento;
@@ -51,4 +66,23 @@
 
 @utility contenedor {
 	@apply mx-auto w-full max-w-3xl px-4;
+}
+
+/* Respetar a quien prefiere menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+@keyframes pop {
+	0% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	100% { transform: scale(1); }
+}
+@utility animar-pop {
+	animation: pop 260ms ease-out;
 }

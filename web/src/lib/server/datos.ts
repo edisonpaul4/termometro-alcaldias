@@ -23,7 +23,7 @@ export function aligerar(c: Candidato): CandidatoMin {
 		lista: c.lista,
 		organizacion: c.organizacion,
 		foto: c.foto,
-		plan_trabajo: { disponible: c.plan_trabajo.disponible },
+		plan_trabajo: { disponible: c.plan_trabajo.disponible, paginas: c.plan_trabajo.paginas },
 		propuestas: (c.propuestas ?? []).map((p) => ({
 			id: p.id,
 			tema: p.tema,

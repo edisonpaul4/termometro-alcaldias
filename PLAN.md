@@ -139,23 +139,27 @@ Los enfoques **salen de las propuestas reales de los candidatos**, agrupadas por
 
 ### Algoritmo de afinidad (transparente y explicado en Metodología)
 
-**Pesos por prioridad.** Con *n* temas elegidos, el tema en la posición *i* pesa `w_i = n - i + 1`. Con 5 temas, los pesos son 5, 4, 3, 2 y 1.
+Implementado y probado en `web/src/lib/afinidad.ts`.
 
-**Puntaje de un candidato *c* en un tema *t*** (de 0 a 1):
+- **Pesos por prioridad:** con *n* temas, el tema en la posición *i* pesa `n − i + 1` (5, 4, 3, 2, 1).
+- **Solo cuentan las propuestas dentro de la competencia municipal.**
+- **Puntaje de un tema:** `S = base × (0.5 + 0.5 × concreción)`. La concreción *multiplica*: proponer lo que quieres sin ningún detalle vale como máximo la mitad.
+  - Si el usuario eligió un enfoque: `base` = qué parte de sus enfoques propone el candidato, y `concreción` se mide **solo sobre las propuestas de esos enfoques**.
+  - Si eligió "Ni idea": `base` = cobertura del tema (hasta 3 propuestas; más cantidad no suma).
+  - Si el candidato no tiene propuestas en el tema: `S = 0`.
+- **Afinidad** = `Σ peso·S / Σ peso × 100%`.
+- **Empate técnico** cuando la diferencia con el primero de su grupo es menor a 5 puntos (no se encadena).
 
-- Si el usuario eligió enfoques:
-  `S(c,t) = 0.6 · Enfoque(c,t) + 0.4 · Concreción(c,t)`
-  - `Enfoque(c,t)` es la proporción de los enfoques elegidos por el usuario que el candidato propone en su plan.
-- Si el usuario no eligió enfoques ("no estoy seguro"):
-  `S(c,t) = 0.5 · Cobertura(c,t) + 0.5 · Concreción(c,t)`
-  - `Cobertura(c,t)` indica si el candidato tiene propuestas sobre el tema, normalizado contra el candidato con más propuestas en ese tema y con un tope para no premiar la cantidad sobre la calidad.
-- Si el candidato no menciona el tema, `S = 0`.
+### Decisiones de UX: público de Instagram y TikTok, que se aburre rápido
 
-**Afinidad total:** `A(c) = Σ w_t · S(c,t) / Σ w_t × 100%`.
-
-**Cómo se lee:** "coincide en lo que te importa **y** lo propone de forma concreta". Un candidato que promete lo que quieres pero sin ningún detalle obtiene un puntaje menor que uno que lo promete con meta, plazo y financiamiento.
-
-> Pendiente de decidir: si los enfoques admiten "se opone", con valor negativo. Por ahora no, porque los planes rara vez dicen contra qué están.
+- **Flujo inmersivo tipo stories:** pantalla completa oscura, segmentos de progreso arriba y una decisión por pantalla.
+- **Toca y avanza:** el paso 2 es de una sola elección por tema, con "👌 Todas me sirven" y "🤷 Ni idea". Botones en la zona del pulgar y una vibración sutil al tocar.
+- **Pantalla "calculando" de unos 2 s:** genera suspenso y muestra el trabajo real detrás ("Leyendo 473 páginas de 10 planes…").
+- **Revelación escalonada** del resultado y "¿Por qué?" a un toque.
+- **Compartir:** una imagen 9:16 para Stories con **tus prioridades, nunca un ranking de candidatos**. Un ranking circularía como propaganda y chocaría con el silencio electoral.
+- **Gancho en el inicio:** "¿No sabes por quién votar? Descúbrelo en 60 segundos" y un solo botón.
+- **Identidad:** tipografía Bricolage Grotesque y acento menta sobre negro. Ningún color de partido.
+- **Se respeta `prefers-reduced-motion`.**
 
 ## 7. Termómetro de concreción
 

@@ -4,8 +4,13 @@
  */
 import { fueraDeCompetencia, propuestasDelTema, termometroTema, type CandidatoMin } from './termometro';
 
-export const PESO_ENFOQUE = 0.6;
-export const PESO_COBERTURA = 0.5;
+/**
+ * La concreción MULTIPLICA: puntaje = base × (PISO + (1 − PISO) × concreción).
+ * Proponer lo que quieres sin ningún detalle vale como máximo PISO (la mitad);
+ * proponerlo con meta, plazo y financiamiento vale completo.
+ */
+export const PISO_CONCRECION = 0.5;
+export const factorConcrecion = (conc: number) => PISO_CONCRECION + (1 - PISO_CONCRECION) * conc;
 /** Tope de propuestas que cuentan para "cobertura": más cantidad no es mejor. */
 export const TOPE_COBERTURA = 3;
 /** Diferencia (en puntos de 0–100) bajo la cual se declara empate técnico. */
@@ -63,8 +68,8 @@ export function puntajeTema(
 	maxPropuestasTema: number
 ): Omit<DetalleTema, 'peso'> {
 	const { ok, excluidas } = validas(c, tema);
-	const conc = ok.length ? (termometroTema({ ...c, propuestas: ok }, tema).valor ?? 0) : 0;
-	const base = { tema, concrecion: conc, propuestasValidas: ok.length, propuestasExcluidas: excluidas };
+	const concDe = (ps: typeof ok) => (ps.length ? (termometroTema({ propuestas: ps }, tema).valor ?? 0) : 0);
+	const base = { tema, concrecion: concDe(ok), propuestasValidas: ok.length, propuestasExcluidas: excluidas };
 
 	if (!ok.length) {
 		return { ...base, puntaje: 0, modo: 'sin-propuestas', coincidenciaEnfoques: null, enfoquesCoincidentes: [], cobertura: null };
@@ -73,9 +78,13 @@ export function puntajeTema(
 		const propios = new Set(ok.flatMap((p) => p.enfoques ?? []));
 		const coinciden = enfoquesElegidos.filter((e) => propios.has(e));
 		const coincidencia = coinciden.length / enfoquesElegidos.length;
+		// Concreción medida SOLO sobre las propuestas de los enfoques que elegiste
+		const relevantes = ok.filter((p) => (p.enfoques ?? []).some((e) => coinciden.includes(e)));
+		const conc = concDe(relevantes);
 		return {
 			...base,
-			puntaje: PESO_ENFOQUE * coincidencia + (1 - PESO_ENFOQUE) * conc,
+			concrecion: conc,
+			puntaje: coincidencia * factorConcrecion(conc),
 			modo: 'enfoques',
 			coincidenciaEnfoques: coincidencia,
 			enfoquesCoincidentes: coinciden,
@@ -86,7 +95,7 @@ export function puntajeTema(
 	const cobertura = Math.min(ok.length, TOPE_COBERTURA) / denom;
 	return {
 		...base,
-		puntaje: PESO_COBERTURA * cobertura + (1 - PESO_COBERTURA) * conc,
+		puntaje: cobertura * factorConcrecion(base.concrecion),
 		modo: 'cobertura',
 		coincidenciaEnfoques: null,
 		enfoquesCoincidentes: [],
