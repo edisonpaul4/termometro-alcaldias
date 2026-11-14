@@ -1,10 +1,19 @@
 # Registro de ciudades. La web genera rutas /<id> para cada ciudad activa.
+# El build de producción FALLA si una ciudad activa tiene datos mock:
+# antes de publicar, `demo` debe quedar en activa: false.
 - id: quito
   nombre: Quito
   nombre_oficial: Distrito Metropolitano de Quito
   dignidad: Alcaldía
   activa: true
+
+- id: demo
+  nombre: Ciudad Demo
+  nombre_oficial: Ciudad ficticia para desarrollo
+  dignidad: Alcaldía
+  activa: true
+
 # - id: guayaquil
 #   nombre: Guayaquil
-#   dignidad: Alcaldía
+#   nombre_oficial: Guayaquil
 #   activa: false

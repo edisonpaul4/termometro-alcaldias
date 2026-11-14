@@ -63,6 +63,21 @@ def cmd_exportar(args) -> int:
     return 0
 
 
+def cmd_demo(args) -> int:
+    """Regenera la ciudad ficticia `demo` (datos mock para desarrollar la web)."""
+    import yaml
+    from pydantic import TypeAdapter
+
+    from . import demo
+    from .modelos import Tema
+
+    dir_datos = Path(args.datos)
+    temas = TypeAdapter(list[Tema]).validate_python(yaml.safe_load((dir_datos / "temas.yaml").read_text("utf-8")))
+    escritos = demo.generar(dir_datos, temas)
+    print(f"✓ {len(escritos)} archivos de la ciudad demo generados")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="termometro", description="Pipeline del Termómetro de Alcaldías")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -81,6 +96,10 @@ def main(argv: list[str] | None = None) -> int:
     e.add_argument("--out", required=True)
     e.add_argument("--produccion", action="store_true")
     e.set_defaults(func=cmd_exportar)
+
+    d = sub.add_parser("demo", help="Regenera la ciudad ficticia 'demo' (datos mock)")
+    d.add_argument("--datos", default=str(DIR_DATOS))
+    d.set_defaults(func=cmd_demo)
 
     args = p.parse_args(argv)
     return args.func(args)

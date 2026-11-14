@@ -1,0 +1,6 @@
+- archivo: null
+  tipo: lista_oficial
+  url: https://votoinformado.cne.gob.ec/
+  descargado: null
+  sha256: null
+  notas: "Lista oficial de candidatos a Alcaldía de Quito NO descargada (2026-11-14). Voto Informado (micrositio CNE habilitado ~31-X-2026 según Primicias) está detrás de Incapsula: curl recibe página de bloqueo ('Request unsuccessful. Incapsula incident ID') y WebFetch recibe página vacía (SPA con JS). delegaciones.cne.gob.ec (Junta/Delegación Pichincha) también bloqueado por Incapsula. www.cne.gob.ec bloquea curl (desafío JS F5/TSPD) pero es accesible con WebFetch; no se encontró allí listado oficial de Quito ni resoluciones de calificación de la Junta Provincial de Pichincha (página https://www.cne.gob.ec/juntas-provinciales-electorales-elecciones-seccionales-2027/ solo tiene para Pichincha la RESOLUCIÓN PLE-CNE-19-21-7-2026; https://www.cne.gob.ec/actas-del-sorteo-de-debates/ no tiene acta de Pichincha). Según calendario (PLE-CNE-1-27-3-2026) el listado oficial se publicaba el lunes 9-XI-2026. Pendiente: abrir Voto Informado en un navegador real."

@@ -1,0 +1,9 @@
+# Ciudad FICTICIA para desarrollo
+# GENERADO por `termometro demo` — no editar a mano.
+id: demo
+nombre: Ciudad Demo
+eleccion: '2026-11-29'
+debate: '2026-11-22'
+fin_campana: '2026-11-26'
+candidatos_verificados: true
+es_mock: true

@@ -45,16 +45,16 @@
 
 ✅ **Listo cuando:** existe un YAML de ejemplo que valida, y otro roto que falla con un error claro.
 
-### F2 · Datos mock (ciudad `demo`)
-- [ ] `datos/ciudades/demo/` con 6 candidatos ficticios, marcados con `es_mock: true`
-- [ ] Variedad a propósito para probar la UI:
+### F2 ✅ · Datos mock (ciudad `demo`)
+- [x] `datos/ciudades/demo/` con 6 candidatos ficticios, marcados con `es_mock: true`
+- [x] Variedad a propósito para probar la UI:
   - un candidato muy concreto (termómetro alto)
   - uno vago (termómetro bajo)
   - uno con promesas fuera de la competencia municipal
   - uno sin propuestas en algunos temas
   - dos casi empatados (para probar el "empate técnico")
   - votos de jurado con 3/3, 2/3 y un modelo caído
-- [ ] `enfoques.yaml` mock: 2 a 4 enfoques por tema
+- [x] `enfoques.yaml` mock: 2 a 4 enfoques por tema
 
 ✅ **Listo cuando:** `make validar` pasa con la ciudad `demo`.
 
@@ -98,7 +98,7 @@ Orden por valor:
 - [ ] Lista oficial de candidatos de Quito en el CNE: confirmar nombres, listas y estado de calificación
 - [ ] Los 10 planes de trabajo en PDF, en `fuentes/ciudades/quito/candidatos/<slug>/`
 - [ ] Fotos oficiales (CNE o fuente pública, con la fuente registrada)
-- [ ] COOTAD (art. 55 y relacionados) en `fuentes/nacional/`
+- [x] COOTAD (art. 55 y relacionados) en `fuentes/nacional/` (versión AME, vigente a RO 584 de jun 2024)
 - [ ] Trayectoria básica de cada candidato con fuentes
 - [ ] `fuentes.yaml` con URL, fecha y sha256 en cada carpeta
 

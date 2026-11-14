@@ -1,0 +1,2165 @@
+# Candidato FICTICIO (Candidata A (demo))
+# GENERADO por `termometro demo` — no editar a mano.
+id: candidata-a
+nombre: Candidata A (demo)
+lista: D1
+organizacion: Movimiento Ficticio Uno
+trayectoria:
+- cargo: '[DEMO] Cargo ficticio'
+  periodo: 2019–2023
+  fuente:
+    url: https://example.org/demo
+    titulo: '[DEMO] Trayectoria'
+    consultado: '2026-11-14'
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://example.org/demo
+    titulo: '[DEMO] Plan de trabajo Candidata A (demo)'
+    consultado: '2026-11-14'
+  paginas: 40
+propuestas:
+- id: candidata-a-01
+  tema: seguridad
+  resumen: Instalar 5 luminarias LED en barrios, hasta diciembre de 2027
+  cita: '[DEMO] Nos comprometemos a instalar 5 luminarias LED en barrios, hasta diciembre de 2027, como parte de nuestro plan
+    para la ciudad.'
+  pagina: 38
+  cita_verificada: true
+  enfoques:
+  - seg-espacios
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-02
+  tema: seguridad
+  resumen: Contratar 3 agentes metropolitanos de control, hasta 2029, mediante una alianza público-privada
+  cita: '[DEMO] Nos comprometemos a contratar 3 agentes metropolitanos de control, hasta 2029, mediante una alianza público-privada,
+    como parte de nuestro plan para la ciudad.'
+  pagina: 16
+  cita_verificada: true
+  enfoques:
+  - seg-control
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    competencia_municipal:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+- id: candidata-a-03
+  tema: movilidad
+  resumen: Incorporar 5000 buses eléctricos al sistema municipal, en el primer año de gestión, con un crédito del BID
+  cita: '[DEMO] Nos comprometemos a incorporar 5000 buses eléctricos al sistema municipal, en el primer año de gestión, con
+    un crédito del BID, como parte de nuestro plan para la ciudad.'
+  pagina: 26
+  cita_verificada: true
+  enfoques:
+  - mov-transporte
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-04
+  tema: movilidad
+  resumen: Repavimentar 5000 kilómetros de vías principales, hasta 2029
+  cita: '[DEMO] Nos comprometemos a repavimentar 5000 kilómetros de vías principales, hasta 2029, como parte de nuestro plan
+    para la ciudad.'
+  pagina: 28
+  cita_verificada: true
+  enfoques:
+  - mov-vias
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: false
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-05
+  tema: movilidad
+  resumen: Incorporar 5 buses eléctricos al sistema municipal, con un fondo de USD 12 millones del presupuesto de inversión
+  cita: '[DEMO] Nos comprometemos a incorporar 5 buses eléctricos al sistema municipal, con un fondo de USD 12 millones del
+    presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 33
+  cita_verificada: true
+  enfoques:
+  - mov-transporte
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-06
+  tema: agua-servicios
+  resumen: Proteger 1000 hectáreas de páramo en zonas de captación, hasta 2029
+  cita: '[DEMO] Nos comprometemos a proteger 1000 hectáreas de páramo en zonas de captación, hasta 2029, como parte de nuestro
+    plan para la ciudad.'
+  pagina: 28
+  cita_verificada: true
+  enfoques:
+  - agua-fuentes
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-07
+  tema: agua-servicios
+  resumen: Proteger 20 hectáreas de páramo en zonas de captación, mediante una alianza público-privada
+  cita: '[DEMO] Nos comprometemos a proteger 20 hectáreas de páramo en zonas de captación, mediante una alianza público-privada,
+    como parte de nuestro plan para la ciudad.'
+  pagina: 34
+  cita_verificada: true
+  enfoques:
+  - agua-fuentes
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-08
+  tema: agua-servicios
+  resumen: Promover hectáreas de páramo en zonas de captación, hasta 2029, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a promover hectáreas de páramo en zonas de captación, hasta 2029, reasignando el 5% del
+    gasto corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 30
+  cita_verificada: true
+  enfoques:
+  - agua-fuentes
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-09
+  tema: ambiente
+  resumen: Construir 5000 centros de acopio de reciclaje, en los primeros 100 días, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a construir 5000 centros de acopio de reciclaje, en los primeros 100 días, reasignando el
+    5% del gasto corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 18
+  cita_verificada: true
+  enfoques:
+  - amb-reciclaje
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-10
+  tema: ambiente
+  resumen: Instalar 500 contenedores soterrados, hasta diciembre de 2027, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a instalar 500 contenedores soterrados, hasta diciembre de 2027, reasignando el 5% del gasto
+    corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 33
+  cita_verificada: true
+  enfoques:
+  - amb-recoleccion
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-11
+  tema: ambiente
+  resumen: Construir 300 centros de acopio de reciclaje, con un fondo de USD 12 millones del presupuesto de inversión
+  cita: '[DEMO] Nos comprometemos a construir 300 centros de acopio de reciclaje, con un fondo de USD 12 millones del presupuesto
+    de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 12
+  cita_verificada: true
+  enfoques:
+  - amb-reciclaje
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-12
+  tema: empleo
+  resumen: Entregar 3 créditos semilla a emprendedores, en los primeros 100 días
+  cita: '[DEMO] Nos comprometemos a entregar 3 créditos semilla a emprendedores, en los primeros 100 días, como parte de nuestro
+    plan para la ciudad.'
+  pagina: 35
+  cita_verificada: true
+  enfoques:
+  - emp-emprendimiento
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-13
+  tema: empleo
+  resumen: Entregar 100 créditos semilla a emprendedores, hasta 2029, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a entregar 100 créditos semilla a emprendedores, hasta 2029, reasignando el 5% del gasto
+    corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 7
+  cita_verificada: true
+  enfoques:
+  - emp-emprendimiento
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-14
+  tema: espacio-publico
+  resumen: Rehabilitar 3 mercados municipales, hasta diciembre de 2027, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a rehabilitar 3 mercados municipales, hasta diciembre de 2027, reasignando el 5% del gasto
+    corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 36
+  cita_verificada: true
+  enfoques:
+  - esp-mercados
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-15
+  tema: espacio-publico
+  resumen: Rehabilitar 10 mercados municipales, en el primer año de gestión, con un fondo de USD 12 millones del presupuesto
+    de inversión
+  cita: '[DEMO] Nos comprometemos a rehabilitar 10 mercados municipales, en el primer año de gestión, con un fondo de USD
+    12 millones del presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 34
+  cita_verificada: true
+  enfoques:
+  - esp-mercados
+  rubrica:
+    meta:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-16
+  tema: riesgos
+  resumen: Equipar 5 estaciones de bomberos, con un fondo de USD 12 millones del presupuesto de inversión
+  cita: '[DEMO] Nos comprometemos a equipar 5 estaciones de bomberos, con un fondo de USD 12 millones del presupuesto de inversión,
+    como parte de nuestro plan para la ciudad.'
+  pagina: 24
+  cita_verificada: true
+  enfoques:
+  - rie-respuesta
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-17
+  tema: riesgos
+  resumen: Intervenir 5000 quebradas con obras de mitigación, hasta diciembre de 2027, mediante una alianza público-privada
+  cita: '[DEMO] Nos comprometemos a intervenir 5000 quebradas con obras de mitigación, hasta diciembre de 2027, mediante una
+    alianza público-privada, como parte de nuestro plan para la ciudad.'
+  pagina: 39
+  cita_verificada: true
+  enfoques:
+  - rie-prevencion
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-18
+  tema: rural
+  resumen: Asfaltar 10 kilómetros de vías en parroquias rurales, en los primeros 100 días, mediante una alianza público-privada
+  cita: '[DEMO] Nos comprometemos a asfaltar 10 kilómetros de vías en parroquias rurales, en los primeros 100 días, mediante
+    una alianza público-privada, como parte de nuestro plan para la ciudad.'
+  pagina: 20
+  cita_verificada: true
+  enfoques:
+  - rur-vialidad
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-19
+  tema: rural
+  resumen: Asfaltar 300 kilómetros de vías en parroquias rurales
+  cita: '[DEMO] Nos comprometemos a asfaltar 300 kilómetros de vías en parroquias rurales, como parte de nuestro plan para
+    la ciudad.'
+  pagina: 3
+  cita_verificada: true
+  enfoques:
+  - rur-vialidad
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-20
+  tema: rural
+  resumen: Crear 5000 ferias de productores rurales, en los primeros 100 días, con un fondo de USD 12 millones del presupuesto
+    de inversión
+  cita: '[DEMO] Nos comprometemos a crear 5000 ferias de productores rurales, en los primeros 100 días, con un fondo de USD
+    12 millones del presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 23
+  cita_verificada: true
+  enfoques:
+  - rur-produccion
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-21
+  tema: transparencia
+  resumen: Asignar 50% del presupuesto de inversión a presupuestos participativos, en el primer año de gestión
+  cita: '[DEMO] Nos comprometemos a asignar 50% del presupuesto de inversión a presupuestos participativos, en el primer año
+    de gestión, como parte de nuestro plan para la ciudad.'
+  pagina: 25
+  cita_verificada: true
+  enfoques:
+  - tra-participacion
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-22
+  tema: transparencia
+  resumen: Publicar 20% de los contratos municipales en datos abiertos, en el primer año de gestión, reasignando el 5% del
+    gasto corriente
+  cita: '[DEMO] Nos comprometemos a publicar 20% de los contratos municipales en datos abiertos, en el primer año de gestión,
+    reasignando el 5% del gasto corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 38
+  cita_verificada: true
+  enfoques:
+  - tra-datos
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-23
+  tema: inclusion
+  resumen: Construir 300 unidades de salud municipales, hasta 2029, reasignando el 5% del gasto corriente
+  cita: '[DEMO] Nos comprometemos a construir 300 unidades de salud municipales, hasta 2029, reasignando el 5% del gasto corriente,
+    como parte de nuestro plan para la ciudad.'
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - inc-salud
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+- id: candidata-a-24
+  tema: inclusion
+  resumen: Construir 1000 unidades de salud municipales, hasta 2029, con un fondo de USD 12 millones del presupuesto de inversión
+  cita: '[DEMO] Nos comprometemos a construir 1000 unidades de salud municipales, hasta 2029, con un fondo de USD 12 millones
+    del presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 19
+  cita_verificada: true
+  enfoques:
+  - inc-salud
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+- id: candidata-a-25
+  tema: inclusion
+  resumen: Construir 3 unidades de salud municipales, hasta diciembre de 2027, con un fondo de USD 12 millones del presupuesto
+    de inversión
+  cita: '[DEMO] Nos comprometemos a construir 3 unidades de salud municipales, hasta diciembre de 2027, con un fondo de USD
+    12 millones del presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 6
+  cita_verificada: true
+  enfoques:
+  - inc-salud
+  rubrica:
+    meta:
+      valor: true
+      consenso: humano
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: null
+      nota_revision: '[DEMO] Revisado: el texto no especifica el dato.'
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: null
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-26
+  tema: cultura
+  resumen: Organizar 500 festivales culturales barriales al año, en el primer año de gestión, reasignando el 5% del gasto
+    corriente
+  cita: '[DEMO] Nos comprometemos a organizar 500 festivales culturales barriales al año, en el primer año de gestión, reasignando
+    el 5% del gasto corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 13
+  cita_verificada: true
+  enfoques:
+  - cul-eventos
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+- id: candidata-a-27
+  tema: cultura
+  resumen: Rehabilitar 5 inmuebles patrimoniales del Centro Histórico, en los primeros 100 días, reasignando el 5% del gasto
+    corriente
+  cita: '[DEMO] Nos comprometemos a rehabilitar 5 inmuebles patrimoniales del Centro Histórico, en los primeros 100 días,
+    reasignando el 5% del gasto corriente, como parte de nuestro plan para la ciudad.'
+  pagina: 40
+  cita_verificada: true
+  enfoques:
+  - cul-centro
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-28
+  tema: vivienda
+  resumen: Construir 50 viviendas de interés social, en el primer año de gestión, con un crédito del BID
+  cita: '[DEMO] Nos comprometemos a construir 50 viviendas de interés social, en el primer año de gestión, con un crédito
+    del BID, como parte de nuestro plan para la ciudad.'
+  pagina: 40
+  cita_verificada: true
+  enfoques:
+  - viv-social
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+- id: candidata-a-29
+  tema: vivienda
+  resumen: Entregar 5000 escrituras en barrios regularizados, hasta 2029, con un fondo de USD 12 millones del presupuesto
+    de inversión
+  cita: '[DEMO] Nos comprometemos a entregar 5000 escrituras en barrios regularizados, hasta 2029, con un fondo de USD 12
+    millones del presupuesto de inversión, como parte de nuestro plan para la ciudad.'
+  pagina: 25
+  cita_verificada: true
+  enfoques:
+  - viv-legalizar
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: false
+        justificacion: '[DEMO] Justificación simulada (no).'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: mock
+        modelo: mock-extractor
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-b
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+      - proveedor: mock
+        modelo: mock-jurado-c
+        valor: true
+        justificacion: '[DEMO] Justificación simulada (sí).'
+es_mock: true

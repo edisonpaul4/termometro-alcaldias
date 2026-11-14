@@ -1,0 +1,17 @@
+# Candidato FICTICIO (Candidata G (demo))
+# GENERADO por `termometro demo` — no editar a mano.
+id: candidata-g
+nombre: Candidata G (demo)
+lista: D7
+organizacion: Movimiento Ficticio Siete
+trayectoria:
+- cargo: '[DEMO] Cargo ficticio'
+  periodo: 2019–2023
+  fuente:
+    url: https://example.org/demo
+    titulo: '[DEMO] Trayectoria'
+    consultado: '2026-11-14'
+plan_trabajo:
+  disponible: false
+  nota: '[DEMO] El plan de trabajo no está publicado en la fuente oficial.'
+es_mock: true

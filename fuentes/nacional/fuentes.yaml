@@ -1,0 +1,30 @@
+- archivo: cootad_2026-11-14.pdf
+  tipo: otro
+  url: https://ame.gob.ec/wp-content/uploads/2025/04/CODIGO-ORGANICO-DE-ORGANIZACION-TERRITORIAL-AUTONOMIA-Y-DESCENTRALIZACION-2.pdf
+  descargado: 2026-11-14
+  sha256: 1fcf786bbb2794a0e03d2812ccb3c5629486b6b1468aafc4c77be96c86d5c67b
+  notas: "COOTAD consolidado publicado por la AME (Asociación de Municipalidades Ecuatorianas), no por el Registro Oficial. Encabezado: 'Última Reforma: Cuarto Suplemento del Registro Oficial 584, 21-VI-2024'. NO incluye la Ley Orgánica Reformatoria al COOTAD para la Sostenibilidad y Eficiencia del Gasto (6to Suplemento RO 229, 23-II-2026; según prensa reforma art. 192 y agrega art. 198.1, no los arts. 55/84/85). Tampoco la reforma sobre remoción por ausencia de 90 días aprobada por la Asamblea en nov-2026 (pendiente de sanción/veto al 7-XI-2026 según prensa). Contiene Art. 55 (competencias exclusivas GAD municipal), Art. 84 (funciones distrito metropolitano) y Art. 85 (competencias exclusivas distrito metropolitano). Texto extraíble: sí, 239 páginas. Descargado con curl."
+- archivo: cne-resolucion-ple-cne-1-31-7-2026-convocatoria_2026-11-14.pdf
+  tipo: otro
+  url: https://www.cne.gob.ec/wp-content/uploads/2026/07/RESOLUCION_PLECNE13172026_signed.pdf
+  descargado: 2026-11-14
+  sha256: 768ab49f3bdbfb09625eccb5a06d39a30e973539265fbbbd67e39fc9935b6d32
+  notas: "Resolución PLE-CNE-1-31-7-2026, convocatoria a Elecciones Seccionales y CPCCS 2027. Fija sufragio general el domingo 29 de noviembre de 2026. Enlazada como 'Convocatoria Elecciones Seccionales y CPCCS 2027' en https://www.cne.gob.ec/elecciones-seccionales-3/. cne.gob.ec bloquea curl (desafío JS anti-bot); se obtuvo con la herramienta WebFetch y se copió sin modificar. Texto extraíble: sí, 11 páginas."
+- archivo: cne-resolucion-ple-cne-2-14-2-2026-calendario_2026-11-14.pdf
+  tipo: otro
+  url: https://www.cne.gob.ec/download/resolucion-ple-cne-2-14-2-2026/?wpdmdl=62662
+  descargado: 2026-11-14
+  sha256: e9aca7544adfcc78be20024355da98574895d00c31326640a0189c2ae66fb1bf
+  notas: "Resolución PLE-CNE-2-14-2-2026, calendario electoral original (fechas de febrero 2027, luego modificado). Enlazada desde https://www.cne.gob.ec/calendario-elecciones-seccionales-2027/. Obtenida con WebFetch (curl bloqueado por anti-bot). Texto extraíble: sí, 28 páginas."
+- archivo: cne-resolucion-ple-cne-1-27-3-2026-modificacion-calendario_2026-11-14.pdf
+  tipo: otro
+  url: https://www.cne.gob.ec/download/resolucion-de-actualizacion-del-calendario-electoral/?wpdmdl=63268
+  descargado: 2026-11-14
+  sha256: 7b73c32c41ca174972498fef6ef7bb13e4f29e85653f6326b136a2a919c63db1
+  notas: "Resolución PLE-CNE-1-27-3-2026, 'Resolución de actualización del Calendario Electoral' (adelanta las elecciones; incluye fila 'Listado oficial ... lunes 9' de noviembre). Enlazada desde https://www.cne.gob.ec/calendario-elecciones-seccionales-2027/. Obtenida con WebFetch (curl bloqueado por anti-bot). Texto extraíble: sí, 35 páginas (tabla del calendario con formato irregular en pdftotext)."
+- archivo: cne-cronograma-debates_2026-11-14.pdf
+  tipo: debate
+  url: https://www.cne.gob.ec/wp-content/uploads/2026/11/cronograma-debates-new.pdf
+  descargado: 2026-11-14
+  sha256: ba6484fde8f94cc39902c5466c7c0d4f06a08e507950671ef9de1e54c84f78a8
+  notas: "Cronograma de Debates CNE 'Ecuador Debate 2027' (creado 13-XI-2026). Alcaldía Quito: domingo 22 de noviembre (no indica hora). Enlazado desde https://www.cne.gob.ec/ecuador-debate-elecciones-seccionales-y-del-cpccs-2027/. Obtenido con WebFetch (curl bloqueado por anti-bot). Texto extraíble: sí, 2 páginas."
