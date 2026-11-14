@@ -259,6 +259,8 @@
           "type": "string"
         },
         "icono": {
+          "description": "Nombre de un ícono Phosphor (https://phosphoricons.com), p. ej. 'shield-check'. Debe estar en el registro de la web (web/src/lib/iconos.ts).",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
           "type": "string"
         }
       },
@@ -481,6 +483,8 @@
           "type": "string"
         },
         "icono": {
+          "description": "Nombre de un ícono Phosphor (https://phosphoricons.com), p. ej. 'shield-check'. Debe estar en el registro de la web (web/src/lib/iconos.ts).",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
           "type": "string"
         },
         "descripcion": {

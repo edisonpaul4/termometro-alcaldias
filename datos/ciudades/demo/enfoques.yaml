@@ -5,129 +5,129 @@ enfoques:
   tema: seguridad
   nombre: Tecnología y monitoreo
   descripcion: Cámaras, alarmas comunitarias y centros de monitoreo.
-  icono: 📹
+  icono: security-camera
 - id: seg-espacios
   tema: seguridad
   nombre: Recuperar espacios
   descripcion: Iluminación, parques y espacios públicos seguros.
-  icono: 💡
+  icono: lightbulb
 - id: seg-control
   tema: seguridad
   nombre: Más agentes de control
   descripcion: Más agentes metropolitanos y patrullaje.
-  icono: 👮
+  icono: police-car
 - id: mov-transporte
   tema: movilidad
   nombre: Transporte público
   descripcion: Más buses, mejores frecuencias e integración con el Metro.
-  icono: 🚌
+  icono: bus
 - id: mov-vias
   tema: movilidad
   nombre: Vías y tránsito
   descripcion: Mantenimiento vial, semaforización y obras viales.
-  icono: 🛣️
+  icono: road-horizon
 - id: mov-activa
   tema: movilidad
   nombre: Bici y peatones
   descripcion: Ciclovías, veredas y movilidad activa.
-  icono: 🚲
+  icono: bicycle
 - id: agua-cobertura
   tema: agua-servicios
   nombre: Ampliar cobertura
   descripcion: Llevar agua y alcantarillado a barrios sin servicio.
-  icono: 🚰
+  icono: pipe
 - id: agua-fuentes
   tema: agua-servicios
   nombre: Nuevas fuentes de agua
   descripcion: Proteger páramos y asegurar agua a futuro.
-  icono: 🏞️
+  icono: tree-evergreen
 - id: amb-reciclaje
   tema: ambiente
   nombre: Reciclaje
   descripcion: Separación en la fuente y gestores de reciclaje.
-  icono: ♻️
+  icono: recycle
 - id: amb-recoleccion
   tema: ambiente
   nombre: Recolección eficiente
   descripcion: Más frecuencias y contenedores.
-  icono: 🚛
+  icono: truck
 - id: emp-emprendimiento
   tema: empleo
   nombre: Emprendimiento
   descripcion: Créditos, capacitación y ferias para emprendedores.
-  icono: 🚀
+  icono: rocket-launch
 - id: emp-inversion
   tema: empleo
   nombre: Atraer inversión
   descripcion: Simplificar trámites y atraer empresas.
-  icono: 🏗️
+  icono: buildings
 - id: esp-ordenar
   tema: espacio-publico
   nombre: Ordenar el comercio
   descripcion: Regular y reubicar el comercio autónomo.
-  icono: 🗂️
+  icono: squares-four
 - id: esp-mercados
   tema: espacio-publico
   nombre: Mercados renovados
   descripcion: Rehabilitar mercados municipales.
-  icono: 🏪
+  icono: basket
 - id: rie-prevencion
   tema: riesgos
   nombre: Prevención
   descripcion: Limpieza de quebradas, alertas tempranas y obras de mitigación.
-  icono: 🌧️
+  icono: cloud-rain
 - id: rie-respuesta
   tema: riesgos
   nombre: Respuesta a emergencias
   descripcion: Bomberos y equipamiento de emergencia.
-  icono: 🚒
+  icono: fire-truck
 - id: rur-vialidad
   tema: rural
   nombre: Vías rurales
   descripcion: Caminos y conectividad en parroquias rurales.
-  icono: 🛤️
+  icono: path
 - id: rur-produccion
   tema: rural
   nombre: Producción rural
   descripcion: Apoyo a agricultores y circuitos cortos.
-  icono: 🌽
+  icono: grains
 - id: tra-datos
   tema: transparencia
   nombre: Datos abiertos
   descripcion: Publicar contratos y gastos en línea.
-  icono: 📊
+  icono: chart-bar
 - id: tra-participacion
   tema: transparencia
   nombre: Participación ciudadana
   descripcion: Presupuestos participativos y rendición de cuentas.
-  icono: 🗳️
+  icono: users-three
 - id: inc-cuidado
   tema: inclusion
   nombre: Centros de cuidado
   descripcion: Guarderías y centros para adultos mayores.
-  icono: 🧸
+  icono: baby
 - id: inc-salud
   tema: inclusion
   nombre: Salud municipal
   descripcion: Unidades de salud y atención en barrios.
-  icono: 🏥
+  icono: first-aid-kit
 - id: cul-centro
   tema: cultura
   nombre: Centro Histórico
   descripcion: Revitalizar el Centro Histórico.
-  icono: ⛪
+  icono: church
 - id: cul-eventos
   tema: cultura
   nombre: Cultura y deporte en barrios
   descripcion: Eventos culturales y canchas en barrios.
-  icono: 🎭
+  icono: confetti
 - id: viv-social
   tema: vivienda
   nombre: Vivienda social
   descripcion: Vivienda asequible en zonas con servicios.
-  icono: 🏠
+  icono: house
 - id: viv-legalizar
   tema: vivienda
   nombre: Legalizar barrios
   descripcion: Regularizar barrios y entregar escrituras.
-  icono: 📜
+  icono: scroll

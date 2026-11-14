@@ -3,71 +3,71 @@
 - id: seguridad
   nombre: Seguridad ciudadana
   nombre_corto: Seguridad
-  icono: "🛡️"
+  icono: shield-check
   descripcion: Prevención del delito, vigilancia, iluminación y convivencia en barrios.
 
 - id: movilidad
   nombre: Movilidad y transporte
   nombre_corto: Movilidad
-  icono: "🚇"
+  icono: bus
   descripcion: Metro, buses, trolebús, tránsito, ciclovías y veredas.
 
 - id: agua-servicios
   nombre: Agua y servicios básicos
   nombre_corto: Agua
-  icono: "💧"
+  icono: drop
   descripcion: Agua potable, alcantarillado y cobertura de servicios en barrios.
 
 - id: ambiente
   nombre: Basura y ambiente
   nombre_corto: Basura
-  icono: "♻️"
+  icono: recycle
   descripcion: Recolección de basura, reciclaje, relleno sanitario, calidad del aire y áreas verdes.
 
 - id: empleo
   nombre: Empleo y economía local
   nombre_corto: Empleo
-  icono: "💼"
+  icono: briefcase
   descripcion: Emprendimiento, empleo, apoyo a negocios y atracción de inversión.
 
 - id: espacio-publico
   nombre: Espacio público y comercio autónomo
   nombre_corto: Espacio púb.
-  icono: "🏪"
+  icono: storefront
   descripcion: Uso de calles, plazas y mercados; regulación del comercio autónomo.
 
 - id: riesgos
   nombre: Gestión de riesgos
   nombre_corto: Riesgos
-  icono: "🏔️"
+  icono: mountains
   descripcion: Prevención ante lluvias, El Niño, deslaves, quebradas e incendios forestales.
 
 - id: rural
   nombre: Parroquias rurales
   nombre_corto: Rural
-  icono: "🌾"
+  icono: plant
   descripcion: Vialidad, servicios y desarrollo de las parroquias rurales del distrito.
 
 - id: transparencia
   nombre: Transparencia y anticorrupción
   nombre_corto: Transparencia
-  icono: "🏛️"
+  icono: eye
   descripcion: Rendición de cuentas, contratación pública, datos abiertos y participación ciudadana.
 
 - id: inclusion
   nombre: Inclusión social
   nombre_corto: Inclusión
-  icono: "🤝"
+  icono: hand-heart
   descripcion: Niñez, adultos mayores, personas con discapacidad, salud y grupos vulnerables.
 
 - id: cultura
   nombre: Cultura, turismo y patrimonio
   nombre_corto: Cultura
-  icono: "🎭"
+  icono: mask-happy
   descripcion: Centro Histórico, turismo, eventos culturales y deporte.
 
 - id: vivienda
   nombre: Vivienda y territorio
   nombre_corto: Vivienda
-  icono: "🏘️"
+  icono: house-line
   descripcion: Vivienda social, legalización de barrios y planificación del crecimiento urbano.

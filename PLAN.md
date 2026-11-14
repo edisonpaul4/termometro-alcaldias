@@ -158,7 +158,10 @@ Implementado y probado en `web/src/lib/afinidad.ts`.
 - **Revelación escalonada** del resultado y "¿Por qué?" a un toque.
 - **Compartir:** una imagen 9:16 para Stories con **tus prioridades, nunca un ranking de candidatos**. Un ranking circularía como propaganda y chocaría con el silencio electoral.
 - **Gancho en el inicio:** "¿No sabes por quién votar? Descúbrelo en 60 segundos" y un solo botón.
-- **Identidad:** tipografía Bricolage Grotesque y acento menta sobre negro. Ningún color de partido.
+- **Identidad visual (v3, clara y profesional):** fondo papel cálido, tinta oscura y un único acento verde azulado. La tipografía es Bricolage Grotesque. Un degradado frío y discreto (verde azulado → azul → índigo) se usa solo en los anillos de las fotos y en los titulares.
+- **Íconos:** Phosphor duotone, de un registro curado en `web/src/lib/iconos.ts`. Cada tema tiene su color y su ícono, como las historias destacadas de Instagram. El contrato exige que `icono` sea un nombre de ese registro, nunca un emoji.
+- **Patrones de app:** anillos tipo historia en las fotos, fila de candidatos como barra de historias, ficha con formato de perfil (estadísticas y destacados por tema), comparador en carrusel deslizable con puntos y "¿Por qué?" en hoja inferior (bottom sheet).
+- **Ningún color de partido:** los 12 tonos de los temas recorren todo el círculo cromático.
 - **Se respeta `prefers-reduced-motion`.**
 
 ## 7. Termómetro de concreción

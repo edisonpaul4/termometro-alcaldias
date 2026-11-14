@@ -57,7 +57,7 @@ def escribir_datos(raiz: Path, *, cand=None, ciudad_extra=None, enfoques=None) -
     d = raiz / "datos"
     (d / "ciudades/demo/candidatos").mkdir(parents=True)
     w = lambda p, o: (d / p).write_text(yaml.safe_dump(o, allow_unicode=True), encoding="utf-8")  # noqa: E731
-    w("temas.yaml", [{"id": "seguridad", "nombre": "Seguridad", "nombre_corto": "Seguridad", "icono": "🛡️", "descripcion": "x"}])
+    w("temas.yaml", [{"id": "seguridad", "nombre": "Seguridad", "nombre_corto": "Seguridad", "icono": "shield-check", "descripcion": "x"}])
     w("ciudades.yaml", [{"id": "demo", "nombre": "Demo", "nombre_oficial": "Ciudad Demo", "activa": True}])
     w(
         "ciudades/demo/ciudad.yaml",
@@ -65,7 +65,7 @@ def escribir_datos(raiz: Path, *, cand=None, ciudad_extra=None, enfoques=None) -
          "candidatos_verificados": True, "es_mock": True} | (ciudad_extra or {}),
     )
     w("ciudades/demo/enfoques.yaml", {"enfoques": enfoques if enfoques is not None else [
-        {"id": "tecnologia", "tema": "seguridad", "nombre": "Tecnología", "descripcion": "x", "icono": "📹"}]})
+        {"id": "tecnologia", "tema": "seguridad", "nombre": "Tecnología", "descripcion": "x", "icono": "security-camera"}]})
     c = cand or candidato()
     w(f"ciudades/demo/candidatos/{c['id']}.yaml", c)
     return d
@@ -120,8 +120,8 @@ class TestCarga:
             cargar(d)
 
     def test_enfoque_de_otro_tema(self, tmp_path):
-        enf = [{"id": "tecnologia", "tema": "seguridad", "nombre": "T", "descripcion": "x", "icono": "📹"},
-               {"id": "metro", "tema": "seguridad", "nombre": "M", "descripcion": "x", "icono": "🚇"}]
+        enf = [{"id": "tecnologia", "tema": "seguridad", "nombre": "T", "descripcion": "x", "icono": "security-camera"},
+               {"id": "metro", "tema": "seguridad", "nombre": "M", "descripcion": "x", "icono": "bus"}]
         d = escribir_datos(tmp_path, enfoques=enf, cand=candidato(propuestas=[propuesta(enfoques=["inventado"])]))
         with pytest.raises(ErrorDatos, match="enfoque inexistente 'inventado'"):
             cargar(d)

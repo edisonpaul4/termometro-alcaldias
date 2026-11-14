@@ -1,8 +1,11 @@
 <script lang="ts">
 	import Avatar from '#lib/componentes/Avatar.svelte';
+	import Icono from '#lib/componentes/Icono.svelte';
 	import Propuesta from '#lib/componentes/Propuesta.svelte';
+	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
 	import Termometro from '#lib/componentes/Termometro.svelte';
 	import { termometroGlobal, termometroTema } from '#lib/termometro.js';
+	import { colorTema } from '#lib/visual.js';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -10,69 +13,105 @@
 	const cand = $derived(data.candidato);
 	const c = $derived(data.ciudad.id);
 	const global = $derived(termometroGlobal(cand));
-	const temasConPropuestas = $derived(
-		data.temas.filter((t) => (cand.propuestas ?? []).some((p) => p.tema === t.id))
-	);
-	const temasSin = $derived(data.temas.filter((t) => !temasConPropuestas.includes(t)));
+	const temasCon = $derived(data.temas.filter((t) => (cand.propuestas ?? []).some((p) => p.tema === t.id)));
+	const temasSin = $derived(data.temas.filter((t) => !temasCon.includes(t)));
+	const stats = $derived([
+		[String(global.propuestas), 'propuestas'],
+		[global.valor === null ? '—' : `${Math.round(global.valor * 100)}%`, 'concreción'],
+		[`${temasCon.length}/${data.temas.length}`, 'temas']
+	]);
+	const criterios = $derived([
+		['target', 'Con meta', global.conMeta],
+		['calendar-check', 'Con plazo', global.conPlazo],
+		['coins', 'Con financiamiento', global.conFinanciamiento]
+	] as const);
 </script>
 
-<svelte:head><title>{cand.nombre} · Lista {cand.lista} · Termómetro</title></svelte:head>
+<svelte:head><title>{cand.nombre} · Lista {cand.lista} · termómetro</title></svelte:head>
 
-<div class="contenedor pt-6">
-	<a href="/{c}/" class="text-sm text-tinta-suave hover:text-tinta">← Todos los candidatos</a>
+<div class="contenedor pt-5">
+	<a href="/{c}/" class="inline-flex items-center gap-1 text-sm text-texto-3 hover:text-texto">
+		<Icono nombre="arrow-left" tipo="ui" tam={14} /> {data.ciudad.nombre}
+	</a>
 
-	<header class="mt-4 flex items-center gap-4">
-		<Avatar candidato={cand} ciudad={c} tam={80} />
-		<div>
-			<h1 class="text-2xl font-extrabold tracking-tight sm:text-3xl">{cand.nombre}</h1>
-			<p class="text-tinta-suave">Lista {cand.lista} · {cand.organizacion}</p>
-		</div>
+	<!-- Cabecera tipo perfil -->
+	<header class="mt-5 flex items-center gap-5">
+		<Avatar candidato={cand} ciudad={c} tam={92} />
+		<dl class="grid flex-1 grid-cols-3 text-center">
+			{#each stats as [v, l] (l)}
+				<div>
+					<dd class="display text-2xl font-extrabold tabular-nums">{v}</dd>
+					<dt class="text-xs text-texto-3">{l}</dt>
+				</div>
+			{/each}
+		</dl>
 	</header>
+	<h1 class="mt-4 text-3xl leading-tight font-extrabold tracking-tight">{cand.nombre}</h1>
+	<p class="text-texto-2">Lista {cand.lista} · {cand.organizacion}</p>
 
-	{#if cand.plan_trabajo.disponible && cand.plan_trabajo.fuente}
-		<a
-			href={cand.plan_trabajo.fuente.url}
-			target="_blank"
-			rel="noopener"
-			class="mt-4 inline-flex items-center gap-2 rounded-full border border-borde bg-superficie px-3 py-1.5 text-sm hover:border-acento"
-		>
-			📄 Plan de trabajo oficial (CNE) · {cand.plan_trabajo.paginas} págs
-		</a>
-	{:else}
-		<p class="mt-4 rounded-2xl bg-borde/50 p-4 text-sm">📄 {cand.plan_trabajo.nota}</p>
-	{/if}
+	<div class="mt-4 flex gap-2">
+		{#if cand.plan_trabajo.disponible && cand.plan_trabajo.fuente}
+			<a
+				href={cand.plan_trabajo.fuente.url}
+				target="_blank"
+				rel="noopener"
+				class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-black/[0.08] py-2.5 text-sm font-semibold hover:bg-black/[0.12]"
+			>
+				<Icono nombre="file-pdf" tipo="ui" tam={16} /> Plan oficial · {cand.plan_trabajo.paginas} págs
+			</a>
+		{:else}
+			<p class="flex-1 rounded-xl bg-black/[0.05] p-3 text-sm text-texto-2">{cand.plan_trabajo.nota}</p>
+		{/if}
+	</div>
 
 	{#if global.propuestas}
-		<section class="tarjeta mt-6 p-5">
-			<Termometro valor={global.valor} titulo="Concreción global" />
-			<dl class="mt-4 grid grid-cols-2 gap-3 text-center text-sm sm:grid-cols-4">
-				<div><dt class="text-tinta-suave">🎯 Con meta</dt><dd class="text-lg font-semibold">{global.conMeta}/{global.propuestas}</dd></div>
-				<div><dt class="text-tinta-suave">📅 Con plazo</dt><dd class="text-lg font-semibold">{global.conPlazo}/{global.propuestas}</dd></div>
-				<div><dt class="text-tinta-suave">💰 Con financiamiento</dt><dd class="text-lg font-semibold">{global.conFinanciamiento}/{global.propuestas}</dd></div>
-				<div>
-					<dt class="text-tinta-suave">⚠️ Fuera de competencia</dt>
-					<dd class="text-lg font-semibold {global.fueraDeCompetencia ? 'text-alerta' : ''}">{global.fueraDeCompetencia}</dd>
-				</div>
-			</dl>
-		</section>
-
-		<nav class="sticky top-0 z-10 -mx-4 mt-6 overflow-x-auto border-b border-borde bg-papel/95 px-4 py-2 backdrop-blur" aria-label="Temas">
-			<ul class="flex gap-2 text-sm whitespace-nowrap">
-				{#each temasConPropuestas as t (t.id)}
-					<li><a href="#{t.id}" class="rounded-full border border-borde bg-superficie px-3 py-1 hover:border-acento">{t.icono} {t.nombre_corto}</a></li>
+		<!-- Destacadas por tema -->
+		<nav class="sin-scrollbar -mx-4 mt-6 overflow-x-auto px-4" aria-label="Temas">
+			<ul class="flex gap-4">
+				{#each temasCon as t (t.id)}
+					<li>
+						<a href="#{t.id}" class="flex w-16 flex-col items-center gap-1.5 text-center">
+							<span class="rounded-full p-[2px]" style="background:{colorTema(t.id)}">
+								<span class="block rounded-full bg-fondo p-[2px]"><TemaIcono tema={t.id} icono={t.icono} tam={52} /></span>
+							</span>
+							<span class="text-[11px] leading-tight text-texto-2">{t.nombre_corto}</span>
+						</a>
+					</li>
 				{/each}
 			</ul>
 		</nav>
 
-		{#each temasConPropuestas as t (t.id)}
+		<section class="tarjeta mt-6 p-5">
+			<Termometro valor={global.valor} titulo="Concreción global" />
+			<ul class="mt-4 grid grid-cols-3 gap-2 text-center">
+				{#each criterios as [icono, nombre, n] (nombre)}
+					<li class="rounded-2xl bg-black/[0.04] p-3">
+						<Icono nombre={icono} tipo="ui" tam={18} class="mx-auto text-acento" />
+						<p class="display mt-1 text-lg font-bold tabular-nums">{n}<span class="text-sm text-texto-3">/{global.propuestas}</span></p>
+						<p class="text-[11px] leading-tight text-texto-3">{nombre}</p>
+					</li>
+				{/each}
+			</ul>
+			{#if global.fueraDeCompetencia}
+				<p class="mt-3 flex items-center gap-1.5 rounded-2xl bg-alerta/10 p-3 text-sm text-alerta">
+					<Icono nombre="warning" tipo="ui" tam={16} />
+					{global.fueraDeCompetencia} propuesta{global.fueraDeCompetencia > 1 ? 's' : ''} no le corresponde{global.fueraDeCompetencia > 1 ? 'n' : ''} al Municipio
+				</p>
+			{/if}
+		</section>
+
+		{#each temasCon as t (t.id)}
 			{@const lect = termometroTema(cand, t.id)}
-			<section id={t.id} class="mt-8 scroll-mt-16">
-				<div class="flex items-end justify-between gap-4">
-					<h2 class="text-lg font-bold">{t.icono} {t.nombre}</h2>
-					<a href="/{c}/temas/{t.id}/" class="shrink-0 text-sm text-acento hover:underline">Comparar →</a>
+			<section id={t.id} class="mt-10 scroll-mt-20">
+				<div class="flex items-center gap-3">
+					<TemaIcono tema={t.id} icono={t.icono} tam={40} />
+					<h2 class="flex-1 text-xl leading-tight font-extrabold">{t.nombre}</h2>
+					<a href="/{c}/temas/{t.id}/" class="inline-flex items-center gap-1 text-sm font-semibold text-texto-2 hover:text-texto">
+						Comparar <Icono nombre="arrow-right" tipo="ui" tam={14} />
+					</a>
 				</div>
-				<div class="mt-2 max-w-sm"><Termometro valor={lect.valor} /></div>
-				<div class="mt-3 space-y-3">
+				<div class="mt-3"><Termometro valor={lect.valor} color={colorTema(t.id)} /></div>
+				<div class="mt-4 space-y-3">
 					{#each (cand.propuestas ?? []).filter((p) => p.tema === t.id) as p (p.id)}
 						<Propuesta propuesta={p} candidato={cand} />
 					{/each}
@@ -81,14 +120,21 @@
 		{/each}
 
 		{#if temasSin.length}
-			<section class="mt-10 rounded-2xl bg-borde/40 p-4 text-sm">
-				<h2 class="font-semibold">Temas sin propuestas en su plan</h2>
-				<p class="mt-1 text-tinta-suave">{temasSin.map((t) => `${t.icono} ${t.nombre}`).join(' · ')}</p>
+			<section class="mt-10 rounded-3xl bg-black/[0.03] p-5 ring-1 ring-black/5">
+				<h2 class="text-base font-bold text-texto-2">Sin propuestas en su plan sobre</h2>
+				<ul class="mt-3 flex flex-wrap gap-2">
+					{#each temasSin as t (t.id)}
+						<li class="flex items-center gap-1.5 rounded-full bg-black/[0.04] py-1 pr-3 pl-1 text-sm text-texto-3">
+							<TemaIcono tema={t.id} icono={t.icono} tam={24} />
+							{t.nombre_corto}
+						</li>
+					{/each}
+				</ul>
 			</section>
 		{/if}
 	{:else if cand.plan_trabajo.disponible}
-		<p class="mt-6 rounded-2xl bg-alerta-suave p-4 text-sm text-alerta">
-			⏳ Estamos procesando este plan de trabajo. Las propuestas aparecerán aquí pronto.
+		<p class="mt-6 flex items-start gap-2 rounded-2xl bg-alerta/10 p-4 text-sm text-alerta ring-1 ring-alerta/20">
+			<Icono nombre="info" tipo="ui" tam={18} /> Estamos procesando este plan de trabajo. Las propuestas aparecerán aquí pronto.
 		</p>
 	{/if}
 </div>

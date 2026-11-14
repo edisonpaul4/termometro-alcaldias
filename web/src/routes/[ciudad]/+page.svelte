@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import { flip } from 'svelte/animate';
 	import Avatar from '#lib/componentes/Avatar.svelte';
+	import Icono from '#lib/componentes/Icono.svelte';
+	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
 	import Termometro from '#lib/componentes/Termometro.svelte';
 	import { termometroGlobal } from '#lib/termometro.js';
 	import { barajar, diasHasta } from '#lib/util.js';
@@ -14,76 +16,97 @@
 	onMount(() => {
 		orden = barajar(data.candidatos.map((c) => c.id));
 	});
-	const barajado = $derived(orden !== null);
-	const candidatos = $derived(
-		orden ? orden.map((id) => data.candidatos.find((c) => c.id === id)!) : data.candidatos
-	);
+	const candidatos = $derived(orden ? orden.map((id) => data.candidatos.find((c) => c.id === id)!) : data.candidatos);
 	const sinPropuestas = $derived(data.candidatos.every((c) => !c.propuestas?.length));
 	const dias = $derived(diasHasta(data.ciudad.eleccion));
+	const paginas = $derived(data.candidatos.reduce((s, x) => s + (x.plan_trabajo.paginas ?? 0), 0));
 	const c = $derived(data.ciudad.id);
+	const primerNombre = (n: string) => n.replace(/\(.*?\)/, '').trim().split(/\s+/).slice(0, 2).join(' ');
 </script>
 
-<svelte:head><title>Candidatos a {data.registro.dignidad} de {data.ciudad.nombre} · Termómetro</title></svelte:head>
+<svelte:head><title>{data.registro.dignidad} de {data.ciudad.nombre} · termómetro</title></svelte:head>
 
-<section class="relative overflow-hidden bg-noche text-white">
-	<div class="pointer-events-none absolute -top-32 -right-24 size-80 rounded-full bg-menta/20 blur-3xl"></div>
-	<div class="contenedor relative pt-8 pb-10">
-		<a href="/" class="text-sm text-white/60 hover:text-white">← Inicio</a>
-		<p class="mt-4 inline-flex rounded-full bg-white/10 px-3 py-1 text-sm font-medium">
-			🗳️ {dias > 0 ? `Faltan ${dias} días` : 'Hoy se vota'}
-		</p>
-		<h1 class="mt-3 text-4xl leading-none font-extrabold tracking-tight sm:text-5xl">
-			{data.registro.dignidad} de {data.ciudad.nombre}
+<section class="relative isolate overflow-hidden">
+	<div class="pointer-events-none absolute -top-40 -right-40 -z-10 size-[30rem] rounded-full opacity-[0.10] blur-3xl fondo-aurora"></div>
+	<div class="contenedor pt-6 pb-2">
+		<a href="/" class="inline-flex items-center gap-1 text-sm text-texto-3 hover:text-texto"><Icono nombre="arrow-left" tipo="ui" tam={14} /> Inicio</a>
+		<h1 class="mt-4 text-[2.6rem] leading-[0.95] font-extrabold tracking-tight sm:text-6xl">
+			{data.registro.dignidad} de <span class="texto-aurora">{data.ciudad.nombre}</span>
 		</h1>
-		<p class="mt-2 text-white/70">{data.candidatos.length} candidaturas · planes de trabajo oficiales del CNE</p>
+		<p class="mt-3 text-texto-2">
+			{data.candidatos.length} candidaturas{#if paginas} · {paginas} páginas de planes oficiales{/if}
+			{#if dias > 0}<span class="text-acento"> · faltan {dias} días</span>{/if}
+		</p>
+	</div>
 
+	<!-- Fila tipo "historias" -->
+	<ul class="sin-scrollbar contenedor mt-5 flex gap-4 overflow-x-auto pb-2" aria-label="Candidatos">
+		{#each candidatos as cand (cand.id)}
+			<li animate:flip={{ duration: 400 }}>
+				<a href="/{c}/candidatos/{cand.id}/" class="flex w-[4.5rem] flex-col items-center gap-1.5 text-center">
+					<Avatar candidato={cand} ciudad={c} tam={68} />
+					<span class="line-clamp-2 text-[11px] leading-tight text-texto-2">{primerNombre(cand.nombre)}</span>
+				</a>
+			</li>
+		{/each}
+	</ul>
+
+	<div class="contenedor mt-5">
 		<a
 			href="/{c}/lo-que-me-importa/"
-			class="group mt-6 flex items-center justify-between gap-4 rounded-3xl bg-menta p-5 text-noche shadow-[0_0_40px_-10px] shadow-menta transition active:scale-[0.98]"
+			class="group block rounded-[1.75rem] p-[2px] fondo-aurora shadow-[0_10px_50px_-12px_rgba(15,118,110,0.22)] transition active:scale-[0.98]"
 		>
-			<span>
-				<span class="display block text-xl leading-tight font-extrabold text-balance">¿Quién propone lo que te importa?</span>
-				<span class="mt-1 block text-sm font-medium text-noche/70">60 segundos · sin registro · nada sale de tu teléfono</span>
+			<span class="flex items-center gap-4 rounded-[1.65rem] bg-superficie p-5">
+				<span class="flex-1">
+					<span class="display block text-2xl leading-[1.05] font-extrabold text-balance">¿Quién propone lo que te importa?</span>
+					<span class="mt-1.5 flex items-center gap-1.5 text-sm text-texto-2">
+						<Icono nombre="hand-tap" tipo="ui" tam={14} /> 60 segundos · nada sale de tu teléfono
+					</span>
+				</span>
+				<span class="grid size-14 shrink-0 place-items-center rounded-full bg-acento text-white transition group-hover:scale-105">
+					<Icono nombre="play" tipo="ui" tam={22} />
+				</span>
 			</span>
-			<span class="grid size-12 shrink-0 place-items-center rounded-full bg-noche text-xl text-menta transition group-hover:translate-x-1">▶</span>
 		</a>
 	</div>
 </section>
 
 {#if sinPropuestas}
-	<p class="contenedor mt-6">
-		<span class="block rounded-2xl bg-alerta-suave p-4 text-sm text-alerta">
-			⏳ Estamos procesando los planes de trabajo oficiales. Las propuestas y el termómetro aparecerán aquí pronto.
-		</span>
-	</p>
+	<div class="contenedor mt-6">
+		<p class="flex items-start gap-2 rounded-2xl bg-alerta/10 p-4 text-sm text-alerta ring-1 ring-alerta/20">
+			<Icono nombre="info" tipo="ui" tam={18} />
+			Estamos procesando los planes de trabajo oficiales. Las propuestas y el termómetro aparecerán aquí pronto.
+		</p>
+	</div>
 {/if}
 
-<section class="contenedor mt-10">
-	<div class="flex items-baseline justify-between">
+<section class="contenedor mt-12">
+	<div class="flex items-end justify-between">
 		<h2 class="text-2xl font-extrabold tracking-tight">Candidatos</h2>
-		<p class="text-xs text-tinta-suave">{barajado ? 'Orden aleatorio' : ''}</p>
+		<p class="flex items-center gap-1 text-xs text-texto-3">
+			<Icono nombre="shuffle" tipo="ui" tam={13} /> {orden ? 'Orden aleatorio' : ''}
+		</p>
 	</div>
 	<ul class="mt-4 grid gap-3 sm:grid-cols-2">
 		{#each candidatos as cand (cand.id)}
 			{@const t = termometroGlobal(cand)}
 			<li animate:flip={{ duration: 400 }}>
-				<a href="/{c}/candidatos/{cand.id}/" class="tarjeta flex h-full flex-col gap-4 p-4 transition hover:border-acento">
+				<a href="/{c}/candidatos/{cand.id}/" class="tarjeta flex h-full flex-col gap-4 p-4 transition hover:ring-black/20">
 					<div class="flex items-center gap-3">
-						<Avatar candidato={cand} ciudad={c} />
-						<div class="min-w-0">
-							<p class="truncate font-semibold">{cand.nombre}</p>
-							<p class="truncate text-sm text-tinta-suave">Lista {cand.lista} · {cand.organizacion}</p>
+						<Avatar candidato={cand} ciudad={c} tam={52} />
+						<div class="min-w-0 flex-1">
+							<p class="display truncate font-bold">{cand.nombre}</p>
+							<p class="truncate text-sm text-texto-3">Lista {cand.lista} · {cand.organizacion}</p>
 						</div>
+						<Icono nombre="caret-right" tipo="ui" tam={16} class="text-texto-3" />
 					</div>
 					{#if !cand.plan_trabajo.disponible}
-						<p class="text-sm text-tinta-suave">📄 Plan de trabajo no disponible</p>
+						<p class="text-sm text-texto-3">Plan de trabajo no disponible</p>
 					{:else if t.propuestas}
 						<div class="mt-auto">
 							<Termometro valor={t.valor} />
-							<p class="mt-1 text-xs text-tinta-suave">
-								{t.propuestas} propuestas{#if t.fueraDeCompetencia}<span class="text-alerta">
-										· ⚠️ {t.fueraDeCompetencia} fuera de competencia</span
-									>{/if}
+							<p class="mt-1.5 text-xs text-texto-3">
+								{t.propuestas} propuestas{#if t.fueraDeCompetencia}<span class="text-alerta"> · {t.fueraDeCompetencia} fuera de competencia</span>{/if}
 							</p>
 						</div>
 					{/if}
@@ -94,26 +117,24 @@
 </section>
 
 <section class="contenedor mt-12">
-	<h2 class="text-2xl font-extrabold tracking-tight">Comparar por tema</h2>
-	<p class="mt-1 text-sm text-tinta-suave">Qué propone cada candidato en un mismo tema, lado a lado.</p>
-	<ul class="mt-4 grid grid-cols-3 gap-2 sm:grid-cols-4">
+	<h2 class="text-2xl font-extrabold tracking-tight">Compara por tema</h2>
+	<p class="mt-1 text-sm text-texto-2">Qué propone cada uno, lado a lado.</p>
+	<ul class="mt-5 grid grid-cols-4 gap-x-2 gap-y-5 sm:grid-cols-6">
 		{#each data.temas as tema (tema.id)}
 			<li>
-				<a
-					href="/{c}/temas/{tema.id}/"
-					class="tarjeta flex flex-col items-center gap-1 p-3 text-center text-sm transition hover:border-acento"
-				>
-					<span class="text-2xl" aria-hidden="true">{tema.icono}</span>
-					<span class="leading-tight">{tema.nombre_corto}</span>
+				<a href="/{c}/temas/{tema.id}/" class="group flex flex-col items-center gap-2 text-center">
+					<span class="transition group-hover:scale-110"><TemaIcono tema={tema.id} icono={tema.icono} tam={56} /></span>
+					<span class="text-xs leading-tight text-texto-2">{tema.nombre_corto}</span>
 				</a>
 			</li>
 		{/each}
 	</ul>
 </section>
 
+<!-- CTA flotante en móvil -->
 <a
 	href="/{c}/lo-que-me-importa/"
-	class="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-30 flex items-center justify-center gap-2 rounded-full bg-noche py-3.5 font-bold text-white shadow-2xl ring-1 ring-white/10 transition active:scale-95 sm:hidden"
+	class="fixed inset-x-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-30 flex items-center justify-center gap-2 rounded-full bg-acento py-3.5 font-bold text-white shadow-[0_10px_40px_-6px_rgba(15,118,110,0.35)] transition active:scale-95 sm:hidden"
 >
-	<span class="text-menta">▶</span> ¿Quién propone lo que te importa?
+	<Icono nombre="play" tipo="ui" tam={16} /> ¿Quién propone lo que te importa?
 </a>

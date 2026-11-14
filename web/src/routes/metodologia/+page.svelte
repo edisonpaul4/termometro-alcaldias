@@ -1,83 +1,84 @@
 <script lang="ts">
+	import Icono from '#lib/componentes/Icono.svelte';
 	import { PISO_CONCRECION, TOPE_COBERTURA, UMBRAL_EMPATE } from '#lib/afinidad.js';
+
+	const principios = [
+		['quotes', 'Sin fuente no se publica', 'Cada propuesta tiene su cita textual y la página del plan oficial.'],
+		['scales', 'No opinamos', 'No decimos si una propuesta es buena o mala: solo si es concreta y si le corresponde al Municipio.'],
+		['shuffle', 'Mismo trato para todos', 'Misma estructura y orden aleatorio en cada visita.'],
+		['lock-simple', 'Tu privacidad', 'Tus respuestas se procesan solo en tu teléfono. No guardamos nada ni usamos cookies de rastreo.']
+	];
+	const criterios = [
+		['target', 'Meta medible', '¿Dice cuánto o qué resultado verificable logrará?'],
+		['calendar-check', 'Plazo', '¿Dice cuándo?'],
+		['coins', 'Financiamiento', '¿Dice de dónde sale el dinero o cuánto cuesta?'],
+		['bank', 'Competencia municipal', '¿Le corresponde al Municipio según el COOTAD? No suma puntos: se muestra como alerta.']
+	];
 </script>
 
-<svelte:head><title>Metodología · Termómetro de Alcaldías</title></svelte:head>
+<svelte:head><title>Cómo funciona · termómetro</title></svelte:head>
 
-<article class="contenedor space-y-8 pt-10 leading-relaxed [&_h2]:text-xl [&_h2]:font-bold [&_li]:ml-5 [&_li]:list-disc">
-	<header>
-		<h1 class="text-3xl font-extrabold tracking-tight">Cómo lo hacemos</h1>
-		<p class="mt-2 text-tinta-suave">
-			Todo lo que ves aquí sale de los <strong>planes de trabajo oficiales</strong> que cada candidatura inscribió en el
-			CNE. El código, los datos, la rúbrica y los prompts son públicos.
+<div class="contenedor pt-10">
+	<h1 class="text-[2.6rem] leading-[0.95] font-extrabold tracking-tight">Cómo <span class="texto-aurora">funciona</span></h1>
+	<p class="mt-4 text-lg text-texto-2">
+		Todo sale de los <strong class="text-texto">planes de trabajo oficiales</strong> que cada candidatura inscribió en el CNE. El
+		código, los datos, la rúbrica y los prompts son públicos.
+	</p>
+
+	<ul class="mt-8 grid gap-3 sm:grid-cols-2">
+		{#each principios as [icono, titulo, texto] (titulo)}
+			<li class="tarjeta p-5">
+				<Icono nombre={icono} tipo="ui" tam={22} class="text-acento" />
+				<p class="display mt-3 font-bold">{titulo}</p>
+				<p class="mt-1 text-sm text-texto-2">{texto}</p>
+			</li>
+		{/each}
+	</ul>
+
+	<section class="mt-14">
+		<h2 class="flex items-center gap-2 text-2xl font-extrabold"><Icono nombre="thermometer" tipo="ui" tam={24} class="text-acento" /> El termómetro</h2>
+		<p class="mt-2 text-texto-2">Cada propuesta se califica Sí/No en cuatro criterios:</p>
+		<ul class="mt-4 space-y-2">
+			{#each criterios as [icono, titulo, texto] (titulo)}
+				<li class="flex gap-3 rounded-2xl bg-black/[0.04] p-4">
+					<Icono nombre={icono} tipo="ui" tam={20} class="mt-0.5 text-acento" />
+					<span><strong>{titulo}.</strong> <span class="text-texto-2">{texto}</span></span>
+				</li>
+			{/each}
+		</ul>
+		<p class="mt-4 text-texto-2">
+			Concreción de una propuesta = (meta + plazo + financiamiento) ÷ 3. El termómetro de un tema es el promedio de sus
+			propuestas; el global, el promedio de los temas, para que la cantidad no pese más que la calidad.
 		</p>
-	</header>
+	</section>
 
-	<section>
-		<h2>Principios</h2>
-		<ul class="mt-2 space-y-1">
-			<li>Sin fuente no se publica: cada propuesta tiene su <strong>cita textual y la página</strong> del plan.</li>
-			<li>No opinamos si una propuesta es buena o mala; solo medimos si es <strong>concreta</strong> y si le <strong>corresponde al Municipio</strong>.</li>
-			<li>Misma estructura para todos y <strong>orden aleatorio</strong> en cada visita.</li>
-			<li>Sin encuestas ni métricas de popularidad.</li>
-			<li>Tus respuestas se procesan <strong>solo en tu teléfono</strong>: no guardamos nada, no hay cookies de rastreo.</li>
+	<section class="mt-14">
+		<h2 class="flex items-center gap-2 text-2xl font-extrabold"><Icono nombre="scales" tipo="ui" tam={24} class="text-acento" /> Un jurado de tres IA, a ciegas</h2>
+		<p class="mt-3 text-texto-2">
+			Una IA extrae las propuestas con su cita literal y un programa, <strong class="text-texto">sin IA</strong>, verifica que esa cita
+			exista en la página indicada del PDF. Luego <strong class="text-texto">tres IA de empresas distintas</strong> (Anthropic, OpenAI y
+			Google) califican cada criterio por separado, <strong class="text-texto">sin ver el nombre del candidato ni su partido</strong>. Se
+			publica lo que decide la mayoría y se muestra cuántas coincidieron. Los desacuerdos y una muestra al azar los revisa una persona.
+		</p>
+	</section>
+
+	<section class="mt-14">
+		<h2 class="flex items-center gap-2 text-2xl font-extrabold"><Icono nombre="target" tipo="ui" tam={24} class="text-acento" /> Cómo se calcula tu resultado</h2>
+		<ul class="mt-4 space-y-2 text-texto-2 [&>li]:flex [&>li]:gap-2.5">
+			<li><span class="text-acento">→</span> Cada tema que eliges pesa según tu prioridad: con 5 temas, 5, 4, 3, 2 y 1.</li>
+			<li><span class="text-acento">→</span> Si elegiste un enfoque: cuenta si el candidato lo propone, medido con la concreción de <em>esas</em> propuestas.</li>
+			<li><span class="text-acento">→</span> Si marcaste “Ni idea”: cuenta si tiene propuestas sobre el tema (hasta {TOPE_COBERTURA}; más cantidad no suma).</li>
+			<li><span class="text-acento">→</span> <span><strong class="text-texto">La concreción multiplica:</strong> proponer lo que quieres sin ningún detalle vale como máximo el {PISO_CONCRECION * 100}%.</span></li>
+			<li><span class="text-acento">→</span> Las propuestas fuera de la competencia municipal no cuentan.</li>
+			<li><span class="text-acento">→</span> Si dos candidatos están a menos de {UMBRAL_EMPATE} puntos, es empate técnico.</li>
 		</ul>
 	</section>
 
-	<section>
-		<h2>🌡️ El termómetro de concreción</h2>
-		<p class="mt-2">Cada propuesta se califica Sí/No en cuatro criterios:</p>
-		<ul class="mt-2 space-y-1">
-			<li><strong>🎯 Meta medible:</strong> ¿dice cuánto o qué resultado verificable logrará?</li>
-			<li><strong>📅 Plazo:</strong> ¿dice cuándo?</li>
-			<li><strong>💰 Financiamiento:</strong> ¿dice de dónde sale el dinero o cuánto cuesta?</li>
-			<li>
-				<strong>🏛️ Competencia municipal:</strong> ¿le corresponde al Municipio según el COOTAD? No suma puntos: se
-				muestra como alerta ⚠️.
-			</li>
-		</ul>
-		<p class="mt-2">
-			Concreción de una propuesta = (meta + plazo + financiamiento) ÷ 3. El termómetro de un tema es el promedio de
-			sus propuestas; el global, el promedio de los temas (para que la cantidad no pese más que la calidad).
+	<section class="mt-14 rounded-3xl bg-alerta/[0.07] p-6 ring-1 ring-alerta/15">
+		<h2 class="flex items-center gap-2 text-xl font-extrabold text-alerta"><Icono nombre="info" tipo="ui" tam={22} /> Límites</h2>
+		<p class="mt-2 text-texto-2">
+			Un plan de trabajo no garantiza lo que hará un candidato, y la concreción no mide si una idea es buena. Úsalo como
+			punto de partida: lee las propuestas, revisa las citas y contrasta con otras fuentes.
 		</p>
 	</section>
-
-	<section>
-		<h2>⚖️ Jurado de tres IA, a ciegas</h2>
-		<p class="mt-2">
-			Una IA extrae las propuestas con su cita literal, y un programa (sin IA) verifica que esa cita exista en la
-			página indicada del PDF. Luego <strong>tres IA de empresas distintas</strong> (Anthropic, OpenAI y Google) califican
-			cada criterio por separado, <strong>sin ver el nombre del candidato ni su partido</strong>. Se publica lo que decide
-			la mayoría y se muestra cuántas coincidieron. Los desacuerdos y una muestra aleatoria los revisa una persona.
-		</p>
-	</section>
-
-	<section>
-		<h2>🧭 Cómo se calcula “lo que me importa”</h2>
-		<ul class="mt-2 space-y-1">
-			<li>Cada tema que eliges pesa según tu prioridad: con 5 temas, los pesos son 5, 4, 3, 2 y 1.</li>
-			<li>
-				Si elegiste enfoques: cuenta qué parte de tus enfoques propone el candidato, medida con la concreción de
-				<em>esas</em> propuestas.
-			</li>
-			<li>
-				Si marcaste “no sé”: cuenta si tiene propuestas sobre el tema (hasta {TOPE_COBERTURA}; más cantidad no suma).
-			</li>
-			<li>
-				<strong>La concreción multiplica:</strong> proponer lo que quieres sin ningún detalle vale como máximo el
-				{PISO_CONCRECION * 100}%; con meta, plazo y financiamiento vale el 100%.
-			</li>
-			<li>Las propuestas <strong>fuera de la competencia municipal no cuentan</strong>.</li>
-			<li>Afinidad = promedio ponderado de los temas.</li>
-			<li>Si dos candidatos están a menos de {UMBRAL_EMPATE} puntos, se muestran como <strong>empate técnico</strong>.</li>
-		</ul>
-	</section>
-
-	<section>
-		<h2>Límites</h2>
-		<p class="mt-2">
-			Un plan de trabajo no garantiza lo que hará un candidato, y la concreción no mide si una idea es buena.
-			Úsalo como punto de partida: lee las propuestas, revisa las citas y contrasta con otras fuentes.
-		</p>
-	</section>
-</article>
+</div>

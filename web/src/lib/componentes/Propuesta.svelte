@@ -1,77 +1,89 @@
 <script lang="ts">
 	import type { Calificacion, Candidato, Propuesta } from '../contrato.gen';
 	import { enlacePagina, textoConsenso } from '../util';
+	import Icono from './Icono.svelte';
 
 	let { propuesta, candidato }: { propuesta: Propuesta; candidato: Candidato } = $props();
 
 	const r = $derived(propuesta.rubrica);
 	const criterios = $derived<[string, string, Calificacion][]>([
-		['🎯', 'Meta medible', r.meta],
-		['📅', 'Plazo', r.plazo],
-		['💰', 'Financiamiento', r.financiamiento],
-		['🏛️', 'Competencia municipal', r.competencia_municipal]
+		['target', 'Meta', r.meta],
+		['calendar-check', 'Plazo', r.plazo],
+		['coins', 'Financiamiento', r.financiamiento],
+		['bank', 'Competencia municipal', r.competencia_municipal]
 	]);
 	const enlace = $derived(enlacePagina(candidato, propuesta.pagina));
 	const fuera = $derived(!r.competencia_municipal.valor);
+	let abierto = $state(false);
 </script>
 
 <article class="tarjeta p-4">
-	<p class="leading-snug">{propuesta.resumen}</p>
+	<p class="leading-snug text-pretty">{propuesta.resumen}</p>
 
-	<ul class="mt-3 flex flex-wrap gap-1.5 text-xs" aria-label="Criterios de concreción">
+	<ul class="mt-3 flex flex-wrap gap-1.5 text-xs font-medium" aria-label="Criterios de concreción">
 		{#each criterios.slice(0, 3) as [icono, nombre, c] (nombre)}
 			<li
-				class="rounded-full px-2 py-0.5 {c.valor
-					? 'bg-acento-suave text-acento-fuerte'
-					: 'bg-borde/60 text-tinta-suave line-through decoration-tinta-tenue'}"
+				class="inline-flex items-center gap-1 rounded-full py-1 pr-2.5 pl-2 {c.valor
+					? 'bg-acento/10 text-acento'
+					: 'bg-black/[0.04] text-texto-3 line-through decoration-texto-3/60'}"
 			>
-				<span aria-hidden="true">{icono}</span>
+				<Icono nombre={c.valor ? icono : 'x'} tipo="ui" tam={13} />
 				{nombre}<span class="sr-only">: {c.valor ? 'sí' : 'no'}</span>
 			</li>
 		{/each}
 		{#if fuera}
-			<li class="rounded-full bg-alerta-suave px-2 py-0.5 font-medium text-alerta">⚠️ Fuera de la competencia del Municipio</li>
+			<li class="inline-flex items-center gap-1 rounded-full bg-alerta/12 py-1 pr-2.5 pl-2 text-alerta">
+				<Icono nombre="warning" tipo="ui" tam={13} /> No es competencia del Municipio
+			</li>
 		{/if}
 	</ul>
 
-	<details class="group mt-3 text-sm">
-		<summary class="cursor-pointer list-none text-acento hover:underline">
-			<span class="group-open:hidden">Ver cita del plan y cómo se calificó ↓</span>
-			<span class="hidden group-open:inline">Ocultar ↑</span>
-		</summary>
+	<button
+		class="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-texto-2 hover:text-texto"
+		aria-expanded={abierto}
+		onclick={() => (abierto = !abierto)}
+	>
+		<Icono nombre="quotes" tipo="ui" tam={14} />
+		{abierto ? 'Ocultar fuente' : 'Ver la cita y cómo se calificó'}
+		<span class="transition {abierto ? 'rotate-180' : ''}"><Icono nombre="caret-down" tipo="ui" tam={12} /></span>
+	</button>
 
-		<blockquote class="mt-3 border-l-4 border-acento-suave pl-3 text-tinta-suave italic">
-			“{propuesta.cita}”
-		</blockquote>
-		<p class="mt-1 text-xs text-tinta-suave">
-			Plan de trabajo, página {propuesta.pagina}
-			{#if enlace}· <a href={enlace} target="_blank" rel="noopener" class="text-acento underline">abrir PDF oficial del CNE</a>{/if}
-		</p>
+	{#if abierto}
+		<div class="mt-3 space-y-3">
+			<blockquote class="rounded-2xl bg-fondo px-4 py-3 text-sm text-texto-2 italic ring-1 ring-black/5">
+				“{propuesta.cita}”
+				<footer class="mt-2 flex flex-wrap items-center gap-2 text-xs not-italic">
+					<span class="text-texto-3">Plan de trabajo · pág. {propuesta.pagina}</span>
+					{#if enlace}
+						<a href={enlace} target="_blank" rel="noopener" class="inline-flex items-center gap-1 font-semibold text-acento">
+							<Icono nombre="file-pdf" tipo="ui" tam={13} /> Abrir PDF oficial del CNE
+						</a>
+					{/if}
+				</footer>
+			</blockquote>
 
-		<dl class="mt-3 divide-y divide-borde rounded-xl border border-borde">
-			{#each criterios as [icono, nombre, c] (nombre)}
-				<div class="p-3">
-					<dt class="flex items-center justify-between gap-2 font-medium">
-						<span>{icono} {nombre}: <strong>{c.valor ? 'Sí' : 'No'}</strong></span>
-						<span
-							class="shrink-0 rounded-full px-2 py-0.5 text-xs font-normal {c.consenso === 'unanime'
-								? 'bg-acento-tenue text-acento-fuerte'
-								: 'bg-borde/60 text-tinta-suave'}"
-						>
-							{textoConsenso(c)}
-						</span>
-					</dt>
-					<dd class="mt-1 space-y-1 text-xs text-tinta-suave">
-						{#each c.votos as v, i (i)}
-							<p>
-								<span class="font-medium text-tinta">{v.modelo}</span>:
-								{#if v.valor === null}<em>no respondió</em>{:else}{v.valor ? 'Sí' : 'No'} — {v.justificacion}{/if}
-							</p>
-						{/each}
-						{#if c.nota_revision}<p class="font-medium text-tinta">🧑 Revisión humana: {c.nota_revision}</p>{/if}
-					</dd>
-				</div>
-			{/each}
-		</dl>
-	</details>
+			<dl class="divide-y divide-black/5 overflow-hidden rounded-2xl bg-fondo ring-1 ring-black/5">
+				{#each criterios as [icono, nombre, c] (nombre)}
+					<div class="p-3 text-sm">
+						<dt class="flex items-center justify-between gap-2">
+							<span class="flex items-center gap-1.5 font-semibold">
+								<Icono nombre={icono} tipo="ui" tam={15} />
+								{nombre}: <span class={c.valor ? 'text-acento' : 'text-texto-3'}>{c.valor ? 'Sí' : 'No'}</span>
+							</span>
+							<span class="shrink-0 rounded-full bg-black/[0.04] px-2 py-0.5 text-[11px] text-texto-2">{textoConsenso(c)}</span>
+						</dt>
+						<dd class="mt-1.5 space-y-1 text-xs text-texto-3">
+							{#each c.votos as v, i (i)}
+								<p>
+									<span class="font-semibold text-texto-2">{v.modelo}</span> ·
+									{#if v.valor === null}<em>no respondió</em>{:else}{v.valor ? 'Sí' : 'No'} — {v.justificacion}{/if}
+								</p>
+							{/each}
+							{#if c.nota_revision}<p class="text-texto-2">Revisión humana: {c.nota_revision}</p>{/if}
+						</dd>
+					</div>
+				{/each}
+			</dl>
+		</div>
+	{/if}
 </article>

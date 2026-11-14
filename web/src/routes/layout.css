@@ -2,55 +2,47 @@
 @import '@fontsource-variable/bricolage-grotesque';
 
 /*
- * Paleta deliberadamente NEUTRAL: casi todos los colores fuertes están asociados a algún
- * partido en Ecuador. Usamos tinta + un único acento (verde azulado) y una escala
- * monocromática para el termómetro (más concreto = más oscuro), sin rojo/verde que
- * sugiera "bueno/malo".
+ * Sistema visual v3: claro y profesional, con la misma estructura tipo "stories".
+ *
+ * Neutralidad: ningún color de interfaz pertenece a un partido. El acento es un verde
+ * azulado sobrio. La firma visual es un degradado frío y discreto (verde azulado →
+ * azul → índigo) para los anillos. Los temas usan 12 tonos repartidos por el círculo
+ * cromático: son categorías, no valoraciones. El termómetro es monocromático, sin
+ * rojo/verde de "bueno/malo".
  */
 @theme {
 	--font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 	--font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
 
-	--color-tinta: #1c1917;
-	--color-tinta-suave: #57534e;
-	--color-tinta-tenue: #a8a29e;
-	--color-papel: #fafaf9;
+	--color-fondo: #f6f5f1;
 	--color-superficie: #ffffff;
-	--color-borde: #e7e5e4;
+	--color-superficie-2: #efede7;
+	--color-linea: #e3e0d8;
+	--color-texto: #15171c;
+	--color-texto-2: #4b4f58;
+	--color-texto-3: #858892;
 
 	--color-acento: #0f766e;
 	--color-acento-fuerte: #115e59;
-	--color-acento-suave: #ccfbf1;
-	--color-acento-tenue: #f0fdfa;
-
-	--color-termo-0: #e7e5e4;
-	--color-termo-1: #99f6e4;
-	--color-termo-2: #2dd4bf;
-	--color-termo-3: #0d9488;
-	--color-termo-4: #115e59;
-
 	--color-alerta: #b45309;
-	--color-alerta-suave: #fef3c7;
-	/* Modo inmersivo (flujo tipo "stories") */
-	--color-noche: #0c0a09;
-	--color-noche-2: #1c1917;
-	--color-noche-3: #292524;
-	--color-menta: #5eead4;
-	--color-menta-fuerte: #2dd4bf;
+	--color-demo: #6d28d9;
+}
 
-	--color-demo: #7c3aed;
-	--color-demo-suave: #ede9fe;
+:root {
+	--aurora: linear-gradient(135deg, #0d9488 0%, #0284c7 50%, #4f46e5 100%);
 }
 
 @layer base {
 	html {
 		-webkit-tap-highlight-color: transparent;
+		color-scheme: light;
 	}
 	body {
-		@apply bg-papel text-tinta antialiased;
+		@apply bg-fondo text-texto antialiased;
 	}
 	h1,
 	h2,
+	h3,
 	.display {
 		font-family: var(--font-display);
 		font-optical-sizing: auto;
@@ -58,31 +50,48 @@
 	:focus-visible {
 		@apply outline-2 outline-offset-2 outline-acento;
 	}
-}
-
-@utility tarjeta {
-	@apply rounded-2xl border border-borde bg-superficie;
+	::selection {
+		@apply bg-acento text-white;
+	}
 }
 
 @utility contenedor {
 	@apply mx-auto w-full max-w-3xl px-4;
 }
-
-/* Respetar a quien prefiere menos movimiento */
-@media (prefers-reduced-motion: reduce) {
-	*,
-	*::before,
-	*::after {
-		animation-duration: 0.01ms !important;
-		transition-duration: 0.01ms !important;
+@utility tarjeta {
+	@apply rounded-3xl bg-superficie shadow-[0_1px_2px_rgba(21,23,28,0.04),0_4px_16px_-8px_rgba(21,23,28,0.08)] ring-1 ring-black/[0.06];
+}
+@utility texto-aurora {
+	background: var(--aurora);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+@utility fondo-aurora {
+	background: var(--aurora);
+}
+@utility sin-scrollbar {
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
 	}
 }
 
 @keyframes pop {
 	0% { transform: scale(1); }
-	40% { transform: scale(1.08); }
+	40% { transform: scale(1.07); }
 	100% { transform: scale(1); }
 }
 @utility animar-pop {
 	animation: pop 260ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
 }

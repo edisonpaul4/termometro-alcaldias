@@ -14,6 +14,14 @@ from typing import Annotated, Literal
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 Slug = Annotated[str, Field(pattern=r"^[a-z0-9]+(-[a-z0-9]+)*$", description="Identificador en minúsculas con guiones")]
+Icono = Annotated[
+    str,
+    Field(
+        pattern=r"^[a-z0-9]+(-[a-z0-9]+)*$",
+        description="Nombre de un ícono Phosphor (https://phosphoricons.com), p. ej. 'shield-check'. "
+        "Debe estar en el registro de la web (web/src/lib/iconos.ts).",
+    ),
+]
 
 
 class Base(BaseModel):
@@ -29,7 +37,7 @@ class Tema(Base):
     id: Slug
     nombre: str
     nombre_corto: str = Field(max_length=14, description="Para tarjetas pequeñas en móvil")
-    icono: str
+    icono: Icono
     descripcion: str
 
 
@@ -65,7 +73,7 @@ class Enfoque(Base):
     tema: Slug
     nombre: str = Field(max_length=40)
     descripcion: str
-    icono: str
+    icono: Icono
 
 
 class Enfoques(Base):

@@ -38,6 +38,9 @@ export interface Tema {
    * Para tarjetas pequeñas en móvil
    */
   nombre_corto: string;
+  /**
+   * Nombre de un ícono Phosphor (https://phosphoricons.com), p. ej. 'shield-check'. Debe estar en el registro de la web (web/src/lib/iconos.ts).
+   */
   icono: string;
   descripcion: string;
 }
@@ -104,6 +107,9 @@ export interface Enfoque {
   tema: string;
   nombre: string;
   descripcion: string;
+  /**
+   * Nombre de un ícono Phosphor (https://phosphoricons.com), p. ej. 'shield-check'. Debe estar en el registro de la web (web/src/lib/iconos.ts).
+   */
   icono: string;
 }
 /**
