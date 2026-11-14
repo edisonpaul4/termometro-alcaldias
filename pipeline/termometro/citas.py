@@ -62,9 +62,9 @@ def _mejor_ventana(cita: str, pagina: str) -> float:
     return mejor
 
 
-def verificar(cita: str, paginas: list[str], pagina_declarada: int) -> ResultadoCita:
+def verificar(cita: str, paginas: list[str], pagina_declarada: int, minimo: int = MIN_CARACTERES) -> ResultadoCita:
     c = normalizar(cita)
-    if len(c) < MIN_CARACTERES:
+    if len(c) < minimo:
         return ResultadoCita(verificada=False, pagina=None, metodo="muy_corta", similitud=0.0)
 
     norm = [normalizar(p) for p in paginas]

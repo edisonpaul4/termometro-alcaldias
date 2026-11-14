@@ -190,6 +190,13 @@ class Rubrica(Base):
 # ─── Candidato y propuestas ─────────────────────────────────────────────────
 
 
+class ContextoCita(Base):
+    """Fragmento literal del plan que precisa una propuesta (título de fase, fila de tabla...)."""
+
+    texto: str
+    pagina: int = Field(ge=1)
+
+
 class Propuesta(Base):
     id: Slug
     tema: Slug
@@ -197,6 +204,7 @@ class Propuesta(Base):
     cita: str = Field(min_length=10, description="Texto LITERAL del plan de trabajo")
     pagina: int = Field(ge=1)
     cita_verificada: bool = Field(description="La cita se encontró en el texto de esa página")
+    contexto: list[ContextoCita] = Field(default=[], description="Fragmentos literales verificados que vieron los jurados junto a la cita")
     enfoques: list[Slug] = []
     rubrica: Rubrica
 

@@ -12,7 +12,7 @@
 		['target', 'Meta medible', '¿Dice cuánto o qué resultado verificable logrará?'],
 		['calendar-check', 'Plazo', '¿Dice cuándo?'],
 		['coins', 'Financiamiento', '¿Dice de dónde sale el dinero o cuánto cuesta?'],
-		['bank', 'Competencia municipal', '¿Le corresponde al Municipio según el COOTAD? No suma puntos: se muestra como alerta.']
+		['bank', 'Competencia municipal', '¿Cumplirla está en manos del Municipio (COOTAD, arts. 54–55 y 84–85) o depende sobre todo de otro nivel de gobierno? No suma puntos: se muestra como alerta.']
 	];
 </script>
 
@@ -57,7 +57,9 @@
 		<p class="mt-3 text-texto-2">
 			Una IA extrae las propuestas con su cita literal y un programa, <strong class="text-texto">sin IA</strong>, verifica que esa cita
 			exista en la página indicada del PDF. Luego <strong class="text-texto">tres IA de empresas distintas</strong> (Anthropic, OpenAI y
-			Google) califican cada criterio por separado, <strong class="text-texto">sin ver el nombre del candidato ni su partido</strong>. Se
+			Google) califican cada criterio por separado, <strong class="text-texto">sin ver el nombre del candidato ni su partido</strong>. Ven la cita textual
+			y su contexto en el plan (la fase o sección donde aparece y, si existe, la fila de la tabla que le pone meta, plazo o monto), no
+			nuestro resumen. Se
 			publica lo que decide la mayoría y se muestra cuántas coincidieron. Los desacuerdos y una muestra al azar los revisa una persona.
 		</p>
 	</section>

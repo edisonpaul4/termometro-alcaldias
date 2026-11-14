@@ -101,11 +101,11 @@ class MockIA:
                 if not tema:
                     continue
                 vistos.add(s)
-                props.append(PropuestaExtraida(tema=tema, resumen=s[:200], cita=s, pagina=n))
+                props.append(PropuestaExtraida(tema=tema, resumen=s[:200], cita=s, pagina=n, contexto=[]))
                 if len(props) >= 40:
                     break
         # Una cita inventada a propósito: el verificador DEBE descartarla
-        props.append(PropuestaExtraida(tema="movilidad", resumen="Teleférico submarino (mock, inventada)", cita=CITA_INVENTADA, pagina=1))
+        props.append(PropuestaExtraida(tema="movilidad", resumen="Teleférico submarino (mock, inventada)", cita=CITA_INVENTADA, pagina=1, contexto=[]))
         return Extraccion(propuestas=props)
 
     def _transcripcion(self, sol: Solicitud) -> Transcripcion:

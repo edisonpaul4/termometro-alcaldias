@@ -27,6 +27,7 @@ function prop(tema: string, o: { meta?: boolean; plazo?: boolean; fin?: boolean;
 		cita: 'cita de prueba larga',
 		pagina: 1,
 		cita_verificada: true,
+		contexto: [],
 		enfoques: o.enfoques ?? [],
 		rubrica: {
 			meta: cal(o.meta ?? false),

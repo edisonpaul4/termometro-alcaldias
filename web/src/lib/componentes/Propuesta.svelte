@@ -62,6 +62,17 @@
 				</footer>
 			</blockquote>
 
+			{#if propuesta.contexto.length}
+				<div class="rounded-2xl bg-fondo px-4 py-3 text-sm ring-1 ring-black/5">
+					<p class="text-xs font-semibold text-texto-2">Contexto en el mismo plan (también lo vieron los jurados)</p>
+					<ul class="mt-1.5 space-y-1 text-texto-2">
+						{#each propuesta.contexto as f, i (i)}
+							<li>“{f.texto}” <span class="text-xs text-texto-3">· pág. {f.pagina}</span></li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+
 			<dl class="divide-y divide-black/5 overflow-hidden rounded-2xl bg-fondo ring-1 ring-black/5">
 				{#each criterios as [icono, nombre, c] (nombre)}
 					<div class="p-3 text-sm">

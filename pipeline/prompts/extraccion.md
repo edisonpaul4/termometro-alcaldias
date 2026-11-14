@@ -17,6 +17,15 @@ transparencia"), biografías, ni objetivos sin acción ("una ciudad más segura"
   carácter (puede ser parte de una oración; mínimo ~10 palabras). Un programa verificará que la
   cita exista textualmente en la página indicada: si la parafraseas, la propuesta se descarta.
 - `pagina`: número de página del PDF (las páginas vienen marcadas como `=== Página N ===`).
+- `contexto`: lista (puede ir vacía) de hasta 4 fragmentos del MISMO plan, también COPIADOS LITERALMENTE
+  y con su página, que precisan ESTA propuesta y no están ya en la cita:
+  - el título de la sección, eje, fase o etapa bajo la que aparece (con sus fechas, si las tiene);
+  - la fila de una tabla, cronograma, matriz o presupuesto que le fija una meta, un plazo, un monto o
+    una fuente de financiamiento. Si la tabla aparece partida en líneas sueltas, copia cada celda
+    relevante como un fragmento aparte.
+  No incluyas texto general del plan ni datos que correspondan a otras propuestas. Otros evaluadores
+  calificarán la propuesta leyendo solo la cita y este contexto: si el plan dice en otra parte cuánto,
+  cuándo o con qué dinero se hará, tiene que quedar aquí.
 
 Si una misma acción aparece repetida, extráela una sola vez (la mención más completa).
 

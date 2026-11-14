@@ -27,6 +27,7 @@ from .esquemas import (
     Agrupacion,
     AuditoriaNeutralidad,
     Extraccion,
+    FragmentoContexto,
     PropuestaExtraida,
     PropuestaVerificada,
     ResultadoDocumento,
@@ -35,7 +36,7 @@ from .esquemas import (
     VotosLote,
 )
 from .llm import Equipo, PresupuestoAgotado, ProveedorIA, Solicitud, cargar_prompt, equipo, llamar
-from .modelos import Calificacion, Candidato, Criterio, Enfoque, Enfoques, Propuesta, Rubrica, Tema, VotoJurado
+from .modelos import Calificacion, Candidato, ContextoCita, Criterio, Enfoque, Enfoques, Propuesta, Rubrica, Tema, VotoJurado
 from .texto import texto_pdf
 
 CRITERIOS = [c.value for c in Criterio]
@@ -87,6 +88,7 @@ class Reporte:
     kappa: dict[str, float | None] = field(default_factory=dict)
     acuerdo: dict[str, float | None] = field(default_factory=dict)  # % de propuestas con los 3 jurados de acuerdo
     errores: list[str] = field(default_factory=list)
+    contexto_descartado: int = 0
     exportadas: int = 0
     cache: str = ""
 
@@ -106,6 +108,7 @@ class Reporte:
             l.append(f"- {crit}: kappa {'—' if k is None else k} ({nivel}) · unanimidad en {'—' if ac is None else f'{ac:.0%}'} de las propuestas")
         l.append("")
         l.append("> Con criterios muy raros (p. ej. casi ninguna propuesta tiene plazo) el kappa cae aunque los jurados casi siempre coincidan: mirar también el % de unanimidad.")
+        l += ["", f"Fragmentos de contexto descartados por no estar literalmente en el plan: {self.contexto_descartado}"]
         l += ["", f"## Cola de revisión humana: {len(self.pendientes)}", ""]
         for pid, motivo in list(self.pendientes.items())[:50]:
             l.append(f"- `{pid}`: {motivo['motivo']}")
@@ -152,9 +155,18 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     def incorporar(props: list[PropuestaExtraida], origen: str) -> None:
         for pe in props:
             r = verificar(pe.cita, paginas, pe.pagina)
+            # El contexto también se verifica literalmente; lo que no está en el PDF se descarta
+            contexto: list[FragmentoContexto] = []
+            for f in pe.contexto[:4]:
+                rc = verificar(f.texto, paginas, f.pagina, minimo=8)
+                t = f.texto.strip()
+                if rc.verificada and normalizar(t) not in normalizar(pe.cita) and t not in [x.texto for x in contexto]:
+                    contexto.append(FragmentoContexto(texto=t, pagina=rc.pagina or f.pagina))
+                elif not rc.verificada:
+                    rep.contexto_descartado += 1
             pv = PropuestaVerificada(
                 id=id_propuesta(c.id, pe.cita), candidato=c.id, tema=pe.tema if pe.tema in ids_temas else "",
-                resumen=pe.resumen.strip(), cita=pe.cita.strip(), pagina=r.pagina or pe.pagina, verificacion=r, origen=origen,
+                resumen=pe.resumen.strip(), cita=pe.cita.strip(), pagina=r.pagina or pe.pagina, contexto=contexto, verificacion=r, origen=origen,
             )
             if r.verificada and pv.tema and pv.id not in verificadas:
                 verificadas[pv.id] = pv
@@ -190,8 +202,10 @@ def juzgar(todas: list[PropuestaVerificada], jurado: list[ProveedorIA], terminos
     p = cargar_prompt("jurado_lote")
     anon = {}
     for pv in todas:
-        r, c = anonimizar(pv.resumen, terminos[pv.candidato]), anonimizar(pv.cita, terminos[pv.candidato])
-        anon[pv.id] = (pv.tema, r, c, huella([pv.tema, r, c]))
+        # Los jurados NO ven el resumen (lo escribió otra IA): solo la cita y su contexto, anonimizados
+        c = anonimizar(pv.cita, terminos[pv.candidato])
+        ctx = [anonimizar(f.texto, terminos[pv.candidato]) for f in pv.contexto]
+        anon[pv.id] = (pv.tema, ctx, c, huella([pv.tema, c, ctx]))
 
     votos: dict[str, dict[str, VotoRubrica | None]] = {pv.id: {} for pv in todas}
     tareas = []
@@ -208,10 +222,14 @@ def juzgar(todas: list[PropuestaVerificada], jurado: list[ProveedorIA], terminos
 
     def ejecutar_lote(tarea):
         j, ids = tarea
-        bloques = [f"### Propuesta {n}\nTema: {anon[pid][0]}\nResumen: {anon[pid][1]}\nCita textual del plan: \"{anon[pid][2]}\""
-                   for n, pid in enumerate(ids, start=1)]
+        def bloque(n: int, pid: str) -> str:
+            tema, ctx, cita, _ = anon[pid]
+            contexto = "\n".join(f'- "{x}"' for x in ctx) if ctx else "(el plan no aporta más contexto para esta propuesta)"
+            return f'### Propuesta {n}\nTema: {tema}\nCita textual del plan: "{cita}"\nContexto en el mismo plan:\n{contexto}'
+
+        bloques = [bloque(n, pid) for n, pid in enumerate(ids, start=1)]
         sol = Solicitud("jurado_lote", "", p.render(PROPUESTAS="\n\n".join(bloques)), VotosLote,
-                        extra={"citas": [anon[pid][2] for pid in ids]})
+                        extra={"citas": [" ".join([anon[pid][2], *anon[pid][1]]) for pid in ids]})
         try:
             lote = llamar(j, sol, VotosLote)
         except RuntimeError as e:
@@ -392,6 +410,7 @@ def _exportar(ciudad, candidatos, todas, rubricas, asignacion, enfoques, dir_dat
             continue  # pendiente de revisión: no se publica
         por_cand[pv.candidato].append(Propuesta(
             id=pv.id, tema=pv.tema, resumen=pv.resumen[:220], cita=pv.cita, pagina=pv.pagina, cita_verificada=True,
+            contexto=[ContextoCita(texto=f.texto, pagina=f.pagina) for f in pv.contexto],
             enfoques=[e for e in asignacion.get(pv.id, []) if e in ids_enfoques], rubrica=rubricas[pv.id],
         ))
     for c in candidatos:

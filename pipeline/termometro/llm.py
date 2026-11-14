@@ -70,7 +70,10 @@ def cargar_prompt(nombre: str) -> Prompt:
 
     texto = (DIR_PROMPTS / f"{nombre}.md").read_text(encoding="utf-8")
     if "{{RUBRICA}}" in texto:
-        texto = texto.replace("{{RUBRICA}}", (DIR_PROMPTS.parent / "rubrica.md").read_text(encoding="utf-8"))
+        rubrica = (DIR_PROMPTS.parent / "rubrica.md").read_text(encoding="utf-8")
+        # Los jurados reciben SOLO el bloque marcado (sin metadatos del proyecto ni reglas de cálculo)
+        rubrica = rubrica.split("<!-- jurado:inicio -->", 1)[1].split("<!-- jurado:fin -->", 1)[0].strip()
+        texto = texto.replace("{{RUBRICA}}", rubrica)
     return Prompt(nombre=nombre, texto=texto, version=sha256_texto(texto)[:12])
 
 

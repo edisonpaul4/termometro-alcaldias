@@ -195,10 +195,24 @@ export interface Propuesta {
    */
   cita_verificada: boolean;
   /**
+   * Fragmentos literales verificados que vieron los jurados junto a la cita
+   */
+  contexto: ContextoCita[];
+  /**
    * Items: Identificador en minúsculas con guiones
    */
   enfoques: string[];
   rubrica: Rubrica;
+}
+/**
+ * Fragmento literal del plan que precisa una propuesta (título de fase, fila de tabla...).
+ *
+ * This interface was referenced by `DatosSitio`'s JSON-Schema
+ * via the `definition` "ContextoCita".
+ */
+export interface ContextoCita {
+  texto: string;
+  pagina: number;
 }
 /**
  * This interface was referenced by `DatosSitio`'s JSON-Schema

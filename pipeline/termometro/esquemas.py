@@ -14,11 +14,17 @@ from pydantic import BaseModel, Field
 from .citas import ResultadoCita
 
 
+class FragmentoContexto(BaseModel):
+    texto: str = Field(description="Fragmento COPIADO LITERALMENTE del plan")
+    pagina: int = Field(description="Página del PDF donde está el fragmento")
+
+
 class PropuestaExtraida(BaseModel):
     tema: str = Field(description="id de uno de los temas permitidos")
     resumen: str = Field(description="Resumen neutral en una oración (máx. 200 caracteres), sin adjetivos valorativos")
     cita: str = Field(description="Fragmento COPIADO LITERALMENTE del plan, sin cambiar ni una palabra")
     pagina: int = Field(description="Página del PDF donde está la cita (1 = primera)")
+    contexto: list[FragmentoContexto] = Field(description="Hasta 4 fragmentos literales que precisan la propuesta; lista vacía si no hay")
 
 
 class Extraccion(BaseModel):
@@ -90,6 +96,7 @@ class PropuestaVerificada(BaseModel):
     resumen: str
     cita: str
     pagina: int
+    contexto: list[FragmentoContexto] = []
     verificacion: ResultadoCita
     origen: Literal["extraccion", "cobertura"]
 

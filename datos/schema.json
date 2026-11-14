@@ -210,6 +210,25 @@
       "title": "Consenso",
       "type": "string"
     },
+    "ContextoCita": {
+      "additionalProperties": false,
+      "description": "Fragmento literal del plan que precisa una propuesta (título de fase, fila de tabla...).",
+      "properties": {
+        "texto": {
+          "type": "string"
+        },
+        "pagina": {
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "texto",
+        "pagina"
+      ],
+      "title": "ContextoCita",
+      "type": "object"
+    },
     "DatosCiudad": {
       "additionalProperties": false,
       "properties": {
@@ -404,6 +423,14 @@
           "description": "La cita se encontró en el texto de esa página",
           "type": "boolean"
         },
+        "contexto": {
+          "default": [],
+          "description": "Fragmentos literales verificados que vieron los jurados junto a la cita",
+          "items": {
+            "$ref": "#/$defs/ContextoCita"
+          },
+          "type": "array"
+        },
         "enfoques": {
           "default": [],
           "items": {
@@ -424,6 +451,7 @@
         "cita",
         "pagina",
         "cita_verificada",
+        "contexto",
         "enfoques",
         "rubrica"
       ],

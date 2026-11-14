@@ -1,75 +1,97 @@
-# Rúbrica del Termómetro de concreción · v2
+# Rúbrica del Termómetro de concreción · v3
 
-Esta rúbrica la aplican **por separado** los jurados de IA (Claude, GPT y Gemini) a **cada propuesta**.
-Los jurados no ven el nombre del candidato ni de su partido.
-Se publica tal cual en la página de Metodología.
+Esta rúbrica la aplican **por separado** tres jurados de IA de empresas distintas a **cada propuesta**.
+Los jurados no ven el nombre del candidato ni de su partido, ni el resumen que muestra la web:
+ven la **cita textual** del plan y su **contexto** (el título de la sección o fase donde aparece y,
+si existe, la fila de tabla, cronograma o presupuesto que la precisa). Cita y contexto se verifican
+antes contra el PDF oficial.
 
-**No evaluamos si una propuesta es buena, deseable o ideológicamente correcta.**
-Solo evaluamos si está formulada de manera **concreta y verificable**, y si **le corresponde al Municipio**.
+El bloque entre las marcas `jurado:inicio` y `jurado:fin` es, palabra por palabra, lo que reciben los jurados.
 
-Cada criterio es **Sí / No**. Ante la duda, la respuesta es **No**: la carga de la concreción está en quien propone.
-Solo cuenta lo que dice el texto citado y su contexto inmediato en el plan, no lo que "probablemente" quiso decir.
+<!-- jurado:inicio -->
+## Rúbrica
 
----
+No evalúes si la propuesta es buena, deseable o ideológicamente correcta.
+Evalúa solo si está formulada de manera **concreta y verificable**, y si **le corresponde al Municipio**.
 
-## 🎯 Meta medible
+Cada criterio es **Sí / No**. Ante la duda, **No**: la carga de la concreción está en quien propone.
+Cuenta lo que dicen la cita y su contexto, no lo que "probablemente" quiso decir. Un dato del contexto
+(una meta, un plazo o un monto en la fila de una tabla o en el título de una fase) vale igual que si
+estuviera en la cita, siempre que se refiera claramente a esa propuesta.
 
-**¿La propuesta dice cuánto o qué resultado verificable se logrará?**
+### Meta medible: ¿dice cuánto o qué resultado verificable se logrará?
 
-- **Sí** si dice **cuánto** (una cantidad, porcentaje o cobertura: "500 luminarias", "el 100% de la parroquia", "todas las escuelas municipales")
-  o si nombra **una obra física única con su ubicación o alcance** ("el nuevo mercado de Calderón", "la extensión del Metro hasta Carapungo").
-  Un nombre propio de programa, sistema o trámite no basta ("Expediente Único de Edificación", "Plan Quito Seguro"), ni una obra
-  sin alcance ("la extensión del Metro", sin decir hasta dónde). Tampoco "todos los X" si no se sabe cuántos son ni cuándo se cubren.
-- **No** si solo nombra un **tipo** de cosa o de programa sin decir cuánto ni dónde ("semaforización adaptativa", "sensores de alerta temprana",
-  "un programa de emprendimiento"), aunque suene técnico o específico. Tampoco si solo describe una intención o usa un verbo genérico
+- **Sí** si dice **cuánto** (cantidad, porcentaje o cobertura: "500 luminarias", "el 100% de la parroquia",
+  "los cinco trámites más demandados") o si nombra **una obra física única con su ubicación o alcance**
+  ("el nuevo mercado de Calderón", "la extensión del Metro hasta Carapungo").
+- **No** si solo nombra un **tipo** de cosa, programa, sistema o trámite sin decir cuánto ni dónde
+  ("semaforización adaptativa", "sensores de alerta temprana", "un programa de emprendimiento"),
+  aunque suene técnico o tenga nombre propio ("Expediente Único de Edificación", "Plan Quito Seguro").
+- La cantidad debe medir **el resultado** (cuánto se hará o a cuántos llegará), no contar las partes del
+  propio plan ("los tres ejes de este plan", "las cuatro fases").
+- **No** si es una obra sin alcance ("la extensión del Metro", sin decir hasta dónde), si dice "todos los X"
+  sin que se sepa cuántos son, o si solo expresa una intención con un verbo genérico
   ("mejorar", "fortalecer", "impulsar", "promover").
 
-| Sí ✅ | No ❌ |
+| Sí | No |
 |---|---|
 | "Instalar 5.000 luminarias LED en barrios del sur" | "Mejorar la iluminación de los barrios" |
 | "Reducir a 20 minutos la frecuencia de buses en la ruta X" | "Optimizar el transporte público" |
 | "Construir 3 centros de acopio de reciclaje" | "Fortalecer el reciclaje" |
-| "Llevar agua potable al 100% de la parroquia Y" | "Ampliar la cobertura de agua" |
-| "Construir el nuevo mercado de Calderón" | "Semaforización adaptativa con prioridad al bus" (tipo de sistema, sin cobertura) |
+| "Construir el nuevo mercado de Calderón" | "Semaforización adaptativa con prioridad al bus" |
 
-## 📅 Plazo
+### Plazo: ¿dice cuándo estará cumplida la propuesta?
 
-**¿La propuesta dice cuándo se cumplirá?**
+- **Sí** si hay una fecha, un año, una duración contada desde el inicio de la gestión o un hito con fecha
+  ("en los primeros 100 días", "hasta 2028", "en el primer año de gestión").
+- **Sí** si el contexto ubica la propuesta en una fase o etapa **que tiene fechas o duración**
+  ("Fase 1 (2027)", "Año 1").
+- **No** si no hay referencia temporal, o si es vaga: "durante la administración", "a corto plazo",
+  "al inicio de la gestión", o una fase o etapa **sin fechas** ("Fase 1", "primera etapa").
+- **No cuentan como plazo:** una periodicidad ("informe anual"), la duración de un trámite o servicio
+  ("licencias en 72 horas") ni la duración de un beneficio ("tasa cero el primer año").
 
-- **Sí** si menciona una fecha, un año, una duración o un hito temporal ("en los primeros 100 días", "hasta 2028", "en el primer año").
-- **No** si no hay referencia temporal, o si solo dice "durante la administración" o "a corto plazo".
-- **No cuentan como plazo:** una **periodicidad** ("informe anual", "rendición de cuentas mensual"), la **duración de un trámite o servicio**
-  ("licencias en 72 horas") ni la **duración de un beneficio** ("tasa cero el primer año"). El plazo es **cuándo estará cumplida la propuesta**.
+### Financiamiento: ¿dice de dónde saldrá el dinero o cuánto costará?
 
-## 💰 Financiamiento
+- **Sí** si menciona un monto, una fuente (presupuesto reasignado desde un rubro nombrado, crédito de un
+  organismo, alianza público-privada concreta, tasa o contribución específica, cooperación internacional
+  nombrada) o un mecanismo de financiamiento identificable.
+- **No** si no lo menciona, o si dice genéricamente "con recursos municipales", "gestionando recursos",
+  "optimizando el gasto" o "con ahorros" sin cifra ni rubro. Tampoco basta decir que no costará
+  ("sin nómina nueva", "sin inversión adicional") si no explica con qué se paga.
 
-**¿La propuesta dice de dónde saldrá el dinero o cuánto costará?**
+### Competencia municipal: ¿cumplir esta propuesta está en manos del Municipio?
 
-- **Sí** si menciona un monto, una fuente (presupuesto municipal reasignado desde X, crédito de un organismo, alianza público-privada concreta, tasa específica, cooperación internacional nombrada) o un mecanismo identificable.
-- **No** si no lo menciona, o si dice genéricamente "con recursos municipales" o "gestionando recursos".
+Referencia: COOTAD, arts. 54–55 (funciones y competencias exclusivas municipales) y 84–85 (distritos
+metropolitanos). El Distrito Metropolitano tiene funciones amplias: uso del suelo y construcciones;
+tránsito y transporte terrestre; agua potable, alcantarillado y desechos; espacio público, mercados y
+cementerios; regulación de actividades económicas y desarrollo económico local; turismo, cultura,
+deporte y patrimonio; vivienda de interés social; equidad, inclusión y protección de derechos;
+control de la contaminación; gestión de riesgos y bomberos; agentes metropolitanos de control;
+consejos de seguridad ciudadana y convenios con la Policía; servicios propios de salud y educación
+municipales y su infraestructura; participación ciudadana, transparencia y trámites municipales.
 
-## 🏛️ Competencia municipal
+- **Sí** si el Municipio puede cumplirla con sus funciones y recursos, aunque coordine con otros niveles
+  de gobierno o complemente un servicio nacional.
+- **No** si el resultado prometido depende **principalmente** de otro nivel de gobierno o de otra función
+  del Estado: Policía Nacional o Fuerzas Armadas (número de efectivos, operativos), justicia y cárceles,
+  leyes e impuestos nacionales, hospitales y personal del Ministerio de Salud, escuelas y docentes del
+  sistema nacional, política monetaria. También si solo promete "gestionar" o "exigir" que otro lo haga.
 
-**¿Ejecutar esta propuesta le corresponde al Municipio (Distrito Metropolitano)?**
-
-Referencia: COOTAD, art. 55 (competencias exclusivas del GAD municipal) y arts. 84–85 (distritos metropolitanos).
-En general **sí** son competencia municipal: tránsito y transporte, uso del suelo, agua potable y alcantarillado, desechos sólidos, espacio público, mercados, infraestructura física de salud y educación, patrimonio, gestión de riesgos, bomberos, policía y agentes metropolitanos de control.
-
-- **Sí** si el Municipio puede ejecutarla con sus propias competencias, aunque sea en coordinación con otros niveles de gobierno.
-- **No** si depende principalmente de otro nivel de gobierno: Policía Nacional, justicia, fuerzas armadas, educación o salud como servicio nacional (docentes, médicos del MSP), política monetaria o leyes nacionales.
-
-| Sí ✅ | No ❌ |
+| Sí | No |
 |---|---|
 | "Contratar 500 agentes metropolitanos de control" | "Duplicar el número de policías nacionales en Quito" |
-| "Construir un nuevo mercado en Calderón" | "Reformar el Código Penal para endurecer las penas" |
-| "Implementar cámaras municipales conectadas al ECU 911" | "Bajar el IVA para los comerciantes de Quito" |
-
-> Este criterio **no suma** al puntaje de concreción. Se muestra como alerta: "⚠️ Fuera de la competencia del Municipio".
+| "Cámaras municipales conectadas al ECU 911" | "Reformar el Código Penal para endurecer las penas" |
+| "Atención psicosocial en centros municipales, en coordinación con el Ministerio de Salud" | "Contratar más médicos para los hospitales públicos" |
+| "Convenio con la Policía para patrullaje conjunto con agentes metropolitanos" | "Bajar el IVA para los comerciantes de Quito" |
+<!-- jurado:fin -->
 
 ---
 
-## Cálculo (lo hace la web, no la IA)
+## Qué hace la web con estas calificaciones (los jurados no lo ven)
 
+- Se publica lo que decide la mayoría de los tres jurados, y cuántos coincidieron. Sin mayoría, decide una persona y queda anotado.
 - Concreción de una propuesta = (meta + plazo + financiamiento) / 3
 - Termómetro por tema = promedio de concreción de las propuestas del candidato en ese tema
 - Termómetro global = promedio de los termómetros por tema en que el candidato tiene propuestas
+- **Competencia municipal no suma al puntaje.** Se muestra como alerta y esas propuestas no cuentan en "lo que me importa".
