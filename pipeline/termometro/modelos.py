@@ -17,7 +17,7 @@ Slug = Annotated[str, Field(pattern=r"^[a-z0-9]+(-[a-z0-9]+)*$", description="Id
 
 
 class Base(BaseModel):
-    model_config = ConfigDict(extra="forbid", frozen=True)
+    model_config = ConfigDict(extra="forbid", frozen=True, json_schema_serialization_defaults_required=True)
 
 
 # ─── Catálogos comunes ──────────────────────────────────────────────────────

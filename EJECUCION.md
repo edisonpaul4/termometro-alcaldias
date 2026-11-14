@@ -60,17 +60,17 @@
 
 ### F3 · Web (con datos mock)
 Orden por valor:
-1. [ ] Layout base, home y selector de ciudad (solo ciudades activas), con orden aleatorio de candidatos
-2. [ ] **Ficha de candidato**: perfil, propuestas por tema, cita con enlace al PDF y página, y badge "3 de 3 IA coinciden"
-3. [ ] **Componente termómetro**: global y por tema, con desglose y alertas de competencia municipal
-4. [ ] **Comparador por tema**
-5. [ ] **Flujo "Lo que me importa"**:
-   - [ ] `lib/afinidad.ts` con **tests unitarios** (pesos, empates, candidato sin el tema, usuario sin enfoques)
-   - [ ] Paso 1: tarjetas seleccionables con orden de prioridad y reordenamiento con arrastre
-   - [ ] Paso 2: enfoques por tema
-   - [ ] Paso 3: ranking animado con el "por qué" desplegable y el empate técnico
-   - [ ] Estado en la URL para compartir el resultado (sin datos personales)
-6. [ ] Página de metodología: rúbrica, algoritmo, roles de cada IA y métricas
+1. [x] Layout base, home y selector de ciudad (solo ciudades activas), con orden aleatorio de candidatos
+2. [x] **Ficha de candidato**: perfil, propuestas por tema, cita con enlace al PDF y página, y badge "3 de 3 IA coinciden"
+3. [x] **Componente termómetro**: global y por tema, con desglose y alertas de competencia municipal
+4. [x] **Comparador por tema**
+5. [x] **Flujo "Lo que me importa"**:
+   - [x] `lib/afinidad.ts` con **tests unitarios** (pesos, empates, candidato sin el tema, usuario sin enfoques)
+   - [x] Paso 1: tarjetas seleccionables con orden de prioridad y reordenamiento con botones ↑↓ (más accesible que arrastrar en móvil)
+   - [x] Paso 2: enfoques por tema
+   - [x] Paso 3: ranking animado con el "por qué" desplegable y el empate técnico
+   - [x] Estado en la URL para compartir el resultado (sin datos personales)
+6. [x] Página de metodología: rúbrica, algoritmo, roles de cada IA y métricas
 7. [ ] SEO, imágenes OG para compartir por WhatsApp y accesibilidad (teclado, contraste, lectores de pantalla)
 
 ✅ **Listo cuando:** la ciudad `demo` se puede recorrer entera en el celular y el build estático funciona.

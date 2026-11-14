@@ -13,3 +13,4 @@ __pycache__/
 
 # Generado
 web/src/lib/server/datos.gen.json
+web/static/fotos/

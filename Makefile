@@ -4,6 +4,7 @@
 PY      := pipeline/.venv/bin
 CIUDAD  ?= quito
 DATOS_WEB := web/src/lib/server/datos.gen.json
+FOTOS_WEB := web/static/fotos
 
 .PHONY: ayuda setup test validar validar-produccion schema datos web build
 
@@ -36,11 +37,11 @@ schema:
 	cd web && npm run tipos
 
 datos:
-	$(PY)/termometro exportar --out $(DATOS_WEB)
+	$(PY)/termometro exportar --out $(DATOS_WEB) --fotos $(FOTOS_WEB)
 
 web: datos
 	cd web && npm run dev
 
 build:
-	$(PY)/termometro exportar --produccion --out $(DATOS_WEB)
+	$(PY)/termometro exportar --produccion --out $(DATOS_WEB) --fotos $(FOTOS_WEB)
 	cd web && npm run build

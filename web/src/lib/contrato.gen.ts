@@ -15,7 +15,7 @@ export type Proveedor = "anthropic" | "openai" | "google" | "mock";
  * Todo lo que la web necesita. Se exporta como JSON Schema → tipos TS.
  */
 export interface DatosSitio {
-  version_schema?: 1;
+  version_schema: 1;
   temas: Tema[];
   ciudades: CiudadRegistro[];
   datos: {
@@ -54,7 +54,7 @@ export interface CiudadRegistro {
   id: string;
   nombre: string;
   nombre_oficial: string;
-  dignidad?: string;
+  dignidad: string;
   activa: boolean;
 }
 /**
@@ -79,13 +79,13 @@ export interface Ciudad {
   id: string;
   nombre: string;
   eleccion: string;
-  debate?: string | null;
+  debate: string | null;
   fin_campana: string;
   /**
    * Lista confirmada contra la fuente oficial del CNE
    */
   candidatos_verificados: boolean;
-  es_mock?: boolean;
+  es_mock: boolean;
 }
 /**
  * Forma de abordar un tema, agrupada a partir de propuestas reales (paso 2 del flujo).
@@ -120,12 +120,12 @@ export interface Candidato {
   nombre: string;
   lista: string;
   organizacion: string;
-  foto?: string | null;
-  foto_fuente?: Fuente | null;
-  trayectoria?: Trayectoria[];
+  foto: string | null;
+  foto_fuente: Fuente | null;
+  trayectoria: Trayectoria[];
   plan_trabajo: PlanTrabajo;
-  propuestas?: Propuesta[];
-  es_mock?: boolean;
+  propuestas: Propuesta[];
+  es_mock: boolean;
 }
 /**
  * Referencia pública a una fuente. `archivo` apunta a la copia en `fuentes/`.
@@ -140,7 +140,7 @@ export interface Fuente {
   /**
    * Ruta relativa a la raíz del repo
    */
-  archivo?: string | null;
+  archivo: string | null;
 }
 /**
  * This interface was referenced by `DatosSitio`'s JSON-Schema
@@ -157,10 +157,10 @@ export interface Trayectoria {
  */
 export interface PlanTrabajo {
   disponible: boolean;
-  fuente?: Fuente | null;
-  paginas?: number | null;
-  sha256?: string | null;
-  nota?: string | null;
+  fuente: Fuente | null;
+  paginas: number | null;
+  sha256: string | null;
+  nota: string | null;
 }
 /**
  * This interface was referenced by `DatosSitio`'s JSON-Schema
@@ -191,7 +191,7 @@ export interface Propuesta {
   /**
    * Items: Identificador en minúsculas con guiones
    */
-  enfoques?: string[];
+  enfoques: string[];
   rubrica: Rubrica;
 }
 /**
@@ -218,7 +218,7 @@ export interface Calificacion {
   /**
    * Obligatoria si consenso = humano
    */
-  nota_revision?: string | null;
+  nota_revision: string | null;
 }
 /**
  * This interface was referenced by `DatosSitio`'s JSON-Schema
@@ -231,5 +231,5 @@ export interface VotoJurado {
    * null = el modelo falló o devolvió una respuesta inválida
    */
   valor: boolean | null;
-  justificacion?: string | null;
+  justificacion: string | null;
 }

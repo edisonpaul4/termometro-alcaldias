@@ -32,7 +32,8 @@
       "required": [
         "valor",
         "consenso",
-        "votos"
+        "votos",
+        "nota_revision"
       ],
       "title": "Calificacion",
       "type": "object"
@@ -104,7 +105,12 @@
         "nombre",
         "lista",
         "organizacion",
-        "plan_trabajo"
+        "foto",
+        "foto_fuente",
+        "trayectoria",
+        "plan_trabajo",
+        "propuestas",
+        "es_mock"
       ],
       "title": "Candidato",
       "type": "object"
@@ -154,8 +160,10 @@
         "id",
         "nombre",
         "eleccion",
+        "debate",
         "fin_campana",
-        "candidatos_verificados"
+        "candidatos_verificados",
+        "es_mock"
       ],
       "title": "Ciudad",
       "type": "object"
@@ -187,6 +195,7 @@
         "id",
         "nombre",
         "nombre_oficial",
+        "dignidad",
         "activa"
       ],
       "title": "CiudadRegistro",
@@ -293,7 +302,8 @@
       "required": [
         "url",
         "titulo",
-        "consultado"
+        "consultado",
+        "archivo"
       ],
       "title": "Fuente",
       "type": "object"
@@ -352,7 +362,11 @@
         }
       },
       "required": [
-        "disponible"
+        "disponible",
+        "fuente",
+        "paginas",
+        "sha256",
+        "nota"
       ],
       "title": "PlanTrabajo",
       "type": "object"
@@ -408,6 +422,7 @@
         "cita",
         "pagina",
         "cita_verificada",
+        "enfoques",
         "rubrica"
       ],
       "title": "Propuesta",
@@ -538,7 +553,8 @@
       "required": [
         "proveedor",
         "modelo",
-        "valor"
+        "valor",
+        "justificacion"
       ],
       "title": "VotoJurado",
       "type": "object"
@@ -572,6 +588,7 @@
     }
   },
   "required": [
+    "version_schema",
     "temas",
     "ciudades",
     "datos"

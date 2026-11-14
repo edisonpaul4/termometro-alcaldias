@@ -60,6 +60,24 @@ def cmd_exportar(args) -> int:
     salida.parent.mkdir(parents=True, exist_ok=True)
     salida.write_text(sitio.model_dump_json(indent=1), encoding="utf-8")
     print(f"✓ datos exportados en {salida}")
+
+    if args.fotos:
+        import shutil
+
+        from .datos import RAIZ_REPO
+
+        dir_fotos = Path(args.fotos)
+        shutil.rmtree(dir_fotos, ignore_errors=True)
+        n = 0
+        for cid, dc in sitio.datos.items():
+            for c in dc.candidatos:
+                if c.foto:
+                    origen = RAIZ_REPO / c.foto
+                    destino = dir_fotos / cid / f"{c.id}{origen.suffix}"
+                    destino.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copyfile(origen, destino)
+                    n += 1
+        print(f"✓ {n} fotos copiadas a {dir_fotos}")
     return 0
 
 
@@ -95,6 +113,7 @@ def main(argv: list[str] | None = None) -> int:
     e.add_argument("--datos", default=str(DIR_DATOS))
     e.add_argument("--out", required=True)
     e.add_argument("--produccion", action="store_true")
+    e.add_argument("--fotos", help="Directorio donde copiar las fotos (fotos/<ciudad>/<id>.<ext>)")
     e.set_defaults(func=cmd_exportar)
 
     d = sub.add_parser("demo", help="Regenera la ciudad ficticia 'demo' (datos mock)")

@@ -1,1 +1,54 @@
 @import 'tailwindcss';
+
+/*
+ * Paleta deliberadamente NEUTRAL: casi todos los colores fuertes están asociados a algún
+ * partido en Ecuador. Usamos tinta + un único acento (verde azulado) y una escala
+ * monocromática para el termómetro (más concreto = más oscuro), sin rojo/verde que
+ * sugiera "bueno/malo".
+ */
+@theme {
+	--font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+	--color-tinta: #1c1917;
+	--color-tinta-suave: #57534e;
+	--color-tinta-tenue: #a8a29e;
+	--color-papel: #fafaf9;
+	--color-superficie: #ffffff;
+	--color-borde: #e7e5e4;
+
+	--color-acento: #0f766e;
+	--color-acento-fuerte: #115e59;
+	--color-acento-suave: #ccfbf1;
+	--color-acento-tenue: #f0fdfa;
+
+	--color-termo-0: #e7e5e4;
+	--color-termo-1: #99f6e4;
+	--color-termo-2: #2dd4bf;
+	--color-termo-3: #0d9488;
+	--color-termo-4: #115e59;
+
+	--color-alerta: #b45309;
+	--color-alerta-suave: #fef3c7;
+	--color-demo: #7c3aed;
+	--color-demo-suave: #ede9fe;
+}
+
+@layer base {
+	html {
+		-webkit-tap-highlight-color: transparent;
+	}
+	body {
+		@apply bg-papel text-tinta antialiased;
+	}
+	:focus-visible {
+		@apply outline-2 outline-offset-2 outline-acento;
+	}
+}
+
+@utility tarjeta {
+	@apply rounded-2xl border border-borde bg-superficie;
+}
+
+@utility contenedor {
+	@apply mx-auto w-full max-w-3xl px-4;
+}

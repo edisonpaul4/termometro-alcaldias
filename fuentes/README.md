@@ -37,3 +37,13 @@ fuentes/
   sha256: <hash>
   notas: ""
 ```
+
+## Cómo obtener los planes de trabajo del CNE (para nuevas ciudades)
+
+- El portal **Voto Informado** (`votoinformado.cne.gob.ec`) está detrás de Imperva y exige una verificación humana:
+  la navegación para descubrir candidatos se hace en un navegador real.
+- En la ficha de cada organización (`/voto-informado/candidatos/140/<idOrganizacion>`), el botón "Plan de Trabajo"
+  abre `https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/<idOrganizacion>/<idCandidato>`.
+- Ese endpoint del backend sí responde a una descarga directa. Comprobado el 2026-11-14: el sha256 es idéntico
+  al archivo obtenido desde el navegador.
+- `140` es el id del proceso "Seccionales y CPCCS 2027" y la dignidad Alcalde es `4`.
