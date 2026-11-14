@@ -1,0 +1,25 @@
+[project]
+name = "termometro"
+version = "0.1.0"
+description = "Pipeline multi-IA para extraer y calificar propuestas de planes de trabajo"
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.11",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+termometro = "termometro.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["termometro*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

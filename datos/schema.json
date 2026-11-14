@@ -1,0 +1,581 @@
+{
+  "$defs": {
+    "Calificacion": {
+      "additionalProperties": false,
+      "properties": {
+        "valor": {
+          "type": "boolean"
+        },
+        "consenso": {
+          "$ref": "#/$defs/Consenso"
+        },
+        "votos": {
+          "items": {
+            "$ref": "#/$defs/VotoJurado"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "nota_revision": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Obligatoria si consenso = humano"
+        }
+      },
+      "required": [
+        "valor",
+        "consenso",
+        "votos"
+      ],
+      "title": "Calificacion",
+      "type": "object"
+    },
+    "Candidato": {
+      "additionalProperties": false,
+      "description": "`datos/ciudades/<ciudad>/candidatos/<id>.yaml`.",
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "lista": {
+          "type": "string"
+        },
+        "organizacion": {
+          "type": "string"
+        },
+        "foto": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "foto_fuente": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Fuente"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "trayectoria": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Trayectoria"
+          },
+          "type": "array"
+        },
+        "plan_trabajo": {
+          "$ref": "#/$defs/PlanTrabajo"
+        },
+        "propuestas": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Propuesta"
+          },
+          "type": "array"
+        },
+        "es_mock": {
+          "default": false,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "nombre",
+        "lista",
+        "organizacion",
+        "plan_trabajo"
+      ],
+      "title": "Candidato",
+      "type": "object"
+    },
+    "Ciudad": {
+      "additionalProperties": false,
+      "description": "`datos/ciudades/<id>/ciudad.yaml`.",
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "eleccion": {
+          "format": "date",
+          "type": "string"
+        },
+        "debate": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "fin_campana": {
+          "format": "date",
+          "type": "string"
+        },
+        "candidatos_verificados": {
+          "description": "Lista confirmada contra la fuente oficial del CNE",
+          "type": "boolean"
+        },
+        "es_mock": {
+          "default": false,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "nombre",
+        "eleccion",
+        "fin_campana",
+        "candidatos_verificados"
+      ],
+      "title": "Ciudad",
+      "type": "object"
+    },
+    "CiudadRegistro": {
+      "additionalProperties": false,
+      "description": "Entrada de `datos/ciudades.yaml`.",
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "nombre_oficial": {
+          "type": "string"
+        },
+        "dignidad": {
+          "default": "Alcaldía",
+          "type": "string"
+        },
+        "activa": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "nombre",
+        "nombre_oficial",
+        "activa"
+      ],
+      "title": "CiudadRegistro",
+      "type": "object"
+    },
+    "Consenso": {
+      "enum": [
+        "unanime",
+        "mayoria",
+        "humano"
+      ],
+      "title": "Consenso",
+      "type": "string"
+    },
+    "DatosCiudad": {
+      "additionalProperties": false,
+      "properties": {
+        "ciudad": {
+          "$ref": "#/$defs/Ciudad"
+        },
+        "enfoques": {
+          "items": {
+            "$ref": "#/$defs/Enfoque"
+          },
+          "type": "array"
+        },
+        "candidatos": {
+          "items": {
+            "$ref": "#/$defs/Candidato"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "ciudad",
+        "enfoques",
+        "candidatos"
+      ],
+      "title": "DatosCiudad",
+      "type": "object"
+    },
+    "Enfoque": {
+      "additionalProperties": false,
+      "description": "Forma de abordar un tema, agrupada a partir de propuestas reales (paso 2 del flujo).",
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "tema": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "nombre": {
+          "maxLength": 40,
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "icono": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "tema",
+        "nombre",
+        "descripcion",
+        "icono"
+      ],
+      "title": "Enfoque",
+      "type": "object"
+    },
+    "Fuente": {
+      "additionalProperties": false,
+      "description": "Referencia pública a una fuente. `archivo` apunta a la copia en `fuentes/`.",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "titulo": {
+          "type": "string"
+        },
+        "consultado": {
+          "format": "date",
+          "type": "string"
+        },
+        "archivo": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Ruta relativa a la raíz del repo"
+        }
+      },
+      "required": [
+        "url",
+        "titulo",
+        "consultado"
+      ],
+      "title": "Fuente",
+      "type": "object"
+    },
+    "PlanTrabajo": {
+      "additionalProperties": false,
+      "properties": {
+        "disponible": {
+          "type": "boolean"
+        },
+        "fuente": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Fuente"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "paginas": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "nota": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "disponible"
+      ],
+      "title": "PlanTrabajo",
+      "type": "object"
+    },
+    "Propuesta": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "tema": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "resumen": {
+          "description": "Resumen neutral, sin adjetivos valorativos",
+          "maxLength": 220,
+          "type": "string"
+        },
+        "cita": {
+          "description": "Texto LITERAL del plan de trabajo",
+          "minLength": 10,
+          "type": "string"
+        },
+        "pagina": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "cita_verificada": {
+          "description": "La cita se encontró en el texto de esa página",
+          "type": "boolean"
+        },
+        "enfoques": {
+          "default": [],
+          "items": {
+            "description": "Identificador en minúsculas con guiones",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "rubrica": {
+          "$ref": "#/$defs/Rubrica"
+        }
+      },
+      "required": [
+        "id",
+        "tema",
+        "resumen",
+        "cita",
+        "pagina",
+        "cita_verificada",
+        "rubrica"
+      ],
+      "title": "Propuesta",
+      "type": "object"
+    },
+    "Proveedor": {
+      "enum": [
+        "anthropic",
+        "openai",
+        "google",
+        "mock"
+      ],
+      "title": "Proveedor",
+      "type": "string"
+    },
+    "Rubrica": {
+      "additionalProperties": false,
+      "properties": {
+        "meta": {
+          "$ref": "#/$defs/Calificacion"
+        },
+        "plazo": {
+          "$ref": "#/$defs/Calificacion"
+        },
+        "financiamiento": {
+          "$ref": "#/$defs/Calificacion"
+        },
+        "competencia_municipal": {
+          "$ref": "#/$defs/Calificacion"
+        }
+      },
+      "required": [
+        "meta",
+        "plazo",
+        "financiamiento",
+        "competencia_municipal"
+      ],
+      "title": "Rubrica",
+      "type": "object"
+    },
+    "Tema": {
+      "additionalProperties": false,
+      "description": "Eje temático común a todas las ciudades (seguridad, movilidad...).",
+      "properties": {
+        "id": {
+          "description": "Identificador en minúsculas con guiones",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "nombre_corto": {
+          "description": "Para tarjetas pequeñas en móvil",
+          "maxLength": 14,
+          "type": "string"
+        },
+        "icono": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "nombre",
+        "nombre_corto",
+        "icono",
+        "descripcion"
+      ],
+      "title": "Tema",
+      "type": "object"
+    },
+    "Trayectoria": {
+      "additionalProperties": false,
+      "properties": {
+        "cargo": {
+          "type": "string"
+        },
+        "periodo": {
+          "type": "string"
+        },
+        "fuente": {
+          "$ref": "#/$defs/Fuente"
+        }
+      },
+      "required": [
+        "cargo",
+        "periodo",
+        "fuente"
+      ],
+      "title": "Trayectoria",
+      "type": "object"
+    },
+    "VotoJurado": {
+      "additionalProperties": false,
+      "properties": {
+        "proveedor": {
+          "$ref": "#/$defs/Proveedor"
+        },
+        "modelo": {
+          "type": "string"
+        },
+        "valor": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "null = el modelo falló o devolvió una respuesta inválida"
+        },
+        "justificacion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "proveedor",
+        "modelo",
+        "valor"
+      ],
+      "title": "VotoJurado",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Todo lo que la web necesita. Se exporta como JSON Schema → tipos TS.",
+  "properties": {
+    "version_schema": {
+      "const": 1,
+      "default": 1,
+      "type": "integer"
+    },
+    "temas": {
+      "items": {
+        "$ref": "#/$defs/Tema"
+      },
+      "type": "array"
+    },
+    "ciudades": {
+      "items": {
+        "$ref": "#/$defs/CiudadRegistro"
+      },
+      "type": "array"
+    },
+    "datos": {
+      "additionalProperties": {
+        "$ref": "#/$defs/DatosCiudad"
+      },
+      "type": "object"
+    }
+  },
+  "required": [
+    "temas",
+    "ciudades",
+    "datos"
+  ],
+  "title": "DatosSitio",
+  "type": "object"
+}

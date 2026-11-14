@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Pipeline
+pipeline/.venv/
+pipeline/.cache/
+pipeline/logs/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Generado
+web/src/lib/server/datos.gen.json

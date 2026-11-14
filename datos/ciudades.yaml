@@ -1,0 +1,10 @@
+# Registro de ciudades. La web genera rutas /<id> para cada ciudad activa.
+- id: quito
+  nombre: Quito
+  nombre_oficial: Distrito Metropolitano de Quito
+  dignidad: Alcaldía
+  activa: true
+# - id: guayaquil
+#   nombre: Guayaquil
+#   dignidad: Alcaldía
+#   activa: false

@@ -1,0 +1,7 @@
+id: quito
+nombre: Quito
+eleccion: 2026-11-29
+debate: 2026-11-22
+fin_campana: 2026-11-26
+# Lista según prensa (Metro Ecuador, 11 nov 2026). PENDIENTE verificar contra el CNE.
+candidatos_verificados: false
