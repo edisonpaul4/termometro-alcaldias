@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: bernardo-jijon
 nombre: Bernardo Jijón
 lista: '3'
@@ -18,4 +18,4322 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/bernardo-jijon/plan-de-trabajo_2026-11-14.pdf
   paginas: 15
   sha256: a4560d3dca273fbea9f66be64dc40fd3809a7a3f1a62bb23e953eafd7e511273
-propuestas: []
+propuestas:
+- id: bernardo-jijon-c420cc1a
+  tema: empleo
+  resumen: Facilitará el acceso a financiamiento para emprendimientos y la empleabilidad juvenil mediante programas de primer
+    empleo.
+  cita: facilitar el acceso a financiamiento para emprendimientos y mejorar la empleabilidad juvenil mediante programas de
+    primer empleo.
+  pagina: 4
+  cita_verificada: true
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo usa verbos genéricos como "facilitar" y "mejorar" sin cantidades ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Facilitar el acceso a financiamiento» y «mejorar la empleabilidad juvenil» no establecen cantidades
+          de beneficiarios ni resultados cuantificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La cita emplea verbos genéricos como "facilitar el acceso a financiamiento" y "mejorar la empleabilidad
+          juvenil mediante programas de primer empleo" sin indicar metas numéricas ni beneficiarios.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «programas de primer empleo» no tienen una fecha ni una duración de implementación indicada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta sobre "programas de primer empleo" no contiene ninguna referencia temporal ni contexto
+          con fechas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Facilitar el acceso a financiamiento» describe un objetivo, pero no identifica de dónde saldrán los
+          fondos ni cuánto costará cumplirlo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque busca "facilitar el acceso a financiamiento para emprendimientos", no explica cuánto costará
+          el programa ni de dónde saldrán los fondos municipales.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y los programas municipales de empleo y emprendimiento están en manos
+          del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Apoyar «emprendimientos» y desarrollar «programas de primer empleo» encaja en las funciones municipales
+          de desarrollo económico local e inclusión.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El fomento productivo para "emprendimientos" y "empleabilidad juvenil" forma parte de las funciones
+          municipales de desarrollo económico local.
+- id: bernardo-jijon-67215e18
+  tema: inclusion
+  resumen: Cerrará los compromisos de infraestructura social pendientes de administraciones anteriores.
+  cita: Cerrar los compromisos de infraestructura social pendientes de administraciones anteriores.
+  pagina: 5
+  cita_verificada: true
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"compromisos de infraestructura social pendientes" no dice cuántos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cerrar los compromisos de infraestructura social pendientes» no identifica cuántos son ni qué obras
+          concretas comprende.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Promete "Cerrar los compromisos de infraestructura social pendientes" sin especificar cuáles ni cuántos
+          son esos compromisos.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «administraciones anteriores» describe el origen de los compromisos, pero no establece
+          cuándo se cumplirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no incluye ninguna fecha, año o plazo para concluir las obras pendientes.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cerrar los compromisos de infraestructura social» no incluye montos, fuentes ni mecanismos de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica con qué presupuesto, rubro o monto se financiará el cierre de dichos compromisos de infraestructura.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Infraestructura social de administraciones municipales anteriores es responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Atender los «compromisos de infraestructura social» de administraciones municipales anteriores se encuadra
+          en las funciones municipales de infraestructura e inclusión social.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La ejecución de "infraestructura social" municipal corresponde a las funciones propias del Municipio.
+- id: bernardo-jijon-78c9bb43
+  tema: inclusion
+  resumen: Fortalecerá los servicios de cuidado y de desarrollo infantil de responsabilidad municipal.
+  cita: fortalecer los servicios de cuidado, salud mental y desarrollo infantil de responsabilidad municipal.
+  pagina: 5
+  cita_verificada: true
+  contexto:
+  - texto: 2.2 Objetivos específicos
+    pagina: 4
+  - texto: Extensión de la red de puntos de trámite asistido y de la capa de intercambio de datos a los servicios sociales
+      municipales (protección de derechos, salud comunitaria, cuidado).
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "fortalecer los servicios de cuidado, salud mental y desarrollo infantil", un verbo genérico
+          sin cantidad ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortalecer los servicios de cuidado, salud mental y desarrollo infantil» expresa una intención sin
+          cantidad ni resultado verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta solo expresa una intención general al decir "fortalecer los servicios de cuidado, salud
+          mental y desarrollo infantil" sin indicar una cantidad o resultado verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal en la cita ni en el contexto "2.2 Objetivos específicos".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «fortalecer los servicios» y su contexto no establecen una fecha ni una duración de
+          ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto de "2.2 Objetivos específicos" mencionan una fecha, año o duración para cumplir
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a servicios «de responsabilidad municipal» no identifica montos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún monto, fuente de recursos ni mecanismo de financiamiento para fortalecer
+          dichos servicios.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se refiere a servicios "de responsabilidad municipal", que el Municipio puede cumplir con sus funciones
+          de inclusión y protección de derechos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los servicios de «cuidado, salud mental y desarrollo infantil de responsabilidad municipal» corresponden
+          a las funciones municipales de inclusión, protección de derechos y salud propia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La propuesta recae expresamente sobre servicios "de responsabilidad municipal" y "servicios sociales
+          municipales (protección de derechos, salud comunitaria, cuidado)".
+- id: bernardo-jijon-8ed4a239
+  tema: movilidad
+  resumen: Creará la Cuenta Ciudad, una tarjeta y billetera digital única para el sistema integrado de transporte que permite
+    subsidio a la persona y recaudo por kilómetro.
+  cita: 'Cuenta Ciudad: tarjeta y billetera digital única para el sistema integrado de transporte'
+  pagina: 7
+  cita_verificada: true
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra 'tarjeta y billetera digital única' como sistema, sin cantidad, cobertura ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: '«Cuenta Ciudad: tarjeta y billetera digital única» nombra un sistema, pero no cuantifica usuarios,
+          medios de transporte cubiertos ni otro resultado.'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: 'Solo nombra una herramienta tecnológica con nombre propio ("Cuenta Ciudad: tarjeta y billetera digital
+          única") sin detallar metas de cobertura, unidades de transporte integradas ni usuarios.'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La descripción de «Cuenta Ciudad» no indica fecha, año ni duración para su implementación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta carece por completo de fechas, años o plazos para la puesta en marcha de la tarjeta y
+          billetera digital.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tarjeta y billetera digital única para el sistema integrado de transporte» no señala monto, fuente
+          ni mecanismo de financiamiento de su implementación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona cuánto costará desarrollar el medio de pago ni de dónde provendrán los recursos financieros.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El sistema integrado de transporte es competencia del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Una «tarjeta y billetera digital única para el sistema integrado de transporte» puede implementarse
+          dentro de las competencias municipales de transporte.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de medios de pago en el "sistema integrado de transporte" forma parte de la competencia
+          exclusiva municipal sobre tránsito y transporte público.
+- id: bernardo-jijon-aa1ce64d
+  tema: riesgos
+  resumen: Medirá la subsidencia del suelo en Solanda y Turubamba mediante interferometría satelital del programa Copernicus.
+  cita: Interferometría satelital (programa Copernicus) para medir subsidencia del suelo
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: monitoreo de subsidencia en Solanda
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra un monitoreo de subsidencia con ubicación concreta, "monitoreo de subsidencia en Solanda", con
+          interferometría satelital Copernicus.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «interferometría satelital» para el «monitoreo de subsidencia en Solanda» identifica una técnica
+          y un lugar, pero no cuantifica el resultado ni constituye una obra física única.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta solo menciona el uso de una herramienta tecnológica para "medir subsidencia del suelo"
+          y el "monitoreo de subsidencia en Solanda" sin establecer una cantidad, cobertura exacta o meta verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «monitoreo de subsidencia en Solanda» no incluye una fecha ni una duración para su cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita sobre "Interferometría satelital" ni el contexto incluyen alguna fecha, duración o hito
+          temporal de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona el programa Copernicus como herramienta, pero no indica monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia al «programa Copernicus» identifica la tecnología utilizada, pero no un aporte financiero,
+          un costo ni una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque nombra el "programa Copernicus" como herramienta técnica, el texto no indica cuánto costará
+          el monitoreo ni con qué recursos municipales se financiará su operación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de riesgos y el monitoreo del suelo urbano son funciones del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Medir subsidencia del suelo» corresponde a las funciones municipales de gestión de riesgos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de riesgos mediante el "monitoreo de subsidencia en Solanda" corresponde a las funciones
+          exclusivas del Municipio.
+- id: bernardo-jijon-d112ff35
+  tema: riesgos
+  resumen: Instalará sensores de alerta temprana multiamenaza (pluviómetros, inclinómetros y nivel de quebrada) con alertas
+    georreferenciadas por telefonía móvil.
+  cita: 'Sensores de alerta temprana multiamenaza: pluviómetros, inclinómetros y nivel de quebrada'
+  pagina: 7
+  cita_verificada: true
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra un tipo de sensores ('pluviómetros, inclinómetros y nivel de quebrada') sin cantidad ni ubicación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Sensores de alerta temprana multiamenaza» enumera tipos de dispositivos, pero no indica cuántos se
+          instalarán ni su cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: 'Solo nombra un tipo de equipamiento ("Sensores de alerta temprana multiamenaza: pluviómetros, inclinómetros
+          y nivel de quebrada") sin indicar cuántos se instalarán ni en qué quebradas o zonas.'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Sensores de alerta temprana multiamenaza» no contiene ninguna referencia temporal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no incluye ninguna fecha, año ni duración para la instalación de los sensores.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «pluviómetros, inclinómetros y nivel de quebrada» no aporta monto, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica cuánto costarán los sensores ni de qué partida o fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de riesgos es función del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «Sensores de alerta temprana multiamenaza» son instrumentos de gestión de riesgos que el Municipio
+          puede implementar.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de riesgos y el monitoreo de amenazas locales ("pluviómetros, inclinómetros y nivel de quebrada")
+          forman parte de las funciones municipales.
+- id: bernardo-jijon-e4410653
+  tema: movilidad
+  resumen: Implementará semaforización adaptativa con prioridad al bus y GPS de la flota en datos abiertos, incluyendo la
+    Av. Simón Bolívar con carril de alta ocupación.
+  cita: Semaforización adaptativa con prioridad al bus y GPS de flota en dato abierto
+  pagina: 7
+  cita_verificada: true
+  contexto:
+  - texto: Av. Simón Bolívar (26 km)
+    pagina: 11
+  - texto: Semaforización adaptativa con prioridad al bus y carril de alta ocupación
+    pagina: 11
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se aplica a "Av. Simón Bolívar (26 km)", con ubicación y alcance definidos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «Av. Simón Bolívar (26 km)» delimita la ubicación y el alcance de la «Semaforización adaptativa
+          con prioridad al bus».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra sistemas como "Semaforización adaptativa con prioridad al bus y GPS de flota en dato abierto"
+          sin precisar cuántas intersecciones ni cuántas unidades de transporte cubrirá, pese a la referencia contextual a
+          "Av. Simón Bolívar (26 km)".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Semaforización adaptativa con prioridad al bus y GPS de flota en dato abierto» no incluye una fecha
+          ni una duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna fecha, año o plazo de ejecución para la "Semaforización adaptativa con prioridad
+          al bus y GPS de flota".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La intervención en «Av. Simón Bolívar (26 km)» no señala montos ni fuentes o mecanismos de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona cuánto costará ni con qué fuente se pagará la "Semaforización adaptativa" y el
+          "GPS de flota".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La semaforización y el transporte público son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Semaforización adaptativa», la «prioridad al bus» y el «GPS de flota en dato abierto» corresponden
+          a la gestión municipal del tránsito y transporte.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar "Semaforización adaptativa con prioridad al bus y GPS de flota" corresponde a la competencia
+          municipal de planificación, regulación y control del tránsito y transporte público.
+- id: bernardo-jijon-5f70bbb4
+  tema: transparencia
+  resumen: Reordenará el presupuesto municipal según las prioridades del plan, con cinco criterios, entre ellos más inversión
+    en seguridad y riesgos y reducción del gasto administrativo.
+  cita: Reordenamiento del presupuesto municipal conforme a las prioridades de este plan.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: 'establece cinco criterios de prioridad: fortalecer la inversión en seguridad ciudadana y gestión de riesgos, hoy
+      marginal; sostener la inversión en movilidad bajo veeduría ciudadana; proteger la inversión social y productiva; profundizar
+      la reducción del gasto administrativo; y fortalecer la autonomía financiera del Municipio mediante una gestión tributaria
+      más eficiente.'
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Reordenamiento del presupuesto... conforme a las prioridades'' es una intención sin cifras ni resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Reordenamiento del presupuesto municipal» no fija montos ni porcentajes, y los «cinco criterios
+          de prioridad» describen partes del plan, no resultados cuantificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea un "Reordenamiento del presupuesto municipal" bajo "cinco criterios de prioridad" expresados
+          con verbos genéricos como "fortalecer" y "proteger", sin cifras ni porcentajes verificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 1'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 1 — Orden y fiscalización» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La ubicación en "FASE 1 — Orden y fiscalización" no especifica fechas ni duración en el texto provisto.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de reordenar el presupuesto y 'reducción del gasto administrativo' sin rubros ni cifras.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Profundizar la reducción del gasto administrativo» no concreta una reasignación desde ese rubro para
+          financiar una actuación determinada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona genéricamente "la reducción del gasto administrativo" y "una gestión tributaria más eficiente"
+          sin detallar montos ni partidas específicas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El presupuesto municipal es manejado por el propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Reordenamiento del presupuesto municipal» está dentro de las atribuciones municipales de planificación
+          y gestión presupuestaria.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "Reordenamiento del presupuesto municipal" y su "gestión tributaria" son atribuciones propias del
+          gobierno autónomo descentralizado municipal.
+- id: bernardo-jijon-8f73b5d1
+  tema: seguridad
+  resumen: Pondrá en marcha un plan de carrera y una escala salarial para los agentes de control metropolitano.
+  cita: Puesta en marcha del plan de carrera y escala salarial de los agentes de control.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Puesta en marcha del plan de carrera" no dice a cuántos agentes ni con qué alcance verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «puesta en marcha del plan de carrera y escala salarial» nombra instrumentos administrativos, pero
+          no fija cantidades, cobertura ni valores salariales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La "Puesta en marcha del plan de carrera y escala salarial de los agentes de control" nombra un instrumento
+          administrativo sin especificar metas numéricas o alcances medibles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 1 — Orden y fiscalización" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ubicar la acción en la "FASE 1 — Orden y fiscalización" no establece un plazo porque dicha fase no
+          tiene fechas definidas en el texto.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «escala salarial de los agentes de control» no especifica montos ni fuentes para financiar su aplicación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no señala cuánto costará aplicar la nueva "escala salarial de los agentes de control"
+          ni de qué partida saldrán los fondos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los agentes metropolitanos de control son personal del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «plan de carrera y escala salarial de los agentes de control» corresponde a la administración del
+          personal de control municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La regulación administrativa y laboral de "los agentes de control" metropolitanos es competencia directa
+          del Municipio.
+- id: bernardo-jijon-a27effc8
+  tema: transparencia
+  resumen: Diseñará y arrancará una capa municipal de intercambio de datos sobre software libre tipo X-Road, federable con
+    la capa nacional, financiada principalmente con ahorro de gasto administrativo.
+  cita: Diseño y arranque de la capa municipal de intercambio de datos sobre software libre (arquitectura tipo X-Road), federable
+    con la capa nacional cuando esta se encuentre operativa.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: Sistemas municipales integrados a la capa de datos
+    pagina: 13
+  - texto: La inversión en digitalización se financia principalmente con ahorro
+    pagina: 13
+  - texto: de gasto administrativo y no como partida nueva de gran magnitud
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Propone "diseño y arranque" de una capa de datos sin decir cuántos sistemas ni qué cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «diseño y arranque de la capa municipal de intercambio de datos» nombra un sistema, pero no cuantifica
+          los sistemas integrados ni su cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta describe el "Diseño y arranque de la capa municipal de intercambio de datos" y "Sistemas
+          municipales integrados" sin precisar cuántos sistemas se integrarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 1 — Orden y fiscalización" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no incluye fechas ni duración, y «cuando esta se encuentre operativa»
+          tampoco es un hito fechado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia contextual a la "FASE 1 — Orden y fiscalización" no contiene fechas ni plazos verificables.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "se financia principalmente con ahorro de gasto administrativo" sin cifra ni rubro nombrado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto indica que la inversión «se financia principalmente con ahorro de gasto administrativo»,
+          identificando el rubro del que provendrán los recursos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Afirmar que "se financia principalmente con ahorro de gasto administrativo" es genérico y carece de
+          cifras o partidas presupuestarias específicas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los sistemas y trámites municipales y la transparencia son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «diseño y arranque de la capa municipal de intercambio de datos» corresponde a la administración
+          de sistemas propios, aunque pueda conectarse posteriormente con una capa nacional.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar una "capa municipal de intercambio de datos" para integrar "Sistemas municipales" depende
+          directamente de la administración del Municipio.
+- id: bernardo-jijon-a60c584c
+  tema: transparencia
+  resumen: Propondrá una ordenanza de simplificación de trámites por nivel de riesgo, con declaración jurada y control posterior,
+    plazos máximos publicados y certificado automático de silencio administrativo.
+  cita: Ordenanza metropolitana de simplificación de trámites por nivel de riesgo, que sustituye la autorización previa por
+    declaración jurada y control posterior en el nivel bajo, fija término máximo publicado y ordena la emisión automática
+    del certificado de silencio administrativo cuando el término vence.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: Trámites de bajo riesgo con auto-emisión de licencia
+    pagina: 12
+  - texto: Ordenanza aprobada y catálogo de trámites clasificado por riesgo
+    pagina: 12
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Plantea una "Ordenanza metropolitana" única, con el hito "Ordenanza aprobada y catálogo de trámites
+          clasificado por riesgo" como resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ordenanza aprobada y catálogo de trámites clasificado por riesgo» identifica productos normativos
+          y administrativos, pero no cuantifica los trámites alcanzados ni su cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea una 'Ordenanza metropolitana de simplificación de trámites' y un 'catálogo de trámites clasificado
+          por riesgo' sin precisar cuántos trámites abarcará ni constituye una obra física.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 1 — Orden y fiscalización" no indica fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1» carece de fechas y el «término máximo publicado» se refiere a la duración de los trámites,
+          no al cumplimiento de la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se asigna a 'FASE 1 — Orden y fiscalización' sin fechas de aprobación, y el 'término máximo publicado'
+          se refiere a la duración de los trámites, no al plazo de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ordenanza metropolitana de simplificación de trámites» no señala monto, fuente ni mecanismo de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica con qué recursos se financiará la implementación del sistema de 'emisión automática del
+          certificado' ni el control posterior.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las ordenanzas y los trámites municipales son competencia del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Una «ordenanza metropolitana de simplificación de trámites» corresponde a la potestad municipal de
+          regular sus propios procedimientos administrativos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Expedir una 'Ordenanza metropolitana de simplificación de trámites' y regular licencias municipales
+          es competencia normativa y administrativa propia del Municipio.
+- id: bernardo-jijon-a8612365
+  tema: seguridad
+  resumen: Reponderará los Puestos de Mando Operativo según incidencia real, priorizando La Delicia, Quitumbe, Eloy Alfaro
+    y Calderón, con la meta de instalar los ocho PMO pendientes.
+  cita: Reponderación de los Puestos de Mando Operativo con criterio de incidencia real, priorizando las zonas en riesgo alto
+    (La Delicia, Quitumbe, Eloy Alfaro, Calderón).
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: Instalar los ocho PMO pendientes en zonas de riesgo alto
+    pagina: 12
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "Instalar los ocho PMO pendientes en zonas de riesgo alto", con cantidad y zonas nombradas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece «instalar los ocho PMO pendientes en zonas de riesgo alto», que cuantifica el
+          resultado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto fija una cantidad concreta y verificable al comprometerse a 'Instalar los ocho PMO pendientes
+          en zonas de riesgo alto'.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 1 — Orden y fiscalización" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no indica fechas ni duración para instalar los PMO.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se ubica en 'FASE 1 — Orden y fiscalización', la cual carece de fechas o duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Instalar los ocho PMO pendientes» no menciona un costo ni una fuente o mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona el costo ni la fuente de financiamiento para 'Instalar los ocho PMO pendientes' o su
+          reponderación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los Puestos de Mando Operativo son parte de la seguridad ciudadana municipal y coordinación con la
+          Policía.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La instalación de «Puestos de Mando Operativo» puede realizarse como infraestructura municipal de coordinación
+          de seguridad, sin prometer efectivos ni operativos de la Policía Nacional.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Gestionar e 'Instalar los ocho PMO pendientes' forma parte de las atribuciones municipales de coordinación
+          y equipamiento para seguridad ciudadana y control.
+- id: bernardo-jijon-c08716cb
+  tema: transparencia
+  resumen: Realizará un diagnóstico integral y una auditoría de los contratos y convenios vigentes al inicio de la gestión.
+  cita: Diagnóstico integral y auditoría de contratos y convenios vigentes al inicio de la gestión.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice auditar 'contratos y convenios vigentes al inicio de la gestión', un conjunto acotado y verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Diagnóstico integral y auditoría de contratos y convenios vigentes» no cuantifica los instrumentos
+          que se revisarán ni establece una cobertura numérica.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Proponer un 'Diagnóstico integral y auditoría de contratos y convenios vigentes' describe una acción
+          administrativa general sin cuantificar cuántos contratos o convenios serán auditados.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'FASE 1' no tiene fechas ni duración y 'al inicio de la gestión' es vago.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «al inicio de la gestión» es vaga y «FASE 1 — Orden y fiscalización» carece de fechas
+          o duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión 'al inicio de la gestión' y la ubicación en 'FASE 1 — Orden y fiscalización' sin fechas
+          son referencias temporales vagas que no fijan un plazo verificable.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Diagnóstico integral y auditoría» no viene acompañado de un monto ni de una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no señala con qué recursos ni con qué monto se pagará el 'Diagnóstico integral y auditoría
+          de contratos y convenios'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Auditar los contratos y convenios del propio Municipio está en sus manos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Diagnóstico integral y auditoría de contratos y convenios» propios corresponde al control y revisión
+          de la gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Realizar un 'Diagnóstico integral y auditoría de contratos y convenios vigentes' suscritos por la entidad
+          está dentro de las facultades de revisión y control administrativo del Municipio.
+- id: bernardo-jijon-cb663c98
+  tema: transparencia
+  resumen: Emitirá una resolución para suprimir los requisitos documentales que el Municipio ya posee (Once-Only), empezando
+    por los cinco trámites de mayor volumen.
+  cita: 'Resolución de supresión de requisitos documentales que el propio Municipio ya posee (Once-Only), con la carga de
+    la prueba invertida: la dependencia que quiera conservar un requisito debe justificar por qué no puede consultarlo internamente.'
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: Suprimir requisitos duplicados en los cinco
+    pagina: 11
+  - texto: trámites de mayor volumen
+    pagina: 12
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Contexto: ''Suprimir requisitos duplicados en los cinco trámites de mayor volumen''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto delimita el resultado a «Suprimir requisitos duplicados en los cinco trámites de mayor
+          volumen».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto delimita un resultado cuantificado y verificable: "Suprimir requisitos duplicados en los
+          cinco trámites de mayor volumen".'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 1'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no contiene fechas ni una duración definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto la ubica en "FASE 1 — Orden y fiscalización", que es una etapa sin fechas ni duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Resolución de supresión de requisitos documentales» no especifica costos, fuentes ni mecanismos
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican costos o fuentes de financiamiento para implementar la consulta interna
+          de documentos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales y sus requisitos los define el Municipio mediante resolución.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Suprimir requisitos que «el propio Municipio ya posee» corresponde a la regulación y simplificación
+          de sus trámites.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Emitir una "Resolución de supresión de requisitos documentales que el propio Municipio ya posee" en
+          trámites municipales depende exclusivamente de la administración local.
+- id: bernardo-jijon-e263a4ee
+  tema: seguridad
+  resumen: Impulsará la armonización del régimen del Cuerpo de Agentes de Control Metropolitano con el COESCOP y su modernización
+    tecnológica con cámaras corporales y sistemas de sanción.
+  cita: Impulso de la armonización del régimen del Cuerpo de Agentes de Control Metropolitano con el COESCOP, y modernización
+    tecnológica (cámaras corporales, sistemas de sanción).
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  - texto: Impulso técnico, no ejecución directa
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Impulso de la armonización" y "modernización tecnológica" son intenciones genéricas sin cantidad
+          ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «impulso de la armonización» y la «modernización tecnológica» no establecen cantidades, cobertura
+          ni un resultado medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona el "Impulso de la armonización" normativa y "modernización tecnológica (cámaras corporales,
+          sistemas de sanción)" sin indicar cantidades ni alcance verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La "FASE 1" no tiene fechas ni duración indicadas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no incluye fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo ubica la propuesta en la "FASE 1 — Orden y fiscalización", sin asignarle fechas ni
+          duración.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «cámaras corporales, sistemas de sanción» no está acompañada de montos ni fuentes de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no señala ningún monto de inversión ni fuente de financiamiento para la modernización tecnológica
+          propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La armonización con el COESCOP es un régimen legal nacional y el contexto dice "Impulso técnico, no
+          ejecución directa".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La adecuación del régimen del «Cuerpo de Agentes de Control Metropolitano» al COESCOP y su modernización
+          corresponden a la administración municipal de su propio cuerpo de control.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La regulación interna y el equipamiento del "Cuerpo de Agentes de Control Metropolitano" en concordancia
+          con la ley están dentro de las atribuciones del Municipio.
+- id: bernardo-jijon-e646154a
+  tema: seguridad
+  resumen: Realizará una encuesta metropolitana de victimización y publicará un tablero de ejecución presupuestaria por eje.
+  cita: Encuesta metropolitana de victimización y tablero público de ejecución presupuestaria por eje.
+  pagina: 8
+  cita_verificada: true
+  contexto:
+  - texto: FASE 1 — Orden y fiscalización
+    pagina: 8
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra una "Encuesta metropolitana" y un "tablero público" sin cantidad ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Encuesta metropolitana de victimización y tablero público» nombra instrumentos, pero no cuantifica
+          su cobertura ni el resultado que se alcanzará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra instrumentos como 'Encuesta metropolitana de victimización y tablero público' sin precisar
+          muestra, cantidad ni alcance cuantificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 1" aparece sin fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 1 — Orden y fiscalización» no tiene fechas ni duración que permitan establecer un plazo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto la ubica en 'FASE 1 — Orden y fiscalización', que es una fase sin fechas ni duración especificada.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tablero público de ejecución presupuestaria por eje» describe información a publicar, no cómo se financiará
+          la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala ningún presupuesto ni fuente de recursos para financiar la 'Encuesta metropolitana de
+          victimización y tablero público'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Una encuesta metropolitana y un tablero de ejecución presupuestaria municipal son acciones propias
+          del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «encuesta metropolitana de victimización» y el «tablero público de ejecución presupuestaria» caben
+          en las funciones municipales de seguridad ciudadana y transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Elaborar una 'Encuesta metropolitana de victimización y tablero público de ejecución presupuestaria'
+          está dentro de las atribuciones municipales de seguridad ciudadana y transparencia.
+- id: bernardo-jijon-0d605166
+  tema: rural
+  resumen: Creará una red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad, operados por
+    terceros con pago por trámite completado, y la extenderá a servicios sociales.
+  cita: Red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad, operados por terceros con
+    pago por trámite completado y verificado.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Extensión de la red de puntos de trámite asistido y de la capa de intercambio de datos a los servicios sociales
+      municipales (protección de derechos, salud comunitaria, cuidado).
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Red de puntos de trámite asistido en parroquias rurales" no dice cuántos puntos ni cuántas parroquias.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad» no precisa
+          cuántos puntos habrá ni una cobertura determinada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone una "Red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad"
+          sin especificar cuántos puntos se instalarán ni en qué parroquias.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2 — Trabajo y obra pública" es una fase sin fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2 — Trabajo y obra pública» no tiene fechas ni duración que permitan establecer un plazo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo ubica la propuesta en la "FASE 2 — Trabajo y obra pública", sin asignarle fechas ni
+          duración.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica un mecanismo identificable: "operados por terceros con pago por trámite completado y verificado".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «pago por trámite completado y verificado» describe cómo se remunerará al operador, pero no identifica
+          el costo ni de dónde saldrán los fondos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque menciona "pago por trámite completado y verificado" a terceros, no indica el monto, rubro presupuestario
+          ni fuente de donde saldrá el dinero para pagarles.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales y la participación son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «puntos de trámite asistido» y su extensión a «servicios sociales municipales» están dentro de
+          las funciones municipales de atención y gestión de trámites.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de una "red de puntos de trámite asistido" para "servicios sociales municipales" corresponde
+          plenamente a la administración municipal.
+- id: bernardo-jijon-2b7e036c
+  tema: inclusion
+  resumen: Fortalecerá la atención psicosocial y de salud mental comunitaria en coordinación con el Ministerio de Salud Pública.
+  cita: Fortalecimiento de la atención psicosocial y de salud mental comunitaria, en coordinación con el Ministerio de Salud
+    Pública.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Fortalecimiento de la atención psicosocial" es un verbo genérico sin cantidad ni cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortalecimiento de la atención psicosocial y de salud mental comunitaria» expresa una intención sin
+          cantidades ni cobertura verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Emplea un término genérico al proponer el "Fortalecimiento de la atención psicosocial y de salud mental
+          comunitaria" sin fijar cantidades de atenciones, centros o beneficiarios.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 3" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 3 — Enfoque social y territorial» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se asocia a la "FASE 3 — Enfoque social y territorial", sin indicar años ni plazos concretos.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «coordinación con el Ministerio de Salud Pública» no identifica por sí misma una fuente ni un mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no detalla montos ni fuentes presupuestarias para fortalecer dichos servicios de salud
+          mental.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Es atención comunitaria municipal "en coordinación con el Ministerio de Salud Pública", lo que no quita
+          competencia.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «atención psicosocial y de salud mental comunitaria» puede prestarse como servicio municipal complementario,
+          en coordinación con el Ministerio de Salud Pública.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Brindar "atención psicosocial y de salud mental comunitaria, en coordinación con el Ministerio de Salud
+          Pública" entra en las competencias municipales de salud e inclusión.
+- id: bernardo-jijon-3f48b080
+  tema: inclusion
+  resumen: Ampliará la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.
+  cita: Ampliación de la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Ampliación de la Red... hacia zonas rurales y periféricas'' no dice cuánto ni cuántas zonas o personas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Ampliación de la Red Metropolitana de Protección Social hacia zonas rurales y periféricas» no cuantifica
+          la ampliación ni delimita las zonas beneficiarias.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea la "Ampliación de la Red Metropolitana de Protección Social hacia zonas rurales y periféricas"
+          sin precisar cantidad de beneficiarios, centros ni parroquias específicas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 3'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 3 — Enfoque social y territorial» no tiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se ubica en la "FASE 3 — Enfoque social y territorial", la cual carece de fechas o duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Ampliación de la Red Metropolitana de Protección Social» no incluye monto, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún monto, partida presupuestaria ni fuente de financiamiento para la ampliación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La protección social e inclusión de derechos es función del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Red Metropolitana de Protección Social» se enmarca en las funciones municipales de inclusión y
+          protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión y ampliación de la "Red Metropolitana de Protección Social" forma parte de las funciones
+          municipales de equidad e inclusión social.
+- id: bernardo-jijon-53a4ba14
+  tema: transparencia
+  resumen: Creará una credencial municipal única de acceso a servicios digitales y aceptará firma electrónica simple donde
+    la ley no exija certificado acreditado.
+  cita: Credencial municipal única de acceso a servicios digitales, que evita crear una cuenta distinta por cada sistema.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: aceptar una identificación municipal con firma electrónica simple al amparo del artículo 14 de la Ley de Comercio
+      Electrónico
+    pagina: 8
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Una "credencial municipal única" es un tipo de sistema sin cantidad ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Credencial municipal única de acceso a servicios digitales» nombra un instrumento sin cuantificar
+          usuarios, servicios o cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra un sistema tecnológico ("Credencial municipal única de acceso a servicios digitales") sin especificar
+          cuántos servicios o trámites integrará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2 — Trabajo y obra pública» no tiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se ubica únicamente en la "FASE 2 — Trabajo y obra pública", la cual carece de fechas o duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «identificación municipal con firma electrónica simple» no incluye costos ni una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica cuánto costará desarrollar e implementar la credencial digital ni de dónde saldrán los
+          fondos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los servicios digitales y trámites municipales dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «credencial municipal única de acceso a servicios digitales» pertenece a la organización de los
+          servicios y trámites municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión de trámites y el "acceso a servicios digitales" del propio cabildo están plenamente en manos
+          del Municipio.
+- id: bernardo-jijon-72ce2658
+  tema: empleo
+  resumen: Desarrollará un programa de certificación de competencias y formación dual con el sector productivo.
+  cita: Programa de certificación de competencias y formación dual con el sector productivo.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra un "Programa de certificación de competencias y formación dual" sin cuánto ni a cuántos
+          llegará.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programa de certificación de competencias y formación dual» no indica cuántas personas se formarán
+          o certificarán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo enuncia un 'Programa de certificación de competencias y formación dual' sin indicar cuántas personas
+          serán certificadas o formadas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2 — Trabajo y obra pública» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto menciona únicamente 'FASE 2 — Trabajo y obra pública', sin asociarla a fechas ni plazos
+          concretos.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Con el sector productivo» identifica una colaboración, pero no una alianza de financiamiento concreta
+          ni un monto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica monto ni mecanismo financiero para el 'Programa de certificación de competencias y formación
+          dual con el sector productivo'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y la formación con el sector productivo pueden ejecutarse desde el Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «formación dual con el sector productivo» puede desarrollarse como una iniciativa municipal de capacitación
+          y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Impulsar un 'Programa de certificación de competencias y formación dual con el sector productivo' se
+          enmarca en la competencia municipal de desarrollo económico local.
+- id: bernardo-jijon-775388cc
+  tema: vivienda
+  resumen: Titularizará asentamientos informales regularizables con brigadas notariales y registrales y silencio administrativo
+    positivo, con meta de 10.000 escrituras en tres años.
+  cita: Titularización de asentamientos informales regularizables, con brigadas notariales y registrales y silencio administrativo
+    positivo.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Titularización masiva y densificación suave
+    pagina: 12
+  - texto: 10.000 escrituras entregadas en tres años
+    pagina: 12
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica '10.000 escrituras entregadas en tres años'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece un resultado cuantificado de «10.000 escrituras entregadas».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto establece una cantidad concreta y verificable de resultado con '10.000 escrituras entregadas'.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija 'en tres años' y la propuesta está en la FASE 2, con duración contada desde el inicio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La entrega de escrituras tiene una duración definida de «tres años».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto fija una duración específica para cumplir la meta al señalar '10.000 escrituras entregadas
+          en tres años'.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; solo brigadas notariales y silencio administrativo positivo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «brigadas notariales y registrales» no identifica un monto ni un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto, partida presupuestaria ni fuente de financiamiento para la 'Titularización
+          de asentamientos informales regularizables' o las brigadas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La regularización de asentamientos y la vivienda de interés social son competencias del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Titularización de asentamientos informales regularizables» corresponde a las atribuciones municipales
+          de regularización del suelo, aunque requiera coordinación notarial y registral.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La 'Titularización de asentamientos informales regularizables' corresponde a la competencia municipal
+          sobre uso y ocupación del suelo, hábitat y registro de la propiedad, aun coordinando 'brigadas notariales'.
+- id: bernardo-jijon-c106ddd5
+  tema: movilidad
+  resumen: Estructurará el financiamiento de la extensión del Metro y de carriles de alta ocupación en los accesos metropolitanos
+    más congestionados.
+  cita: Estructuración financiera de la extensión del Metro y carriles de alta ocupación en los accesos metropolitanos de
+    mayor congestión.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Reducir tiempos de viaje en corredores críticos
+    pagina: 12
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'extensión del Metro' no dice hasta dónde y los carriles no tienen cantidad ni ubicación precisa;
+          solo se estructura financieramente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «extensión del Metro» no indica hasta dónde llegará y los «carriles de alta ocupación» no tienen
+          cantidad ni accesos identificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona la "extensión del Metro" sin indicar hasta dónde llegará y "carriles de alta ocupación" sin
+          precisar cuántos ni en qué vías exactas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 2'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 2 — Trabajo y obra pública» no contiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se referencia "FASE 2 — Trabajo y obra pública", que no contiene fechas ni plazos concretos.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'estructuración financiera' sin indicar fuente ni monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Estructuración financiera» no especifica monto, fuente ni mecanismo concreto de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque nombra la "Estructuración financiera", no especifica montos ni de qué fuentes provendrán los
+          recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Tránsito, transporte y el Metro son competencias del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «extensión del Metro y carriles de alta ocupación» se encuadra en las competencias municipales de
+          tránsito y transporte terrestre.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Planificar y ejecutar infraestructura para el "Metro y carriles de alta ocupación" corresponde a la
+          competencia metropolitana de tránsito y transporte.
+- id: bernardo-jijon-d1a1ccea
+  tema: seguridad
+  resumen: Establecerá un catastro obligatorio de cámaras e integrará cámaras privadas al centro de comando C5Q a cambio de
+    descuento en la Tasa de Seguridad, sin comprar hardware nuevo.
+  cita: Catastro obligatorio de cámaras que enfocan el espacio público e integración de cámaras privadas al centro de comando
+    municipal (C5Q) a cambio de descuento en la Tasa de Seguridad, sin inversión pública en hardware nuevo.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Catastro obligatorio de cámaras'' e integración de cámaras privadas no indica cuántas cámaras ni
+          cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Catastro obligatorio de cámaras» y la «integración de cámaras privadas» no precisan cuántas cámaras
+          se registrarán o integrarán ni una cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone un "Catastro obligatorio de cámaras" y la "integración de cámaras privadas" sin establecer
+          una cantidad meta ni porcentaje de cobertura verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 2'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 2 — Trabajo y obra pública» no tiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se enmarca en "FASE 2 — Trabajo y obra pública", sin indicar fechas, años ni duración específica.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica un mecanismo: descuento en la ''Tasa de Seguridad'' a cambio de integrar cámaras privadas,
+          ''sin inversión pública en hardware nuevo''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La integración «a cambio de descuento en la Tasa de Seguridad» identifica un mecanismo económico específico,
+          más allá de afirmar que será «sin inversión pública en hardware nuevo».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Especifica un mecanismo fiscal concreto al integrar cámaras privadas "a cambio de descuento en la Tasa
+          de Seguridad, sin inversión pública en hardware nuevo".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El centro de comando municipal C5Q, la regulación y la tasa municipal están en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La integración de cámaras al «centro de comando municipal (C5Q)» se enmarca en las funciones municipales
+          de prevención y coordinación de seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene competencia para regular el espacio público, operar el "centro de comando municipal
+          (C5Q)" y administrar descuentos en la "Tasa de Seguridad".
+- id: bernardo-jijon-d37f39fa
+  tema: empleo
+  resumen: Implementará la formalización exprés de licencias de actividad económica en 72 horas, con tasa cero el primer año
+    en las zonas de mayor informalidad.
+  cita: Formalización exprés de licencias de actividad económica (72 horas) con tasa cero el primer año en las zonas de mayor
+    informalidad.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Licencias de actividad económica emitidas en 72 horas
+    pagina: 12
+  - texto: Formalización exprés operativa en las tres zonas prioritarias
+    pagina: 12
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija 'Formalización exprés operativa en las tres zonas prioritarias' con licencias en 72 horas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija resultados verificables mediante «Licencias de actividad económica emitidas en 72
+          horas» y la operación «en las tres zonas prioritarias».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Establece resultados concretos y medibles al fijar un tiempo máximo de respuesta ("Licencias de actividad
+          económica emitidas en 72 horas"), un porcentaje de cobro ("tasa cero") y un alcance definido ("en las tres zonas
+          prioritarias").
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'FASE 2' no tiene fechas y '72 horas' es duración de trámite, y 'primer año' es duración de beneficio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2» no tiene fechas, mientras que «72 horas» es la duración del trámite y «el primer año» corresponde
+          al beneficio de tasa cero.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se ubica en una etapa sin fechas ("FASE 2"), mientras que "72 horas" es la duración del trámite y "el
+          primer año" es la duración del beneficio tributario, no el plazo de implementación.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'tasa cero' pero no explica con qué se financia ni costo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tasa cero el primer año» establece una exención, pero no explica con qué recursos se financiará la
+          propuesta ni cuánto costará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No indica cómo se financiará la implementación del sistema exprés ni cómo se compensará fiscalmente
+          la exoneración de "tasa cero el primer año".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las licencias de actividad económica y sus tasas son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La emisión de «licencias de actividad económica» y la regulación de sus tasas corresponden al ámbito
+          municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La emisión de "licencias de actividad económica" y la regulación de tasas municipales son competencias
+          propias del gobierno autónomo descentralizado municipal.
+- id: bernardo-jijon-da4824c0
+  tema: vivienda
+  resumen: Implementará el Expediente Único de Edificación, que integra regulación, uso de suelo y licencia en un solo trámite
+    con reloj público, asiento catastral automático y módulo patrimonial con plazo cierto.
+  cita: Expediente Único de Edificación en su fase completa, con generación automática del asiento catastral al aprobar y
+    módulo patrimonial para el Centro Histórico con plazo cierto.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Expediente Único de Edificación en su primera fase, integrando informe de regulación, uso de suelo y licencia en
+      un solo número de trámite con reloj público.
+    pagina: 8
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Reloj público en cada etapa y asiento catastral automático
+    pagina: 12
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Expediente Único de Edificación en su fase completa" es un sistema con nombre propio sin cantidad
+          ni alcance medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Expediente Único de Edificación» y sus módulos describen un sistema de trámites sin cuantificar resultados
+          ni cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un trámite o sistema con nombre propio ("Expediente Único de Edificación en su fase completa")
+          sin establecer una cantidad o meta de resultado medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"plazo cierto" no da fecha y "FASE 2" no tiene fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2» no tiene fechas y «con plazo cierto» no establece un momento concreto de cumplimiento de la
+          propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se ubica en una "FASE 2" sin fechas, y la mención a "plazo cierto" o "reloj público" alude a la duración
+          del trámite y no a cuándo se implementará la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «generación automática del asiento catastral» y el «módulo patrimonial» no incluyen montos ni fuentes
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican el costo del desarrollo tecnológico ni la fuente de recursos para
+          implementarlo.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Licencias, catastro y patrimonio del Centro Histórico son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Integrar «informe de regulación, uso de suelo y licencia» con el «asiento catastral» corresponde a
+          las competencias municipales sobre construcción, suelo y catastro.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Integrar "informe de regulación, uso de suelo y licencia" junto con el "asiento catastral" corresponde
+          a competencias exclusivas municipales.
+- id: bernardo-jijon-dd9276de
+  tema: empleo
+  resumen: Habilitará suelo productivo mediante alianza público-privada en la que el Municipio aporta suelo y norma.
+  cita: Habilitación de suelo productivo mediante alianza público-privada, aportando el Municipio suelo y norma.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Habilitación de suelo productivo" no dice cuánto suelo ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «habilitación de suelo productivo» no especifica superficie, número de predios ni ubicación concreta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona la "Habilitación de suelo productivo" de manera general, sin precisar cuántas hectáreas, predios
+          o en qué ubicación específica se habilitarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2 — Trabajo y obra pública" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2 — Trabajo y obra pública» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto la sitúa únicamente en la "FASE 2 — Trabajo y obra pública", la cual no cuenta con fechas
+          ni duración definida.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Menciona mecanismo: "alianza público-privada, aportando el Municipio suelo y norma".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «alianza público-privada, aportando el Municipio suelo y norma» identifica un mecanismo de financiamiento
+          con un aporte municipal concreto en suelo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Identifica un mecanismo concreto de financiamiento al señalar que se realizará "mediante alianza público-privada,
+          aportando el Municipio suelo y norma".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Uso del suelo y desarrollo económico local son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «habilitación de suelo productivo» mediante aportes de «suelo y norma» se encuadra en las competencias
+          municipales de uso del suelo y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La regulación y "Habilitación de suelo productivo" aportando "suelo y norma" es una atribución directa
+          del gobierno municipal sobre el uso del suelo.
+- id: bernardo-jijon-e950d2ab
+  tema: empleo
+  resumen: Creará un distrito financiero-tecnológico con incentivos zonales sobre patente y predial en polígonos de alta densidad
+    empresarial.
+  cita: Distrito financiero-tecnológico con incentivos zonales sobre patente y predial en polígonos de alta densidad empresarial.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Distrito financiero-tecnológico" no tiene ubicación ni alcance definidos, y "polígonos de alta densidad"
+          no está cuantificado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Distrito financiero-tecnológico» en «polígonos de alta densidad empresarial» no identifica ubicaciones
+          concretas, superficie ni cantidad de beneficiarios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone un "Distrito financiero-tecnológico con incentivos zonales" en "polígonos de alta densidad
+          empresarial" sin delimitar su ubicación exacta ni el porcentaje de los incentivos.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2" no tiene fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 2 — Trabajo y obra pública» no incluye fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo menciona "FASE 2 — Trabajo y obra pública", sin asociarla a una fecha o duración determinada.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los incentivos sobre patente y predial son una exoneración, no una fuente de financiamiento ni un monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «incentivos zonales sobre patente y predial» describen beneficios tributarios, pero no indican
+          cómo se financiará el distrito ni cuánto costará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona "incentivos zonales sobre patente y predial", pero no cuantifica el costo fiscal ni explica
+          cómo se financiará el distrito.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La patente, el predial y el desarrollo económico local son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Distrito financiero-tecnológico» con incentivos sobre «patente y predial» se encuadra en el desarrollo
+          económico local y la regulación tributaria municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Definir el uso del suelo para un "Distrito financiero-tecnológico" y regular tributos locales como
+          "patente y predial" son competencias municipales.
+- id: bernardo-jijon-f3dde7d0
+  tema: seguridad
+  resumen: Intervendrá integralmente en los territorios con mayor violencia intrafamiliar redistribuyendo servicios por cercanía,
+    con meta de reducirla 20% en los núcleos críticos.
+  cita: Intervención integral en los territorios de mayor violencia intrafamiliar, con redistribución de la oferta de servicios
+    existente por cercanía real, no por división administrativa.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  - texto: Plan Suroccidente / La Delicia
+    pagina: 12
+  - texto: Reducir 20% la violencia intrafamiliar en los núcleos críticos
+    pagina: 12
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Reducir 20% la violencia intrafamiliar en los núcleos críticos".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece la meta cuantificada de «reducir 20% la violencia intrafamiliar en los núcleos
+          críticos».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto establece un resultado cuantificable y verificable al proponer "Reducir 20% la violencia
+          intrafamiliar en los núcleos críticos" en el marco del "Plan Suroccidente / La Delicia".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 3 — Enfoque social y territorial" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 3 — Enfoque social y territorial» no tiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta se enmarca únicamente en la "FASE 3 — Enfoque social y territorial", sin especificar fechas
+          ni años para alcanzar la meta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de "redistribución de la oferta de servicios existente" sin monto ni rubro.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «redistribución de la oferta de servicios existente» no identifica un monto ni una reasignación
+          presupuestaria desde un rubro nombrado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Hablar de "redistribución de la oferta de servicios existente" no especifica un monto, rubro presupuestario
+          ni fuente de financiamiento identificable.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Protección de derechos y servicios municipales de inclusión son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La intervención frente a la «violencia intrafamiliar» mediante la «redistribución de la oferta de servicios»
+          se encuadra en las funciones municipales de protección de derechos y atención social.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La protección de derechos y la "redistribución de la oferta de servicios existente" en el territorio
+          son funciones municipales de inclusión y equidad.
+- id: bernardo-jijon-fcbfad7d
+  tema: movilidad
+  resumen: Consolidará la Autoridad Metropolitana de Transporte reordenando competencias existentes sin nómina nueva, con
+    fórmula tarifaria técnica y pago por kilómetro.
+  cita: Consolidación de la Autoridad Metropolitana de Transporte por reordenamiento de competencias existentes, sin nómina
+    nueva, y fórmula tarifaria técnica.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: FASE 2 — Trabajo y obra pública
+    pagina: 9
+  - texto: Tarifa técnica y pago por kilómetro, no por unidad
+    pagina: 12
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Consolidación" de la Autoridad y una "fórmula tarifaria técnica" no indican cantidad ni resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «consolidación de la Autoridad Metropolitana de Transporte» y la «fórmula tarifaria técnica» no
+          fijan cantidades ni resultados con un alcance medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta plantea la "Consolidación de la Autoridad Metropolitana de Transporte" y una "fórmula
+          tarifaria técnica", nombrando reformas institucionales e instrumentos sin una meta cuantificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 2 — Trabajo y obra pública" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 2 — Trabajo y obra pública» no tiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto únicamente refiere a la "FASE 2 — Trabajo y obra pública", sin asignarle fechas ni duración
+          determinada.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Sin nómina nueva" no explica con qué se paga.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Sin nómina nueva» no explica con qué se paga la propuesta, y «tarifa técnica y pago por kilómetro»
+          no identifica una fuente para financiar la consolidación institucional.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Indicar que se hará "sin nómina nueva" no constituye una fuente de financiamiento, pues no explica
+          con qué presupuesto se cubrirá el reordenamiento y la tarifa.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El tránsito, el transporte y la tarifa del transporte municipal son competencias del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Autoridad Metropolitana de Transporte», el «reordenamiento de competencias existentes» y la regulación
+          tarifaria corresponden a la gestión municipal del transporte.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El tránsito, transporte terrestre y la fijación de una "fórmula tarifaria técnica" mediante una "Autoridad
+          Metropolitana de Transporte" son competencias exclusivas municipales.
+- id: bernardo-jijon-0ca26a45
+  tema: rural
+  resumen: Consolidará la Administración Zonal Chocó Andino con presupuesto y competencias propias.
+  cita: Consolidación de la Administración Zonal Chocó Andino con presupuesto y competencias propias.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'Consolidación de la Administración Zonal Chocó Andino' sin cantidad ni resultado verificable
+          concreto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Consolidación de la Administración Zonal Chocó Andino» no precisa una cantidad ni un resultado
+          verificable de esa consolidación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone de forma genérica la "Consolidación de la Administración Zonal Chocó Andino" sin establecer
+          una cantidad, cobertura o resultado concreto verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo indica 'FASE 3' sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El contexto «FASE 3 — Enfoque social y territorial» no establece fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo menciona "FASE 3 — Enfoque social y territorial" sin asignarle fechas ni duración.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Con presupuesto y competencias propias'' no indica monto ni fuente.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «con presupuesto y competencias propias» no identifica un monto, una fuente específica
+          ni un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque menciona que contará "con presupuesto", no indica ningún monto, rubro específico ni fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Una administración zonal es una dependencia del Distrito Metropolitano, que puede organizarla y dotarla
+          de presupuesto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Consolidación de la Administración Zonal Chocó Andino» corresponde a la organización administrativa
+          y territorial del Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La organización de una "Administración Zonal" y la asignación de su presupuesto y funciones internas
+          corresponden directamente a la gestión del Municipio.
+- id: bernardo-jijon-2aaa2ce8
+  tema: transparencia
+  resumen: Consolidará financieramente los programas sociales y económicos iniciados durante la gestión.
+  cita: Consolidación financiera de los programas sociales y económicos iniciados.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  - texto: El último tramo se dedica a consolidar, evaluar y garantizar que los avances permanezcan más allá de esta gestión.
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Consolidación financiera de los programas" es una intención sin cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Consolidación financiera de los programas sociales y económicos iniciados» no establece montos,
+          cobertura ni un resultado cuantificado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Promete una "Consolidación financiera de los programas sociales y económicos iniciados" sin precisar
+          qué programas, cuántos ni bajo qué indicador medible se consolidarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 4" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 4» y «El último tramo» no precisan fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo alude de manera vaga a la "FASE 4" y a "El último tramo" de la gestión, sin establecer fechas
+          ni años concretos.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No dice de dónde saldrán los recursos ni cuánto costará.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Consolidación financiera» no identifica por sí misma un monto, una fuente ni un mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque habla de "Consolidación financiera", no especifica montos, rubros presupuestarios ni fuentes
+          concretas de dónde saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Consolidar programas municipales propios depende del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Consolidar los «programas sociales y económicos iniciados» corresponde a la gestión municipal de sus
+          programas de inclusión y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La administración y "Consolidación financiera de los programas sociales y económicos" propios del cabildo
+          es atribución directa del Municipio.
+- id: bernardo-jijon-5a2b5195
+  tema: espacio-publico
+  resumen: Establecerá la cesión de suelo verde o pago compensatorio por edificabilidad, destinado a un Fondo de Espacio Público.
+  cita: Cesión de suelo verde o pago compensatorio por edificabilidad, con destino finalista a un Fondo de Espacio Público.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No cuantifica la cesión ni el fondo; solo describe un mecanismo sin resultado medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Cesión de suelo verde o pago compensatorio por edificabilidad» establece un mecanismo, pero no
+          cuantifica suelo, recaudación ni espacio público por obtener.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Describe un instrumento normativo de "Cesión de suelo verde o pago compensatorio por edificabilidad"
+          sin establecer una meta cuantitativa ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''FASE 3'' no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 3 — Enfoque social y territorial» no señala fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo menciona "FASE 3 — Enfoque social y territorial", sin asignar año, fecha ni plazo
+          de ejecución.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Identifica un mecanismo: ''cesión de suelo verde o pago compensatorio por edificabilidad'' con destino
+          a un ''Fondo de Espacio Público''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «pago compensatorio por edificabilidad, con destino finalista a un Fondo de Espacio Público» identifica
+          una fuente y un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Identifica explícitamente una fuente y mecanismo específico mediante el "pago compensatorio por edificabilidad,
+          con destino finalista a un Fondo de Espacio Público".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Edificabilidad, uso del suelo y espacio público son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Cesión de suelo verde» y la regulación de la «edificabilidad» corresponden a las competencias municipales
+          sobre suelo y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Regular la "Cesión de suelo verde o pago compensatorio por edificabilidad" y gestionar el espacio público
+          son competencias exclusivas municipales.
+- id: bernardo-jijon-6d90172a
+  tema: agua-servicios
+  resumen: Construirá interceptores sanitarios en los tramos críticos de los ríos Machángara y Monjas antes de construir una
+    planta nueva, y priorizará la planta de tratamiento del río Monjas.
+  cita: Obras de saneamiento previas (interceptores) en los tramos críticos de los ríos Machángara y Monjas
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  - texto: Interceptores sanitarios en el Machángara antes de construir planta nueva
+    pagina: 10
+  - texto: Priorizar la planta de tratamiento del río Monjas
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra obras físicas con ubicación: "interceptores" en "los ríos Machángara y Monjas" y la planta
+          del río Monjas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «interceptores» en «tramos críticos» del Machángara y Monjas no tienen cantidad o tramos delimitados,
+          y «priorizar la planta» no promete su construcción.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone "Obras de saneamiento previas (interceptores) en los tramos críticos de los ríos Machángara
+          y Monjas" sin definir cuáles ni cuántos son esos tramos críticos o su extensión.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 3" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 3» y «antes de construir planta nueva» establecen una secuencia, pero no una fecha o duración
+          de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ubica la propuesta en la "FASE 3" y "antes de construir planta nueva", pero ninguna de estas referencias
+          tiene fechas o duración determinada.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «obras de saneamiento previas» no incluyen un monto, fuente ni mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona cuánto costarán los interceptores ni de dónde saldrán los recursos para construirlos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Saneamiento, alcantarillado y control de la contaminación de ríos son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «interceptores sanitarios» y la «planta de tratamiento» corresponden a las competencias municipales
+          de alcantarillado y tratamiento de aguas residuales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El alcantarillado y las "Obras de saneamiento" e "Interceptores sanitarios" son competencia exclusiva
+          del Municipio.
+- id: bernardo-jijon-8487d9a8
+  tema: transparencia
+  resumen: Realizará una evaluación integral del cumplimiento del plan con informe público de resultados por eje.
+  cita: Evaluación integral del cumplimiento del plan, con informe público de resultados por cada eje.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Promete un "informe público de resultados por cada eje", un producto verificable con alcance definido.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Evaluación integral» con «informe público de resultados por cada eje» describe una actividad y
+          su producto, pero no cuantifica los informes ni precisa cuántos ejes cubrirá.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea un "informe público de resultados por cada eje", lo cual refiere a las partes del propio plan
+          sin establecer un resultado cuantificable de gestión.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 4" no tiene fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 4 — Sostenibilidad de lo logrado» no tiene fechas ni duración definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se ubica en la "FASE 4 — Sostenibilidad de lo logrado", la cual no cuenta con fechas ni duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Evaluación integral del cumplimiento del plan» no menciona un monto ni una fuente o mecanismo de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta de "Evaluación integral del cumplimiento del plan" no menciona con qué recursos o presupuesto
+          se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia y rendición de cuentas son responsabilidad municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La evaluación del «cumplimiento del plan» y su «informe público» son actividades municipales de seguimiento
+          y rendición de cuentas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Realizar una "Evaluación integral del cumplimiento del plan, con informe público" corresponde a las
+          funciones municipales de transparencia y rendición de cuentas.
+- id: bernardo-jijon-8aff34e7
+  tema: transparencia
+  resumen: Actualizará el PMDOT ante el Concejo Metropolitano incorporando metas de resultado auditables.
+  cita: Actualización del PMDOT ante el Concejo Metropolitano, incorporando metas de resultado auditables.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  - texto: Reporte público de integración y actualización del PMDOT aprobada
+    pagina: 13
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de "Actualización del PMDOT" con "metas de resultado auditables" sin decir cuánto ni qué
+          resultado concreto, y el reporte público no tiene cifra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Actualización del PMDOT» con «metas de resultado auditables» no especifica cantidades, cobertura
+          ni una obra física única con ubicación o alcance.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo plantea la "Actualización del PMDOT" e incorporar "metas de resultado auditables" sin especificar
+          cantidades, porcentajes ni el alcance concreto de dichas metas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La "FASE 4 — Sostenibilidad de lo logrado" no tiene fechas ni duración, por lo que no se sabe cuándo
+          estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «FASE 4 — Sostenibilidad de lo logrado» no tiene fechas ni duración que permitan determinar cuándo
+          se cumplirá la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto únicamente ubica la propuesta en la "FASE 4 — Sostenibilidad de lo logrado", la cual es
+          una fase sin fechas ni duración definida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto, fuente ni mecanismo de financiamiento para la actualización del PMDOT.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Actualización del PMDOT ante el Concejo Metropolitano» no menciona monto, fuente ni mecanismo de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan costos, montos o fuentes de financiamiento para realizar la "Actualización
+          del PMDOT" o su reporte.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La actualización del PMDOT ante el Concejo Metropolitano es una función de planificación propia del
+          Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Actualización del PMDOT ante el Concejo Metropolitano» corresponde a las atribuciones municipales
+          de planificación territorial y uso del suelo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La planificación del desarrollo y ordenamiento territorial mediante la "Actualización del PMDOT ante
+          el Concejo Metropolitano" es una función exclusiva del gobierno metropolitano.
+- id: bernardo-jijon-92b5e811
+  tema: seguridad
+  resumen: Institucionalizará los mecanismos de control, veeduría y carrera del Cuerpo de Agentes de Control Metropolitano.
+  cita: Institucionalización de los mecanismos de control, veeduría y carrera del Cuerpo de Agentes de Control Metropolitano.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Institucionalización de los mecanismos'' es una intención genérica sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Institucionalización de los mecanismos de control, veeduría y carrera» no establece cantidades,
+          cobertura ni un resultado concreto suficientemente delimitado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Formula una acción genérica ("Institucionalización de los mecanismos de control, veeduría y carrera")
+          sin metas numéricas ni resultados concretos verificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'FASE 4' no tiene fechas indicadas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 4 — Sostenibilidad de lo logrado» no contiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo menciona una etapa sin fechas ni duración definida ("FASE 4 — Sostenibilidad de lo
+          logrado").
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Institucionalización de los mecanismos» no incluye monto, fuente ni mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica ningún presupuesto, costo ni fuente de financiamiento para implementar dichos mecanismos
+          y carrera administrativa.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los agentes metropolitanos de control son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los mecanismos de control y carrera del «Cuerpo de Agentes de Control Metropolitano» corresponden a
+          la organización de un cuerpo municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La organización y regulación del "Cuerpo de Agentes de Control Metropolitano" es una competencia exclusiva
+          del gobierno metropolitano.
+- id: bernardo-jijon-a213faff
+  tema: transparencia
+  resumen: Evaluará públicamente el porcentaje de trámites resueltos dentro del término y el número de sistemas integrados
+    a la capa de datos.
+  cita: Evaluación pública del porcentaje de trámites municipales resueltos dentro del término y del número de sistemas municipales
+    efectivamente integrados a la capa de datos
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Propone una evaluación pública de indicadores, pero no fija cuánto se logrará (ninguna cifra o porcentaje
+          objetivo).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación pública del porcentaje de trámites» y del «número de sistemas» identifica indicadores,
+          pero no establece valores objetivo verificables.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto plantea una "Evaluación pública del porcentaje de trámites municipales resueltos" y del "número
+          de sistemas", pero no fija qué porcentaje ni cuántos sistemas se lograrán integrar.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"FASE 4 — Sostenibilidad de lo logrado" no trae fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «FASE 4 — Sostenibilidad de lo logrado» no contiene fechas ni duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto solo ubica la propuesta en la "FASE 4 — Sostenibilidad de lo logrado", la cual carece de
+          fechas o duración específica.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación pública» propuesta no menciona costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto sobre la "Evaluación pública" no menciona ningún monto, presupuesto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Evaluar trámites y sistemas municipales corresponde a la transparencia y trámites municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar los «trámites municipales» y los «sistemas municipales» corresponde a la gestión y transparencia
+          del propio Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La transparencia y evaluación de "trámites municipales" y "sistemas municipales" está plenamente en
+          manos del Municipio.
+- id: bernardo-jijon-bc1ec991
+  tema: transparencia
+  resumen: Realizará una transición ordenada de la información de gestión hacia la ciudadanía y la siguiente administración.
+  cita: Transición ordenada y transparente de la información de gestión hacia la ciudadanía y la siguiente administración.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 4 — Sostenibilidad de lo logrado
+    pagina: 10
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Transición ordenada y transparente'' es una intención sin resultado cuantificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Transición ordenada y transparente de la información» expresa una intención sin cantidades ni resultados
+          específicos verificables.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Prometer una 'Transición ordenada y transparente de la información de gestión' expresa una intención
+          cualitativa sin establecer entregables cuantificados ni un resultado medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'FASE 4' no tiene fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «la siguiente administración» no fija una fecha y la «FASE 4 — Sostenibilidad de lo
+          logrado» carece de duración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La mención a la 'FASE 4 — Sostenibilidad de lo logrado' y a 'la siguiente administración' carece de
+          fechas o plazos precisos de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Transición ordenada y transparente» no incluye un monto ni una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún costo ni fuente de financiamiento asociados al proceso de 'Transición ordenada
+          y transparente de la información'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Entregar la información de gestión municipal a la ciudadanía y a la siguiente administración depende
+          del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La entrega de «información de gestión hacia la ciudadanía y la siguiente administración» corresponde
+          a la transparencia y continuidad administrativa municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Garantizar la 'Transición ordenada y transparente de la información de gestión hacia la ciudadanía
+          y la siguiente administración' depende directamente de la propia administración municipal.
+- id: bernardo-jijon-f24652cc
+  tema: transparencia
+  resumen: Publicará un catálogo municipal de datos abiertos con calendario de publicación obligatorio.
+  cita: Catálogo municipal de datos abiertos con calendario de publicación obligatorio, que cierra los vacíos de información
+    identificados en el diagnóstico distrital.
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: FASE 3 — Enfoque social y territorial
+    pagina: 9
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un 'catálogo municipal de datos abiertos' es un tipo de cosa sin decir cuántos conjuntos de datos se
+          publicarán.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Catálogo municipal de datos abiertos» nombra un instrumento, pero no cuantifica los datos que publicará
+          ni los «vacíos de información» que cerrará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La creación de un 'Catálogo municipal de datos abiertos' nombra una herramienta o sistema sin indicar
+          cuántos conjuntos de datos ni qué cobertura cuantificable tendrá.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La 'FASE 3' no tiene fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «calendario de publicación obligatorio» no contiene fechas concretas y la «FASE 3» tampoco tiene
+          duración definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ubicar la medida en la 'FASE 3 — Enfoque social y territorial' sin fechas y aludir a un 'calendario
+          de publicación obligatorio' no establece cuándo estará implementado el catálogo.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Catálogo municipal de datos abiertos» no señala costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto especifican el costo o la fuente de financiamiento para implementar el 'Catálogo
+          municipal de datos abiertos'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia y publicación de información municipal es competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Un «Catálogo municipal de datos abiertos» corresponde a las funciones municipales de transparencia
+          y acceso a la información.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Elaborar y publicar un 'Catálogo municipal de datos abiertos' está plenamente en manos del Municipio
+          dentro de sus funciones de transparencia y gestión de información propia.
+- id: bernardo-jijon-0d355b70
+  tema: movilidad
+  resumen: Habilitará un carril reversible de alta ocupación en la Panamericana Norte (Calderón) mientras se estructura la
+    extensión del Metro.
+  cita: Carril reversible de alta ocupación mientras se estructura la extensión del Metro
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Panamericana Norte (Calderón)
+    pagina: 11
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra una obra física única, un "carril reversible de alta ocupación" ubicada en la Panamericana Norte
+          (Calderón).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «carril reversible de alta ocupación» queda identificado como una intervención física concreta en
+          la «Panamericana Norte (Calderón)».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Define una intervención vial específica y verificable con su ubicación concreta al proponer un "Carril
+          reversible de alta ocupación" en la "Panamericana Norte (Calderón)".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"mientras se estructura la extensión del Metro" no fija fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mientras se estructura la extensión del Metro» no establece una fecha ni una duración para cumplir
+          la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia "mientras se estructura la extensión del Metro" es condicional e indeterminada, pues
+          no establece una fecha o duración concreta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «carril reversible de alta ocupación» no identifica costos ni mecanismos de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona el costo del carril reversible ni la fuente de los recursos para implementarlo.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un carril reversible en una vía es gestión municipal de tránsito y transporte.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La implementación de un «carril reversible de alta ocupación» corresponde a la regulación municipal
+          del tránsito y la movilidad.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión del tránsito y la habilitación de un "Carril reversible de alta ocupación" en vías del distrito
+          es competencia municipal.
+- id: bernardo-jijon-3dd2d1a2
+  tema: ambiente
+  resumen: Acelerará la disposición final de residuos, incluido el Cubeto 1 de El Inga con veeduría ciudadana, y plantas rurales
+    modulares en cabeceras parroquiales.
+  cita: Acelerar el Cubeto 1 de El Inga con veeduría ciudadana; plantas rurales modulares en cabeceras parroquiales
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: aceleración de la disposición final de residuos
+    pagina: 10
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra una obra física única, el "Cubeto 1 de El Inga", con ubicación específica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «El Cubeto 1 de El Inga» identifica una obra física única y localizada, aunque las «plantas rurales
+          modulares» no estén cuantificadas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Usa un verbo sin resultado cuantificado al proponer "Acelerar el Cubeto 1 de El Inga" y menciona "plantas
+          rurales modulares en cabeceras parroquiales" sin decir cuántas ni en cuáles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Acelerar" y "aceleración de la disposición final" no fijan fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Acelerar» la obra no establece una fecha ni una duración verificable de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Habla de "Acelerar" y de "aceleración de la disposición final de residuos", pero no fija ninguna fecha
+          ni plazo concreto de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Cubeto 1 de El Inga» y «plantas rurales modulares» no señala costos ni fuentes de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no especifica cuánto costarán el cubeto y las plantas modulares ni cómo se financiarán.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La disposición final de residuos es competencia municipal de desechos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «disposición final de residuos» es una competencia municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión y "disposición final de residuos" en el relleno sanitario y parroquias es una competencia
+          exclusiva municipal.
+- id: bernardo-jijon-843503da
+  tema: movilidad
+  resumen: Aplicará fiscalización automática del carril exclusivo del Trolebús en la Av. Maldonado (Guajaló-Santo Domingo).
+  cita: Fiscalización automática del carril exclusivo del Trolebús
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Av. Maldonado (Guajaló-Santo Domingo)
+    pagina: 11
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Fiscalización del carril exclusivo del Trolebús en un tramo concreto: ''Av. Maldonado (Guajaló-Santo
+          Domingo)''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Fiscalización automática del carril exclusivo del Trolebús» tiene un alcance territorial verificable
+          en la «Av. Maldonado (Guajaló-Santo Domingo)».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'Define una intervención concreta con ubicación y alcance delimitado: la "Fiscalización automática
+          del carril exclusivo del Trolebús" en el tramo "Av. Maldonado (Guajaló-Santo Domingo)".'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Fiscalización automática del carril exclusivo del Trolebús» y su ubicación no incluyen ninguna
+          referencia temporal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto incluyen fecha, año o plazo para implementar la fiscalización automática.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Fiscalización automática del carril exclusivo del Trolebús» no indica costo, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica el costo del sistema ni la fuente de financiamiento para ejecutarlo.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control del tránsito y el transporte es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Fiscalización automática del carril exclusivo del Trolebús» corresponde al control municipal del
+          tránsito y del transporte público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El control de tránsito y la gestión del "carril exclusivo del Trolebús" son competencias directas del
+          Distrito Metropolitano.
+- id: bernardo-jijon-aba6b95b
+  tema: ambiente
+  resumen: Exigirá control de polvo en canteras como condición de licencia en La Delicia.
+  cita: control de polvo en canteras como condición de licencia
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: La Delicia
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"control de polvo en canteras" no indica cuántas canteras ni resultado cuantificado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «control de polvo en canteras» en «La Delicia» no establece cantidad de canteras, cobertura ni un
+          nivel verificable de reducción del polvo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona el "control de polvo en canteras como condición de licencia" en "La Delicia" como una regla
+          general sin fijar una cantidad o meta verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «como condición de licencia» establece una condición regulatoria, no una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita sobre el "control de polvo en canteras" ni su contexto contienen referencia temporal alguna.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «control de polvo en canteras como condición de licencia» no especifica costos ni mecanismos para
+          financiarlo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no indica costos ni fuentes de recursos para implementar el "control de polvo en canteras
+          como condición de licencia".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La licencia y el control de la contaminación son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Exigir «control de polvo en canteras como condición de licencia» se encuadra en las competencias municipales
+          de control de contaminación y regulación de actividades.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Exigir el "control de polvo en canteras como condición de licencia" entra en las competencias metropolitanas
+          de uso del suelo, licenciamiento y control ambiental.
+- id: bernardo-jijon-e5300708
+  tema: riesgos
+  resumen: Realizará un censo de vulnerabilidad estructural y conformará brigadas forestales comunitarias en El Panecillo,
+    en el Centro Manuela Sáenz.
+  cita: Censo de vulnerabilidad estructural; brigadas forestales comunitarias en El Panecillo
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Centro Manuela Sáenz
+    pagina: 11
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Censo de vulnerabilidad estructural" y "brigadas forestales comunitarias" no indican cuánto ni cuántas,
+          aunque mencione El Panecillo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Censo de vulnerabilidad estructural; brigadas forestales comunitarias en El Panecillo» no precisa
+          cobertura del censo ni cantidad de brigadas, y no constituye una obra física única.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea un 'Censo de vulnerabilidad estructural; brigadas forestales comunitarias en El Panecillo'
+          sin definir cuántos predios se censarán ni cuántas brigadas o integrantes habrá.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el contexto "Centro Manuela Sáenz" no da fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Centro Manuela Sáenz» aporta contexto territorial, pero no una fecha ni duración para ejecutar la
+          propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna referencia temporal para realizar el 'Censo de vulnerabilidad estructural' ni conformar
+          las brigadas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «censo de vulnerabilidad estructural» y las «brigadas forestales comunitarias» no tienen monto ni
+          fuente de financiamiento indicada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto del 'Centro Manuela Sáenz' mencionan costos o fuentes de financiamiento para
+          el censo o las brigadas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de riesgos y bomberos es función del Distrito Metropolitano.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «censo de vulnerabilidad estructural» y las «brigadas forestales comunitarias» corresponden a las
+          funciones municipales de gestión de riesgos y prevención de incendios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Ejecutar un 'Censo de vulnerabilidad estructural' y organizar 'brigadas forestales comunitarias' corresponde
+          a las competencias municipales de gestión de riesgos y control de construcciones.
+- id: bernardo-jijon-276b49e2
+  tema: transparencia
+  resumen: Promoverá veedurías ciudadanas en los procesos de contratación pública de mayor relevancia.
+  cita: Veedurías ciudadanas en los procesos de contratación pública de mayor relevancia.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'procesos de contratación pública de mayor relevancia' sin cuántos ni cuáles.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Veedurías ciudadanas en los procesos de contratación pública de mayor relevancia» no indica cuántas
+          veedurías o procesos se cubrirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona de forma genérica "Veedurías ciudadanas en los procesos de contratación pública de mayor relevancia"
+          sin precisar cuántas se conformarán ni qué umbral define esa relevancia.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Veedurías ciudadanas» ni el contexto «Mecanismos adicionales» contienen una fecha o duración de
+          cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto contienen referencia temporal alguna sobre cuándo se implementarán estas
+          veedurías.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Veedurías ciudadanas» no identifica monto, fuente ni mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se detalla ningún monto o fuente de financiamiento para promover u operar dichos espacios de control.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede abrir su contratación a veedurías ciudadanas por participación y transparencia.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Facilitar «Veedurías ciudadanas» en los procesos de contratación del Municipio corresponde a sus funciones
+          de participación ciudadana y transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fomentar mecanismos de participación ciudadana y transparencia sobre sus propios contratos ("Veedurías
+          ciudadanas en los procesos de contratación pública") es competencia municipal, en coordinación con las instancias
+          de control social.
+- id: bernardo-jijon-466175fb
+  tema: transparencia
+  resumen: 'Presentará un informe anual sobre la capa municipal de datos: sistemas integrados, requisitos suprimidos y tiempo
+    mediano de resolución por administración zonal.'
+  cita: 'Informe anual específico sobre el estado de la capa municipal de intercambio de datos: número de sistemas integrados,
+    requisitos suprimidos y tiempo mediano de resolución de trámites por administración zonal.'
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Es un informe sobre indicadores ('número de sistemas integrados, requisitos suprimidos') sin cantidad
+          o resultado concreto a lograr.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Informe anual específico» enumera indicadores como el «número de sistemas integrados», pero no
+          fija cantidades objetivo ni una cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone únicamente elaborar un documento de seguimiento ("Informe anual específico sobre el estado
+          de la capa municipal de intercambio de datos") sin comprometer un número concreto de sistemas a integrar o requisitos
+          a suprimir.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Informe anual'' es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Informe anual» expresa una periodicidad, no una fecha o duración para cumplir la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión "Informe anual" indica únicamente una periodicidad y no fija una fecha o plazo de cumplimiento
+          inicial.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de informar sobre la «capa municipal de intercambio de datos» no menciona monto, fuente
+          ni mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No menciona recursos, partidas presupuestarias ni costos asociados a la elaboración del informe.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Intercambio de datos y trámites municipales dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Informar sobre «sistemas integrados, requisitos suprimidos y tiempo mediano de resolución de trámites»
+          municipales está dentro de sus funciones administrativas y de transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Rendir información sobre sistemas internos y gestión local ("capa municipal de intercambio de datos"
+          y "por administración zonal") es atribución directa del Municipio.
+- id: bernardo-jijon-4f6c901d
+  tema: transparencia
+  resumen: Realizará sesiones informativas abiertas en las administraciones zonales para rendir cuentas en el territorio.
+  cita: Sesiones informativas abiertas en las administraciones zonales, para acercar la rendición de cuentas al territorio.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'sesiones informativas abiertas' sin decir cuántas ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Sesiones informativas abiertas en las administraciones zonales» no tienen una cantidad ni una
+          cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta plantea 'Sesiones informativas abiertas en las administraciones zonales' sin precisar
+          cuántas sesiones se realizarán ni una meta medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; solo 'Mecanismos adicionales'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Sesiones informativas abiertas» ni el contexto «Mecanismos adicionales» establecen una fecha de
+          cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto contienen fecha, año o duración para implementar las 'Sesiones informativas
+          abiertas'.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Sesiones informativas abiertas» no menciona montos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún presupuesto, costo ni fuente de recursos para llevar a cabo las 'Sesiones informativas
+          abiertas'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas en las administraciones zonales es función municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Acercar «la rendición de cuentas al territorio» mediante administraciones zonales corresponde a la
+          participación ciudadana y transparencia municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Organizar 'Sesiones informativas abiertas en las administraciones zonales' para 'acercar la rendición
+          de cuentas al territorio' es competencia directa de la administración municipal.
+- id: bernardo-jijon-5842b293
+  tema: transparencia
+  resumen: Habilitará canales digitales de acceso a la información municipal con ejecución presupuestaria desagregada por
+    área y sector.
+  cita: Canales digitales de acceso directo a la información municipal, con ejecución presupuestaria desagregada por área
+    y sector.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "Canales digitales" de forma genérica, sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Canales digitales de acceso directo a la información municipal» describe un tipo de herramienta sin
+          cantidad ni cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone 'Canales digitales de acceso directo a la información municipal' como un tipo de herramienta
+          sin fijar cantidad ni meta verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; "Mecanismos adicionales" no da fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «canales digitales» y su contexto de «Mecanismos adicionales» no incluyen referencia
+          temporal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se establece fecha, año ni duración para habilitar los 'Canales digitales de acceso directo a la
+          información municipal'.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ejecución presupuestaria desagregada por área y sector» describe el contenido informativo, no el financiamiento
+          de los canales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto de 'Mecanismos adicionales' mencionan recursos o costos para implementar
+          dichos canales digitales.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La información municipal y la transparencia presupuestaria son responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «acceso directo a la información municipal» corresponde a las funciones municipales de transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Habilitar 'Canales digitales de acceso directo a la información municipal, con ejecución presupuestaria
+          desagregada' es competencia propia de transparencia municipal.
+- id: bernardo-jijon-5a585727
+  tema: transparencia
+  resumen: Publicará periódicamente, en lenguaje ciudadano, el avance de los ejes Trabajo, Orden y Corazón.
+  cita: 'Publicación periódica, en lenguaje ciudadano, del avance de cada uno de los tres ejes de este plan: Trabajo, Orden
+    y Corazón.'
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona publicación "periódica" y cuenta "los tres ejes de este plan", que son partes del propio
+          plan.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «tres ejes de este plan» cuentan partes del plan, no una cantidad de publicaciones ni una cobertura
+          verificable del resultado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: 'Mencionar ''los tres ejes de este plan: Trabajo, Orden y Corazón'' solo cuenta las partes del propio
+          plan y no establece una cantidad o cobertura medible de resultados.'
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Periódica" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Publicación periódica» indica recurrencia, pero no cuándo estará implementada la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Hablar de 'Publicación periódica' alude a una periodicidad indefinida y no fija una fecha o plazo para
+          tener implementado el mecanismo.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «publicación periódica, en lenguaje ciudadano» no identifica costo ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta de 'Publicación periódica, en lenguaje ciudadano' no menciona cuánto costará ni de dónde
+          saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia y rendición de cuentas sobre el plan municipal está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar el «avance de cada uno de los tres ejes de este plan» corresponde a la transparencia y rendición
+          de cuentas municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La 'Publicación periódica, en lenguaje ciudadano, del avance' de la gestión corresponde a las funciones
+          municipales de transparencia y rendición de cuentas.
+- id: bernardo-jijon-90f02a3b
+  tema: transparencia
+  resumen: Creará un Observatorio de Gestión Municipal independiente con participación del Consejo de Participación Ciudadana
+    y Control Social.
+  cita: Observatorio de Gestión Municipal independiente, con participación del Consejo de Participación Ciudadana y Control
+    Social.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Observatorio de Gestión Municipal independiente'' es un tipo de mecanismo sin cantidad ni alcance
+          medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Observatorio de Gestión Municipal independiente» nombra un mecanismo institucional, pero no cuantifica
+          su alcance ni sus resultados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra la figura de un "Observatorio de Gestión Municipal independiente" sin definir metas cuantificables
+          ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo figura 'Mecanismos adicionales', sin referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Observatorio de Gestión Municipal» ni el contexto «Mecanismos adicionales» indican cuándo estará
+          implementado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto ("Mecanismos adicionales") establecen una fecha o plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «participación del Consejo de Participación Ciudadana y Control Social» no especifica aportes económicos,
+          costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona cuánto costará el observatorio ni con qué recursos se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y participación ciudadana son funciones municipales, y el observatorio puede crearse
+          con coordinación del CPCCS.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Un «Observatorio de Gestión Municipal» se inscribe en las funciones municipales de transparencia y
+          participación ciudadana, aunque incorpore coordinación con el Consejo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar mecanismos de transparencia y control social recae en las competencias municipales, aun
+          cuando sea "con participación del Consejo de Participación Ciudadana y Control Social".
+- id: bernardo-jijon-dfa1e914
+  tema: transparencia
+  resumen: Publicará un tablero permanente de trámites con expedientes ingresados, resueltos dentro del término y tiempo mediano
+    por trámite y administración zonal.
+  cita: 'Tablero público y permanente del propio trámite: cuántos expedientes ingresan, cuántos se resuelven dentro del término
+    y el tiempo mediano por trámite y por administración zonal.'
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Mecanismos adicionales
+    pagina: 14
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Describe un tablero con indicadores ('cuántos expedientes ingresan...') pero no fija cantidad ni resultado
+          verificable a lograr.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Tablero público y permanente» enumera indicadores que mostrará, pero no establece valores objetivo
+          ni una cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra la creación de una herramienta informática ("Tablero público y permanente del propio trámite")
+          sin especificar a cuántos ni a cuáles trámites aplicará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'público y permanente' sin fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Público y permanente» describe la disponibilidad del tablero, pero no fija una fecha o duración para
+          su implementación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto indica que el tablero será "permanente", pero no establece ninguna fecha o plazo para su implementación.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La descripción del «Tablero público y permanente del propio trámite» no incluye monto, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto, presupuesto ni fuente de recursos para desarrollar y mantener el tablero.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y trámites municipales por administración zonal son del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar información sobre expedientes y tiempos «por trámite y por administración zonal» corresponde
+          a la transparencia de la gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La gestión y transparencia de los procedimientos administrativos locales ("por trámite y por administración
+          zonal") corresponde directamente al Municipio.

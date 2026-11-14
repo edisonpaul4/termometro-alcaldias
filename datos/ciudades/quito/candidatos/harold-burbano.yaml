@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: harold-burbano
 nombre: Harold Burbano
 lista: '7'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/harold-burbano/plan-de-trabajo_2026-11-14.pdf
   paginas: 18
   sha256: 3448c34046b2d72d11b4626839ee915c1555e9129bd7d44ee5d7c4970e60af70
-propuestas: []

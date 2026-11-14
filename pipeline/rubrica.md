@@ -48,6 +48,9 @@ estuviera en la cita, siempre que se refiera claramente a esa propuesta.
   ("Fase 1 (2027)", "Año 1").
 - **No** si no hay referencia temporal, o si es vaga: "durante la administración", "a corto plazo",
   "al inicio de la gestión", o una fase o etapa **sin fechas** ("Fase 1", "primera etapa").
+- **No** si el único dato temporal es **el período de gobierno completo** ("2027–2031", "horizonte 2027-2031",
+  "en los cuatro años"): equivale a "durante la administración". Un plazo distingue cuándo, dentro del
+  período, estará cumplida.
 - **No cuentan como plazo:** una periodicidad ("informe anual"), la duración de un trámite o servicio
   ("licencias en 72 horas") ni la duración de un beneficio ("tasa cero el primer año").
 

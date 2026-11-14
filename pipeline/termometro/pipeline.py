@@ -308,7 +308,7 @@ def agrupar_enfoques(tema: Tema, props: list[PropuestaVerificada], eq: Equipo, c
 
 
 def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None = None, solo: list[str] | None = None,
-             cache: Cache | None = None, eq: Equipo | None = None, dir_salida: Path = DIR_SALIDA) -> Reporte:
+             cache: Cache | None = None, eq: Equipo | None = None, dir_salida: Path = DIR_SALIDA, globales: bool = True) -> Reporte:
     cfg = config()
     cache = cache or Cache()
     eq = eq or equipo()
@@ -361,14 +361,15 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
         por_tema[pv.tema].append(pv)
     enfoques: list[Enfoque] = []
     asignacion: dict[str, list[str]] = {}
-    for t in sitio.temas:
+    for t in sitio.temas if globales else []:
         ag = agrupar_enfoques(t, por_tema.get(t.id, []), eq, cache, rep)
         if ag:
             enfoques += [Enfoque(id=e.id, tema=t.id, nombre=e.nombre, descripcion=e.descripcion, icono=e.icono) for e in ag.enfoques]
             asignacion |= {a.propuesta_id: a.enfoques for a in ag.asignaciones}
 
     # [7]
-    _auditar_neutralidad(todas, dc.candidatos, eq, cache, rep)
+    if globales:
+        _auditar_neutralidad(todas, dc.candidatos, eq, cache, rep)
 
     # [8]
     _exportar(ciudad, dc.candidatos, todas, rubricas, asignacion, enfoques, dir_datos, destino, cfg.modo == "mock", rep)

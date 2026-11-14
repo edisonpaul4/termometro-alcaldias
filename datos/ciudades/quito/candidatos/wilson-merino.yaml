@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: wilson-merino
 nombre: Wilson Merino
 lista: '79'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/wilson-merino/plan-de-trabajo_2026-11-14.pdf
   paginas: 130
   sha256: 4fb2bc1bc7717b95d943e57077ee222ebee27fc4eb1a85ac693135212835625c
-propuestas: []

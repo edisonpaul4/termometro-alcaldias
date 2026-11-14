@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: galo-almeida
 nombre: Galo Almeida Garzón
 lista: '1'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/galo-almeida/plan-de-trabajo_2026-11-14.pdf
   paginas: 63
   sha256: 43d7198fa6849b70a847c3c8cf5fa55c186e7979b216a81344e673b2622211a0
-propuestas: []

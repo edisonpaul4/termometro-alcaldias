@@ -102,7 +102,7 @@ def cmd_pipeline(args) -> int:
 
     cfg = config()
     print(f"▶ pipeline · ciudad={args.ciudad} · {cfg!r}")
-    rep = ejecutar(args.ciudad, solo=args.solo or None, destino=Path(args.destino) if args.destino else None)
+    rep = ejecutar(args.ciudad, solo=args.solo or None, destino=Path(args.destino) if args.destino else None, globales=not args.sin_globales)
     v = sum(d["verificadas"] for d in rep.documentos.values())
     d = sum(d["descartadas"] for d in rep.documentos.values())
     print(f"✓ {len(rep.documentos)} documentos · {v} citas verificadas · {d} descartadas · {rep.exportadas} propuestas exportadas")
@@ -144,6 +144,7 @@ def main(argv: list[str] | None = None) -> int:
     pl.add_argument("--ciudad", required=True)
     pl.add_argument("--solo", nargs="*", help="Procesar solo estos candidatos (ids)")
     pl.add_argument("--destino", help="Directorio datos/ de salida (por defecto: datos/ en modo real, pipeline/.salida/datos en mock)")
+    pl.add_argument("--sin-globales", action="store_true", help="Omitir enfoques y auditoría de neutralidad (corridas parciales)")
     pl.set_defaults(func=cmd_pipeline)
 
     args = p.parse_args(argv)

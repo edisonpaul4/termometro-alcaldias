@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: cesar-diaz
 nombre: César Díaz
 lista: '4'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/cesar-diaz/plan-de-trabajo_2026-11-14.pdf
   paginas: 22
   sha256: b5c8772b1bacd800f9af09624ee70369975ec04ba53a91bee9dfab72d808e6b4
-propuestas: []

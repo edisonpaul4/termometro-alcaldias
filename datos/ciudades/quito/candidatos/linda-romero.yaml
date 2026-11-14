@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: linda-romero
 nombre: Linda Romero
 lista: '6'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/linda-romero/plan-de-trabajo_2026-11-14.pdf
   paginas: 31
   sha256: 8329f7bd739034e642efacea297b8323b83b360dfd8c2c34315ba8490e1b2bb3
-propuestas: []

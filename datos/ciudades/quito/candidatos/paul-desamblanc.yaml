@@ -1,4 +1,4 @@
-# Datos REALES. Propuestas pendientes del pipeline (F6).
+# Generado por el pipeline. Ediciones: usar revision.yaml
 id: paul-desamblanc
 nombre: Paúl Desamblanc
 lista: '20'
@@ -18,4 +18,3 @@ plan_trabajo:
     archivo: fuentes/ciudades/quito/candidatos/paul-desamblanc/plan-de-trabajo_2026-11-14.pdf
   paginas: 45
   sha256: cdcf79376c465ff2f05211b61886b3863b434ceb4ce9339f7fe04f481220fb94
-propuestas: []
