@@ -1,4 +1,4 @@
-# Rúbrica del Termómetro de concreción · v1
+# Rúbrica del Termómetro de concreción · v2
 
 Esta rúbrica la aplican **por separado** los jurados de IA (Claude, GPT y Gemini) a **cada propuesta**.
 Los jurados no ven el nombre del candidato ni de su partido.
@@ -16,8 +16,11 @@ Solo cuenta lo que dice el texto citado y su contexto inmediato en el plan, no l
 
 **¿La propuesta dice cuánto o qué resultado verificable se logrará?**
 
-- **Sí** si hay una cantidad, porcentaje, cobertura o entregable concreto que un ciudadano podría verificar después.
-- **No** si solo describe una intención, una dirección o un verbo genérico ("mejorar", "fortalecer", "impulsar", "promover").
+- **Sí** si dice **cuánto** (una cantidad, porcentaje o cobertura: "500 luminarias", "el 100% de la parroquia", "todas las escuelas municipales")
+  o si nombra **una obra única e identificable** (con lugar o nombre propio: "el nuevo mercado de Calderón", "la extensión del Metro hasta Carapungo").
+- **No** si solo nombra un **tipo** de cosa o de programa sin decir cuánto ni dónde ("semaforización adaptativa", "sensores de alerta temprana",
+  "un programa de emprendimiento"), aunque suene técnico o específico. Tampoco si solo describe una intención o usa un verbo genérico
+  ("mejorar", "fortalecer", "impulsar", "promover").
 
 | Sí ✅ | No ❌ |
 |---|---|
@@ -25,6 +28,7 @@ Solo cuenta lo que dice el texto citado y su contexto inmediato en el plan, no l
 | "Reducir a 20 minutos la frecuencia de buses en la ruta X" | "Optimizar el transporte público" |
 | "Construir 3 centros de acopio de reciclaje" | "Fortalecer el reciclaje" |
 | "Llevar agua potable al 100% de la parroquia Y" | "Ampliar la cobertura de agua" |
+| "Construir el nuevo mercado de Calderón" | "Semaforización adaptativa con prioridad al bus" (tipo de sistema, sin cobertura) |
 
 ## 📅 Plazo
 
@@ -32,6 +36,8 @@ Solo cuenta lo que dice el texto citado y su contexto inmediato en el plan, no l
 
 - **Sí** si menciona una fecha, un año, una duración o un hito temporal ("en los primeros 100 días", "hasta 2028", "en el primer año").
 - **No** si no hay referencia temporal, o si solo dice "durante la administración" o "a corto plazo".
+- **No cuentan como plazo:** una **periodicidad** ("informe anual", "rendición de cuentas mensual"), la **duración de un trámite o servicio**
+  ("licencias en 72 horas") ni la **duración de un beneficio** ("tasa cero el primer año"). El plazo es **cuándo estará cumplida la propuesta**.
 
 ## 💰 Financiamiento
 

@@ -33,7 +33,7 @@ from .esquemas import (
     Transcripcion,
     VotoRubrica,
 )
-from .llm import Equipo, ProveedorIA, Solicitud, cargar_prompt, equipo, llamar
+from .llm import Equipo, PresupuestoAgotado, ProveedorIA, Solicitud, cargar_prompt, equipo, llamar
 from .modelos import Calificacion, Candidato, Criterio, Enfoque, Enfoques, Propuesta, Rubrica, Tema, VotoJurado
 from .texto import texto_pdf
 
@@ -84,6 +84,7 @@ class Reporte:
     pendientes: dict[str, dict] = field(default_factory=dict)  # propuesta_id → qué falta decidir
     neutralidad: list[dict] = field(default_factory=list)
     kappa: dict[str, float | None] = field(default_factory=dict)
+    acuerdo: dict[str, float | None] = field(default_factory=dict)  # % de propuestas con los 3 jurados de acuerdo
     errores: list[str] = field(default_factory=list)
     exportadas: int = 0
     cache: str = ""
@@ -100,7 +101,10 @@ class Reporte:
         l += ["## Acuerdo entre jurados (kappa de Fleiss)", ""]
         for crit, k in self.kappa.items():
             nivel = "—" if k is None else "casi perfecto" if k >= 0.8 else "sustancial" if k >= 0.6 else "moderado" if k >= 0.4 else "⚠️ bajo: revisar la rúbrica"
-            l.append(f"- {crit}: {'—' if k is None else k} ({nivel})")
+            ac = self.acuerdo.get(crit)
+            l.append(f"- {crit}: kappa {'—' if k is None else k} ({nivel}) · unanimidad en {'—' if ac is None else f'{ac:.0%}'} de las propuestas")
+        l.append("")
+        l.append("> Con criterios muy raros (p. ej. casi ninguna propuesta tiene plazo) el kappa cae aunque los jurados casi siempre coincidan: mirar también el % de unanimidad.")
         l += ["", f"## Cola de revisión humana: {len(self.pendientes)}", ""]
         for pid, motivo in list(self.pendientes.items())[:50]:
             l.append(f"- `{pid}`: {motivo['motivo']}")
@@ -188,6 +192,8 @@ def votar(pv: PropuestaVerificada, jurado: list[ProveedorIA], terminos: list[str
                 vc = getattr(vr, k)
                 por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=vc.valor, justificacion=vc.justificacion))
         except RuntimeError as e:  # jurado caído: voto nulo, NO se cachea (se reintenta en la próxima corrida)
+            if isinstance(e, PresupuestoAgotado):
+                raise  # el tope de gasto detiene TODO; no es un "jurado caído"
             rep.errores.append(f"jurado {j.modelo} en {pv.id}: {e}")
             for k in CRITERIOS:
                 por_criterio[k].append(VotoJurado(proveedor=j.proveedor, modelo=j.modelo, valor=None, justificacion=None))
@@ -281,6 +287,7 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
         else:
             rubricas[pv.id] = Rubrica(**cal)
     rep.kappa = {k: kappa_fleiss([[v.valor for v in votos[pid][k]] for pid in votos]) for k in CRITERIOS}
+    rep.acuerdo = {k: _acuerdo_unanime([[v.valor for v in votos[pid][k]] for pid in votos]) for k in CRITERIOS}
 
     # [6]
     por_tema: dict[str, list[PropuestaVerificada]] = defaultdict(list)
@@ -302,6 +309,11 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
     rep.cache = cache.stats.resumen()
     _escribir_salidas(ciudad, rep, dir_salida)
     return rep
+
+
+def _acuerdo_unanime(items: list[list[bool | None]]) -> float | None:
+    completos = [it for it in items if it and all(v is not None for v in it)]
+    return sum(len(set(it)) == 1 for it in completos) / len(completos) if completos else None
 
 
 def _auditar_neutralidad(todas: list[PropuestaVerificada], candidatos: list[Candidato], eq: Equipo, cache: Cache, rep: Reporte) -> None:
