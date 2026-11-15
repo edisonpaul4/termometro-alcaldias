@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Calificacion, Candidato, Propuesta } from '../contrato.gen';
 	import { enlacePagina, textoConsenso } from '../util';
+	import { mailto } from '../contacto';
 	import Icono from './Icono.svelte';
 
 	/** `detalle`: muestra cita, contexto y votos sin botón (dentro de la hoja o panel lateral). */
@@ -98,6 +99,16 @@
 					</div>
 				{/each}
 			</dl>
+
+			<a
+				href={mailto(
+					`Error en la propuesta ${propuesta.id}`,
+					`Candidato: ${candidato.nombre}\nPropuesta: ${propuesta.id}\nResumen: ${propuesta.resumen}\n\n¿Qué está mal?\n`
+				)}
+				class="inline-flex items-center gap-1.5 text-xs font-semibold text-texto-3 hover:text-texto"
+			>
+				<Icono nombre="flag" tipo="ui" tam={13} /> Reportar un error en esta propuesta
+			</a>
 		</div>
 	{/if}
 </article>

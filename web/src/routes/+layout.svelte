@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { CORREO, mailto } from '#lib/contacto.js';
 	import './layout.css';
 	import Logo from '#lib/componentes/Logo.svelte';
 	import type { LayoutProps } from './$types';
@@ -43,7 +44,13 @@
 			<p>
 				Orden de candidatos aleatorio en cada visita · No es una recomendación de voto ·
 				<a href="/metodologia/" class="text-texto-2 underline-offset-2 hover:underline">Metodología</a> ·
+				<a href="/aviso-legal/" class="text-texto-2 underline-offset-2 hover:underline">Aviso legal y correcciones</a> ·
 				<a href="https://github.com/edisonpaul4/termometro-alcaldias" class="text-texto-2 underline-offset-2 hover:underline">Código abierto</a>
+			</p>
+			<p>
+				¿Encontraste un error? Escríbenos a
+				<a href={mailto('Corrección en el termómetro')} class="font-semibold text-texto-2 underline-offset-2 hover:underline">{CORREO}</a>
+				y lo revisamos.
 			</p>
 		</div>
 	</footer>

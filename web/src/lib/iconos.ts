@@ -105,6 +105,8 @@ import b_calendar_check from '@phosphor-icons/core/assets/bold/calendar-check-bo
 import b_coins from '@phosphor-icons/core/assets/bold/coins-bold.svg?raw';
 import b_bank from '@phosphor-icons/core/assets/bold/bank-bold.svg?raw';
 import b_warning from '@phosphor-icons/core/assets/bold/warning-bold.svg?raw';
+import b_flag from '@phosphor-icons/core/assets/bold/flag-bold.svg?raw';
+import b_envelope_simple from '@phosphor-icons/core/assets/bold/envelope-simple-bold.svg?raw';
 import b_file_pdf from '@phosphor-icons/core/assets/bold/file-pdf-bold.svg?raw';
 import b_thermometer from '@phosphor-icons/core/assets/bold/thermometer-bold.svg?raw';
 import b_check from '@phosphor-icons/core/assets/bold/check-bold.svg?raw';
@@ -225,6 +227,8 @@ export const ui: Record<string, string> = {
 	'coins': b_coins,
 	'bank': b_bank,
 	'warning': b_warning,
+	'flag': b_flag,
+	'envelope-simple': b_envelope_simple,
 	'file-pdf': b_file_pdf,
 	'thermometer': b_thermometer,
 	'check': b_check,

@@ -11,7 +11,7 @@
   nombre: Ciudad Demo
   nombre_oficial: Ciudad ficticia para desarrollo
   dignidad: Alcaldía
-  activa: true
+  activa: false
 
 # - id: guayaquil
 #   nombre: Guayaquil
