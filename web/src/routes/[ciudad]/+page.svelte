@@ -4,8 +4,8 @@
 	import Avatar from '#lib/componentes/Avatar.svelte';
 	import Icono from '#lib/componentes/Icono.svelte';
 	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
-	import Termometro from '#lib/componentes/Termometro.svelte';
-	import { termometroGlobal } from '#lib/termometro.js';
+	import Proporcion from '#lib/componentes/Proporcion.svelte';
+	import { soloIntenciones, termometroGlobal } from '#lib/termometro.js';
 	import { barajar, diasHasta } from '#lib/util.js';
 	import type { PageProps } from './$types';
 
@@ -21,6 +21,8 @@
 	const dias = $derived(diasHasta(data.ciudad.eleccion));
 	const paginas = $derived(data.candidatos.reduce((s, x) => s + (x.plan_trabajo.paginas ?? 0), 0));
 	const c = $derived(data.ciudad.id);
+	const contexto = $derived(soloIntenciones(data.candidatos));
+	const temasDe = (cand: (typeof data.candidatos)[number]) => new Set((cand.propuestas ?? []).map((p) => p.tema)).size;
 	const primerNombre = (n: string) => n.replace(/\(.*?\)/, '').trim().split(/\s+/).slice(0, 2).join(' ');
 </script>
 
@@ -87,6 +89,16 @@
 			<Icono nombre="shuffle" tipo="ui" tam={13} /> {orden ? 'Orden aleatorio' : ''}
 		</p>
 	</div>
+	{#if contexto.total}
+		<div class="mt-4 flex items-start gap-3 rounded-2xl bg-black/[0.035] p-4 text-sm text-texto-2 ring-1 ring-black/5">
+			<Icono nombre="info" tipo="ui" tam={18} class="mt-0.5 shrink-0 text-texto-3" />
+			<p>
+				En {data.ciudad.nombre}, <strong class="text-texto">{Math.round((100 * contexto.sinDatos) / contexto.total)}% de las {contexto.total} propuestas</strong>
+				son solo intenciones: no dicen cuánto, cuándo ni con qué dinero. Por eso todas las barras se ven bajas.
+				<a href="/metodologia/" class="font-semibold text-acento underline-offset-2 hover:underline">Cómo se mide</a>
+			</p>
+		</div>
+	{/if}
 	<ul class="mt-4 grid gap-3 sm:grid-cols-2">
 		{#each candidatos as cand (cand.id)}
 			{@const t = termometroGlobal(cand)}
@@ -104,9 +116,9 @@
 						<p class="text-sm text-texto-3">Plan de trabajo no disponible</p>
 					{:else if t.propuestas}
 						<div class="mt-auto">
-							<Termometro valor={t.valor} />
-							<p class="mt-1.5 text-xs text-texto-3">
-								{t.propuestas} propuestas{#if t.fueraDeCompetencia}<span class="text-alerta"> · {t.fueraDeCompetencia} fuera de competencia</span>{/if}
+							<Proporcion lectura={t} desglose />
+							<p class="mt-3 text-xs text-texto-3">
+								Plan de {t.propuestas} propuestas en {temasDe(cand)} temas{#if t.fueraDeCompetencia}<span class="text-alerta"> · {t.fueraDeCompetencia} fuera de competencia</span>{/if}
 							</p>
 						</div>
 					{/if}

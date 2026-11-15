@@ -47,8 +47,11 @@
 			{/each}
 		</ul>
 		<p class="mt-4 text-texto-2">
-			Concreción de una propuesta = (meta + plazo + financiamiento) ÷ 3. El termómetro de un tema es el promedio de sus
-			propuestas; el global, el promedio de los temas, para que la cantidad no pese más que la calidad.
+			Lo que ves en cada candidato es una <strong class="text-texto">proporción sobre una escala fija de 10</strong>: de cada 10
+			propuestas de su plan, cuántas traen algún dato (cuánto, cuándo o con qué dinero), y cuántas traen cada uno. Así, un plan
+			más largo no se ve más concreto solo por tener más propuestas. Cuando hay menos de 10 propuestas, o la proporción es
+			menor a medio punto, mostramos el conteo exacto ("1 de 119") en lugar de redondear a cero. El tamaño del plan se
+			muestra aparte, como dato, y no suma ni resta.
 		</p>
 	</section>
 

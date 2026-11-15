@@ -179,6 +179,7 @@ Se evalúa **cada propuesta** con una rúbrica de 4 criterios, cada uno con valo
 - La **competencia municipal** no suma al puntaje: se muestra como una **alerta visible** del tipo "⚠️ Fuera de la competencia del Municipio".
 - **Termómetro por tema** = promedio de concreción de las propuestas del candidato en ese tema.
 - **Termómetro global** = promedio de todos sus temas.
+- **Presentación (decidido tras la corrida real):** no se muestra el porcentaje. Se muestra "de cada 10 propuestas, X traen algún dato" en 10 casillas fijas (con casillas parciales) y el desglose cuánto / cuándo / con qué dinero. Nada en conteos absolutos, porque un plan más largo parecería más concreto por volumen. Bajo 0,5 de cada 10 → conteo exacto ("1 de 119"). Tamaño del plan solo como pie neutro. Franja de contexto de ciudad ("X% de las N propuestas son solo intenciones") y "Lo más concreto de su plan" en la ficha.
 - Visualmente es un termómetro o barra de color, siempre con el desglose a la vista: "3 de 12 propuestas tienen meta medible".
 
 ## 8. Pipeline automatizado con varias IA

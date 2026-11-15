@@ -105,4 +105,5 @@ municipales y su infraestructura; participación ciudadana, transparencia y trá
 - Concreción de una propuesta = (meta + plazo + financiamiento) / 3
 - Termómetro por tema = promedio de concreción de las propuestas del candidato en ese tema
 - Termómetro global = promedio de los termómetros por tema en que el candidato tiene propuestas
+- **Lo que se muestra al votante:** "de cada 10 propuestas, X traen algún dato" (≥1 criterio en Sí), más el desglose por criterio, siempre en proporción sobre una escala fija de 10. El promedio de concreción solo se usa internamente en "lo que me importa". Con menos de 10 propuestas o menos de 0,5 de cada 10 se muestra el conteo exacto.
 - **Competencia municipal no suma al puntaje.** Se muestra como alerta y esas propuestas no cuentan en "lo que me importa".

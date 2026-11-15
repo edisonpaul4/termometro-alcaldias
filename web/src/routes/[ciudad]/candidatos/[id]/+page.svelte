@@ -3,8 +3,8 @@
 	import Icono from '#lib/componentes/Icono.svelte';
 	import Propuesta from '#lib/componentes/Propuesta.svelte';
 	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
-	import Termometro from '#lib/componentes/Termometro.svelte';
-	import { termometroGlobal, termometroTema } from '#lib/termometro.js';
+	import Proporcion from '#lib/componentes/Proporcion.svelte';
+	import { masConcretas, proporcion, termometroGlobal, termometroTema } from '#lib/termometro.js';
 	import { colorTema } from '#lib/visual.js';
 	import type { PageProps } from './$types';
 
@@ -15,16 +15,13 @@
 	const global = $derived(termometroGlobal(cand));
 	const temasCon = $derived(data.temas.filter((t) => (cand.propuestas ?? []).some((p) => p.tema === t.id)));
 	const temasSin = $derived(data.temas.filter((t) => !temasCon.includes(t)));
+	const prop = $derived(proporcion(global.conAlgunDato, global.propuestas));
 	const stats = $derived([
 		[String(global.propuestas), 'propuestas'],
-		[global.valor === null ? '—' : `${Math.round(global.valor * 100)}%`, 'concreción'],
+		[global.propuestas ? (prop.deCada10 >= 0.5 ? `${Math.round(prop.deCada10)}/10` : `${global.conAlgunDato}`) : '—', prop.deCada10 >= 0.5 ? 'con algún dato' : `de ${global.propuestas} con datos`],
 		[`${temasCon.length}/${data.temas.length}`, 'temas']
 	]);
-	const criterios = $derived([
-		['target', 'Con meta', global.conMeta],
-		['calendar-check', 'Con plazo', global.conPlazo],
-		['coins', 'Con financiamiento', global.conFinanciamiento]
-	] as const);
+	const destacadas = $derived(masConcretas(cand.propuestas ?? []));
 </script>
 
 <svelte:head><title>{cand.nombre} · Lista {cand.lista} · termómetro</title></svelte:head>
@@ -82,21 +79,26 @@
 		</nav>
 
 		<section class="tarjeta mt-6 p-5">
-			<Termometro valor={global.valor} titulo="Concreción global" />
-			<ul class="mt-4 grid grid-cols-3 gap-2 text-center">
-				{#each criterios as [icono, nombre, n] (nombre)}
-					<li class="rounded-2xl bg-black/[0.04] p-3">
-						<Icono nombre={icono} tipo="ui" tam={18} class="mx-auto text-acento" />
-						<p class="display mt-1 text-lg font-bold tabular-nums">{n}<span class="text-sm text-texto-3">/{global.propuestas}</span></p>
-						<p class="text-[11px] leading-tight text-texto-3">{nombre}</p>
-					</li>
-				{/each}
-			</ul>
+			<Proporcion lectura={global} desglose pie="Plan de {global.propuestas} propuestas en {temasCon.length} temas. Se cuenta si la propuesta dice cuánto, cuándo o con qué dinero; no si es buena idea ni si es viable." />
 			{#if global.fueraDeCompetencia}
 				<p class="mt-3 flex items-center gap-1.5 rounded-2xl bg-alerta/10 p-3 text-sm text-alerta">
 					<Icono nombre="warning" tipo="ui" tam={16} />
 					{global.fueraDeCompetencia} propuesta{global.fueraDeCompetencia > 1 ? 's' : ''} no le corresponde{global.fueraDeCompetencia > 1 ? 'n' : ''} al Municipio
 				</p>
+			{/if}
+		</section>
+
+		<section class="mt-8">
+			<h2 class="text-xl font-extrabold tracking-tight">Lo más concreto de su plan</h2>
+			{#if destacadas.length}
+				<p class="mt-1 text-sm text-texto-2">Las propuestas que más datos traen, con su cita.</p>
+				<div class="mt-4 space-y-3">
+					{#each destacadas as p (p.id)}
+						<Propuesta propuesta={p} candidato={cand} />
+					{/each}
+				</div>
+			{:else}
+				<p class="mt-2 rounded-2xl bg-black/[0.035] p-4 text-sm text-texto-2">Ninguna propuesta de su plan dice cuánto, cuándo ni con qué dinero.</p>
 			{/if}
 		</section>
 
@@ -110,7 +112,7 @@
 						Comparar <Icono nombre="arrow-right" tipo="ui" tam={14} />
 					</a>
 				</div>
-				<div class="mt-3"><Termometro valor={lect.valor} color={colorTema(t.id)} /></div>
+				<div class="mt-3"><Proporcion lectura={lect} color={colorTema(t.id)} /></div>
 				<div class="mt-4 space-y-3">
 					{#each (cand.propuestas ?? []).filter((p) => p.tema === t.id) as p (p.id)}
 						<Propuesta propuesta={p} candidato={cand} />

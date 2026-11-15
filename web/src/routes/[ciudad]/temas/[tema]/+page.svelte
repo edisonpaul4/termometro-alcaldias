@@ -3,7 +3,7 @@
 	import Avatar from '#lib/componentes/Avatar.svelte';
 	import Icono from '#lib/componentes/Icono.svelte';
 	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
-	import Termometro from '#lib/componentes/Termometro.svelte';
+	import Proporcion from '#lib/componentes/Proporcion.svelte';
 	import { propuestasDelTema, termometroTema } from '#lib/termometro.js';
 	import { barajar } from '#lib/util.js';
 	import { colorTema, tinte } from '#lib/visual.js';
@@ -78,7 +78,7 @@
 						<p class="truncate text-xs text-texto-3">Lista {cand.lista} · {cand.organizacion}</p>
 					</div>
 				</div>
-				<div class="mt-4"><Termometro valor={lect.valor} {color} /></div>
+				<div class="mt-4"><Proporcion lectura={lect} {color} /></div>
 				<ul class="mt-4 flex-1 space-y-2.5 text-sm">
 					{#each ps.slice(0, 4) as p (p.id)}
 						<li class="flex gap-2.5">

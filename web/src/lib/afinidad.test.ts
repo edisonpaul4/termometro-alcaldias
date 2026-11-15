@@ -9,7 +9,7 @@ import {
 	TOPE_COBERTURA,
 	UMBRAL_EMPATE
 } from './afinidad';
-import { concrecion, etiqueta, termometroGlobal, termometroTema } from './termometro';
+import { concrecion, masConcretas, proporcion, termometroGlobal, termometroTema } from './termometro';
 
 const cal = (valor: boolean): Calificacion => ({
 	valor,
@@ -79,10 +79,20 @@ describe('termómetro', () => {
 		expect(termometroGlobal(c).valor).toBe(0.5);
 	});
 
-	it('etiquetas', () => {
-		expect(etiqueta(null)).toBe('Sin propuestas');
-		expect(etiqueta(1)).toBe('Muy concreto');
-		expect(etiqueta(0)).toBe('Nada concreto');
+	it('proporción de cada 10: no premia el volumen', () => {
+		expect(proporcion(36, 110).texto).toBe('3 de cada 10');
+		expect(proporcion(15, 44).texto).toBe('3 de cada 10');
+		expect(proporcion(36, 110).deCada10).toBeCloseTo(3.27, 2);
+		expect(proporcion(1, 119)).toMatchObject({ texto: '1 de 119', singular: true });
+		expect(proporcion(2, 4).texto).toBe('2 de 4');
+		expect(proporcion(0, 50).texto).toBe('ninguna');
+		expect(proporcion(1, 10)).toMatchObject({ texto: '1 de cada 10', singular: true });
+	});
+
+	it('conAlgunDato y más concretas', () => {
+		const ps = [prop('s'), prop('s', { meta: true }), prop('s', TODO), prop('s', { plazo: true })];
+		expect(termometroTema(cand('a', ps), 's').conAlgunDato).toBe(3);
+		expect(masConcretas(ps).map((p) => p.id)).toEqual([ps[2].id, ps[1].id, ps[3].id]);
 	});
 });
 
