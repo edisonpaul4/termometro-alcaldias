@@ -1,15 +1,26 @@
 <script lang="ts">
+	/*
+	 * Comparar un tema entre candidatos.
+	 *  - Filtro por enfoque ("cómo lo resolverían"): la comparación real es quién propone qué.
+	 *  - Tarjetas compactas: proporción con datos y las 2 propuestas más concretas.
+	 *  - El resto de propuestas y el detalle (cita, votos) se abren en la hoja / panel lateral.
+	 */
 	import { onMount } from 'svelte';
 	import Avatar from '#lib/componentes/Avatar.svelte';
+	import HojaInferior from '#lib/componentes/HojaInferior.svelte';
 	import Icono from '#lib/componentes/Icono.svelte';
-	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
 	import Proporcion from '#lib/componentes/Proporcion.svelte';
-	import { propuestasDelTema, termometroTema } from '#lib/termometro.js';
+	import Propuesta from '#lib/componentes/Propuesta.svelte';
+	import PropuestaFila from '#lib/componentes/PropuestaFila.svelte';
+	import TemaIcono from '#lib/componentes/TemaIcono.svelte';
+	import { concrecion, termometroTema } from '#lib/termometro.js';
 	import { barajar } from '#lib/util.js';
 	import { colorTema, tinte } from '#lib/visual.js';
+	import type { Propuesta as TPropuesta } from '#lib/contrato.gen.js';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
+	type Cand = (typeof data.completos)[number];
 
 	let orden = $state<string[] | null>(null);
 	onMount(() => (orden = barajar(data.completos.map((x) => x.id))));
@@ -17,16 +28,35 @@
 	const c = $derived(data.ciudad.id);
 	const color = $derived(colorTema(data.tema.id));
 	const enfoques = $derived(data.enfoques.filter((e) => e.tema === data.tema.id));
-	const con = $derived(candidatos.filter((x) => propuestasDelTema(x, data.tema.id).length));
-	const sin = $derived(candidatos.filter((x) => !propuestasDelTema(x, data.tema.id).length));
 
-	// Indicador de posición del carrusel
-	let carrusel = $state<HTMLElement>();
-	let actual = $state(0);
-	const alDesplazar = () => {
-		if (!carrusel) return;
-		const ancho = (carrusel.firstElementChild as HTMLElement)?.offsetWidth ?? 1;
-		actual = Math.round(carrusel.scrollLeft / (ancho + 12));
+	// Filtro por enfoque
+	let enfoque = $state<string | null>(null);
+	const de = (cand: Cand) => (cand.propuestas ?? []).filter((p) => !enfoque || p.enfoques.includes(enfoque));
+	const conTema = $derived(candidatos.filter((x) => x.propuestas?.length));
+	const sin = $derived(candidatos.filter((x) => !x.propuestas?.length));
+	const visibles = $derived(conTema.filter((x) => de(x).length));
+	const noEnEnfoque = $derived(conTema.filter((x) => !de(x).length));
+	const candidatosPor = (eid: string) => conTema.filter((x) => (x.propuestas ?? []).some((p) => p.enfoques.includes(eid))).length;
+	const actualEnfoque = $derived(enfoques.find((e) => e.id === enfoque));
+
+	/** Más concretas primero; ante empate, el orden del plan. */
+	const ordenadas = (ps: TPropuesta[]) =>
+		ps.map((p, i) => ({ p, i })).sort((a, b) => concrecion(b.p) - concrecion(a.p) || a.i - b.i).map((x) => x.p);
+	const MOSTRAR = 2;
+
+	// Hoja: lista del candidato → detalle de una propuesta
+	let hoja = $state(false);
+	let hojaCand = $state<Cand | null>(null);
+	let hojaProp = $state<TPropuesta | null>(null);
+	const verTodas = (cand: Cand) => {
+		hojaCand = cand;
+		hojaProp = null;
+		hoja = true;
+	};
+	const verUna = (cand: Cand, p: TPropuesta) => {
+		hojaCand = cand;
+		hojaProp = p;
+		hoja = true;
 	};
 </script>
 
@@ -34,92 +64,125 @@
 
 <section class="relative isolate overflow-hidden">
 	<div class="pointer-events-none absolute -top-40 left-1/2 -z-10 size-[28rem] -translate-x-1/2 rounded-full opacity-[0.12] blur-3xl" style="background:{color}"></div>
-	<div class="contenedor pt-5">
+	<div class="contenedor-ancho pt-5">
 		<a href="/{c}/" class="inline-flex items-center gap-1 text-sm text-texto-3 hover:text-texto">
-			<Icono nombre="arrow-left" tipo="ui" tam={14} /> {data.ciudad.nombre}
+			<Icono nombre="arrow-left" tipo="ui" tam={14} /> Candidatos de {data.ciudad.nombre}
 		</a>
-		<div class="mt-6 flex items-center gap-4">
-			<TemaIcono tema={data.tema.id} icono={data.tema.icono} tam={64} />
-			<div>
+		<div class="mt-5 flex items-center gap-4">
+			<TemaIcono tema={data.tema.id} icono={data.tema.icono} tam={56} />
+			<div class="min-w-0">
 				<h1 class="text-3xl leading-tight font-extrabold tracking-tight">{data.tema.nombre}</h1>
-				<p class="text-sm text-texto-2">{con.length} de {candidatos.length} candidatos tienen propuestas</p>
+				<p class="text-sm text-texto-2">{conTema.length} de {candidatos.length} candidatos proponen algo</p>
 			</div>
 		</div>
-		<p class="mt-4 text-texto-2">{data.tema.descripcion}</p>
 
 		{#if enfoques.length}
-			<ul class="mt-4 flex flex-wrap gap-2 text-sm">
-				{#each enfoques as e (e.id)}
-					<li class="inline-flex items-center gap-1.5 rounded-full py-1 pr-3 pl-1.5" style="background:{tinte(color)};color:{color}" title={e.descripcion}>
-						<Icono nombre={e.icono} tam={16} />
-						{e.nombre}
+			<div class="mt-6">
+				<p class="text-sm font-semibold text-texto-2">¿Cómo lo resolverían?</p>
+				<ul class="sin-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 pb-1 text-sm lg:mx-0 lg:flex-wrap lg:px-0" role="group" aria-label="Filtrar por enfoque">
+					<li>
+						<button
+							onclick={() => (enfoque = null)}
+							aria-pressed={!enfoque}
+							class="rounded-full px-3.5 py-1.5 font-semibold whitespace-nowrap ring-1 transition {!enfoque ? 'text-white ring-transparent' : 'bg-superficie text-texto-2 ring-black/10'}"
+							style={!enfoque ? `background:${color}` : ''}
+						>
+							Todos los enfoques
+						</button>
 					</li>
-				{/each}
-			</ul>
+					{#each enfoques as e (e.id)}
+						{@const sel = enfoque === e.id}
+						<li>
+							<button
+								onclick={() => (enfoque = sel ? null : e.id)}
+								aria-pressed={sel}
+								title={e.descripcion}
+								class="inline-flex items-center gap-1.5 rounded-full py-1.5 pr-3.5 pl-2 font-medium whitespace-nowrap ring-1 transition {sel ? 'text-white ring-transparent' : 'ring-black/[0.06]'}"
+								style={sel ? `background:${color}` : `background:${tinte(color)};color:${color}`}
+							>
+								<Icono nombre={e.icono} tam={16} />
+								{e.nombre}
+								<span class="text-xs opacity-70">· {candidatosPor(e.id)}</span>
+							</button>
+						</li>
+					{/each}
+				</ul>
+				{#if actualEnfoque}
+					<p class="mt-3 max-w-2xl text-sm text-texto-2">{actualEnfoque.descripcion}</p>
+				{/if}
+			</div>
 		{/if}
 	</div>
 </section>
 
-<!-- Carrusel deslizable en móvil, grilla en escritorio -->
-<div class="mx-auto mt-8 max-w-3xl">
-	<ul
-		bind:this={carrusel}
-		onscroll={alDesplazar}
-		class="sin-scrollbar flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 sm:grid sm:grid-cols-2 sm:overflow-visible"
-	>
-		{#each con as cand (cand.id)}
-			{@const lect = termometroTema(cand, data.tema.id)}
-			{@const ps = propuestasDelTema(cand, data.tema.id)}
-			<li class="tarjeta flex w-[85%] shrink-0 snap-center flex-col p-5 sm:w-auto">
-				<div class="flex items-center gap-3">
-					<Avatar candidato={cand} ciudad={c} tam={48} />
-					<div class="min-w-0 flex-1">
-						<p class="display truncate font-bold">{cand.nombre}</p>
-						<p class="truncate text-xs text-texto-3">Lista {cand.lista} · {cand.organizacion}</p>
-					</div>
-				</div>
-				<div class="mt-4"><Proporcion lectura={lect} {color} /></div>
-				<ul class="mt-4 flex-1 space-y-2.5 text-sm">
-					{#each ps.slice(0, 4) as p (p.id)}
-						<li class="flex gap-2.5">
-							<span class="mt-1.5 size-1.5 shrink-0 rounded-full" style="background:{color}"></span>
-							<span class="text-texto-2">
-								{p.resumen}
-								{#if !p.rubrica.competencia_municipal.valor}
-									<span class="inline-flex items-center gap-0.5 text-xs text-alerta"><Icono nombre="warning" tipo="ui" tam={11} /> no es competencia municipal</span>
-								{/if}
-							</span>
-						</li>
+<section class="contenedor-ancho mt-6">
+	<ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
+		{#each visibles as cand (cand.id)}
+			{@const ps = ordenadas(de(cand))}
+			<li class="tarjeta flex flex-col p-4">
+				<a href="/{c}/candidatos/{cand.id}/#{data.tema.id}" class="group flex items-center gap-3">
+					<Avatar candidato={cand} ciudad={c} tam={44} />
+					<span class="min-w-0 flex-1">
+						<span class="display block truncate font-bold group-hover:underline">{cand.nombre}</span>
+						<span class="block truncate text-xs text-texto-3">Lista {cand.lista} · {cand.organizacion}</span>
+					</span>
+				</a>
+				<div class="mt-3"><Proporcion lectura={termometroTema({ propuestas: ps }, data.tema.id)} {color} /></div>
+				<ul class="mt-2 flex-1 divide-y divide-black/[0.05] text-sm">
+					{#each ps.slice(0, MOSTRAR) as p (p.id)}
+						<li><PropuestaFila propuesta={p} onabrir={() => verUna(cand, p)} /></li>
 					{/each}
 				</ul>
-				<a href="/{c}/candidatos/{cand.id}/#{data.tema.id}" class="mt-4 inline-flex items-center gap-1 text-sm font-semibold" style="color:{color}">
-					{ps.length > 4 ? `Ver las ${ps.length} propuestas y citas` : 'Ver citas y calificación'}
-					<Icono nombre="arrow-right" tipo="ui" tam={14} />
-				</a>
+				{#if ps.length > MOSTRAR}
+					<button onclick={() => verTodas(cand)} class="mt-1 self-start text-sm font-semibold" style="color:{color}">
+						+ {ps.length - MOSTRAR} propuesta{ps.length - MOSTRAR === 1 ? '' : 's'} más
+					</button>
+				{/if}
 			</li>
 		{/each}
 	</ul>
-	{#if con.length > 1}
-		<div class="mt-3 flex justify-center gap-1.5 sm:hidden" aria-hidden="true">
-			{#each con as _, i (i)}
-				<span class="h-1.5 rounded-full transition-all {i === actual ? 'w-5' : 'w-1.5 bg-black/15'}" style={i === actual ? `background:${color}` : ''}></span>
-			{/each}
+
+	{#if noEnEnfoque.length || sin.length}
+		<div class="mt-8 space-y-4 rounded-3xl bg-black/[0.03] p-5 ring-1 ring-black/5">
+			{#if noEnEnfoque.length}
+				<div>
+					<h2 class="text-sm font-bold text-texto-2">Proponen otras cosas en este tema, no «{actualEnfoque?.nombre}»</h2>
+					<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+						{#each noEnEnfoque as cand (cand.id)}
+							<li class="flex items-center gap-2 text-sm text-texto-3"><Avatar candidato={cand} ciudad={c} tam={26} anillo={false} />{cand.nombre}</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+			{#if sin.length}
+				<div>
+					<h2 class="text-sm font-bold text-texto-2">Sin propuestas sobre este tema</h2>
+					<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+						{#each sin as cand (cand.id)}
+							<li class="flex items-center gap-2 text-sm text-texto-3"><Avatar candidato={cand} ciudad={c} tam={26} anillo={false} />{cand.nombre}</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
 		</div>
 	{/if}
-</div>
+</section>
 
-{#if sin.length}
-	<section class="contenedor mt-10">
-		<div class="rounded-3xl bg-black/[0.03] p-5 ring-1 ring-black/5">
-			<h2 class="text-base font-bold text-texto-2">Sin propuestas sobre este tema</h2>
-			<ul class="mt-3 flex flex-wrap gap-3">
-				{#each sin as cand (cand.id)}
-					<li class="flex items-center gap-2 text-sm text-texto-3">
-						<Avatar candidato={cand} ciudad={c} tam={28} anillo={false} />
-						{cand.nombre}
-					</li>
+<HojaInferior bind:abierto={hoja} titulo={hojaCand ? `${hojaCand.nombre} · ${data.tema.nombre_corto}` : ''}>
+	{#if hojaCand}
+		{#if hojaProp}
+			{#if de(hojaCand).length > 1}
+				<button onclick={() => (hojaProp = null)} class="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-texto-2 hover:text-texto">
+					<Icono nombre="arrow-left" tipo="ui" tam={14} /> Todas sus propuestas del tema
+				</button>
+			{/if}
+			{#key hojaProp.id}<Propuesta propuesta={hojaProp} candidato={hojaCand} detalle />{/key}
+		{:else}
+			<ul class="divide-y divide-black/[0.05]">
+				{#each ordenadas(de(hojaCand)) as p (p.id)}
+					<li><PropuestaFila propuesta={p} onabrir={() => (hojaProp = p)} /></li>
 				{/each}
 			</ul>
-		</div>
-	</section>
-{/if}
+		{/if}
+	{/if}
+</HojaInferior>

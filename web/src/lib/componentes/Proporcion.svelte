@@ -35,8 +35,12 @@
 
 <div class="w-full">
 	<p class="text-sm leading-snug text-texto-2">
-		{#if total.texto === 'ninguna'}
+		{#if total.texto === 'ninguna' && lectura.propuestas === 1}
+			Su única propuesta <span class="display font-bold text-texto">no trae datos</span>
+		{:else if total.texto === 'ninguna'}
 			<span class="display font-bold text-texto">Ninguna</span> de sus {lectura.propuestas} propuestas trae datos
+		{:else if lectura.propuestas === 1}
+			Su única propuesta <span class="display font-bold text-texto">trae algún dato</span>
 		{:else if total.texto.includes('de cada')}
 			De cada 10 propuestas, <span class="display font-bold text-texto">{total.texto.split(' ')[0]}</span> {verbo(total.singular)} algún dato
 		{:else}
