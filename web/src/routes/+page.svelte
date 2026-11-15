@@ -106,7 +106,7 @@
 <!-- CIUDADES -->
 <section class="contenedor mt-16">
 	<h2 class="text-3xl font-extrabold tracking-tight">Revisa a los candidatos</h2>
-	<ul class="mt-6 grid gap-3 sm:grid-cols-2">
+	<ul class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
 		{#each data.ciudades as c (c.id)}
 			<li>
 				<a href="/{c.id}/" class="tarjeta group block p-5 transition hover:ring-black/20">

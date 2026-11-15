@@ -78,7 +78,7 @@
 	{/if}
 {/snippet}
 
-<div class="contenedor-ancho pt-5 pb-16 lg:grid lg:grid-cols-[22rem_1fr] lg:items-start lg:gap-12">
+<div class="contenedor-ancho pt-5 pb-16 lg:grid lg:grid-cols-[22rem_minmax(0,1fr)] lg:items-start lg:gap-12">
 	<!-- 1. Resumen -->
 	<aside class="space-y-5 lg:sticky lg:top-20">
 		<a href="/{c}/" class="inline-flex items-center gap-1 text-sm text-texto-3 hover:text-texto">

@@ -25,7 +25,7 @@
 		código, los datos, la rúbrica y los prompts son públicos.
 	</p>
 
-	<ul class="mt-8 grid gap-3 sm:grid-cols-2">
+	<ul class="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
 		{#each principios as [icono, titulo, texto] (titulo)}
 			<li class="tarjeta p-5">
 				<Icono nombre={icono} tipo="ui" tam={22} class="text-acento" />

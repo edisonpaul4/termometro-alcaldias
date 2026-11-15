@@ -107,7 +107,7 @@
 			</p>
 		</div>
 	{/if}
-	<ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
+	<ul class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
 		{#each candidatos as cand (cand.id)}
 			{@const t = termometroGlobal(cand)}
 			<li animate:flip={{ duration: 400 }}>
