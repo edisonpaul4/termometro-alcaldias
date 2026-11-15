@@ -58,6 +58,10 @@
 @utility contenedor {
 	@apply mx-auto w-full max-w-3xl px-4;
 }
+/* Páginas de listado que aprovechan el ancho en computador */
+@utility contenedor-ancho {
+	@apply mx-auto w-full max-w-6xl px-4 lg:px-8;
+}
 @utility tarjeta {
 	@apply rounded-3xl bg-superficie shadow-[0_1px_2px_rgba(21,23,28,0.04),0_4px_16px_-8px_rgba(21,23,28,0.08)] ring-1 ring-black/[0.06];
 }

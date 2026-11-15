@@ -21,7 +21,7 @@
 
 <div class="flex min-h-dvh flex-col">
 	<header class="sticky top-0 z-40 border-b border-black/[0.06] bg-fondo/80 backdrop-blur-xl">
-		<nav class="contenedor flex h-14 items-center justify-between">
+		<nav class="contenedor-ancho flex h-14 items-center justify-between">
 			<a href="/" aria-label="Inicio"><Logo /></a>
 			<a href="/metodologia/" class="rounded-full px-3 py-1.5 text-sm font-medium text-texto-2 hover:bg-black/[0.04] hover:text-texto">
 				Cómo funciona
