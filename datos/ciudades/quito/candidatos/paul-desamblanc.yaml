@@ -3521,7 +3521,7 @@ propuestas:
 - id: paul-desamblanc-5749c4c8
   tema: movilidad
   resumen: Crear un Sistema Metropolitano Integrado de Gestión de la Movilidad con semáforos adaptativos, sensores y cámaras,
-    con pruebas en el segundo año.
+    empezando con pruebas en intersecciones seleccionadas.
   cita: Impulsaremos una movilidad propia de una Quito Ciudad Inteligente mediante un Sistema Metropolitano Integrado de Gestión
     de la Movilidad.
   pagina: 25
@@ -3873,8 +3873,8 @@ propuestas:
           la competencia exclusiva municipal sobre tránsito y transporte terrestre.
 - id: paul-desamblanc-c9f6cb13
   tema: seguridad
-  resumen: Instalar progresivamente cámaras, geolocalización, botones de auxilio y comunicación en buses, conectados a centros
-    de control y ECU 911.
+  resumen: Instalar progresivamente cámaras, geolocalización, botones de auxilio y sistemas de comunicación en los buses,
+    empezando por los corredores con más riesgo.
   cita: Impulsaremos la instalación progresiva de cámaras de seguridad, sistemas de geolocalización, botones de auxilio y
     mecanismos de comunicación dentro de los buses y demás unidades integradas al sistema metropolitano.
   pagina: 25

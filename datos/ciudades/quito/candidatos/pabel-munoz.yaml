@@ -5,7 +5,7 @@ lista: 2-17-70
 organizacion: Alianza Ciudadana
 foto: fuentes/ciudades/quito/candidatos/pabel-munoz/foto_2026-11-14.webp
 foto_fuente:
-  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1713278305.webp
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10443
   titulo: Foto oficial publicada por el CNE (Voto Informado)
   consultado: '2026-11-14'
   archivo: fuentes/ciudades/quito/candidatos/pabel-munoz/foto_2026-11-14.webp

@@ -41,3 +41,15 @@ def test_parafrasis_se_rechaza():
 
 def test_cita_muy_corta():
     assert verificar("seguridad", PAGINAS, 2).metodo == "muy_corta"
+
+
+def test_resumen_sin_respaldo():
+    from termometro.resumenes import datos_sin_respaldo
+
+    cita = "Auditoría de servicios, contratos y obras paralizadas."
+    assert datos_sin_respaldo("Realizar en los primeros 100 días una auditoría", cita, []) == ["100"]
+    assert datos_sin_respaldo("Auditoría con costo de USD 0,3–0,6 millones", cita, ["USD 0,3–0,6 millones"]) == []
+    assert datos_sin_respaldo("Crear 30.000 empleos", "crear 30.000 empleos", []) == []
+    assert datos_sin_respaldo("Revisar los 100 trámites de mayor demanda", "priorizar los cien de mayor demanda", []) == []
+    assert datos_sin_respaldo("Pruebas en el segundo año", "pruebas de semáforos", []) == ["segundo año"]
+    assert datos_sin_respaldo("Elaborar en los primeros doce meses", "durante los primeros doce meses de gestión", []) == []

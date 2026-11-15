@@ -19,6 +19,7 @@ from pathlib import Path
 import yaml
 
 from .cache import Cache, huella
+from .resumenes import datos_sin_respaldo
 from .citas import normalizar, verificar
 from .config import DIR_SALIDA, config
 from .consenso import consolidar, kappa_fleiss, resolver_humano
@@ -332,6 +333,8 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
             pv.resumen = ed["resumen"]
         if ed.get("tema"):
             pv.tema = ed["tema"]
+        if faltan := datos_sin_respaldo(pv.resumen, pv.cita, [f.texto for f in pv.contexto]):
+            rep.errores.append(f"{pv.id}: el resumen trae datos sin respaldo en la cita ni el contexto ({', '.join(faltan)}): corregir en revision.yaml")
 
     # [4] + [5]
     terminos = {c.id: terminos_identificables(c) for c in dc.candidatos}

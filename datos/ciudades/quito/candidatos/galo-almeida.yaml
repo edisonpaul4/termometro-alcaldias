@@ -5,7 +5,7 @@ lista: '1'
 organizacion: Movimiento Centro Democrático
 foto: fuentes/ciudades/quito/candidatos/galo-almeida/foto_2026-11-14.webp
 foto_fuente:
-  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1720161049.webp
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/4726
   titulo: Foto oficial publicada por el CNE (Voto Informado)
   consultado: '2026-11-14'
   archivo: fuentes/ciudades/quito/candidatos/galo-almeida/foto_2026-11-14.webp

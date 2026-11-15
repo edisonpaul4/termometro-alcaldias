@@ -9,8 +9,8 @@
     del CNE y verificados por sha256 calculado en el navegador.'
 - archivo: foto_2026-11-14.webp
   tipo: foto
-  url: https://backend-apps.cne.gob.ec/repository/api/File/Get?file=votoinformado/140/fotos-igm/1708445216.webp
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/4686
   descargado: '2026-11-14'
   sha256: a527f7657f96bc1c78d5f99af75012cdba4e506f2657bda150d0efc11ef76141
-  notas: Foto oficial (miniatura) publicada por el CNE. Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda). Obtenido desde Voto Informado (CNE) en el navegador del usuario tras su verificación humana de Imperva; bytes recibidos del backend del CNE y verificados
     por sha256 calculado en el navegador.

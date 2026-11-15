@@ -1,0 +1,46 @@
+# Decisiones humanas. El pipeline las re-aplica en cada corrida (no se pierden al reprocesar).
+#
+# resumen: corrección del resumen escrito por la IA. Regla: el resumen no puede contener datos
+#   (cifras, años, montos, plazos) que no estén en la cita o su contexto verificados, porque el
+#   votante lo lee como si lo dijera el plan. Los jurados nunca ven el resumen, así que corregirlo
+#   no cambia ninguna calificación.
+propuestas:
+  carla-larrea-6ea883c7:
+    resumen: Recuperar el orden en el espacio público, con puntos críticos recuperados y bajo gestión permanente.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  carla-larrea-463c3370:
+    resumen: Constituir una Autoridad Metropolitana Única de Movilidad con competencias integradas de planificación y control.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  carla-larrea-53e49e98:
+    resumen: Reformar la normativa urbanística e implementar licencias digitales para que los permisos sean ágiles, digitales y predecibles.
+    nota: El resumen decía "reducir en al menos 50 % los tiempos", dato que no está en la cita ni en su contexto.
+  carla-larrea-f55cb055:
+    resumen: Poner en marcha el Plan Metropolitano de Envejecimiento Activo y Barrios que Cuidan, y certificar barrios amigables con las personas mayores.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  carla-larrea-a5e344ae:
+    resumen: Implementar el Municipio Digital con ventanilla única y trámite cero papel, y digitalizar de extremo a extremo la mayoría de los trámites municipales.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  cesar-diaz-5d40ca80:
+    resumen: Realizar una auditoría de servicios, contratos, empresas públicas y obras paralizadas, con informe público inicial y un costo de USD 0,3–0,6 millones.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  cesar-diaz-b5fe7a99:
+    resumen: Aplicar un plan emergente de mantenimiento vial, iluminación y limpieza en puntos críticos, con cronograma público y un costo de USD 2–4 millones.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  cesar-diaz-b775329d:
+    resumen: Lanzar un portal de transparencia integral y un tablero de gestión por resultados, con un costo de USD 0,5–1,2 millones.
+    nota: El resumen decía "en los primeros 100 días", dato que no está en la cita ni en su contexto.
+  linda-romero-90236ebb:
+    resumen: Elaborar en los primeros doce meses de gestión, mediante un proceso ampliamente participativo, el plan estratégico de la administración.
+    nota: El resumen decía "2027–2031", dato que está en el PDF pero fuera de la cita verificada.
+  linda-romero-29f7dd77:
+    resumen: Crear el Fondo Quito Emprende, con la meta de crear 30.000 empleos y fortalecer 25.000 emprendimientos.
+    nota: El resumen decía "hasta 2031", dato que no está en la cita ni en su contexto.
+  linda-romero-e4407ace:
+    resumen: Ampliar los carriles exclusivos para transporte público hasta llegar a 150 km.
+    nota: El resumen decía "de 92 km" y "hasta 2031", datos que no están en la cita ni en su contexto.
+  paul-desamblanc-5749c4c8:
+    resumen: Crear un Sistema Metropolitano Integrado de Gestión de la Movilidad con semáforos adaptativos, sensores y cámaras, empezando con pruebas en intersecciones seleccionadas.
+    nota: El resumen decía "en el segundo año", dato que no está en la cita ni en su contexto.
+  paul-desamblanc-c9f6cb13:
+    resumen: Instalar progresivamente cámaras, geolocalización, botones de auxilio y sistemas de comunicación en los buses, empezando por los corredores con más riesgo.
+    nota: El resumen decía "ECU 911", que no está en la cita ni en su contexto.

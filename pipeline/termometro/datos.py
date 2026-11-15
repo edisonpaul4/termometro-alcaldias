@@ -7,6 +7,8 @@ from pathlib import Path
 import yaml
 from pydantic import TypeAdapter, ValidationError
 
+from .resumenes import datos_sin_respaldo
+
 from .modelos import (
     Candidato,
     Ciudad,
@@ -102,6 +104,8 @@ def cargar(dir_datos: Path = DIR_DATOS, *, produccion: bool = False) -> DatosSit
                         errores.append(f"{donde}: enfoque '{eid}' es del tema '{enfoque_tema[eid]}', no de '{p.tema}'")
                 if not p.cita_verificada:
                     errores.append(f"{donde}: cita no verificada (no se puede publicar)")
+                if not c.es_mock and (faltan := datos_sin_respaldo(p.resumen, p.cita, [f.texto for f in p.contexto])):
+                    errores.append(f"{donde}: el resumen trae datos que no están en la cita ni en su contexto: {', '.join(faltan)} (corregir en revision.yaml)")
 
         if produccion and reg.activa:
             if ciudad.es_mock or any(c.es_mock for c in candidatos):
