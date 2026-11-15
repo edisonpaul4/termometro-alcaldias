@@ -3,7 +3,8 @@
 	import { enlacePagina, textoConsenso } from '../util';
 	import Icono from './Icono.svelte';
 
-	let { propuesta, candidato }: { propuesta: Propuesta; candidato: Candidato } = $props();
+	/** `detalle`: muestra cita, contexto y votos sin botón (dentro de la hoja o panel lateral). */
+	let { propuesta, candidato, detalle = false }: { propuesta: Propuesta; candidato: Candidato; detalle?: boolean } = $props();
 
 	const r = $derived(propuesta.rubrica);
 	const criterios = $derived<[string, string, Calificacion][]>([
@@ -17,7 +18,7 @@
 	let abierto = $state(false);
 </script>
 
-<article class="tarjeta p-4">
+<article class={detalle ? '' : 'tarjeta p-4'}>
 	<p class="leading-snug text-pretty">{propuesta.resumen}</p>
 
 	<ul class="mt-3 flex flex-wrap gap-1.5 text-xs font-medium" aria-label="Criterios de concreción">
@@ -38,6 +39,7 @@
 		{/if}
 	</ul>
 
+	{#if !detalle}
 	<button
 		class="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-texto-2 hover:text-texto"
 		aria-expanded={abierto}
@@ -47,8 +49,9 @@
 		{abierto ? 'Ocultar fuente' : 'Ver la cita y cómo se calificó'}
 		<span class="transition {abierto ? 'rotate-180' : ''}"><Icono nombre="caret-down" tipo="ui" tam={12} /></span>
 	</button>
+	{/if}
 
-	{#if abierto}
+	{#if abierto || detalle}
 		<div class="mt-3 space-y-3">
 			<blockquote class="rounded-2xl bg-fondo px-4 py-3 text-sm text-texto-2 italic ring-1 ring-black/5">
 				“{propuesta.cita}”
