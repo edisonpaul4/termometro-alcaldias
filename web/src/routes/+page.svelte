@@ -46,18 +46,18 @@
 			{#each data.ciudades as c (c.id)}
 				{#if !c.es_mock}
 					<a
-						href="/{c.id}/lo-que-me-importa/"
+						href="/{c.id}/"
 						class="group relative inline-flex items-center gap-3 rounded-full p-[2px] fondo-aurora shadow-[0_8px_40px_-8px_rgba(15,118,110,0.28)] transition active:scale-95"
 					>
 						<span class="inline-flex items-center gap-3 rounded-full bg-fondo py-3.5 pr-3.5 pl-7 text-lg font-bold">
-							Empezar · {c.nombre}
+							Ver candidatos de {c.nombre}
 							<span class="grid size-9 place-items-center rounded-full bg-acento text-white transition group-hover:translate-x-0.5">
 								<Icono nombre="arrow-right" tipo="ui" tam={18} />
 							</span>
 						</span>
 					</a>
 				{:else}
-					<a href="/{c.id}/lo-que-me-importa/" class="inline-flex items-center gap-1.5 text-sm font-medium text-texto-3 hover:text-texto-2">
+					<a href="/{c.id}/" class="inline-flex items-center gap-1.5 text-sm font-medium text-texto-3 hover:text-texto-2">
 						<Icono nombre="sparkle" tipo="ui" tam={14} /> Probar con una ciudad ficticia
 					</a>
 				{/if}
