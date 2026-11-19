@@ -1,0 +1,72 @@
+# Decisiones humanas. El pipeline las re-aplica en cada corrida (no se pierden al reprocesar).
+#
+# resumen: corrección del resumen escrito por la IA. El resumen no puede contener datos que no estén
+#   en la cita o su contexto verificados.
+# contexto_extra: fragmentos del MISMO plan que precisan la propuesta y que el extractor no copió
+#   (fila de una tabla de inversión, fase con fecha). Se verifican literalmente contra el plan antes
+#   de agregarse y, como cambian lo que ven los jurados, la propuesta se vuelve a calificar.
+propuestas:
+  # Luzárraga: la Matriz 3.3.d (pág. 77) asigna un monto a cada proyecto.
+  monica-luzarraga-71c1310e:
+    contexto_extra: &matriz
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Aprovechamiento energético Biogás Las Biofísico / Energía Iguanas 22,50", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-c78b82d6:
+    contexto_extra:
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Planta biotecnológica de compostaje Biofísico / Residuos cantonal 18,00", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-795a4b9e:
+    contexto_extra:
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Red de Econodos y cooperativismo de Económico–Productivo reciclaje 12,00", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-754d29ba:
+    contexto_extra:
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Corredores verdes y arborización nativa Biofísico / Infraestructura 25,00", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-a51d94ce:
+    contexto_extra:
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Sistema de transporte fluvial masivo Movilidad Sostenible 85,00", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-f4fa89a9:
+    contexto_extra:
+      - {texto: "Matriz 3.3.d. Portafolio de proyectos estratégicos ambientales 2027–2031.", pagina: 77}
+      - {texto: "MONTO (USD M)", pagina: 77}
+      - {texto: "Ciclovías segregadas absorbentes Movilidad Sostenible 32,00", pagina: 77}
+    nota: El monto estaba en la matriz de inversión del plan, fuera de la cita.
+  monica-luzarraga-1bb1e74f:
+    resumen: Desarrollará una Red de Mercados Municipales de Nueva Generación y MiPymes, incluida en el Plan de Inversión Multianual.
+    nota: El resumen decía "USD 40 millones", cifra que el plan no asigna a este proyecto (es parte del rango de inversión de cultura).
+  # Medina: «4.2 Programación anual referencial» (pág. 14) y «4.3 Agenda de los primeros 100 días» (pág. 15–16).
+  pedro-medina-0ffa88e0:
+    contexto_extra:
+      - {texto: "2027 | Ordenamiento, diagnóstico y atención inmediata", pagina: 14}
+    nota: La auditoría figura en la fila 2027 de la programación anual del plan.
+  pedro-medina-7f663997:
+    contexto_extra:
+      - {texto: "2027 | Ordenamiento, diagnóstico y atención inmediata", pagina: 14}
+    nota: El plan emergente figura en la fila 2027 de la programación anual del plan.
+  pedro-medina-ba7a8282:
+    contexto_extra:
+      - {texto: "2028 | Inicio de obras de saneamiento y servicios", pagina: 14}
+    nota: La ampliación del alumbrado figura en la fila 2028 de la programación anual del plan.
+  pedro-medina-5150438b:
+    contexto_extra:
+      - {texto: "4.3 Agenda de los primeros 100 días", pagina: 15}
+    nota: Las mesas de trabajo son la acción 7 de la agenda de los primeros 100 días.
+  pedro-medina-6b69f958:
+    contexto_extra:
+      - {texto: "4.3 Agenda de los primeros 100 días", pagina: 15}
+    nota: El portal de transparencia es la acción 5 de la agenda de los primeros 100 días.
+  andres-roche-5420f4d2:
+    resumen: Propone educación continua en IA y competencias laborales, con megas gratuitos para quienes acrediten excelencia académica.
+    nota: El resumen usaba el nombre "Aprendamos 2.0", que no está en la cita.

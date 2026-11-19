@@ -21,7 +21,7 @@ plan_trabajo:
 propuestas:
 - id: wilson-merino-05e23975
   tema: ambiente
-  resumen: Incorporará el modelo Quito Ciudad Esponja con soluciones basadas en la naturaleza para el ciclo urbano del agua.
+  resumen: Incorporar el modelo Quito Ciudad Esponja con soluciones basadas en la naturaleza para el ciclo urbano del agua.
   cita: Como principio transversal, el Plan incorpora el modelo Quito Ciudad Esponja,
   pagina: 88
   cita_verificada: true
@@ -103,7 +103,7 @@ propuestas:
           suelo, alcantarillado y gestión ambiental.
 - id: wilson-merino-60438066
   tema: transparencia
-  resumen: Creará la Escuela Metropolitana de Integridad Ciudadana para formación en ética pública y ciudadanía.
+  resumen: Crear la Escuela Metropolitana de Integridad Ciudadana para formación en ética pública y ciudadanía.
   cita: Escuela Metropolitana de Integridad Ciudadana.
   pagina: 92
   cita_verificada: true
@@ -188,7 +188,7 @@ propuestas:
           responsable".
 - id: wilson-merino-9bc3f961
   tema: transparencia
-  resumen: Creará una Escuela Metropolitana de Liderazgo Ciudadano.
+  resumen: Crear una Escuela Metropolitana de Liderazgo Ciudadano.
   cita: • Escuela Metropolitana de Liderazgo Ciudadano.
   pagina: 92
   cita_verificada: true
@@ -271,7 +271,7 @@ propuestas:
           ciudadana" se enmarca en las funciones municipales de participación.
 - id: wilson-merino-bea31b07
   tema: seguridad
-  resumen: Implementará mediación comunitaria y programas de cultura de paz.
+  resumen: Implementar mediación comunitaria y programas de cultura de paz.
   cita: • Mediación Comunitaria.
   pagina: 92
   cita_verificada: true
@@ -353,7 +353,7 @@ propuestas:
           de las funciones municipales de participación ciudadana y prevención local.
 - id: wilson-merino-db2122f6
   tema: inclusion
-  resumen: Creará el programa Voluntariado Quito Imparable, una Red Metropolitana de Solidaridad y un Banco de Tiempo y Talentos.
+  resumen: Crear el programa Voluntariado Quito Imparable, una Red Metropolitana de Solidaridad y un Banco de Tiempo y Talentos.
   cita: Banco de Tiempo y Talentos.
   pagina: 92
   cita_verificada: true
@@ -437,7 +437,7 @@ propuestas:
           competencias municipales de participación ciudadana e inclusión social.
 - id: wilson-merino-05ecb53b
   tema: empleo
-  resumen: Creará una Escuela Metropolitana de Emprendedores y una Academia de Oficios del Futuro.
+  resumen: Crear una Escuela Metropolitana de Emprendedores y una Academia de Oficios del Futuro.
   cita: • Academia de Oficios del Futuro.
   pagina: 93
   cita_verificada: true
@@ -522,7 +522,7 @@ propuestas:
           en la competencia de desarrollo económico local.
 - id: wilson-merino-67b27ffe
   tema: empleo
-  resumen: Organizará Hackatones Metropolitanas y Laboratorios Ciudadanos de Innovación para resolver desafíos de la ciudad.
+  resumen: Organizar Hackatones Metropolitanas y Laboratorios Ciudadanos de Innovación para resolver desafíos de la ciudad.
   cita: Hackatones Metropolitanas.
   pagina: 93
   cita_verificada: true
@@ -607,7 +607,7 @@ propuestas:
           como las "Hackatones Metropolitanas".
 - id: wilson-merino-6988a3be
   tema: inclusion
-  resumen: Ejecutará programas para adultos mayores activos y personas con discapacidad.
+  resumen: Ejecutar programas para adultos mayores activos y personas con discapacidad.
   cita: • Personas con Discapacidad Primero.
   pagina: 94
   cita_verificada: true
@@ -691,8 +691,8 @@ propuestas:
           las funciones municipales de inclusión y protección de derechos.
 - id: wilson-merino-d7db84c4
   tema: inclusion
-  resumen: Implementará Clubes STEAM, programas de alfabetización digital, formación ciudadana en inteligencia artificial
-    y makerspaces comunitarios.
+  resumen: Implementar Clubes STEAM, programas de alfabetización digital, formación ciudadana en inteligencia artificial y
+    makerspaces comunitarios.
   cita: Makerspaces Comunitarios.
   pagina: 94
   cita_verificada: true
@@ -781,7 +781,7 @@ propuestas:
           de 'Ciencia y tecnología' a nivel local.
 - id: wilson-merino-f020f6ed
   tema: inclusion
-  resumen: Creará una Red Metropolitana de Cuidados y un programa de salud mental comunitaria.
+  resumen: Crear una Red Metropolitana de Cuidados y un programa de salud mental comunitaria.
   cita: • Red Metropolitana de Cuidados.
   pagina: 94
   cita_verificada: true
@@ -865,7 +865,7 @@ propuestas:
           municipales de inclusión, protección de derechos y servicios sociales.
 - id: wilson-merino-78dc26e3
   tema: inclusion
-  resumen: Conformará Redes de Apoyo Familiar y Círculos Comunitarios de Bienestar.
+  resumen: Conformar Redes de Apoyo Familiar y Círculos Comunitarios de Bienestar.
   cita: Redes de Apoyo Familiar.
   pagina: 95
   cita_verificada: true
@@ -948,7 +948,7 @@ propuestas:
           municipales de inclusión social, bienestar y protección de derechos.
 - id: wilson-merino-0af9eedd
   tema: vivienda
-  resumen: Simplificará y digitalizará los procedimientos urbanísticos municipales.
+  resumen: Simplificar y digitalizará los procedimientos urbanísticos municipales.
   cita: Simplificación y digitalización de procedimientos urbanísticos.
   pagina: 99
   cita_verificada: true
@@ -1029,7 +1029,7 @@ propuestas:
           del gobierno municipal.
 - id: wilson-merino-18d8e8a4
   tema: ambiente
-  resumen: Desarrollará bosques urbanos y arborización para sombra y biodiversidad urbana.
+  resumen: Desarrollar bosques urbanos y arborización para sombra y biodiversidad urbana.
   cita: • Arborización, sombra y biodiversidad urbana.
   pagina: 99
   cita_verificada: true
@@ -1112,7 +1112,7 @@ propuestas:
           al Municipio.
 - id: wilson-merino-19e41499
   tema: vivienda
-  resumen: Actualizará de forma participativa el Plan Metropolitano de Desarrollo y Ordenamiento Territorial (PMDOT).
+  resumen: Actualizar de forma participativa el Plan Metropolitano de Desarrollo y Ordenamiento Territorial (PMDOT).
   cita: • Actualización participativa del Plan Metropolitano de Desarrollo y Ordenamiento Territorial (PMDOT).
   pagina: 99
   cita_verificada: true
@@ -1194,7 +1194,7 @@ propuestas:
           es una competencia exclusiva del gobierno metropolitano.
 - id: wilson-merino-23dbf8a8
   tema: ambiente
-  resumen: Protegerá páramos, bosques protectores y ecosistemas estratégicos.
+  resumen: Proteger páramos, bosques protectores y ecosistemas estratégicos.
   cita: • Protección de páramos, bosques protectores y ecosistemas estratégicos.
   pagina: 99
   cita_verificada: true
@@ -1279,8 +1279,7 @@ propuestas:
           suelo y gestión ambiental corresponde a las funciones del Distrito Metropolitano.
 - id: wilson-merino-5aa48b65
   tema: vivienda
-  resumen: Creará el Observatorio Metropolitano del Territorio y del Suelo y un sistema público de seguimiento al PMDOT y
-    PUGS.
+  resumen: Crear el Observatorio Metropolitano del Territorio y del Suelo y un sistema público de seguimiento al PMDOT y PUGS.
   cita: Observatorio Metropolitano del Territorio y del Suelo.
   pagina: 99
   cita_verificada: true
@@ -1364,7 +1363,7 @@ propuestas:
           municipales de planificación territorial.
 - id: wilson-merino-7bf9f005
   tema: vivienda
-  resumen: Creará un Banco Metropolitano de Suelo y Activos Estratégicos y un catastro multipropósito actualizado.
+  resumen: Crear un Banco Metropolitano de Suelo y Activos Estratégicos y un catastro multipropósito actualizado.
   cita: • Banco Metropolitano de Suelo y Activos Estratégicos.
   pagina: 99
   cita_verificada: true
@@ -1449,7 +1448,7 @@ propuestas:
           metropolitanas sobre uso del suelo y gestión de activos municipales.
 - id: wilson-merino-8111372a
   tema: vivienda
-  resumen: Impulsará la regularización y el mejoramiento integral de barrios conforme al marco jurídico.
+  resumen: Impulsar la regularización y el mejoramiento integral de barrios conforme al marco jurídico.
   cita: • Regularización y mejoramiento integral de barrios conforme al marco jurídico aplicable.
   pagina: 99
   cita_verificada: true
@@ -1530,7 +1529,7 @@ propuestas:
           propias del Municipio.
 - id: wilson-merino-9a0b56f7
   tema: ambiente
-  resumen: Consolidará corredores ecológicos metropolitanos y recuperará ambientalmente laderas, bordes urbanos y áreas degradadas.
+  resumen: Consolidar corredores ecológicos metropolitanos y recuperará ambientalmente laderas, bordes urbanos y áreas degradadas.
   cita: Recuperación ambiental de laderas, bordes urbanos y áreas degradadas.
   pagina: 99
   cita_verificada: true
@@ -1617,7 +1616,7 @@ propuestas:
           municipales de gestión ambiental, control de uso del suelo y gestión de riesgos.
 - id: wilson-merino-a3a2aa25
   tema: vivienda
-  resumen: Actualizará planes urbanísticos complementarios, parciales y especiales, y elaborará planes territoriales zonales,
+  resumen: Actualizar planes urbanísticos complementarios, parciales y especiales, y elaborará planes territoriales zonales,
     parroquiales y barriales.
   cita: Actualización de planes urbanísticos complementarios, planes parciales y planes especiales.
   pagina: 99
@@ -1703,7 +1702,7 @@ propuestas:
           forma parte de la competencia municipal sobre el ordenamiento territorial.
 - id: wilson-merino-d36f8243
   tema: rural
-  resumen: Protegerá el suelo rural productivo y controlará la expansión urbana desordenada.
+  resumen: Proteger el suelo rural productivo y controlará la expansión urbana desordenada.
   cita: • Protección del suelo rural productivo y control de la expansión urbana desordenada.
   pagina: 99
   cita_verificada: true
@@ -1784,7 +1783,7 @@ propuestas:
           son competencias exclusivas del Municipio.
 - id: wilson-merino-e72dad56
   tema: vivienda
-  resumen: Actualizará y fortalecerá el Plan de Uso y Gestión del Suelo (PUGS).
+  resumen: Actualizar y fortalecerá el Plan de Uso y Gestión del Suelo (PUGS).
   cita: • Actualización y fortalecimiento del Plan de Uso y Gestión del Suelo (PUGS).
   pagina: 99
   cita_verificada: true
@@ -1866,7 +1865,7 @@ propuestas:
           del gobierno municipal.
 - id: wilson-merino-fc953f85
   tema: ambiente
-  resumen: Monitoreará la calidad del aire, el ruido y la contaminación ambiental.
+  resumen: Monitorear la calidad del aire, el ruido y la contaminación ambiental.
   cita: • Monitoreo de la calidad del aire, ruido y contaminación ambiental.
   pagina: 99
   cita_verificada: true
@@ -1949,7 +1948,7 @@ propuestas:
           del Distrito Metropolitano.
 - id: wilson-merino-090ffbe5
   tema: ambiente
-  resumen: Implementará centros de aprovechamiento de materiales, contenedores monitoreados y gestión diferenciada de residuos
+  resumen: Implementar centros de aprovechamiento de materiales, contenedores monitoreados y gestión diferenciada de residuos
     voluminosos y grandes generadores.
   cita: Gestión diferenciada de residuos voluminosos y de grandes generadores.
   pagina: 100
@@ -2036,7 +2035,7 @@ propuestas:
           generadores", es una competencia exclusiva municipal.
 - id: wilson-merino-30170e5d
   tema: ambiente
-  resumen: Instalará plantas de compostaje y aprovechamiento de residuos orgánicos.
+  resumen: Instalar plantas de compostaje y aprovechamiento de residuos orgánicos.
   cita: • Plantas de compostaje y aprovechamiento de residuos orgánicos.
   pagina: 100
   cita_verificada: true
@@ -2120,7 +2119,7 @@ propuestas:
           municipal exclusiva sobre manejo de desechos sólidos.
 - id: wilson-merino-308614d0
   tema: ambiente
-  resumen: Elaborará una Estrategia Metropolitana de Adaptación y Mitigación Climática y planes climáticos zonales.
+  resumen: Elaborar una Estrategia Metropolitana de Adaptación y Mitigación Climática y planes climáticos zonales.
   cita: • Estrategia Metropolitana de Adaptación y Mitigación Climática.
   pagina: 100
   cita_verificada: true
@@ -2206,7 +2205,7 @@ propuestas:
           y Mitigación Climática".
 - id: wilson-merino-3de7805d
   tema: agua-servicios
-  resumen: Protegerá fuentes hídricas y zonas de recarga.
+  resumen: Proteger fuentes hídricas y zonas de recarga.
   cita: • Protección de fuentes hídricas y zonas de recarga.
   pagina: 100
   cita_verificada: true
@@ -2289,7 +2288,7 @@ propuestas:
           en las competencias municipales de agua potable, gestión ambiental y uso del suelo.
 - id: wilson-merino-4c393747
   tema: riesgos
-  resumen: Implementará drenaje urbano sostenible con jardines de lluvia, pavimentos permeables y parques inundables.
+  resumen: Implementar drenaje urbano sostenible con jardines de lluvia, pavimentos permeables y parques inundables.
   cita: • Jardines de lluvia, pavimentos permeables y parques inundables.
   pagina: 100
   cita_verificada: true
@@ -2372,7 +2371,7 @@ propuestas:
           municipales de alcantarillado pluvial, espacio público y gestión de riesgos.
 - id: wilson-merino-7c6fe33d
   tema: ambiente
-  resumen: Controlará descargas, escombros y residuos en quebradas y cauces.
+  resumen: Controlar descargas, escombros y residuos en quebradas y cauces.
   cita: • Control de descargas, escombros y residuos en quebradas y cauces.
   pagina: 100
   cita_verificada: true
@@ -2454,7 +2453,7 @@ propuestas:
           de gestión ambiental, desechos y control territorial.
 - id: wilson-merino-96d44e50
   tema: ambiente
-  resumen: Incluirá productivamente a recicladores de base en el programa Recicladores Primero.
+  resumen: Incluir productivamente a recicladores de base en el programa Recicladores Primero.
   cita: • Inclusión productiva de recicladores de base.
   pagina: 100
   cita_verificada: true
@@ -2534,7 +2533,7 @@ propuestas:
           de base" son competencias municipales.
 - id: wilson-merino-9cd70336
   tema: ambiente
-  resumen: Implementará medidas de reducción de islas de calor y sistemas territoriales de información y alertas ambientales.
+  resumen: Implementar medidas de reducción de islas de calor y sistemas territoriales de información y alertas ambientales.
   cita: Sistemas territoriales de información y alertas ambientales.
   pagina: 100
   cita_verificada: true
@@ -2619,7 +2618,7 @@ propuestas:
           municipales de gestión ambiental y de riesgos.
 - id: wilson-merino-af0f9358
   tema: ambiente
-  resumen: Modernizará los servicios de barrido, limpieza, recolección y transporte de residuos.
+  resumen: Modernizar los servicios de barrido, limpieza, recolección y transporte de residuos.
   cita: • Modernización de los servicios de barrido, limpieza, recolección y transporte.
   pagina: 100
   cita_verificada: true
@@ -2702,7 +2701,7 @@ propuestas:
           es una competencia exclusiva municipal.
 - id: wilson-merino-b07bb317
   tema: ambiente
-  resumen: Implementará separación en la fuente y recolección diferenciada de residuos.
+  resumen: Implementar separación en la fuente y recolección diferenciada de residuos.
   cita: • Separación en la fuente y recolección diferenciada.
   pagina: 100
   cita_verificada: true
@@ -2785,7 +2784,7 @@ propuestas:
           municipal de recolección y manejo de residuos sólidos.
 - id: wilson-merino-b1aad833
   tema: ambiente
-  resumen: Controlará y recuperará puntos críticos y microbasurales.
+  resumen: Controlar y recuperará puntos críticos y microbasurales.
   cita: • Control y recuperación de puntos críticos y microbasurales.
   pagina: 100
   cita_verificada: true
@@ -2868,7 +2867,7 @@ propuestas:
           son competencias exclusivas del Municipio.
 - id: wilson-merino-e9d90d4d
   tema: ambiente
-  resumen: Ejecutará un programa especial de recuperación del río Machángara y sus afluentes.
+  resumen: Ejecutar un programa especial de recuperación del río Machángara y sus afluentes.
   cita: • Programa Especial de Recuperación del Río Machángara y sus afluentes.
   pagina: 100
   cita_verificada: true
@@ -2951,7 +2950,7 @@ propuestas:
           son competencias propias del Municipio.
 - id: wilson-merino-ee74fc9f
   tema: agua-servicios
-  resumen: Ejecutará la recuperación integral de quebradas y el saneamiento progresivo de ríos urbanos con participación de
+  resumen: Ejecutar la recuperación integral de quebradas y el saneamiento progresivo de ríos urbanos con participación de
     Guardianes Comunitarios.
   cita: Recuperación y saneamiento progresivo de ríos urbanos.
   pagina: 100
@@ -3039,7 +3038,7 @@ propuestas:
           municipales de alcantarillado, saneamiento y gestión ambiental.
 - id: wilson-merino-0e13b5e6
   tema: seguridad
-  resumen: Implementará un sistema integrado de videovigilancia con analítica de video y protección de datos.
+  resumen: Implementar un sistema integrado de videovigilancia con analítica de video y protección de datos.
   cita: • Analítica territorial y de video con controles institucionales y protección de datos.
   pagina: 101
   cita_verificada: true
@@ -3122,7 +3121,7 @@ propuestas:
           corresponde a las funciones municipales de prevención y seguridad ciudadana.
 - id: wilson-merino-131807d4
   tema: rural
-  resumen: Promoverá agricultura urbana, periurbana y huertos comunitarios.
+  resumen: Promover agricultura urbana, periurbana y huertos comunitarios.
   cita: • Agricultura urbana, periurbana y huertos comunitarios.
   pagina: 101
   cita_verificada: true
@@ -3205,7 +3204,7 @@ propuestas:
           y fauna urbana' es compatible con las funciones municipales de desarrollo económico local y ambiente.
 - id: wilson-merino-1a0ff9ef
   tema: seguridad
-  resumen: Aplicará seguridad preventiva en mercados, parques, estaciones, corredores comerciales y equipamientos.
+  resumen: Aplicar seguridad preventiva en mercados, parques, estaciones, corredores comerciales y equipamientos.
   cita: • Seguridad preventiva en mercados, parques, estaciones, corredores comerciales y equipamientos.
   pagina: 101
   cita_verificada: true
@@ -3286,7 +3285,7 @@ propuestas:
           municipales corresponde a las atribuciones de control y espacio público del Municipio.
 - id: wilson-merino-281693ea
   tema: seguridad
-  resumen: Creará un Centro Metropolitano Integrado de Seguridad Ciudadana, Riesgos y Emergencias y centros zonales.
+  resumen: Crear un Centro Metropolitano Integrado de Seguridad Ciudadana, Riesgos y Emergencias y centros zonales.
   cita: • Centro Metropolitano Integrado de Seguridad Ciudadana, Riesgos y Emergencias.
   pagina: 101
   cita_verificada: true
@@ -3373,7 +3372,7 @@ propuestas:
           corresponde a las funciones metropolitanas.
 - id: wilson-merino-5d4829cb
   tema: seguridad
-  resumen: Ejecutará el programa Quito Iluminado y Seguro.
+  resumen: Ejecutar el programa Quito Iluminado y Seguro.
   cita: • Quito Iluminado y Seguro.
   pagina: 101
   cita_verificada: true
@@ -3454,7 +3453,7 @@ propuestas:
           las funciones municipales sobre espacio público y seguridad ciudadana.
 - id: wilson-merino-6579c899
   tema: seguridad
-  resumen: Creará rutas seguras para mujeres, niños, jóvenes, personas mayores y personas con discapacidad.
+  resumen: Crear rutas seguras para mujeres, niños, jóvenes, personas mayores y personas con discapacidad.
   cita: • Rutas seguras para niños, jóvenes, personas mayores y personas con discapacidad.
   pagina: 101
   cita_verificada: true
@@ -3537,7 +3536,7 @@ propuestas:
           gestión del espacio público, movilidad e inclusión compete al Municipio.
 - id: wilson-merino-ad28c2e8
   tema: seguridad
-  resumen: Recuperará integralmente espacios públicos de alta conflictividad.
+  resumen: Recuperar integralmente espacios públicos de alta conflictividad.
   cita: • Recuperación integral de espacios públicos de alta conflictividad.
   pagina: 101
   cita_verificada: true
@@ -3621,7 +3620,7 @@ propuestas:
           descentralizado municipal.
 - id: wilson-merino-c80f8b10
   tema: seguridad
-  resumen: Implementará los proyectos Entornos Educativos Seguros y Corredores Seguros de Transporte Público, así como vigilancia
+  resumen: Implementar los proyectos Entornos Educativos Seguros y Corredores Seguros de Transporte Público, así como vigilancia
     en entornos turísticos.
   cita: Corredores Seguros de Transporte Público.
   pagina: 101
@@ -3708,7 +3707,7 @@ propuestas:
           seguros en "Corredores Seguros de Transporte Público".
 - id: wilson-merino-e255fa2f
   tema: seguridad
-  resumen: Creará un Observatorio Metropolitano de Seguridad, Violencias y Convivencia.
+  resumen: Crear un Observatorio Metropolitano de Seguridad, Violencias y Convivencia.
   cita: • Observatorio Metropolitano de Seguridad, Violencias y Convivencia.
   pagina: 101
   cita_verificada: true
@@ -3793,7 +3792,7 @@ propuestas:
           municipales de coordinación y consejos de seguridad ciudadana.
 - id: wilson-merino-e58027a9
   tema: ambiente
-  resumen: Creará un Sistema Metropolitano de Bienestar Animal con esterilización, vacunación y adopción responsable.
+  resumen: Crear un Sistema Metropolitano de Bienestar Animal con esterilización, vacunación y adopción responsable.
   cita: • Esterilización, vacunación, atención preventiva y adopción responsable.
   pagina: 101
   cita_verificada: true
@@ -3874,7 +3873,7 @@ propuestas:
           «Esterilización, vacunación» es competencia municipal.
 - id: wilson-merino-f6550da6
   tema: seguridad
-  resumen: Creará el Centro Metropolitano de Inteligencia Territorial para la Prevención con mapas dinámicos de riesgos, violencias
+  resumen: Crear el Centro Metropolitano de Inteligencia Territorial para la Prevención con mapas dinámicos de riesgos, violencias
     y conflictividad.
   cita: Centro Metropolitano de Inteligencia Territorial para la Prevención.
   pagina: 101
@@ -3963,7 +3962,7 @@ propuestas:
           de las funciones municipales de seguridad ciudadana y gestión de riesgos.
 - id: wilson-merino-fbd961a5
   tema: seguridad
-  resumen: Instalará botones, puntos y canales comunitarios de alerta.
+  resumen: Instalar botones, puntos y canales comunitarios de alerta.
   cita: • Botones, puntos y canales comunitarios de alerta.
   pagina: 101
   cita_verificada: true
@@ -4047,7 +4046,7 @@ propuestas:
           parte de las funciones municipales en seguridad ciudadana.
 - id: wilson-merino-ff22a53e
   tema: seguridad
-  resumen: Establecerá protocolos de actuación con Policía Nacional, ECU 911, Bomberos, salud y justicia.
+  resumen: Establecer protocolos de actuación con Policía Nacional, ECU 911, Bomberos, salud y justicia.
   cita: • Protocolos de actuación con Policía Nacional, ECU 911, Bomberos, salud y justicia.
   pagina: 101
   cita_verificada: true
@@ -4130,7 +4129,7 @@ propuestas:
           en las facultades municipales de coordinación de seguridad ciudadana y gestión de Bomberos.
 - id: wilson-merino-07ff4023
   tema: movilidad
-  resumen: Implementará servicios nocturnos de transporte y soluciones adaptadas a demandas territoriales.
+  resumen: Implementar servicios nocturnos de transporte y soluciones adaptadas a demandas territoriales.
   cita: • Servicios nocturnos y soluciones adaptadas a las demandas territoriales.
   pagina: 102
   cita_verificada: true
@@ -4211,7 +4210,7 @@ propuestas:
           exclusiva municipal.
 - id: wilson-merino-279a64f8
   tema: riesgos
-  resumen: Implementará un Sistema Metropolitano de Alertas Tempranas y planes zonales de reducción de riesgos.
+  resumen: Implementar un Sistema Metropolitano de Alertas Tempranas y planes zonales de reducción de riesgos.
   cita: • Planes zonales, parroquiales y barriales de reducción de riesgos.
   pagina: 102
   cita_verificada: true
@@ -4295,7 +4294,7 @@ propuestas:
           del Municipio en gestión de riesgos y planificación.
 - id: wilson-merino-496fd272
   tema: riesgos
-  resumen: Habilitará centros temporales de alojamiento y asistencia humanitaria.
+  resumen: Habilitar centros temporales de alojamiento y asistencia humanitaria.
   cita: • Centros temporales de alojamiento y asistencia humanitaria.
   pagina: 102
   cita_verificada: true
@@ -4375,7 +4374,7 @@ propuestas:
           propia del Municipio.
 - id: wilson-merino-4eb5c8b1
   tema: riesgos
-  resumen: Creará Escuelas de Seguridad y Primer Respondiente e impulsará planes familiares y comunitarios de emergencia.
+  resumen: Crear Escuelas de Seguridad y Primer Respondiente e impulsará planes familiares y comunitarios de emergencia.
   cita: Escuelas de Seguridad y Primer Respondiente.
   pagina: 102
   cita_verificada: true
@@ -4459,7 +4458,7 @@ propuestas:
           corresponde a las funciones municipales de gestión de riesgos y prevención comunitaria.
 - id: wilson-merino-793d2c91
   tema: movilidad
-  resumen: Integrará física, operativa, tecnológica y tarifariamente Metro, Trolebús, Ecovía y buses.
+  resumen: Integrar física, operativa, tecnológica y tarifariamente Metro, Trolebús, Ecovía y buses.
   cita: • Integración física, operativa, tecnológica y tarifaria Metro–Trolebús–Ecovía–buses.
   pagina: 102
   cita_verificada: true
@@ -4542,7 +4541,7 @@ propuestas:
           es competencia exclusiva del Distrito Metropolitano.
 - id: wilson-merino-7b81c924
   tema: seguridad
-  resumen: Desarrollará programas de prevención territorial de violencias de género, intrafamiliar y comunitaria.
+  resumen: Desarrollar programas de prevención territorial de violencias de género, intrafamiliar y comunitaria.
   cita: Prevención territorial de violencias de género, intrafamiliar y comunitaria.
   pagina: 102
   cita_verificada: true
@@ -4624,7 +4623,7 @@ propuestas:
           «Prevención territorial de violencias» corresponden a las funciones municipales.
 - id: wilson-merino-7c0f715a
   tema: movilidad
-  resumen: Reorganizará progresivamente las rutas troncales, alimentadoras y transversales.
+  resumen: Reorganizar progresivamente las rutas troncales, alimentadoras y transversales.
   cita: • Reorganización progresiva de rutas troncales, alimentadoras y transversales.
   pagina: 102
   cita_verificada: true
@@ -4706,7 +4705,7 @@ propuestas:
           exclusiva del gobierno municipal.
 - id: wilson-merino-8ccbb83d
   tema: movilidad
-  resumen: Modernizará y hará la transición tecnológica de la flota de transporte público.
+  resumen: Modernizar y hará la transición tecnológica de la flota de transporte público.
   cita: • Modernización y transición tecnológica de la flota.
   pagina: 102
   cita_verificada: true
@@ -4789,7 +4788,7 @@ propuestas:
           se enmarcan en la competencia municipal exclusiva sobre transporte terrestre.
 - id: wilson-merino-9b98a548
   tema: riesgos
-  resumen: Fortalecerá la prevención y respuesta frente a incendios forestales y estructurales.
+  resumen: Fortalecer la prevención y respuesta frente a incendios forestales y estructurales.
   cita: • Prevención y respuesta frente a incendios forestales y estructurales.
   pagina: 102
   cita_verificada: true
@@ -4871,7 +4870,7 @@ propuestas:
           el cuerpo de bomberos son competencias municipales directas.
 - id: wilson-merino-ac673b25
   tema: riesgos
-  resumen: Fortalecerá el Cuerpo de Bomberos y la logística municipal de emergencias.
+  resumen: Fortalecer el Cuerpo de Bomberos y la logística municipal de emergencias.
   cita: • Fortalecimiento del Cuerpo de Bomberos y de la logística municipal de emergencias.
   pagina: 102
   cita_verificada: true
@@ -4954,7 +4953,7 @@ propuestas:
           competencias exclusivas del Municipio.
 - id: wilson-merino-b99c3604
   tema: movilidad
-  resumen: Impulsará la municipalización del transporte público, la integración de medios de pago y la adecuación de estaciones,
+  resumen: Impulsar la municipalización del transporte público, la integración de medios de pago y la adecuación de estaciones,
     terminales y paradas.
   cita: 'Municipalización del Transporte público:'
   pagina: 102
@@ -5042,7 +5041,7 @@ propuestas:
           directamente al Municipio como autoridad de transporte terrestre urbano.
 - id: wilson-merino-bdfb8025
   tema: riesgos
-  resumen: Dispondrá equipamiento y reservas estratégicas para emergencias, simulacros territoriales y planes de continuidad
+  resumen: Disponer equipamiento y reservas estratégicas para emergencias, simulacros territoriales y planes de continuidad
     de servicios municipales.
   cita: Equipamiento y reservas estratégicas para emergencias.
   pagina: 102
@@ -5129,7 +5128,7 @@ propuestas:
           funciones propias del Municipio.
 - id: wilson-merino-dcbff859
   tema: seguridad
-  resumen: Conformará Comités Barriales de Seguridad y Gestión de Riesgos.
+  resumen: Conformar Comités Barriales de Seguridad y Gestión de Riesgos.
   cita: • Comités Barriales de Seguridad y Gestión de Riesgos.
   pagina: 102
   cita_verificada: true
@@ -5211,7 +5210,7 @@ propuestas:
           corresponde a las funciones municipales de participación, seguridad y riesgos.
 - id: wilson-merino-0528aa59
   tema: movilidad
-  resumen: Recuperará escalinatas, senderos y conexiones barriales.
+  resumen: Recuperar escalinatas, senderos y conexiones barriales.
   cita: • Recuperación de escalinatas, senderos y conexiones barriales.
   pagina: 103
   cita_verificada: true
@@ -5295,7 +5294,7 @@ propuestas:
           barriales» es una competencia exclusiva del Municipio.
 - id: wilson-merino-207e6b35
   tema: movilidad
-  resumen: Ejecutará un Plan Metropolitano de Rehabilitación y Mantenimiento Vial, incluida atención de baches y puentes.
+  resumen: Ejecutar un Plan Metropolitano de Rehabilitación y Mantenimiento Vial, incluida atención de baches y puentes.
   cita: • Atención de baches, pavimentos, puentes, túneles y drenajes.
   pagina: 103
   cita_verificada: true
@@ -5381,7 +5380,7 @@ propuestas:
           la competencia exclusiva municipal sobre vialidad urbana.
 - id: wilson-merino-6459444f
   tema: movilidad
-  resumen: Desarrollará una red conectada de ciclovías urbanas y rurales.
+  resumen: Desarrollar una red conectada de ciclovías urbanas y rurales.
   cita: • Red conectada de ciclovías urbanas y rurales.
   pagina: 103
   cita_verificada: true
@@ -5464,7 +5463,7 @@ propuestas:
           competencias exclusivas del Municipio.
 - id: wilson-merino-6c1ddead
   tema: inclusion
-  resumen: Ejecutará la eliminación progresiva de barreras arquitectónicas mediante el proyecto Ciudad sin Barreras.
+  resumen: Ejecutar la eliminación progresiva de barreras arquitectónicas mediante el proyecto Ciudad sin Barreras.
   cita: Eliminación progresiva de barreras arquitectónicas.
   pagina: 103
   cita_verificada: true
@@ -5547,7 +5546,7 @@ propuestas:
           arquitectónicas" es competencia municipal.
 - id: wilson-merino-86af4fc0
   tema: movilidad
-  resumen: Implementará bicicleta pública con intermodalidad y estacionamientos seguros para bicicletas.
+  resumen: Implementar bicicleta pública con intermodalidad y estacionamientos seguros para bicicletas.
   cita: • Bicicleta pública e intermodalidad.
   pagina: 103
   cita_verificada: true
@@ -5629,7 +5628,7 @@ propuestas:
           a la competencia municipal exclusiva sobre tránsito, transporte y espacio público.
 - id: wilson-merino-91f7bdf7
   tema: movilidad
-  resumen: Construirá y rehabilitará vías, aceras y bordillos con una red de aceras continuas y accesibles.
+  resumen: Construir y rehabilitará vías, aceras y bordillos con una red de aceras continuas y accesibles.
   cita: • Construcción y rehabilitación de vías, aceras y bordillos.
   pagina: 103
   cita_verificada: true
@@ -5714,7 +5713,7 @@ propuestas:
           municipales sobre vialidad y espacio público.
 - id: wilson-merino-c40c525a
   tema: movilidad
-  resumen: Establecerá normativa de regulación para la micromovilidad en el Distrito Metropolitano.
+  resumen: Establecer normativa de regulación para la micromovilidad en el Distrito Metropolitano.
   cita: Regulación responsable de micromovilidad.
   pagina: 103
   cita_verificada: true
@@ -5794,7 +5793,7 @@ propuestas:
           sobre tránsito y transporte terrestre.
 - id: wilson-merino-ccb11984
   tema: movilidad
-  resumen: Realizará auditorías de seguridad vial e implementará Cruces Seguros, Rutas Escolares Seguras, atención post-siniestro
+  resumen: Realizar auditorías de seguridad vial e implementará Cruces Seguros, Rutas Escolares Seguras, atención post-siniestro
     y un Observatorio Vial.
   cita: Observatorio Metropolitano de Seguridad Vial.
   pagina: 103
@@ -5885,7 +5884,7 @@ propuestas:
           exclusivas municipales.
 - id: wilson-merino-e1069d87
   tema: movilidad
-  resumen: Aplicará la Estrategia Visión Cero Quito y gestión de velocidad con zonas calmadas.
+  resumen: Aplicar la Estrategia Visión Cero Quito y gestión de velocidad con zonas calmadas.
   cita: • Gestión de velocidad y zonas calmadas.
   pagina: 103
   cita_verificada: true
@@ -5969,7 +5968,7 @@ propuestas:
           exclusivas del Municipio.
 - id: wilson-merino-f1960c79
   tema: rural
-  resumen: Mejorará vías rurales y conexiones interparroquiales.
+  resumen: Mejorar vías rurales y conexiones interparroquiales.
   cita: • Mejoramiento de vías rurales y conexiones interparroquiales.
   pagina: 103
   cita_verificada: true
@@ -6052,7 +6051,7 @@ propuestas:
           que ejerce el Distrito Metropolitano.
 - id: wilson-merino-05477963
   tema: espacio-publico
-  resumen: Creará un Sistema Participativo de Mantenimiento Barrial con mingas y acuerdos de corresponsabilidad.
+  resumen: Crear un Sistema Participativo de Mantenimiento Barrial con mingas y acuerdos de corresponsabilidad.
   cita: • Sistema Participativo de Mantenimiento Barrial.
   pagina: 104
   cita_verificada: true
@@ -6135,7 +6134,7 @@ propuestas:
           dentro de las competencias municipales.
 - id: wilson-merino-0deb322c
   tema: rural
-  resumen: Mejorará el transporte rural y las rutas alimentadoras.
+  resumen: Mejorar el transporte rural y las rutas alimentadoras.
   cita: • Mejoramiento de transporte rural y rutas alimentadoras.
   pagina: 104
   cita_verificada: true
@@ -6220,7 +6219,7 @@ propuestas:
           cantonal o metropolitana es competencia municipal.
 - id: wilson-merino-34c376ea
   tema: espacio-publico
-  resumen: Desarrollará una red de pequeñas plazas y parques de bolsillo, y canchas inclusivas.
+  resumen: Desarrollar una red de pequeñas plazas y parques de bolsillo, y canchas inclusivas.
   cita: • Red de Pequeñas Plazas y Parques de Bolsillo.
   pagina: 104
   cita_verificada: true
@@ -6304,7 +6303,7 @@ propuestas:
           es competencia exclusiva municipal.
 - id: wilson-merino-4345f49f
   tema: espacio-publico
-  resumen: Realizará intervenciones integrales de mejoramiento barrial en polígonos prioritarios.
+  resumen: Realizar intervenciones integrales de mejoramiento barrial en polígonos prioritarios.
   cita: • Intervenciones integrales en polígonos prioritarios.
   pagina: 104
   cita_verificada: true
@@ -6388,7 +6387,7 @@ propuestas:
           en materia de hábitat, uso del suelo y espacio público.
 - id: wilson-merino-6483a8b4
   tema: movilidad
-  resumen: Proveerá información en tiempo real sobre tránsito y transporte e implementará zonas reguladas de estacionamiento.
+  resumen: Proveer información en tiempo real sobre tránsito y transporte e implementará zonas reguladas de estacionamiento.
   cita: Información en tiempo real sobre tránsito y transporte.
   pagina: 104
   cita_verificada: true
@@ -6475,7 +6474,7 @@ propuestas:
           de la competencia exclusiva municipal en tránsito y transporte terrestre.
 - id: wilson-merino-76481929
   tema: movilidad
-  resumen: Creará un Centro Metropolitano de Gestión de la Movilidad con semaforización inteligente y adaptativa.
+  resumen: Crear un Centro Metropolitano de Gestión de la Movilidad con semaforización inteligente y adaptativa.
   cita: • Semaforización inteligente y adaptativa.
   pagina: 104
   cita_verificada: true
@@ -6558,7 +6557,7 @@ propuestas:
           sobre tránsito y transporte terrestre.
 - id: wilson-merino-b9ca5409
   tema: espacio-publico
-  resumen: Recuperará calles, plazas, escalinatas, fachadas y entornos comunitarios.
+  resumen: Recuperar calles, plazas, escalinatas, fachadas y entornos comunitarios.
   cita: • Recuperación de calles, plazas, escalinatas, fachadas y entornos comunitarios.
   pagina: 104
   cita_verificada: true
@@ -6639,7 +6638,7 @@ propuestas:
           municipales directas sobre vialidad urbana y espacio público.
 - id: wilson-merino-da95b246
   tema: movilidad
-  resumen: Ordenará la carga y descarga mediante un Sistema Metropolitano de Logística Urbana.
+  resumen: Ordenar la carga y descarga mediante un Sistema Metropolitano de Logística Urbana.
   cita: • Ordenamiento de carga y descarga.
   pagina: 104
   cita_verificada: true
@@ -6720,7 +6719,7 @@ propuestas:
           de movilidad y transporte terrestre.
 - id: wilson-merino-13814406
   tema: cultura
-  resumen: Organizará ciclopaseos, caminatas, rutas recreativas zonales, deporte adaptado y formación de monitores deportivos
+  resumen: Organizar ciclopaseos, caminatas, rutas recreativas zonales, deporte adaptado y formación de monitores deportivos
     comunitarios.
   cita: Ciclopaseos, caminatas y rutas recreativas zonales.
   pagina: 105
@@ -6807,7 +6806,7 @@ propuestas:
           a las funciones municipales de deporte, recreación y espacio público.
 - id: wilson-merino-494953c4
   tema: cultura
-  resumen: Creará escuelas barriales de arte, música, danza y teatro.
+  resumen: Crear escuelas barriales de arte, música, danza y teatro.
   cita: • Escuelas barriales de arte, música, danza y teatro.
   pagina: 105
   cita_verificada: true
@@ -6889,7 +6888,7 @@ propuestas:
           una función propia del Municipio.
 - id: wilson-merino-51c12e63
   tema: cultura
-  resumen: Brindará apoyo a artistas, gestores y colectivos culturales y ejecutará proyectos de recuperación de la memoria
+  resumen: Brindar apoyo a artistas, gestores y colectivos culturales y ejecutará proyectos de recuperación de la memoria
     barrial y patrimonio inmaterial.
   cita: Apoyo a artistas, gestores y colectivos culturales.
   pagina: 105
@@ -6974,7 +6973,7 @@ propuestas:
           a las competencias municipales de cultura y patrimonio.
 - id: wilson-merino-6e3ed063
   tema: cultura
-  resumen: Implementará una Agenda Cultural Permanente y Descentralizada.
+  resumen: Implementar una Agenda Cultural Permanente y Descentralizada.
   cita: • Agenda Cultural Permanente y Descentralizada.
   pagina: 105
   cita_verificada: true
@@ -7055,7 +7054,7 @@ propuestas:
           en materia de cultura.
 - id: wilson-merino-a20143b0
   tema: cultura
-  resumen: Creará escuelas deportivas barriales y parroquiales y organizará Juegos Barriales y Parroquiales.
+  resumen: Crear escuelas deportivas barriales y parroquiales y organizará Juegos Barriales y Parroquiales.
   cita: • Escuelas deportivas barriales y parroquiales.
   pagina: 105
   cita_verificada: true
@@ -7138,7 +7137,7 @@ propuestas:
           municipales.
 - id: wilson-merino-abc6ae34
   tema: cultura
-  resumen: Impulsará bibliotecas y centros culturales comunitarios.
+  resumen: Impulsar bibliotecas y centros culturales comunitarios.
   cita: • Bibliotecas y centros culturales comunitarios.
   pagina: 105
   cita_verificada: true
@@ -7220,7 +7219,7 @@ propuestas:
           municipales en materia de cultura.
 - id: wilson-merino-e8321841
   tema: inclusion
-  resumen: Conformará brigadas barriales de salud y puntos comunitarios de salud preventiva.
+  resumen: Conformar brigadas barriales de salud y puntos comunitarios de salud preventiva.
   cita: • Brigadas Barriales de Salud y Bienestar.
   pagina: 105
   cita_verificada: true
@@ -7304,7 +7303,7 @@ propuestas:
           mediante brigadas comunitarias.
 - id: wilson-merino-12688ef9
   tema: vivienda
-  resumen: Promoverá vivienda social y prioritaria en áreas servidas y la reutilización de edificios vacíos.
+  resumen: Promover vivienda social y prioritaria en áreas servidas y la reutilización de edificios vacíos.
   cita: • Vivienda social y prioritaria en áreas servidas.
   pagina: 106
   cita_verificada: true
@@ -7387,7 +7386,7 @@ propuestas:
           municipales de hábitat y uso del suelo.
 - id: wilson-merino-14baa99d
   tema: inclusion
-  resumen: Implementará acciones de salud escolar, prevención de enfermedades crónicas y redes comunitarias de autocuidado
+  resumen: Implementar acciones de salud escolar, prevención de enfermedades crónicas y redes comunitarias de autocuidado
     y primeros auxilios.
   cita: Redes comunitarias de autocuidado y primeros auxilios.
   pagina: 106
@@ -7473,7 +7472,7 @@ propuestas:
           crónicas" es realizable mediante las funciones municipales de salud preventiva y participación comunitaria.
 - id: wilson-merino-2eefb184
   tema: cultura
-  resumen: Rehabilitará patrimonio ferroviario, industrial, rural y comunitario.
+  resumen: Rehabilitar patrimonio ferroviario, industrial, rural y comunitario.
   cita: • Rehabilitación de patrimonio ferroviario, industrial, rural y comunitario.
   pagina: 106
   cita_verificada: true
@@ -7556,7 +7555,7 @@ propuestas:
           dentro de la competencia exclusiva municipal sobre el patrimonio arquitectónico y cultural.
 - id: wilson-merino-32b1fb3b
   tema: inclusion
-  resumen: Desarrollará acciones de prevención del consumo problemático de alcohol y otras sustancias.
+  resumen: Desarrollar acciones de prevención del consumo problemático de alcohol y otras sustancias.
   cita: • Prevención del consumo problemático de alcohol y otras sustancias.
   pagina: 106
   cita_verificada: true
@@ -7636,7 +7635,7 @@ propuestas:
           programas de "Prevención del consumo problemático de alcohol y otras sustancias".
 - id: wilson-merino-40a7f495
   tema: espacio-publico
-  resumen: Rehabilitará los entornos urbanos de mercados, estaciones, escuelas y servicios de salud y revitalizará corredores
+  resumen: Rehabilitar los entornos urbanos de mercados, estaciones, escuelas y servicios de salud y revitalizará corredores
     comerciales.
   cita: Rehabilitación de entornos de mercados, estaciones, escuelas y servicios de salud.
   pagina: 106
@@ -7723,7 +7722,7 @@ propuestas:
           escuelas y servicios de salud» es competencia directa del Municipio.
 - id: wilson-merino-514d6afd
   tema: cultura
-  resumen: Ejecutará la recuperación integral del Centro Histórico y la revitalización de La Mariscal.
+  resumen: Ejecutar la recuperación integral del Centro Histórico y la revitalización de La Mariscal.
   cita: • Revitalización de La Mariscal y otras áreas tradicionales.
   pagina: 106
   cita_verificada: true
@@ -7805,7 +7804,7 @@ propuestas:
           otras áreas tradicionales" corresponde a las funciones municipales.
 - id: wilson-merino-7778befe
   tema: cultura
-  resumen: Implementará proyectos de iluminación patrimonial y rutas interpretativas en áreas históricas.
+  resumen: Implementar proyectos de iluminación patrimonial y rutas interpretativas en áreas históricas.
   cita: Iluminación patrimonial y rutas interpretativas.
   pagina: 106
   cita_verificada: true
@@ -7889,7 +7888,7 @@ propuestas:
           turísticas son competencias del Municipio.
 - id: wilson-merino-9d88dfe1
   tema: vivienda
-  resumen: Aplicará mecanismos de regeneración urbana sin desplazamiento y de protección para residentes tradicionales.
+  resumen: Aplicar mecanismos de regeneración urbana sin desplazamiento y de protección para residentes tradicionales.
   cita: Regeneración sin desplazamiento y protección de residentes.
   pagina: 106
   cita_verificada: true
@@ -7974,7 +7973,7 @@ propuestas:
           dentro de las funciones del Municipio.
 - id: wilson-merino-d37ad595
   tema: vivienda
-  resumen: Impulsará el mejoramiento de vivienda y habitabilidad con incentivos para rehabilitación urbana.
+  resumen: Impulsar el mejoramiento de vivienda y habitabilidad con incentivos para rehabilitación urbana.
   cita: • Mejoramiento de vivienda y habitabilidad.
   pagina: 106
   cita_verificada: true
@@ -8057,7 +8056,7 @@ propuestas:
           corresponden a las competencias municipales de hábitat y suelo.
 - id: wilson-merino-0dc830cf
   tema: empleo
-  resumen: Creará el Distrito Metropolitano de Innovación y Emprendimiento, distritos territoriales y laboratorios de prototipado
+  resumen: Crear el Distrito Metropolitano de Innovación y Emprendimiento, distritos territoriales y laboratorios de prototipado
     y fabricación.
   cita: Laboratorios de prototipado y fabricación.
   pagina: 107
@@ -8145,7 +8144,7 @@ propuestas:
           y Emprendimiento" se enmarca en la competencia municipal de desarrollo económico local.
 - id: wilson-merino-0fc17808
   tema: empleo
-  resumen: Ofrecerá capital semilla, fondos concursables y conexión con financiamiento para emprendimientos.
+  resumen: Ofrecer capital semilla, fondos concursables y conexión con financiamiento para emprendimientos.
   cita: • Capital semilla, fondos concursables y conexión con financiamiento.
   pagina: 107
   cita_verificada: true
@@ -8229,7 +8228,7 @@ propuestas:
           parte de la función municipal de fomento al desarrollo económico local.
 - id: wilson-merino-151df127
   tema: empleo
-  resumen: Desarrollará programas de formación y certificación de competencias laborales y reconversión de habilidades para
+  resumen: Desarrollar programas de formación y certificación de competencias laborales y reconversión de habilidades para
     sectores emergentes.
   cita: Formación y certificación de competencias laborales.
   pagina: 107
@@ -8312,7 +8311,7 @@ propuestas:
           municipal de fomento al desarrollo económico local.
 - id: wilson-merino-214896d4
   tema: empleo
-  resumen: Creará una Bolsa Metropolitana de Empleo y centros territoriales de formación y emprendimiento.
+  resumen: Crear una Bolsa Metropolitana de Empleo y centros territoriales de formación y emprendimiento.
   cita: • Centros Territoriales de Formación, Empleo y Emprendimiento.
   pagina: 107
   cita_verificada: true
@@ -8397,7 +8396,7 @@ propuestas:
           de Empleo" forma parte de la competencia municipal de fomento al desarrollo económico local.
 - id: wilson-merino-8f039389
   tema: empleo
-  resumen: Impulsará primer empleo, prácticas, pasantías y formación dual.
+  resumen: Impulsar primer empleo, prácticas, pasantías y formación dual.
   cita: • Primer empleo, prácticas, pasantías y formación dual.
   pagina: 107
   cita_verificada: true
@@ -8480,7 +8479,7 @@ propuestas:
           de fomento al desarrollo económico local e inclusión juvenil.
 - id: wilson-merino-96c97168
   tema: empleo
-  resumen: Brindará incubación, aceleración y transformación digital para micro y pequeñas empresas.
+  resumen: Brindar incubación, aceleración y transformación digital para micro y pequeñas empresas.
   cita: • Transformación digital para micro y pequeñas empresas.
   pagina: 107
   cita_verificada: true
@@ -8564,7 +8563,7 @@ propuestas:
           funciones municipales de fomento al desarrollo económico local.
 - id: wilson-merino-9f114392
   tema: espacio-publico
-  resumen: Impulsará la formalización progresiva y el acompañamiento a comerciantes autónomos.
+  resumen: Impulsar la formalización progresiva y el acompañamiento a comerciantes autónomos.
   cita: • Formalización progresiva y acompañamiento a comerciantes autónomos.
   pagina: 107
   cita_verificada: true
@@ -8646,7 +8645,7 @@ propuestas:
           exclusivas municipales.
 - id: wilson-merino-ab53ccf6
   tema: empleo
-  resumen: Implementará un Sistema de Abastecimiento y Seguridad Alimentaria con circuitos cortos de comercialización y digitalización
+  resumen: Implementar un Sistema de Abastecimiento y Seguridad Alimentaria con circuitos cortos de comercialización y digitalización
     de mercados.
   cita: Sistema Metropolitano de Abastecimiento y Seguridad Alimentaria.
   pagina: 107
@@ -8737,7 +8736,7 @@ propuestas:
           competencias exclusivas municipales.
 - id: wilson-merino-c18b24c8
   tema: inclusion
-  resumen: Promoverá la inclusión laboral de personas con discapacidad y grupos prioritarios.
+  resumen: Promover la inclusión laboral de personas con discapacidad y grupos prioritarios.
   cita: • Inclusión laboral de personas con discapacidad y grupos prioritarios.
   pagina: 107
   cita_verificada: true
@@ -8818,7 +8817,7 @@ propuestas:
           para ejecutar acciones de «Inclusión laboral de personas con discapacidad y grupos prioritarios».
 - id: wilson-merino-e0a1c831
   tema: espacio-publico
-  resumen: Modernizará mercados municipales, ferias y plataformas de comercialización.
+  resumen: Modernizar mercados municipales, ferias y plataformas de comercialización.
   cita: • Modernización de mercados municipales, ferias y plataformas de comercialización.
   pagina: 107
   cita_verificada: true
@@ -8900,7 +8899,7 @@ propuestas:
           es una competencia exclusiva del Municipio.
 - id: wilson-merino-0333f42e
   tema: empleo
-  resumen: Creará una Ventanilla Única Productiva y simplificará permisos para negocios.
+  resumen: Crear una Ventanilla Única Productiva y simplificará permisos para negocios.
   cita: • Simplificación de permisos y acompañamiento empresarial.
   pagina: 108
   cita_verificada: true
@@ -8982,7 +8981,7 @@ propuestas:
           al Municipio.
 - id: wilson-merino-0e8bfb65
   tema: empleo
-  resumen: Impulsará la iniciativa Hecho en Quito, compras locales, comercio electrónico para negocios barriales y apoyo a
+  resumen: Impulsar la iniciativa Hecho en Quito, compras locales, comercio electrónico para negocios barriales y apoyo a
     talleres y artesanías.
   cita: Digitalización y comercio electrónico para negocios barriales.
   pagina: 108
@@ -9071,7 +9070,7 @@ propuestas:
           de desarrollo económico local.
 - id: wilson-merino-17d45f0d
   tema: cultura
-  resumen: Elaborará una Estrategia Metropolitana de Grandes Eventos.
+  resumen: Elaborar una Estrategia Metropolitana de Grandes Eventos.
   cita: • Estrategia Metropolitana de Grandes Eventos.
   pagina: 108
   cita_verificada: true
@@ -9154,7 +9153,7 @@ propuestas:
           las funciones de promoción turística y cultural del Municipio.
 - id: wilson-merino-1a977307
   tema: empleo
-  resumen: Creará un portafolio de proyectos de inversión y una plataforma de promoción de inversiones.
+  resumen: Crear un portafolio de proyectos de inversión y una plataforma de promoción de inversiones.
   cita: • Plataforma especializada de promoción de inversiones.
   pagina: 108
   cita_verificada: true
@@ -9237,7 +9236,7 @@ propuestas:
           municipal de desarrollo económico local.
 - id: wilson-merino-43cd062d
   tema: cultura
-  resumen: Posicionará a Quito como Capital Gastronómica de los Andes y desarrollará turismo de naturaleza en el Chocó Andino.
+  resumen: Posicionar a Quito como Capital Gastronómica de los Andes y desarrollará turismo de naturaleza en el Chocó Andino.
   cita: • Quito Capital Gastronómica de los Andes.
   pagina: 108
   cita_verificada: true
@@ -9318,7 +9317,7 @@ propuestas:
           Andes» forma parte de las competencias municipales.
 - id: wilson-merino-551b927d
   tema: empleo
-  resumen: Promoverá la internacionalización de MIPYMES, las exportaciones de bienes y servicios y las asociaciones público-privadas.
+  resumen: Promover la internacionalización de MIPYMES, las exportaciones de bienes y servicios y las asociaciones público-privadas.
   cita: Internacionalización de MIPYMES y emprendimientos.
   pagina: 108
   cita_verificada: true
@@ -9405,7 +9404,7 @@ propuestas:
           de fomento al desarrollo económico local.
 - id: wilson-merino-c7479a8a
   tema: cultura
-  resumen: Desarrollará el turismo de reuniones y congresos, programas para la economía nocturna y el posicionamiento de la
+  resumen: Desarrollar el turismo de reuniones y congresos, programas para la economía nocturna y el posicionamiento de la
     Marca Quito.
   cita: Turismo de reuniones, congresos y exposiciones.
   pagina: 108
@@ -9493,7 +9492,7 @@ propuestas:
           de Destino Turístico" es parte de la competencia municipal de fomento turístico.
 - id: wilson-merino-1dcf072c
   tema: rural
-  resumen: Fomentará la innovación agroecológica, la agregación de valor a la producción rural, el turismo comunitario y las
+  resumen: Fomentar la innovación agroecológica, la agregación de valor a la producción rural, el turismo comunitario y las
     rutas agroturísticas.
   cita: Innovación agroproductiva y agroecológica.
   pagina: 109
@@ -9580,7 +9579,7 @@ propuestas:
           del Distrito Metropolitano sobre desarrollo económico local y turismo.
 - id: wilson-merino-38663ffd
   tema: rural
-  resumen: Instalará centros de acopio y comercialización y dará asistencia técnica a productores rurales.
+  resumen: Instalar centros de acopio y comercialización y dará asistencia técnica a productores rurales.
   cita: • Centros de acopio y comercialización.
   pagina: 109
   cita_verificada: true
@@ -9664,7 +9663,7 @@ propuestas:
           dentro de las competencias del Distrito Metropolitano.
 - id: wilson-merino-61aa86da
   tema: empleo
-  resumen: Impulsará programas de empleo verde, emprendimientos ambientales, negocios circulares y producción limpia.
+  resumen: Impulsar programas de empleo verde, emprendimientos ambientales, negocios circulares y producción limpia.
   cita: Empleo verde y emprendimientos ambientales.
   pagina: 109
   cita_verificada: true
@@ -9748,7 +9747,7 @@ propuestas:
           de fomento al desarrollo económico local y control ambiental.
 - id: wilson-merino-ad213f16
   tema: empleo
-  resumen: Consolidará el Distrito Económico Aeroportuario y mejorará la conectividad terrestre y digital con el aeropuerto.
+  resumen: Consolidar el Distrito Económico Aeroportuario y mejorará la conectividad terrestre y digital con el aeropuerto.
   cita: Conectividad terrestre y digital con el aeropuerto.
   pagina: 109
   cita_verificada: true
@@ -9835,7 +9834,7 @@ propuestas:
           metropolitanas de transporte, vialidad y uso del suelo.
 - id: wilson-merino-f1fb4258
   tema: empleo
-  resumen: Desarrollará y consolidará la ZEDE Quito y un centro logístico multimodal vinculado al aeropuerto.
+  resumen: Desarrollar y consolidará la ZEDE Quito y un centro logístico multimodal vinculado al aeropuerto.
   cita: • Desarrollo y consolidación de la ZEDE Quito.
   pagina: 109
   cita_verificada: true
@@ -9918,7 +9917,7 @@ propuestas:
           con el aeropuerto" se enmarca en las competencias municipales de desarrollo económico local y uso del suelo.
 - id: wilson-merino-12bf5cef
   tema: rural
-  resumen: Firmará convenios con gobiernos parroquiales y creará mesas permanentes de gobernanza rural.
+  resumen: Firmar convenios con gobiernos parroquiales y creará mesas permanentes de gobernanza rural.
   cita: • Convenios con Gobiernos Parroquiales.
   pagina: 113
   cita_verificada: true
@@ -9999,7 +9998,7 @@ propuestas:
           está dentro de las facultades de coordinación del Distrito Metropolitano.
 - id: wilson-merino-142a7c5b
   tema: transparencia
-  resumen: Implementará un Portal Interactivo de Transparencia y Datos Abiertos.
+  resumen: Implementar un Portal Interactivo de Transparencia y Datos Abiertos.
   cita: • Portal Interactivo de Transparencia y Datos Abiertos.
   pagina: 113
   cita_verificada: true
@@ -10083,7 +10082,7 @@ propuestas:
           la administración municipal.
 - id: wilson-merino-1b9e327c
   tema: transparencia
-  resumen: Promoverá veedurías ciudadanas para obras y servicios.
+  resumen: Promover veedurías ciudadanas para obras y servicios.
   cita: • Veedurías Ciudadanas para Obras y Servicios.
   pagina: 113
   cita_verificada: true
@@ -10166,7 +10165,7 @@ propuestas:
           de participación ciudadana que compete al Municipio.
 - id: wilson-merino-3577871a
   tema: transparencia
-  resumen: Creará un tablero público de seguimiento a compromisos municipales.
+  resumen: Crear un tablero público de seguimiento a compromisos municipales.
   cita: • Tablero Público de Seguimiento a Compromisos Municipales.
   pagina: 113
   cita_verificada: true
@@ -10250,7 +10249,7 @@ propuestas:
           recae directamente en las competencias municipales de transparencia y participación ciudadana.
 - id: wilson-merino-d0f28bba
   tema: transparencia
-  resumen: Aplicará presupuesto participativo por Administración Zonal y presupuesto participativo rural.
+  resumen: Aplicar presupuesto participativo por Administración Zonal y presupuesto participativo rural.
   cita: • Presupuesto Participativo por Administración Zonal.
   pagina: 113
   cita_verificada: true
@@ -10334,7 +10333,7 @@ propuestas:
           Zonal» es una función propia del gobierno municipal.
 - id: wilson-merino-f1f92fbb
   tema: transparencia
-  resumen: Implementará un Sistema de Integridad Institucional, una Escuela Metropolitana de Control Social y observatorios
+  resumen: Implementar un Sistema de Integridad Institucional, una Escuela Metropolitana de Control Social y observatorios
     ciudadanos zonales y rurales.
   cita: Escuela Metropolitana de Control Social.
   pagina: 113
@@ -10422,7 +10421,7 @@ propuestas:
           las funciones municipales de participación y transparencia.
 - id: wilson-merino-27770576
   tema: transparencia
-  resumen: Eliminará normativa municipal obsoleta, duplicada o contradictoria.
+  resumen: Eliminar normativa municipal obsoleta, duplicada o contradictoria.
   cita: • Eliminación de normativa obsoleta, duplicada o contradictoria.
   pagina: 114
   cita_verificada: true
@@ -10504,7 +10503,7 @@ propuestas:
           directa del gobierno municipal.
 - id: wilson-merino-abd7f493
   tema: transparencia
-  resumen: Elaborará un inventario y catálogo único de trámites municipales con plazos máximos y alertas de retraso.
+  resumen: Elaborar un inventario y catálogo único de trámites municipales con plazos máximos y alertas de retraso.
   cita: • Plazos máximos y alertas automáticas de retraso.
   pagina: 114
   cita_verificada: true
@@ -10588,7 +10587,7 @@ propuestas:
           en manos del Municipio.
 - id: wilson-merino-c80acee1
   tema: transparencia
-  resumen: Implementará expediente electrónico, identidad digital metropolitana y ventanilla única ciudadana.
+  resumen: Implementar expediente electrónico, identidad digital metropolitana y ventanilla única ciudadana.
   cita: • Identidad Digital Metropolitana.
   pagina: 114
   cita_verificada: true
@@ -10672,7 +10671,7 @@ propuestas:
           está dentro de las atribuciones administrativas municipales.
 - id: wilson-merino-f693d570
   tema: rural
-  resumen: Instalará puntos móviles de atención municipal para parroquias rurales y sectores alejados.
+  resumen: Instalar puntos móviles de atención municipal para parroquias rurales y sectores alejados.
   cita: • Puntos móviles de atención para parroquias rurales y sectores alejados.
   pagina: 114
   cita_verificada: true
@@ -10754,7 +10753,7 @@ propuestas:
           están plenamente en manos del Municipio.
 - id: wilson-merino-11168485
   tema: transparencia
-  resumen: Ejecutará el programa Quito Digital Seguro para ciberseguridad de plataformas y expedientes y respuesta ante incidentes
+  resumen: Ejecutar el programa Quito Digital Seguro para ciberseguridad de plataformas y expedientes y respuesta ante incidentes
     digitales.
   cita: Ciberseguridad de plataformas y expedientes.
   pagina: 115
@@ -10839,7 +10838,7 @@ propuestas:
           de la gestión administrativa y de trámites propios del Municipio.
 - id: wilson-merino-37e9f0f9
   tema: transparencia
-  resumen: Eliminará progresivamente la solicitud de documentos que ya posee el Municipio.
+  resumen: Eliminar progresivamente la solicitud de documentos que ya posee el Municipio.
   cita: • Eliminación progresiva de solicitudes de documentos que ya posee el Municipio.
   pagina: 115
   cita_verificada: true
@@ -10922,8 +10921,8 @@ propuestas:
           posee el Municipio» están directamente en manos de la administración municipal.
 - id: wilson-merino-62375927
   tema: inclusion
-  resumen: Mantendrá canales presenciales asistidos y servicios diferenciados para adultos mayores y población rural para
-    evitar la exclusión digital.
+  resumen: Mantener canales presenciales asistidos y servicios diferenciados para adultos mayores y población rural para evitar
+    la exclusión digital.
   cita: Canales presenciales asistidos para evitar exclusión digital.
   pagina: 115
   cita_verificada: true
@@ -11005,7 +11004,7 @@ propuestas:
           inclusión en trámites municipales compete al Municipio.
 - id: wilson-merino-845c31d0
   tema: transparencia
-  resumen: Lanzará la aplicación móvil Quito Imparable y un asistente virtual multicanal.
+  resumen: Lanzar la aplicación móvil Quito Imparable y un asistente virtual multicanal.
   cita: • Aplicación móvil Quito Imparable.
   pagina: 115
   cita_verificada: true
@@ -11088,7 +11087,7 @@ propuestas:
           son competencias propias del Municipio.
 - id: wilson-merino-8511b5e8
   tema: transparencia
-  resumen: Implementará una Plataforma de Interoperabilidad de Datos y automatizará procesos con inteligencia artificial para
+  resumen: Implementar una Plataforma de Interoperabilidad de Datos y automatizará procesos con inteligencia artificial para
     clasificar solicitudes.
   cita: Plataforma Metropolitana de Interoperabilidad de Datos.
   pagina: 115
@@ -11175,8 +11174,8 @@ propuestas:
           de solicitudes" es atribución propia del Municipio.
 - id: wilson-merino-b8adef70
   tema: transparencia
-  resumen: Habilitará firma electrónica ciudadana, pagos digitales integrados, agenda de turnos en línea y notificaciones
-    electrónicas trazables.
+  resumen: Habilitar firma electrónica ciudadana, pagos digitales integrados, agenda de turnos en línea y notificaciones electrónicas
+    trazables.
   cita: Pagos digitales integrados.
   pagina: 115
   cita_verificada: true
@@ -11261,7 +11260,7 @@ propuestas:
           gestión local es competencia administrativa propia del Municipio.
 - id: wilson-merino-4e291904
   tema: transparencia
-  resumen: Creará una Oficina Metropolitana de Gestión de Proyectos (PMO).
+  resumen: Crear una Oficina Metropolitana de Gestión de Proyectos (PMO).
   cita: • Oficina Metropolitana de Gestión de Proyectos (PMO).
   pagina: 116
   cita_verificada: true
@@ -11345,7 +11344,7 @@ propuestas:
           resultados" compete a la organización administrativa interna del Municipio.
 - id: wilson-merino-59eab940
   tema: transparencia
-  resumen: Evaluará integralmente secretarías, empresas, agencias e institutos municipales para reorganizarlos.
+  resumen: Evaluar integralmente secretarías, empresas, agencias e institutos municipales para reorganizarlos.
   cita: • Evaluación integral de secretarías, empresas, agencias, institutos y unidades administrativas.
   pagina: 116
   cita_verificada: true
@@ -11428,7 +11427,7 @@ propuestas:
           institutos y unidades administrativas' es competencia interna del Municipio.
 - id: wilson-merino-bf870297
   tema: transparencia
-  resumen: Implementará un modelo de gestión del talento humano por mérito y una escuela municipal de formación.
+  resumen: Implementar un modelo de gestión del talento humano por mérito y una escuela municipal de formación.
   cita: • Modelo Metropolitano de Gestión del Talento Humano por Mérito y Resultados.
   pagina: 116
   cita_verificada: true
@@ -11512,7 +11511,7 @@ propuestas:
           son competencias administrativas propias del Municipio.
 - id: wilson-merino-43ca2d68
   tema: transparencia
-  resumen: Definirá una cartera mínima de servicios desconcentrados en las Administraciones Zonales.
+  resumen: Definir una cartera mínima de servicios desconcentrados en las Administraciones Zonales.
   cita: • Cartera mínima de servicios desconcentrados.
   pagina: 117
   cita_verificada: true
@@ -11593,7 +11592,7 @@ propuestas:
           directamente de la administración municipal.
 - id: wilson-merino-48ccd1f9
   tema: transparencia
-  resumen: Creará un inventario único georreferenciado de bienes municipales.
+  resumen: Crear un inventario único georreferenciado de bienes municipales.
   cita: • Georreferenciación de terrenos, edificios, equipamientos e infraestructura.
   pagina: 117
   cita_verificada: true
@@ -11675,7 +11674,7 @@ propuestas:
           propias del Municipio.
 - id: wilson-merino-5464e2e0
   tema: transparencia
-  resumen: Implementará horarios y equipos de atención ciudadana y gestión territorial 24/7 y centros zonales integrados de
+  resumen: Implementar horarios y equipos de atención ciudadana y gestión territorial 24/7 y centros zonales integrados de
     atención.
   cita: Centros zonales integrados de atención ciudadana.
   pagina: 117
@@ -11762,7 +11761,7 @@ propuestas:
           corresponde directamente a la gestión administrativa municipal.
 - id: wilson-merino-dac084bd
   tema: transparencia
-  resumen: Regularizará los títulos, linderos, avalúos y registros de los bienes inmuebles municipales.
+  resumen: Regularizar los títulos, linderos, avalúos y registros de los bienes inmuebles municipales.
   cita: Regularización de títulos, linderos, avalúos y registros.
   pagina: 117
   cita_verificada: true
@@ -11846,7 +11845,7 @@ propuestas:
           y registros' son competencias propias de la administración municipal.
 - id: wilson-merino-e03e155c
   tema: empleo
-  resumen: Implementará el Plan Jóvenes Talentos dentro del Municipio.
+  resumen: Implementar el Plan Jóvenes Talentos dentro del Municipio.
   cita: • Implementación del Plan Jóvenes Talentos.
   pagina: 117
   cita_verificada: true
@@ -11927,7 +11926,7 @@ propuestas:
           interna del Municipio.
 - id: wilson-merino-473a1efe
   tema: transparencia
-  resumen: Reducirá arrendamientos innecesarios y reutilizará inmuebles municipales subutilizados.
+  resumen: Reducir arrendamientos innecesarios y reutilizará inmuebles municipales subutilizados.
   cita: • Reducción de arrendamientos innecesarios.
   pagina: 118
   cita_verificada: true
@@ -12009,7 +12008,7 @@ propuestas:
           dependen exclusivamente de la gestión administrativa del Municipio.
 - id: wilson-merino-4eb328c2
   tema: transparencia
-  resumen: Controlará el uso de vehículos, equipos y maquinaria municipales por servidores públicos.
+  resumen: Controlar el uso de vehículos, equipos y maquinaria municipales por servidores públicos.
   cita: • Control de vehículos, equipos, dispositivos, maquinaria y herramientas.
   pagina: 118
   cita_verificada: true
@@ -12091,7 +12090,7 @@ propuestas:
           propia del Municipio.
 - id: wilson-merino-a5768afc
   tema: transparencia
-  resumen: Creará el Banco Metropolitano de Proyectos Colaborativos e Innovación Social mediante convocatorias públicas de
+  resumen: Crear el Banco Metropolitano de Proyectos Colaborativos e Innovación Social mediante convocatorias públicas de
     propuestas.
   cita: Banco Metropolitano de Proyectos Colaborativos e Innovación Social.
   pagina: 118
@@ -12179,7 +12178,7 @@ propuestas:
           corresponde a las funciones municipales de participación y desarrollo local.
 - id: wilson-merino-cf7f8ffb
   tema: ambiente
-  resumen: Implementará medidas de eficiencia energética y ambiental en los edificios municipales.
+  resumen: Implementar medidas de eficiencia energética y ambiental en los edificios municipales.
   cita: Eficiencia energética y ambiental de edificios municipales.
   pagina: 118
   cita_verificada: true
@@ -12264,7 +12263,7 @@ propuestas:
           propia depende directamente del Municipio.
 - id: wilson-merino-fee3f55b
   tema: transparencia
-  resumen: Firmará convenios con universidades para evaluación independiente de políticas y proyectos.
+  resumen: Firmar convenios con universidades para evaluación independiente de políticas y proyectos.
   cita: • Evaluación independiente de políticas y proyectos.
   pagina: 118
   cita_verificada: true
@@ -12348,7 +12347,7 @@ propuestas:
           y academia' está dentro de las facultades municipales de transparencia y gestión.
 - id: wilson-merino-36075b81
   tema: transparencia
-  resumen: Creará la Escuela de Liderazgo Público Metropolitano, una Red de Innovadores Públicos y laboratorios internos de
+  resumen: Crear la Escuela de Liderazgo Público Metropolitano, una Red de Innovadores Públicos y laboratorios internos de
     mejora de servicios.
   cita: Escuela de Liderazgo Público Metropolitano.
   pagina: 119
@@ -12437,7 +12436,7 @@ propuestas:
           forma parte de la gestión administrativa propia del Municipio.
 - id: wilson-merino-76295140
   tema: empleo
-  resumen: Creará un Laboratorio Metropolitano de Innovación Territorial.
+  resumen: Crear un Laboratorio Metropolitano de Innovación Territorial.
   cita: • Laboratorio Metropolitano de Innovación Territorial.
   pagina: 119
   cita_verificada: true
@@ -12520,7 +12519,7 @@ propuestas:
           económico local está dentro de las facultades del Distrito Metropolitano.
 - id: wilson-merino-d4cb56ce
   tema: transparencia
-  resumen: Implementará un plan de ajuste de cultura organizacional municipal a 4 años.
+  resumen: Implementar un plan de ajuste de cultura organizacional municipal a 4 años.
   cita: • Implementación del Plan de Ajuste cultural a 4 años.
   pagina: 119
   cita_verificada: true
@@ -12601,7 +12600,7 @@ propuestas:
           interna del Municipio.
 - id: wilson-merino-f883a9d4
   tema: transparencia
-  resumen: Gestionará fondos nacionales e internacionales y financiamiento climático, social, tecnológico y territorial.
+  resumen: Gestionar fondos nacionales e internacionales y financiamiento climático, social, tecnológico y territorial.
   cita: Financiamiento climático, social, tecnológico y territorial.
   pagina: 119
   cita_verificada: true
@@ -12686,7 +12685,7 @@ propuestas:
           que el Municipio puede ejercer directamente.
 - id: wilson-merino-3e342bab
   tema: transparencia
-  resumen: Publicará planes, proyectos, presupuestos, contrataciones e indicadores de gestión.
+  resumen: Publicar planes, proyectos, presupuestos, contrataciones e indicadores de gestión.
   cita: El Municipio impulsará una política de información pública basada en la publicación
   pagina: 123
   cita_verificada: true
@@ -12764,7 +12763,7 @@ propuestas:
           administrativa y sus funciones de transparencia.
 - id: wilson-merino-bc462871
   tema: transparencia
-  resumen: Aplicará rendición permanente de cuentas con informe anual de cumplimiento, audiencias públicas y cabildos.
+  resumen: Aplicar rendición permanente de cuentas con informe anual de cumplimiento, audiencias públicas y cabildos.
   cita: Metropolitana promoverá un modelo de rendición permanente de cuentas, basado en
   pagina: 127
   cita_verificada: true

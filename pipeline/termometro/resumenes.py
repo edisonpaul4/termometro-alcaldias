@@ -51,3 +51,45 @@ def datos_sin_respaldo(resumen: str, cita: str, contexto: list[str]) -> list[str
         if frase.split()[-1] not in normalizar(" ".join([cita, *contexto])):
             faltan.append(frase)
     return faltan
+
+
+# ─── Estilo uniforme ────────────────────────────────────────────────────────
+# La IA resume cada plan con un tono distinto ("Implementará…", "Propone…", "Implementar…"), y esa
+# diferencia se percibe como más o menos certeza según el candidato. Todos los resúmenes se llevan
+# al infinitivo (o a frase nominal) con una regla determinista, sin cambiar su contenido.
+
+_IRREGULARES = {
+    "hará": "hacer", "pondrá": "poner", "tendrá": "tener", "podrá": "poder", "saldrá": "salir", "dirá": "decir",
+    "vendrá": "venir", "sabrá": "saber", "habrá": "haber", "querrá": "querer", "valdrá": "valer",
+    "dispondrá": "disponer", "propondrá": "proponer", "mantendrá": "mantener", "obtendrá": "obtener",
+    "contendrá": "contener", "impondrá": "imponer", "repondrá": "reponer", "compondrá": "componer",
+    "rehará": "rehacer", "deshará": "deshacer", "satisfará": "satisfacer", "retendrá": "retener",
+    "sostendrá": "sostener", "detendrá": "detener", "intervendrá": "intervenir", "convendrá": "convenir",
+    "previendrá": "prevenir", "prevendrá": "prevenir",
+}
+_PROPONE = re.compile(r"^(Propone|Plantea|Planea|Propondrá|Planteará)\s+(que\s+)?", re.I)
+
+
+def _infinitivo(palabra: str) -> str | None:
+    w = palabra.lower()
+    if w in _IRREGULARES:
+        inf = _IRREGULARES[w]
+    elif re.fullmatch(r"[a-záéíóúñ]{3,}(ará|erá|irá)", w):
+        inf = w[:-3] + {"ará": "ar", "erá": "er", "irá": "ir"}[w[-3:]]
+    else:
+        return None
+    return inf[0].upper() + inf[1:] if palabra[0].isupper() else inf
+
+
+def uniformar(resumen: str) -> str:
+    """'Implementará X' → 'Implementar X'; 'Propone construir X' → 'Construir X'; 'Propone un X' → 'Un X'."""
+    r = resumen.strip()
+    m = _PROPONE.match(r)
+    if m:
+        resto = r[m.end():]
+        if resto:
+            r = resto[0].upper() + resto[1:]
+    primera, _, resto = r.partition(" ")
+    if (inf := _infinitivo(primera)) is not None:
+        r = f"{inf} {resto}".strip()
+    return r

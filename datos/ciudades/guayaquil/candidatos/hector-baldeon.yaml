@@ -1,0 +1,2105 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: hector-baldeon
+nombre: Héctor Baldeón
+lista: '8'
+organizacion: Partido Avanza
+foto: fuentes/ciudades/guayaquil/candidatos/hector-baldeon/foto_2026-11-19.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/2954
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-19'
+  archivo: fuentes/ciudades/guayaquil/candidatos/hector-baldeon/foto_2026-11-19.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/2954/1306
+    titulo: Plan de trabajo Héctor Baldeón — Alcaldía de Guayaquil 2026 (CNE)
+    consultado: '2026-11-19'
+    archivo: fuentes/ciudades/guayaquil/candidatos/hector-baldeon/plan-de-trabajo_2026-11-19.pdf
+  paginas: 28
+  sha256: 4af1b619a5e3cd702f00edd63a5bf594778ad361bba89edb7b30d9ea43e9689d
+propuestas:
+- id: hector-baldeon-2b69a831
+  tema: empleo
+  resumen: Ejecutar programas de formación, capacitación, acceso a seguro médico y apoyo dirigidos a emprendedores y comerciantes
+    informales.
+  cita: Impulsar el emprendimiento mediante programas de formación, capacitación, acceso a un seguro médico y apoyo a emprendedores
+    y comerciantes informales;
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: 4.- Objetivos Generales. –
+    pagina: 20
+  - texto: 'Para ello, propone acciones enfocadas en:'
+    pagina: 20
+  enfoques:
+  - empleo-formacion-y-empleo
+  - empleo-apoyo-a-emprendimientos
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona un tipo de programa ('programas de formación, capacitación, acceso a un seguro médico')
+          sin cantidad ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Impulsar el emprendimiento mediante programas de formación, capacitación» no cuantifica
+          programas, beneficiarios ni resultados verificables.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Usa un verbo genérico ('Impulsar el emprendimiento') y nombra tipos de acciones como 'programas de
+          formación, capacitación, acceso a un seguro médico' sin especificar cantidad ni alcance verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el contexto solo indica 'Objetivos Generales'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «apoyo a emprendedores y comerciantes informales» no señala una fecha ni un plazo de
+          cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan ninguna fecha, año o plazo para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «programas de formación, capacitación, acceso a un seguro médico y apoyo» no tienen un monto, una
+          fuente ni un mecanismo de financiamiento identificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún monto, rubro ni fuente de financiamiento para estos programas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El apoyo a emprendedores y comerciantes informales y la capacitación corresponden al desarrollo económico
+          local municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «apoyo a emprendedores y comerciantes informales», incluida la facilitación de acceso a servicios,
+          corresponde a las funciones municipales de desarrollo económico local e inclusión.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene competencias en desarrollo económico local para ofrecer 'programas de formación,
+          capacitación' y apoyo a comerciantes, así como servicios propios de salud.
+- id: hector-baldeon-2cdfd39a
+  tema: movilidad
+  resumen: Invertir cerca de 225 millones de dólares por año en infraestructura urbano vial, incluida la primera etapa del
+    Gran Parque Lineal del Salado.
+  cita: Vamos a invertir cerca de 225 Millones de dólares por año en obra de infraestructura urbano vial, incluido la Primera
+    Etapa del Gran Parque Lineal del Salado, mediante
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: 5.1.- Ejecución de proyectos de infraestructura urbano vial y la construcción de un Gran Parque Lineal a lo largo
+      de las riberas del estero salado.
+    pagina: 20
+  - texto: inversión directa (25% del presupuesto municipal), convenios con el gobierno central y búsqueda de financiamiento
+      con organismos multilaterales.
+    pagina: 21
+  - texto: Desarrollar obras de infraestructura urbano vial y la construcción de la primera etapa del Gran Parque lineal del
+      Estero Salado.
+    pagina: 25
+  enfoques:
+  - movilidad-vias-y-transito
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra la 'Primera Etapa del Gran Parque Lineal del Salado' y una inversión de 225 millones anuales
+          en obras viales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta cuantifica la inversión comprometida en «cerca de 225 Millones de dólares por año» para
+          infraestructura urbano-vial y la primera etapa del parque.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona genéricamente "obra de infraestructura urbano vial" y la "Primera Etapa del Gran Parque Lineal
+          del Salado" sin precisar cuántas obras se harán ni qué tramo o extensión abarca dicha etapa.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'por año', sin fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Por año» indica periodicidad y «Primera Etapa» carece de fechas, por lo que ninguna expresión establece
+          cuándo se completarán las obras.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona una periodicidad de gasto "por año" y una "Primera Etapa" sin fechas, lo cual no constituye
+          un plazo verificable de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica 'cerca de 225 Millones' por año con inversión directa (25% del presupuesto), convenios y organismos
+          multilaterales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta asigna «225 Millones de dólares por año» e identifica «inversión directa (25% del presupuesto
+          municipal)» para las obras descritas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Precisa un monto de "cerca de 225 Millones de dólares por año" y fuentes como "inversión directa (25%
+          del presupuesto municipal)" y organismos multilaterales.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La infraestructura vial urbana y los parques son competencias del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «obras de infraestructura urbano vial» y el «Gran Parque Lineal» corresponden a competencias municipales
+          sobre vialidad urbana y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La construcción de "infraestructura urbano vial" y de parques como espacio público son competencias
+          exclusivas del Municipio.
+- id: hector-baldeon-e81f9c54
+  tema: inclusion
+  resumen: Implementar programas de atención integral para niños y niñas orientados a combatir la desnutrición crónica infantil.
+  cita: Combatir la desnutrición crónica infantil mediante programas de atención integral para niños y niñas;
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: 4.- Objetivos Generales. –
+    pagina: 20
+  - texto: 'Para ello, propone acciones enfocadas en:'
+    pagina: 20
+  enfoques:
+  - inclusion-salud-cercana
+  - inclusion-cuidados-proteccion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'programas de atención integral' sin cantidad ni cobertura de niños atendidos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Combatir la desnutrición crónica infantil» mediante «programas de atención integral» no establece
+          una reducción cuantificada ni una cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo expresa una intención genérica de "Combatir la desnutrición crónica infantil mediante programas
+          de atención integral" sin especificar cantidades ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «combatir la desnutrición crónica infantil» no indica una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto mencionan una fecha, año o duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «programas de atención integral para niños y niñas» no tienen un monto ni una fuente de financiamiento
+          identificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica cuánto costarán los programas ni de qué fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La atención integral a la niñez es un tema de equidad, inclusión y protección de derechos que el Municipio
+          puede ejecutar con servicios propios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «programas de atención integral para niños y niñas» corresponden a funciones municipales de inclusión,
+          protección de derechos y atención complementaria de salud.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Los programas municipales de equidad, inclusión, protección de derechos y salud complementaria para
+          "niños y niñas" están dentro de las funciones del Municipio.
+- id: hector-baldeon-6d1e954b
+  tema: seguridad
+  resumen: Crear cuatro centros de vigilancia y monitoreo de cámaras y alarmas de auxilio temprano, uno en cada cuadrante
+    urbano de Guayaquil.
+  cita: la creación de cuatro centro de vigilancia y monitoreo de cámaras, y alarmas de auxilio temprana, es decir uno centro
+    de control y vigilancia, en cada uno de los cuatro cuadrantes urbanos de Guayaquil.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: 5.2.- Fortalecimiento y Equipamiento del Consejo de Seguridad Ciudadana Municipal.
+    pagina: 21
+  enfoques:
+  - seguridad-vigilancia-tecnologica
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice "cuatro centro de vigilancia y monitoreo", uno en cada cuadrante urbano de Guayaquil.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «creación de cuatro centro de vigilancia y monitoreo» fija una cantidad verificable y su distribución
+          en «los cuatro cuadrantes urbanos de Guayaquil».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Establece una cantidad y ubicación verificables con 'la creación de cuatro centro de vigilancia y monitoreo
+          de cámaras, y alarmas de auxilio temprana, es decir uno centro de control y vigilancia, en cada uno de los cuatro
+          cuadrantes urbanos de Guayaquil'.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni plazo para la creación de los centros.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «creación de cuatro centro de vigilancia y monitoreo» no tiene una fecha o etapa con duración asignada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica ninguna fecha, año ni duración para concluir la creación de los cuatro centros.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La cita sobre los «cuatro centro de vigilancia y monitoreo» y el contexto de «Fortalecimiento y Equipamiento»
+          no especifican costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica el costo de los centros ni la fuente de financiamiento para implementarlos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cámaras y centros de monitoreo municipales vinculados al Consejo de Seguridad Ciudadana son competencia
+          municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los centros de «monitoreo de cámaras, y alarmas de auxilio temprana» encajan en las funciones municipales
+          de prevención y apoyo a la seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La instalación de centros municipales de monitoreo dentro del 'Consejo de Seguridad Ciudadana Municipal'
+          está dentro de las atribuciones preventivas y de coordinación del Municipio.
+- id: hector-baldeon-ca228a31
+  tema: seguridad
+  resumen: Aportar equipamiento y logística operativa a la Policía Nacional y asignar a parte de la Policía Metropolitana
+    un rol de apoyo a la inteligencia policial.
+  cita: Contribuyendo con una parte del equipamiento y la logística operativa de la Policía Nacional, además de contribuir
+    con el nuevo rol que tendrá una parte de la Policía Metropolitana, para fortalecer el trabajo de inteligencia policial
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: 5.2.- Fortalecimiento y Equipamiento del Consejo de Seguridad Ciudadana Municipal.
+    pagina: 21
+  enfoques:
+  - seguridad-coordinacion-respuesta
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Una parte del equipamiento y la logística'' no indica cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Contribuir con «una parte del equipamiento y la logística operativa» no cuantifica los equipos, los
+          aportes ni el resultado esperado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Utiliza términos imprecisos como contribuir con "una parte del equipamiento", "una parte de la Policía
+          Metropolitana" y "fortalecer", sin dar cifras verificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La contribución al «equipamiento y la logística operativa de la Policía Nacional» no incluye una fecha
+          ni un plazo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No incluye ninguna fecha ni plazo para entregar el equipamiento o implementar el nuevo rol de los agentes.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Contribuyendo con una parte del equipamiento y la logística operativa» describe el aporte previsto,
+          pero no identifica su monto ni cómo se financiará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No asigna un monto ni una fuente específica de recursos para esta contribución en particular.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede apoyar con equipamiento y convenios a la Policía y fortalecer su Policía Metropolitana.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Contribuyendo con una parte del equipamiento y la logística operativa de la Policía Nacional» plantea
+          apoyo municipal complementario en seguridad, no asumir directamente las funciones nacionales de investigación policial.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Asignar a los agentes municipales un nuevo rol para "fortalecer el trabajo de inteligencia policial"
+          excede las funciones de control municipal, pues la inteligencia policial compete a la Policía Nacional.
+- id: hector-baldeon-e2798fe3
+  tema: seguridad
+  resumen: Impulsar en el Concejo la asignación del 5% del presupuesto municipal, cerca de 45 millones de dólares por año,
+    a la seguridad ciudadana, mediante convenio con el Ministerio del Interior.
+  cita: impulsaremos al interior del Concejo Cantonal, la aprobación del Presupuesto Municipal, que permita invertir el equivalente
+    del 5% del Presupuesto, es decir, cerca de 45 Millones de dólares por año, al servicio de la Seguridad Ciudadana de Guayaquil.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: 5.2.- Fortalecimiento y Equipamiento del Consejo de Seguridad Ciudadana Municipal.
+    pagina: 21
+  - texto: Previo la autorización del ente rector de la política pública de seguridad. Firma del Convenio entre el Gobierno
+      Central a través del respectivo Ministerio y la Municipalidad de Guayaquil.
+    pagina: 25
+  enfoques:
+  - seguridad-coordinacion-respuesta
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija invertir el 5% del Presupuesto, 'cerca de 45 Millones de dólares por año', en seguridad ciudadana.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta cuantifica el resultado presupuestario al comprometer «el equivalente del 5% del Presupuesto»,
+          aproximadamente «45 Millones de dólares por año», para seguridad ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fija una proporción y cifra verificable al proponer "invertir el equivalente del 5% del Presupuesto,
+          es decir, cerca de 45 Millones de dólares por año".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo indica 'por año' como periodicidad, sin decir cuándo estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Por año» expresa la periodicidad de la inversión, pero no señala cuándo se aprobará o cumplirá la
+          asignación presupuestaria.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión "por año" indica una periodicidad presupuestaria, pero no establece una fecha o plazo
+          concreto para la aprobación e inicio de la medida.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica el monto de 45 millones de dólares por año provenientes del 5% del Presupuesto Municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Se identifica una asignación del «5% del Presupuesto» municipal y un monto de «45 Millones de dólares
+          por año».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Especifica tanto la fuente como el monto al señalar "el 5% del Presupuesto, es decir, cerca de 45 Millones
+          de dólares por año" del Presupuesto Municipal.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Aprobar el presupuesto municipal en el Concejo Cantonal y destinar recursos a seguridad ciudadana es
+          decisión del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La aprobación del «Presupuesto Municipal» para el «Consejo de Seguridad Ciudadana Municipal», con un
+          convenio de coordinación, corresponde al ámbito municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La aprobación del "Presupuesto Municipal" en el Concejo Cantonal y el equipamiento del "Consejo de
+          Seguridad Ciudadana Municipal" mediante convenio son facultades municipales.
+- id: hector-baldeon-cf76c96c
+  tema: inclusion
+  resumen: Construir centros de desintoxicación, tratamiento y rehabilitación de adicciones para niños y adolescentes de 10
+    a 18 años, con el 2% del presupuesto, cerca de 18 millones anuales.
+  cita: Millones de dólares por año, para la construcción de centros de salud para la Desintoxicación, Tratamiento y Rehabilitación
+    de adicciones de drogas para la atención de niños, niñas y adolescentes entre los 10 a 18 años de edad
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: destinaremos el equivalente del 2% del Presupuesto municipal, es decir cerca de 18
+    pagina: 21
+  - texto: Destinar el equivalente del 2% del Presupuesto municipal, es decir cerca de 18 Millones de dólares por año, para
+      la construcción de centros de salud, para tratamiento de adicciones de drogas y atención médica para grupos de atención
+      prioritarias.
+    pagina: 26
+  - texto: Firma del convenio de cooperación entre el Ministerio de Salud y el Municipio de Guayaquil
+    pagina: 26
+  enfoques:
+  - inclusion-salud-cercana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de "centros de salud" sin decir cuántos ni dónde, solo un monto anual.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «construcción de centros de salud» no precisa cuántos centros se construirán ni su ubicación, y
+          «entre los 10 a 18 años» delimita la población destinataria, no la cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta plantea la 'construcción de centros de salud para la Desintoxicación, Tratamiento y Rehabilitación'
+          sin especificar cuántos centros se construirán ni su ubicación.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Millones de dólares por año" es una periodicidad y no indica cuándo estará cumplida la construcción.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «por año» indica la periodicidad del financiamiento, pero no cuándo estarán construidos
+          los centros.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo menciona una periodicidad presupuestaria ('por año'), pero no establece una fecha o plazo para
+          tener construidos los centros.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "el 2% del Presupuesto municipal, es decir cerca de 18 Millones de dólares por año" para estos
+          centros.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El fragmento «destinaremos el equivalente del 2% del Presupuesto municipal, es decir cerca de 18» completa
+          la cita «Millones de dólares por año, para la construcción de centros de salud para la Desintoxicación», asignándole
+          un monto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El monto de 'cerca de 18 Millones de dólares por año' es un dato de conjunto que abarca simultáneamente
+          los centros de adicciones y los de 'atención médica para grupos de atención prioritarias', sin precisar cuánto corresponde
+          a esta propuesta en particular.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Construir centros de salud municipales con convenio con el Ministerio de Salud es viable para el Municipio,
+          que puede coordinar con otros niveles.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «construcción de centros de salud» mediante un «convenio de cooperación entre el Ministerio de Salud
+          y el Municipio de Guayaquil» corresponde a infraestructura y servicios municipales complementarios de salud.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio puede construir y operar centros de salud municipales en coordinación interinstitucional
+          mediante la 'Firma del convenio de cooperación entre el Ministerio de Salud y el Municipio de Guayaquil'.
+- id: hector-baldeon-e088f82e
+  tema: inclusion
+  resumen: Construir centros de atención médica para personas de grupos de atención prioritaria y comerciantes informales,
+    dentro de la asignación del 2% del presupuesto municipal.
+  cita: así como también la construcción de los Centros de atención Médica para las personas de atención prioritaria y comerciantes
+    informales.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: 5.3.- Construcción de Centros de Desintoxicación, Tratamiento y Rehabilitación de adicciones de drogas y Centros
+      Médicos para las personas de atención prioritaria y comerciantes informales.
+    pagina: 21
+  - texto: Destinar el equivalente del 2% del Presupuesto municipal, es decir cerca de 18 Millones de dólares por año, para
+      la construcción de centros de salud, para tratamiento de adicciones de drogas y atención médica para grupos de atención
+      prioritarias.
+    pagina: 26
+  enfoques:
+  - inclusion-salud-cercana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Los Centros de atención Médica" no indica cuántos ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «construcción de los Centros de atención Médica» no determina su cantidad, ubicación ni cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona 'la construcción de los Centros de atención Médica para las personas de atención prioritaria
+          y comerciantes informales' sin indicar cuántos centros se edificarán ni dónde estarán ubicados.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha o plazo para la construcción.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «construcción de los Centros de atención Médica» no tiene fecha de cumplimiento y «por año» solo
+          describe una asignación presupuestaria periódica.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto y su contexto carecen de una fecha o plazo concreto para entregar los centros médicos.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto asigna "el 2% del Presupuesto municipal, cerca de 18 Millones de dólares por año" a estos
+          centros.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «18 Millones de dólares por año» cubren conjuntamente centros «para tratamiento de adicciones de
+          drogas y atención médica para grupos de atención prioritarias», sin asignación específica a esta propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La asignación de 'cerca de 18 Millones de dólares por año' es una cifra global compartida para 'tratamiento
+          de adicciones de drogas y atención médica para grupos de atención prioritarias', sin asignar un monto específico
+          a esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Construir centros médicos municipales para atención prioritaria cabe en las competencias del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Construir «Centros de atención Médica para las personas de atención prioritaria y comerciantes informales»
+          corresponde a infraestructura municipal de salud y atención a grupos prioritarios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene facultades para implementar infraestructura propia de salud y atención a grupos
+          prioritarios mediante 'Centros de atención Médica' municipales.
+- id: hector-baldeon-f8a173db
+  tema: inclusion
+  resumen: Destinar 18 millones de dólares por año (2% del presupuesto) a construir y equipar escuelas municipales en sectores
+    populares del norte y sur, con desayuno escolar.
+  cita: Nuestro compromiso es destinar 18 Millones de dólares por año, es decir el equivalente al 2% del Presupuesto Municipal,
+    para la construcción y equipamiento de Escuelas Municipales para los sectores populares más alejados, del norte y sur
+    de la ciudad, y en cuyos establecimientos los alumnos de recibirán el desayuno escolar.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: 5.4.- Construcción y Equipamiento de nuevas Escuelas Municipales para los sectores populares de Guayaquil.
+    pagina: 22
+  enfoques:
+  - inclusion-educacion-oportunidades
+  - inclusion-salud-cercana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'Escuelas Municipales' sin indicar cuántas se construirán ni dónde exactamente, solo 'sectores
+          populares más alejados, del norte y sur'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «construcción y equipamiento de Escuelas Municipales» para sectores del norte y sur no especifica
+          cuántas escuelas o alumnos se atenderán, y los «18 Millones de dólares» cuantifican recursos, no resultados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque fija un monto de inversión, en cuanto al resultado físico solo menciona de forma indeterminada
+          la 'construcción y equipamiento de Escuelas Municipales' sin precisar cuántas se construirán ni a cuántos alumnos
+          llegarán.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de 'por año' como periodicidad del gasto, sin decir cuándo estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «18 Millones de dólares por año» establece una periodicidad presupuestaria, pero no cuándo
+          estarán construidas y equipadas las escuelas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona una periodicidad presupuestaria ('por año'), pero no establece una fecha o plazo en que las
+          escuelas estarán construidas y operativas.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica '18 Millones de dólares por año, es decir el equivalente al 2% del Presupuesto Municipal'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta asigna expresamente «18 Millones de dólares por año», equivalentes al «2% del Presupuesto
+          Municipal», a la construcción y equipamiento de escuelas municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Especifica claramente un monto y proporción al comprometerse a 'destinar 18 Millones de dólares por
+          año, es decir el equivalente al 2% del Presupuesto Municipal'.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se trata de escuelas municipales, es decir servicios propios de educación municipal y su infraestructura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «construcción y equipamiento de Escuelas Municipales» y el «desayuno escolar» en esos establecimientos
+          corresponden a servicios educativos propios del Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio cuenta con atribuciones para proveer infraestructura y servicios propios de educación
+          como la 'construcción y equipamiento de Escuelas Municipales'.
+- id: hector-baldeon-50a0f61d
+  tema: ambiente
+  resumen: Terminar las concesiones o permisos de explotación de áridos y pétreos en canteras cercanas a zonas habitadas,
+    especialmente en la vía a la costa.
+  cita: Terminar con la concesión o permisos de explotación de materiales áridos y pétreos de las canteras cercanas a zonas
+    habitadas de Guayaquil, especialmente aquellas que están en la vía a la costa.
+  pagina: 23
+  cita_verificada: true
+  enfoques:
+  - ambiente-reducir-contaminacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se sabe cuántas canteras son 'cercanas a zonas habitadas', aunque menciona 'especialmente' la vía
+          a la costa.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Terminar con la concesión o permisos» no cuantifica ni identifica las canteras afectadas,
+          y «cercanas a zonas habitadas» y «especialmente aquellas que están en la vía a la costa» no delimitan una cobertura
+          precisa.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone 'Terminar con la concesión o permisos de explotación' en 'las canteras cercanas a zonas habitadas',
+          sin precisar cuántas son ni delimitar de forma exacta y verificable cuáles serán cerradas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal alguna.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Terminar con la concesión o permisos de explotación» no incluye una fecha ni un plazo
+          de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no incluye ninguna fecha, año ni duración para concretar el retiro de los permisos.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La medida de «Terminar con la concesión o permisos» no menciona un costo, una fuente ni un mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se hace mención alguna a costos, indemnizaciones o fuentes de recursos asociados a la medida.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La regulación de la explotación de materiales áridos y pétreos corresponde a los gobiernos municipales
+          según el COOTAD.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La regulación y el control de la «explotación de materiales áridos y pétreos de las canteras» corresponden
+          a competencias municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Regular, autorizar y controlar la 'explotación de materiales áridos y pétreos' en su circunscripción
+          es una competencia exclusiva de los gobiernos municipales.
+- id: hector-baldeon-531176a1
+  tema: ambiente
+  resumen: Adquirir una planta procesadora de basura capaz de procesar al menos el 50% de los desechos sólidos recolectados
+    en la ciudad.
+  cita: Reciclar y Procesar los desechos sólidos y orgánicos, mediante la adquisición de una Planta Procesadora de Basura,
+    que sea capaz de procesar al menos el 50% de los desechos sólidos que se recoge en la ciudad.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.6.- Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos y depuración de las aguas
+      residuales.
+    pagina: 23
+  enfoques:
+  - ambiente-recoleccion-y-limpieza
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Adquirir una planta capaz de procesar 'al menos el 50% de los desechos sólidos' de la ciudad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La planta deberá ser capaz de procesar «al menos el 50% de los desechos sólidos que se recoge en la
+          ciudad», lo que establece una capacidad verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fija un resultado cuantificable mediante "una Planta Procesadora de Basura, que sea capaz de procesar
+          al menos el 50% de los desechos sólidos que se recoge en la ciudad".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «adquisición de una Planta Procesadora de Basura» no tiene una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No establece ninguna fecha, año o plazo para adquirir y poner en funcionamiento la planta procesadora.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica monto ni fuente para la planta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «adquisición de una Planta Procesadora de Basura» no especifica su costo ni de dónde provendrán
+          los recursos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No indica el costo de "la adquisición de una Planta Procesadora de Basura" ni el mecanismo de financiamiento
+          para pagarla.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de desechos sólidos es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Reciclar y Procesar los desechos sólidos y orgánicos» corresponde a la competencia municipal de gestión
+          de residuos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El manejo, reciclaje y tratamiento de "los desechos sólidos y orgánicos" es una competencia exclusiva
+          del Municipio.
+- id: hector-baldeon-5591792a
+  tema: ambiente
+  resumen: Monitorear de forma permanente los gases contaminantes mediante medidores de monóxido de carbono y otros gases
+    en distintas zonas de la ciudad.
+  cita: monitoreo permanente de los gases contaminante, mediante la ubicación de medidores de monóxido de carbono y otros
+    gases, distribuidos por diferentes zonas de la ciudad
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.6.- Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos y depuración de las aguas
+      residuales.
+    pagina: 23
+  enfoques:
+  - ambiente-reducir-contaminacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'medidores... distribuidos por diferentes zonas' sin decir cuántos ni dónde.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «medidores de monóxido de carbono y otros gases» distribuidos por «diferentes zonas» no tienen
+          una cantidad ni una cobertura definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea ubicar "medidores de monóxido de carbono y otros gases, distribuidos por diferentes zonas de
+          la ciudad" sin indicar cuántos medidores ni en qué ubicaciones específicas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Monitoreo permanente'' no es un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Monitoreo permanente» describe la continuidad del servicio, pero no establece cuándo estarán instalados
+          u operativos los medidores.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Habla de un "monitoreo permanente", pero no indica el plazo o fecha en que los equipos estarán instalados.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ubicación de medidores de monóxido de carbono y otros gases» no incluye un costo ni una fuente
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No menciona cuánto costará adquirir e instalar los medidores ni de dónde saldrá el dinero.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control de la contaminación del aire es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «monitoreo permanente de los gases contaminante» corresponde a las funciones municipales de control
+          de la contaminación ambiental.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "Cuidado de la calidad del aire" y el monitoreo y control de la contaminación ambiental son competencias
+          municipales.
+- id: hector-baldeon-5ad545bd
+  tema: ambiente
+  resumen: Reforzar el control de las revisiones técnicas vehiculares, en especial de los buses de transporte público, para
+    reducir la contaminación del aire.
+  cita: se prestara mayor atención a las revisiones técnicas vehiculares, especialmente de los buses de transporte público
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.6.- Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos y depuración de las aguas
+      residuales.
+    pagina: 23
+  enfoques:
+  - ambiente-reducir-contaminacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Mayor atención a las revisiones técnicas'' es una intención vaga sin cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se prestara mayor atención a las revisiones técnicas vehiculares» no especifica cuántas revisiones
+          se realizarán ni qué mejora verificable se alcanzará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La frase "se prestara mayor atención a las revisiones técnicas vehiculares" es vaga y no establece
+          una cantidad, porcentaje ni resultado medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «se prestara mayor atención» no incluye una fecha ni una duración para cumplir la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no contiene ninguna referencia temporal sobre cuándo se implementará esta medida.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La atención a las «revisiones técnicas vehiculares» no viene acompañada de un monto ni de una fuente
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto de inversión ni fuente de financiamiento para las revisiones técnicas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La revisión técnica vehicular y el control de la contaminación son parte del tránsito y transporte
+          que gestiona el Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «revisiones técnicas vehiculares», especialmente de «buses de transporte público», corresponden
+          a las competencias municipales de tránsito y control ambiental.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El control del tránsito, el transporte público y las "revisiones técnicas vehiculares" son competencias
+          exclusivas municipales.
+- id: hector-baldeon-693b6ff6
+  tema: agua-servicios
+  resumen: Repotenciar las plantas de tratamiento y depuración de aguas residuales, en especial las cercanas a zonas habitadas,
+    y construir nuevas plantas.
+  cita: Repotenciar todas las plantas de tratamiento y depuración de las aguas residuales, especialmente aquellas que se encuentra
+    cerca de las zonas habitadas de la ciudad.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos mediante una Planta Procesadora
+      de Basura y construcción de nuevas Plantas de depuración de aguas residuales.
+    pagina: 27
+  enfoques:
+  - agua-servicios-potabilizar-depurar
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice "todas las plantas de tratamiento y depuración de las aguas residuales" de la ciudad, un conjunto
+          delimitado de infraestructura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Repotenciar todas las plantas» no permite conocer cuántas son ni establece un resultado técnico verificable
+          de la repotenciación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Promete 'Repotenciar todas las plantas de tratamiento y depuración de las aguas residuales' sin precisar
+          cuántas son ni su ubicación concreta.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni plazo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Repotenciar todas las plantas de tratamiento y depuración» no establece una fecha
+          o duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna mención temporal sobre cuándo finalizará la repotenciación de las plantas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La cita sobre «plantas de tratamiento y depuración de las aguas residuales» y su contexto no mencionan
+          costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala cuánto costará repotenciar las plantas ni cómo se financiarán las obras.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Alcantarillado y depuración de aguas residuales son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «plantas de tratamiento y depuración de las aguas residuales» forman parte de las competencias
+          municipales de alcantarillado y saneamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El alcantarillado y la 'depuración de las aguas residuales' constituyen competencias exclusivas del
+          gobierno municipal.
+- id: hector-baldeon-a220d494
+  tema: movilidad
+  resumen: Programar el reemplazo paulatino de las unidades de la Metrovía por unidades de motor eléctrico.
+  cita: la programación del remplazo paulatino de las unidades de transporte del sistema Metrovia, por unidades de motor eléctrico.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.6.- Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos y depuración de las aguas
+      residuales.
+    pagina: 23
+  enfoques:
+  - movilidad-transporte-limpio
+  - movilidad-transporte-publico
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Reemplazo paulatino" no dice cuántas unidades ni qué porcentaje.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «remplazo paulatino de las unidades de transporte del sistema Metrovia» no precisa cuántas unidades
+          se reemplazarán ni qué proporción de la flota.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea únicamente 'la programación del remplazo paulatino de las unidades de transporte del sistema
+          Metrovia' sin cuantificar cuántas unidades ni qué porcentaje de la flota se reemplazará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Paulatino" no es una fecha ni duración concreta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Remplazo paulatino» expresa gradualidad, pero no fija una fecha ni duración para completar la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión 'remplazo paulatino' es vaga y no fija una fecha ni año concreto de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La sustitución «por unidades de motor eléctrico» no incluye un monto, una fuente ni un mecanismo de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona el monto requerido ni el mecanismo de financiamiento para sustituir las unidades.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El transporte terrestre y el sistema Metrovía son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El reemplazo de «unidades de transporte del sistema Metrovia» corresponde a las competencias municipales
+          de tránsito y transporte terrestre.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La planificación, regulación y gestión del transporte público urbano como el 'sistema Metrovia' es
+          competencia exclusiva municipal.
+- id: hector-baldeon-b0187a0a
+  tema: ambiente
+  resumen: Realizar una campaña de arborización con árboles nativos de cada zona de la ciudad y especies que generen más oxígeno.
+  cita: Realizar una Campaña agresiva de arborización, con árboles nativos de cada zona de la ciudad y aquellos árboles que
+    generen más oxigenos.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.6.- Cuidado de la calidad del aire de la ciudad, Tratamiento de los desechos sólidos y depuración de las aguas
+      residuales.
+    pagina: 23
+  enfoques:
+  - ambiente-naturaleza-y-animales
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Campaña agresiva de arborización" no dice cuántos árboles ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Una «Campaña agresiva de arborización» con «árboles nativos» no fija cuántos árboles se plantarán ni
+          qué superficie se cubrirá.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone 'Realizar una Campaña agresiva de arborización' sin cuantificar el número de árboles a sembrar
+          ni la superficie a cubrir.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Realizar una Campaña agresiva de arborización» no incorpora una fecha ni una duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No hay ninguna referencia a fechas o plazos de ejecución para la campaña de arborización.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Campaña agresiva de arborización» y el contexto de «Cuidado de la calidad del aire» no especifican
+          costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica con qué recursos ni con qué presupuesto se costeará la campaña.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Arborización y espacio público son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «arborización» de zonas de la ciudad corresponde a las funciones municipales de gestión ambiental
+          y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La arborización urbana y el 'Cuidado de la calidad del aire de la ciudad' en espacios públicos corresponden
+          a la gestión municipal.
+- id: hector-baldeon-f03de2b4
+  tema: vivienda
+  resumen: Realizar cada dos años un estudio técnico de asentamientos irregulares para ampliar por ordenanza el área urbana,
+    permitiendo servicios básicos y legalización de terrenos.
+  cita: al menos un estudio técnico de los nuevos asentamientos irregulares, cada dos años para que mediante ordenanza municipal,
+    aprobar la extensión del área urbana de la ciudad, lo cual va a permitir la provisión de servicios básicos y legalización
+    de terrenos.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 5.5.-Estudio técnico y de impacto ambiental para establecer nuevos límites urbanos de Guayaquil, que permita mediante
+      ordenanza municipal, la provisión de servicios públicos básicos y legalización de terrenos, en las zonas irregulares.
+    pagina: 22
+  - texto: Realizar cada dos años un estudio técnico y de impacto ambiental, para identificar nuevos asentamientos ilegales
+      y ejercer el respectivo control de las áreas protegidas y zonas prohibidas.
+    pagina: 26
+  enfoques:
+  - vivienda-ordenar-territorio
+  - vivienda-legalizar-predios
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice "al menos un estudio técnico... cada dos años", una cantidad verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Al menos un estudio técnico de los nuevos asentamientos irregulares, cada dos años» establece una
+          cantidad mínima verificable de estudios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fija un resultado cuantificado al comprometer 'al menos un estudio técnico de los nuevos asentamientos
+          irregulares' por ciclo bianual.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Cada dos años" es una periodicidad y no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cada dos años» establece una periodicidad, pero no una fecha de cumplimiento ni un plazo contado desde
+          el inicio de la gestión.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La frase 'cada dos años' indica una periodicidad y no una fecha o hito concreto de cumplimiento para
+          aprobar la ordenanza.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «un estudio técnico» y la aprobación «mediante ordenanza municipal» no incluyen monto
+          ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se detalla el presupuesto ni la fuente de recursos para elaborar los estudios técnicos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Definir límites urbanos por ordenanza y legalizar terrenos es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Aprobar la extensión del área urbana» y posibilitar la «legalización de terrenos» corresponden a la
+          planificación territorial y regulación municipal del suelo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Definir mediante 'ordenanza municipal' la 'extensión del área urbana de la ciudad', la 'provisión de
+          servicios básicos y legalización de terrenos' es competencia exclusiva municipal.
+- id: hector-baldeon-64355547
+  tema: cultura
+  resumen: 'Transformar la Aerovía en una ruta turística "Aero-Turismo: Aire-Tierra-Río" que combine Aerovía, tren Durán-Bucay
+    y retorno fluvial a Guayaquil.'
+  cita: La propuesta consiste en transformar el concepto actual de la Aerovía, para que deje de ser únicamente un medio de
+    transporte público y se convierta en una experiencia turística integrada.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: '5.8.- Creación del Programa de Aero-Turismo: Aire-Tierra-Rio.'
+    pagina: 24
+  - texto: 'Tierra: viaje en el Tren Tradicional desde Durán hasta Bucay y regreso.'
+    pagina: 24
+  - texto: 'Río: retorno desde Durán hacia Guayaquil mediante transporte fluvial.'
+    pagina: 24
+  enfoques:
+  - cultura-desarrollar-turismo
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Transformar el concepto de la Aerovía'' en experiencia turística no da cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Convertir la Aerovía en una «experiencia turística integrada» describe un programa y su recorrido,
+          pero no cuantifica resultados ni plantea una obra física delimitada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone de forma conceptual "transformar el concepto actual de la Aerovía" en "una experiencia turística
+          integrada" sin definir indicadores ni cantidades verificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La transformación de la Aerovía en una «experiencia turística integrada» no tiene una fecha ni un plazo
+          de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna fecha, año ni horizonte concreto para concretar la transformación propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El «Programa de Aero-Turismo: Aire-Tierra-Rio» no identifica un monto ni un mecanismo de financiamiento.'
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala el costo de adecuar el servicio ni la fuente de los recursos necesarios.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La Aerovía y el turismo son gestionables por el Municipio, aunque incluya coordinación con el tren.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Transformar la Aerovía en una «experiencia turística integrada» se encuadra en las funciones municipales
+          de turismo y transporte, aunque requiera coordinación para los otros tramos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Según el contexto, la experiencia integrada incluye el "viaje en el Tren Tradicional desde Durán hasta
+          Bucay", cuya operación ferroviaria e intercantonal excede la jurisdicción del Municipio de Guayaquil.
+- id: hector-baldeon-8350042c
+  tema: vivienda
+  resumen: Construir viviendas de interés social para reducir en un 10% el déficit habitacional, con el propósito de alcanzar
+    20.000 soluciones habitacionales.
+  cita: el propósito del programa de vivienda es alcanzar a reducir en un 10% el déficit habitacional de Guayaquil, mediante
+    programas de construcción de viviendas de interés social
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: 5.7.- Potenciar el programa de vivienda de interés social, junto con los programas de remodelación de casas en
+      los sectores populares de Guayaquil.
+    pagina: 24
+  - texto: Alcanzar a reducir en un 10% el déficit habitacional de Guayaquil, con el propósito de alcanzar las 20.000 soluciones
+      habitacionales.
+    pagina: 27
+  enfoques:
+  - vivienda-facilitar-acceso
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Plantea 'reducir en un 10% el déficit habitacional' con 20.000 soluciones habitacionales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Se propone «reducir en un 10% el déficit habitacional de Guayaquil» y alcanzar «20.000 soluciones habitacionales».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Establece resultados cuantificables al proponer "reducir en un 10% el déficit habitacional de Guayaquil"
+          y "alcanzar las 20.000 soluciones habitacionales".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica año ni duración para alcanzar el 10%.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La meta de «reducir en un 10% el déficit habitacional» no tiene una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica en qué año, fecha o etapa con duración se alcanzarán las soluciones habitacionales
+          prometidas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente para el programa de vivienda.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «programas de construcción de viviendas de interés social» no especifican costos ni fuentes de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican cuánto costará el programa ni con qué recursos se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vivienda de interés social es competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «programas de construcción de viviendas de interés social» corresponden a las funciones municipales
+          en vivienda y desarrollo urbano.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La ejecución de "programas de construcción de viviendas de interés social" forma parte de las funciones
+          municipales establecidas en el COOTAD.
+- id: hector-baldeon-96ad95b4
+  tema: vivienda
+  resumen: Impulsar un programa de remodelación de casas ubicadas en los sectores populares de la ciudad.
+  cita: así como también, el programa de remodelación de casa ubicadas en los sectores populares de la ciudad.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: 5.7.- Potenciar el programa de vivienda de interés social, junto con los programas de remodelación de casas en
+      los sectores populares de Guayaquil.
+    pagina: 24
+  enfoques:
+  - vivienda-mejorar-casas-barrios
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"El programa de remodelación de casa" no dice cuántas viviendas ni cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «programa de remodelación de casa ubicadas en los sectores populares» no indica cuántas viviendas
+          se remodelarán ni una cobertura concreta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra de forma general 'el programa de remodelación de casa ubicadas en los sectores populares'
+          y la intención de 'Potenciar' sin indicar cuántas viviendas serán intervenidas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «programa de remodelación de casa» no cuenta con fecha de cumplimiento ni duración especificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se establece ninguna fecha, etapa fechada ni horizonte puntual para ejecutar las remodelaciones.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni el «programa de remodelación» ni el contexto sobre «vivienda de interés social» identifican un monto
+          o mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto de inversión ni fuente de financiamiento para el programa.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vivienda de interés social es competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «remodelación de casas en los sectores populares de Guayaquil» se encuadra en las funciones municipales
+          de vivienda de interés social.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Ejecutar programas de 'vivienda de interés social' y mejoramiento habitacional en sectores populares
+          forma parte de las funciones municipales.
+- id: hector-baldeon-b647fc7b
+  tema: cultura
+  resumen: Firmar un convenio entre Guayaquil, Durán, Bucay y el gobierno central para crear una Entidad de Turismo Regional
+    que gestione la ruta turística integrada.
+  cita: los municipios de Guayaquil, Durán, Bucay y el gobierno central establecerán un convenio de cooperación que permita
+    crear una Entidad de Turismo Regional, responsable de planificar, coordinar y promocionar esta ruta turística integrada.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: '5.8.- Creación del Programa de Aero-Turismo: Aire-Tierra-Rio.'
+    pagina: 24
+  enfoques:
+  - cultura-desarrollar-turismo
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea un convenio para crear una 'Entidad de Turismo Regional' sin cantidad ni alcance medible más
+          allá de la entidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Crear una «Entidad de Turismo Regional» nombra una estructura organizativa, pero no establece una cantidad
+          de resultados ni una cobertura medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone "crear una Entidad de Turismo Regional" mediante un convenio, nombrando una instancia administrativa
+          sin fijar metas cuantitativas ni resultados medibles de su gestión.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «establecerán un convenio de cooperación» no señala cuándo se suscribirá ni cuándo se
+          creará la entidad.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona cuándo se firmará el convenio ni en qué fecha estará operativa la entidad.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «convenio de cooperación» se plantea para crear una entidad, pero no se identifica como mecanismo
+          de financiamiento ni contiene aportes o montos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica con qué presupuesto ni aportes se financiará la creación y operación de la entidad.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede suscribir convenios de cooperación para turismo con otros municipios y el gobierno
+          central.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Establecer un «convenio de cooperación» para «planificar, coordinar y promocionar» una ruta turística
+          corresponde a las funciones municipales de turismo y cooperación interinstitucional.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La promoción del turismo y la suscripción de un "convenio de cooperación" con otros municipios y el
+          gobierno central para mancomunar o coordinar rutas turísticas están dentro de las facultades municipales.
+- id: hector-baldeon-8541a949
+  tema: transparencia
+  resumen: Promover la capacitación y formación de la ciudadanía para su participación en las instancias municipales.
+  cita: promover la capacitación y formación de la ciudadanía para que actúen en las instancias de participación de la Municipalidad.
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5.9.- Rendición de Cuentas, Con la Participación Ciudadana.
+    pagina: 24
+  enfoques:
+  - transparencia-participacion-ciudadana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Promover la capacitación" es una intención genérica sin cantidad de personas ni cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promover la capacitación y formación de la ciudadanía» no establece cuántas personas se capacitarán
+          ni otro resultado cuantificado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se limita a una intención genérica al proponer 'promover la capacitación y formación de la ciudadanía'
+          sin indicar cantidad de beneficiarios ni alcance medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal alguna.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «promover la capacitación y formación de la ciudadanía» no indica fecha ni duración
+          para su cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto contienen referencia temporal alguna sobre cuándo se cumplirá la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «promover la capacitación y formación» ni el contexto «Rendición de Cuentas, Con la Participación
+          Ciudadana» identifican un monto o mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona cuánto costará la capacitación ni de qué fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana en instancias municipales es competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La formación para actuar «en las instancias de participación de la Municipalidad» pertenece a las funciones
+          municipales de participación ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fomentar que los ciudadanos 'actúen en las instancias de participación de la Municipalidad' es una
+          función propia del gobierno autónomo descentralizado municipal.
+- id: hector-baldeon-c7821fda
+  tema: transparencia
+  resumen: Hacer efectiva, mediante la Asamblea Cantonal, la intervención ciudadana en la planificación y el desarrollo territorial,
+    el control de la gestión y la rendición de cuentas.
+  cita: mediante la Asamblea Cantonal, hacer efectiva la intervención ciudadana en los procesos relacionado a la planificación
+    y desarrollo territorial, a fin de contribuir con el fortalecimiento de la democracia, el control de la gestión pública
+    y la rendición de cuentas.
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5.9.- Rendición de Cuentas, Con la Participación Ciudadana.
+    pagina: 24
+  enfoques:
+  - transparencia-participacion-ciudadana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo expresa la intención de 'hacer efectiva la intervención ciudadana' mediante la Asamblea Cantonal,
+          sin cantidad ni resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La intención de «hacer efectiva la intervención ciudadana» no establece una cantidad, cobertura ni
+          resultado concreto verificable.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Formula intenciones genéricas como 'hacer efectiva la intervención ciudadana' y 'contribuir con el
+          fortalecimiento de la democracia' sin establecer una cantidad o resultado medible.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No incluye fecha, duración ni hito temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La intervención «en los procesos relacionado a la planificación y desarrollo territorial» no tiene
+          una fecha ni una duración de ejecución.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no contiene ninguna referencia temporal o fecha límite para ejecutar la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a actuar «mediante la Asamblea Cantonal» identifica un espacio de participación, pero
+          no un monto ni una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona cuánto costará ni de dónde provendrán los recursos para su implementación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana, la rendición de cuentas y la planificación territorial son competencias
+          municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «intervención ciudadana» en la planificación territorial, el «control de la gestión pública y la
+          rendición de cuentas» corresponde a funciones municipales de participación y transparencia.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Corresponde al ámbito municipal gestionar la participación ciudadana mediante la 'Asamblea Cantonal'
+          en procesos de 'planificación y desarrollo territorial' y 'rendición de cuentas'.
+- id: hector-baldeon-41988a5e
+  tema: ambiente
+  resumen: Ejercer el control de las áreas protegidas y zonas prohibidas a partir de estudios bienales de identificación de
+    asentamientos ilegales.
+  cita: Realizar cada dos años un estudio técnico y de impacto ambiental, para identificar nuevos asentamientos ilegales y
+    ejercer el respectivo control de las áreas protegidas y zonas prohibidas.
+  pagina: 26
+  cita_verificada: true
+  contexto:
+  - texto: 6.- Plan de Trabajo Plurianual. –
+    pagina: 25
+  - texto: MATRIZ DEL PLAN DE TRABAJO PLURIANUAL
+    pagina: 25
+  enfoques:
+  - ambiente-naturaleza-y-animales
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice "un estudio técnico y de impacto ambiental" realizado "cada dos años", un producto verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Realizar cada dos años un estudio técnico y de impacto ambiental» fija como producto verificable un
+          estudio por cada intervalo indicado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Determina una cantidad concreta al proponer 'un estudio técnico y de impacto ambiental' en cada período
+          de revisión.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Cada dos años" es periodicidad y la matriz plurianual no da fechas específicas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cada dos años» es una periodicidad y el título «Plan de Trabajo Plurianual» no aporta una fecha concreta
+          de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La indicación 'cada dos años' dentro de un 'Plan de Trabajo Plurianual' expresa una periodicidad y
+          no un plazo con fecha determinada de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «un estudio técnico y de impacto ambiental» no incluye monto, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan el costo del estudio o la fuente de sus fondos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control del uso del suelo y de asentamientos y áreas protegidas es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Identificar nuevos asentamientos ilegales» y controlar «áreas protegidas y zonas prohibidas» se encuadran
+          en la regulación municipal del suelo y el control ambiental local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Identificar 'nuevos asentamientos ilegales y ejercer el respectivo control de las áreas protegidas
+          y zonas prohibidas' compete al control municipal del uso y ocupación del suelo.

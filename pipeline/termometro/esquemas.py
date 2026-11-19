@@ -109,3 +109,4 @@ class ResultadoDocumento(BaseModel):
     escaneado: bool
     verificadas: list[PropuestaVerificada]
     descartadas: list[PropuestaVerificada]
+    paginas: list[str] = []  # texto (o transcripción) por página: para verificar contexto agregado a mano

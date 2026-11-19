@@ -299,6 +299,8 @@ class Equipo:
     enfoques_propone: ProveedorIA
     enfoques_valida: ProveedorIA
     neutralidad: ProveedorIA
+    # Si el transcriptor se niega (p. ej. Gemini corta con RECITATION en documentos oficiales largos)
+    transcriptor_respaldo: ProveedorIA | None = None
 
 
 def equipo() -> Equipo:
@@ -313,5 +315,6 @@ def equipo() -> Equipo:
         # Jurado de Claude con un modelo más económico (opción C); el extractor sigue en Opus
         aj = a if cfg.modelo_jurado_anthropic == cfg.modelo_anthropic else AnthropicIA(cfg.modelo_jurado_anthropic)
     return Equipo(
-        extractor=a, transcriptor=g, cobertura=g, jurado=[aj, o, g], enfoques_propone=o, enfoques_valida=a, neutralidad=o
+        extractor=a, transcriptor=g, cobertura=g, jurado=[aj, o, g], enfoques_propone=o, enfoques_valida=a, neutralidad=o,
+        transcriptor_respaldo=aj,
     )

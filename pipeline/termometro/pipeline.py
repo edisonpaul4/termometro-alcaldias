@@ -19,7 +19,7 @@ from pathlib import Path
 import yaml
 
 from .cache import Cache, huella
-from .resumenes import datos_sin_respaldo
+from .resumenes import datos_sin_respaldo, uniformar
 from .citas import normalizar, verificar
 from .config import DIR_SALIDA, config
 from .consenso import consolidar, kappa_fleiss, resolver_humano
@@ -138,7 +138,14 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     if texto.escaneado:  # [0b] transcripción independiente del extractor
         p = cargar_prompt("transcripcion")
         sol = Solicitud("transcripcion", p.texto, "Transcribe el documento adjunto.", Transcripcion, pdf=pdf, extra={"paginas": paginas})
-        tr = cache.obtener("transcripcion", p.version, eq.transcriptor.modelo, texto.sha256, Transcripcion, lambda: llamar(eq.transcriptor, sol, Transcripcion))
+        try:
+            tr = cache.obtener("transcripcion", p.version, eq.transcriptor.modelo, texto.sha256, Transcripcion, lambda: llamar(eq.transcriptor, sol, Transcripcion))
+        except RuntimeError as e:
+            if isinstance(e, PresupuestoAgotado) or not eq.transcriptor_respaldo:
+                raise
+            resp = eq.transcriptor_respaldo
+            rep.errores.append(f"{c.id}: {eq.transcriptor.modelo} no transcribió ({str(e)[:120]}); se usó {resp.modelo}")
+            tr = cache.obtener("transcripcion", p.version, resp.modelo, texto.sha256, Transcripcion, lambda: llamar(resp, sol, Transcripcion))
         paginas = tr.paginas or paginas
 
     ids_temas = [t.id for t in temas]
@@ -181,12 +188,18 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     extraidas = "\n".join(f"- [{v.tema}] {v.resumen}" for v in verificadas.values())
     usuario = p.render(TEMAS_IDS=", ".join(ids_temas), EXTRAIDAS=extraidas, PAGINAS=paginas_marcadas(paginas))
     sol = Solicitud("cobertura", "", usuario, Extraccion, extra={"paginas": paginas})
-    cob = cache.obtener("cobertura", p.version, eq.cobertura.modelo, huella([texto.sha256, sorted(verificadas)]), Extraccion, lambda: llamar(eq.cobertura, sol, Extraccion))
-    incorporar(cob.propuestas, "cobertura")
+    try:
+        cob = cache.obtener("cobertura", p.version, eq.cobertura.modelo, huella([texto.sha256, sorted(verificadas)]), Extraccion, lambda: llamar(eq.cobertura, sol, Extraccion))
+        incorporar(cob.propuestas, "cobertura")
+    except RuntimeError as e:  # la cobertura es una segunda vuelta: si falla, se publica lo ya verificado
+        if isinstance(e, PresupuestoAgotado):
+            raise
+        rep.errores.append(f"{c.id}: auditoría de cobertura no disponible ({str(e)[:120]})")
 
     rep.documentos[c.id] = {"paginas": len(paginas), "escaneado": texto.escaneado, "verificadas": len(verificadas), "descartadas": len(descartadas)}
     rep.descartadas += descartadas
-    return ResultadoDocumento(candidato=c.id, sha256=texto.sha256, escaneado=texto.escaneado, verificadas=list(verificadas.values()), descartadas=descartadas)
+    return ResultadoDocumento(candidato=c.id, sha256=texto.sha256, escaneado=texto.escaneado, verificadas=list(verificadas.values()),
+                              descartadas=descartadas, paginas=paginas)
 
 
 # ─── [4] Jurado ─────────────────────────────────────────────────────────────
@@ -337,6 +350,13 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
             pv.resumen = ed["resumen"]
         if ed.get("tema"):
             pv.tema = ed["tema"]
+        pv.resumen = uniformar(pv.resumen)  # mismo tono para todas las candidaturas
+        for f in ed.get("contexto_extra") or []:  # contexto que el extractor no copió; se verifica literal
+            r = verificar(f["texto"], docs[pv.candidato].paginas, int(f["pagina"]), minimo=8)
+            if not r.verificada:
+                rep.errores.append(f"{pv.id}: contexto_extra no está literal en el plan: {f['texto'][:80]!r}")
+            elif all(normalizar(x.texto) != normalizar(f["texto"]) for x in pv.contexto):
+                pv.contexto.append(FragmentoContexto(texto=f["texto"], pagina=r.pagina))
         if faltan := datos_sin_respaldo(pv.resumen, pv.cita, [f.texto for f in pv.contexto]):
             rep.errores.append(f"{pv.id}: el resumen trae datos sin respaldo en la cita ni el contexto ({', '.join(faltan)}): corregir en revision.yaml")
 

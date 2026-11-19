@@ -21,7 +21,7 @@ plan_trabajo:
 propuestas:
 - id: bernardo-jijon-c420cc1a
   tema: empleo
-  resumen: Facilitará el acceso a financiamiento para emprendimientos y la empleabilidad juvenil mediante programas de primer
+  resumen: Facilitar el acceso a financiamiento para emprendimientos y la empleabilidad juvenil mediante programas de primer
     empleo.
   cita: facilitar el acceso a financiamiento para emprendimientos y mejorar la empleabilidad juvenil mediante programas de
     primer empleo.
@@ -103,7 +103,7 @@ propuestas:
           a la función municipal de promover el desarrollo económico local.
 - id: bernardo-jijon-67215e18
   tema: inclusion
-  resumen: Cerrará los compromisos de infraestructura social pendientes de administraciones anteriores.
+  resumen: Cerrar los compromisos de infraestructura social pendientes de administraciones anteriores.
   cita: Cerrar los compromisos de infraestructura social pendientes de administraciones anteriores.
   pagina: 5
   cita_verificada: true
@@ -183,7 +183,7 @@ propuestas:
           propio gobierno local corresponde directamente a la gestión municipal.
 - id: bernardo-jijon-78c9bb43
   tema: inclusion
-  resumen: Fortalecerá los servicios de cuidado y de desarrollo infantil de responsabilidad municipal.
+  resumen: Fortalecer los servicios de cuidado y de desarrollo infantil de responsabilidad municipal.
   cita: fortalecer los servicios de cuidado, salud mental y desarrollo infantil de responsabilidad municipal.
   pagina: 5
   cita_verificada: true
@@ -270,7 +270,7 @@ propuestas:
           infantil de responsabilidad municipal", que forman parte de las funciones sociales del Municipio.
 - id: bernardo-jijon-8ed4a239
   tema: movilidad
-  resumen: Creará la Cuenta Ciudad, una tarjeta y billetera digital única para el sistema integrado de transporte que permite
+  resumen: Crear la Cuenta Ciudad, una tarjeta y billetera digital única para el sistema integrado de transporte que permite
     subsidio a la persona y recaudo por kilómetro.
   cita: 'Cuenta Ciudad: tarjeta y billetera digital única para el sistema integrado de transporte'
   pagina: 7
@@ -350,7 +350,7 @@ propuestas:
           exclusiva municipal de transporte público.
 - id: bernardo-jijon-aa1ce64d
   tema: riesgos
-  resumen: Medirá la subsidencia del suelo en Solanda y Turubamba mediante interferometría satelital del programa Copernicus.
+  resumen: Medir la subsidencia del suelo en Solanda y Turubamba mediante interferometría satelital del programa Copernicus.
   cita: Interferometría satelital (programa Copernicus) para medir subsidencia del suelo
   pagina: 7
   cita_verificada: true
@@ -433,7 +433,7 @@ propuestas:
           de riesgos y control del suelo.
 - id: bernardo-jijon-d112ff35
   tema: riesgos
-  resumen: Instalará sensores de alerta temprana multiamenaza (pluviómetros, inclinómetros y nivel de quebrada) con alertas
+  resumen: Instalar sensores de alerta temprana multiamenaza (pluviómetros, inclinómetros y nivel de quebrada) con alertas
     georreferenciadas por telefonía móvil.
   cita: 'Sensores de alerta temprana multiamenaza: pluviómetros, inclinómetros y nivel de quebrada'
   pagina: 7
@@ -514,8 +514,8 @@ propuestas:
           municipal de gestión de riesgos.
 - id: bernardo-jijon-e4410653
   tema: movilidad
-  resumen: Implementará semaforización adaptativa con prioridad al bus y GPS de la flota en datos abiertos, incluyendo la
-    Av. Simón Bolívar con carril de alta ocupación.
+  resumen: Implementar semaforización adaptativa con prioridad al bus y GPS de la flota en datos abiertos, incluyendo la Av.
+    Simón Bolívar con carril de alta ocupación.
   cita: Semaforización adaptativa con prioridad al bus y GPS de flota en dato abierto
   pagina: 7
   cita_verificada: true
@@ -600,7 +600,7 @@ propuestas:
           de la competencia exclusiva municipal en tránsito y transporte terrestre.
 - id: bernardo-jijon-5f70bbb4
   tema: transparencia
-  resumen: Reordenará el presupuesto municipal según las prioridades del plan, con cinco criterios, entre ellos más inversión
+  resumen: Reordenar el presupuesto municipal según las prioridades del plan, con cinco criterios, entre ellos más inversión
     en seguridad y riesgos y reducción del gasto administrativo.
   cita: Reordenamiento del presupuesto municipal conforme a las prioridades de este plan.
   pagina: 8
@@ -690,7 +690,7 @@ propuestas:
           directamente en manos del Municipio.
 - id: bernardo-jijon-8f73b5d1
   tema: seguridad
-  resumen: Pondrá en marcha un plan de carrera y una escala salarial para los agentes de control metropolitano.
+  resumen: Poner en marcha un plan de carrera y una escala salarial para los agentes de control metropolitano.
   cita: Puesta en marcha del plan de carrera y escala salarial de los agentes de control.
   pagina: 8
   cita_verificada: true
@@ -772,7 +772,7 @@ propuestas:
           competencias del Municipio.
 - id: bernardo-jijon-a27effc8
   tema: transparencia
-  resumen: Diseñará y arrancará una capa municipal de intercambio de datos sobre software libre tipo X-Road, federable con
+  resumen: Diseñar y arrancará una capa municipal de intercambio de datos sobre software libre tipo X-Road, federable con
     la capa nacional, financiada principalmente con ahorro de gasto administrativo.
   cita: Diseño y arranque de la capa municipal de intercambio de datos sobre software libre (arquitectura tipo X-Road), federable
     con la capa nacional cuando esta se encuentre operativa.
@@ -867,8 +867,8 @@ propuestas:
           está plenamente en manos del Municipio.
 - id: bernardo-jijon-a60c584c
   tema: transparencia
-  resumen: Propondrá una ordenanza de simplificación de trámites por nivel de riesgo, con declaración jurada y control posterior,
-    plazos máximos publicados y certificado automático de silencio administrativo.
+  resumen: Una ordenanza de simplificación de trámites por nivel de riesgo, con declaración jurada y control posterior, plazos
+    máximos publicados y certificado automático de silencio administrativo.
   cita: Ordenanza metropolitana de simplificación de trámites por nivel de riesgo, que sustituye la autorización previa por
     declaración jurada y control posterior en el nivel bajo, fija término máximo publicado y ordena la emisión automática
     del certificado de silencio administrativo cuando el término vence.
@@ -959,7 +959,7 @@ propuestas:
           es competencia propia del Concejo y del Municipio.
 - id: bernardo-jijon-a8612365
   tema: seguridad
-  resumen: Reponderará los Puestos de Mando Operativo según incidencia real, priorizando La Delicia, Quitumbe, Eloy Alfaro
+  resumen: Reponderar los Puestos de Mando Operativo según incidencia real, priorizando La Delicia, Quitumbe, Eloy Alfaro
     y Calderón, con la meta de instalar los ocho PMO pendientes.
   cita: Reponderación de los Puestos de Mando Operativo con criterio de incidencia real, priorizando las zonas en riesgo alto
     (La Delicia, Quitumbe, Eloy Alfaro, Calderón).
@@ -1045,7 +1045,7 @@ propuestas:
           infraestructura operativa está al alcance de las competencias municipales de control y seguridad ciudadana.
 - id: bernardo-jijon-c08716cb
   tema: transparencia
-  resumen: Realizará un diagnóstico integral y una auditoría de los contratos y convenios vigentes al inicio de la gestión.
+  resumen: Realizar un diagnóstico integral y una auditoría de los contratos y convenios vigentes al inicio de la gestión.
   cita: Diagnóstico integral y auditoría de contratos y convenios vigentes al inicio de la gestión.
   pagina: 8
   cita_verificada: true
@@ -1129,7 +1129,7 @@ propuestas:
           está dentro de las facultades de control interno y transparencia del Municipio.
 - id: bernardo-jijon-cb663c98
   tema: transparencia
-  resumen: Emitirá una resolución para suprimir los requisitos documentales que el Municipio ya posee (Once-Only), empezando
+  resumen: Emitir una resolución para suprimir los requisitos documentales que el Municipio ya posee (Once-Only), empezando
     por los cinco trámites de mayor volumen.
   cita: 'Resolución de supresión de requisitos documentales que el propio Municipio ya posee (Once-Only), con la carga de
     la prueba invertida: la dependencia que quiera conservar un requisito debe justificar por qué no puede consultarlo internamente.'
@@ -1218,7 +1218,7 @@ propuestas:
           a la gestión interna y de trámites del Municipio.
 - id: bernardo-jijon-e263a4ee
   tema: seguridad
-  resumen: Impulsará la armonización del régimen del Cuerpo de Agentes de Control Metropolitano con el COESCOP y su modernización
+  resumen: Impulsar la armonización del régimen del Cuerpo de Agentes de Control Metropolitano con el COESCOP y su modernización
     tecnológica con cámaras corporales y sistemas de sanción.
   cita: Impulso de la armonización del régimen del Cuerpo de Agentes de Control Metropolitano con el COESCOP, y modernización
     tecnológica (cámaras corporales, sistemas de sanción).
@@ -1306,7 +1306,7 @@ propuestas:
           COESCOP y dotarlo de "cámaras corporales, sistemas de sanción" es atribución municipal.
 - id: bernardo-jijon-e646154a
   tema: seguridad
-  resumen: Realizará una encuesta metropolitana de victimización y publicará un tablero de ejecución presupuestaria por eje.
+  resumen: Realizar una encuesta metropolitana de victimización y publicará un tablero de ejecución presupuestaria por eje.
   cita: Encuesta metropolitana de victimización y tablero público de ejecución presupuestaria por eje.
   pagina: 8
   cita_verificada: true
@@ -1389,7 +1389,7 @@ propuestas:
           compete al Municipio en materia de seguridad ciudadana y transparencia.
 - id: bernardo-jijon-0d605166
   tema: rural
-  resumen: Creará una red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad, operados por
+  resumen: Crear una red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad, operados por
     terceros con pago por trámite completado, y la extenderá a servicios sociales.
   cita: Red de puntos de trámite asistido en parroquias rurales y barrios de menor conectividad, operados por terceros con
     pago por trámite completado y verificado.
@@ -1478,7 +1478,7 @@ propuestas:
           municipales" es competencia del Municipio.
 - id: bernardo-jijon-2b7e036c
   tema: inclusion
-  resumen: Fortalecerá la atención psicosocial y de salud mental comunitaria en coordinación con el Ministerio de Salud Pública.
+  resumen: Fortalecer la atención psicosocial y de salud mental comunitaria en coordinación con el Ministerio de Salud Pública.
   cita: Fortalecimiento de la atención psicosocial y de salud mental comunitaria, en coordinación con el Ministerio de Salud
     Pública.
   pagina: 9
@@ -1562,7 +1562,7 @@ propuestas:
           comunitaria, en coordinación con el Ministerio de Salud Pública".
 - id: bernardo-jijon-3f48b080
   tema: inclusion
-  resumen: Ampliará la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.
+  resumen: Ampliar la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.
   cita: Ampliación de la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.
   pagina: 9
   cita_verificada: true
@@ -1647,7 +1647,7 @@ propuestas:
           de inclusión y protección de derechos.
 - id: bernardo-jijon-53a4ba14
   tema: transparencia
-  resumen: Creará una credencial municipal única de acceso a servicios digitales y aceptará firma electrónica simple donde
+  resumen: Crear una credencial municipal única de acceso a servicios digitales y aceptará firma electrónica simple donde
     la ley no exija certificado acreditado.
   cita: Credencial municipal única de acceso a servicios digitales, que evita crear una cuenta distinta por cada sistema.
   pagina: 9
@@ -1733,7 +1733,7 @@ propuestas:
           del Municipio sobre sus propios trámites y servicios administrativos.
 - id: bernardo-jijon-72ce2658
   tema: empleo
-  resumen: Desarrollará un programa de certificación de competencias y formación dual con el sector productivo.
+  resumen: Desarrollar un programa de certificación de competencias y formación dual con el sector productivo.
   cita: Programa de certificación de competencias y formación dual con el sector productivo.
   pagina: 9
   cita_verificada: true
@@ -1817,7 +1817,7 @@ propuestas:
           dentro de las funciones municipales de fomento al desarrollo económico local.
 - id: bernardo-jijon-775388cc
   tema: vivienda
-  resumen: Titularizará asentamientos informales regularizables con brigadas notariales y registrales y silencio administrativo
+  resumen: Titularizar asentamientos informales regularizables con brigadas notariales y registrales y silencio administrativo
     positivo, con meta de 10.000 escrituras en tres años.
   cita: Titularización de asentamientos informales regularizables, con brigadas notariales y registrales y silencio administrativo
     positivo.
@@ -1905,7 +1905,7 @@ propuestas:
           municipales que pueden apoyarse en brigadas notariales.
 - id: bernardo-jijon-c106ddd5
   tema: movilidad
-  resumen: Estructurará el financiamiento de la extensión del Metro y de carriles de alta ocupación en los accesos metropolitanos
+  resumen: Estructurar el financiamiento de la extensión del Metro y de carriles de alta ocupación en los accesos metropolitanos
     más congestionados.
   cita: Estructuración financiera de la extensión del Metro y carriles de alta ocupación en los accesos metropolitanos de
     mayor congestión.
@@ -1993,7 +1993,7 @@ propuestas:
           de alta ocupación" son competencias del Distrito Metropolitano.
 - id: bernardo-jijon-d1a1ccea
   tema: seguridad
-  resumen: Establecerá un catastro obligatorio de cámaras e integrará cámaras privadas al centro de comando C5Q a cambio de
+  resumen: Establecer un catastro obligatorio de cámaras e integrará cámaras privadas al centro de comando C5Q a cambio de
     descuento en la Tasa de Seguridad, sin comprar hardware nuevo.
   cita: Catastro obligatorio de cámaras que enfocan el espacio público e integración de cámaras privadas al centro de comando
     municipal (C5Q) a cambio de descuento en la Tasa de Seguridad, sin inversión pública en hardware nuevo.
@@ -2080,7 +2080,7 @@ propuestas:
           descuentos en la "Tasa de Seguridad" son atribuciones municipales.
 - id: bernardo-jijon-d37f39fa
   tema: empleo
-  resumen: Implementará la formalización exprés de licencias de actividad económica en 72 horas, con tasa cero el primer año
+  resumen: Implementar la formalización exprés de licencias de actividad económica en 72 horas, con tasa cero el primer año
     en las zonas de mayor informalidad.
   cita: Formalización exprés de licencias de actividad económica (72 horas) con tasa cero el primer año en las zonas de mayor
     informalidad.
@@ -2171,7 +2171,7 @@ propuestas:
           definición de tasas municipales son competencias exclusivas del Municipio.
 - id: bernardo-jijon-da4824c0
   tema: vivienda
-  resumen: Implementará el Expediente Único de Edificación, que integra regulación, uso de suelo y licencia en un solo trámite
+  resumen: Implementar el Expediente Único de Edificación, que integra regulación, uso de suelo y licencia en un solo trámite
     con reloj público, asiento catastral automático y módulo patrimonial con plazo cierto.
   cita: Expediente Único de Edificación en su fase completa, con generación automática del asiento catastral al aprobar y
     módulo patrimonial para el Centro Histórico con plazo cierto.
@@ -2263,7 +2263,7 @@ propuestas:
           es competencia exclusiva del Municipio.
 - id: bernardo-jijon-dd9276de
   tema: empleo
-  resumen: Habilitará suelo productivo mediante alianza público-privada en la que el Municipio aporta suelo y norma.
+  resumen: Habilitar suelo productivo mediante alianza público-privada en la que el Municipio aporta suelo y norma.
   cita: Habilitación de suelo productivo mediante alianza público-privada, aportando el Municipio suelo y norma.
   pagina: 9
   cita_verificada: true
@@ -2345,7 +2345,7 @@ propuestas:
           directamente en las competencias municipales de uso del suelo y desarrollo económico local.
 - id: bernardo-jijon-e950d2ab
   tema: empleo
-  resumen: Creará un distrito financiero-tecnológico con incentivos zonales sobre patente y predial en polígonos de alta densidad
+  resumen: Crear un distrito financiero-tecnológico con incentivos zonales sobre patente y predial en polígonos de alta densidad
     empresarial.
   cita: Distrito financiero-tecnológico con incentivos zonales sobre patente y predial en polígonos de alta densidad empresarial.
   pagina: 9
@@ -2430,7 +2430,7 @@ propuestas:
           zonales sobre patente y predial" son competencias tributarias y urbanísticas municipales.
 - id: bernardo-jijon-f3dde7d0
   tema: seguridad
-  resumen: Intervendrá integralmente en los territorios con mayor violencia intrafamiliar redistribuyendo servicios por cercanía,
+  resumen: Intervenir integralmente en los territorios con mayor violencia intrafamiliar redistribuyendo servicios por cercanía,
     con meta de reducirla 20% en los núcleos críticos.
   cita: Intervención integral en los territorios de mayor violencia intrafamiliar, con redistribución de la oferta de servicios
     existente por cercanía real, no por división administrativa.
@@ -2519,8 +2519,8 @@ propuestas:
           a las funciones municipales.
 - id: bernardo-jijon-fcbfad7d
   tema: movilidad
-  resumen: Consolidará la Autoridad Metropolitana de Transporte reordenando competencias existentes sin nómina nueva, con
-    fórmula tarifaria técnica y pago por kilómetro.
+  resumen: Consolidar la Autoridad Metropolitana de Transporte reordenando competencias existentes sin nómina nueva, con fórmula
+    tarifaria técnica y pago por kilómetro.
   cita: Consolidación de la Autoridad Metropolitana de Transporte por reordenamiento de competencias existentes, sin nómina
     nueva, y fórmula tarifaria técnica.
   pagina: 9
@@ -2609,7 +2609,7 @@ propuestas:
           terrestre.
 - id: bernardo-jijon-0ca26a45
   tema: rural
-  resumen: Consolidará la Administración Zonal Chocó Andino con presupuesto y competencias propias.
+  resumen: Consolidar la Administración Zonal Chocó Andino con presupuesto y competencias propias.
   cita: Consolidación de la Administración Zonal Chocó Andino con presupuesto y competencias propias.
   pagina: 10
   cita_verificada: true
@@ -2693,7 +2693,7 @@ propuestas:
           en manos del Distrito Metropolitano.
 - id: bernardo-jijon-2aaa2ce8
   tema: transparencia
-  resumen: Consolidará financieramente los programas sociales y económicos iniciados durante la gestión.
+  resumen: Consolidar financieramente los programas sociales y económicos iniciados durante la gestión.
   cita: Consolidación financiera de los programas sociales y económicos iniciados.
   pagina: 10
   cita_verificada: true
@@ -2778,7 +2778,7 @@ propuestas:
           corresponde a la gestión presupuestaria y administrativa del Municipio.
 - id: bernardo-jijon-5a2b5195
   tema: espacio-publico
-  resumen: Establecerá la cesión de suelo verde o pago compensatorio por edificabilidad, destinado a un Fondo de Espacio Público.
+  resumen: Establecer la cesión de suelo verde o pago compensatorio por edificabilidad, destinado a un Fondo de Espacio Público.
   cita: Cesión de suelo verde o pago compensatorio por edificabilidad, con destino finalista a un Fondo de Espacio Público.
   pagina: 10
   cita_verificada: true
@@ -2862,7 +2862,7 @@ propuestas:
           municipales exclusivas sobre uso del suelo, construcciones y espacio público.
 - id: bernardo-jijon-6d90172a
   tema: agua-servicios
-  resumen: Construirá interceptores sanitarios en los tramos críticos de los ríos Machángara y Monjas antes de construir una
+  resumen: Construir interceptores sanitarios en los tramos críticos de los ríos Machángara y Monjas antes de construir una
     planta nueva, y priorizará la planta de tratamiento del río Monjas.
   cita: Obras de saneamiento previas (interceptores) en los tramos críticos de los ríos Machángara y Monjas
   pagina: 10
@@ -2951,7 +2951,7 @@ propuestas:
           son competencias exclusivas municipales.
 - id: bernardo-jijon-8487d9a8
   tema: transparencia
-  resumen: Realizará una evaluación integral del cumplimiento del plan con informe público de resultados por eje.
+  resumen: Realizar una evaluación integral del cumplimiento del plan con informe público de resultados por eje.
   cita: Evaluación integral del cumplimiento del plan, con informe público de resultados por cada eje.
   pagina: 10
   cita_verificada: true
@@ -3034,7 +3034,7 @@ propuestas:
           a las funciones municipales de transparencia y rendición de cuentas.
 - id: bernardo-jijon-8aff34e7
   tema: transparencia
-  resumen: Actualizará el PMDOT ante el Concejo Metropolitano incorporando metas de resultado auditables.
+  resumen: Actualizar el PMDOT ante el Concejo Metropolitano incorporando metas de resultado auditables.
   cita: Actualización del PMDOT ante el Concejo Metropolitano, incorporando metas de resultado auditables.
   pagina: 10
   cita_verificada: true
@@ -3121,7 +3121,7 @@ propuestas:
           gobierno autónomo descentralizado metropolitano.
 - id: bernardo-jijon-92b5e811
   tema: seguridad
-  resumen: Institucionalizará los mecanismos de control, veeduría y carrera del Cuerpo de Agentes de Control Metropolitano.
+  resumen: Institucionalizar los mecanismos de control, veeduría y carrera del Cuerpo de Agentes de Control Metropolitano.
   cita: Institucionalización de los mecanismos de control, veeduría y carrera del Cuerpo de Agentes de Control Metropolitano.
   pagina: 10
   cita_verificada: true
@@ -3204,7 +3204,7 @@ propuestas:
           del Municipio.
 - id: bernardo-jijon-a213faff
   tema: transparencia
-  resumen: Evaluará públicamente el porcentaje de trámites resueltos dentro del término y el número de sistemas integrados
+  resumen: Evaluar públicamente el porcentaje de trámites resueltos dentro del término y el número de sistemas integrados
     a la capa de datos.
   cita: Evaluación pública del porcentaje de trámites municipales resueltos dentro del término y del número de sistemas municipales
     efectivamente integrados a la capa de datos
@@ -3289,7 +3289,7 @@ propuestas:
           a la administración y transparencia del Municipio.
 - id: bernardo-jijon-bc1ec991
   tema: transparencia
-  resumen: Realizará una transición ordenada de la información de gestión hacia la ciudadanía y la siguiente administración.
+  resumen: Realizar una transición ordenada de la información de gestión hacia la ciudadanía y la siguiente administración.
   cita: Transición ordenada y transparente de la información de gestión hacia la ciudadanía y la siguiente administración.
   pagina: 10
   cita_verificada: true
@@ -3374,7 +3374,7 @@ propuestas:
           y la siguiente administración" depende directamente del propio Municipio.
 - id: bernardo-jijon-f24652cc
   tema: transparencia
-  resumen: Publicará un catálogo municipal de datos abiertos con calendario de publicación obligatorio.
+  resumen: Publicar un catálogo municipal de datos abiertos con calendario de publicación obligatorio.
   cita: Catálogo municipal de datos abiertos con calendario de publicación obligatorio, que cierra los vacíos de información
     identificados en el diagnóstico distrital.
   pagina: 10
@@ -3460,7 +3460,7 @@ propuestas:
           distrital" está plenamente en manos del Municipio.
 - id: bernardo-jijon-0d355b70
   tema: movilidad
-  resumen: Habilitará un carril reversible de alta ocupación en la Panamericana Norte (Calderón) mientras se estructura la
+  resumen: Habilitar un carril reversible de alta ocupación en la Panamericana Norte (Calderón) mientras se estructura la
     extensión del Metro.
   cita: Carril reversible de alta ocupación mientras se estructura la extensión del Metro
   pagina: 11
@@ -3545,7 +3545,7 @@ propuestas:
           del distrito competen al Municipio.
 - id: bernardo-jijon-3dd2d1a2
   tema: ambiente
-  resumen: Acelerará la disposición final de residuos, incluido el Cubeto 1 de El Inga con veeduría ciudadana, y plantas rurales
+  resumen: Acelerar la disposición final de residuos, incluido el Cubeto 1 de El Inga con veeduría ciudadana, y plantas rurales
     modulares en cabeceras parroquiales.
   cita: Acelerar el Cubeto 1 de El Inga con veeduría ciudadana; plantas rurales modulares en cabeceras parroquiales
   pagina: 11
@@ -3629,7 +3629,7 @@ propuestas:
           del Municipio.
 - id: bernardo-jijon-843503da
   tema: movilidad
-  resumen: Aplicará fiscalización automática del carril exclusivo del Trolebús en la Av. Maldonado (Guajaló-Santo Domingo).
+  resumen: Aplicar fiscalización automática del carril exclusivo del Trolebús en la Av. Maldonado (Guajaló-Santo Domingo).
   cita: Fiscalización automática del carril exclusivo del Trolebús
   pagina: 11
   cita_verificada: true
@@ -3715,7 +3715,7 @@ propuestas:
           de las competencias municipales de transporte terrestre.
 - id: bernardo-jijon-aba6b95b
   tema: ambiente
-  resumen: Exigirá control de polvo en canteras como condición de licencia en La Delicia.
+  resumen: Exigir control de polvo en canteras como condición de licencia en La Delicia.
   cita: control de polvo en canteras como condición de licencia
   pagina: 11
   cita_verificada: true
@@ -3800,7 +3800,7 @@ propuestas:
           municipales sobre uso del suelo, áridos y pétreos y control ambiental.
 - id: bernardo-jijon-e5300708
   tema: riesgos
-  resumen: Realizará un censo de vulnerabilidad estructural y conformará brigadas forestales comunitarias en El Panecillo,
+  resumen: Realizar un censo de vulnerabilidad estructural y conformará brigadas forestales comunitarias en El Panecillo,
     en el Centro Manuela Sáenz.
   cita: Censo de vulnerabilidad estructural; brigadas forestales comunitarias en El Panecillo
   pagina: 11
@@ -3886,7 +3886,7 @@ propuestas:
           El Panecillo» corresponde a las competencias municipales de control de construcciones y gestión de riesgos.
 - id: bernardo-jijon-276b49e2
   tema: transparencia
-  resumen: Promoverá veedurías ciudadanas en los procesos de contratación pública de mayor relevancia.
+  resumen: Promover veedurías ciudadanas en los procesos de contratación pública de mayor relevancia.
   cita: Veedurías ciudadanas en los procesos de contratación pública de mayor relevancia.
   pagina: 14
   cita_verificada: true
@@ -3968,7 +3968,7 @@ propuestas:
           contratación pública" municipales está dentro de las funciones del Municipio.
 - id: bernardo-jijon-466175fb
   tema: transparencia
-  resumen: 'Presentará un informe anual sobre la capa municipal de datos: sistemas integrados, requisitos suprimidos y tiempo
+  resumen: 'Presentar un informe anual sobre la capa municipal de datos: sistemas integrados, requisitos suprimidos y tiempo
     mediano de resolución por administración zonal.'
   cita: 'Informe anual específico sobre el estado de la capa municipal de intercambio de datos: número de sistemas integrados,
     requisitos suprimidos y tiempo mediano de resolución de trámites por administración zonal.'
@@ -4055,7 +4055,7 @@ propuestas:
           y medir trámites "por administración zonal" depende exclusivamente de la gestión administrativa del Municipio.
 - id: bernardo-jijon-4f6c901d
   tema: transparencia
-  resumen: Realizará sesiones informativas abiertas en las administraciones zonales para rendir cuentas en el territorio.
+  resumen: Realizar sesiones informativas abiertas en las administraciones zonales para rendir cuentas en el territorio.
   cita: Sesiones informativas abiertas en las administraciones zonales, para acercar la rendición de cuentas al territorio.
   pagina: 14
   cita_verificada: true
@@ -4139,8 +4139,8 @@ propuestas:
           está plenamente en manos de la administración municipal.
 - id: bernardo-jijon-5842b293
   tema: transparencia
-  resumen: Habilitará canales digitales de acceso a la información municipal con ejecución presupuestaria desagregada por
-    área y sector.
+  resumen: Habilitar canales digitales de acceso a la información municipal con ejecución presupuestaria desagregada por área
+    y sector.
   cita: Canales digitales de acceso directo a la información municipal, con ejecución presupuestaria desagregada por área
     y sector.
   pagina: 14
@@ -4224,7 +4224,7 @@ propuestas:
           desagregada» depende exclusivamente de la gestión de transparencia del propio Municipio.
 - id: bernardo-jijon-5a585727
   tema: transparencia
-  resumen: Publicará periódicamente, en lenguaje ciudadano, el avance de los ejes Trabajo, Orden y Corazón.
+  resumen: Publicar periódicamente, en lenguaje ciudadano, el avance de los ejes Trabajo, Orden y Corazón.
   cita: 'Publicación periódica, en lenguaje ciudadano, del avance de cada uno de los tres ejes de este plan: Trabajo, Orden
     y Corazón.'
   pagina: 14
@@ -4305,7 +4305,7 @@ propuestas:
           la competencia municipal de transparencia.
 - id: bernardo-jijon-90f02a3b
   tema: transparencia
-  resumen: Creará un Observatorio de Gestión Municipal independiente con participación del Consejo de Participación Ciudadana
+  resumen: Crear un Observatorio de Gestión Municipal independiente con participación del Consejo de Participación Ciudadana
     y Control Social.
   cita: Observatorio de Gestión Municipal independiente, con participación del Consejo de Participación Ciudadana y Control
     Social.
@@ -4392,7 +4392,7 @@ propuestas:
           del Consejo de Participación Ciudadana y Control Social» entra en las funciones municipales.
 - id: bernardo-jijon-dfa1e914
   tema: transparencia
-  resumen: Publicará un tablero permanente de trámites con expedientes ingresados, resueltos dentro del término y tiempo mediano
+  resumen: Publicar un tablero permanente de trámites con expedientes ingresados, resueltos dentro del término y tiempo mediano
     por trámite y administración zonal.
   cita: 'Tablero público y permanente del propio trámite: cuántos expedientes ingresan, cuántos se resuelven dentro del término
     y el tiempo mediano por trámite y por administración zonal.'

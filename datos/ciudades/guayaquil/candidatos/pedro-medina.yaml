@@ -1,0 +1,3323 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: pedro-medina
+nombre: Pedro Medina
+lista: 4-12-20
+organizacion: Mano Firme
+foto: fuentes/ciudades/guayaquil/candidatos/pedro-medina/foto_2026-11-19.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/12104
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-19'
+  archivo: fuentes/ciudades/guayaquil/candidatos/pedro-medina/foto_2026-11-19.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/12104/8579
+    titulo: Plan de trabajo Pedro Medina — Alcaldía de Guayaquil 2026 (CNE)
+    consultado: '2026-11-19'
+    archivo: fuentes/ciudades/guayaquil/candidatos/pedro-medina/plan-de-trabajo_2026-11-19.pdf
+  paginas: 21
+  sha256: fd3e4abf37a10c2833d7836de9df0a4c94ce338cf3e58f4392d7dc2c7be524de
+propuestas:
+- id: pedro-medina-ba7a8282
+  tema: seguridad
+  resumen: Ejecutar un plan de expansión y mantenimiento del alumbrado público en coordinación con CNEL, con ampliación prevista
+    en 2028.
+  cita: Plan de expansión y mantenimiento del alumbrado público en coordinación con la empresa eléctrica (CNEL).
+  pagina: 6
+  cita_verificada: true
+  contexto:
+  - texto: Inicio de obras de saneamiento y servicios
+    pagina: 14
+  - texto: ampliación de alumbrado público
+    pagina: 14
+  - texto: Número de luminarias instaladas, reemplazadas o rehabilitadas.
+    pagina: 11
+  - texto: 2028 | Inicio de obras de saneamiento y servicios
+    pagina: 14
+  enfoques:
+  - seguridad-espacios-seguros
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea un "plan de expansión y mantenimiento del alumbrado" sin cantidad de luminarias ni cobertura;
+          el indicador no trae cifra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Número de luminarias instaladas, reemplazadas o rehabilitadas» identifica un indicador, pero no fija
+          cuántas luminarias se intervendrán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo se enuncia un "Plan de expansión y mantenimiento del alumbrado público" y el nombre del indicador
+          "Número de luminarias instaladas, reemplazadas o rehabilitadas", sin fijar ninguna meta numérica.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica el inicio en "2028", aunque solo para el inicio de obras de saneamiento y servicios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica la «ampliación de alumbrado público» en la etapa fechada «2028 | Inicio de obras
+          de saneamiento y servicios».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica la propuesta dentro de una etapa fechada del cronograma correspondiente a "2028 |
+          Inicio de obras de saneamiento y servicios".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «en coordinación con la empresa eléctrica (CNEL)» no identifica un aporte financiero,
+          un monto ni una fuente de pago.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican cuánto costará la "ampliación de alumbrado público" ni de qué partida
+          o fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El alumbrado público es municipal y la coordinación con CNEL no cambia que el Municipio pueda cumplirlo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Plan de expansión y mantenimiento del alumbrado público en coordinación con la empresa eléctrica»
+          permite una intervención municipal sobre el espacio público coordinada con la entidad eléctrica.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene atribuciones sobre el espacio público y servicios complementarios para ejecutar
+          obras de "ampliación de alumbrado público" "en coordinación con la empresa eléctrica (CNEL)".
+- id: pedro-medina-c2187908
+  tema: agua-servicios
+  resumen: Ampliar y modernizará la infraestructura de agua potable y alcantarillado sanitario, priorizando los sectores con
+    mayores brechas de cobertura y vulnerabilidad social.
+  cita: Garantizar el acceso universal, continuo y sostenible al agua potable y al alcantarillado sanitario mediante la ampliación
+    y modernización de la infraestructura, priorizando los sectores con mayores brechas de cobertura y
+  pagina: 10
+  cita_verificada: true
+  contexto:
+  - texto: 1. Agua potable y alcantarillado sanitario
+    pagina: 10
+  - texto: Porcentaje de población con acceso efectivo y continuo a agua potable segura.
+    pagina: 10
+  - texto: Continuidad de obras de agua y saneamiento en más sectores
+    pagina: 15
+  enfoques:
+  - agua-servicios-extender-redes
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''acceso universal'' no especifica cobertura numérica ni sectores, y el indicador del contexto no
+          tiene cifra.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Garantizar el acceso universal» al agua potable y al alcantarillado sanitario establece una meta de
+          cobertura total.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Formula el propósito general de "Garantizar el acceso universal, continuo y sostenible al agua potable
+          y al alcantarillado sanitario" acompañado de "Continuidad de obras de agua y saneamiento en más sectores" y un indicador
+          porcentual sin cifra meta.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Continuidad de obras de agua y saneamiento en más sectores» no fija una fecha ni una duración para
+          alcanzar el acceso universal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto contienen fecha, año o plazo alguno para alcanzar la cobertura propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ampliación y modernización de la infraestructura» no viene acompañada de un monto ni de una fuente
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica el monto de inversión ni las fuentes de financiamiento para la "ampliación y modernización
+          de la infraestructura".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Agua potable y alcantarillado son competencias exclusivas municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «agua potable» y el «alcantarillado sanitario» son servicios de competencia municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La provisión e infraestructura de "Agua potable y alcantarillado sanitario" son competencias exclusivas
+          del gobierno municipal.
+- id: pedro-medina-07256715
+  tema: espacio-publico
+  resumen: Implementar un programa progresivo de rehabilitación y mantenimiento de aceras, bordillos, alumbrado, parques y
+    plazas, priorizando zonas de mayor necesidad.
+  cita: Implementar un programa progresivo de rehabilitación y mantenimiento, priorizando zonas de mayor necesidad, mejorando
+    la accesibilidad peatonal, iluminación, seguridad y condiciones de uso de parques, plazas y áreas comunitarias.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 3. Aceras, bordillos, alumbrado y espacio público
+    pagina: 11
+  - texto: Kilómetros de aceras y bordillos rehabilitados por año.
+    pagina: 11
+  - texto: Número de espacios públicos recuperados y mantenidos.
+    pagina: 11
+  enfoques:
+  - espacio-publico-mejorar-espacios
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''programa progresivo de rehabilitación y mantenimiento'' no dice cuántos parques o plazas; los indicadores
+          del contexto no tienen cifra.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Kilómetros de aceras y bordillos rehabilitados por año» y «número de espacios públicos recuperados»
+          son indicadores sin valores objetivo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone un "programa progresivo de rehabilitación y mantenimiento" y enuncia indicadores como "Kilómetros
+          de aceras y bordillos rehabilitados por año" sin asignarles ninguna cifra meta.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''progresivo'' no fija fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programa progresivo» no fija una fecha de cumplimiento y «por año» solo expresa la periodicidad del
+          indicador.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Hablar de un "programa progresivo" o medir indicadores "por año" no define cuándo estará cumplida la
+          propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «programa progresivo de rehabilitación y mantenimiento» no menciona ningún monto ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto indican el costo o la fuente de financiamiento del programa de rehabilitación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Parques, plazas, aceras y alumbrado son espacio público municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La rehabilitación de «aceras, bordillos, alumbrado» y de «parques, plazas y áreas comunitarias» corresponde
+          a la gestión municipal del espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La intervención en "Aceras, bordillos, alumbrado y espacio público" así como en "parques, plazas y
+          áreas comunitarias" es competencia exclusiva municipal.
+- id: pedro-medina-1cf5fadb
+  tema: rural
+  resumen: Gestionar el mantenimiento de caminos vecinales mediante un convenio con la Prefectura del Guayas, mesa técnica
+    vial y priorización con productores; convenio firmado en el primer año.
+  cita: Firma de convenio de cooperación interinstitucional GAD municipal–Prefectura; mesa técnica vial; priorización con
+    asociaciones de productores.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Convenio vial firmado en el primer año; [•] km de caminos vecinales intervenidos.
+    pagina: 11
+  - texto: Sostener un primer acercamiento formal con las autoridades de la Prefectura del Guayas para iniciar la negociación
+      de un convenio de mantenimiento de caminos vecinales.
+    pagina: 15
+  - texto: Mesa técnica vial instalada, con cronograma de trabajo conjunto acordado entre ambas instituciones.
+    pagina: 15
+  - texto: Convenios con la Prefectura del Guayas | Mantenimiento y mejoramiento de caminos vecinales.
+    pagina: 14
+  enfoques:
+  - rural-conectar-comunidades
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea un convenio y una mesa técnica, pero los "[•] km de caminos vecinales" quedan sin cifra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Firma de convenio» y «mesa técnica vial» nombran instrumentos de coordinación, mientras que «[•] km»
+          deja sin definir la cantidad de caminos que se intervendrán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'Establece dos resultados concretos y verificables: "Convenio vial firmado" y "Mesa técnica vial instalada",
+          aunque deja en blanco los "[•] km de caminos vecinales".'
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Convenio vial firmado en el primer año".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece «Convenio vial firmado en el primer año».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto precisa explícitamente como plazo "Convenio vial firmado en el primer año".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica monto ni fuente para el convenio ni para el mantenimiento de caminos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «convenio de cooperación interinstitucional GAD municipal–Prefectura» no especifica aportes económicos,
+          montos ni un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto ni fuente de financiamiento específica para cubrir los compromisos del
+          convenio o la mesa técnica.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Firmar convenios con la Prefectura y priorizar caminos vecinales es algo que el Municipio puede hacer
+          en coordinación con otro nivel de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Firma de convenio de cooperación interinstitucional GAD municipal–Prefectura» y la instalación
+          de una «mesa técnica vial» son actuaciones municipales de coordinación, aunque la vialidad rural corresponda a la
+          Prefectura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El Municipio tiene facultades legales para suscribir convenios de cooperación interinstitucional ("Firma
+          de convenio de cooperación interinstitucional GAD municipal–Prefectura") para coordinar obras viales.
+- id: pedro-medina-eac4e936
+  tema: riesgos
+  resumen: Implementar un sistema integral de manejo de aguas lluvias para prevenir y responder a inundaciones, priorizando
+    sectores con mayor vulnerabilidad.
+  cita: Implementar un sistema integral, moderno y resiliente de manejo de aguas lluvias que permita prevenir, reducir y responder
+    oportunamente a las inundaciones, priorizando los sectores con mayor vulnerabilidad y exposición al riesgo.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 2. Sistema de aguas lluvias y gestión de riesgo de inundaciones
+    pagina: 11
+  - texto: Arranque de obras de alcantarillado y drenaje pluvial
+    pagina: 14
+  - texto: Banco de Desarrollo del Ecuador (crédito público) | Obras de agua potable, alcantarillado y drenaje pluvial de
+      mayor escala.
+    pagina: 14
+  enfoques:
+  - riesgos-mejorar-el-drenaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de "un sistema integral, moderno y resiliente" sin cantidad, cobertura ni ubicación concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Implementar un sistema integral, moderno y resiliente de manejo de aguas lluvias» no cuantifica obras,
+          cobertura o reducción de inundaciones ni delimita una obra física única.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea "Implementar un sistema integral, moderno y resiliente de manejo de aguas lluvias" sin precisar
+          qué obras específicas se harán, en qué sectores exactos ni con qué alcance cuantitativo.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Arranque de obras" no fija fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Arranque de obras de alcantarillado y drenaje pluvial» no contiene una fecha ni una duración para
+          cumplir la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La frase "Arranque de obras de alcantarillado y drenaje pluvial" carece de fecha, año o duración determinada.
+    financiamiento:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona "Banco de Desarrollo del Ecuador (crédito público)" para obras de drenaje pluvial.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto identifica al «Banco de Desarrollo del Ecuador (crédito público)» como fuente para obras
+          de «drenaje pluvial de mayor escala».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: 'El contexto identifica una fuente concreta de financiamiento para este tipo de intervenciones: "Banco
+          de Desarrollo del Ecuador (crédito público) | Obras de agua potable, alcantarillado y drenaje pluvial de mayor escala".'
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El alcantarillado y drenaje pluvial y la gestión de riesgos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «manejo de aguas lluvias» y las «obras de alcantarillado y drenaje pluvial» corresponden a los servicios
+          y la gestión de riesgos municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El alcantarillado pluvial, el "manejo de aguas lluvias" y la gestión de riesgos por inundaciones son
+          competencias exclusivas de los gobiernos municipales.
+- id: pedro-medina-092c0847
+  tema: vivienda
+  resumen: Actualizar y digitalizará el catastro, identificará zonas de riesgo y coordinará programas de regularización y
+    mejoramiento de vivienda.
+  cita: Actualizar y digitalizar progresivamente el catastro, identificar zonas de riesgo y sectores con necesidades habitacionales,
+    y coordinar programas de regularización, mejoramiento de vivienda e infraestructura básica.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: 6. Ordenamiento territorial, catastro y vivienda segura
+    pagina: 12
+  - texto: catastro en proceso de actualización
+    pagina: 14
+  - texto: Número de sectores o asentamientos diagnosticados y regularizados.
+    pagina: 12
+  enfoques:
+  - vivienda-ordenar-territorio
+  - vivienda-legalizar-predios
+  - vivienda-mejorar-casas-barrios
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Actualizar y digitalizar progresivamente el catastro'' no dice cuánto ni qué cobertura; el indicador
+          no tiene cifra.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Número de sectores o asentamientos diagnosticados y regularizados» no fija una cantidad objetivo y
+          «actualizar y digitalizar progresivamente el catastro» tampoco define cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea "Actualizar y digitalizar progresivamente el catastro" dejando el "catastro en proceso de actualización"
+          y cita el indicador "Número de sectores o asentamientos diagnosticados y regularizados" sin fijar una cantidad.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''progresivamente'' y ''en proceso de actualización'' no dan fecha.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Progresivamente» y «catastro en proceso de actualización» no establecen una fecha ni duración concreta
+          de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El adverbio "progresivamente" es vago y no señala una fecha ni plazo para completar la actualización
+          o los programas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Actualizar y digitalizar progresivamente el catastro» y «coordinar programas de regularización» no
+          identifican costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona cuánto costará ni cómo se financiará la actualización catastral y los programas habitacionales.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Catastro, uso del suelo y vivienda de interés social son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «catastro», la identificación de «zonas de riesgo» y los programas de «regularización, mejoramiento
+          de vivienda e infraestructura básica» corresponden a funciones municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El "Ordenamiento territorial, catastro y vivienda segura", así como la regularización de asentamientos
+          e infraestructura básica, son competencias propias del Municipio.
+- id: pedro-medina-3c47234a
+  tema: empleo
+  resumen: Crear programas de capacitación y apoyo a emprendedores y pequeños negocios y facilitará trámites municipales.
+  cita: Crear programas de capacitación y apoyo a emprendedores y pequeños negocios, facilitar trámites
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: 9. Economía productiva, empleo y turismo
+    pagina: 12
+  - texto: Número de ferias y espacios de promoción comercial realizados.
+    pagina: 13
+  enfoques:
+  - empleo-apoyo-a-emprendimientos
+  - empleo-gestion-y-servicios-digitales
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "crear programas de capacitación y apoyo" sin cuántos programas ni a cuántas personas llegarán.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Crear programas de capacitación y apoyo» no cuantifica programas ni beneficiarios, y «Número de ferias»
+          es un indicador sin valor objetivo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone de manera genérica "Crear programas de capacitación y apoyo a emprendedores" y menciona un
+          indicador sin meta numérica ("Número de ferias").
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Crear programas de capacitación y apoyo a emprendedores y pequeños negocios» no incluye una fecha
+          ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni su contexto incluyen fechas, años o fases temporales para ejecutar la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Crear programas de capacitación y apoyo» no señala cuánto costarán ni de dónde saldrán los recursos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no indica cuánto costarán los programas ni de dónde saldrán los fondos para financiarlos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local y trámites municipales son competencias del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «apoyo a emprendedores y pequeños negocios» y «facilitar trámites» encajan en el desarrollo económico
+          local y la gestión administrativa municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fomentar el desarrollo económico local mediante "programas de capacitación y apoyo a emprendedores"
+          y "facilitar trámites" municipales son competencias propias del GAD municipal.
+- id: pedro-medina-404fc11b
+  tema: ambiente
+  resumen: Ampliar la recolección de residuos a recintos alejados mediante rediseño de rutas, instalará puntos limpios y realizará
+    campañas de educación ambiental.
+  cita: Ampliar la cobertura de recolección de residuos a recintos alejados; impulsar reciclaje y educación ambiental.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Rediseño de rutas de recolección; puntos limpios; campañas educativas en escuelas y comunidad.
+    pagina: 12
+  - texto: '[•] % de recintos con recolección regular; puntos de reciclaje instalados.'
+    pagina: 12
+  - texto: ampliación de cobertura de recolección de residuos
+    pagina: 15
+  enfoques:
+  - ambiente-recoleccion-y-limpieza
+  - ambiente-reciclaje-y-aprovechamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: La meta "[•] % de recintos con recolección regular" está en blanco y "recintos alejados" no se cuantifica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «[•] % de recintos con recolección regular» deja el porcentaje sin definir y «puntos de reciclaje instalados»
+          no especifica una cantidad.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Usa verbos genéricos como "Ampliar" e "impulsar" y deja en blanco la cifra de resultado como "[•] %
+          de recintos con recolección regular".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración para la ampliación de cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ampliar la cobertura de recolección de residuos» e «impulsar reciclaje y educación ambiental» no tienen
+          una fecha ni un plazo asignado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan año, fecha o plazo para "Ampliar la cobertura de recolección de
+          residuos".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «rediseño de rutas de recolección», los «puntos limpios» y las «campañas educativas» no incluyen
+          montos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se detalla ningún monto ni fuente de financiamiento para el "Rediseño de rutas de recolección; puntos
+          limpios; campañas educativas".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La recolección de residuos y la educación ambiental son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «recolección de residuos», el «reciclaje» y la «educación ambiental» corresponden a competencias
+          y funciones municipales de gestión de desechos y protección ambiental.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El servicio de "recolección de residuos", el "reciclaje" y la gestión ambiental local son competencias
+          exclusivas del Municipio.
+- id: pedro-medina-64fc99c4
+  tema: inclusion
+  resumen: Complementar servicios del MSP y Mineduc con infraestructura de apoyo, transporte escolar, brigadas de salud en
+    recintos y programas para grupos prioritarios.
+  cita: Complementar los servicios del MSP y el Mineduc con infraestructura de apoyo, transporte escolar y programas para
+    niñez, adultos mayores y personas con discapacidad.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Convenios interinstitucionales; fortalecimiento del Consejo Cantonal de Protección de Derechos; brigadas de salud
+      en recintos.
+    pagina: 12
+  - texto: '[•] convenios interinstitucionales activos; brigadas de salud realizadas periódicamente.'
+    pagina: 12
+  enfoques:
+  - inclusion-salud-cercana
+  - inclusion-educacion-oportunidades
+  - inclusion-cuidados-proteccion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo "infraestructura de apoyo, transporte escolar y programas" sin cantidades; el indicador "[•] convenios"
+          está vacío.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Infraestructura de apoyo, transporte escolar y programas» no especifica cantidades, cobertura ni obras
+          concretas con ubicación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto enumera acciones genéricas como "infraestructura de apoyo, transporte escolar y programas"
+          y deja vacío el dato numérico en "[•] convenios interinstitucionales activos".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Brigadas de salud realizadas periódicamente» expresa periodicidad, no un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia a "brigadas de salud realizadas periódicamente" indica una periodicidad indeterminada
+          y no una fecha o plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Convenios interinstitucionales» no identifica aportes económicos, montos ni un mecanismo concreto
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta de "Complementar los servicios del MSP y el Mineduc" no señala costos referenciales ni
+          fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Complementar servicios nacionales con infraestructura, transporte y programas de inclusión está al
+          alcance municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Complementar los servicios del MSP y el Mineduc» con apoyos y programas de inclusión constituye una
+          actuación municipal complementaria, no la sustitución de los servicios nacionales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: '"Complementar los servicios del MSP y el Mineduc" mediante "Convenios interinstitucionales" y el "fortalecimiento
+          del Consejo Cantonal de Protección de Derechos" está dentro de las atribuciones municipales.'
+- id: pedro-medina-78f0e7e9
+  tema: cultura
+  resumen: Promover alianzas público-privadas y fortalecerá la promoción turística, cultural, gastronómica y comercial del
+    cantón.
+  cita: municipales, promover alianzas público-privadas y fortalecer la promoción turística, cultural, gastronómica y comercial
+    del cantón.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Número de proyectos o alianzas para promoción turística implementados.
+    pagina: 13
+  enfoques:
+  - cultura-desarrollar-turismo
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"fortalecer la promoción turística" es una intención genérica; el indicador no fija cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Número de proyectos o alianzas para promoción turística implementados» define un indicador, pero no
+          establece una cantidad objetivo.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Emplea verbos genéricos ('promover alianzas público-privadas y fortalecer la promoción turística')
+          y nombra un indicador vacío sin cifra ('Número de proyectos o alianzas... implementados').
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortalecer la promoción turística, cultural, gastronómica y comercial del cantón» no señala cuándo
+          deberá cumplirse.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna referencia a fechas, años o plazos de ejecución en la cita ni en su contexto.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"promover alianzas público-privadas" no nombra alianza concreta ni monto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promover alianzas público-privadas» no identifica una alianza concreta ni recursos asignados a esta
+          propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo propone genéricamente 'promover alianzas público-privadas' sin detallar una alianza concreta,
+          monto ni fuente específica.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Turismo, cultura y desarrollo económico local son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «promoción turística, cultural, gastronómica y comercial del cantón» corresponde a funciones municipales
+          de turismo, cultura y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Impulsar y 'fortalecer la promoción turística, cultural, gastronómica y comercial del cantón' forma
+          parte directa de las funciones municipales de turismo, cultura y desarrollo económico.
+- id: pedro-medina-9d2232c8
+  tema: seguridad
+  resumen: Instalar mesas de seguridad con Policía Nacional y ECU 911, fortalecerá la Unidad Municipal de Género y definirá
+    rutas de atención a la violencia.
+  cita: Mesas de seguridad con Policía Nacional y ECU 911; fortalecimiento de la Unidad Municipal de Género; rutas claras
+    de atención a la violencia.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: 11. Seguridad ciudadana, convivencia e igualdad de género
+    pagina: 13
+  - texto: Mesa de seguridad activa; unidad de género fortalecida y con protocolo de atención publicado.
+    pagina: 13
+  enfoques:
+  - seguridad-coordinacion-respuesta
+  - seguridad-prevencion-convivencia
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mesa de seguridad activa; unidad de género fortalecida" no dice cuánto ni qué resultado verificable,
+          con verbos genéricos como "fortalecimiento".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mesa de seguridad activa» y «unidad de género fortalecida y con protocolo de atención publicado» describen
+          mecanismos institucionales sin cantidades ni cobertura medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantea acciones e instancias genéricas como "Mesa de seguridad activa; unidad de género fortalecida
+          y con protocolo de atención publicado" sin metas cuantificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mesa de seguridad activa» y «protocolo de atención publicado» no están asociados a una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No indica ninguna fecha ni plazo para instalar las "Mesas de seguridad" o lograr el "fortalecimiento
+          de la Unidad Municipal de Género".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «mesas de seguridad» y el «fortalecimiento de la Unidad Municipal de Género» no tienen un monto
+          ni una fuente de financiamiento asignados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no señala cuánto costará ni cómo se financiará el "fortalecimiento de la Unidad Municipal
+          de Género" o las mesas de seguridad.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las mesas de seguridad, la Unidad Municipal de Género y las rutas de atención son funciones municipales,
+          con coordinación con Policía y ECU 911.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «mesas de seguridad con Policía Nacional y ECU 911» y la «Unidad Municipal de Género» corresponden
+          a coordinación de seguridad y protección municipal de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Articular "Mesas de seguridad con Policía Nacional y ECU 911" y gestionar el "fortalecimiento de la
+          Unidad Municipal de Género" son funciones propias del Municipio en seguridad ciudadana y protección de derechos.
+- id: pedro-medina-c4388308
+  tema: cultura
+  resumen: Recuperar espacios deportivos y culturales y creará escuelas deportivas y culturales itinerantes con convenios
+    con la Federación Deportiva.
+  cita: Recuperar y mantener espacios deportivos y culturales; crear escuelas deportivas y culturales itinerantes.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Convenios con la Federación Deportiva y casas culturales; programación permanente en cabecera cantonal y recintos.
+    pagina: 13
+  - texto: '[•] escuelas deportivas y culturales activas; espacios recreativos recuperados.'
+    pagina: 13
+  enfoques:
+  - cultura-impulsar-deporte
+  - cultura-ampliar-acceso-cultural
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Las metas "[•] escuelas deportivas y culturales activas" son un marcador vacío sin cifra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Espacios deportivos y culturales» y «[•] escuelas deportivas y culturales activas» no establecen cantidades
+          ni identifican espacios concretos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No fija una cantidad verificable para "Recuperar y mantener espacios deportivos y culturales" y deja
+          sin cifra el indicador de "[•] escuelas deportivas y culturales activas".
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "programación permanente", sin fecha ni duración de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programación permanente» describe continuidad de actividades, pero no una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La referencia a una "programación permanente" no establece una fecha ni un plazo para cumplir la recuperación
+          de espacios o la creación de escuelas.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los "convenios con la Federación Deportiva y casas culturales" no indican quién paga ni cuánto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «convenios con la Federación Deportiva y casas culturales» no especifican aportes económicos ni
+          un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Aunque menciona "Convenios con la Federación Deportiva y casas culturales", no señala montos ni fuentes
+          de financiamiento específicas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Espacios deportivos y culturales son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Recuperar y mantener espacios deportivos y culturales» y crear escuelas itinerantes son actuaciones
+          municipales en deporte, cultura y espacio público.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: '"Recuperar y mantener espacios deportivos y culturales" y crear escuelas en estas áreas forma parte
+          de las competencias municipales en cultura, deporte y espacio público.'
+- id: pedro-medina-fa709cec
+  tema: transparencia
+  resumen: Implementar digitalización de trámites, presupuesto participativo y una auditoría inicial de la gestión.
+  cita: Portal de transparencia; digitalización de trámites; presupuesto participativo; auditoría inicial de la gestión.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: 12. Gobierno municipal transparente, digital y participativo
+    pagina: 13
+  enfoques:
+  - transparencia-gestion-municipal
+  - transparencia-participacion-ciudadana
+  - transparencia-control-anticorrupcion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra tipos de programas ('Portal de transparencia; digitalización de trámites') sin cantidad
+          ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Portal de transparencia», «digitalización de trámites» y «auditoría inicial» nombran actuaciones sin
+          cantidades ni cobertura definida.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo enumera herramientas y procesos generales como "Portal de transparencia; digitalización de trámites;
+          presupuesto participativo" sin fijar cantidades ni alcance verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el título '12. Gobierno municipal transparente,
+          digital y participativo'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Auditoría inicial de la gestión» no establece una fecha ni una duración concreta para cumplir la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No establece ninguna fecha o duración concreta, pues mencionar una "auditoría inicial de la gestión"
+          es una referencia temporal vaga.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «portal de transparencia; digitalización de trámites; presupuesto participativo; auditoría
+          inicial» no identifica costos ni fuentes para financiar estas actuaciones.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan cuánto costará la propuesta ni de qué fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia, trámites municipales y participación ciudadana son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «portal de transparencia», la «digitalización de trámites» y el «presupuesto participativo» corresponden
+          a la administración y transparencia municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Implementar un "Portal de transparencia; digitalización de trámites; presupuesto participativo" corresponde
+          directamente a las funciones administrativas y de participación ciudadana del Municipio.
+- id: pedro-medina-0ffa88e0
+  tema: transparencia
+  resumen: Realizar en 2027 una auditoría de servicios, contratos y estado de obras en ejecución, con informe público.
+  cita: Auditoría de servicios, contratos y estado real de las obras en ejecución
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Auditoría publicada; convenio con la Prefectura en gestión.
+    pagina: 14
+  - texto: Informe público de auditoría y plan de continuidad de las obras en ejecución, publicado y disponible para la ciudadanía.
+    pagina: 15
+  - texto: Solicitar formalmente y auditar el presupuesto vigente, la deuda existente y las transferencias reales del municipio
+      inmediatamente al asumir el cargo
+    pagina: 17
+  - texto: 2027 | Ordenamiento, diagnóstico y atención inmediata
+    pagina: 14
+  enfoques:
+  - transparencia-control-anticorrupcion
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Aunque habla de un "Informe público de auditoría", la cita solo nombra una auditoría de "servicios,
+          contratos y estado real de las obras" sin decir cuántos contratos u obras ni qué alcance concreto, por lo que no
+          es medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Auditoría de servicios, contratos y estado real de las obras en ejecución» y el «Informe público
+          de auditoría» identifican productos, pero no cuantifican los servicios, contratos u obras que se auditarán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone una "Auditoría de servicios, contratos y estado real de las obras en ejecución" y un "Informe
+          público de auditoría" sin especificar cuántos servicios, contratos u obras serán auditados.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica la propuesta en "2027 | Ordenamiento, diagnóstico y atención inmediata", una fase
+          con año definido.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica la auditoría en la etapa «2027 | Ordenamiento, diagnóstico y atención inmediata»,
+          que establece un año específico para su cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica el cumplimiento de la propuesta en una etapa con año específico bajo el título "2027
+          | Ordenamiento, diagnóstico y atención inmediata".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento; "convenio con la Prefectura en gestión" no explica con
+          qué se paga la auditoría.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención «convenio con la Prefectura en gestión» no identifica un monto ni establece que ese convenio
+          financiará la auditoría.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan cuánto costará realizar la "Auditoría de servicios, contratos y
+          estado real de las obras en ejecución" ni de qué fuente saldrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Auditar los servicios, contratos y obras municipales y publicar el informe es transparencia y gestión
+          propia del Municipio, aunque busque un convenio con la Prefectura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Auditar «el presupuesto vigente, la deuda existente y las transferencias reales del municipio» y publicar
+          sus resultados corresponde a la administración y transparencia municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Revisar y publicar un "Informe público de auditoría y plan de continuidad de las obras en ejecución"
+          así como auditar "el presupuesto vigente" corresponde a la gestión administrativa y de transparencia propia del
+          Municipio.
+- id: pedro-medina-7f663997
+  tema: movilidad
+  resumen: Aplicar en 2027 un plan emergente de bacheo, limpieza y alumbrado como parte de la atención inmediata.
+  cita: plan emergente de bacheo, limpieza y alumbrado; primer acercamiento con Registro Civil y con la Prefectura del Guayas
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Ordenamiento, diagnóstico y atención inmediata
+    pagina: 14
+  - texto: 2027 | Ordenamiento, diagnóstico y atención inmediata
+    pagina: 14
+  enfoques:
+  - movilidad-vias-y-transito
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "plan emergente de bacheo, limpieza y alumbrado" y un "primer acercamiento" sin cantidades
+          ni resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan emergente de bacheo, limpieza y alumbrado» no cuantifica intervenciones ni identifica una
+          obra física única con ubicación o alcance.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta menciona un "plan emergente de bacheo, limpieza y alumbrado" sin cuantificar el alcance
+          físico o cobertura que tendrá dicha intervención.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica la propuesta en "2027".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta está situada en la etapa fechada «2027 | Ordenamiento, diagnóstico y atención inmediata».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto sitúa la ejecución de estas acciones en la fase con año específico "2027 | Ordenamiento,
+          diagnóstico y atención inmediata".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El texto del «plan emergente de bacheo, limpieza y alumbrado» no indica monto, fuente ni mecanismo
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún presupuesto, monto ni fuente de financiamiento para ejecutar el "plan emergente
+          de bacheo, limpieza y alumbrado".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Bacheo, limpieza y alumbrado son servicios municipales, aunque el acercamiento con Registro Civil y
+          Prefectura sea complementario.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «bacheo, limpieza y alumbrado» y el «primer acercamiento con Registro Civil y con la Prefectura»
+          son actuaciones de servicios locales y coordinación que puede realizar el Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Las tareas de "bacheo, limpieza" vial y realizar un "primer acercamiento" interinstitucional están
+          plenamente dentro de las competencias municipales.
+- id: pedro-medina-06e246d0
+  tema: inclusion
+  resumen: Gestionar con el Registro Civil jornadas de inscripción e identidad, con reunión inicial y cronograma de gestión.
+  cita: Reunión formal realizada con las autoridades competentes del Registro Civil y cronograma de gestión acordado.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: primeras jornadas de Registro Civil
+    pagina: 14
+  enfoques:
+  - inclusion-cuidados-proteccion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El resultado verificable es una 'Reunión formal realizada' con el Registro Civil y un 'cronograma de
+          gestión acordado'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Reunión formal realizada» y «cronograma de gestión acordado» describen actuaciones de coordinación
+          sin cuantificar jornadas ni personas atendidas.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona una "Reunión formal realizada" y un "cronograma de gestión acordado" para las "primeras jornadas
+          de Registro Civil", sin cuantificar resultados ni alcance de atención.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; 'primeras jornadas' es vago.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cronograma de gestión acordado» no proporciona fechas y «primeras jornadas de Registro Civil» tampoco
+          fija cuándo se cumplirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No establece ninguna fecha o plazo concreto para realizar la reunión ni las "primeras jornadas de Registro
+          Civil".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «reunión formal» con autoridades del Registro Civil y el «cronograma de gestión» no incluyen monto
+          ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no indica ningún monto ni fuente de financiamiento asociada a esta gestión.
+    competencia_municipal:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Depende del Registro Civil, entidad nacional, y solo promete reunión y gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta se limita a una «reunión» y un «cronograma de gestión» para las «primeras jornadas de
+          Registro Civil», cuya prestación depende de las autoridades nacionales competentes.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Se limita a gestionar servicios de otra entidad nacional mediante una "Reunión formal realizada con
+          las autoridades competentes del Registro Civil y cronograma de gestión acordado", cuyo cumplimiento depende de dicho
+          organismo estatal.
+- id: pedro-medina-2df08b29
+  tema: agua-servicios
+  resumen: Identificar puntos críticos y establecerá un plan de intervención prioritaria para agua potable, alcantarillado
+    sanitario y aguas lluvias en los primeros 100 días.
+  cita: dentificar puntos críticos y establecer un plan de intervención prioritaria para agua potable, alcantarillado sanitario
+    y aguas lluvias.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  - texto: Cronograma público de intervención emergente, con avance verificable en los puntos críticos priorizados.
+    pagina: 15
+  enfoques:
+  - agua-servicios-gestion-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Identificar puntos críticos y establecer un plan'' no dice cuántos puntos ni qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Identificar puntos críticos y establecer un plan de intervención prioritaria» no precisa cuántos puntos
+          se identificarán o intervendrán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Proponer "identificar puntos críticos y establecer un plan de intervención prioritaria" con un "cronograma
+          público" no precisa cuántos puntos se intervendrán ni dónde.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en la 'Agenda de los primeros 100 días', un plazo con duración definida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta está ubicada en la «Agenda de los primeros 100 días», que fija un plazo específico.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica expresamente esta propuesta dentro de la "Agenda de los primeros 100 días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «cronograma público de intervención emergente» no señala montos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica monto ni fuente de recursos para elaborar o ejecutar el "plan de intervención prioritaria
+          para agua potable, alcantarillado sanitario y aguas lluvias".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Agua potable, alcantarillado y aguas lluvias son servicios municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La planificación de intervenciones para «agua potable, alcantarillado sanitario y aguas lluvias» corresponde
+          a servicios de competencia municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Los servicios de "agua potable, alcantarillado sanitario y aguas lluvias" son competencias exclusivas
+          del gobierno autónomo descentralizado municipal.
+- id: pedro-medina-4975766a
+  tema: transparencia
+  resumen: Implementar un sistema de atención y seguimiento de solicitudes ciudadanas con plazos de respuesta.
+  cita: Implementar un sistema de atención y seguimiento de solicitudes ciudadanas con plazos de respuesta.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  enfoques:
+  - transparencia-gestion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''un sistema de atención y seguimiento de solicitudes'' es un tipo de sistema sin cantidad ni alcance
+          medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un sistema de atención y seguimiento de solicitudes ciudadanas» nombra un tipo de sistema sin cuantificar
+          cobertura ni resultados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un tipo de herramienta al proponer "Implementar un sistema de atención y seguimiento de
+          solicitudes ciudadanas con plazos de respuesta", sin especificar cobertura ni metas medibles.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto lo ubica en '4.3 Agenda de los primeros 100 días', que es una duración desde el inicio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica la implementación en la «Agenda de los primeros 100 días».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica explícitamente el cumplimiento de esta propuesta dentro de la "Agenda de los primeros
+          100 días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Implementar un sistema de atención y seguimiento» no especifica monto ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se detalla ningún presupuesto, costo ni fuente de financiamiento para implementar el sistema.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites y la atención ciudadana municipales son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «atención y seguimiento de solicitudes ciudadanas con plazos de respuesta» corresponde a la gestión
+          de trámites y participación ciudadana municipales.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Establecer "un sistema de atención y seguimiento de solicitudes ciudadanas" forma parte de la gestión
+          administrativa y de trámites propia del Municipio.
+- id: pedro-medina-6a2a1873
+  tema: vivienda
+  resumen: Identificar y georreferenciará las principales necesidades de cada sector urbano, periférico y rural en los primeros
+    100 días.
+  cita: Identificar y georreferenciar las principales necesidades de cada sector urbano, periférico y rural.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  enfoques:
+  - vivienda-ordenar-territorio
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "identificar y georreferenciar las principales necesidades" sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Identificar y georreferenciar las principales necesidades de cada sector» no establece una cantidad
+          ni delimita cuántos sectores se cubrirán.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo expresa una acción diagnóstica general ("Identificar y georreferenciar las principales necesidades
+          de cada sector") sin definir una cantidad, porcentaje o alcance concreto verificable.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto "Agenda de los primeros 100 días" ubica la propuesta en un plazo de 100 días.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta está ubicada en la «Agenda de los primeros 100 días».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica esta propuesta dentro de la sección "4.3 Agenda de los primeros 100 días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Identificar y georreferenciar» no viene acompañado de un monto ni de una fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan un monto, fuente presupuestaria o mecanismo de financiamiento para
+          esta actividad.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Identificar y georreferenciar necesidades del territorio es una actividad de planificación que el Municipio
+          puede hacer por sí mismo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Identificar y georreferenciar las principales necesidades» de los sectores corresponde a la planificación
+          territorial municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El levantamiento de información y planificación territorial para "Identificar y georreferenciar las
+          principales necesidades de cada sector" es función directa del Municipio.
+- id: pedro-medina-5150438b
+  tema: inclusion
+  resumen: Instalar mesas de trabajo con MSP, Ministerio de Educación y MAG para explorar convenios de cooperación en los
+    primeros 100 días.
+  cita: Instalar mesas de trabajo formales con el Ministerio de Salud Pública, el Ministerio de Educación y el Ministerio
+    de Agricultura y Ganadería para explorar posibles convenios de cooperación.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: Convenios interinstitucionales en fase de negociación activa con al menos dos de las tres carteras de Estado mencionadas.
+    pagina: 16
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  enfoques:
+  - inclusion-salud-cercana
+  - inclusion-educacion-oportunidades
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo propone "mesas de trabajo" para "explorar posibles convenios", sin resultado cuantificado; el
+          "al menos dos de las tres carteras" del contexto es un proceso, no un resultado verificable de obra o servicio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto exige «Convenios interinstitucionales en fase de negociación activa con al menos dos de
+          las tres carteras», lo que cuantifica el resultado esperado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto define un resultado concreto y cuantificado al establecer "Convenios interinstitucionales
+          en fase de negociación activa con al menos dos de las tres carteras de Estado mencionadas".
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Está ubicada en la "Agenda de los primeros 100 días", que tiene duración definida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta está incluida en la «Agenda de los primeros 100 días».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto ubica el cumplimiento de la propuesta dentro de la "4.3 Agenda de los primeros 100 días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Instalar mesas de trabajo formales» no identifica monto, fuente ni mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto mencionan cuánto costará instalar las "mesas de trabajo formales" ni con
+          qué fuente específica se financiarán.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Depende de ministerios nacionales y solo promete "explorar posibles convenios", sin que el resultado
+          esté en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Instalar mesas de trabajo formales» para explorar cooperación es una actuación de coordinación interinstitucional
+          que puede realizar el Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Convocar "mesas de trabajo formales" y negociar "convenios de cooperación" interinstitucional forma
+          parte de las facultades de gestión y articulación del Municipio.
+- id: pedro-medina-6b69f958
+  tema: transparencia
+  resumen: Publicar un portal de transparencia municipal con presupuesto, contratos y obras, funcionando en los primeros 100
+    días.
+  cita: Publicar el portal de transparencia municipal y presentar el primer informe público de gestión de la nueva administración.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: Portal de transparencia en funcionamiento y accesible a toda la ciudadanía del cantón.
+    pagina: 16
+  - texto: Portal de transparencia funcionando desde el primer año; presupuesto participativo implementado.
+    pagina: 13
+  - texto: 'Portal de transparencia municipal: publicación accesible de presupuesto, contratos, obras, avances, indicadores
+      y resultados.'
+    pagina: 20
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  enfoques:
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar "el portal de transparencia municipal" y "el primer informe público de gestión" son productos
+          únicos y verificables, con contenido descrito (presupuesto, contratos, obras).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Además del portal, la propuesta compromete un entregable individualizado y verificable al ofrecer «presentar
+          el primer informe público de gestión».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La cita compromete productos únicos y verificables consistentes en "Publicar el portal de transparencia
+          municipal y presentar el primer informe público de gestión".
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Está en la "Agenda de los primeros 100 días" y el contexto dice "funcionando desde el primer año".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La publicación del portal y la presentación del informe están ubicadas en la «Agenda de los primeros
+          100 días».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto establece un plazo concreto al incluir la propuesta en la "4.3 Agenda de los primeros 100
+          días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente para el portal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El texto sobre el «Portal de transparencia municipal» y el «primer informe público de gestión» no especifica
+          monto ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no indica el monto requerido ni la fuente de financiamiento para desarrollar y publicar el
+          "portal de transparencia municipal".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y rendición de cuentas son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «publicación accesible de presupuesto, contratos, obras, avances, indicadores y resultados» corresponde
+          a la transparencia de la propia gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La rendición de cuentas, el "informe público de gestión" y la transparencia administrativa son competencias
+          propias y directas del Municipio.
+- id: pedro-medina-d6036965
+  tema: seguridad
+  resumen: Realizar un diagnóstico participativo sobre seguridad, igualdad de género y espacio público, y elaborará un plan
+    de iluminación prioritaria.
+  cita: Realizar un diagnóstico participativo comunitario sobre seguridad ciudadana, igualdad de género y estado del espacio
+    público, con especial atención a la voz de las mujeres del cantón.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: Informe comunitario del diagnóstico y plan de iluminación prioritaria elaborado con base en los resultados obtenidos.
+    pagina: 16
+  enfoques:
+  - seguridad-espacios-seguros
+  - seguridad-coordinacion-respuesta
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Realizar un diagnóstico participativo'' no dice cuántos talleres, sectores o cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «diagnóstico participativo comunitario» y el «plan de iluminación prioritaria» nombran productos
+          sin cuantificar su cobertura ni las intervenciones resultantes.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Plantear "un diagnóstico participativo comunitario" y un "plan de iluminación prioritaria elaborado"
+          nombra documentos y procesos sin definir cobertura cuantificable ni alcance concreto.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «informe comunitario del diagnóstico» no tiene fecha ni duración asignada para su elaboración.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica en qué fecha o plazo estará listo el "informe comunitario del diagnóstico y plan de
+          iluminación prioritaria".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Realizar un diagnóstico participativo comunitario» no indica cuánto costará ni con qué fuente se financiará.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona el costo ni el origen de los fondos para realizar el "diagnóstico participativo
+          comunitario".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Seguridad ciudadana local, espacio público e iluminación son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diagnóstico sobre «seguridad ciudadana, igualdad de género y estado del espacio público» corresponde
+          a funciones municipales de participación, inclusión y seguridad local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Elaborar diagnósticos sobre "seguridad ciudadana, igualdad de género y estado del espacio público"
+          junto con un "plan de iluminación" corresponde a las funciones municipales.
+- id: pedro-medina-f7df5726
+  tema: agua-servicios
+  resumen: Elaborar diseños técnicos preliminares y un presupuesto referencial para proyectos de agua potable y alcantarillado
+    sanitario en el sector San José, dentro de los primeros 100 días.
+  cita: Elaborar los diseños técnicos preliminares de los proyectos de agua potable y alcantarillado sanitario destinados
+    al sector San José, incluyendo un presupuesto estimado referencial.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: 4.3 Agenda de los primeros 100 días
+    pagina: 15
+  - texto: Proyecto técnico preliminar y presupuesto estimado listos para su presentación a organismos de financiamiento.
+    pagina: 16
+  enfoques:
+  - agua-servicios-gestion-control
+  - agua-servicios-extender-redes
+  rubrica:
+    meta:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra los diseños técnicos preliminares y el presupuesto referencial de agua y alcantarillado para
+          el sector San José, un entregable concreto con ubicación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Elaborar los diseños técnicos preliminares» de agua potable y alcantarillado «destinados al sector
+          San José» define un entregable verificable para infraestructura con ubicación determinada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Define un entregable concreto y delimitado territorialmente al comprometer "los diseños técnicos preliminares
+          de los proyectos de agua potable y alcantarillado sanitario destinados al sector San José".
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Está en la "Agenda de los primeros 100 días", que da una duración contada desde el inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta aparece en la «Agenda de los primeros 100 días», que fija cuándo deben estar listos los
+          diseños.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: El contexto establece que la entrega se realizará dentro de la "Agenda de los primeros 100 días".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de un "presupuesto estimado referencial" a elaborar y de presentarlo a organismos de financiamiento,
+          pero sin monto ni fuente concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incluyendo un presupuesto estimado referencial» y su futura «presentación a organismos de financiamiento»
+          no indican un monto actual ni una fuente identificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Menciona elaborar un "presupuesto estimado referencial" para su futura "presentación a organismos de
+          financiamiento", pero no indica con qué recursos se pagará la elaboración de dichos diseños preliminares.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Agua potable y alcantarillado son competencias exclusivas municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «proyectos de agua potable y alcantarillado sanitario» corresponden a competencias municipales
+          de prestación y planificación de estos servicios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Planificar y diseñar "proyectos de agua potable y alcantarillado sanitario" es una competencia exclusiva
+          del Municipio.
+- id: pedro-medina-6e5ae474
+  tema: riesgos
+  resumen: Incorporar obligatoriamente el mapa cantonal de riesgos de inundación en el diseño de toda obra pública nueva,
+    especialmente en agua, alcantarillado y vivienda.
+  cita: Incorporar de manera obligatoria el mapa cantonal de riesgos de inundación en el diseño de toda obra pública nueva,
+    especialmente en los ejes de agua, alcantarillado y vivienda.
+  pagina: 17
+  cita_verificada: true
+  enfoques:
+  - riesgos-planificar-para-prevenir
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Toda obra pública nueva'' no precisa cuántas obras ni un resultado verificable concreto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «toda obra pública nueva» no identifica cuántas obras se cubrirán ni delimita un conjunto
+          conocido.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Prometer incorporar un requisito en "toda obra pública nueva" expresa una regla general sin cuantificar
+          obras ni precisar un resultado medible concreto.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La obligación de incorporar el mapa «en el diseño de toda obra pública nueva» no establece una fecha
+          para su implementación.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no incluye ninguna fecha ni plazo para "incorporar de manera obligatoria el mapa cantonal
+          de riesgos de inundación".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incorporar de manera obligatoria el mapa cantonal de riesgos» no incluye un costo ni una fuente de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La cita no señala cuánto costará ni con qué recursos se financiará la incorporación del "mapa cantonal
+          de riesgos de inundación".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El diseño de obras públicas municipales y el uso del suelo dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Incorporar el «mapa cantonal de riesgos de inundación» al diseño de obras se encuadra en las competencias
+          municipales de planificación territorial y gestión de riesgos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Regular el diseño de "toda obra pública nueva" municipal en "agua, alcantarillado y vivienda" y la
+          gestión de riesgos está dentro de las atribuciones del Municipio.
+- id: pedro-medina-c0ad0338
+  tema: transparencia
+  resumen: Convocar asambleas zonales desde el inicio de la gestión en la cabecera cantonal y los recintos.
+  cita: Mantener un diálogo permanente y convocar asambleas zonales desde el inicio mismo de la gestión, tanto en la cabecera
+    cantonal como en los recintos.
+  pagina: 17
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-ciudadana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"diálogo permanente" y "asambleas zonales" no indican cuántas ni dónde exactamente.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Convocar asambleas zonales» en «la cabecera cantonal» y «los recintos» no especifica cuántas asambleas
+          se realizarán ni una cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ofrece 'Mantener un diálogo permanente y convocar asambleas zonales' sin indicar cuántas asambleas
+          se realizarán ni en cuántos recintos.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"desde el inicio mismo de la gestión" es una referencia vaga.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Desde el inicio mismo de la gestión» es una referencia temporal vaga y no un plazo concreto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión 'desde el inicio mismo de la gestión' es una referencia temporal vaga que no constituye
+          un plazo concreto.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantener un diálogo permanente y convocar asambleas zonales» no incluye un monto ni una fuente de
+          financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún monto ni mecanismo de financiamiento para la convocatoria y realización de las
+          asambleas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana mediante asambleas es función municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Convocar asambleas zonales» y mantener el diálogo con la comunidad corresponden a las funciones municipales
+          de participación ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Fomentar el diálogo y 'convocar asambleas zonales... tanto en la cabecera cantonal como en los recintos'
+          corresponde a la competencia municipal de participación ciudadana.
+- id: pedro-medina-dffd5236
+  tema: transparencia
+  resumen: Evaluar la estructura orgánica municipal durante el primer año y fortalecerá las capacidades técnicas donde haya
+    mayores brechas.
+  cita: Realizar una evaluación de la estructura orgánica municipal durante el primer año de gestión y fortalecer las capacidades
+    técnicas allí donde se identifiquen las mayores brechas.
+  pagina: 17
+  cita_verificada: true
+  enfoques:
+  - transparencia-gestion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Propone "una evaluación de la estructura orgánica" y "fortalecer capacidades" sin cantidad o alcance
+          medible del fortalecimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Realizar una evaluación» y «fortalecer las capacidades técnicas» nombran actuaciones sin cuantificar
+          resultados ni cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Propone "una evaluación de la estructura orgánica municipal" y "fortalecer las capacidades técnicas"
+          con un verbo genérico, sin cuantificar un resultado verificable.
+    plazo:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "durante el primer año de gestión".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La evaluación de la estructura orgánica municipal se realizará «durante el primer año de gestión».
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Establece un plazo explícito al indicar que la evaluación se realizará "durante el primer año de gestión".
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «realizar una evaluación de la estructura orgánica municipal» no indica costos ni fuentes
+          de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La cita no menciona ningún costo estimado ni fuente de recursos para realizar la "evaluación de la
+          estructura orgánica municipal" o el fortalecimiento técnico.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Evaluar y fortalecer la estructura orgánica municipal es competencia interna del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar la «estructura orgánica municipal» y fortalecer sus capacidades técnicas son actuaciones de
+          administración interna del Municipio.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Evaluar la "estructura orgánica municipal" y "fortalecer las capacidades técnicas" internas depende
+          directamente de la administración del propio Municipio.
+- id: pedro-medina-3848a0e6
+  tema: inclusion
+  resumen: Impulsar programas de nutrición y desarrollo integral para la niñez dentro de las competencias municipales.
+  cita: Programas de nutrición y desarrollo integral, dentro de las competencias municipales.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 2. Niñez
+    pagina: 18
+  enfoques:
+  - inclusion-salud-cercana
+  - inclusion-cuidados-proteccion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra "Programas de nutrición y desarrollo integral" sin cantidad ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programas de nutrición y desarrollo integral» no especifica cantidades, cobertura ni resultados medibles.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta solo nombra de manera genérica "Programas de nutrición y desarrollo integral" sin especificar
+          cantidades, cobertura ni resultados verificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; solo el título "2. Niñez".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programas de nutrición y desarrollo integral» no incluye una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita "Programas de nutrición y desarrollo integral" ni el contexto "2. Niñez" incluyen fechas
+          o plazos de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Dentro de las competencias municipales» delimita la actuación, pero no identifica un monto ni una
+          fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto sobre "Programas de nutrición y desarrollo integral" no menciona ningún monto, presupuesto
+          ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Programas de nutrición y desarrollo infantil son de inclusión y protección de derechos, funciones municipales
+          como dice "dentro de las competencias municipales".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «programas de nutrición y desarrollo integral» para la «Niñez» corresponden a las funciones municipales
+          de inclusión y protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La ejecución de "Programas de nutrición y desarrollo integral, dentro de las competencias municipales"
+          para la "Niñez" se enmarca en las funciones municipales de inclusión y protección de derechos.
+- id: pedro-medina-4d424a77
+  tema: inclusion
+  resumen: Impulsar programas de capacitación técnica, apoyo al emprendimiento juvenil y vinculación con empresas y universidades
+    para jóvenes.
+  cita: La gestión municipal buscará generar oportunidades para estudiar, capacitarse, emprender, trabajar, practicar deporte
+    y participar.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: Programas de capacitación técnica y tecnológica.
+    pagina: 18
+  - texto: Apoyo al emprendimiento juvenil.
+    pagina: 18
+  - texto: Vinculación con empresas, universidades e instituciones de formación.
+    pagina: 18
+  enfoques:
+  - inclusion-educacion-oportunidades
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo expresa la intención "buscará generar oportunidades" sin cantidades ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Buscará generar oportunidades» y «Programas de capacitación técnica y tecnológica» no establecen cantidades,
+          cobertura ni un resultado delimitado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Usa verbos de intención general ("buscará generar oportunidades") y nombra tipos de iniciativas ("Programas
+          de capacitación", "Apoyo al emprendimiento juvenil") sin metas cuantificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La gestión municipal buscará generar oportunidades» no determina cuándo se cumplirá la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se especifica ningún plazo, fecha o cronograma para la creación o ejecución de estas oportunidades.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Vinculación con empresas, universidades e instituciones de formación» no especifica aportes económicos
+          ni un mecanismo de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se menciona ningún presupuesto, monto o fuente de financiamiento en la cita ni en el contexto.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Capacitación, emprendimiento y deporte están dentro de las funciones municipales de desarrollo económico,
+          inclusión y deporte.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Apoyo al emprendimiento juvenil» y los «Programas de capacitación técnica y tecnológica» pueden
+          desarrollarse mediante las funciones municipales de inclusión y desarrollo local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Impulsar la equidad e inclusión mediante "Programas de capacitación" y "Apoyo al emprendimiento juvenil"
+          forma parte de las funciones municipales de desarrollo social y económico.
+- id: pedro-medina-9b416d56
+  tema: inclusion
+  resumen: Promover oportunidades de capacitación, emprendimiento y desarrollo económico para las mujeres.
+  cita: Promover oportunidades de capacitación, emprendimiento y desarrollo económico para las mujeres.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 1. Género
+    pagina: 18
+  enfoques:
+  - inclusion-educacion-oportunidades
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Promover oportunidades'' es un verbo genérico sin cuántas mujeres ni qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promover oportunidades de capacitación, emprendimiento y desarrollo económico para las mujeres» expresa
+          una intención sin cantidad de beneficiarias ni resultado cuantificado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Expresa únicamente una intención genérica al proponer "Promover oportunidades de capacitación, emprendimiento
+          y desarrollo económico para las mujeres" sin indicar cuántas ni con qué alcance.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; solo el título '1. Género'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promover oportunidades de capacitación, emprendimiento y desarrollo económico» no establece ninguna
+          referencia temporal de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta no incluye ninguna fecha, año ni plazo para su ejecución.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «capacitación, emprendimiento y desarrollo económico para las mujeres» no menciona
+          costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala ningún costo estimado ni fuente de recursos para financiar estas oportunidades.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y la inclusión son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «capacitación, emprendimiento y desarrollo económico para las mujeres» se encuadra en las funciones
+          municipales de inclusión y desarrollo económico local.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Impulsar "capacitación, emprendimiento y desarrollo económico para las mujeres" se enmarca en las competencias
+          municipales de desarrollo económico local, equidad e inclusión.
+- id: pedro-medina-bdfa13fa
+  tema: inclusion
+  resumen: Desarrollar acciones de prevención de violencia, consumo de sustancias y exclusión social juvenil mediante programas
+    educativos, deportivos y comunitarios.
+  cita: Acciones de prevención de violencia, consumo problemático de sustancias y exclusión social, mediante programas educativos,
+    deportivos y comunitarios.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 3. Juventud
+    pagina: 18
+  enfoques:
+  - inclusion-cuidados-proteccion
+  - inclusion-salud-cercana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona "programas educativos, deportivos y comunitarios" sin cantidad, cobertura ni lugar.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «acciones de prevención» mediante «programas educativos, deportivos y comunitarios» no especifican
+          cantidades ni cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo menciona tipos generales de intervención como "Acciones de prevención" mediante "programas educativos,
+          deportivos y comunitarios", sin indicar cantidad ni alcance verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el contexto es solo "3. Juventud".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «acciones de prevención» no establece una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto sobre "3. Juventud" establecen una fecha, año o plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «programas educativos, deportivos y comunitarios» no tienen un monto ni una fuente de financiamiento
+          identificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún monto, presupuesto ni fuente de financiamiento para ejecutar los "programas
+          educativos, deportivos y comunitarios".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los programas educativos, deportivos y comunitarios de prevención e inclusión social corresponden a
+          funciones municipales de equidad, inclusión y deporte.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La prevención de «violencia, consumo problemático de sustancias y exclusión social» mediante actividades
+          comunitarias corresponde a funciones municipales de inclusión y protección de derechos.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La ejecución de "programas educativos, deportivos y comunitarios" orientados a la inclusión y prevención
+          social en "Juventud" entra dentro de las funciones municipales.
+- id: pedro-medina-d4c3d762
+  tema: inclusion
+  resumen: Fortalecer programas de actividad física, recreación, salud y espacios de encuentro para adultos mayores.
+  cita: La gestión municipal promoverá un envejecimiento activo, saludable, digno e integrado a la comunidad, reconociendo
+    el aporte de los adultos mayores a la sociedad.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: Programas de actividad física y recreación.
+    pagina: 19
+  - texto: Espacios comunitarios de encuentro y participación.
+    pagina: 19
+  enfoques:
+  - inclusion-cuidados-proteccion
+  - inclusion-salud-cercana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Promoverá un envejecimiento activo" es una intención genérica sin cantidades.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promoverá un envejecimiento activo» mediante «Programas de actividad física y recreación» no fija
+          cantidades de beneficiarios, programas o espacios.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Expresa una intención general ("promoverá un envejecimiento activo") y enumera tipos de acciones ("Programas
+          de actividad física", "Espacios comunitarios") sin indicar cuántos ni dónde.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La gestión municipal promoverá un envejecimiento activo» no incluye una fecha ni un plazo de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no incluye ninguna referencia temporal o fecha de cumplimiento para estos programas y espacios.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «Programas de actividad física y recreación» y los «Espacios comunitarios» no tienen monto ni fuente
+          de financiamiento identificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita ni el contexto indican costos estimados o fuentes de financiamiento para estas actividades.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Recreación, espacios comunitarios e inclusión de adultos mayores son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «Programas de actividad física y recreación» para adultos mayores se enmarcan en las funciones
+          municipales de inclusión, protección de derechos y deporte.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La atención a grupos de atención prioritaria como "los adultos mayores" mediante "Programas de actividad
+          física y recreación" está dentro de las competencias municipales de inclusión social.
+- id: pedro-medina-ed456b7d
+  tema: inclusion
+  resumen: Adecuar progresivamente aceras, parques y espacios públicos para accesibilidad e incorporará criterios de accesibilidad
+    universal en nuevas obras.
+  cita: Adecuación progresiva de aceras, bordillos, parques y espacios públicos para garantizar accesibilidad.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 5. Personas con discapacidad
+    pagina: 19
+  - texto: Incorporación de criterios de accesibilidad universal en nuevas obras y proyectos.
+    pagina: 19
+  enfoques:
+  - inclusion-accesibilidad-autonomia
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Adecuación progresiva de aceras, bordillos, parques y espacios públicos" no dice cuántos ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «adecuación progresiva de aceras, bordillos, parques y espacios públicos» no identifica cantidades,
+          ubicaciones ni cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Habla de una "Adecuación progresiva de aceras, bordillos, parques y espacios públicos" sin especificar
+          cantidades, porcentajes ni ubicaciones concretas.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Progresiva" es vago y el contexto "5. Personas con discapacidad" no da fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El término «progresiva» no establece una fecha ni una duración para completar las adecuaciones.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El término "progresiva" es vago y no señala en qué fecha o año estará cumplida la adecuación.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «adecuación progresiva» y la incorporación de accesibilidad en «nuevas obras y proyectos» no incluyen
+          montos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se indica presupuesto, monto ni fuente de financiamiento para la "Adecuación progresiva de aceras,
+          bordillos, parques y espacios públicos".
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Aceras, parques y espacio público son competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La adecuación de «aceras, bordillos, parques y espacios públicos» corresponde a las competencias municipales
+          sobre espacio público y accesibilidad.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La intervención en "aceras, bordillos, parques y espacios públicos" para "Personas con discapacidad"
+          es competencia directa del gobierno municipal.
+- id: pedro-medina-2d2ef8cb
+  tema: transparencia
+  resumen: Publicar un sistema de seguimiento de obras con costo, avance, plazo y estado de cada proyecto municipal.
+  cita: 'Sistema de seguimiento de obras: información pública sobre costo, avance, plazo y estado de cada proyecto municipal.'
+  pagina: 20
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra un "sistema de seguimiento de obras" como tipo de sistema, sin cantidad ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Sistema de seguimiento de obras» nombra un sistema sin cuantificar sus resultados, y «cada proyecto
+          municipal» no identifica cuántos proyectos cubrirá.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un tipo de herramienta ("Sistema de seguimiento de obras") para publicar información de
+          "cada proyecto municipal", sin definir metas cuantificables ni alcance específico.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La palabra «plazo» describe información que publicará el sistema, no cuándo estará implementado.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La propuesta carece por completo de fechas o plazos sobre cuándo estará operativo el sistema de seguimiento.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La información pública sobre «costo» se refiere a los proyectos supervisados, no al costo ni al financiamiento
+          del sistema propuesto.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No menciona cuánto costará desarrollar el sistema ni con qué fuente se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Informar sobre proyectos municipales es transparencia propia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Ofrecer «información pública sobre costo, avance, plazo y estado de cada proyecto municipal» corresponde
+          a transparencia y seguimiento de la gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Publicar información de transparencia sobre "costo, avance, plazo y estado de cada proyecto municipal"
+          depende exclusivamente de la administración municipal.
+- id: pedro-medina-50806047
+  tema: transparencia
+  resumen: Publicar mensualmente un tablero municipal con el estado de agua, alcantarillado, residuos, vías y atención ciudadana.
+  cita: Estado del servicio de agua potable, alcantarillado, recolección de residuos, avance de las vías gestionadas junto
+    con la Prefectura del Guayas
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: Tablero municipal de servicios
+    pagina: 20
+  enfoques:
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "tablero municipal de servicios" es un tipo de herramienta sin cantidad ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tablero municipal de servicios» enumera información sobre el «estado» de servicios y vías, pero no
+          fija una cantidad ni una cobertura medible.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un tipo de plataforma mediante el "Tablero municipal de servicios" sin establecer metas
+          cuantificables.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Estado del servicio» y «avance de las vías» no incluyen una fecha para poner en funcionamiento el
+          tablero.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la descripción del "Tablero municipal de servicios" ni la cita indican en qué fecha o plazo estará
+          operativo.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Tablero municipal de servicios» no tiene un costo ni una fuente de financiamiento especificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto sobre el "Tablero municipal de servicios" no menciona costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar el estado de los servicios municipales es transparencia municipal, aunque incluya vías con
+          la Prefectura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Informar sobre el «estado del servicio de agua potable, alcantarillado, recolección de residuos» y
+          las vías gestionadas corresponde a la transparencia municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Publicar un "Tablero municipal de servicios" con información sobre agua, alcantarillado, residuos y
+          gestión vial es parte de las competencias municipales de transparencia.
+- id: pedro-medina-f555d000
+  tema: transparencia
+  resumen: Presentar informes zonales trimestrales con avances y brechas por recinto y sector en asambleas comunitarias rotativas.
+  cita: Avances alcanzados y brechas pendientes de cada eje del plan, desagregados por recinto y por sector
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: Informe zonal
+    pagina: 20
+  - texto: Trimestral
+    pagina: 20
+  enfoques:
+  - transparencia-informacion-publica
+  - transparencia-participacion-ciudadana
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona informar "avances alcanzados y brechas pendientes" sin cantidad de informes ni resultado cuantificado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Informe zonal» sobre «avances alcanzados y brechas pendientes» no fija una cantidad de informes
+          ni una cobertura cuantificada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un instrumento de información ("Informe zonal" sobre "Avances alcanzados y brechas pendientes")
+          sin cuantificar cuántos informes ni en cuántos recintos se aplicará.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Trimestral" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Trimestral» expresa una periodicidad, no una fecha de cumplimiento de la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El contexto únicamente señala una periodicidad ("Trimestral"), lo cual no constituye un plazo de inicio
+          o cumplimiento según la rúbrica.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El contexto «Informe zonal» y «Trimestral» no identifica costos ni fuentes de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No existe ninguna mención a costos, presupuesto o fuentes de recursos para elaborar el informe.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Rendir cuentas e informar sobre la gestión es una función municipal de transparencia.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Informar sobre los «avances alcanzados y brechas pendientes de cada eje del plan» corresponde a la
+          rendición de cuentas municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La rendición de cuentas y transparencia sobre los "Avances alcanzados y brechas pendientes de cada
+          eje del plan" municipal compete directamente a la alcaldía.
+- id: pedro-medina-f85ebac3
+  tema: transparencia
+  resumen: Presentar un informe anual de gestión y realizará rendición de cuentas formal anual en audiencia pública.
+  cita: 'Informe anual de gestión: presentación pública de los avances, resultados, obras ejecutadas y cumplimiento de metas.'
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: VI. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 19
+  - texto: Rendición formal de cuentas
+    pagina: 20
+  enfoques:
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un 'Informe anual de gestión' es un tipo de producto sin cantidad ni resultado verificable más allá
+          de la periodicidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Informe anual de gestión» identifica un instrumento de rendición de cuentas, pero no cuantifica resultados
+          ni fija una cobertura.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Solo nombra un mecanismo general, el "Informe anual de gestión", sin establecer una meta cuantificable
+          de resultado.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Anual'' es una periodicidad, que no cuenta como plazo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Anual» expresa periodicidad y no una fecha de cumplimiento de la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: La expresión "Informe anual de gestión" indica únicamente una periodicidad y no una fecha o plazo de
+          cumplimiento dentro del período.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «presentación pública de los avances, resultados, obras ejecutadas y cumplimiento de metas» no incluye
+          monto ni fuente de financiamiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El texto no menciona ningún monto, presupuesto asignado ni fuente de financiamiento para realizar la
+          rendición de cuentas.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas del propio Municipio está en sus manos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «rendición formal de cuentas» mediante un «informe anual de gestión» corresponde a la transparencia
+          de la administración municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: La "presentación pública de los avances, resultados, obras ejecutadas" de la administración local es
+          una atribución propia del Municipio.
+- id: pedro-medina-3ea568b2
+  tema: transparencia
+  resumen: Instalar una mesa semestral de seguimiento a convenios interinstitucionales con informe público a la comunidad.
+  cita: Estado detallado de los convenios suscritos con la Prefectura del Guayas, el Registro Civil, el MSP, el Mineduc y
+    el Ministerio de Agricultura y Ganadería, entre otras entidades.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: Mesa de seguimiento a convenios interinstitucionales
+    pagina: 21
+  - texto: Semestral
+    pagina: 21
+  enfoques:
+  - transparencia-gestion-municipal
+  - transparencia-informacion-publica
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Publicar el "estado detallado de los convenios" con entidades listadas "entre otras" no define cantidad
+          cerrada de convenios ni resultado verificable preciso.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Estado detallado de los convenios suscritos» no fija una cantidad de convenios ni una meta cuantificada
+          de seguimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra únicamente un reporte sobre el "Estado detallado de los convenios suscritos" y una "Mesa de
+          seguimiento" sin especificar cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Semestral" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Semestral» establece una periodicidad, no una fecha o plazo de cumplimiento de la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El término "Semestral" señala una periodicidad de seguimiento y no un plazo o fecha de cumplimiento
+          de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Mesa de seguimiento a convenios interinstitucionales» no tiene un costo ni una fuente de financiamiento
+          especificados.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Ni la cita sobre los "convenios suscritos" ni su contexto mencionan costos o fuentes de recursos para
+          su implementación.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y seguimiento de convenios municipales dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Presentar el «estado detallado de los convenios suscritos» es una acción de seguimiento y transparencia
+          de la gestión municipal.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Informar el "Estado detallado de los convenios suscritos" por la municipalidad y mantener una "Mesa
+          de seguimiento" corresponde a las funciones municipales de transparencia y gestión institucional.
+- id: pedro-medina-b567658e
+  tema: transparencia
+  resumen: Crear un observatorio ciudadano permanente de contratación y obras mediante convenios de veeduría con la sociedad
+    civil.
+  cita: Información sobre contratos vigentes, costos, cronogramas de ejecución y cambios producidos durante el desarrollo
+    de cada obra pública del cantón.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: Observatorio ciudadano de contratación y obras
+    pagina: 21
+  - texto: Permanente
+    pagina: 21
+  - texto: Convenios de veeduría con organizaciones de la sociedad civil y con la comunidad organizada del cantón.
+    pagina: 21
+  enfoques:
+  - transparencia-participacion-ciudadana
+  - transparencia-control-anticorrupcion
+  rubrica:
+    meta:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea un observatorio con información sobre obras sin decir cuánto ni qué resultado verificable se
+          logrará.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Observatorio ciudadano de contratación y obras» y la información de «cada obra pública del cantón»
+          no establecen una cantidad ni una cobertura numéricamente delimitada.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: Nombra un mecanismo ("Observatorio ciudadano de contratación y obras") y dice que dará información
+          de "cada obra pública del cantón" sin precisar un alcance cuantitativo verificable.
+    plazo:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Permanente" no indica cuándo estará cumplida la propuesta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Permanente» describe continuidad, pero no fija una fecha de cumplimiento.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: El término "Permanente" describe la modalidad continua de operación y no establece cuándo estará implementado
+          el observatorio.
+    financiamiento:
+      valor: false
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «Convenios de veeduría con organizaciones de la sociedad civil» no especifican costos ni aportes
+          que financien la propuesta.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: false
+        justificacion: No se señala con qué recursos o presupuesto se implementará y sostendrá el observatorio ciudadano.
+    competencia_municipal:
+      valor: true
+      consenso: unanime
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y participación ciudadana sobre obras municipales son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar información sobre «contratos vigentes, costos, cronogramas de ejecución» de las obras municipales
+          corresponde a transparencia y participación ciudadana.
+      - proveedor: google
+        modelo: gemini-4-carbon
+        valor: true
+        justificacion: Garantizar la transparencia sobre "contratos vigentes, costos, cronogramas de ejecución" de la "obra
+          pública del cantón" y promover veedurías ciudadanas es competencia municipal.

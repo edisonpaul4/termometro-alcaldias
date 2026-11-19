@@ -12,7 +12,10 @@ transparencia"), biografías, ni objetivos sin acción ("una ciudad más segura"
 - `tema`: uno de estos ids (el más específico):
 {{TEMAS}}
 - `resumen`: una oración neutral, en tercera persona, de máximo 200 caracteres. Sin adjetivos
-  valorativos ("ambicioso", "histórico", "necesario"). Conserva cifras, plazos y montos si los hay.
+  valorativos ("ambicioso", "histórico", "necesario"). Conserva cifras, plazos y montos, pero SOLO los
+  que estén en la `cita` o en el `contexto`: un programa verificará que cada cifra, año o plazo del
+  resumen aparezca ahí. Si el dato está en otra parte del plan y es de esta propuesta, cópialo al
+  `contexto`; si no, no lo pongas en el resumen.
 - `cita`: el fragmento del plan que respalda la propuesta, COPIADO LITERALMENTE carácter por
   carácter (puede ser parte de una oración; mínimo ~10 palabras). Un programa verificará que la
   cita exista textualmente en la página indicada: si la parafraseas, la propuesta se descarta.
