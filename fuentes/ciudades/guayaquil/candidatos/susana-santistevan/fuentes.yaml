@@ -1,0 +1,14 @@
+# Fuentes de SUSANA SANTISTEVAN — Lista 21 — MOVIMIENTO CREO, CREANDO OPORTUNIDADES
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10698
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/10698/3823
+  descargado: '2026-11-19'
+  sha256: 7592ad02afbef1f07fb16849074c4be8a7795ccb5d351055eba1e26a2b1cf00f
+  notas: '49 páginas; texto extraíble: SÍ (123915 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10698
+  descargado: '2026-11-19'
+  sha256: 766bd75264db287d48e60006f8607eadec930dcf69c0bc049afddabe8b28c880
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

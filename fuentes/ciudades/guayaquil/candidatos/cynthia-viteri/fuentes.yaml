@@ -1,0 +1,14 @@
+# Fuentes de CYNTHIA VITERI — Lista 7 — MOVIMIENTO ACCION DEMOCRATICA NACIONAL, ADN
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/7189
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/7189/2488
+  descargado: '2026-11-19'
+  sha256: cd980101182bc261e7ab5d83477c5708ffcfd2d58f4145685d5d6c4e86237040
+  notas: '33 páginas; texto extraíble: SÍ (59200 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/7189
+  descargado: '2026-11-19'
+  sha256: 5313d3dd235529914c7d798f8e2ccfe7dfb40ee0f1a97d9615131efb68a12b68
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

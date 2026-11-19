@@ -1,0 +1,14 @@
+# Fuentes de ANTONIO GARCIA — Lista 3 — PARTIDO SOCIEDAD PATRIÓTICA 21 DE ENERO
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/1530
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/1530/11183
+  descargado: '2026-11-19'
+  sha256: 925025d09741b1c86ec5b7658d7b68840c36f10788997004a6352d9bd0ff8adf
+  notas: '40 páginas; texto extraíble: NO (requiere OCR) (0 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/1530
+  descargado: '2026-11-19'
+  sha256: dd9e8fd4435e5f00577ec8cf2ce22f7ce3bb9de4537751636cb84bab37c968be
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

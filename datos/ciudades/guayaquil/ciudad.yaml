@@ -1,0 +1,7 @@
+id: guayaquil
+nombre: Guayaquil
+eleccion: 2026-11-29
+debate: 2026-11-22
+fin_campana: 2026-11-26
+# Verificada contra Voto Informado del CNE el 2026-11-19 (fuentes/ciudades/guayaquil/cne/).
+candidatos_verificados: true

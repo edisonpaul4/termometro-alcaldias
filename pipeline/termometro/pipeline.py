@@ -241,7 +241,11 @@ def juzgar(todas: list[PropuestaVerificada], jurado: list[ProveedorIA], terminos
         por_num = {ev.numero: ev for ev in lote.evaluaciones}
         omitidas = [pid for n, pid in enumerate(ids, start=1) if n not in por_num]
         if omitidas and len(ids) > 1:  # reintento solo con las omitidas (lote más chico)
-            ejecutar_lote((j, omitidas))
+            if len(omitidas) < len(ids):
+                ejecutar_lote((j, omitidas))
+            else:  # omitió el lote entero: de a una, para que el reintento siempre termine
+                for pid in omitidas:
+                    ejecutar_lote((j, [pid]))
         for n, pid in enumerate(ids, start=1):
             ev = por_num.get(n)
             if ev is None:

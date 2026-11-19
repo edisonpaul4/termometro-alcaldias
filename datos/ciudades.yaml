@@ -13,7 +13,8 @@
   dignidad: Alcaldía
   activa: false
 
-# - id: guayaquil
-#   nombre: Guayaquil
-#   nombre_oficial: Guayaquil
-#   activa: false
+- id: guayaquil
+  nombre: Guayaquil
+  nombre_oficial: Guayaquil
+  dignidad: Alcaldía
+  activa: false

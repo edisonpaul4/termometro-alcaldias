@@ -1,5 +1,6 @@
 """La ciudad demo debe ser válida, determinística y 100% ficticia."""
 
+import re
 import shutil
 
 import pytest
@@ -51,6 +52,8 @@ def test_demo_no_contiene_nombres_reales(datos_demo):
 
 
 def test_demo_bloqueada_en_produccion(datos_demo):
+    reg = datos_demo / "ciudades.yaml"  # la demo activa (en el repo queda inactiva para producción)
+    reg.write_text(re.sub(r"(id: demo\n(?:  .*\n)*?  activa:) false", r"\1 true", reg.read_text(encoding="utf-8")), encoding="utf-8")
     with pytest.raises(ErrorDatos, match="'demo' contiene datos mock"):
         cargar(datos_demo, produccion=True)
 

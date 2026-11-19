@@ -1,0 +1,14 @@
+# Fuentes de HECTOR BALDEON — Lista 8 — PARTIDO AVANZA
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/2954
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/2954/1306
+  descargado: '2026-11-19'
+  sha256: 4af1b619a5e3cd702f00edd63a5bf594778ad361bba89edb7b30d9ea43e9689d
+  notas: '28 páginas; texto extraíble: NO (requiere OCR) (0 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/2954
+  descargado: '2026-11-19'
+  sha256: 92b6c740c521732a1a9fefc6d573c7aba4e51046f01e7f2484f8e3d6ffea1a1f
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

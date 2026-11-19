@@ -1,0 +1,14 @@
+# Fuentes de FIORELLA ICAZA SAMAN — Lista 17 — PARTIDO SOCIALISTA ECUATORIANO
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/5658
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/5658/4482
+  descargado: '2026-11-19'
+  sha256: 44c1fc580554f518aa3e853320adb8642d923ae0b95924c0066f19411cf1341a
+  notas: '69 páginas; texto extraíble: SÍ (138558 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/5658
+  descargado: '2026-11-19'
+  sha256: 486c9077a43c43a7f0f84e27cfbe80d73e4ae41da589bf173ab4573d8350a5b4
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

@@ -1,0 +1,14 @@
+# Fuentes de MONICA LUZARRAGA SALAZAR — Lista 2-18 — DESPIERTA, UNIDAD POR LA PATRIA
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10898
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/10898/1545
+  descargado: '2026-11-19'
+  sha256: 4c81f0841e2b8dd4bd2398d60dfeeb08773fd8f37e908d98f447815f0850b3d2
+  notas: '117 páginas; texto extraíble: SÍ (190918 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10898
+  descargado: '2026-11-19'
+  sha256: b216c59cc223ec7ccd90aee6cd30be07e325a4740b6e5c899216249ba4d20803
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).

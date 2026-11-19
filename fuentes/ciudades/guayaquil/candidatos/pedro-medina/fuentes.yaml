@@ -1,0 +1,14 @@
+# Fuentes de PEDRO MEDINA — Lista 4-12-20 — MANO FIRME
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/12104
+- archivo: plan-de-trabajo_2026-11-19.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/12104/8579
+  descargado: '2026-11-19'
+  sha256: fd3e4abf37a10c2833d7836de9df0a4c94ce338cf3e58f4392d7dc2c7be524de
+  notas: '21 páginas; texto extraíble: NO (requiere OCR) (0 caracteres). Descargado directamente del backend del CNE (endpoint público del botón «Plan de Trabajo»).'
+- archivo: foto_2026-11-19.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/12104
+  descargado: '2026-11-19'
+  sha256: f02e8809d1270f3292da93c1032173efad9f1d13670d56eca3950c8b6c89339a
+  notas: Foto oficial (miniatura) publicada por el CNE en la ficha del candidato (la URL directa del archivo contiene un número de identificación personal y no se guarda).
