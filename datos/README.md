@@ -1,6 +1,6 @@
 # datos/ — Datos procesados y revisados
 
-Salida del pipeline (IA + revisión humana). **Es lo único que lee la web.**
+Salida del pipeline (IA y revisiones editoriales con origen explícito). **Es lo único que lee la web.**
 Todo dato aquí debe apuntar a un archivo en `fuentes/`.
 
 ```

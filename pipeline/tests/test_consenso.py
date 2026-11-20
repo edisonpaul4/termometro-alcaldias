@@ -1,6 +1,6 @@
 import pytest
 
-from termometro.consenso import consolidar, kappa_fleiss, resolver_humano
+from termometro.consenso import consolidar, kappa_fleiss, resolver_humano, resolver_ia
 from termometro.modelos import VotoJurado
 
 
@@ -28,6 +28,20 @@ def test_sin_decision_va_a_humano(vals):
     assert consolidar(v(*vals)) is None
     h = resolver_humano(v(*vals), True, "Revisado contra la cita")
     assert h.consenso == "humano"
+
+
+def test_empate_resuelto_en_revision_editorial_de_ia():
+    c = resolver_ia(v(True, False), False, "El plan no asigna fecha a esta propuesta")
+    assert c.consenso == "revision_ia"
+    assert c.nota_revision
+    assert [v.valor for v in c.votos] == [True, False]
+
+
+def test_revision_editorial_cede_ante_mayoria_de_tres_jurados():
+    c = resolver_ia(v(True, False, True), False, "Decisión editorial previa")
+    assert c.consenso == "mayoria"
+    assert c.valor is True
+    assert c.nota_revision is None
 
 
 def test_kappa():

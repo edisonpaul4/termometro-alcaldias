@@ -28,9 +28,10 @@ export function barajar<T>(xs: readonly T[]): T[] {
 	return a;
 }
 
-/** "3 de 3 IA coinciden" */
+/** Muestra votos coincidentes o el origen explícito de una revisión editorial. */
 export function textoConsenso(c: Calificacion): string {
 	if (c.consenso === 'humano') return 'Resuelto en revisión humana';
+	if (c.consenso === 'revision_ia') return 'Resuelto en revisión editorial de IA';
 	const validos = c.votos.filter((v) => v.valor !== null);
 	const coinciden = validos.filter((v) => v.valor === c.valor).length;
 	return `${coinciden} de ${c.votos.length} IA coinciden`;

@@ -94,7 +94,7 @@
 									{#if v.valor === null}<em>no respondió</em>{:else}{v.valor ? 'Sí' : 'No'} — {v.justificacion}{/if}
 								</p>
 							{/each}
-							{#if c.nota_revision}<p class="text-texto-2">Revisión humana: {c.nota_revision}</p>{/if}
+							{#if c.nota_revision}<p class="text-texto-2">{c.consenso === 'revision_ia' ? 'Revisión editorial de IA' : 'Revisión humana'}: {c.nota_revision}</p>{/if}
 						</dd>
 					</div>
 				{/each}

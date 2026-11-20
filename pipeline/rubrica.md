@@ -1,6 +1,6 @@
 # Rúbrica del Termómetro de concreción · v4
 
-Esta rúbrica la aplican **por separado** tres jurados de IA de empresas distintas a **cada propuesta**.
+Esta rúbrica la aplica por separado cada jurado de IA disponible a cada propuesta. El diseño prevé tres jurados de empresas distintas; en Paute votaron Anthropic y OpenAI porque Google no estuvo disponible. Los empates de Paute se resolvieron mediante revisión editorial de un asistente de IA, con nota visible, a pedido del usuario. Esa revisión no es un tercer voto independiente ni una revisión humana.
 Los jurados no ven el nombre del candidato ni de su partido, ni el resumen que muestra la web:
 ven la **cita textual** del plan y su **contexto** (el título de la sección o fase donde aparece y,
 si existe, la fila de tabla, cronograma o presupuesto que la precisa). Cita y contexto se verifican
@@ -101,7 +101,7 @@ municipales y su infraestructura; participación ciudadana, transparencia y trá
 
 ## Qué hace la web con estas calificaciones (los jurados no lo ven)
 
-- Se publica lo que decide la mayoría de los tres jurados, y cuántos coincidieron. Sin mayoría, decide una persona y queda anotado.
+- Se publica lo que decide la mayoría de los jurados disponibles y cuántos coincidieron. Sin mayoría, la decisión editorial registra si la tomó una persona o un asistente de IA y deja una nota visible. En Paute los 45 criterios empatados fueron resueltos por un asistente de IA.
 - Concreción de una propuesta = (meta + plazo + financiamiento) / 3
 - Termómetro por tema = promedio de concreción de las propuestas del candidato en ese tema
 - Termómetro global = promedio de los termómetros por tema en que el candidato tiene propuestas

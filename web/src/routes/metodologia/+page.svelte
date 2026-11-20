@@ -56,14 +56,16 @@
 	</section>
 
 	<section class="mt-14">
-		<h2 class="flex items-center gap-2 text-2xl font-extrabold"><Icono nombre="scales" tipo="ui" tam={24} class="text-acento" /> Un jurado de tres IA, a ciegas</h2>
+		<h2 class="flex items-center gap-2 text-2xl font-extrabold"><Icono nombre="scales" tipo="ui" tam={24} class="text-acento" /> Jurado de IA, a ciegas</h2>
 		<p class="mt-3 text-texto-2">
 			Una IA extrae las propuestas con su cita literal y un programa, <strong class="text-texto">sin IA</strong>, verifica que esa cita
-			exista en la página indicada del PDF. Luego <strong class="text-texto">tres IA de empresas distintas</strong> (Anthropic, OpenAI y
-			Google) califican cada criterio por separado, <strong class="text-texto">sin ver el nombre del candidato ni su partido</strong>. Ven la cita textual
+			exista en la página indicada del PDF. El jurado previsto tiene tres IA de empresas distintas (Anthropic, OpenAI y
+			Google). Cada una califica por separado, <strong class="text-texto">sin ver el nombre del candidato ni su partido</strong>. Ven la cita textual
 			y su contexto en el plan (la fase o sección donde aparece y, si existe, la fila de la tabla que le pone meta, plazo o monto), no
-			nuestro resumen. Se
-			publica lo que decide la mayoría y se muestra cuántas coincidieron. Los desacuerdos y una muestra al azar los revisa una persona.
+			nuestro resumen. Se publica lo que decide la mayoría y se muestra cuántas coincidieron. Cuando no hay mayoría, la ficha muestra quién resolvió el empate y por qué.
+		</p>
+		<p class="mt-3 text-texto-2">
+			<strong class="text-texto">En Paute</strong>, Google no estuvo disponible: calificaron Anthropic y OpenAI. Sus 45 empates en 43 propuestas fueron resueltos por un asistente de IA con la misma rúbrica y notas visibles; esa revisión no es un tercer voto independiente ni una revisión humana. Los enfoques temáticos fueron propuestos por OpenAI sin la segunda validación prevista. Las citas de las propuestas se comprobaron contra los planes oficiales.
 		</p>
 	</section>
 

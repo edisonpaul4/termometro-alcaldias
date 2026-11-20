@@ -8,8 +8,9 @@ import yaml
 from termometro.cache import Cache
 from termometro.datos import DIR_DATOS, cargar
 from termometro.llm import equipo
-from termometro.mock_llm import CITA_INVENTADA
-from termometro.pipeline import ejecutar, id_propuesta
+from termometro.mock_llm import CITA_INVENTADA, MockIA
+from termometro.modelos import Proveedor
+from termometro.pipeline import Reporte, ejecutar, id_propuesta, procesar_documento
 
 from .pdf_ficticio import pdf_simple
 
@@ -104,3 +105,43 @@ def test_produccion_rechaza_salida_mock(entorno):
     correr(datos, tmp, Cache(tmp / "cache"))
     with pytest.raises(ErrorDatos, match="mock"):
         cargar(datos, produccion=True)
+
+
+def test_cobertura_usa_respaldo_si_gemini_falla(entorno):
+    datos, tmp = entorno
+    dc = cargar(datos).datos["ficticia"]
+    eq = equipo()
+
+    class FallaCobertura:
+        proveedor = Proveedor.google
+        modelo = "mock-google-falla"
+
+        def generar(self, sol):
+            raise RuntimeError("cuota agotada")
+
+    eq.cobertura = FallaCobertura()
+    eq.cobertura_respaldo = MockIA(Proveedor.openai, "mock-openai-respaldo")
+    rep = Reporte(ciudad="ficticia", modo="mock")
+    resultado = procesar_documento(dc.candidatos[0], cargar(datos).temas, eq, Cache(tmp / "cache"), rep)
+
+    assert resultado and resultado.verificadas
+    assert any("se usó mock-openai-respaldo" in error for error in rep.errores)
+
+
+def test_enfoques_conserva_agrupacion_si_validacion_falla(entorno):
+    datos, tmp = entorno
+    eq = equipo()
+
+    class FallaValidacion:
+        proveedor = Proveedor.mock
+        modelo = "mock-validacion-falla"
+
+        def generar(self, sol):
+            raise RuntimeError("sin crédito")
+
+    eq.enfoques_valida = FallaValidacion()
+    rep = ejecutar("ficticia", dir_datos=datos, cache=Cache(tmp / "cache"), eq=eq, dir_salida=tmp / "salida")
+
+    assert rep.exportadas > 0
+    assert cargar(datos).datos["ficticia"].enfoques
+    assert any("validación de enfoques no disponible" in error for error in rep.errores)

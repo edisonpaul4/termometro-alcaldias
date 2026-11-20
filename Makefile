@@ -20,7 +20,7 @@ ayuda:
 
 setup:
 	python3 -m venv pipeline/.venv
-	$(PY)/pip install -q -e 'pipeline[dev]'
+	$(PY)/pip install -q -e 'pipeline[dev,real]'
 	cd web && npm install
 
 test:

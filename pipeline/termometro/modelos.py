@@ -149,13 +149,14 @@ class Consenso(StrEnum):
     unanime = "unanime"  # todos los jurados válidos coinciden (y al menos 3)
     mayoria = "mayoria"  # mayoría simple, o unanimidad con menos de 3 jurados válidos
     humano = "humano"  # resuelto en revisión humana
+    revision_ia = "revision_ia"  # empate resuelto por revisión editorial de IA, no por otro jurado
 
 
 class Calificacion(Base):
     valor: bool
     consenso: Consenso
     votos: list[VotoJurado] = Field(min_length=1)
-    nota_revision: str | None = Field(default=None, description="Obligatoria si consenso = humano")
+    nota_revision: str | None = Field(default=None, description="Obligatoria si consenso = humano o revision_ia")
 
     @model_validator(mode="after")
     def _coherente(self) -> Calificacion:
@@ -164,6 +165,12 @@ class Calificacion(Base):
                 raise ValueError("una calificación resuelta por humano requiere nota_revision")
             return self
         validos = [v.valor for v in self.votos if v.valor is not None]
+        if self.consenso == Consenso.revision_ia:
+            if not self.nota_revision:
+                raise ValueError("una revisión editorial de IA requiere nota_revision")
+            if len(validos) < 2 or sum(validos) * 2 != len(validos):
+                raise ValueError("revision_ia solo puede resolver un empate entre jurados")
+            return self
         if not validos:
             raise ValueError("sin votos válidos el consenso debe ser 'humano'")
         a_favor = sum(validos)

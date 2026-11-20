@@ -10,6 +10,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+real = ["anthropic>=2.12", "openai>=3.57", "google-genai>=3.6"]
 
 [project.scripts]
 termometro = "termometro.cli:main"

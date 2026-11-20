@@ -106,6 +106,17 @@ class TestConsenso:
         with pytest.raises(ValidationError, match="nota_revision"):
             Calificacion.model_validate(calif(consenso="humano"))
 
+    def test_revision_ia_resuelve_empate_con_nota(self):
+        c = Calificacion.model_validate(calif(valor=False, consenso="revision_ia", votos=(True, False), nota_revision="La cita no fija una fecha."))
+        assert c.consenso == Consenso.revision_ia
+        assert [v.valor for v in c.votos] == [True, False]
+
+    def test_revision_ia_requiere_nota_y_empate(self):
+        with pytest.raises(ValidationError, match="nota_revision"):
+            Calificacion.model_validate(calif(consenso="revision_ia", votos=(True, False)))
+        with pytest.raises(ValidationError, match="empate"):
+            Calificacion.model_validate(calif(consenso="revision_ia", votos=(True, True), nota_revision="Revisado"))
+
 
 # ─── Carga de datos/ ────────────────────────────────────────────────────────
 

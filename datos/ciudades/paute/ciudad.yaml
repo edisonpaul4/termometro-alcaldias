@@ -1,0 +1,7 @@
+id: paute
+nombre: Paute
+eleccion: 2026-11-29
+fin_campana: 2026-11-26
+# Cotejada con la papeleta modelo del CNE reproducida por El Mercurio el 2026-11-17.
+# Transcripción y procedencia: fuentes/ciudades/paute/cne/.
+candidatos_verificados: true
