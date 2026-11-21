@@ -15,7 +15,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest run --passWithNoTests",
-		"tipos": "json2ts -i ../datos/schema.json -o src/lib/contrato.gen.ts --bannerComment '/* GENERADO desde pipeline/termometro/modelos.py — no editar. Regenerar: make schema */' --additionalProperties false --unreachableDefinitions"
+		"tipos": "json2ts -i ../datos/schema.json -o src/lib/contrato.gen.ts --bannerComment \"/* GENERADO desde pipeline/termometro/modelos.py — no editar. Regenerar: make schema */\" --additionalProperties false --unreachableDefinitions"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^4.0.1",

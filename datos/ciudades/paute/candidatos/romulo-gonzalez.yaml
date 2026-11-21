@@ -1,0 +1,4968 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: romulo-gonzalez
+nombre: Rómulo González
+lista: '18'
+organizacion: Movimiento de Unidad Plurinacional Pachakutik
+foto: fuentes/ciudades/paute/candidatos/romulo-gonzalez/foto_2026-11-20.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/833
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-20'
+  archivo: fuentes/ciudades/paute/candidatos/romulo-gonzalez/foto_2026-11-20.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/833/4920
+    titulo: Plan de trabajo de Rómulo González — Alcaldía de Paute 2027-2031 (CNE)
+    consultado: '2026-11-20'
+    archivo: fuentes/ciudades/paute/candidatos/romulo-gonzalez/plan-de-trabajo_2026-11-20.pdf
+  paginas: 50
+  sha256: 5495453e2cfe415ccdc782f3a7cade687e76d249c1f35a59ba44e97a692f186a
+propuestas:
+- id: romulo-gonzalez-3f4feffb
+  tema: agua-servicios
+  resumen: Incorporar operación, mantenimiento preventivo, manejo de lodos y reposición de equipos en la gestión de los sistemas
+    de saneamiento.
+  cita: 'En consecuencia, una política
+
+    municipal responsable debería considerar el ciclo completo de los
+
+    sistemas de saneamiento, incluyendo operación, mantenimiento
+
+    preventivo, retiro y disposición adecuada de lodos, monitoreo de la
+
+    calidad del efluente y reposición de equipos.'
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: 'El mantenimiento de las plantas existentes debe convertirse, por tanto,
+
+      en un componente prioritario de la política de saneamiento.'
+    pagina: 14
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice que la política 'debería considerar el ciclo completo' de saneamiento, sin cantidad ni cobertura
+          definida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Considerar el ciclo completo de los sistemas de saneamiento» enumera componentes de una política,
+          pero no establece cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Que el mantenimiento deba convertirse en un «componente prioritario» no establece cuándo se cumplirá
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Operación, mantenimiento preventivo» y «reposición de equipos» describen actividades sin señalar cuánto
+          costarán ni cómo se financiarán.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Alcantarillado y saneamiento son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El mantenimiento de «sistemas de saneamiento» y el «monitoreo de la calidad del efluente» corresponden
+          a las competencias municipales de saneamiento y control ambiental.
+- id: romulo-gonzalez-3add886d
+  tema: agua-servicios
+  resumen: Implementar un sistema permanente de monitoreo de la calidad de los efluentes y de los cuerpos receptores.
+  cita: 'y cuarto, implementar un
+
+    sistema permanente de monitoreo de la calidad de los efluentes y de los
+
+    cuerpos receptores.'
+  pagina: 16
+  cita_verificada: true
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Sistema permanente de monitoreo" es un tipo de sistema sin cuántos puntos ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Implementar un sistema permanente de monitoreo» nombra un sistema sin cuantificar puntos de control,
+          cobertura o resultados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Permanente" no indica cuándo estará cumplido.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Permanente» describe la continuidad del monitoreo y «cuarto» ordena acciones, pero ninguno fija cuándo
+          estará implementado.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «sistema permanente de monitoreo» se propone sin indicar costos ni fuentes o mecanismos de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control de la contaminación de efluentes y cuerpos receptores es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Monitorear «la calidad de los efluentes y de los cuerpos receptores» corresponde al control municipal
+          de la contaminación y al saneamiento.
+- id: romulo-gonzalez-422e0fb0
+  tema: agua-servicios
+  resumen: Elaborar en el primer año un estudio integral del estado de los recursos hídricos, contaminación de fuentes y calidad
+    del agua potable, con un Sistema Municipal de Información Hídrica.
+  cita: Generación de un estudio integral respecto del estado de los recursos hídricos en el cantón Paute, en el que se genere
+    un diagnóstico amplio sobre el estado ambiental de las fuentes de agua del cantón
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 'PRIMER AÑO DE ADMINISTRACIÓN:'
+    pagina: 19
+  - texto: elaboración de un Sistema Municipal de Información Hídrica
+    pagina: 25
+  enfoques:
+  - agua-servicios-planificacion-financiamiento
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un "estudio integral" único sobre recursos hídricos del cantón Paute es un producto verificable con
+          alcance definido.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un estudio integral» y «un Sistema Municipal de Información Hídrica» nombran instrumentos sin cuantificar
+          resultados ni una cobertura medible.
+      nota_revision: Un estudio hídrico es un producto técnico; no cuantifica fuentes, superficie ni cobertura.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto lo ubica en "PRIMER AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica la propuesta en el «PRIMER AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «generación de un estudio integral» no tiene un monto ni una fuente de financiamiento señalados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Gestión ambiental y de recursos hídricos locales es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diagnóstico del «estado ambiental de las fuentes de agua del cantón» corresponde a las funciones
+          municipales de gestión ambiental y provisión de agua.
+- id: romulo-gonzalez-546e1c98
+  tema: agua-servicios
+  resumen: Ejecutar desde el segundo año un proyecto integral de mejoramiento del sistema de agua potable del cantón y sus
+    parroquias, interviniendo captaciones, conducciones, plantas y redes.
+  cita: Generación de un proyecto de intervención integral, mejoramiento y revisión continua del sistema de agua potable del
+    cantón Paute y sus diferentes parroquias
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 'SEGUNDO AÑO DE ADMINISTRACIÓN:'
+    pagina: 19
+  - texto: permitiendo intervenir progresivamente captaciones, líneas de conducción, plantas de tratamiento, reservorios y
+      redes de distribución
+    pagina: 28
+  enfoques:
+  - agua-servicios-mejorar-agua-potable
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea un "proyecto de intervención integral" en el sistema de agua del cantón sin cuantificar obras
+          ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «generación de un proyecto» para «intervenir progresivamente» componentes del sistema no cuantifica
+          intervenciones ni define una obra física única con alcance delimitado.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Ubica la propuesta en el "SEGUNDO AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica expresamente la propuesta en el «SEGUNDO AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «proyecto de intervención integral» del sistema de agua potable no indica monto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «mejoramiento y revisión continua del sistema de agua potable del cantón Paute» corresponde a la
+          competencia municipal de provisión de agua potable.
+- id: romulo-gonzalez-9072f953
+  tema: ambiente
+  resumen: Analizar la expansión de la frontera agrícola, socializar resultados en mesas técnicas y ciudadanas e implementar
+    estrategias de reducción.
+  cita: Análisis de los niveles de expansión de la frontera agrícola en Paute, a fin de generar estrategias de mitigación,
+    planificación agrícola y fomento de la economía local.
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: Socializar los resultados de los estudios de delimitación de la frontera agrícola de Paute y sus parroquias, generar
+      mesas técnicas y ciudadanas
+    pagina: 21
+  - texto: Implementar las estrategias derivadas de los estudios en materia de frontera agrícola
+    pagina: 21
+  enfoques:
+  - ambiente-prevencion-y-control
+  - ambiente-participacion-y-educacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Plantea 'Análisis de los niveles de expansión de la frontera agrícola' y estrategias sin cantidad ni
+          resultado verificable específico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Análisis de los niveles de expansión de la frontera agrícola en Paute» y la implementación de «estrategias»
+          no fijan cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fechas en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las acciones de «Socializar los resultados» e «Implementar las estrategias» no están vinculadas a fechas
+          ni duraciones.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «estudios de delimitación de la frontera agrícola» no tienen costos ni fuentes de financiamiento
+          señalados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede hacer estudios y planificación de uso del suelo y desarrollo local.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Analizar la «expansión de la frontera agrícola en Paute» para generar estrategias de mitigación y planificación
+          se encuadra en las funciones municipales de uso del suelo y gestión ambiental.
+- id: romulo-gonzalez-c32d711b
+  tema: ambiente
+  resumen: Evaluar la afectación por uso de plaguicidas en zonas de cultivo, ganaderas e invernaderos.
+  cita: Evaluación de los diferentes grados de afectación por utilización de plaguicidas en zonas de cultivo, ganaderas e
+    invernaderos productivos.
+  pagina: 20
+  cita_verificada: true
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Evaluación de los diferentes grados de afectación" no dice cuántas zonas ni qué alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación de los diferentes grados de afectación» no especifica cuántas zonas se evaluarán ni
+          delimita su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Sin referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación» de afectaciones por plaguicidas no incluye ninguna referencia temporal.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La evaluación de afectaciones «por utilización de plaguicidas» no señala costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El municipio puede evaluar la afectación ambiental dentro del control de la contaminación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar la «afectación por utilización de plaguicidas» se encuadra en las funciones municipales de
+          control de la contaminación ambiental.
+- id: romulo-gonzalez-c72590e2
+  tema: ambiente
+  resumen: Realizar en el primer año un estudio técnico de erosión en zonas de cultivo, ganaderas y áridas para construir
+    un mapa del estado de los suelos.
+  cita: Diseño de estudio técnico sobre los niveles de erosión en zonas de cultivo y ganaderas, así como en zonas áridas que
+    no tengan utilidad económica, a fin de construir un mapa sobre el estado de los suelos en Paute
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: PRIMER AÑO DE ADMINISTRACIÓN
+    pagina: 20
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Produce un estudio y "un mapa sobre el estado de los suelos en Paute", un producto único con alcance
+          territorial definido.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «estudio técnico» para construir «un mapa sobre el estado de los suelos en Paute» identifica un
+          producto técnico, pero no cuantifica las zonas estudiadas ni precisa su cobertura.
+      nota_revision: El mapa de suelos es un instrumento técnico sin cantidad o cobertura definida.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "PRIMER AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna la propuesta al «PRIMER AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Diseño de estudio técnico sobre los niveles de erosión» no incluye costo, fuente ni mecanismo de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un estudio de suelos del cantón es una acción de gestión ambiental y uso del suelo municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Estudiar «los niveles de erosión» y «el estado de los suelos en Paute» está dentro de las funciones
+          municipales de gestión ambiental y planificación territorial.
+- id: romulo-gonzalez-f8f66633
+  tema: ambiente
+  resumen: Realizar un mapeo científico de la biodiversidad del cantón y sus parroquias con fines de conservación, turismo
+    y mitigación del cambio climático.
+  cita: Mapeo científico de biodiversidad específica del cantón Paute y sus diversas parroquias, con objetivos de conservación
+    ambiental, turísticos y de mitigación del cambio climático.
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: PRIMER AÑO DE ADMINISTRACIÓN
+    pagina: 20
+  enfoques:
+  - ambiente-agua-y-vida
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un "mapeo científico de biodiversidad" único del cantón Paute y sus parroquias tiene alcance definido.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Mapeo científico de biodiversidad específica del cantón Paute y sus diversas parroquias» no cuantifica
+          especies, superficie ni cobertura del levantamiento.
+      nota_revision: El mapeo de biodiversidad no cuantifica especies, superficie ni cobertura.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "PRIMER AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la propuesta en el «PRIMER AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Mapeo científico de biodiversidad» no tiene costo ni fuente de financiamiento identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El mapeo para conservación ambiental y turismo es gestión ambiental local.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El mapeo con «objetivos de conservación ambiental, turísticos y de mitigación del cambio climático»
+          se encuadra en las funciones municipales ambientales y turísticas.
+- id: romulo-gonzalez-46e66a25
+  tema: ambiente
+  resumen: Poner en marcha una estrategia de identificación, cuidado y prevención de la extinción de flora y fauna del cantón.
+  cita: Puesta en marcha de una estrategia de identificación, cuidado y prevención de la extinción de la flora y fauna del
+    cantón Paute y sus parroquias.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: SEGUNDO AÑO DE ADMINISTRACIÓN
+    pagina: 21
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"una estrategia de identificación, cuidado y prevención" es un tipo de programa sin cantidad ni resultado
+          verificable específico.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Una estrategia de identificación, cuidado y prevención» no establece cantidades, cobertura medible
+          ni un resultado cuantificado para la flora y fauna.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "SEGUNDO AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna la puesta en marcha al «SEGUNDO AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «estrategia de identificación, cuidado y prevención» no menciona un costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión ambiental local está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «cuidado y prevención de la extinción de la flora y fauna del cantón» se enmarca en las funciones
+          municipales de protección ambiental.
+- id: romulo-gonzalez-8deb6faf
+  tema: ambiente
+  resumen: Iniciar en el tercer año un plan de tratamiento y mitigación de suelos erosionados, diseñado previamente en el
+    segundo año.
+  cita: Inicio del plan de tratamiento y mitigación de los suelos erosionados en zonas de cultivo y ganaderas
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: TERCER AÑO DE ADMINISTRACIÓN
+    pagina: 21
+  - texto: Diseño de un estudio técnico y económicamente viable en el que se establezca una estrategia sustentable y viable
+      de mitigación y reparación de los daños existentes en los suelos erosionados
+    pagina: 21
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Inicio del plan de tratamiento" de suelos erosionados no dice cuánta superficie ni qué resultado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan de tratamiento y mitigación de los suelos erosionados» no especifica superficie, localización
+          concreta ni una magnitud de recuperación.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto lo ubica en el "TERCER AÑO DE ADMINISTRACIÓN".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «TERCER AÑO DE ADMINISTRACIÓN» fija cuándo se realizará el «Inicio del plan de tratamiento
+          y mitigación».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; solo un estudio "económicamente viable".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Calificar el estudio como «técnico y económicamente viable» no identifica su costo ni una fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión ambiental y mitigación de suelos rurales puede ser asumida por el Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «tratamiento y mitigación de los suelos erosionados» puede desarrollarse dentro de las funciones
+          municipales de gestión ambiental y prevención de riesgos, coordinando con otros niveles.
+- id: romulo-gonzalez-921cbfbe
+  tema: ambiente
+  resumen: Realizar una capacitación técnica agrosanitaria sobre uso de plaguicidas y mejoramiento de cultivos, y proponer
+    una guía cantonal de buenas prácticas.
+  cita: Puesta en marcha de una campaña de capacitación técnica, agro sanitaria a fin de instruir en buenos manejos en materia
+    de uso de plaguicidas
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: SEGUNDO AÑO DE ADMINISTRACIÓN
+    pagina: 21
+  - texto: Proposición de una guía de buenas prácticas cantonal en materia de uso de plaguicidas, mejoramiento de cultivos
+      y tratamiento de productos cultivados.
+    pagina: 22
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Una campaña de capacitación" no dice a cuántos productores ni cuántas sesiones.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Una campaña de capacitación» y «una guía de buenas prácticas» nombran instrumentos sin cuantificar
+          beneficiarios, cobertura ni resultados.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "SEGUNDO AÑO DE ADMINISTRACIÓN", una etapa con duración definida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la propuesta en el «SEGUNDO AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «campaña de capacitación técnica, agro sanitaria» no incluye un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La capacitación en buenas prácticas ambientales y agrícolas puede ejecutarla el Municipio en coordinación
+          con otras entidades.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Capacitar en «buenos manejos en materia de uso de plaguicidas» se encuadra en las funciones municipales
+          de prevención de la contaminación y desarrollo económico local.
+- id: romulo-gonzalez-a6dee1b4
+  tema: riesgos
+  resumen: Producir una estrategia de educación ciudadana para prevenir incendios forestales, evaluada con ciudadanía, bomberos
+    y academia.
+  cita: Producción de una estrategia de educación ciudadana a fin de prevenir los incendios forestales y generar cultura de
+    cuidado ambiental.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: Evaluar los resultados de las campañas de educación ciudadana en materia de prevención de incendios forestales,
+      integrando a la ciudadanía, sectores sociales, cuerpo de bomberos y academia.
+    pagina: 21
+  enfoques:
+  - riesgos-preparar-a-la-comunidad
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "una estrategia de educación ciudadana" sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «producción de una estrategia de educación ciudadana» no especifica cantidades, cobertura ni un
+          resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «producción de una estrategia» ni «evaluar los resultados de las campañas» establecen una fecha
+          de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «ciudadanía, sectores sociales, cuerpo de bomberos y academia» identifica participantes,
+          pero no un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La prevención de incendios, la gestión de riesgos, los bomberos y la cultura ambiental son funciones
+          municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La educación para «prevenir los incendios forestales y generar cultura de cuidado ambiental» corresponde
+          a las funciones municipales de gestión de riesgos y protección ambiental.
+- id: romulo-gonzalez-1d159732
+  tema: empleo
+  resumen: Elaborar un análisis socioeconómico de las principales actividades económicas del cantón y estrategias para mejorar
+    su eficiencia.
+  cita: Elaboración de un análisis socioeconómico enfocado a delimitar las principales actividades económicas del cantón
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: PRIMER AÑO DE ADMINISTRACIÓN
+    pagina: 22
+  enfoques:
+  - empleo-planificar-desarrollo-local
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice 'un análisis socioeconómico' del cantón, un producto único y verificable con alcance (actividades
+          económicas del cantón).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «elaboración de un análisis socioeconómico» identifica un tipo de estudio, pero no cuantifica sus
+          resultados ni las actividades que abarcará.
+      nota_revision: Un análisis socioeconómico no cuantifica resultados ni actividades cubiertas.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica la propuesta en el 'PRIMER AÑO DE ADMINISTRACIÓN', una duración contada desde el
+          inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la propuesta en el «PRIMER AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «elaboración de un análisis socioeconómico» no incluye un costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un análisis de actividades económicas del cantón es parte del desarrollo económico local municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El análisis de las «principales actividades económicas del cantón» corresponde a las funciones municipales
+          de planificación y desarrollo económico local.
+- id: romulo-gonzalez-3d645a93
+  tema: riesgos
+  resumen: Proponer en el cuarto año normativa local sobre prevención, educación ciudadana y mitigación de daños por incendios
+    forestales.
+  cita: Propuesta de normativa local en materia de prevención, educación ciudadana y mitigación de daños causados por incendios
+    forestales.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: CUARTO AÑO DE ADMINISTRACIÓN
+    pagina: 22
+  enfoques:
+  - riesgos-planificar-y-regular
+  - riesgos-preparar-a-la-comunidad
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo propone una "normativa local" sobre incendios forestales, sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «propuesta de normativa local» identifica un instrumento, pero no establece una cantidad ni un resultado
+          medible.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "CUARTO AÑO DE ADMINISTRACIÓN", que es un momento concreto dentro del período.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la propuesta en el «CUARTO AÑO DE ADMINISTRACIÓN», un año específico de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «propuesta de normativa local» no menciona costos ni fuentes o mecanismos de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La normativa local y la gestión de riesgos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La normativa sobre «prevención, educación ciudadana y mitigación de daños causados por incendios forestales»
+          corresponde a funciones municipales de gestión de riesgos y protección ambiental.
+- id: romulo-gonzalez-66add6fe
+  tema: ambiente
+  resumen: Proponer normas municipales para institucionalizar la identificación, manejo, protección y rastreo de fauna y flora
+    urbana.
+  cita: Proposición de normas municipales locales que permitan institucionalizar las diferentes estrategias de identificación,
+    manejo, cuidado, protección y rastreo de la fauna y flora urbana del cantón
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: CUARTO AÑO DE ADMINISTRACIÓN
+    pagina: 22
+  enfoques:
+  - ambiente-agua-y-vida
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo propone 'normas municipales locales' sobre estrategias de fauna y flora sin decir cuántas normas
+          ni qué alcance concreto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «proposición de normas municipales locales» no especifica cuántas normas se formularán ni una cobertura
+          o resultado cuantificado.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el 'CUARTO AÑO DE ADMINISTRACIÓN', un momento específico dentro del período.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa esta propuesta en el «CUARTO AÑO DE ADMINISTRACIÓN», un año específico de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «proposición de normas municipales locales» no incluye monto, fuente ni mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Proponer normas (ordenanzas) municipales sobre fauna y flora urbana es facultad del Concejo cantonal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Proponer «normas municipales locales» para el «cuidado, protección y rastreo de la fauna y flora urbana»
+          corresponde a las funciones municipales de regulación y protección ambiental.
+- id: romulo-gonzalez-814d87a1
+  tema: vivienda
+  resumen: Planificar y construir viviendas de interés social para sectores de bajos ingresos.
+  cita: Generar una estrategia de planificación para la generación de viviendas de interés social, especialmente en sectores
+    poblacionales con bajos ingresos
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: Inicio de construcción de las viviendas de interés social en conformidad a los estudios previamente llevados a
+      cabo.
+    pagina: 23
+  - texto: Culminación de construcción de las viviendas de interés social en conformidad a los estudios previamente llevados
+      a cabo.
+    pagina: 24
+  enfoques:
+  - vivienda-construccion-social
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Generar una estrategia de planificación'' no dice cuántas viviendas ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «generación de viviendas de interés social» y su posterior construcción no especifican cuántas viviendas
+          se entregarán ni una ubicación concreta.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los hitos de inicio y culminación de construcción no tienen fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las referencias a «Inicio de construcción» y «Culminación de construcción» no contienen fechas ni duraciones.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La construcción «en conformidad a los estudios previamente llevados a cabo» no identifica costos ni
+          fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vivienda de interés social es competencia municipal según el COOTAD.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La planificación y construcción de «viviendas de interés social» se encuentra dentro de las funciones
+          municipales de vivienda y ordenamiento territorial.
+- id: romulo-gonzalez-4243ead2
+  tema: movilidad
+  resumen: Diseñar y construir un puente carrozable entre Paute y Tutucún.
+  cita: Diseño de un plan técnico y económico para la construcción de un puente carrozable que una Paute con Tutucán.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: Inicio de los procesos de construcción de un puente carrozable que una Paute con Tutucán.
+    pagina: 23
+  - texto: Culminación de los procesos de construcción de un puente carrozable que una Paute con Tutucán.
+    pagina: 24
+  enfoques:
+  - movilidad-ampliar-conexiones
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única con alcance: ''puente carrozable que una Paute con Tutucán''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'La propuesta identifica una obra física única con alcance definido: «un puente carrozable que una
+          Paute con Tutucán».'
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto habla de inicio y culminación de procesos, pero sin fechas ni años.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las referencias a «Inicio» y «Culminación de los procesos de construcción» no incluyen fechas ni duraciones.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona un 'plan técnico y económico' sin monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan técnico y económico» no señala cuánto costará el puente ni de dónde provendrán los recursos.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un puente carrozable cantonal es vialidad local de competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diseño y construcción de un «puente carrozable que una Paute con Tutucán» es una intervención de
+          infraestructura vial que puede ejecutar el Municipio, con coordinación intergubernamental cuando corresponda.
+- id: romulo-gonzalez-7a75fc88
+  tema: movilidad
+  resumen: Realizar mantenimiento, construcción y doble tratamiento de vías locales municipales, con un plan anual de mantenimiento
+    preventivo y correctivo.
+  cita: Mantenimiento, construcción y doble tratamiento de las vías locales del cantón, cuyas competencias correspondan a
+    la municipalidad.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: Diseño de un estudio sobre el estado de las vías locales cuya competencia corresponde al GAD Municipal del cantón
+      Paute
+    pagina: 22
+  - texto: se establecerá un plan anual de mantenimiento preventivo y correctivo
+    pagina: 37
+  - texto: Las obras comprenderán mantenimiento rutinario, bacheo, reconformación de vías rurales, limpieza de cunetas, estabilización
+      de taludes y mejoramiento de drenajes
+    pagina: 38
+  enfoques:
+  - movilidad-mantener-vias
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "vías locales del cantón" sin cuántos kilómetros ni cuántas vías, y "todas" sin cuantificar.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantenimiento, construcción y doble tratamiento de las vías locales» no especifica kilómetros, cantidad
+          de vías ni una obra única con alcance definido.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de un "plan anual de mantenimiento", que es una periodicidad, no una fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un plan anual de mantenimiento preventivo y correctivo» expresa periodicidad, pero no una fecha de
+          cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las obras de «mantenimiento rutinario, bacheo, reconformación» no tienen monto ni fuente de financiamiento
+          identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice que son vías "cuyas competencias correspondan a la municipalidad", competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta limita expresamente las intervenciones a las vías «cuyas competencias correspondan a la
+          municipalidad».
+- id: romulo-gonzalez-bf2dfb35
+  tema: espacio-publico
+  resumen: Elaborar en el cuarto año normativa local con estándares de funcionamiento de los mercados del cantón.
+  cita: Elaboración de normativa local que tenga por objeto establecer estándares de funcionamiento de los mercados del cantón
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: CUARTO AÑO DE ADMINISTRACIÓN
+    pagina: 23
+  enfoques:
+  - espacio-publico-mejorar-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Elaboración de normativa local" sobre estándares de mercados no precisa un resultado cuantificable
+          más allá de una ordenanza genérica.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «elaboración de normativa local» nombra un instrumento regulatorio, pero no cuantifica resultados
+          ni precisa una cobertura medible.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el "CUARTO AÑO DE ADMINISTRACIÓN", que es un año concreto dentro del período.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «CUARTO AÑO DE ADMINISTRACIÓN» ubica la propuesta en un año específico de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «elaboración de normativa local» no viene acompañada de un monto ni de una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La regulación de mercados cantonales es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Establecer «estándares de funcionamiento de los mercados del cantón» corresponde a la regulación municipal
+          de mercados.
+- id: romulo-gonzalez-cca4605e
+  tema: espacio-publico
+  resumen: Evaluar e intervenir la infraestructura, luminaria, techado, higiene y manejo de los mercados del cantón.
+  cita: Puesta en marcha de un programa de planificación e intervención de infraestructura, luminaria, techado, higiene y
+    manejo de los mercados del cantón.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: Evaluación técnica respecto del estado actual y problemas de infraestructura, luminaria, techado, higiene y manejo
+      de los mercados del cantón.
+    pagina: 22
+  - texto: SEGUNDO AÑO DE ADMINISTRACIÓN
+    pagina: 23
+  enfoques:
+  - espacio-publico-mejorar-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra un "programa de planificación e intervención" de los mercados del cantón sin decir cuántos
+          mercados ni qué resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «programa de planificación e intervención» no cuantifica las intervenciones ni identifica una obra
+          física única con ubicación o alcance.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica la propuesta en el "SEGUNDO AÑO DE ADMINISTRACIÓN", una duración contada desde el
+          inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la puesta en marcha del programa en el «SEGUNDO AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento para el programa de mercados.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «puesta en marcha de un programa» no incluye un monto, una fuente ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los mercados son competencia municipal exclusiva (espacio público, mercados).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La intervención de «infraestructura, luminaria, techado, higiene y manejo de los mercados del cantón»
+          corresponde a las funciones municipales sobre mercados.
+- id: romulo-gonzalez-3259565e
+  tema: ambiente
+  resumen: Incorporar un programa de reciclaje en la recolección de desechos sólidos y generar normas locales con estándares
+    de reciclaje.
+  cita: Implementación de un estudio estratégico para la incorporación de un programa de reciclaje que forme parte integral
+    de los procesos de recolección y tratamiento de desechos sólidos.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: Ejecución inicial de los planes y estrategias de reciclaje
+    pagina: 24
+  - texto: Generar normas locales que establezcan estándares en materia de reciclaje dentro de la recolección de desechos
+      sólidos.
+    pagina: 25
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "estudio estratégico" para un programa de reciclaje no dice cuánto ni a quién llegará.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Un «estudio estratégico» y un «programa de reciclaje» nombran instrumentos sin cuantificar residuos,
+          beneficiarios, instalaciones o cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ejecución inicial" es vaga y sin fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Ejecución inicial de los planes y estrategias de reciclaje» no aporta fecha ni duración
+          de una etapa.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «implementación de un estudio estratégico» no especifica costo ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de desechos sólidos y las normas locales de reciclaje son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Incorporar reciclaje en la «recolección y tratamiento de desechos sólidos» y generar normas locales
+          corresponde a las competencias municipales de manejo de residuos.
+- id: romulo-gonzalez-b40b95d6
+  tema: agua-servicios
+  resumen: Diagnosticar filtraciones y afectaciones ambientales y sanitarias por el manejo de aguas residuales.
+  cita: Diagnóstico sobre niveles de filtración y afectaciones ambientales, sanitarias, y de salud generadas por los manejos
+    ineficientes de aguas residuales.
+  pagina: 24
+  cita_verificada: true
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un 'diagnóstico sobre niveles de filtración' no precisa alcance, cobertura ni cantidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Diagnóstico sobre niveles de filtración y afectaciones ambientales, sanitarias, y de salud» no
+          cuantifica los sitios, la cobertura ni los resultados esperados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Diagnóstico sobre niveles de filtración» no establece cuándo se completará.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El diagnóstico de afectaciones por «manejos ineficientes de aguas residuales» no incluye monto ni fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Aguas residuales y control de la contaminación son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Diagnosticar afectaciones generadas por «aguas residuales» corresponde a las competencias municipales
+          de saneamiento y control ambiental.
+- id: romulo-gonzalez-c774c552
+  tema: agua-servicios
+  resumen: Construir en el tercer año un colector de aguas residuales para la cabecera cantonal, con línea base previa y mantenimiento
+    en el cuarto año.
+  cita: Iniciar la construcción de un colector de aguas residuales que tenga capacidad para satisfacer las necesidades de
+    la cabecera cantonal
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: TERCER AÑO DE ADMINISTRACIÓN
+    pagina: 24
+  - texto: establecer las líneas bases para la construcción de un colector de aguas residuales.
+    pagina: 24
+  - texto: Dar mantenimiento y evaluar el funcionamiento del sistema colector de aguas residuales.
+    pagina: 25
+  enfoques:
+  - agua-servicios-alcantarillado-tratamiento
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única: ''un colector de aguas residuales'' para ''la cabecera cantonal''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'Se identifica una obra física y su ámbito de servicio: «un colector de aguas residuales» para «la
+          cabecera cantonal».'
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el 'TERCER AÑO DE ADMINISTRACIÓN', una duración desde el inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El inicio de la construcción está ubicado en el «TERCER AÑO DE ADMINISTRACIÓN».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica costo ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «iniciar la construcción de un colector de aguas residuales» no señala monto ni fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Alcantarillado es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La construcción de «un colector de aguas residuales» corresponde a la competencia municipal de alcantarillado.
+- id: romulo-gonzalez-dd4264c3
+  tema: ambiente
+  resumen: Medir la filtración de lixiviados en fuentes de agua y terrenos agrícolas, diseñar una estrategia de mitigación
+    y generar políticas públicas al respecto.
+  cita: Medición de los niveles de filtración de lixiviados en fuentes de agua y terrenos de producción agrícola del cantón
+    y sus parroquias.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: Diseño de una estrategia de mitigación de las filtraciones de lixiviados provenientes de las fuentes de recolección
+      de desechos sólidos
+    pagina: 24
+  - texto: Generar políticas públicas municipales que favorezcan a la prevención y mitigación de los daños ambientales y sanitarios
+      producidos por la filtración de lixiviados.
+    pagina: 25
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Medición de los niveles de filtración de lixiviados'' en el cantón no dice cuántos puntos o fuentes
+          se medirán.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Medición de los niveles de filtración de lixiviados» no precisa cuántas fuentes de agua o terrenos
+          se medirán ni una cobertura cuantificada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Medición» y el «Diseño de una estrategia de mitigación» no tienen una fecha ni una duración asignadas.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de medir filtraciones y «Generar políticas públicas municipales» no identifica costos
+          ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desechos sólidos y control de la contaminación son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La prevención y mitigación de «filtraciones de lixiviados» provenientes de desechos sólidos corresponde
+          a la gestión municipal de residuos y al control ambiental.
+- id: romulo-gonzalez-50549fe5
+  tema: ambiente
+  resumen: Elaborar un Plan Cantonal de Recuperación de Fuentes Hídricas Prioritarias para microcuencas y captaciones con
+    mayor contaminación, y luego para las de contaminación media o baja.
+  cita: el Gobierno Municipal elaborará un Plan Cantonal de Recuperación de Fuentes Hídricas Prioritarias
+  pagina: 26
+  cita_verificada: true
+  contexto:
+  - texto: Diseño de un plan de mitigación ambiental de las fuentes de hídricas del cantón que presenten mayores niveles de
+      contaminación.
+    pagina: 19
+  - texto: Diseño de un plan de mitigación ambiental de las fuentes de hídricas del cantón que presenten niveles medios o
+      inferiores de contaminación.
+    pagina: 19
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Elaborar "un Plan Cantonal de Recuperación de Fuentes Hídricas Prioritarias" no indica cuántas fuentes
+          ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un Plan Cantonal de Recuperación de Fuentes Hídricas Prioritarias» nombra un plan sin cuantificar
+          las fuentes que se recuperarán ni el resultado ambiental.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «El Gobierno Municipal elaborará» el plan no indica cuándo estará terminado.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan Cantonal de Recuperación de Fuentes Hídricas Prioritarias» no tiene monto, fuente ni mecanismo
+          de financiamiento señalado.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede elaborar un plan ambiental cantonal y controlar la contaminación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «plan de mitigación ambiental» de fuentes contaminadas corresponde a las funciones municipales de
+          planificación y control ambiental.
+- id: romulo-gonzalez-0e2e1163
+  tema: ambiente
+  resumen: Diseñar proyectos de estabilización de taludes, barreras vivas con flora endémica y bioingeniería para fuentes
+    de agua afectadas por erosión.
+  cita: se diseñarán proyectos específicos para estabilización de taludes, recuperación de cobertura vegetal, implementación
+    de barreras vivas con flora endémica, construcción de obras de bioingeniería
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: Diseño de un plan de mitigación ambiental de las fuentes de agua que se vean mayormente afectadas por procesos
+      de erosión.
+    pagina: 19
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Se diseñarán proyectos específicos" no cuantifica ni ubica obras concretas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «proyectos específicos para estabilización de taludes» y las demás actuaciones no precisan cantidades,
+          superficies ni lugares de intervención.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «se diseñarán proyectos específicos» no indica una fecha ni una duración para su cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan de mitigación ambiental de las fuentes de agua» no identifica costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La mitigación ambiental y la gestión de fuentes de agua son de competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «estabilización de taludes» y la «recuperación de cobertura vegetal» para proteger fuentes de agua
+          se encuadran en gestión de riesgos y protección ambiental municipales.
+- id: romulo-gonzalez-1e9a0e5b
+  tema: ambiente
+  resumen: Implementar un Programa Permanente de Educación para la Cultura del Agua con talleres, ferias, programas radiales
+    y jornadas de recuperación de riberas.
+  cita: El Gobierno Municipal implementará un Programa Permanente de Educación para la Cultura del Agua
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: Estructuración de campañas de concientización de la importancia de las fuentes hídricas de Paute
+    pagina: 19
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra un 'Programa Permanente de Educación para la Cultura del Agua' y 'campañas de concientización'
+          sin cantidad ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa Permanente de Educación para la Cultura del Agua» y las «campañas de concientización»
+          no especifican cantidades ni cobertura medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; 'Permanente' no indica cuándo estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El carácter «Permanente» del programa no establece una fecha o un plazo para su implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de implementar un «Programa Permanente de Educación» no indica montos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La educación ambiental y la protección de fuentes hídricas son funciones municipales que el Gobierno
+          Municipal puede ejecutar.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La educación sobre la «importancia de las fuentes hídricas de Paute» corresponde a las funciones municipales
+          de gestión ambiental y agua.
+- id: romulo-gonzalez-4de5390d
+  tema: agua-servicios
+  resumen: Implementar un sistema de mantenimiento preventivo y correctivo del agua potable para reducir pérdidas y mejorar
+    la continuidad del servicio.
+  cita: se implementará un sistema de mantenimiento preventivo y correctivo que permita reducir pérdidas de agua, optimizar
+    la continuidad del servicio
+  pagina: 28
+  cita_verificada: true
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'un sistema de mantenimiento preventivo y correctivo' sin cuantificar la reducción de pérdidas
+          ni la cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las expresiones «reducir pérdidas de agua» y «optimizar la continuidad del servicio» no fijan una reducción
+          ni un nivel de servicio verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No incluye referencia temporal alguna.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La frase «se implementará un sistema de mantenimiento preventivo y correctivo» no establece cuándo
+          estará implementado.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «sistema de mantenimiento preventivo y correctivo» no tiene un costo ni una fuente de financiamiento
+          señalados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable y su continuidad son competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El mantenimiento para «reducir pérdidas de agua» y mejorar la «continuidad del servicio» corresponde
+          a la competencia municipal de agua potable.
+- id: romulo-gonzalez-9f8433bf
+  tema: ambiente
+  resumen: Impulsar acuerdos voluntarios con propietarios de predios rurales para conservar zonas de captación y establecer
+    franjas de protección ribereña.
+  cita: Se impulsarán acuerdos voluntarios con propietarios de predios rurales para conservar zonas de captación, establecer
+    franjas de protección ribereña
+  pagina: 28
+  cita_verificada: true
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: 'No dice cuántos predios ni hectáreas: solo ''acuerdos voluntarios con propietarios de predios rurales''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «impulsarán acuerdos voluntarios» no cuantifica acuerdos, predios ni superficie que se
+          conservará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «conservar zonas de captación» no establece una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «acuerdos voluntarios con propietarios» no especifican un costo ni un mecanismo para financiar
+          la conservación.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La conservación de zonas de captación y franjas ribereñas es gestión ambiental y de recursos hídricos
+          que el municipio puede cumplir mediante acuerdos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La conservación de «zonas de captación» y el establecimiento de «franjas de protección ribereña» corresponden
+          a funciones municipales de protección ambiental y ordenamiento territorial.
+- id: romulo-gonzalez-143cd5ec
+  tema: ambiente
+  resumen: Realizar inspecciones periódicas de los suelos intervenidos para verificar su estabilidad, recuperación vegetal
+    y reducción de la erosión.
+  cita: 'La Alcaldía dispondrá la generación de inspecciones técnicas periódicas
+
+    para verificar la estabilidad de los suelos intervenidos, el grado de
+
+    recuperación de la cobertura vegetal y la disminución efectiva de procesos
+
+    erosivos.'
+  pagina: 29
+  cita_verificada: true
+  contexto:
+  - texto: 'La información obtenida permitirá actualizar los planes de restauración
+
+      ecológica y priorizar nuevas intervenciones en aquellas zonas donde
+
+      persistan riesgos ambientales significativos.'
+    pagina: 29
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de "inspecciones técnicas periódicas" sin cantidad, cobertura ni zonas concretas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Inspecciones técnicas periódicas» no precisa cuántas se realizarán, qué cobertura tendrán ni qué nivel
+          de recuperación se alcanzará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "periódicas", sin fecha ni duración de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Periódicas» expresa recurrencia, pero no una fecha o etapa fechada de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «generación de inspecciones técnicas periódicas» no incluye un monto ni una fuente o mecanismo de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Control ambiental y restauración de suelos en el territorio municipal son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Verificar la «estabilidad de los suelos intervenidos» y actualizar los «planes de restauración ecológica»
+          corresponde a la gestión municipal ambiental y de riesgos.
+- id: romulo-gonzalez-1db626b7
+  tema: ambiente
+  resumen: Promover prácticas agrícolas conservacionistas como terrazas, zanjas de infiltración, barreras vivas y sistemas
+    agroforestales para proteger microcuencas.
+  cita: Se promoverá la incorporación de prácticas agrícolas conservacionistas, construcción de terrazas, zanjas de infiltración,
+    barreras vivas, cercas naturales y sistemas agroforestales
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Se promoverá'' prácticas conservacionistas sin decir cuántas hectáreas o productores.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se promoverá la incorporación de prácticas agrícolas conservacionistas» no cuantifica terrazas, superficies
+          intervenidas ni beneficiarios.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de promover «terrazas, zanjas de infiltración, barreras vivas» no contiene una referencia
+          temporal de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La promoción de «prácticas agrícolas conservacionistas» no viene acompañada de un monto ni de una fuente
+          específica de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede promover prácticas conservacionistas con sus funciones de ambiente y desarrollo
+          local.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Promover «prácticas agrícolas conservacionistas» y «sistemas agroforestales» cabe en las funciones
+          municipales de gestión ambiental y desarrollo económico local.
+- id: romulo-gonzalez-51d09073
+  tema: agua-servicios
+  resumen: Implementar un sistema de seguimiento para comparar la calidad del agua antes y después de las intervenciones de
+    mitigación de contaminación.
+  cita: 'Se trabajará en la implementación de un sistema de seguimiento basado
+
+    en indicadores ambientales que permita comparar la calidad del agua
+
+    antes y después de las intervenciones realizadas, evaluando el
+
+    cumplimiento de metas, la eficiencia de las inversiones y el impacto
+
+    ambiental obtenido.'
+  pagina: 29
+  cita_verificada: true
+  contexto:
+  - texto: 'Estrategia para la evaluación de los programas de mitigación de
+
+      contaminación'
+    pagina: 29
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "sistema de seguimiento basado en indicadores ambientales" es un tipo de sistema sin cantidad ni
+          alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «sistema de seguimiento basado en indicadores ambientales» no especifica cantidad de puntos, cobertura
+          territorial ni un resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal alguna.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Comparar la calidad del agua «antes y después de las intervenciones realizadas» no fija una fecha ni
+          una duración para implementar el sistema.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención a evaluar «la eficiencia de las inversiones» no indica cuánto costará el sistema ni de dónde
+          saldrá su financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Monitorear la calidad del agua y la contaminación es competencia municipal de control ambiental.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El seguimiento de la «calidad del agua» y de los «programas de mitigación de contaminación» corresponde
+          a competencias municipales ambientales y de agua.
+- id: romulo-gonzalez-5cb21990
+  tema: agua-servicios
+  resumen: En el tercer año, ampliar la cobertura de agua potable a sectores con deficiencias, con auditorías técnicas, monitoreo
+    de calidad y actualización de catastros de redes.
+  cita: priorizando la optimización operativa, el mantenimiento preventivo y la ampliación de cobertura hacia sectores que
+    aún presenten deficiencias
+  pagina: 29
+  cita_verificada: true
+  contexto:
+  - texto: Estrategia para la continuidad del proyecto integral de agua potable
+    pagina: 29
+  - texto: auditorías técnicas periódicas, monitoreo continuo de calidad del agua, actualización de catastros de redes
+    pagina: 29
+  enfoques:
+  - agua-servicios-mejorar-agua-potable
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"ampliación de cobertura hacia sectores que aún presenten deficiencias" no dice cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La ampliación de cobertura hacia sectores que aún presenten deficiencias» no cuantifica la cobertura
+          ni identifica una obra con ubicación o alcance definido.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración, solo "periódicas" y "continuo".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Auditorías técnicas periódicas» y «monitoreo continuo» describen frecuencias de actividad, no un plazo
+          de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «continuidad del proyecto integral de agua potable» no viene acompañada de un monto ni de una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «optimización operativa», el «mantenimiento preventivo» y la ampliación del servicio de «agua potable»
+          corresponden a competencias municipales.
+- id: romulo-gonzalez-d0972ab3
+  tema: ambiente
+  resumen: En el cuarto año, institucionalizar mediante ordenanzas y manuales técnicos las políticas efectivas de protección
+    de recursos hídricos.
+  cita: procurando institucionalizar mediante ordenanzas, manuales técnicos y procedimientos administrativos aquellas políticas
+    públicas que hayan demostrado mayor efectividad en la protección de los recursos hídricos
+  pagina: 30
+  cita_verificada: true
+  contexto:
+  - texto: CUARTO AÑO
+    pagina: 30
+  enfoques:
+  - ambiente-prevencion-y-control
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Procurando institucionalizar... políticas públicas'' es una intención sin cantidad ni producto específico.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Institucionalizar mediante ordenanzas, manuales técnicos y procedimientos administrativos» no cuantifica
+          instrumentos ni identifica políticas concretas que serán institucionalizadas.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto ubica la propuesta en el 'CUARTO AÑO', que es una duración contada desde el inicio de la
+          gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «CUARTO AÑO» ubica específicamente la propuesta en un año de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La institucionalización «mediante ordenanzas, manuales técnicos y procedimientos administrativos» no
+          incluye un costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Expedir ordenanzas y procedimientos para proteger recursos hídricos es facultad municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Emitir «ordenanzas, manuales técnicos y procedimientos administrativos» para proteger recursos hídricos
+          está dentro de las atribuciones normativas y ambientales municipales.
+- id: romulo-gonzalez-139bfd34
+  tema: ambiente
+  resumen: Formular un Plan Cantonal de Conservación y Restauración Ambiental y crear una comisión jurídico ambiental para
+    propuestas de normativa local.
+  cita: La administración municipal impulsará la formulación de un Plan Cantonal de Conservación y Restauración Ambiental
+  pagina: 31
+  cita_verificada: true
+  contexto:
+  - texto: A tal efecto se generará una comisión jurídico ambiental que facilite la construcción de propuestas de normativa
+      local
+    pagina: 31
+  enfoques:
+  - ambiente-prevencion-y-control
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo "impulsará la formulación de un Plan" con un verbo genérico, sin resultado cuantificado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Impulsar un «Plan Cantonal de Conservación y Restauración Ambiental» y generar una «comisión jurídico
+          ambiental» no especifica cantidades, cobertura ni resultados ambientales medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La formulación del «Plan Cantonal de Conservación y Restauración Ambiental» no tiene una fecha ni una
+          duración definida.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni el «Plan Cantonal de Conservación y Restauración Ambiental» ni la «comisión jurídico ambiental»
+          tienen un monto o una fuente de financiamiento identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión ambiental y la normativa local son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La planificación de «conservación y restauración ambiental» y la construcción de «propuestas de normativa
+          local» corresponden al ámbito municipal.
+- id: romulo-gonzalez-9675139d
+  tema: ambiente
+  resumen: Desarrollar un inventario técnico de zonas ambientalmente degradadas con una matriz de priorización de intervenciones.
+  cita: El Gobierno Municipal desarrollará un inventario técnico de las zonas que presenten procesos de degradación ambiental
+  pagina: 31
+  cita_verificada: true
+  contexto:
+  - texto: se establecerá una matriz de priorización
+    pagina: 32
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de un "inventario técnico de las zonas que presenten procesos de degradación ambiental" sin decir
+          cuántas zonas ni qué alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «un inventario técnico de las zonas» no cuantifica las zonas que se inventariarán ni establece
+          una cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; solo "se establecerá una matriz de priorización".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Desarrollará un inventario técnico» y «se establecerá una matriz de priorización» no indican fecha
+          ni duración de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración del «inventario técnico» y de la «matriz de priorización» no tiene monto ni fuente de
+          financiamiento especificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El inventario de zonas degradadas corresponde al control de la contaminación y gestión ambiental del
+          Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Inventariar «zonas que presenten procesos de degradación ambiental» corresponde a las funciones municipales
+          de gestión ambiental y ordenamiento territorial.
+- id: romulo-gonzalez-70ee32b8
+  tema: ambiente
+  resumen: Poner en marcha un Programa Permanente de Educación Ambiental con talleres, mingas, reforestación y ferias ecológicas.
+  cita: La administración municipal pondrá en marcha un Programa Permanente de Educación Ambiental destinado a fortalecer
+    la cultura de conservación
+  pagina: 32
+  cita_verificada: true
+  enfoques:
+  - ambiente-participacion-y-educacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Programa Permanente de Educación Ambiental'' es un tipo de programa sin cuánto ni a quiénes llegará.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa Permanente de Educación Ambiental» nombra un programa sin cuantificar actividades, beneficiarios,
+          cobertura o resultados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Permanente'' y ''pondrá en marcha'' no indican cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Pondrá en marcha» y «permanente» no indican cuándo estará implementado el programa.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa Permanente de Educación Ambiental» no menciona un costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La educación ambiental es una acción que el Municipio puede ejecutar.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Educación Ambiental» orientada a «fortalecer la cultura de conservación» se enmarca en las funciones
+          municipales de gestión ambiental.
+- id: romulo-gonzalez-8c6d4d41
+  tema: ambiente
+  resumen: Diseñar un Programa Cantonal de Reforestación con especies nativas, con viveros municipales o convenios, para reducir
+    la frontera agrícola.
+  cita: el Gobierno Municipal diseñará un Programa Cantonal de Reforestación priorizando el uso de especies forestales nativas
+  pagina: 32
+  cita_verificada: true
+  contexto:
+  - texto: la producción de plantas en viveros municipales o mediante convenios con instituciones públicas y privadas
+    pagina: 32
+  - texto: Inicio de programas de reforestación con vegetación endémica del cantón Paute, que permita reducir progresiva y
+      sostenidamente los márgenes de la frontera agrícola
+    pagina: 22
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "Programa Cantonal de Reforestación" no dice cuántas plantas ni hectáreas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa Cantonal de Reforestación» y la reducción «progresiva y sostenidamente» de la frontera
+          agrícola no fijan cantidades de plantas, superficie ni una reducción medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "Inicio de programas" sin fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Inicio de programas de reforestación» no indica una fecha ni una duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "viveros municipales o convenios" para producir plantas, pero sin monto ni fuente concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La producción en «viveros municipales o mediante convenios con instituciones públicas y privadas» describe
+          alternativas operativas sin identificar aportes, costos ni un mecanismo concreto de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La reforestación y la gestión ambiental cantonal son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Diseñar un «Programa Cantonal de Reforestación» con «especies forestales nativas» corresponde a las
+          funciones municipales de gestión ambiental.
+- id: romulo-gonzalez-f193aed0
+  tema: ambiente
+  resumen: Conformar redes comunitarias de vigilancia ambiental que colaboren con el Municipio en la detección de amenazas.
+  cita: se impulsará la conformación de redes comunitarias de vigilancia ambiental que colaboren con el Municipio en la identificación
+    temprana de amenazas ambientales
+  pagina: 32
+  cita_verificada: true
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Se impulsará la conformación de redes" no dice cuántas redes ni qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «conformación de redes comunitarias de vigilancia ambiental» no precisa cuántas redes se crearán
+          ni qué cobertura tendrán.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se impulsará la conformación» no indica una fecha ni una duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «redes comunitarias de vigilancia ambiental» no tienen monto ni fuente de financiamiento identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vigilancia ambiental comunitaria en colaboración con el Municipio entra en el control de la contaminación
+          y la participación ciudadana.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Organizar redes que colaboren «con el Municipio en la identificación temprana de amenazas ambientales»
+          cabe en la participación ciudadana y la gestión ambiental municipal.
+- id: romulo-gonzalez-252e3ec7
+  tema: ambiente
+  resumen: Fortalecer el control ambiental con inspecciones técnicas permanentes para reducir deforestación, quemas ilegales
+    y contaminación.
+  cita: Se fortalecerán las capacidades institucionales de control ambiental mediante procesos permanentes de inspección técnica
+  pagina: 33
+  cita_verificada: true
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Fortalecerán las capacidades" con "inspección técnica" es una intención genérica sin cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se fortalecerán las capacidades institucionales» mediante inspecciones no especifica cuántas se realizarán
+          ni qué cobertura tendrán.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Procesos permanentes" no fija cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «procesos permanentes de inspección técnica» describe continuidad, no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «procesos permanentes de inspección técnica» no tienen monto ni fuente de financiamiento identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control de la contaminación y ambiental es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «control ambiental» mediante «inspección técnica» forma parte de las funciones municipales de control
+          de la contaminación.
+- id: romulo-gonzalez-5a33f7c7
+  tema: ambiente
+  resumen: Crear mecanismos de incentivo para propietarios rurales, comunidades y organizaciones que conserven bosques y fuentes
+    hídricas.
+  cita: El Gobierno Municipal promoverá mecanismos de incentivo dirigidos a propietarios de predios rurales, comunidades y
+    organizaciones
+  pagina: 33
+  cita_verificada: true
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Promoverá mecanismos de incentivo" es una intención genérica sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promoverá mecanismos de incentivo» no establece una cantidad de incentivos, beneficiarios ni una cobertura
+          verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La promesa «promoverá mecanismos de incentivo» no incluye una referencia temporal de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de los incentivos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «mecanismos de incentivo» no identifican un monto, una fuente ni un mecanismo para financiar su
+          implementación.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Incentivos ambientales a propietarios rurales pueden ser dispuestos por el Municipio en el ámbito de
+          sus competencias de ambiente y uso del suelo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Promover incentivos para «propietarios de predios rurales» y «organizaciones» se encuadra en las funciones
+          municipales de gestión territorial y ambiental.
+- id: romulo-gonzalez-e91143bd
+  tema: ambiente
+  resumen: 'Ejecutar desde el segundo año proyectos de restauración ecológica en áreas prioritarias: reforestación, control
+    de especies invasoras y corredores ecológicos.'
+  cita: la administración municipal iniciará la ejecución progresiva de proyectos de restauración ecológica en las áreas identificadas
+    como prioritarias
+  pagina: 33
+  cita_verificada: true
+  contexto:
+  - texto: SEGUNDO AÑO
+    pagina: 33
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de "proyectos de restauración ecológica en las áreas identificadas como prioritarias" sin cantidad
+          ni superficie.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «proyectos de restauración ecológica en las áreas identificadas como prioritarias» no especifican
+          cantidad, superficie ni áreas concretas de intervención.
+    plazo:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El "SEGUNDO AÑO" es solo el inicio de una "ejecución progresiva", sin decir cuándo estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto ubica el inicio de la «ejecución progresiva de proyectos de restauración ecológica» en
+          el «SEGUNDO AÑO».
+      nota_revision: El segundo año fecha el inicio de una ejecución progresiva, no su cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ejecución progresiva de proyectos de restauración ecológica» no señala costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La restauración ecológica y el control ambiental local están dentro de las funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «proyectos de restauración ecológica» se encuadran en las funciones municipales de protección ambiental
+          y gestión territorial.
+- id: romulo-gonzalez-0a5be81b
+  tema: ambiente
+  resumen: Evaluar las intervenciones de restauración ambiental para redefinir prioridades y asignación de recursos.
+  cita: 'Durante el tercer año se realizará una evaluación integral de las
+
+    intervenciones ejecutadas, analizando la recuperación de cobertura
+
+    vegetal, la mejora de los servicios ecosistémicos, el incremento de
+
+    biodiversidad y la estabilidad de las áreas restauradas.'
+  pagina: 34
+  cita_verificada: true
+  contexto:
+  - texto: 'La información obtenida permitirá redefinir prioridades, optimizar
+
+      recursos y fortalecer aquellas acciones que presenten mayores resultados
+
+      ambientales.'
+    pagina: 34
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice que se hará una "evaluación integral" sin cuantificar un resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación integral de las intervenciones ejecutadas» enumera aspectos por analizar, pero no cuantifica
+          su cobertura ni fija un resultado medible.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "Durante el tercer año" como momento de realización de la evaluación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La expresión «Durante el tercer año se realizará» asigna un año específico a la evaluación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; "optimizar recursos" es genérico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La intención de «optimizar recursos» no identifica un monto, un rubro presupuestario ni un mecanismo
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Evaluar intervenciones ambientales propias de restauración es de la gestión municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar la «recuperación de cobertura vegetal» y la «estabilidad de las áreas restauradas» corresponde
+          a las funciones municipales de gestión ambiental.
+- id: romulo-gonzalez-41e031c8
+  tema: ambiente
+  resumen: Institucionalizar un Sistema Cantonal de Gestión Ambiental mediante normativa local, protocolos y mecanismos de
+    coordinación.
+  cita: el Gobierno Municipal impulsará la institucionalización de un Sistema Cantonal de Gestión Ambiental mediante la expedición
+    de normativa local
+  pagina: 35
+  cita_verificada: true
+  enfoques:
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Sistema Cantonal de Gestión Ambiental mediante normativa local'' es un sistema sin cantidad ni alcance
+          verificable, con el verbo ''impulsará''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La institucionalización de un «Sistema Cantonal de Gestión Ambiental» nombra un sistema sin cuantificar
+          resultados ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica cuándo se expedirá la normativa.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «impulsará la institucionalización» no señala cuándo estará cumplida la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «expedición de normativa local» describe un instrumento regulatorio, pero no un monto ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Expedir normativa local y gestión ambiental cantonal es función municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Gestión Ambiental mediante la expedición de normativa local» está dentro de las funciones municipales
+          de regulación y control ambiental.
+- id: romulo-gonzalez-4c770285
+  tema: empleo
+  resumen: Formular un Plan Cantonal de Desarrollo Económico Local con una mesa técnica de sectores productivos, academia
+    y gobiernos parroquiales.
+  cita: La administración municipal formulará un Plan Cantonal de Desarrollo Económico Local como instrumento rector
+  pagina: 35
+  cita_verificada: true
+  contexto:
+  - texto: se conformará una mesa técnica integrada por las diferentes dependencias municipales
+    pagina: 35
+  enfoques:
+  - empleo-planificar-desarrollo-local
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra un producto único y verificable, "un Plan Cantonal de Desarrollo Económico Local".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Plan Cantonal de Desarrollo Económico Local» nombra un instrumento de planificación, pero no cuantifica
+          resultados ni cobertura.
+      nota_revision: El plan cantonal es un instrumento, sin meta de cobertura o resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Formulará un Plan» y «se conformará una mesa técnica» no establecen una fecha o duración para su cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La participación de «las diferentes dependencias municipales» no identifica un monto, rubro o mecanismo
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y la planificación son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Formular un «Plan Cantonal de Desarrollo Económico Local» corresponde a la planificación y promoción
+          económica municipales.
+- id: romulo-gonzalez-d19c2a3c
+  tema: empleo
+  resumen: Implementar un programa de fortalecimiento productivo para pequeños y medianos productores con asistencia técnica,
+    capacitación y articulación comercial.
+  cita: El Gobierno Municipal implementará un programa integral de fortalecimiento productivo dirigido a pequeños y medianos
+    productores
+  pagina: 36
+  cita_verificada: true
+  enfoques:
+  - empleo-mejorar-produccion
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Programa integral de fortalecimiento productivo" nombra un tipo de programa sin cuánto ni a cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un programa integral de fortalecimiento productivo» nombra un programa sin cuantificar resultados
+          ni productores beneficiarios.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «implementará un programa integral» no establece cuándo estará cumplida la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «programa integral de fortalecimiento productivo» no tiene costo ni fuente de financiamiento indicada.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El fomento productivo local entra en el desarrollo económico local municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «fortalecimiento productivo dirigido a pequeños y medianos productores» corresponde al fomento municipal
+          del desarrollo económico local.
+- id: romulo-gonzalez-f5fdc752
+  tema: cultura
+  resumen: Elaborar un inventario de atractivos turísticos y un plan de promoción con marketing digital, señalética y capacitación
+    a prestadores.
+  cita: Inicialmente se realizará un inventario actualizado de atractivos turísticos
+  pagina: 36
+  cita_verificada: true
+  contexto:
+  - texto: Posteriormente se diseñará un plan de promoción que incorpore identidad territorial, marketing digital, señalética
+      turística
+    pagina: 36
+  enfoques:
+  - cultura-promover-el-turismo
+  - cultura-mejorar-espacios-y-rutas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "un inventario actualizado de atractivos turísticos" sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un inventario actualizado de atractivos turísticos» nombra un instrumento sin cuantificar los atractivos
+          que incluirá ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Inicialmente" y "Posteriormente" son referencias vagas sin fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Inicialmente» y «posteriormente» establecen una secuencia, pero no una fecha ni una duración para
+          cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «un inventario actualizado» no incluye un monto, una fuente ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El turismo y su promoción son competencia del Municipio según el COOTAD.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El inventario de «atractivos turísticos» corresponde a las funciones municipales de promoción y desarrollo
+          turístico local.
+- id: romulo-gonzalez-0fccc92b
+  tema: empleo
+  resumen: Organizar ruedas de negocios, ferias comerciales permanentes y acompañamiento técnico a emprendimientos locales.
+  cita: La estrategia incorporará ruedas de negocios, ferias comerciales permanentes, procesos de innovación productiva y
+    acompañamiento técnico
+  pagina: 37
+  cita_verificada: true
+  enfoques:
+  - empleo-abrir-mercados
+  - empleo-apoyar-negocios
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ruedas de negocios, ferias comerciales permanentes" no dicen cuántas ni a cuántos llegarán.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ruedas de negocios, ferias comerciales permanentes» y «acompañamiento técnico» no especifican cantidades
+          ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «ferias comerciales permanentes» describe continuidad, pero no fija cuándo estará implementada
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La estrategia de «ruedas de negocios» y «ferias comerciales» no señala montos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Ferias y fomento productivo local son parte del desarrollo económico local municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «ruedas de negocios», las «ferias comerciales» y el «acompañamiento técnico» son acciones municipales
+          de desarrollo económico local.
+- id: romulo-gonzalez-5ae1725d
+  tema: inclusion
+  resumen: Realizar un diagnóstico de grupos de atención prioritaria y ampliar progresivamente la cobertura de programas sociales.
+  cita: La administración municipal desarrollará un diagnóstico integral de los grupos de atención prioritaria del cantón
+  pagina: 37
+  cita_verificada: true
+  contexto:
+  - texto: Se ampliará progresivamente la cobertura de los programas sociales dirigidos a grupos prioritarios
+    pagina: 38
+  enfoques:
+  - inclusion-gestion-programas-sociales
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un 'diagnóstico integral' no indica cantidad ni resultado verificable específico, y 'ampliará progresivamente'
+          es vago.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un diagnóstico integral de los grupos de atención prioritaria» no especifica una cantidad ni una cobertura
+          medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha; 'progresivamente' es vago.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Desarrollará un diagnóstico integral» no establece cuándo estará concluido.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración del «diagnóstico integral» no incluye un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El diagnóstico y los programas sociales de inclusión son funciones municipales de protección de derechos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diagnóstico de «los grupos de atención prioritaria del cantón» corresponde a las funciones municipales
+          de inclusión y protección de derechos.
+- id: romulo-gonzalez-0a5cc825
+  tema: cultura
+  resumen: Ejecutar proyectos de mejoramiento de infraestructura turística, recuperación de espacios públicos de interés turístico
+    y rutas temáticas.
+  cita: El Gobierno Municipal iniciará la ejecución de proyectos destinados al mejoramiento de infraestructura turística,
+    recuperación de espacios públicos de interés turístico
+  pagina: 38
+  cita_verificada: true
+  enfoques:
+  - cultura-mejorar-espacios-y-rutas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Proyectos destinados al mejoramiento de infraestructura turística'' no indica cuántos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «proyectos destinados al mejoramiento de infraestructura turística» no identifican obras únicas
+          ni cuantifican las intervenciones.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Iniciará la ejecución'' no dice cuándo estará cumplida y no hay fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Iniciará la ejecución de proyectos» no señala una fecha ni cuándo estarán cumplidos.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «mejoramiento de infraestructura turística» y la «recuperación de espacios públicos» no tienen un
+          monto ni una fuente de financiamiento especificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Turismo y recuperación de espacios públicos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «mejoramiento de infraestructura turística» y la «recuperación de espacios públicos de interés turístico»
+          corresponden a funciones municipales de turismo y gestión del espacio público.
+- id: romulo-gonzalez-13aab017
+  tema: empleo
+  resumen: Evaluar los programas de desarrollo económico mediante indicadores de empleo, productividad, empresas, turismo
+    y cadenas productivas.
+  cita: 'Durante el tercer año se realizará una evaluación integral de los
+
+    programas ejecutados, analizando indicadores de empleo, productividad,
+
+    fortalecimiento empresarial, crecimiento del turismo y evolución de las
+
+    cadenas productivas.'
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 'Estrategia para la evaluación y fortalecimiento de la política de
+
+      desarrollo económico'
+    pagina: 38
+  enfoques:
+  - empleo-planificar-desarrollo-local
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Promete una "evaluación integral" de programas sin cantidad ni resultado verificable específico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Una evaluación integral de los programas ejecutados» describe una actividad sin cuantificar su cobertura
+          ni establecer resultados medibles para los indicadores mencionados.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica "Durante el tercer año", un momento específico dentro del período de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Durante el tercer año» ubica expresamente la realización de la evaluación dentro de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se realizará una evaluación integral» no especifica cuánto costará ni con qué fuente o mecanismo se
+          financiará.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Evaluar los programas municipales de desarrollo económico local es una función del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «evaluación y fortalecimiento de la política de desarrollo económico» permite al Municipio evaluar
+          sus programas de desarrollo económico local.
+- id: romulo-gonzalez-10e6b032
+  tema: inclusion
+  resumen: Implementar un sistema de seguimiento y evaluación del impacto de los programas sociales en los grupos beneficiarios.
+  cita: La administración municipal implementará un sistema de seguimiento y evaluación que permita medir el impacto de las
+    acciones ejecutadas sobre la calidad de vida de los grupos beneficiarios
+  pagina: 39
+  cita_verificada: true
+  enfoques:
+  - inclusion-gestion-programas-sociales
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'un sistema de seguimiento y evaluación' sin cantidad ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un sistema de seguimiento y evaluación» nombra un sistema, pero no establece una cantidad, cobertura
+          o resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal en la cita.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La administración municipal implementará» no indica una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La implementación de «un sistema de seguimiento y evaluación» no incluye un monto ni una fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un sistema de seguimiento de acciones de la propia administración municipal está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Medir «el impacto de las acciones ejecutadas» mediante seguimiento y evaluación corresponde a la gestión
+          de los programas municipales.
+- id: romulo-gonzalez-5064580f
+  tema: cultura
+  resumen: Impulsar eventos culturales, deportivos y gastronómicos para posicionar al cantón como destino turístico.
+  cita: Se impulsará además la realización de eventos culturales, deportivos y gastronómicos que contribuyan al posicionamiento
+    del cantón como destino turístico sostenible.
+  pagina: 39
+  cita_verificada: true
+  enfoques:
+  - cultura-impulsar-cultura-y-deporte
+  - cultura-promover-el-turismo
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'se impulsará la realización de eventos' sin cantidad ni alcance, con verbo genérico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se impulsará» la realización de «eventos culturales, deportivos y gastronómicos» sin indicar cuántos
+          eventos se realizarán ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «eventos culturales, deportivos y gastronómicos» no tiene fecha ni plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «eventos culturales, deportivos y gastronómicos» no menciona costos ni fuentes o mecanismos
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cultura, deporte y turismo son funciones del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Impulsar «eventos culturales, deportivos y gastronómicos» para el «posicionamiento del cantón como
+          destino turístico» corresponde a las funciones municipales de cultura, deporte y turismo.
+- id: romulo-gonzalez-650447f4
+  tema: movilidad
+  resumen: Desarrollar un sistema permanente de monitoreo del estado de la infraestructura vial con herramientas tecnológicas.
+  cita: Se desarrollará un sistema permanente de monitoreo del estado de la infraestructura vial, incorporando herramientas
+    tecnológicas
+  pagina: 39
+  cita_verificada: true
+  enfoques:
+  - movilidad-planificar-gestionar
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "sistema permanente de monitoreo" es un tipo de sistema sin cobertura ni cantidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Un «sistema permanente de monitoreo del estado de la infraestructura vial» nombra un sistema sin precisar
+          cantidad ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El carácter «permanente» del monitoreo no indica cuándo estará desarrollado el sistema.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La incorporación de «herramientas tecnológicas» no viene acompañada de un costo ni de una fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La infraestructura vial cantonal es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «monitoreo del estado de la infraestructura vial» puede realizarse dentro de las competencias municipales
+          de vialidad y movilidad.
+- id: romulo-gonzalez-3cae054b
+  tema: ambiente
+  resumen: Realizar un diagnóstico técnico integral de la gestión de residuos sólidos y aguas residuales, con inventario georreferenciado
+    de fuentes de contaminación.
+  cita: La administración municipal desarrollará un diagnóstico técnico integral que permita conocer el estado actual de la
+    gestión de residuos sólidos
+  pagina: 40
+  cita_verificada: true
+  contexto:
+  - texto: se elaborará un inventario georreferenciado de las fuentes de contaminación asociadas al manejo inadecuado de residuos
+      y aguas servidas
+    pagina: 40
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo promete un "diagnóstico técnico integral" y un inventario georreferenciado sin cantidad ni alcance
+          medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «diagnóstico técnico integral» y el «inventario georreferenciado» nombran productos, pero no fijan
+          una cantidad ni una cobertura delimitada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración alguna en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «la administración municipal desarrollará» no establece una fecha ni una duración para
+          completar el diagnóstico.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración del «diagnóstico técnico integral» no tiene un monto ni una fuente de financiamiento
+          indicados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de residuos sólidos y el control de la contaminación son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Diagnosticar la «gestión de residuos sólidos» y las fuentes de contaminación corresponde a las funciones
+          municipales de saneamiento y control ambiental.
+- id: romulo-gonzalez-6ef8a63e
+  tema: transparencia
+  resumen: Institucionalizar los programas de turismo, vialidad y desarrollo social mediante normativa, manuales, protocolos
+    y coordinación interinstitucional.
+  cita: 'Con el propósito de garantizar la sostenibilidad de las acciones
+
+    implementadas, el Gobierno Municipal promoverá la institucionalización
+
+    de los programas estratégicos mediante normativa local, manuales de
+
+    gestión, protocolos técnicos y mecanismos permanentes de coordinación
+
+    interinstitucional.'
+  pagina: 40
+  cita_verificada: true
+  contexto:
+  - texto: 'Estrategia para institucionalizar los programas de turismo, vialidad
+
+      y desarrollo social'
+    pagina: 40
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Promoverá la institucionalización de los programas'' es intención genérica sin número de normas
+          ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promoverá la institucionalización de los programas estratégicos» no precisa cuántos programas o instrumentos
+          se implementarán ni un resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «mecanismos permanentes de coordinación interinstitucional» describen continuidad, pero no una
+          fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La institucionalización mediante «normativa local, manuales de gestión, protocolos técnicos» no incluye
+          costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Normativa local, manuales y protocolos son atribuciones del Gobierno Municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Institucionalizar programas de «turismo, vialidad y desarrollo social» mediante «normativa local» e
+          instrumentos de gestión está dentro de las atribuciones municipales.
+- id: romulo-gonzalez-5b34a710
+  tema: ambiente
+  resumen: Formular un Plan Cantonal de Gestión Integral de Residuos Sólidos con metas anuales, indicadores y cronogramas
+    de inversión.
+  cita: el Gobierno Municipal formulará un Plan Cantonal de Gestión Integral de Residuos Sólidos
+  pagina: 41
+  cita_verificada: true
+  contexto:
+  - texto: La estrategia contemplará la definición de metas anuales, indicadores de gestión, cronogramas de inversión
+    pagina: 41
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo promete "formulará un Plan Cantonal de Gestión Integral de Residuos Sólidos" sin resultado cuantificado;
+          las metas se definirán después.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Formular un «Plan Cantonal de Gestión Integral de Residuos Sólidos» no cuantifica resultados, y la
+          futura «definición de metas anuales» no establece metas concretas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los "cronogramas de inversión" se definirán después y no se da ninguna fecha.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de futuros «cronogramas de inversión» no fija una fecha para formular el plan.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «cronogramas de inversión» anunciados no especifican un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de residuos sólidos es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La formulación de un «Plan Cantonal de Gestión Integral de Residuos Sólidos» corresponde a la competencia
+          municipal de manejo de desechos.
+- id: romulo-gonzalez-62730b7b
+  tema: agua-servicios
+  resumen: Elaborar un plan técnico del alcantarillado sanitario y pluvial e iniciar obras de ampliación y rehabilitación,
+    gestionando recursos externos.
+  cita: La administración municipal elaborará un plan técnico destinado a identificar las principales deficiencias del sistema
+    de alcantarillado sanitario y pluvial
+  pagina: 41
+  cita_verificada: true
+  contexto:
+  - texto: procurando gestionar recursos provenientes del Gobierno Central, organismos internacionales y entidades de financiamiento
+      público.
+    pagina: 41
+  - texto: la administración municipal iniciará las obras prioritarias destinadas a ampliar, rehabilitar y optimizar el sistema
+      de alcantarillado sanitario y pluvial.
+    pagina: 42
+  enfoques:
+  - agua-servicios-alcantarillado-tratamiento
+  - agua-servicios-planificacion-financiamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "elaborará un plan técnico" y "obras prioritarias" sin cantidad, ubicación ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Elaborará un plan técnico» para identificar «las principales deficiencias» no fija una cantidad, cobertura
+          ni obra física con alcance definido.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha, año ni duración alguna en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La administración municipal elaborará» no indica una fecha ni una duración para completar el plan.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"procurando gestionar recursos provenientes del Gobierno Central, organismos internacionales y entidades
+          de financiamiento público" es genérico, sin monto ni fuente asignada concreta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Procurando gestionar recursos provenientes del Gobierno Central, organismos internacionales y entidades
+          de financiamiento público» no identifica un monto, una fuente específica ni un mecanismo de financiamiento definido.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El alcantarillado sanitario y pluvial es competencia exclusiva municipal (COOTAD art. 55).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diagnóstico del «sistema de alcantarillado sanitario y pluvial» corresponde a las competencias municipales
+          de alcantarillado.
+- id: romulo-gonzalez-f38b8177
+  tema: ambiente
+  resumen: Implementar un Programa Permanente de Educación para la Gestión Responsable de Residuos Sólidos en escuelas, barrios
+    y comunidades.
+  cita: El Gobierno Municipal implementará un Programa Permanente de Educación para la Gestión Responsable de Residuos Sólidos
+  pagina: 41
+  cita_verificada: true
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Un Programa Permanente de Educación" nombra un tipo de programa sin decir a cuántos llegará.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un Programa Permanente de Educación para la Gestión Responsable de Residuos Sólidos» nombra un programa
+          sin cuantificar actividades, beneficiarios ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Permanente" no indica cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Permanente» describe la continuidad del programa, pero no indica cuándo se implementará.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Programa Permanente de Educación» no incluye un monto ni una fuente o mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La educación sobre gestión de residuos corresponde a la gestión municipal de desechos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La educación para la «Gestión Responsable de Residuos Sólidos» complementa las competencias municipales
+          de gestión de desechos y protección ambiental.
+- id: romulo-gonzalez-43ef16cf
+  tema: ambiente
+  resumen: Fomentar separación en la fuente, incentivos al reciclaje y emprendimientos de aprovechamiento de residuos para
+    reducir lo enviado al relleno.
+  cita: Se fomentará la implementación de programas de separación en la fuente, incentivos para el reciclaje, fortalecimiento
+    de emprendimientos vinculados al aprovechamiento de residuos
+  pagina: 42
+  cita_verificada: true
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-participacion-y-educacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Se fomentará... programas de separación en la fuente'' no dice cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se fomentará la implementación de programas» de separación y reciclaje no establece cantidades, cobertura
+          ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «se fomentará la implementación» no incluye fecha, año ni duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona fuente ni monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «incentivos para el reciclaje» se mencionan sin monto ni mecanismo para financiarlos.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de desechos y el reciclaje son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «separación en la fuente» y el «aprovechamiento de residuos» forman parte de la gestión municipal
+          de desechos.
+- id: romulo-gonzalez-cd0fd0c4
+  tema: ambiente
+  resumen: Optimizar rutas de recolección, apoyar a recicladores y establecer puntos limpios para recolección diferenciada
+    de reciclables.
+  cita: La estrategia comprenderá la optimización de rutas de recolección, adquisición de equipamiento cuando sea necesario,
+    fortalecimiento de los sistemas de reciclaje inclusivo, apoyo a asociaciones de recicladores y establecimiento de puntos
+    limpios
+  pagina: 42
+  cita_verificada: true
+  contexto:
+  - texto: SEGUNDO AÑO
+    pagina: 42
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'optimización de rutas', 'equipamiento cuando sea necesario' y 'puntos limpios' sin cantidades
+          ni ubicaciones.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «optimización de rutas», la «adquisición de equipamiento» y el «establecimiento de puntos limpios»
+          no especifican cantidades, cobertura ni ubicaciones.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto la ubica en el 'SEGUNDO AÑO', una duración desde el inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna la propuesta al «SEGUNDO AÑO».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «adquisición de equipamiento cuando sea necesario» no señala cuánto costará ni cómo se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Recolección de desechos y reciclaje son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «rutas de recolección», el «reciclaje inclusivo» y los «puntos limpios» corresponden a la competencia
+          municipal sobre manejo de desechos.
+- id: romulo-gonzalez-d2ef658b
+  tema: agua-servicios
+  resumen: Realizar auditorías técnicas periódicas de las obras de saneamiento, la infraestructura sanitaria y los sistemas
+    de tratamiento.
+  cita: 'La administración municipal desarrollará auditorías técnicas periódicas
+
+    para verificar el funcionamiento de las obras ejecutadas, el estado de la
+
+    infraestructura sanitaria, la eficiencia de los sistemas de tratamiento y la
+
+    disminución de impactos ambientales sobre los cuerpos de agua del
+
+    cantón.'
+  pagina: 43
+  cita_verificada: true
+  enfoques:
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Auditorías técnicas periódicas" no indica cuántas ni sobre qué obras específicas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Auditorías técnicas periódicas» no precisa cuántas auditorías se ejecutarán ni qué cantidad de obras
+          o sistemas se revisará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo se menciona periodicidad ("periódicas"), que no cuenta como plazo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «auditorías técnicas periódicas» indica recurrencia, pero no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de desarrollar «auditorías técnicas periódicas» no señala costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable, el saneamiento y el control de la contaminación son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Verificar la «infraestructura sanitaria» y los «sistemas de tratamiento» corresponde a las competencias
+          municipales de saneamiento y control ambiental.
+- id: romulo-gonzalez-e5281ac7
+  tema: ambiente
+  resumen: Evaluar el sistema de residuos sólidos mediante indicadores de cobertura, eficiencia, reciclaje, satisfacción ciudadana
+    y sostenibilidad financiera.
+  cita: 'Durante el tercer año se realizará una evaluación integral del sistema de
+
+    gestión de residuos mediante indicadores relacionados con cobertura del
+
+    servicio, eficiencia operativa, niveles de reciclaje, satisfacción ciudadana,
+
+    reducción de puntos críticos de contaminación y sostenibilidad financiera
+
+    del servicio.'
+  pagina: 43
+  cita_verificada: true
+  contexto:
+  - texto: 'Los resultados permitirán introducir mejoras técnicas, fortalecer la
+
+      planificación operativa y optimizar el uso de los recursos públicos
+
+      destinados a la gestión ambiental.'
+    pagina: 43
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Define un resultado verificable: una ''evaluación integral del sistema de gestión de residuos'' con
+          indicadores nombrados (cobertura, reciclaje, puntos críticos).'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación integral del sistema de gestión de residuos» enumera indicadores, pero no fija valores
+          objetivo ni una cantidad de resultados por alcanzar.
+      nota_revision: Enumera indicadores de evaluación, pero no fija un valor objetivo para ninguno.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica 'Durante el tercer año' como momento de la evaluación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Durante el tercer año se realizará una evaluación integral» sitúa expresamente el cumplimiento dentro
+          de un año específico de la gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo habla de 'optimizar el uso de los recursos públicos' sin cifra ni rubro.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Optimizar el uso de los recursos públicos destinados a la gestión ambiental» no asigna un monto ni
+          una fuente concreta para financiar la evaluación.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de desechos es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar el «sistema de gestión de residuos» corresponde a la competencia municipal sobre manejo de
+          desechos.
+- id: romulo-gonzalez-3c65adb5
+  tema: ambiente
+  resumen: Actualizar ordenanzas, reglamentos y manuales técnicos que regulen los servicios de residuos sólidos y aguas residuales.
+  cita: el Gobierno Municipal impulsará la institucionalización del modelo de gestión mediante la actualización de ordenanzas,
+    reglamentos, manuales técnicos
+  pagina: 44
+  cita_verificada: true
+  contexto:
+  - texto: CUARTO AÑO
+    pagina: 43
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Actualización de ordenanzas, reglamentos, manuales técnicos'' no indica cuántos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «actualización de ordenanzas, reglamentos, manuales técnicos» no identifica instrumentos específicos
+          ni cuántos se actualizarán.
+    plazo:
+      valor: true
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''CUARTO AÑO'' aparece sin fechas ni duración explícita.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto sitúa la propuesta en el «CUARTO AÑO».
+      nota_revision: El contexto asigna esta actualización al CUARTO AÑO, una fase temporal explícita.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «institucionalización del modelo de gestión» no incluye costo ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las ordenanzas y reglamentos municipales son facultad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La actualización de «ordenanzas, reglamentos, manuales técnicos» municipales está dentro de las facultades
+          normativas y administrativas del Municipio.
+- id: romulo-gonzalez-cb6d7ada
+  tema: transparencia
+  resumen: Implementar un sistema permanente de información pública sobre avance del Plan de Trabajo, recursos y obras.
+  cita: la Alcaldía implementará un sistema permanente de información pública que permita a la ciudadanía conocer oportunamente
+    el avance de la ejecución del Plan de Trabajo
+  pagina: 45
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "sistema permanente de información pública" es un tipo de sistema sin alcance ni cantidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Un «sistema permanente de información pública» nombra un sistema, pero no establece una cantidad, cobertura
+          o resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; "permanente" no indica cuándo estará cumplida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las expresiones «permanente» y «oportunamente» no indican cuándo estará implementado el sistema.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La implementación de un «sistema permanente de información pública» no especifica costo ni fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia y la información sobre la ejecución del plan municipal son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Permitir conocer «el avance de la ejecución del Plan de Trabajo» mediante información pública corresponde
+          a las funciones municipales de transparencia y rendición de cuentas.
+- id: romulo-gonzalez-f66ea2a3
+  tema: transparencia
+  resumen: Realizar al menos tres (3) rendiciones públicas de cuentas por año, cada cuatro meses, descentralizadas en cabecera
+    cantonal y parroquias rurales.
+  cita: se realizarán como mínimo tres (3) procesos públicos de rendición de cuentas cada año, sin perjuicio del proceso anual
+    obligatorio
+  pagina: 45
+  cita_verificada: true
+  contexto:
+  - texto: Tres veces por año (cada cuatro meses)
+    pagina: 47
+  - texto: Las rendiciones de cuentas serán descentralizadas y procurarán desarrollarse tanto en la cabecera cantonal como
+      en las parroquias rurales
+    pagina: 45
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Establece 'como mínimo tres (3) procesos públicos de rendición de cuentas cada año'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Como mínimo tres (3) procesos públicos de rendición de cuentas cada año» establece una cantidad verificable
+          de procesos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Es una periodicidad ('Tres veces por año'), que no cuenta como plazo.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tres veces por año (cada cuatro meses)» expresa una periodicidad, no un plazo de cumplimiento válido
+          según la rúbrica.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «tres (3) procesos públicos de rendición de cuentas» no incluye un monto ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas es obligación de transparencia del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «procesos públicos de rendición de cuentas» descentralizados corresponden a las funciones municipales
+          de transparencia y participación ciudadana.
+- id: romulo-gonzalez-bc8ea162
+  tema: transparencia
+  resumen: Promover mecanismos de participación digital para consultas, observaciones y seguimiento ciudadano.
+  cita: la Municipalidad promoverá además mecanismos de participación digital
+  pagina: 46
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"mecanismos de participación digital" no dice cuántos ni cuáles, solo un tipo de cosa con verbo genérico
+          "promoverá".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promoverá además mecanismos de participación digital» no especifica cantidad, cobertura ni un resultado
+          medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La Municipalidad promoverá» no establece ninguna fecha ni duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «mecanismos de participación digital» no identifica monto, fuente ni mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «mecanismos de participación digital» forman parte de las funciones municipales de participación
+          ciudadana.
+- id: romulo-gonzalez-e0dc31d5
+  tema: transparencia
+  resumen: Elaborar y publicar un informe público al cierre de cada proceso de rendición de cuentas.
+  cita: Cada proceso de rendición de cuentas concluirá con la elaboración de un informe público
+  pagina: 46
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice que cada rendición de cuentas concluirá con "un informe público", sin cantidad ni resultado
+          verificable más allá de un tipo de producto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «cada proceso de rendición de cuentas» no cuantifica los procesos ni establece una cobertura
+          verificable de los informes.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal en "concluirá con la elaboración de un informe público".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «concluirá con la elaboración de un informe público» no fija una fecha ni un plazo de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración de «un informe público» no viene acompañada de monto, fuente ni mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas y la transparencia son funciones municipales de participación ciudadana.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «rendición de cuentas» y la elaboración de un «informe público» corresponden a las funciones municipales
+          de transparencia.
+- id: romulo-gonzalez-f309f7e7
+  tema: transparencia
+  resumen: Fortalecer mecanismos de control social, veedurías ciudadanas, observatorios y consejos consultivos.
+  cita: se impulsará el fortalecimiento de los mecanismos de control social, veedurías ciudadanas, observatorios, consejos
+    consultivos
+  pagina: 46
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"se impulsará el fortalecimiento" es una intención con verbo genérico sin cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «El fortalecimiento de los mecanismos de control social» expresa una intención sin cantidad, cobertura
+          ni resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se impulsará el fortalecimiento» no incluye fecha, año ni duración de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El fortalecimiento de «veedurías ciudadanas, observatorios, consejos consultivos» no identifica monto
+          ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana y el control social son competencias del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Promover «mecanismos de control social, veedurías ciudadanas, observatorios, consejos consultivos»
+          forma parte de las funciones municipales de participación y transparencia.
+- id: romulo-gonzalez-efa1d6dc
+  tema: transparencia
+  resumen: Realizar asambleas cantonales cuatrimestrales de socialización para recoger observaciones y prioridades ciudadanas.
+  cita: de la gestión municipal y recoger observaciones, propuestas y prioridades de la ciudadanía para fortalecer la planificación
+    y la toma de decisiones.
+  pagina: 47
+  cita_verificada: true
+  contexto:
+  - texto: Cuatrimestral
+    pagina: 47
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"recoger observaciones, propuestas y prioridades" es intención genérica sin cantidad ni resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La intención de «recoger observaciones, propuestas y prioridades de la ciudadanía» no cuantifica la
+          participación ni fija un resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Cuatrimestral" es una periodicidad, no un plazo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia «Cuatrimestral» indica periodicidad y no un plazo de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El texto sobre «recoger observaciones, propuestas y prioridades» no menciona costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Rendición de cuentas y participación sobre la gestión municipal le corresponden al Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Recoger aportes ciudadanos para «fortalecer la planificación y la toma de decisiones» de la «gestión
+          municipal» corresponde a la participación y planificación municipales.
+- id: romulo-gonzalez-f847d953
+  tema: transparencia
+  resumen: Realizar conversatorios ciudadanos temáticos trimestrales con agricultores, comerciantes, jóvenes, mujeres y otros
+    actores.
+  cita: Mantener un diálogo permanente con agricultores, productores, comerciantes, emprendedores, jóvenes, mujeres,
+  pagina: 47
+  cita_verificada: true
+  contexto:
+  - texto: Trimestral
+    pagina: 47
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mantener un diálogo permanente" es intención genérica sin cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantener un diálogo permanente» con los sectores enumerados no fija una cantidad de participantes
+          ni un resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Trimestral" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Trimestral» establece una periodicidad del diálogo, no una fecha de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantener un diálogo permanente» no menciona un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana y el diálogo con actores locales dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «diálogo permanente con agricultores, productores, comerciantes, emprendedores, jóvenes, mujeres»
+          corresponde a la participación ciudadana municipal.
+- id: romulo-gonzalez-5fd4a507
+  tema: transparencia
+  resumen: Aplicar la silla vacía para la participación de representantes ciudadanos en sesiones del Concejo Municipal.
+  cita: representantes ciudadanos en las sesiones del Concejo Municipal cuando se traten asuntos de interés público, conforme
+    a la normativa vigente.
+  pagina: 48
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"representantes ciudadanos en las sesiones del Concejo" no indica cuánto ni cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La presencia de «representantes ciudadanos en las sesiones del Concejo Municipal» no fija cantidad
+          ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cuando se traten asuntos de interés público» expresa una condición, no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La participación de «representantes ciudadanos» no tiene un monto ni una fuente de financiamiento señalados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las sesiones del Concejo Municipal y la participación ciudadana dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La participación ciudadana en «las sesiones del Concejo Municipal» está dentro de las atribuciones
+          municipales conforme a la normativa vigente.
+- id: romulo-gonzalez-a090ea34
+  tema: transparencia
+  resumen: Realizar diálogos comunitarios permanentes en barrios y parroquias para identificar necesidades y evaluar obras.
+  cita: Acercar la administración municipal a la ciudadanía mediante reuniones territoriales destinadas a identificar necesidades,
+    evaluar obras
+  pagina: 48
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'reuniones territoriales' sin decir cuántas ni dónde.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «reuniones territoriales destinadas a identificar necesidades, evaluar obras» no tienen una cantidad
+          ni una cobertura determinada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «Acercar la administración municipal a la ciudadanía» no incluye una fecha ni un plazo
+          de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de «reuniones territoriales» no está acompañada de un monto ni de una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las reuniones territoriales de participación y evaluación de obras las puede realizar el Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Organizar «reuniones territoriales» para «identificar necesidades, evaluar obras» corresponde a la
+          participación ciudadana y la gestión municipal.
+- id: romulo-gonzalez-ec1ec479
+  tema: transparencia
+  resumen: Realizar audiencias públicas municipales semestrales o cuando se requiera para recibir propuestas y fortalecer
+    el control social.
+  cita: Escuchar a la ciudadanía, resolver inquietudes, recibir propuestas y fortalecer la transparencia y el control social
+    sobre la gestión municipal.
+  pagina: 48
+  cita_verificada: true
+  contexto:
+  - texto: Semestral o cuando la naturaleza del asunto lo requiera
+    pagina: 48
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Usa verbos genéricos como 'escuchar', 'fortalecer' sin cantidad ni resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Escuchar a la ciudadanía» y «fortalecer la transparencia y el control social» expresan acciones generales
+          sin cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Semestral'' es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Semestral o cuando la naturaleza del asunto lo requiera» expresa periodicidad o una condición abierta,
+          no un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Escuchar a la ciudadanía, resolver inquietudes, recibir propuestas» no incluye un costo ni una fuente
+          o mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana y transparencia son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Promover «la transparencia y el control social sobre la gestión municipal» corresponde a las funciones
+          municipales de participación ciudadana y rendición de cuentas.
+- id: romulo-gonzalez-f1fcedbc
+  tema: transparencia
+  resumen: Conformar mesas técnicas participativas con instituciones, academia y sectores productivos para diseñar y evaluar
+    proyectos estratégicos.
+  cita: Incorporar a instituciones públicas, academia, sectores productivos y organizaciones sociales en el diseño, seguimiento
+    y evaluación de proyectos estratégicos del cantón.
+  pagina: 49
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Incorporar a instituciones públicas, academia..." es una intención sin cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incorporar a instituciones públicas, academia, sectores productivos y organizaciones sociales» no
+          establece cuántas entidades participarán ni en cuántos proyectos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La participación en el «diseño, seguimiento y evaluación» describe etapas de los proyectos, pero no
+          fija fechas ni duraciones.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La incorporación de actores a los «proyectos estratégicos del cantón» no incluye monto ni fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación en el diseño y seguimiento de proyectos del cantón está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Incorporar actores sociales al «diseño, seguimiento y evaluación de proyectos estratégicos del cantón»
+          corresponde a las funciones municipales de planificación y participación ciudadana.

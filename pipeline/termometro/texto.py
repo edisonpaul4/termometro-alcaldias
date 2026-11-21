@@ -26,7 +26,7 @@ class TextoPDF(BaseModel):
 
 def _extraer(ruta: Path, sha: str) -> TextoPDF:
     salida = subprocess.run(
-        ["pdftotext", "-enc", "UTF-8", str(ruta), "-"], capture_output=True, text=True, check=True
+        ["pdftotext", "-enc", "UTF-8", str(ruta), "-"], capture_output=True, text=True, encoding="utf-8", check=True
     ).stdout
     paginas = salida.split("\f")
     if paginas and not paginas[-1].strip():

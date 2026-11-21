@@ -1,0 +1,2914 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: segundo-toledo
+nombre: Segundo Víctor Toledo Calle
+lista: 82-102
+organizacion: Alianza Escribamos una Nueva Historia
+foto: fuentes/ciudades/paute/candidatos/segundo-toledo/foto_2026-11-20.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/10111
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-20'
+  archivo: fuentes/ciudades/paute/candidatos/segundo-toledo/foto_2026-11-20.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/10111/4812
+    titulo: Plan de trabajo de Segundo Víctor Toledo Calle — Alcaldía de Paute 2027-2031 (CNE)
+    consultado: '2026-11-20'
+    archivo: fuentes/ciudades/paute/candidatos/segundo-toledo/plan-de-trabajo_2026-11-20.pdf
+  paginas: 22
+  sha256: daeababb71f2a78fcbcc18f6a9064a17c4aaf02fd1547530bbe829abdb32048b
+propuestas:
+- id: segundo-toledo-3e64d482
+  tema: transparencia
+  resumen: Dedicar los primeros 120 días a líneas base, auditoría de proyectos, priorización territorial y programación financiera.
+  cita: Los primeros 120 días se dedicarán a líneas base, auditoría de proyectos, priorización territorial y programación
+    financiera.
+  pagina: 9
+  cita_verificada: true
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona líneas base, auditoría y priorización sin cantidad ni producto con alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Líneas base, auditoría de proyectos, priorización territorial y programación financiera» enumera actividades
+          sin cuantificar sus productos ni su cobertura.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica 'Los primeros 120 días' como duración desde el inicio de la gestión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Los primeros 120 días» delimita una etapa con duración concreta para realizar las actividades propuestas.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «programación financiera» no especifica cuánto costarán las actividades ni con qué fuente
+          se pagarán.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Auditoría de proyectos y programación financiera municipales son de gestión del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «auditoría de proyectos, priorización territorial y programación financiera» son actividades de
+          planificación y control de la gestión municipal.
+- id: segundo-toledo-476c39ca
+  tema: empleo
+  resumen: Ejecutar el programa Paute Emprende con capacitación, formalización, transformación digital, mentoría y conexión
+    financiera para emprendimientos.
+  cita: Capacitación, formalización, transformación digital, mentoría y conexión financiera.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Eje 1. Paute productivo, emprendedor y turístico
+    pagina: 9
+  - texto: Ciclos anuales y acompañamiento a emprendimientos.
+    pagina: 19
+  - texto: Emprendimientos atendidos; supervivencia a 12 meses.
+    pagina: 19
+  - texto: Municipio, universidades e instituciones financieras.
+    pagina: 9
+  enfoques:
+  - empleo-apoyar-negocios
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Capacitación, formalización... mentoría" no dice cuántos emprendimientos se atenderán.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Emprendimientos atendidos; supervivencia a 12 meses» identifica indicadores, pero no fija cantidades
+          ni niveles de supervivencia que se lograrán.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ciclos anuales" es periodicidad, no fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ciclos anuales» es una periodicidad y «supervivencia a 12 meses» un horizonte de medición, no una
+          fecha de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Municipio, universidades e instituciones financieras" nombra actores sin monto ni mecanismo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Conexión financiera» y «Municipio, universidades e instituciones financieras» no identifican un monto,
+          una fuente asignada ni un mecanismo concreto de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local y emprendimiento son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Capacitación, formalización, transformación digital, mentoría y conexión financiera» para emprendimientos
+          se enmarca en el desarrollo económico local municipal.
+- id: segundo-toledo-5f32c5e6
+  tema: cultura
+  resumen: Desarrollar el programa Paute Destino con plan turístico, rutas, señalización, calendario anual y capacitación
+    de prestadores turísticos.
+  cita: Plan turístico, rutas, señalización, calendario anual y capacitación de prestadores.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Eje 1. Paute productivo, emprendedor y turístico
+    pagina: 9
+  - texto: Rutas operativas y promoción permanente.
+    pagina: 19
+  - texto: Municipio, MINTUR, GAD parroquiales y privados.
+    pagina: 9
+  enfoques:
+  - cultura-promover-el-turismo
+  - cultura-mejorar-espacios-y-rutas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Plan turístico, rutas, señalización" no indica cantidad de rutas ni alcance concreto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «plan turístico, rutas, señalización, calendario anual y capacitación» no establece cantidades,
+          cobertura ni rutas concretas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Promoción permanente" y "calendario anual" no fijan fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Calendario anual» y «promoción permanente» indican periodicidad o continuidad, pero no una fecha de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona actores ("Municipio, MINTUR, GAD parroquiales y privados"), sin decir quién financia
+          qué.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «Municipio, MINTUR, GAD parroquiales y privados» no especifica aportes financieros ni
+          un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El turismo es competencia municipal, con coordinación con MINTUR.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «plan turístico» y la «capacitación de prestadores» corresponden a las funciones municipales de
+          turismo y desarrollo económico local.
+- id: segundo-toledo-95081459
+  tema: empleo
+  resumen: Implementar la Marca Paute con sello territorial, ferias, mercados, circuitos cortos y promoción de productos locales.
+  cita: Sello territorial; ferias; mercados; circuitos cortos; promoción de productos.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Eje 1. Paute productivo, emprendedor y turístico
+    pagina: 9
+  - texto: Marca implementada y productores vinculados.
+    pagina: 19
+  - texto: Municipio, sector privado, asociaciones y cooperación.
+    pagina: 9
+  enfoques:
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Sello territorial; ferias; mercados; circuitos cortos" nombra tipos de acciones sin cantidad; "Marca
+          implementada" no cuantifica.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Marca implementada y productores vinculados» no cuantifica productores ni precisa el alcance verificable
+          de las ferias, mercados o circuitos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El Eje 1 no tiene fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Sello territorial; ferias; mercados; circuitos cortos» ni su contexto establecen una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Municipio, sector privado, asociaciones y cooperación" son fuentes genéricas sin rubro ni monto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, sector privado, asociaciones y cooperación» enumera actores genéricos sin identificar montos,
+          una alianza concreta o cooperación nombrada.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Ferias, mercados y promoción de productos locales son competencias de desarrollo económico local del
+          Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las acciones de «ferias; mercados; circuitos cortos; promoción de productos» se enmarcan en las competencias
+          municipales de mercados y desarrollo económico local.
+- id: segundo-toledo-a81d6fb8
+  tema: empleo
+  resumen: Impulsar agroindustria y valor agregado mediante asistencia articulada en empaque, calidad, transformación y acceso
+    a mercados, priorizando cadenas frutícolas.
+  cita: Asistencia articulada; empaque, calidad, transformación y acceso a mercados.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Eje 1. Paute productivo, emprendedor y turístico
+    pagina: 9
+  - texto: Cadenas frutícolas priorizadas fortalecidas.
+    pagina: 19
+  - texto: MAG, Prefectura, academia, asociaciones y cooperación.
+    pagina: 9
+  enfoques:
+  - empleo-mejorar-produccion
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Asistencia articulada'' y ''cadenas frutícolas priorizadas fortalecidas'' no dicen cuánto ni a cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cadenas frutícolas priorizadas fortalecidas» no indica cuántas cadenas o beneficiarios se atenderán
+          ni un resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «asistencia articulada» y el contexto del eje productivo no establecen una fecha ni una duración
+          de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo lista actores 'MAG, Prefectura, academia, asociaciones y cooperación' sin decir qué financia cada
+          uno ni montos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «MAG, Prefectura, academia, asociaciones y cooperación» enumera actores y cooperación genérica sin
+          identificar un aporte financiero, monto o mecanismo concreto.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El apoyo al desarrollo económico local y emprendimiento es municipal, coordinando con otros niveles.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La asistencia en «empaque, calidad, transformación y acceso a mercados» puede realizarse mediante las
+          funciones municipales de desarrollo económico local.
+- id: segundo-toledo-da7c1996
+  tema: empleo
+  resumen: Conformar un Sistema Cantonal de Desarrollo Productivo y Turístico con mesas sectoriales, diagnóstico de cadenas
+    y una agenda público-privada-académica.
+  cita: Mesas sectoriales; diagnóstico de cadenas; agenda público-privadaacadémica.
+  pagina: 9
+  cita_verificada: true
+  contexto:
+  - texto: Eje 1. Paute productivo, emprendedor y turístico
+    pagina: 9
+  - texto: Sistema conformado y agenda anual activa.
+    pagina: 19
+  - texto: Presupuesto municipal, MAG, Prefectura, academia y cooperación.
+    pagina: 9
+  enfoques:
+  - empleo-planificar-desarrollo-local
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mesas sectoriales; diagnóstico de cadenas; agenda" no precisa cuántas ni a cuántos llegará; "agenda
+          anual activa" es una periodicidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «mesas sectoriales» y el «sistema conformado y agenda anual activa» no precisan cantidades, cobertura
+          ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo hay una periodicidad ("agenda anual") y ninguna fecha.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «agenda anual activa» señala periodicidad, pero no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Lista "Presupuesto municipal, MAG, Prefectura, academia y cooperación" sin asignar fuente concreta
+          ni monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto identifica al «MAG» y a la «Prefectura» como fuentes institucionales específicas de financiamiento.
+      nota_revision: La columna mezcla financiamiento y alianzas; no asigna un aporte de MAG o Prefectura.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y la articulación con actores son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «mesas sectoriales», el «diagnóstico de cadenas» y la «agenda público-privadaacadémica» son actuaciones
+          de promoción del desarrollo económico local.
+- id: segundo-toledo-07245d7d
+  tema: movilidad
+  resumen: Gestionar la maquinaria municipal con recuperación, adquisición priorizada, mantenimiento y control público de
+    su uso.
+  cita: Recuperación, adquisición priorizada, mantenimiento y control público de uso.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Eje 2. Paute conectado y territorialmente integrado
+    pagina: 11
+  - texto: Disponibilidad operativa mejorada.
+    pagina: 19
+  - texto: Presupuesto, crédito y convenios.
+    pagina: 11
+  enfoques:
+  - movilidad-planificar-gestionar
+  - movilidad-mantener-vias
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Recuperación, adquisición priorizada, mantenimiento'' no dice cuánto ni qué se adquirirá.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Recuperación, adquisición priorizada, mantenimiento y control público de uso» y «disponibilidad operativa
+          mejorada» no especifican cantidades ni un resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El contexto «Eje 2. Paute conectado y territorialmente integrado» no aporta una fecha o duración para
+          completar las actuaciones.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona 'Presupuesto, crédito y convenios' como mecanismos de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto, crédito y convenios» menciona vías genéricas sin precisar un rubro presupuestario, un
+          organismo acreedor, un convenio concreto o un monto.
+      nota_revision: Presupuesto, crédito y convenios no identifican rubro, acreedor ni convenio.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La adquisición, mantenimiento y control de uso de bienes o equipos es gestión municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las actuaciones de «mantenimiento y control público de uso» dentro del eje de conectividad corresponden
+          a la gestión municipal de sus bienes y servicios de movilidad.
+- id: segundo-toledo-5b09fb15
+  tema: movilidad
+  resumen: Elaborar el Plan Vial Cantonal 2027–2031 con inventario georreferenciado, jerarquización, costos y programación
+    plurianual, aprobado en el primer año.
+  cita: Inventario georreferenciado, jerarquización, costos y programación plurianual.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Eje 2. Paute conectado y territorialmente integrado
+    pagina: 11
+  - texto: Plan Vial Cantonal 2027–2031
+    pagina: 19
+  - texto: Plan aprobado durante el primer año.
+    pagina: 19
+  - texto: Municipio, Prefectura y GAD parroquiales.
+    pagina: 11
+  enfoques:
+  - movilidad-planificar-gestionar
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'Inventario georreferenciado, jerarquización, costos y programación plurianual' sin cantidad
+          ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Inventario georreferenciado, jerarquización, costos y programación plurianual» describe componentes
+          del Plan Vial Cantonal, pero no cuantifica resultados ni identifica una obra física única.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica 'Plan aprobado durante el primer año'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece un plazo específico para esta propuesta al indicar «Plan aprobado durante el
+          primer año».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'costos' como contenido del plan pero no monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «costos» y de «Municipio, Prefectura y GAD parroquiales» no aporta cifras ni identifica
+          cómo se financiará la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El plan vial cantonal lo elabora el Municipio, coordinando con Prefectura y GAD parroquiales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «Plan Vial Cantonal» es un instrumento de planificación territorial y vial municipal que puede elaborarse
+          coordinadamente con la «Prefectura y GAD parroquiales».
+- id: segundo-toledo-82400b04
+  tema: movilidad
+  resumen: Mejorar por fases corredores productivos y turísticos con intervenciones priorizadas por población, producción,
+    riesgo y turismo.
+  cita: Intervenciones priorizadas por población, producción, riesgo y turismo.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Eje 2. Paute conectado y territorialmente integrado
+    pagina: 11
+  - texto: Corredores estratégicos mejorados por fases.
+    pagina: 19
+  - texto: Convenios, crédito y cooperación.
+    pagina: 11
+  enfoques:
+  - movilidad-mantener-vias
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice 'Corredores estratégicos mejorados por fases' sin cuántos ni cuáles.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Intervenciones priorizadas» y los «Corredores estratégicos mejorados por fases» no identifican
+          cuántos corredores se intervendrán ni cuáles son.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Las 'fases' no tienen fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «por fases» no aporta fechas ni duración para completar las intervenciones.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Menciona 'Convenios, crédito y cooperación' como mecanismos de financiamiento de esta intervención.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «Convenios, crédito y cooperación» no identifica montos, entidades financiadoras ni
+          un mecanismo suficientemente definido.
+      nota_revision: Convenios, crédito y cooperación son mecanismos genéricos sin entidad ni monto.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La mejora de corredores viales locales puede ejecutarla el Municipio, con convenios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las intervenciones en «Corredores estratégicos» del eje «Paute conectado y territorialmente integrado»
+          corresponden a infraestructura y planificación vial que el Municipio puede ejecutar coordinadamente.
+- id: segundo-toledo-af075ccc
+  tema: movilidad
+  resumen: Realizar mantenimiento vial permanente con lastrado, bacheo, limpieza de cunetas, drenajes y estabilización preventiva
+    según cronograma público anual.
+  cita: Lastrado, bacheo, limpieza de cunetas, drenajes y estabilización preventiva.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Eje 2. Paute conectado y territorialmente integrado
+    pagina: 11
+  - texto: Cumplimiento anual del cronograma público.
+    pagina: 19
+  - texto: Municipio, Prefectura, GAD parroquiales y comunidad.
+    pagina: 11
+  enfoques:
+  - movilidad-mantener-vias
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Lastrado, bacheo, limpieza de cunetas" no dice cuántos kilómetros ni vías; solo "cronograma público".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Lastrado, bacheo, limpieza de cunetas, drenajes y estabilización preventiva» enumera trabajos sin
+          indicar kilómetros, tramos ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Cumplimiento anual del cronograma público" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cumplimiento anual del cronograma público» expresa periodicidad, pero no aporta fechas concretas para
+          cumplir las intervenciones.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, Prefectura, GAD parroquiales y comunidad» identifica actores, pero no asigna una fuente
+          o un monto de financiamiento a la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El mantenimiento vial cantonal y rural es competencia municipal, con coordinación con Prefectura y
+          GAD parroquiales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «bacheo» y la «limpieza de cunetas» son actuaciones municipales de mantenimiento vial que pueden
+          coordinarse con la «Prefectura» y los «GAD parroquiales».
+- id: segundo-toledo-d5174d91
+  tema: movilidad
+  resumen: Intervenir puntos críticos de movilidad y seguridad vial con señalización, cruces seguros, estacionamiento, rutas
+    y educación vial.
+  cita: Señalización, cruces seguros, estacionamiento, rutas y educación vial.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: Eje 2. Paute conectado y territorialmente integrado
+    pagina: 11
+  - texto: Puntos críticos intervenidos progresivamente.
+    pagina: 19
+  - texto: Municipio, entidad de tránsito y Policía Nacional.
+    pagina: 11
+  enfoques:
+  - movilidad-peatones-seguridad
+  - movilidad-planificar-gestionar
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Señalización, cruces seguros, estacionamiento'' y ''puntos críticos intervenidos progresivamente''
+          no indican cuántos ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Señalización, cruces seguros, estacionamiento, rutas y educación vial» y «puntos críticos intervenidos»
+          no especifican cantidades ni lugares concretos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Progresivamente'' es vago y no hay fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «intervenidos progresivamente» no establece una fecha ni una duración verificable.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona entidades 'Municipio, entidad de tránsito y Policía Nacional' sin montos ni fuentes.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, entidad de tránsito y Policía Nacional» identifica instituciones participantes, pero no
+          un monto ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Señalización, tránsito y estacionamiento son competencia municipal, coordinando con la Policía.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «señalización», los «cruces seguros», el «estacionamiento» y la «educación vial» corresponden a
+          las competencias municipales de tránsito y movilidad.
+- id: segundo-toledo-10d47cbc
+  tema: agua-servicios
+  resumen: Ampliar y repotenciar sistemas de agua para comunidades, con control de calidad y fortalecimiento operativo.
+  cita: Ampliación, repotenciación, control de calidad y fortalecimiento operativo.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Agua segura para comunidades
+    pagina: 19
+  - texto: Cobertura y continuidad mejoradas según línea base.
+    pagina: 19
+  - texto: Municipio, BDE, GAD parroquiales y juntas.
+    pagina: 12
+  enfoques:
+  - agua-servicios-mejorar-agua-potable
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Cobertura y continuidad mejoradas según línea base" no da cantidad ni alcance específico.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cobertura y continuidad mejoradas según línea base» no precisa cuánto aumentarán la cobertura o la
+          continuidad.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ampliación, repotenciación, control de calidad y fortalecimiento operativo» no incluye una referencia
+          temporal de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona al "BDE" como actor financiero, un organismo de crédito nombrado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La lista «Municipio, BDE, GAD parroquiales y juntas» no especifica que alguna entidad financiará la
+          propuesta ni identifica un crédito, aporte o monto.
+      nota_revision: Menciona BDE entre actores, pero no asigna crédito, aporte o monto a la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable es competencia municipal, con coordinación de GAD parroquiales y juntas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Agua segura para comunidades» y su ampliación y control de calidad corresponden a la competencia municipal
+          de agua potable.
+- id: segundo-toledo-2f8af9a8
+  tema: ambiente
+  resumen: Implementar el programa Paute recicla con optimización de rutas, separación en fuente, reciclaje y aprovechamiento
+    orgánico en cabecera y parroquias.
+  cita: Optimización de rutas, separación en fuente, reciclaje y aprovechamiento orgánico.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Sistema progresivo en cabecera y parroquias.
+    pagina: 19
+  - texto: Tasas, presupuesto, recicladores y cooperación.
+    pagina: 12
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Sistema progresivo en cabecera y parroquias'' no dice cuánto cubrirá.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Optimización de rutas» y «sistema progresivo en cabecera y parroquias» no precisan cantidades ni una
+          cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'progresivo' sin fecha.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «sistema progresivo» no establece una fecha ni una duración de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Tasas, presupuesto, recicladores y cooperación'' son fuentes genéricas sin asignación concreta.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tasas, presupuesto, recicladores y cooperación» enumera fuentes genéricas sin identificar una tasa
+          específica, un monto o un mecanismo concreto.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Recolección y reciclaje de desechos son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «separación en fuente, reciclaje y aprovechamiento orgánico» corresponde a la gestión municipal
+          de residuos.
+- id: segundo-toledo-5c61bd31
+  tema: agua-servicios
+  resumen: Ejecutar por fases proyectos de alcantarillado, soluciones descentralizadas y tratamiento de aguas residuales.
+  cita: Alcantarillado, soluciones descentralizadas y tratamiento de aguas residuales.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Saneamiento y descontaminación
+    pagina: 19
+  - texto: Proyectos prioritarios ejecutados por fases.
+    pagina: 19
+  - texto: Municipio, BDE, cooperación y convenios.
+    pagina: 12
+  enfoques:
+  - agua-servicios-alcantarillado-tratamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra 'alcantarillado, soluciones descentralizadas y tratamiento' sin cantidad ni ubicación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Alcantarillado, soluciones descentralizadas y tratamiento de aguas residuales» enumera tipos de intervención
+          sin cantidades, cobertura ni ubicaciones.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'ejecutados por fases' sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Proyectos prioritarios ejecutados por fases» no precisa fechas ni duración de esas fases.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica fuentes: ''Municipio, BDE, cooperación y convenios''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto identifica al «BDE» como una fuente específica de financiamiento para la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Alcantarillado y tratamiento de aguas residuales son competencia municipal exclusiva.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «alcantarillado» y el «tratamiento de aguas residuales» son competencias municipales de saneamiento.
+- id: segundo-toledo-caef9314
+  tema: agua-servicios
+  resumen: Elaborar un Plan Maestro de Agua y Saneamiento con diagnóstico de sistemas, cartera priorizada, estudios y financiamiento
+    durante el primer año.
+  cita: Diagnóstico de sistemas; cartera priorizada; estudios y financiamiento.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Eje 3. Paute con agua, saneamiento y ambiente protegido
+    pagina: 12
+  - texto: Plan y banco de proyectos durante el primer año.
+    pagina: 19
+  - texto: Municipio, BDE, juntas de agua y cooperación.
+    pagina: 12
+  enfoques:
+  - agua-servicios-planificacion-financiamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Diagnóstico de sistemas; cartera priorizada" no dice cuántos sistemas ni qué resultado cuantificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Diagnóstico de sistemas; cartera priorizada; estudios y financiamiento» no cuantifica los sistemas,
+          estudios o proyectos que se completarán.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Plan y banco de proyectos durante el primer año".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija «Plan y banco de proyectos durante el primer año», asignando un plazo concreto a estos
+          productos de planificación.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto nombra fuentes: "Municipio, BDE, juntas de agua y cooperación".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto identifica al «BDE» como fuente financiera para la propuesta de estudios y banco de proyectos.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Agua potable y saneamiento son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El diagnóstico y la planificación de sistemas del eje «agua, saneamiento y ambiente protegido» corresponden
+          a competencias municipales.
+- id: segundo-toledo-d8edd187
+  tema: ambiente
+  resumen: Proteger fuentes de agua, reforestar, intervenir quebradas y realizar educación y prevención de riesgos en áreas
+    prioritarias cada año.
+  cita: Protección de fuentes, reforestación, quebradas, educación y prevención de riesgos.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: Agua, bosques y resiliencia
+    pagina: 19
+  - texto: Áreas prioritarias intervenidas anualmente.
+    pagina: 19
+  - texto: MAATE, Prefectura, GAD parroquiales y comunidad.
+    pagina: 12
+  enfoques:
+  - ambiente-agua-y-vida
+  - ambiente-participacion-y-educacion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Áreas prioritarias intervenidas anualmente" no dice cuántas áreas ni hectáreas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Protección de fuentes, reforestación, quebradas, educación y prevención de riesgos» y «Áreas prioritarias
+          intervenidas» no precisan cantidades, superficies ni lugares concretos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anualmente" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Áreas prioritarias intervenidas anualmente» establece periodicidad, no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «MAATE, Prefectura, GAD parroquiales y comunidad» no identifica aportes, montos ni mecanismos
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Protección de fuentes, reforestación y gestión de riesgos son funciones municipales, con coordinación
+          con MAATE y Prefectura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Protección de fuentes» y la «prevención de riesgos» se encuadran en funciones municipales ambientales,
+          de agua y de gestión de riesgos.
+- id: segundo-toledo-22b47121
+  tema: inclusion
+  resumen: Fortalecer el Sistema Cantonal de Protección Integral con rutas de atención y programas para niñez, mujeres, adultos
+    mayores y personas con discapacidad.
+  cita: Rutas de atención y programas para niñez, mujeres, mayores y discapacidad.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Sistema Cantonal de Protección Integral
+    pagina: 20
+  - texto: Cobertura territorial ampliada.
+    pagina: 20
+  - texto: Consejo/Junta de Protección, MIES, MSP y justicia.
+    pagina: 13
+  enfoques:
+  - inclusion-proteccion-derechos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Rutas de atención y programas'' y ''cobertura territorial ampliada'' no dicen cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Rutas de atención y programas» y «Cobertura territorial ampliada» no precisan cantidades ni una cobertura
+          verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Rutas de atención y programas» no tienen una fecha ni una etapa con duración definida.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «Consejo/Junta de Protección, MIES, MSP y justicia» identifica instituciones, pero no
+          asigna recursos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Sistema Cantonal de Protección Integral y las juntas de protección son competencia municipal, aunque
+          coordine con MIES y MSP.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las rutas y programas del «Sistema Cantonal de Protección Integral» corresponden a las funciones municipales
+          de protección de derechos, aunque requieran coordinación interinstitucional.
+- id: segundo-toledo-3c4ea99c
+  tema: cultura
+  resumen: Desarrollar una agenda permanente de cultura y deporte con escuelas, talleres, festivales y ligas en la cabecera
+    y las parroquias.
+  cita: Escuelas, talleres, festivales, ligas y uso positivo del tiempo libre.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Cultura y deporte en territorio
+    pagina: 20
+  - texto: Agenda permanente en cabecera y parroquias.
+    pagina: 20
+  - texto: Municipio, GAD parroquiales, organizaciones y auspicios.
+    pagina: 13
+  enfoques:
+  - cultura-impulsar-cultura-y-deporte
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'escuelas, talleres, festivales, ligas' sin cantidades ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «escuelas, talleres, festivales, ligas» no establece cantidades ni una cobertura definida
+          de beneficiarios.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Agenda permanente'' no fija cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «agenda permanente en cabecera y parroquias» no fija una fecha o duración para completar la propuesta.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica 'Municipio, GAD parroquiales, organizaciones y auspicios' como fuentes de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La lista «Municipio, GAD parroquiales, organizaciones y auspicios» no identifica una asignación, un
+          auspicio concreto ni un monto para financiar las actividades.
+      nota_revision: Municipio, GAD y auspicios son actores genéricos sin aporte identificado.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Cultura, deporte y uso del tiempo libre son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las actividades de «cultura y deporte en territorio» corresponden a las funciones municipales de promoción
+          cultural, deportiva y recreativa.
+- id: segundo-toledo-730b7bf0
+  tema: seguridad
+  resumen: Ejecutar el programa Paute seguro y comunitario con iluminación de espacios municipales, videovigilancia, redes
+    y recuperación de puntos críticos.
+  cita: Iluminación de espacios municipales, videovigilancia viable, redes y recuperación de puntos críticos.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Eje 4. Paute seguro, inclusivo y con desarrollo humano
+    pagina: 13
+  - texto: Plan preventivo cantonal y acciones anuales.
+    pagina: 19
+  - texto: Municipio, Policía, ECU 911, Bomberos y comunidad.
+    pagina: 13
+  enfoques:
+  - seguridad-vigilancia-iluminacion
+  - seguridad-comunidad-espacios-publicos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Iluminación de espacios municipales, videovigilancia viable" no indica cantidades ni lugares específicos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Iluminación de espacios municipales, videovigilancia viable, redes y recuperación de puntos críticos»
+          no cuantifica intervenciones ni identifica sitios concretos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Acciones anuales" es periodicidad, sin fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «acciones anuales» indica periodicidad, pero no fija una fecha de cumplimiento para
+          esta propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La lista «Municipio, Policía, ECU 911, Bomberos y comunidad» identifica actores, no montos ni fuentes
+          de financiamiento asignadas.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Iluminación, videovigilancia y espacios públicos son cumplibles por el Municipio con coordinación de
+          ECU 911 y Policía.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Iluminación de espacios municipales» y la «videovigilancia» son actuaciones de prevención y gestión
+          del espacio público que puede realizar el Municipio.
+- id: segundo-toledo-7d2228fe
+  tema: inclusion
+  resumen: Realizar jornadas periódicas de salud preventiva con brigadas articuladas, nutrición, salud mental y actividad
+    física en zonas priorizadas.
+  cita: Brigadas articuladas, nutrición, salud mental, actividad física y prevención.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Salud preventiva y bienestar
+    pagina: 20
+  - texto: Jornadas periódicas en zonas priorizadas.
+    pagina: 20
+  - texto: MSP, academia, organizaciones y Municipio.
+    pagina: 13
+  enfoques:
+  - inclusion-cuidados-bienestar
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Jornadas periódicas en zonas priorizadas" no dice cuántas jornadas ni a cuántas personas llegarán.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «Brigadas articuladas» y las «Jornadas periódicas en zonas priorizadas» no especifican número de
+          jornadas, beneficiarios ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Periódicas" es vago y no indica cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Jornadas periódicas» indica recurrencia, pero no una fecha o un hito de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «MSP, academia, organizaciones y Municipio» no asigna recursos ni identifica un mecanismo
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Son brigadas de salud preventiva y bienestar que el Municipio puede realizar en coordinación con el
+          MSP.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «Brigadas articuladas» de «nutrición, salud mental, actividad física y prevención» pueden prestarse
+          como acciones municipales complementarias de salud y bienestar.
+- id: segundo-toledo-a756ca6c
+  tema: ambiente
+  resumen: Implementar un programa cantonal de bienestar animal con censo, esterilización, vacunación, adopción y educación.
+  cita: Censo/diagnóstico, esterilización, vacunación, adopción y educación.
+  pagina: 13
+  cita_verificada: true
+  contexto:
+  - texto: Programa cantonal implementado.
+    pagina: 20
+  - texto: Municipio, clínicas, universidades y organizaciones.
+    pagina: 13
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Censo/diagnóstico, esterilización, vacunación, adopción" no indica cuántos animales ni cobertura;
+          "Programa cantonal implementado" es solo un tipo de programa.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programa cantonal implementado» no cuantifica las acciones de «esterilización, vacunación, adopción
+          y educación» ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Programa cantonal implementado» no indica en qué fecha o etapa fechada estará cumplido.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Municipio, clínicas, universidades y organizaciones" nombra actores, no fuentes de dinero específicas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, clínicas, universidades y organizaciones» enumera actores, pero no especifica aportes,
+          costos ni acuerdos de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El control y bienestar de fauna urbana es gestión municipal que puede coordinar con aliados.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las acciones de «esterilización, vacunación, adopción y educación» se encuadran en la gestión municipal
+          de fauna urbana y bienestar animal.
+- id: segundo-toledo-54c3629c
+  tema: espacio-publico
+  resumen: Aprobar un Plan Integral de Regeneración Urbana y Parroquial con cartera por fases, diseños, costos, participación
+    y mantenimiento.
+  cita: Cartera por fases con diseños, costos, participación y mantenimiento.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Eje 5. Paute ordenado, accesible y con espacios públicos dignos
+    pagina: 14
+  - texto: Plan aprobado y proyectos prioritarios iniciados.
+    pagina: 20
+  - texto: Municipio, crédito, convenios y privados.
+    pagina: 14
+  enfoques:
+  - espacio-publico-renovar-espacios
+  - espacio-publico-planificar-mantenimiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Cartera por fases con diseños, costos'' no indica cuántos proyectos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cartera por fases» y «proyectos prioritarios iniciados» no precisan cantidad, cobertura ni una obra
+          física única localizada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Por fases'' y ''proyectos prioritarios iniciados'' no traen fechas.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «cartera por fases» no asigna fechas ni duración a esas fases.
+    financiamiento:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica 'Municipio, crédito, convenios y privados' como fuentes de esta propuesta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, crédito, convenios y privados» enumera posibles vías genéricas sin identificar un monto,
+          una fuente específica o un mecanismo concreto asignado a la cartera.
+      nota_revision: Municipio, crédito, convenios y privados no precisan una fuente concreta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los espacios públicos del cantón son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La cartera vinculada a «Paute ordenado, accesible y con espacios públicos dignos» corresponde a la
+          planificación urbana y gestión municipal del espacio público.
+- id: segundo-toledo-72da5062
+  tema: vivienda
+  resumen: Aplicar el PDOT/PUGS, actualizar el catastro y fortalecer el control para prevenir la ocupación de zonas en riesgo.
+  cita: Aplicación PDOT/PUGS, catastro, control y prevención de ocupación en riesgo.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Ordenamiento y gestión del suelo
+    pagina: 20
+  - texto: Procesos actualizados y control territorial fortalecido.
+    pagina: 20
+  - texto: Municipio, catastros, gestión de riesgos y cooperación.
+    pagina: 14
+  enfoques:
+  - vivienda-ordenamiento-territorial
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Aplicación PDOT/PUGS, catastro, control y prevención" no indica cantidades ni alcance verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Procesos actualizados y control territorial fortalecido» no precisa cuántos procesos se actualizarán
+          ni qué cobertura tendrá el control.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Aplicación PDOT/PUGS, catastro, control y prevención de ocupación en riesgo» no tiene una fecha
+          de cumplimiento indicada.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo se nombra "Municipio, catastros, gestión de riesgos y cooperación" como responsables, sin monto
+          ni fuente concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Municipio, catastros, gestión de riesgos y cooperación» no identifica un monto ni una fuente o mecanismo
+          específico de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El uso del suelo, el catastro y la gestión de riesgos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Aplicación PDOT/PUGS», el «catastro» y el «control y prevención de ocupación en riesgo» corresponden
+          a ordenamiento territorial y gestión municipal del suelo.
+- id: segundo-toledo-eb84ae78
+  tema: espacio-publico
+  resumen: Revitalizar por fases sectores comerciales y patrimoniales con intervención en mercados, fachadas, señalética y
+    corredores.
+  cita: Mercados, fachadas, señalética, corredores y puesta en valor patrimonial.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Revitalización comercial y patrimonial
+    pagina: 20
+  - texto: Sectores priorizados revitalizados por fases.
+    pagina: 20
+  - texto: Municipio, INPC, comerciantes y propietarios.
+    pagina: 14
+  enfoques:
+  - espacio-publico-renovar-espacios
+  - espacio-publico-mejorar-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra tipos de intervención ("Mercados, fachadas, señalética, corredores") y "Sectores priorizados"
+          sin cantidad ni ubicación.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «Mercados, fachadas, señalética, corredores» no establece cantidades ni identifica una
+          obra única con ubicación o alcance.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"revitalizados por fases" no indica fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Sectores priorizados revitalizados por fases» no asigna fechas ni duración a las fases.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; solo lista actores "Municipio, INPC, comerciantes y propietarios".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «Municipio, INPC, comerciantes y propietarios» identifica participantes, pero no un monto
+          ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Mercados, espacio público y patrimonio son competencias municipales según el COOTAD.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La intervención en «Mercados, fachadas, señalética, corredores» y la «puesta en valor patrimonial»
+          corresponde a funciones municipales sobre espacio público, mercados y patrimonio.
+- id: segundo-toledo-f49da411
+  tema: movilidad
+  resumen: Rehabilitar calzadas, drenajes, aceras, rampas y cruces accesibles mediante intervenciones anuales según priorización.
+  cita: Rehabilitación de calzadas, drenajes, aceras, rampas y cruces accesibles.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Calles y aceras para todos
+    pagina: 20
+  - texto: Intervenciones anuales según priorización.
+    pagina: 20
+  - texto: Presupuesto, BDE y convenios.
+    pagina: 14
+  enfoques:
+  - movilidad-mantener-vias
+  - movilidad-peatones-seguridad
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra tipos de obra (calzadas, aceras, rampas) sin cantidad ni ubicación; "intervenciones según priorización"
+          no es una meta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «rehabilitación de calzadas, drenajes, aceras, rampas y cruces accesibles» no indica cantidades
+          ni intervenciones con ubicación y alcance definidos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Intervenciones anuales" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «intervenciones anuales según priorización» expresan periodicidad, no una fecha de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Presupuesto, BDE y convenios" como fuentes.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «Presupuesto, BDE y convenios» identifica al BDE como fuente de financiamiento para la
+          intervención.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vialidad urbana, aceras y accesibilidad son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La rehabilitación de «calzadas, drenajes, aceras, rampas y cruces accesibles» comprende infraestructura
+          vial y espacio público de competencia municipal.
+- id: segundo-toledo-f80a5834
+  tema: espacio-publico
+  resumen: Recuperar parques y plazas con mobiliario, juegos inclusivos, arborización y agenda de uso, y mantenerlos.
+  cita: Recuperación, mobiliario, juegos inclusivos, arborización y agenda de uso.
+  pagina: 14
+  cita_verificada: true
+  contexto:
+  - texto: Parques y plazas vivas
+    pagina: 20
+  - texto: Espacios priorizados recuperados y mantenidos.
+    pagina: 20
+  - texto: Presupuesto, cogestión y auspicios.
+    pagina: 14
+  enfoques:
+  - espacio-publico-renovar-espacios
+  - espacio-publico-planificar-mantenimiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Espacios priorizados recuperados y mantenidos" no dice cuántos parques o plazas ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «espacios priorizados recuperados y mantenidos» no identifica cuántos espacios serán intervenidos
+          ni cuáles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta «Parques y plazas vivas» no incluye fechas, duraciones ni etapas fechadas.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Presupuesto, cogestión y auspicios" es genérico, sin monto ni rubro nombrado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto, cogestión y auspicios» son referencias genéricas sin monto, rubro presupuestario ni acuerdo
+          concreto de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El espacio público, parques y plazas son competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «recuperación, mobiliario, juegos inclusivos, arborización y agenda de uso» de parques y plazas
+          corresponde a la gestión municipal del espacio público.
+- id: segundo-toledo-1da921ee
+  tema: transparencia
+  resumen: Implementar gobierno abierto con tablero de obras, contratación abierta, integridad y evaluación, con información
+    trimestral.
+  cita: Tablero de obras, contratación abierta, integridad, mejora de procesos y evaluación.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: Información trimestral y planes de mejora.
+    pagina: 20
+  - texto: Tablero público de obras y compromisos con actualización trimestral.
+    pagina: 18
+  - texto: Presupuesto institucional y cooperación.
+    pagina: 15
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Tablero de obras, contratación abierta, integridad" nombra tipos de herramientas sin cantidad ni
+          alcance verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Tablero de obras, contratación abierta, integridad, mejora de procesos y evaluación» enumera instrumentos
+          y acciones sin cuantificar resultados ni definir una cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Actualización trimestral" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Información trimestral» y «actualización trimestral» señalan periodicidades, no un plazo para cumplir
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Presupuesto institucional y cooperación" es genérico, sin monto, rubro ni cooperante nombrado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto institucional y cooperación» menciona fuentes genéricas sin monto, rubro presupuestario
+          específico ni cooperación identificada.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia, la participación y los trámites municipales son funciones propias del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «tablero público de obras y compromisos», la «contratación abierta» y la «mejora de procesos» corresponden
+          a la transparencia y gestión institucional municipales.
+- id: segundo-toledo-1f38700d
+  tema: transparencia
+  resumen: Crear un Banco Cantonal de Proyectos con ficha única, prefactibilidad, priorización y cartera financiable, operativo
+    en el primer año.
+  cita: Ficha única, prefactibilidad, priorización y cartera financiable.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: Eje 6. Municipio cercano, digital, eficiente y transparente
+    pagina: 15
+  - texto: Banco operativo durante el primer año.
+    pagina: 20
+  - texto: Presupuesto y asistencia técnica.
+    pagina: 15
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ficha única, prefactibilidad, priorización y cartera financiable" describe un sistema sin cantidad
+          ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ficha única, prefactibilidad, priorización y cartera financiable» describe herramientas y procesos,
+          sin cuantificar proyectos, beneficiarios o cobertura.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "Banco operativo durante el primer año", que ubica la entrega en el primer año.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto establece que el banco estará «operativo durante el primer año».
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Presupuesto y asistencia técnica" es genérico y no indica monto ni rubro.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto y asistencia técnica» no especifica un monto, un rubro presupuestario ni una fuente identificable.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Gestionar la cartera de proyectos y la planificación de inversión municipal le corresponde al Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «priorización y cartera financiable» dentro de un «Municipio cercano, digital, eficiente y transparente»
+          corresponde a la planificación y gestión municipal.
+- id: segundo-toledo-99c4675b
+  tema: rural
+  resumen: Ejecutar el programa Municipio en Territorio con gabinetes parroquiales y ferias de servicios periódicas en las
+    ocho unidades territoriales.
+  cita: Gabinetes parroquiales, ferias de servicios y seguimiento de compromisos.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: Municipio en Territorio
+    pagina: 20
+  - texto: Jornadas periódicas en las ocho unidades territoriales.
+    pagina: 20
+  enfoques:
+  - rural-acercar-servicios
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica cobertura "en las ocho unidades territoriales" con gabinetes parroquiales y ferias de servicios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto «Jornadas periódicas en las ocho unidades territoriales» asigna a la propuesta una cobertura
+          territorial cuantificada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Jornadas periódicas" es una periodicidad vaga, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Jornadas periódicas» indica recurrencia, pero no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «Municipio en Territorio» ni «Gabinetes parroquiales, ferias de servicios y seguimiento de compromisos»
+          especifican montos o fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Gabinetes parroquiales y ferias de servicios son participación y trámites municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «Gabinetes parroquiales, ferias de servicios y seguimiento de compromisos» son mecanismos municipales
+          de atención territorial y participación.
+- id: segundo-toledo-a88720db
+  tema: transparencia
+  resumen: Aplicar un presupuesto participativo anual con criterios técnicos, deliberación territorial y publicación de asignaciones.
+  cita: Criterios técnicos, deliberación territorial y publicación de asignaciones.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: Presupuesto participativo y equidad
+    pagina: 20
+  - texto: Ciclo anual transparente.
+    pagina: 20
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Criterios técnicos, deliberación territorial y publicación de asignaciones" no dice cuánto ni qué
+          resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Criterios técnicos, deliberación territorial y publicación de asignaciones» enumera acciones sin cuantificar
+          un resultado ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ciclo anual transparente" es una periodicidad, no un plazo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ciclo anual transparente» indica periodicidad, no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto participativo y equidad» identifica el ámbito de la propuesta, pero no cuánto costará
+          ni cómo se financiará.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El presupuesto participativo y la transparencia son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «deliberación territorial y publicación de asignaciones» del presupuesto participativo corresponde
+          a la participación ciudadana y transparencia municipales.
+- id: segundo-toledo-c9b65b8c
+  tema: transparencia
+  resumen: Implementar Paute Digital con trámites priorizados en línea, expediente electrónico, datos y atención multicanal.
+  cita: Trámites priorizados en línea, expediente electrónico, datos y atención multicanal.
+  pagina: 15
+  cita_verificada: true
+  contexto:
+  - texto: Plan digital e implementación progresiva.
+    pagina: 20
+  - texto: Presupuesto, cooperación y proveedores.
+    pagina: 15
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Trámites priorizados en línea'' no dice cuáles ni cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Trámites priorizados en línea, expediente electrónico, datos y atención multicanal» enumera herramientas
+          sin cuantificar trámites ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Implementación progresiva'' no da fechas ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Implementación progresiva» no fija una fecha, duración o etapa fechada de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Presupuesto, cooperación y proveedores'' es genérico, sin monto ni fuente nombrada.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuesto, cooperación y proveedores» no identifica un monto, una cooperación nombrada ni un mecanismo
+          concreto de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales en línea son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «trámites priorizados en línea» y la «atención multicanal» corresponden a la modernización de los
+          trámites y servicios municipales.
+- id: segundo-toledo-3b7a3125
+  tema: transparencia
+  resumen: No iniciar proyectos de inversión de gran escala sin estudios, fuente de financiamiento, costos de operación, análisis
+    de riesgos y seguimiento público.
+  cita: Ningún proyecto de inversión de gran escala se iniciará sin estudios suficientes, fuente de financiamiento identificada,
+    costos de operación y mantenimiento, análisis de riesgos y mecanismo de seguimiento público.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: 4.4 Regla de responsabilidad fiscal
+    pagina: 16
+  enfoques:
+  - transparencia-control-de-recursos
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Es una regla de proceso para "proyecto de inversión de gran escala" sin cantidad ni resultado concreto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ningún proyecto de inversión de gran escala» establece una regla general sin cuantificar ni delimitar
+          los proyectos a los que se aplicará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No dice cuándo estará cumplida; "se iniciará" no fija fecha.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se iniciará sin estudios suficientes» condiciona el inicio de los proyectos, pero no fija una fecha
+          de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Exige "fuente de financiamiento identificada" pero no nombra ninguna fuente ni monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Exigir una «fuente de financiamiento identificada» no identifica efectivamente ninguna fuente, monto
+          o mecanismo para esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Regular la inversión municipal propia es decisión del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «regla de responsabilidad fiscal» puede aplicarse municipalmente a la preparación, aprobación y
+          seguimiento de sus proyectos de inversión.
+- id: segundo-toledo-5ab79cba
+  tema: transparencia
+  resumen: Asignar a cada programa responsables, metas anuales, presupuesto y medios de verificación, y exigir explicaciones
+    y medidas correctivas ante desviaciones.
+  cita: 'Cada programa contará con responsable, línea base, meta anual, presupuesto, riesgos,
+
+    fuente de financiamiento y medio de verificación.'
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: 4.1 Gestión por resultados
+    pagina: 16
+  - texto: 'Las unidades operativas
+
+      deberán explicar desviaciones y formular medidas correctivas.'
+    pagina: 16
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Exige que cada programa tenga 'meta anual' y 'línea base' pero no fija ninguna meta concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cada programa contará con responsable, línea base, meta anual» promete instrumentos de gestión, pero
+          no cuantifica los programas ni fija una meta medible de implementación.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica cuándo estará cumplida; 'meta anual' es periodicidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «meta anual» describe la periodicidad de las metas futuras, no una fecha para implantar
+          el esquema de gestión.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo pide que haya 'presupuesto' y 'fuente de financiamiento' sin indicar ninguno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Decir que cada programa contará con «presupuesto» y «fuente de financiamiento» no identifica un monto
+          ni una fuente efectiva para esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión por resultados de los programas municipales depende del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Exigir que las «unidades operativas» expliquen desviaciones y formulen medidas correctivas corresponde
+          a la administración y planificación municipales.
+- id: segundo-toledo-ab5dab1a
+  tema: transparencia
+  resumen: Conducir un comité mensual de ejecución desde la Alcaldía y publicar un informe trimestral simplificado.
+  cita: La Alcaldía conducirá un comité mensual de ejecución y publicará un informe trimestral simplificado.
+  pagina: 16
+  cita_verificada: true
+  contexto:
+  - texto: 4.1 Gestión por resultados
+    pagina: 16
+  enfoques:
+  - transparencia-control-de-recursos
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija "un comité mensual" y "un informe trimestral", resultados verificables y cuantificados.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «comité mensual de ejecución» y el «informe trimestral simplificado» describen instrumentos de gestión
+          periódicos, sin una cantidad total ni un resultado medible comprometido.
+      nota_revision: Comité mensual e informe trimestral describen periodicidad, no cantidad total o resultado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo hay periodicidad (mensual, trimestral) y ninguna fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mensual» y «trimestral» indican periodicidad, no una fecha de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La creación del «comité mensual» y la publicación del «informe trimestral» no tienen monto ni fuente
+          de financiamiento indicados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas y la transparencia de la gestión son responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Que «la Alcaldía conducirá un comité» y publicará informes corresponde a la gestión y transparencia
+          municipales.
+- id: segundo-toledo-4413b52f
+  tema: rural
+  resumen: Establecer una agenda anual con la cabecera y las siete parroquias rurales, con convenios que definan aportes,
+    cronogramas y mantenimiento.
+  cita: Se establecerá una agenda anual con la cabecera y las siete parroquias rurales.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: Los convenios definirán aportes, responsabilidades, cronogramas, fiscalización y mantenimiento.
+    pagina: 17
+  enfoques:
+  - rural-coordinar-inversion
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija una agenda con "la cabecera y las siete parroquias rurales", un alcance determinado.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La agenda tiene una cobertura explícita al incluir «la cabecera y las siete parroquias rurales».
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo indica periodicidad ("agenda anual") y los cronogramas aún no están definidos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «agenda anual» indica periodicidad y los futuros «cronogramas» no aportan una fecha concreta
+          de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los convenios definirán "aportes" pero no dice cuánto ni de qué fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Decir que «los convenios definirán aportes» no identifica todavía un monto, una fuente específica ni
+          un mecanismo financiero concreto.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La coordinación con parroquias rurales y la agenda de participación son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Establecer una «agenda anual con la cabecera y las siete parroquias rurales» es una actuación municipal
+          de coordinación y planificación territorial.
+- id: segundo-toledo-0ed1ded0
+  tema: transparencia
+  resumen: Instalar mesas de diálogo con organizaciones sociales, productivas, comunitarias y académicas.
+  cita: Mesas de diálogo con organizaciones sociales, productivas, comunitarias y académicas.
+  pagina: 18
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mesas de diálogo" no dice cuántas ni con qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mesas de diálogo con organizaciones sociales, productivas, comunitarias y académicas» no establece
+          cuántas mesas se realizarán ni una cobertura definida.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «mesas de diálogo» no contiene una fecha ni un período concreto de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «mesas de diálogo» no incluyen un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana es función municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Organizar «mesas de diálogo con organizaciones sociales, productivas, comunitarias y académicas» corresponde
+          a las funciones municipales de participación ciudadana.
+- id: segundo-toledo-58b0c869
+  tema: transparencia
+  resumen: Habilitar canales presenciales y virtuales para solicitudes, sugerencias, alertas y denuncias con trazabilidad
+    de respuesta.
+  cita: Canales presenciales y virtuales para solicitudes, sugerencias, alertas y denuncias, con trazabilidad de respuesta.
+  pagina: 18
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Canales presenciales y virtuales" nombra un tipo de cosa sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Canales presenciales y virtuales» nombra tipos de atención sin precisar cantidad ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La oferta de canales «con trazabilidad de respuesta» no incluye una fecha ni una duración de implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «canales presenciales y virtuales» no menciona costo ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales, la transparencia y la participación ciudadana son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Atender «solicitudes, sugerencias, alertas y denuncias» mediante canales municipales corresponde a
+          la gestión de trámites y participación ciudadana.
+- id: segundo-toledo-58c45138
+  tema: transparencia
+  resumen: Realizar rendición de cuentas anual en la cabecera y jornadas territoriales en las parroquias, con cabildos semestrales.
+  cita: Rendición de cuentas anual en la cabecera y jornadas territoriales en las parroquias.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: Cabildos y reportes por parroquia y cabecera.
+    pagina: 18
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Rendición de cuentas anual" y "jornadas territoriales" no indican cuántas jornadas ni cobertura medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Rendición de cuentas anual en la cabecera y jornadas territoriales en las parroquias» no cuantifica
+          jornadas ni establece una cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anual" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La palabra «anual» expresa periodicidad, no una fecha o un hito de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Rendición de cuentas anual» y los «Cabildos y reportes» no incluyen montos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas y la participación ciudadana son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Rendición de cuentas» y los «Cabildos y reportes por parroquia y cabecera» corresponden a transparencia
+          y participación ciudadana municipales.
+- id: segundo-toledo-8992f2b7
+  tema: transparencia
+  resumen: Fortalecer controles de contratación y bienes, gestionar conflictos de interés, proteger canales de denuncia y
+    aplicar medidas anticorrupción.
+  cita: fortalecerá controles de contratación y bienes, gestionará conflictos de interés, protegerá canales de denuncia y
+    aplicará medidas de prevención de corrupción.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 5.3 Integridad pública
+    pagina: 18
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Fortalecerá controles" y "aplicará medidas de prevención" son verbos genéricos sin cantidad ni resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortalecerá controles» y «aplicará medidas de prevención de corrupción» expresan acciones sin cantidades
+          ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto "5.3 Integridad pública" no da fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las acciones de «integridad pública» no tienen una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Controles de contratación y bienes» y «canales de denuncia» no tienen montos ni fuentes de financiamiento
+          asignados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Controles de contratación y transparencia internos son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «controles de contratación y bienes» y la gestión de «conflictos de interés» pertenecen al control
+          de la administración municipal.
+- id: segundo-toledo-9470ccf9
+  tema: transparencia
+  resumen: Habilitar un portal de transparencia con presupuesto, contratación, cronogramas, avances e indicadores.
+  cita: Portal de transparencia con presupuesto, contratación, cronogramas, avances e indicadores.
+  pagina: 18
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra un producto único y definido: un "Portal de transparencia" con presupuesto, contratación, cronogramas,
+          avances e indicadores.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Portal de transparencia» nombra una herramienta y sus contenidos, pero no establece una cantidad o
+          cobertura verificable de información publicada.
+      nota_revision: El portal es una herramienta; no cuantifica información publicada o cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Portal de transparencia con presupuesto, contratación, cronogramas, avances e indicadores» no indica
+          cuándo estará disponible.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Con presupuesto» describe información que contendrá el portal, no un monto o una fuente para financiarlo.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La transparencia municipal es función del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Un «portal de transparencia» sobre presupuesto y contratación forma parte de las funciones municipales
+          de transparencia y acceso a la información.
+- id: segundo-toledo-a9363ad5
+  tema: transparencia
+  resumen: Convocar cabildos abiertos, asambleas y audiencias públicas para proyectos de impacto.
+  cita: Cabildos abiertos, asambleas y audiencias públicas para proyectos de impacto.
+  pagina: 18
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'Cabildos abiertos, asambleas y audiencias públicas' sin cantidad ni frecuencia concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta enumera «Cabildos abiertos, asambleas y audiencias públicas» sin indicar cuántos se realizarán
+          ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «proyectos de impacto» no establece cuándo se realizarán los mecanismos participativos.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «Cabildos abiertos, asambleas y audiencias públicas» no tienen un monto ni una fuente de financiamiento
+          identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana es función municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Convocar «Cabildos abiertos, asambleas y audiencias públicas» corresponde a las funciones municipales
+          de participación ciudadana.
+- id: segundo-toledo-e1efbddd
+  tema: transparencia
+  resumen: Facilitar veedurías ciudadanas conforme a la normativa.
+  cita: Facilitación de veedurías ciudadanas conforme a la normativa.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 5.2 Mecanismos periódicos y públicos
+    pagina: 18
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Facilitación de veedurías ciudadanas" no indica cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Facilitación de veedurías ciudadanas» no cuantifica las veedurías ni define una cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto "Mecanismos periódicos y públicos" solo indica periodicidad, no una fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El encabezado «Mecanismos periódicos y públicos» expresa periodicidad genérica, no una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Facilitación de veedurías ciudadanas conforme a la normativa» no identifica costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana y la transparencia son funciones del Municipio, que puede facilitar veedurías.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «facilitación de veedurías ciudadanas» forma parte de las funciones municipales de participación
+          ciudadana y transparencia.
+- id: segundo-toledo-8632b952
+  tema: transparencia
+  resumen: Incorporar metas cuantitativas de cobertura física al POA y al tablero institucional tras levantar líneas base
+    y aprobar estudios.
+  cita: Las metas cuantitativas definitivas de cobertura física se incorporarán al POA y al tablero institucional una vez
+    levantadas las líneas base y aprobados los estudios.
+  pagina: 20
+  cita_verificada: true
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice que las metas 'se incorporarán... una vez levantadas las líneas base', es decir, no define ninguna
+          meta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Las metas cuantitativas definitivas de cobertura física se incorporarán» posteriormente, por lo que
+          el texto no presenta una cantidad o cobertura actual verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No fija fecha, solo 'una vez levantadas las líneas base y aprobados los estudios'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Una vez levantadas las líneas base y aprobados los estudios» es una condición sin fecha ni duración
+          definida.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La incorporación de metas «al POA y al tablero institucional» no especifica un monto ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Incorporar metas al POA y al tablero institucional depende del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Incorporar metas «al POA y al tablero institucional» es una actuación de planificación y seguimiento
+          de la propia administración municipal.

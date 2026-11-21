@@ -49,6 +49,18 @@ class ProveedorIA(Protocol):
     def generar(self, sol: Solicitud) -> BaseModel: ...
 
 
+class SoloCacheIA:
+    """Conserva la identidad del modelo para leer caché sin llamar al proveedor."""
+
+    proveedor = Proveedor.anthropic
+
+    def __init__(self, modelo: str):
+        self.modelo = modelo
+
+    def generar(self, sol: Solicitud) -> BaseModel:
+        raise RuntimeError(f"Anthropic deshabilitado: falta resultado en caché para {sol.paso}")
+
+
 # ─── Prompts versionados ────────────────────────────────────────────────────
 
 
@@ -97,6 +109,8 @@ def registrar(sol: Solicitud, prov: ProveedorIA, segundos: float, uso: dict | No
 
 def llamar(prov: ProveedorIA, sol: Solicitud, tipo: type[M], intentos: int = 3) -> M:
     """Llama al proveedor con reintentos (backoff exponencial) y valida la salida."""
+    if isinstance(prov, SoloCacheIA):
+        raise RuntimeError(f"Anthropic deshabilitado: falta resultado en caché para {sol.paso}")
     ultimo: Exception | None = None
     for i in range(intentos):
         GASTO.verificar()
@@ -301,6 +315,7 @@ class Equipo:
     neutralidad: ProveedorIA
     # Si el transcriptor se niega (p. ej. Gemini corta con RECITATION en documentos oficiales largos)
     transcriptor_respaldo: ProveedorIA | None = None
+    cobertura_respaldo: ProveedorIA | None = None
 
 
 def equipo() -> Equipo:
@@ -311,10 +326,16 @@ def equipo() -> Equipo:
         a, o, g = (MockIA(Proveedor.mock, f"mock-{n}") for n in ("anthropic", "openai", "google"))
         aj = a
     else:
-        a, o, g = AnthropicIA(cfg.modelo_anthropic), OpenAIIA(cfg.modelo_openai), GoogleIA(cfg.modelo_gemini)
+        a = AnthropicIA(cfg.modelo_anthropic) if cfg.usar_anthropic else SoloCacheIA(cfg.modelo_anthropic)
+        o = OpenAIIA(cfg.modelo_openai)
         # Jurado de Claude con un modelo más económico (opción C); el extractor sigue en Opus
-        aj = a if cfg.modelo_jurado_anthropic == cfg.modelo_anthropic else AnthropicIA(cfg.modelo_jurado_anthropic)
+        aj = a if cfg.modelo_jurado_anthropic == cfg.modelo_anthropic else (
+            AnthropicIA(cfg.modelo_jurado_anthropic) if cfg.usar_anthropic else SoloCacheIA(cfg.modelo_jurado_anthropic)
+        )
+        g = GoogleIA(cfg.modelo_gemini) if cfg.usar_gemini else None
     return Equipo(
-        extractor=a, transcriptor=g, cobertura=g, jurado=[aj, o, g], enfoques_propone=o, enfoques_valida=a, neutralidad=o,
-        transcriptor_respaldo=aj,
+        extractor=a, transcriptor=g or aj, cobertura=g or o, jurado=[aj, o, g] if g else [aj, o],
+        enfoques_propone=o, enfoques_valida=a, neutralidad=o,
+        transcriptor_respaldo=aj if g else None,
+        cobertura_respaldo=o if g else None,
     )

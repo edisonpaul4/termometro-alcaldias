@@ -1,0 +1,286 @@
+# Correcciones editoriales; empates resueltos por un asistente de IA a pedido del usuario.
+propuestas:
+  david-idrovo-ddddf6a8:
+    resumen: Evaluar de forma independiente los resultados y la pertinencia para definir ajustes.
+  david-mendez-43e451c2:
+    resumen: Hacer estudios e intervenciones para prevenir y mitigar riesgos naturales y antrópicos, buscando reducir hasta
+      450 los habitantes expuestos en zonas críticas.
+  david-mendez-554c163c:
+    resumen: Fortalecer la gestión integral de residuos sólidos y mejorar la recolección, el tratamiento y la disposición
+      final con una solución técnica operativa.
+  david-mendez-c05f1138:
+    resumen: Regenerar espacios públicos, mejorar equipamientos comunitarios y gestionar el suelo, con una meta de 15 espacios
+      o equipamientos mejorados.
+  romulo-gonzalez-814d87a1:
+    resumen: Planificar y construir viviendas de interés social para sectores de bajos ingresos.
+  romulo-gonzalez-4243ead2:
+    resumen: Diseñar y construir un puente carrozable entre Paute y Tutucún.
+  ulises-astudillo-31c914f4:
+    resumen: Ejecutar campañas puerta a puerta de esterilización y vacunación de mascotas en el centro cantonal y las parroquias,
+      en coordinación con el MSP.
+  david-idrovo-0d5b1865:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: 2027 fecha la priorización, no la conclusión del colector o la planta.
+  david-idrovo-3ca7994f:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El extremo de la prolongación queda sujeto a la factibilidad; no fija el tramo final.
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: La cartera de 2027 es un paso preparatorio, no la fecha de entrega de la vía.
+  david-idrovo-fce0d4c6:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: true
+        nota: El proyecto P4 del plan, página 8, ubica la regeneración física en Huayna Cápac e India Pau.
+  david-idrovo-0070f954:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: El hito de 2028 inicia intervenciones; no fija cuándo terminarán las aceras.
+  david-idrovo-08d39b2f:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Mercado mayorista nombra un tipo de obra, sin ubicación ni alcance definidos.
+  david-idrovo-0e862bb1:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: La cadena 202732028 no es una fecha legible; piloto previo solo ordena pasos.
+  david-idrovo-8654546c:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Crear una unidad administrativa no cuantifica cobertura ni resultado de su trabajo.
+  david-mendez-e729cd3d:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: 2031 es el cierre del período de gobierno y anual indica periodicidad.
+  david-mendez-bd7c899c:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Promover la actualización del PDOT no fija cantidad, cobertura ni obra física localizada.
+  david-mendez-c219ac77:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Un informe anual es un tipo de documento periódico, sin cantidad total comprometida.
+  romulo-gonzalez-422e0fb0:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Un estudio hídrico es un producto técnico; no cuantifica fuentes, superficie ni cobertura.
+  romulo-gonzalez-c72590e2:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El mapa de suelos es un instrumento técnico sin cantidad o cobertura definida.
+  romulo-gonzalez-f8f66633:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El mapeo de biodiversidad no cuantifica especies, superficie ni cobertura.
+  romulo-gonzalez-e91143bd:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: El segundo año fecha el inicio de una ejecución progresiva, no su cumplimiento.
+  romulo-gonzalez-1d159732:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Un análisis socioeconómico no cuantifica resultados ni actividades cubiertas.
+  romulo-gonzalez-4c770285:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El plan cantonal es un instrumento, sin meta de cobertura o resultado medible.
+  romulo-gonzalez-3c65adb5:
+    criterios:
+      plazo:
+        origen: asistente_ia
+        valor: true
+        nota: El contexto asigna esta actualización al CUARTO AÑO, una fase temporal explícita.
+  romulo-gonzalez-e5281ac7:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Enumera indicadores de evaluación, pero no fija un valor objetivo para ninguno.
+  roxana-torres-832850c3:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Ubica dos cuencas, pero no cuantifica protección ni define una obra física única.
+  roxana-torres-05f2561c:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Enumera cinco lugares, pero no identifica las obras de mitigación ni su alcance.
+  roxana-torres-565b5d09:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: No cuantifica ampliación de cobertura ni número o ubicación de cada PTAR.
+  roxana-torres-df92245d:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: La plataforma web es un sistema sin cobertura o resultado cuantificado.
+  segundo-toledo-da7c1996:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: La columna mezcla financiamiento y alianzas; no asigna un aporte de MAG o Prefectura.
+  segundo-toledo-82400b04:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: Convenios, crédito y cooperación son mecanismos genéricos sin entidad ni monto.
+  segundo-toledo-07245d7d:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: Presupuesto, crédito y convenios no identifican rubro, acreedor ni convenio.
+  segundo-toledo-10d47cbc:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: Menciona BDE entre actores, pero no asigna crédito, aporte o monto a la propuesta.
+  segundo-toledo-3c4ea99c:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: Municipio, GAD y auspicios son actores genéricos sin aporte identificado.
+  segundo-toledo-54c3629c:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: false
+        nota: Municipio, crédito, convenios y privados no precisan una fuente concreta.
+  segundo-toledo-ab5dab1a:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Comité mensual e informe trimestral describen periodicidad, no cantidad total o resultado.
+  segundo-toledo-9470ccf9:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El portal es una herramienta; no cuantifica información publicada o cobertura.
+  ulises-astudillo-6ad576a8:
+    criterios:
+      competencia_municipal:
+        origen: asistente_ia
+        valor: false
+        nota: Solo promete gestionar convenios con un ministerio para ampliar programas; el resultado depende del convenio.
+  ulises-astudillo-d6c94f78:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El 100% de la línea base describe terminar un diagnóstico, no cobertura de población.
+      plazo:
+        origen: asistente_ia
+        valor: false
+        nota: Finalizar 2031 coincide con el cierre del período completo de gobierno.
+  ulises-astudillo-68927eeb:
+    criterios:
+      competencia_municipal:
+        origen: asistente_ia
+        valor: false
+        nota: La participación municipal en consorcios es posible, pero crearlo requiere otros GAD y los proyectos no se identifican.
+  ulises-astudillo-a5ad7457:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Crear una unidad administrativa no cuantifica servicios, cobertura ni obra física.
+  ulises-astudillo-60378587:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Un registro georreferenciado es un instrumento sin número de zonas cubiertas.
+  ulises-astudillo-32a6ca1d:
+    criterios:
+      competencia_municipal:
+        origen: asistente_ia
+        valor: true
+        nota: Convocar diálogo comunitario es una función municipal de participación, sin prometer regular la minería.
+  ulises-astudillo-f1e95bb2:
+    criterios:
+      financiamiento:
+        origen: asistente_ia
+        valor: true
+        nota: Las regalías mineras son una fuente específica nombrada para proyectos productivos.
+  ulises-astudillo-9cf9dee3:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: La unidad veterinaria es una estructura sin servicios o beneficiarios cuantificados.
+  ulises-astudillo-80f5260e:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El 100% de esta actividad no cuantifica sistemas agrícolas, cobertura o producción.
+  ulises-astudillo-7ea471e2:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Centro asociado del IEPS nombra un tipo de centro en el cantón, sin ubicación concreta.
+  ulises-astudillo-60c5318f:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El estudio de factibilidad no cuantifica resultado ni ubica la obra eventual.
+  ulises-astudillo-379555be:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: El estudio de factibilidad del centro cultural no fija meta ni ubicación de la obra.
+  ulises-astudillo-c5d6c0af:
+    criterios:
+      meta:
+        origen: asistente_ia
+        valor: false
+        nota: Un manual administrativo no cuantifica resultado ni cobertura.

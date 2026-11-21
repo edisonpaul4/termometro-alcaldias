@@ -18,3 +18,9 @@
   nombre_oficial: Guayaquil
   dignidad: Alcaldía
   activa: true
+
+- id: paute
+  nombre: Paute
+  nombre_oficial: Paute, Azuay
+  dignidad: Alcaldía
+  activa: true

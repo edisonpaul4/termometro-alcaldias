@@ -1,0 +1,220 @@
+# Generado por el pipeline (paso 6)
+enfoques:
+- id: seguridad-coordinacion-preventiva
+  tema: seguridad
+  nombre: Coordinar la prevención
+  descripcion: Fortalecer el Consejo de Seguridad y coordinar planes y operativos entre instituciones.
+  icono: handshake
+- id: seguridad-vigilancia-iluminacion
+  tema: seguridad
+  nombre: Mejorar vigilancia e iluminación
+  descripcion: Ampliar cámaras, tecnología e iluminación para vigilar y prevenir delitos en espacios públicos.
+  icono: security-camera
+- id: seguridad-comunidad-espacios-publicos
+  tema: seguridad
+  nombre: Activar barrios y comunidad
+  descripcion: Organizar comités y redes vecinales, recuperar espacios públicos y promover cultura, deporte y convivencia.
+  icono: users-three
+- id: movilidad-mantener-vias
+  tema: movilidad
+  nombre: Mantener y rehabilitar vías
+  descripcion: Priorizar bacheo, pavimentación, lastrado y drenajes para conservar y recuperar las vías existentes.
+  icono: wrench
+- id: movilidad-ampliar-conexiones
+  tema: movilidad
+  nombre: Ampliar conexiones viales
+  descripcion: Construir puentes y prolongar avenidas para conectar mejor los sectores del cantón.
+  icono: bridge
+- id: movilidad-peatones-seguridad
+  tema: movilidad
+  nombre: Priorizar peatones y seguridad
+  descripcion: Mejorar aceras, rampas, cruces y señalización para desplazarse con seguridad y sin barreras.
+  icono: person-simple-walk
+- id: movilidad-planificar-gestionar
+  tema: movilidad
+  nombre: Planificar y gestionar movilidad
+  descripcion: Organizar inversiones, transporte y tránsito con planes, monitoreo tecnológico y gestión de maquinaria.
+  icono: clipboard-text
+- id: agua-servicios-mejorar-agua-potable
+  tema: agua-servicios
+  nombre: Mejorar el agua potable
+  descripcion: Ampliar la cobertura y renovar captaciones, plantas y redes de agua potable en barrios y comunidades.
+  icono: drop
+- id: agua-servicios-alcantarillado-tratamiento
+  tema: agua-servicios
+  nombre: Ampliar alcantarillado y tratamiento
+  descripcion: Construir y rehabilitar alcantarillado, colectores y soluciones de tratamiento de aguas residuales.
+  icono: pipe
+- id: agua-servicios-mantenimiento-control
+  tema: agua-servicios
+  nombre: Mantener y vigilar servicios
+  descripcion: Priorizar mantenimiento, control de calidad y capacitación para reducir fallas, pérdidas y contaminación.
+  icono: wrench
+- id: agua-servicios-planificacion-financiamiento
+  tema: agua-servicios
+  nombre: Planificar y financiar obras
+  descripcion: Preparar diagnósticos, estudios y planes de inversión, y gestionar recursos para ejecutar proyectos.
+  icono: clipboard-text
+- id: ambiente-basura-y-reciclaje
+  tema: ambiente
+  nombre: Mejorar basura y reciclaje
+  descripcion: Mejorar la recolección, separar y aprovechar residuos, y asegurar su tratamiento y disposición final.
+  icono: recycle
+- id: ambiente-agua-y-vida
+  tema: ambiente
+  nombre: Proteger agua y vida
+  descripcion: Recuperar fuentes de agua, bosques y suelos; conservar la biodiversidad y cuidar a los animales.
+  icono: plant
+- id: ambiente-prevencion-y-control
+  tema: ambiente
+  nombre: Prevenir impactos ambientales
+  descripcion: Planificar, estudiar y vigilar impactos, aplicar normas y reducir el consumo energético municipal.
+  icono: shield-check
+- id: ambiente-participacion-y-educacion
+  tema: ambiente
+  nombre: Impulsar participación y educación
+  descripcion: Promover educación ambiental, acuerdos, incentivos y organización comunitaria para cuidar el entorno.
+  icono: users-three
+- id: empleo-apoyar-negocios
+  tema: empleo
+  nombre: Apoyar negocios y emprendimientos
+  descripcion: Ofrecer asesoría, capacitación, formalización y acceso a financiamiento para crear o fortalecer negocios.
+  icono: briefcase
+- id: empleo-abrir-mercados
+  tema: empleo
+  nombre: Abrir mercados y ventas
+  descripcion: Facilitar ventas con mercados, ferias, marcas locales, ruedas de negocios y compras públicas.
+  icono: storefront
+- id: empleo-mejorar-produccion
+  tema: empleo
+  nombre: Mejorar la producción
+  descripcion: Incorporar tecnología, asistencia técnica y transformación para producir mejor y agregar valor.
+  icono: plant
+- id: empleo-planificar-desarrollo-local
+  tema: empleo
+  nombre: Planificar el desarrollo local
+  descripcion: Coordinar instituciones, definir reglas y orientar recursos con diagnósticos y seguimiento.
+  icono: clipboard-text
+- id: espacio-publico-renovar-espacios
+  tema: espacio-publico
+  nombre: Renovar espacios públicos
+  descripcion: Mejorar calles, parques, plazas y equipamientos con accesibilidad, iluminación, vegetación y recreación.
+  icono: park
+- id: espacio-publico-mejorar-mercados
+  tema: espacio-publico
+  nombre: Mejorar los mercados
+  descripcion: Modernizar y ampliar mercados y centros de acopio, mejorando su higiene, organización y funcionamiento.
+  icono: storefront
+- id: espacio-publico-planificar-mantenimiento
+  tema: espacio-publico
+  nombre: Planificar y mantener
+  descripcion: Organizar las obras por fases y asegurar responsables, recursos y mantenimiento de los espacios públicos.
+  icono: wrench
+- id: riesgos-planificar-y-regular
+  tema: riesgos
+  nombre: Planificar y regular
+  descripcion: Actualizar mapas y estudios, establecer normas e incorporar criterios de riesgo en proyectos y planificación
+    territorial.
+  icono: map-pin
+- id: riesgos-intervenir-zonas-de-riesgo
+  tema: riesgos
+  nombre: Intervenir zonas de riesgo
+  descripcion: Realizar obras e intervenciones en zonas críticas para reducir la exposición y mitigar daños.
+  icono: hammer
+- id: riesgos-preparar-a-la-comunidad
+  tema: riesgos
+  nombre: Preparar a la comunidad
+  descripcion: Impulsar educación para prevenir incendios, alertas tempranas, protocolos y simulacros comunitarios.
+  icono: users-three
+- id: rural-mejorar-infraestructura
+  tema: rural
+  nombre: Mejorar la infraestructura rural
+  descripcion: Priorizar vías, pavimento, agua, saneamiento, riego y conectividad digital en las parroquias.
+  icono: road-horizon
+- id: rural-coordinar-inversion
+  tema: rural
+  nombre: Coordinar y distribuir inversiones
+  descripcion: Acordar prioridades, aportes y mantenimiento entre instituciones, con inversión equilibrada y participación
+    local.
+  icono: handshake
+- id: rural-acercar-servicios
+  tema: rural
+  nombre: Acercar los servicios municipales
+  descripcion: Llevar atención, ferias de servicios y puntos de pago a las parroquias para evitar desplazamientos.
+  icono: map-pin
+- id: transparencia-informacion-y-cuentas
+  tema: transparencia
+  nombre: Publicar y explicar resultados
+  descripcion: Dar acceso a presupuestos, contratos, obras y resultados, y explicar públicamente la gestión municipal.
+  icono: eye
+- id: transparencia-participacion-y-vigilancia
+  tema: transparencia
+  nombre: Decidir y vigilar juntos
+  descripcion: Involucrar a la ciudadanía en prioridades, presupuestos, propuestas y vigilancia de la gestión.
+  icono: users-three
+- id: transparencia-control-de-recursos
+  tema: transparencia
+  nombre: Controlar proyectos y recursos
+  descripcion: Aplicar estudios, auditorías, indicadores y controles para prevenir irregularidades y corregir problemas.
+  icono: shield-check
+- id: transparencia-modernizacion-municipal
+  tema: transparencia
+  nombre: Modernizar la gestión municipal
+  descripcion: Mejorar trámites, sistemas, personal y recursos municipales para organizar y prestar mejor los servicios.
+  icono: desktop
+- id: inclusion-cuidados-bienestar
+  tema: inclusion
+  nombre: Cuidados y bienestar
+  descripcion: Priorizar cuidados, alimentación, salud preventiva y espacios de convivencia para grupos prioritarios.
+  icono: hand-heart
+- id: inclusion-proteccion-derechos
+  tema: inclusion
+  nombre: Protección de derechos
+  descripcion: Prevenir la violencia y el trabajo infantil, ofrecer espacios seguros y fortalecer las rutas de protección.
+  icono: shield-check
+- id: inclusion-acceso-autonomia
+  tema: inclusion
+  nombre: Acceso y autonomía
+  descripcion: Eliminar barreras físicas, digitales y territoriales, y ampliar oportunidades de autonomía y emprendimiento.
+  icono: wheelchair
+- id: inclusion-gestion-programas-sociales
+  tema: inclusion
+  nombre: Gestión de programas sociales
+  descripcion: Organizar recursos, datos y alianzas para ampliar la cobertura y evaluar los resultados de los programas.
+  icono: clipboard-text
+- id: cultura-promover-el-turismo
+  tema: cultura
+  nombre: Promover el turismo
+  descripcion: Planificar el turismo, difundir los atractivos y capacitar a quienes ofrecen servicios turísticos.
+  icono: megaphone
+- id: cultura-mejorar-espacios-y-rutas
+  tema: cultura
+  nombre: Mejorar espacios y rutas
+  descripcion: Crear y mejorar rutas, señalización e infraestructura para el turismo, la cultura y la recreación.
+  icono: path
+- id: cultura-cuidar-el-patrimonio
+  tema: cultura
+  nombre: Cuidar el patrimonio
+  descripcion: Investigar, conservar y difundir el patrimonio, la memoria local y las tradiciones del cantón.
+  icono: bank
+- id: cultura-impulsar-cultura-y-deporte
+  tema: cultura
+  nombre: Impulsar cultura y deporte
+  descripcion: Organizar eventos, escuelas, talleres y programas culturales y deportivos en la cabecera y las parroquias.
+  icono: mask-happy
+- id: vivienda-construccion-social
+  tema: vivienda
+  nombre: Construir vivienda social
+  descripcion: Planificar y construir viviendas para personas y familias de bajos ingresos.
+  icono: house
+- id: vivienda-ordenamiento-territorial
+  tema: vivienda
+  nombre: Ordenar el crecimiento
+  descripcion: Actualizar y aplicar planes, normas y catastro para orientar el crecimiento y evitar ocupaciones en zonas de
+    riesgo.
+  icono: map-pin
+- id: vivienda-preparacion-proyectos
+  tema: vivienda
+  nombre: Preparar proyectos para financiar
+  descripcion: Mantener proyectos estratégicos con estudios y diseños listos para gestionar financiamiento.
+  icono: clipboard-text

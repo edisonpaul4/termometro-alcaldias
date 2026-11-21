@@ -1,0 +1,1653 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: roxana-torres
+nombre: Roxana Pamela Torres Ramírez
+lista: '7'
+organizacion: Movimiento Acción Democrática Nacional, ADN
+foto: fuentes/ciudades/paute/candidatos/roxana-torres/foto_2026-11-20.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/6761
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-20'
+  archivo: fuentes/ciudades/paute/candidatos/roxana-torres/foto_2026-11-20.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/6761/7496
+    titulo: Plan de trabajo de Roxana Pamela Torres Ramírez — Alcaldía de Paute 2027-2031 (CNE)
+    consultado: '2026-11-20'
+    archivo: fuentes/ciudades/paute/candidatos/roxana-torres/plan-de-trabajo_2026-11-20.pdf
+  paginas: 29
+  sha256: fba60dd6c804551b1d716448b972428bb88bb6460f88f70c2521ca5abadee623
+propuestas:
+- id: roxana-torres-05f2561c
+  tema: riesgos
+  resumen: Obras de mitigación de riesgos en Bellavista, Llapzhún, Uzhupud, Tomebamba y Cristo del Consuelo, con un sistema
+    de alerta temprana comunitaria.
+  cita: Obras de mitigación en Bellavista, Llapzhún, Uzhupud, Tomebamba y Cristo del Consuelo. Incluye sistema de alerta temprana
+    comunitaria.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 1: SOSTENIBILIDAD AMBIENTAL, GESTIÓN DE RIESGOS Y ADAPTACIÓN AL CAMBIO CLIMÁTICO'
+    pagina: 17
+  enfoques:
+  - riesgos-intervenir-zonas-de-riesgo
+  - riesgos-preparar-a-la-comunidad
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra obras de mitigación en cinco sitios específicos: Bellavista, Llapzhún, Uzhupud, Tomebamba y
+          Cristo del Consuelo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Aunque enumera «Bellavista, Llapzhún, Uzhupud, Tomebamba y Cristo del Consuelo», no precisa qué obras
+          de mitigación se construirán, su cantidad o su alcance físico.
+      nota_revision: Enumera cinco lugares, pero no identifica las obras de mitigación ni su alcance.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece el título del eje, sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni las «obras de mitigación» ni el título del «EJE 1» incluyen una fecha o duración de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «obras de mitigación» y el «sistema de alerta temprana comunitaria» carecen de monto y fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de riesgos es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «obras de mitigación» y el «sistema de alerta temprana comunitaria» corresponden a la gestión municipal
+          de riesgos.
+- id: roxana-torres-0e4cba08
+  tema: ambiente
+  resumen: Implementar una nueva celda en el relleno sanitario con geosintéticos y un sistema de captura de biogás para generar
+    energía.
+  cita: Implementación de una celda nueva con tecnología de geosintéticos y sistema de captura de biogás para generación de
+    energía.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 1: SOSTENIBILIDAD AMBIENTAL, GESTIÓN DE RIESGOS Y ADAPTACIÓN AL CAMBIO CLIMÁTICO'
+    pagina: 17
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única: "una celda nueva" con geosintéticos y captura de biogás.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Una celda nueva con tecnología de geosintéticos y sistema de captura de biogás» establece una unidad
+          física concreta y verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto solo da el título del eje, sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni «implementación de una celda nueva» ni el título «EJE 1» señalan una fecha o duración para cumplirla.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente para la celda.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «implementación de una celda nueva» no incluye un monto ni una fuente o mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de desechos sólidos y rellenos sanitarios es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «celda nueva» con «captura de biogás» se encuadra en la gestión municipal de desechos y el control
+          de la contaminación.
+- id: roxana-torres-832850c3
+  tema: ambiente
+  resumen: Proteger la subcuenca del río Cutilcay y la microcuenca del río Magdalena, con sistemas de monitoreo de calidad
+    de agua mediante sensores IoT.
+  cita: Protección de la Subcuenca del río Cutilcay y microcuenca del río Magdalena. Incluye sistemas de monitoreo de calidad
+    de agua con sensores IoT.
+  pagina: 17
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 1: SOSTENIBILIDAD AMBIENTAL, GESTIÓN DE RIESGOS Y ADAPTACIÓN AL CAMBIO CLIMÁTICO'
+    pagina: 17
+  enfoques:
+  - ambiente-agua-y-vida
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra la protección de 'la Subcuenca del río Cutilcay y microcuenca del río Magdalena' con monitoreo
+          mediante sensores IoT, con ubicación definida.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Protección de la Subcuenca del río Cutilcay y microcuenca del río Magdalena» localiza la intervención,
+          pero no cuantifica resultados ni define una obra física única.
+      nota_revision: Ubica dos cuencas, pero no cuantifica protección ni define una obra física única.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha; el eje no tiene fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El título «EJE 1: SOSTENIBILIDAD AMBIENTAL, GESTIÓN DE RIESGOS Y ADAPTACIÓN AL CAMBIO CLIMÁTICO» no
+          asigna fechas a la propuesta.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «sistemas de monitoreo de calidad de agua con sensores IoT» no tienen un monto ni una fuente de
+          financiamiento especificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Protección de fuentes de agua y control ambiental son del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La protección de las cuencas mencionadas y el «monitoreo de calidad de agua» son acciones municipales
+          de protección ambiental y control de la contaminación.
+- id: roxana-torres-565b5d09
+  tema: agua-servicios
+  resumen: Ampliar el alcantarillado en Bulán, Guarainag, Tomebamba y Chicán y construir Plantas de Tratamiento de Aguas Residuales.
+  cita: Ampliación de cobertura en Bulán, Guarainag, Tomebamba y Chicán. Incluye construcción de Plantas de Tratamiento de
+    Aguas Residuales (PTAR).
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD'
+    pagina: 18
+  enfoques:
+  - agua-servicios-alcantarillado-tratamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra la ampliación de cobertura en Bulán, Guarainag, Tomebamba y Chicán con construcción de PTAR,
+          es decir obras con ubicación concreta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ampliación de cobertura en Bulán, Guarainag, Tomebamba y Chicán» e «Incluye construcción de Plantas»
+          no precisan cuánto aumentará la cobertura ni cuántas PTAR se construirán o su ubicación individual.
+      nota_revision: No cuantifica ampliación de cobertura ni número o ubicación de cada PTAR.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto solo da el nombre del eje, sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El contexto «EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD» no asigna una fecha ni
+          un plazo a la ampliación.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «construcción de Plantas de Tratamiento de Aguas Residuales» no incluye un costo ni una fuente de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Alcantarillado y tratamiento de aguas residuales son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «construcción de Plantas de Tratamiento de Aguas Residuales» corresponde a la competencia municipal
+          de alcantarillado y tratamiento de aguas residuales.
+- id: roxana-torres-fe7b7533
+  tema: agua-servicios
+  resumen: Mejorar y ampliar los sistemas de agua potable urbanos y rurales, y capacitar a las Juntas de Agua en gestión y
+    operación.
+  cita: Mejoramiento y ampliación de sistemas de agua potable en el área urbana y rural. Incluye fortalecimiento de Juntas
+    de Agua con capacitación en gestión y operación.
+  pagina: 18
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD'
+    pagina: 18
+  enfoques:
+  - agua-servicios-mejorar-agua-potable
+  - agua-servicios-mantenimiento-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mejoramiento y ampliación de sistemas de agua potable en el área urbana y rural" no dice cuántos
+          sistemas ni qué cobertura.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Mejoramiento y ampliación de sistemas de agua potable en el área urbana y rural» no cuantifica
+          sistemas, beneficiarios ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El eje no tiene fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El encabezado «EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD» no asigna una fecha ni
+          una etapa fechada a la propuesta.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Mejoramiento y ampliación de sistemas de agua potable» y la «capacitación en gestión y operación»
+          no incluyen monto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El agua potable es competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «sistemas de agua potable» y el fortalecimiento de «Juntas de Agua» se encuadran en la competencia
+          municipal de prestación y gestión del agua potable.
+- id: roxana-torres-061cb490
+  tema: movilidad
+  resumen: Mantener y mejorar la red vial con bacheo, lastrado, pavimentación, señalética y dispositivos tecnológicos para
+    movilidad segura.
+  cita: Bacheo, lastrado, pavimentación; señalética vial y dispositivos tecnológicos para movilidad segura.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD'
+    pagina: 18
+  enfoques:
+  - movilidad-mantener-vias
+  - movilidad-peatones-seguridad
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Bacheo, lastrado, pavimentación; señalética" nombra tipos de obra sin cantidad ni ubicación.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Bacheo, lastrado, pavimentación» y «señalética vial» enumeran tipos de intervención sin cantidades
+          ni ubicaciones concretas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; solo el título del eje.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'La cita y el título «EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD» no aportan un plazo.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las actuaciones de «bacheo, lastrado, pavimentación» no tienen un monto ni una fuente de financiamiento
+          identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La vialidad cantonal y la señalética son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «señalética vial y dispositivos tecnológicos para movilidad segura», junto con las intervenciones
+          viales locales, corresponden a competencias municipales.
+- id: roxana-torres-5e688d60
+  tema: vivienda
+  resumen: Actualizar el PDOT y desarrollar planes parciales y normativa para el ordenamiento territorial y la gestión del
+    suelo.
+  cita: Actualización del PDOT y desarrollo de planes parciales para el ordenamiento territorial.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD'
+    pagina: 18
+  enfoques:
+  - vivienda-ordenamiento-territorial
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra 'Actualización del PDOT y desarrollo de planes parciales' sin decir cuántos planes ni alcance
+          verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «actualización del PDOT y desarrollo de planes parciales» no indica cuántos planes se elaborarán
+          ni una cobertura o resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el contexto solo da el título del eje.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni la «actualización del PDOT» ni el contexto «EJE 2» incluyen una fecha o duración para cumplir la
+          propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «actualización del PDOT y desarrollo de planes parciales» no tiene un monto, fuente específica o
+          mecanismo de financiamiento señalado.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El PDOT y los planes parciales de ordenamiento territorial son competencia municipal (uso del suelo).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «actualización del PDOT» y el «ordenamiento territorial» corresponden a las competencias municipales
+          de planificación y uso del suelo.
+- id: roxana-torres-6666ce01
+  tema: espacio-publico
+  resumen: Intervenir en la Fase 3 de regeneración urbana, el Parque Los Álamos, el Parque Central Fray Vicente Solano y las
+    riberas del río Cutilcay.
+  cita: Intervención en Fase 3, Parque Los Álamos, Parque Central Fray Vicente Solano y Riberas del río Cutilcay.
+  pagina: 19
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 2: INFRAESTRUCTURA, ASENTAMIENTOS HUMANOS Y CONECTIVIDAD'
+    pagina: 18
+  enfoques:
+  - espacio-publico-renovar-espacios
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra obras con ubicación concreta: ''Parque Los Álamos, Parque Central Fray Vicente Solano y Riberas
+          del río Cutilcay''.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: 'La «intervención» identifica espacios físicos concretos: «Parque Los Álamos, Parque Central Fray Vicente
+          Solano y Riberas del río Cutilcay».'
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'Fase 3' sin fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «Fase 3» no incluye fechas ni una duración que permita ubicar su cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; el eje no indica financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «intervención» en los parques y riberas nombrados no tiene un monto ni una fuente de financiamiento
+          indicada.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Parques y riberas son espacio público municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La intervención en el «Parque Los Álamos», el «Parque Central Fray Vicente Solano» y las «Riberas del
+          río Cutilcay» corresponde a la gestión municipal del espacio público.
+- id: roxana-torres-6f2acaef
+  tema: cultura
+  resumen: Un Plan Estratégico Turístico, señalización de atractivos, una aplicación móvil de realidad aumentada para rutas
+    turísticas y marketing digital.
+  cita: Plan Estratégico Turístico, señalización de atractivos, aplicación móvil de realidad aumentada para rutas turísticas
+    y marketing digital.
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 3: DESARROLLO ECONÓMICO PRODUCTIVO, TURISMO Y ADAPTACIÓN AL CAMBIO CLIMÁTICO'
+    pagina: 20
+  enfoques:
+  - cultura-promover-el-turismo
+  - cultura-mejorar-espacios-y-rutas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra un plan, señalización y una aplicación sin cantidades ni alcance específico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Plan Estratégico Turístico, señalización de atractivos, aplicación móvil» enumera instrumentos sin
+          precisar cantidades, cobertura o una obra física única localizada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto solo da el título del eje, sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni el «Plan Estratégico Turístico» ni el título «EJE 3» establecen una fecha o duración para esta propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «señalización de atractivos» y «marketing digital» no señala un monto ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El turismo y su promoción son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La planificación, señalización y promoción de «rutas turísticas» forman parte de las funciones municipales
+          de turismo y desarrollo económico local.
+- id: roxana-torres-7508ac20
+  tema: empleo
+  resumen: Implementar un Mercado Mayorista Cantonal con infraestructura y áreas funcionales para comercialización y logística.
+  cita: Infraestructura adecuada, áreas funcionales para comercialización y logística.
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: Implementación del Mercado Mayorista Cantonal
+    pagina: 20
+  - texto: Mercado mayorista implementado y operativo.
+    pagina: 20
+  enfoques:
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra física única: "Mercado Mayorista Cantonal implementado y operativo".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «implementación del Mercado Mayorista Cantonal» identifica una obra física única de alcance cantonal
+          cuyo resultado será estar «implementado y operativo».
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El resultado «mercado mayorista implementado y operativo» no está asociado a una fecha o duración.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «implementación del Mercado Mayorista Cantonal» no incluye un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los mercados son competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Implementar un «Mercado Mayorista Cantonal» con áreas de «comercialización y logística» corresponde
+          a las funciones municipales sobre mercados y desarrollo económico local.
+- id: roxana-torres-f745c0b4
+  tema: empleo
+  resumen: Fortalecer la cadena agropecuaria con riego tecnificado, drones, cultivos de cobertura, abonos verdes, control
+    biológico, paneles solares y semillas tolerantes.
+  cita: 'Prácticas de adaptación al cambio climático: sistemas de riego tecnificado, drones para monitoreo, cultivos de cobertura,
+    abonos verdes, control biológico, paneles solares, semillas tolerantes a estrés hídrico y térmico.'
+  pagina: 20
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 3: DESARROLLO ECONÓMICO PRODUCTIVO, TURISMO Y ADAPTACIÓN AL CAMBIO CLIMÁTICO'
+    pagina: 20
+  enfoques:
+  - empleo-mejorar-produccion
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Lista tipos de prácticas ("sistemas de riego tecnificado, drones") sin cantidad ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración de «sistemas de riego tecnificado, drones para monitoreo» y otras prácticas no indica
+          cantidades, beneficiarios ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto solo da el título del eje, sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Prácticas de adaptación al cambio climático» y el título del «EJE 3» no establecen fechas ni duración
+          para su implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La lista que incluye «paneles solares» y «semillas tolerantes» no menciona costos ni mecanismos de
+          financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El fomento productivo agrícola local puede ser impulsado por el Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «prácticas de adaptación al cambio climático» pueden impulsarse mediante las funciones municipales
+          de desarrollo económico local y gestión ambiental.
+- id: roxana-torres-decbba24
+  tema: empleo
+  resumen: Un Centro de Innovación Agrotecnológica con incubadora de empresas, laboratorio de suelos y agua, y talleres de
+    digitalización y comercio electrónico.
+  cita: Incubadora de empresas para transformación de productos locales; laboratorio de suelos y análisis de calidad de agua;
+    talleres de digitalización y comercio electrónico.
+  pagina: 21
+  cita_verificada: true
+  contexto:
+  - texto: Centro de Innovación Agrotecnológica y Emprendimiento Rural
+    pagina: 21
+  enfoques:
+  - empleo-mejorar-produccion
+  - empleo-apoyar-negocios
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Incubadora, laboratorio y talleres se nombran sin cantidad ni ubicación específica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incubadora de empresas», «laboratorio» y «talleres» describen tipos de servicios sin cantidades, cobertura
+          ni una obra física con ubicación o alcance definidos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni la enumeración de servicios ni el título «Centro de Innovación Agrotecnológica y Emprendimiento
+          Rural» establecen una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Incubadora de empresas» y los demás componentes no tienen un costo ni una fuente de financiamiento
+          identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local y fomento productivo son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «transformación de productos locales», el «análisis de calidad de agua» y los «talleres de digitalización»
+          pueden desarrollarse mediante funciones municipales de desarrollo económico local y control ambiental.
+- id: roxana-torres-238d1985
+  tema: seguridad
+  resumen: Ampliar las cámaras de vigilancia y conformar comités de seguridad comunitaria.
+  cita: Ampliación de cámaras de vigilancia y conformación de comités de seguridad comunitaria.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA'
+    pagina: 22
+  enfoques:
+  - seguridad-vigilancia-iluminacion
+  - seguridad-comunidad-espacios-publicos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Ampliación de cámaras" y "comités de seguridad comunitaria" no indican cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ampliación de cámaras de vigilancia y conformación de comités» no indica cuántas cámaras o comités
+          se incorporarán ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El eje no tiene fechas y no hay plazo para esta propuesta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: '«EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA» es un título temático y no establece un plazo para
+          la propuesta.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «ampliación de cámaras de vigilancia» y la conformación de comités no incluyen costos ni fuentes
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Las cámaras municipales y los consejos de seguridad ciudadana son competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «cámaras de vigilancia» municipales y los «comités de seguridad comunitaria» se encuadran en las
+          funciones locales de prevención y coordinación de seguridad ciudadana.
+- id: roxana-torres-412cdcaf
+  tema: inclusion
+  resumen: Acompañamiento a niñas, niños y adolescentes y acciones de prevención de la violencia contra la mujer.
+  cita: Acompañamiento para el Buen Vivir de NNA; prevención de violencia contra la mujer.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA'
+    pagina: 22
+  enfoques:
+  - inclusion-proteccion-derechos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Acompañamiento para el Buen Vivir de NNA; prevención de violencia" no dice cuánto ni a cuántos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Acompañamiento para el Buen Vivir de NNA; prevención de violencia contra la mujer» no establece cantidades,
+          cobertura ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El eje no tiene fechas ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El contexto «EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA» no asigna una fecha ni una duración a la
+          propuesta.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «acompañamiento» y la «prevención de violencia contra la mujer» no tienen un monto ni una fuente
+          de recursos identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La protección de derechos e inclusión son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «acompañamiento para el Buen Vivir de NNA» y la «prevención de violencia contra la mujer» corresponden
+          a las funciones municipales de inclusión y protección de derechos.
+- id: roxana-torres-efad62fd
+  tema: inclusion
+  resumen: Servicios de inclusión social para erradicar el trabajo infantil y atender a adultos mayores y personas con discapacidad,
+    con contribución alimenticia.
+  cita: Erradicación del trabajo infantil, atención a adultos mayores, personas con discapacidad, contribución alimenticia.
+  pagina: 22
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA'
+    pagina: 22
+  enfoques:
+  - inclusion-cuidados-bienestar
+  - inclusion-proteccion-derechos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo nombra tipos de atención como "Erradicación del trabajo infantil, atención a adultos mayores"
+          sin cantidades ni cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «erradicación del trabajo infantil» y la «atención a adultos mayores» no especifican cantidades
+          ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el contexto solo da el título del eje.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'El contexto «EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA» no establece una fecha de cumplimiento.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración «atención a adultos mayores, personas con discapacidad, contribución alimenticia» no
+          señala costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La atención a grupos prioritarios y la protección de derechos son competencias municipales (COOTAD
+          art. 54), aunque se coordine con otros niveles.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «erradicación del trabajo infantil» y la atención a «adultos mayores» y «personas con discapacidad»
+          corresponden a las funciones municipales de inclusión y protección de derechos.
+- id: roxana-torres-588b81d8
+  tema: cultura
+  resumen: Estudios y difusión del patrimonio material e inmaterial del cantón orientados al turismo.
+  cita: Estudios y difusión del patrimonio material e inmaterial para el turismo.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA'
+    pagina: 22
+  enfoques:
+  - cultura-cuidar-el-patrimonio
+  - cultura-promover-el-turismo
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Estudios y difusión del patrimonio" no dice cuántos estudios ni qué bienes.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Estudios y difusión del patrimonio material e inmaterial» no determina cantidades, bienes patrimoniales
+          concretos ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; el eje no tiene fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: 'Ni «Estudios y difusión» ni el título «EJE 4: BIENESTAR SOCIAL, SEGURIDAD Y CULTURA» establecen una
+          fecha o duración.'
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Estudios y difusión del patrimonio» no incluye un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Patrimonio, cultura y turismo son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La difusión del «patrimonio material e inmaterial para el turismo» corresponde a las funciones municipales
+          de patrimonio, cultura y turismo.
+- id: roxana-torres-cf4b8b50
+  tema: transparencia
+  resumen: Mantener y renovar el parque automotor, los edificios patrimoniales y los servicios del GAD.
+  cita: Mantenimiento y renovación de parque automotor, edificios patrimoniales y servicios del GAD.
+  pagina: 23
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 5: MODERNIZACIÓN INSTITUCIONAL, PARTICIPACIÓN CIUDADANA E INNOVACIÓN'
+    pagina: 23
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mantenimiento y renovación de parque automotor, edificios patrimoniales" no dice cuánto ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «mantenimiento y renovación de parque automotor, edificios patrimoniales y servicios del GAD» no
+          cuantifica las intervenciones ni delimita su alcance.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «mantenimiento y renovación» y su contexto del «EJE 5» no establecen un plazo.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «mantenimiento y renovación» propuesto no identifica montos, fuentes ni mecanismos de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los bienes y el patrimonio del GAD son de gestión municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La gestión del «parque automotor», los «edificios patrimoniales» y los «servicios del GAD» está dentro
+          de las funciones municipales.
+- id: roxana-torres-0a431499
+  tema: transparencia
+  resumen: Un plan estratégico institucional para modernizar la gestión pública y capacitar al talento humano municipal.
+  cita: Modernización de la gestión pública y capacitación del talento humano.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 5: MODERNIZACIÓN INSTITUCIONAL, PARTICIPACIÓN CIUDADANA E INNOVACIÓN'
+    pagina: 23
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "Modernización de la gestión pública y capacitación del talento humano" sin cantidad ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «modernización de la gestión pública y capacitación del talento humano» no precisa cantidades, cobertura
+          ni un resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal; solo se indica el título del eje.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni la «modernización» ni el contexto del «EJE 5» establecen una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «modernización de la gestión pública» no identifica un monto, una fuente ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión institucional y el talento humano del municipio son de su propia competencia.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «gestión pública y capacitación del talento humano» de la institución corresponden a la administración
+          municipal.
+- id: roxana-torres-bc6a84aa
+  tema: transparencia
+  resumen: Un Sistema de Información Local con ERP, presupuestos participativos digitales, sistema de alertas y quejas y audiencias
+    públicas virtuales.
+  cita: Modernización Institucional con ERP; Presupuestos Participativos Digitales; Sistema de Alertas y Quejas Ciudadanas;
+    Audiencias Públicas Virtuales.
+  pagina: 24
+  cita_verificada: true
+  contexto:
+  - texto: 'EJE 5: MODERNIZACIÓN INSTITUCIONAL, PARTICIPACIÓN CIUDADANA E INNOVACIÓN'
+    pagina: 23
+  enfoques:
+  - transparencia-modernizacion-municipal
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra tipos de sistemas ('ERP; Presupuestos Participativos Digitales') sin cantidad ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Modernización Institucional con ERP» y los demás sistemas y mecanismos enumerados no precisan cantidades,
+          cobertura ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fechas; solo el título del eje.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Modernización Institucional con ERP» y las demás actuaciones no tienen fecha ni duración asignada
+          en el texto o en el título del eje.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Presupuestos Participativos Digitales» nombra una herramienta de participación, pero no identifica
+          cómo se financiarán las actuaciones propuestas.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Modernización, participación y audiencias públicas son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Modernización Institucional», los «Presupuestos Participativos Digitales» y las «Audiencias Públicas
+          Virtuales» corresponden a la gestión y participación ciudadana municipales.
+- id: roxana-torres-42b48424
+  tema: transparencia
+  resumen: Una Asamblea General Anual abierta para presentar el avance físico y presupuestario de los proyectos del PDOT y
+    la ejecución de recursos.
+  cita: Realización de una Asamblea General Anual abierta a la ciudadanía, donde se presentará el avance físico y presupuestario
+    de los proyectos del PDOT
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 25
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Una "Asamblea General Anual abierta a la ciudadanía" que presenta el avance de los proyectos del PDOT
+          es un resultado verificable y concreto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Una Asamblea General Anual abierta a la ciudadanía» cuantifica un resultado verificable de una asamblea
+          por año.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anual" es una periodicidad, no una fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Anual» establece una periodicidad, pero no una fecha o un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Realización de una Asamblea General Anual» no señala su costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas es una obligación del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Presentar «el avance físico y presupuestario de los proyectos del PDOT» en una asamblea ciudadana corresponde
+          a la rendición de cuentas municipal.
+- id: roxana-torres-6d7bc50a
+  tema: transparencia
+  resumen: Mantener actualizado el portal web del GAD con la ejecución presupuestaria, contrataciones e indicadores de gestión.
+  cita: Mantener actualizado el portal web del GAD Municipal con el detalle de la ejecución presupuestaria, contrataciones
+    y la línea base de los indicadores de gestión (SIGAD)
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 25
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mantener actualizado el portal web" no define cantidad ni resultado medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantener actualizado el portal web» con información presupuestaria y de gestión no establece una cantidad
+          ni una cobertura medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo hay referencia a mecanismos "periódicos", sin fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mantener actualizado» y el encabezado «MECANISMOS PERIÓDICOS» no fijan una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención del «detalle de la ejecución presupuestaria» describe información que se publicará, no un
+          monto ni una fuente para financiar la actualización del portal.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El portal web y la transparencia del GAD Municipal dependen del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Actualizar «el portal web del GAD Municipal» con información de su gestión es una función municipal
+          de transparencia.
+- id: roxana-torres-ce62ed09
+  tema: transparencia
+  resumen: Al menos 2 audiencias públicas al año rotando por las 7 parroquias rurales para presentar avances y recoger observaciones.
+  cita: Realización de al menos 2 audiencias al año rotando por las 7 parroquias rurales, para tratar las necesidades específicas
+    de cada territorio
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 25
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Fija 'al menos 2 audiencias al año rotando por las 7 parroquias rurales', una cantidad verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Realización de al menos 2 audiencias al año» establece una cantidad verificable de actividades.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Al año'' es una periodicidad, no indica cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «al año» indica periodicidad, pero no una fecha o un plazo de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La realización de audiencias «rotando por las 7 parroquias rurales» no señala un costo ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Rendición de cuentas y participación ciudadana son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «audiencias» dentro de los «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» corresponden
+          a las funciones municipales de participación y transparencia.
+- id: roxana-torres-df92245d
+  tema: transparencia
+  resumen: Implementar una plataforma web de presupuestos participativos para que la ciudadanía priorice proyectos de inversión.
+  cita: Implementación de una plataforma web para que la ciudadanía priorice proyectos de inversión
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 25
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra una plataforma web única para priorizar proyectos de inversión.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «implementación de una plataforma web» nombra un sistema, pero no cuantifica su cobertura ni sus
+          resultados verificables.
+      nota_revision: La plataforma web es un sistema sin cobertura o resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El título «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no fija una fecha de implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «plataforma web para que la ciudadanía priorice proyectos» no tiene costo ni fuente de financiamiento
+          identificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Participación ciudadana y transparencia son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Permitir que «la ciudadanía priorice proyectos de inversión» corresponde a la participación ciudadana
+          en la gestión municipal.
+- id: roxana-torres-dffc49b5
+  tema: transparencia
+  resumen: Conformar mesas de trabajo con ciudadanía, Juntas de Agua y asociaciones para dar seguimiento a proyectos de agua,
+    alcantarillado y obra pública.
+  cita: Conformación de mesas de trabajo con la ciudadanía, Juntas de Agua y asociaciones productivas para el monitoreo y
+    seguimiento de la ejecución de los proyectos de agua potable, alcantarillado y obra pública.
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: 5. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 25
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Conformación de mesas de trabajo" no dice cuántas ni a cuántos proyectos alcanzará.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Conformación de mesas de trabajo» no especifica cuántas mesas se crearán ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración, solo el encabezado de mecanismos periódicos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El encabezado «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no fija una fecha para conformar
+          las mesas.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Conformación de mesas de trabajo con la ciudadanía, Juntas de Agua y asociaciones productivas»
+          no señala costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El monitoreo ciudadano de proyectos de agua y obra pública municipal está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las mesas ciudadanas para el «monitoreo y seguimiento» de proyectos de «agua potable, alcantarillado
+          y obra pública» corresponden a participación y control de la gestión municipal.
+- id: roxana-torres-b5925307
+  tema: transparencia
+  resumen: Publicar boletines trimestrales en redes y web municipal con indicadores de gestión como kilómetros de vía intervenidos
+    y productores capacitados.
+  cita: Publicación en redes sociales y página web municipal de boletines con indicadores de gestión (kilómetros de vía intervenidos,
+    número de productores capacitados, número de necesidades atendidas)
+  pagina: 26
+  cita_verificada: true
+  contexto:
+  - texto: Trimestral
+    pagina: 26
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Los boletines con indicadores no fijan cuánto se logrará, solo qué se publica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Kilómetros de vía intervenidos», «número de productores capacitados» y «número de necesidades atendidas»
+          son indicadores sin valores objetivo ni una cantidad definida de boletines.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Trimestral" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Trimestral» establece una periodicidad de publicación, no un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Publicación en redes sociales y página web municipal» no menciona un costo ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar información de gestión municipal depende del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar «boletines con indicadores de gestión» en la «página web municipal» corresponde a las funciones
+          municipales de transparencia y rendición de cuentas.

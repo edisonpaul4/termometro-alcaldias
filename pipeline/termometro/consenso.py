@@ -6,7 +6,7 @@ from .modelos import Calificacion, Consenso, VotoJurado
 
 
 def consolidar(votos: list[VotoJurado]) -> Calificacion | None:
-    """Voto mayoritario. None = no hay decisión posible (empate o sin votos válidos): revisión humana."""
+    """Voto mayoritario. None = no hay decisión posible: requiere revisión editorial."""
     validos = [v.valor for v in votos if v.valor is not None]
     if not validos:
         return None
@@ -20,6 +20,13 @@ def consolidar(votos: list[VotoJurado]) -> Calificacion | None:
 
 def resolver_humano(votos: list[VotoJurado], valor: bool, nota: str) -> Calificacion:
     return Calificacion(valor=valor, consenso=Consenso.humano, votos=votos, nota_revision=nota)
+
+
+def resolver_ia(votos: list[VotoJurado], valor: bool, nota: str) -> Calificacion:
+    """Usa la mayoría si reaparece otro jurado; solo un empate requiere decisión editorial."""
+    if (mayoria := consolidar(votos)) is not None:
+        return mayoria
+    return Calificacion(valor=valor, consenso=Consenso.revision_ia, votos=votos, nota_revision=nota)
 
 
 def kappa_fleiss(items: list[list[bool | None]]) -> float | None:

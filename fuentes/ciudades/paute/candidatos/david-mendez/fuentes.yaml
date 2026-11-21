@@ -1,0 +1,13 @@
+# Ficha en Voto Informado: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/7007
+- archivo: foto_2026-11-20.webp
+  tipo: foto
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/7007
+  descargado: '2026-11-20'
+  sha256: 20def5d75c81999fd98dc3b0c1bf95a16674efd1ae36f519818a07b3d9779beb
+  notas: Foto oficial publicada por el CNE en la ficha del candidato. La URL directa del archivo contiene un número de identificación personal y no se guarda.
+- archivo: plan-de-trabajo_2026-11-20.pdf
+  tipo: plan_trabajo
+  url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/7007/5185
+  descargado: '2026-11-20'
+  sha256: b871616c41cb70fea6b13a0365fb06d18fa38575b8bc46e57c75ebd5a1829fa3
+  notas: Plan de 37 páginas escaneadas, sin texto extraíble. La portada identifica al candidato.

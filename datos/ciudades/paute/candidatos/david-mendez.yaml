@@ -1,0 +1,2178 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: david-mendez
+nombre: David Israel Méndez Sarmiento
+lista: 17-4
+organizacion: Alianza Con la Fuerza del Pueblo, Venceremos
+foto: fuentes/ciudades/paute/candidatos/david-mendez/foto_2026-11-20.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/7007
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-20'
+  archivo: fuentes/ciudades/paute/candidatos/david-mendez/foto_2026-11-20.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/7007/5185
+    titulo: Plan de trabajo de David Israel Méndez Sarmiento — Alcaldía de Paute 2027-2031 (CNE)
+    consultado: '2026-11-20'
+    archivo: fuentes/ciudades/paute/candidatos/david-mendez/plan-de-trabajo_2026-11-20.pdf
+  paginas: 37
+  sha256: b871616c41cb70fea6b13a0365fb06d18fa38575b8bc46e57c75ebd5a1829fa3
+propuestas:
+- id: david-mendez-99f0b731
+  tema: empleo
+  resumen: Mecanismos para que productores locales participen en ferias, mercados, circuitos cortos y compras públicas inclusivas.
+  cita: Se promoverán mecanismos que faciliten la participación de pro-ductores locales en ferias, mercados, circuitos cortos
+    de comercialización y, cuando corresponda legalmente, procesos de contratación y compras públicas inclusivas.
+  pagina: 5
+  cita_verificada: true
+  enfoques:
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Se promoverán mecanismos" es una intención genérica sin cantidad ni resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se promoverán mecanismos» para la participación de productores expresa una intención sin cuantificar
+          mecanismos, participantes ni resultados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Se promoverán mecanismos» no establece fecha, duración ni hito temporal de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de «procesos de contratación y compras públicas inclusivas» describe una vía de participación,
+          pero no asigna financiamiento a la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Ferias, mercados y compras públicas municipales son de competencia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Facilitar la participación de «productores locales en ferias, mercados, circuitos cortos de comercialización»
+          corresponde al desarrollo económico local municipal.
+- id: david-mendez-300447ea
+  tema: empleo
+  resumen: Fomentar capacitación, innovación y emprendimiento para mujeres y jóvenes mediante convenios con el GAD Provincial
+    y otras instituciones.
+  cita: También se fomentará la capacitación, la innovación, el emprendimiento y la generación de opor-tunidades para mujeres
+    y jóvenes, mediante convenios y acciones coordinadas con el GAD Provin-cial del Azuay
+  pagina: 6
+  cita_verificada: true
+  enfoques:
+  - empleo-apoyar-negocios
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Se fomentará la capacitación, la innovación, el emprendimiento'' usa un verbo genérico sin cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «se fomentará la capacitación, la innovación, el emprendimiento» no cuantifica acciones
+          ni beneficiarios entre las mujeres y jóvenes.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de generar «oportunidades para mujeres y jóvenes» no fija una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'convenios' con el GAD Provincial pero no monto ni fuente de dinero.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «convenios y acciones coordinadas con el GAD Provincial del Azuay» no especifican aportes económicos
+          ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Desarrollo económico local y capacitación son del Municipio, con coordinación con el GAD Provincial.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Fomentar «la capacitación, la innovación, el emprendimiento» para mujeres y jóvenes corresponde al
+          desarrollo económico local y la inclusión, aunque se coordine con el GAD provincial.
+- id: david-mendez-3b6717d2
+  tema: transparencia
+  resumen: Fortalecer asambleas ciudadanas, presupuesto participativo, audiencias públicas, silla vacía, veedurías y mesas
+    territoriales.
+  cita: Se fortalecerán las asambleas ciudadanas, el presupuesto participativo, el Consejo Cantonal de Planificación, las
+    audiencias públicas, la silla vacía, las veedurías, las mesas territoriales
+  pagina: 11
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Se fortalecerán" asambleas, veedurías y otros mecanismos es una intención genérica sin cantidad ni
+          resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se fortalecerán» los mecanismos participativos expresa una intención sin cuantificar un resultado
+          verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La enumeración de «asambleas ciudadanas» y otros mecanismos no incluye una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «presupuesto participativo» aparece como mecanismo que se fortalecerá, no como fuente asignada para
+          financiar esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Fortalecer «las asambleas ciudadanas», «las audiencias públicas» y «la silla vacía» corresponde a las
+          funciones municipales de participación ciudadana.
+- id: david-mendez-ced8179f
+  tema: transparencia
+  resumen: Publicar información sobre planificación, presupuesto, contratación pública, obras, convenios y decisiones del
+    Concejo Municipal.
+  cita: La transparencia comprenderá la publicación oportuna y comprensible de información sobre plani-ficación, presupuesto,
+    contratación pública, obras, servicios, convenios, decisiones del Concejo Municipal
+  pagina: 11
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Habla de 'publicación oportuna y comprensible' de información sin cantidad ni resultado verificable
+          específico.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «publicación oportuna y comprensible de información» enumera temas, pero no establece una cantidad
+          ni cobertura medible de publicaciones.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No incluye ninguna referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «publicación oportuna» no fija una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente de recursos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La mención de información sobre «presupuesto» y «contratación pública» describe lo que se publicará,
+          no cómo se financiará la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar información sobre presupuesto, contratación y decisiones del Concejo Municipal depende del
+          propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar información sobre «obras, servicios, convenios, decisiones del Concejo Municipal» corresponde
+          a la transparencia de la gestión municipal.
+- id: david-mendez-ec6f06ae
+  tema: inclusion
+  resumen: Incorporar criterios de igualdad en la planificación y priorización presupuestaria y utilizar datos diferenciados
+    para identificar brechas y medir resultados.
+  cita: El GAD Municipal incorporará criterios de igualdad en la planificación y en la priorización presu-puestaria. Cuando
+    sea aplicable, se utilizarán datos diferenciados por sexo, edad, discapacidad, ubicación territorial y otras condiciones
+    relevantes para identificar brechas y medir los resultados de las intervenciones.
+  pagina: 11
+  cita_verificada: true
+  contexto:
+  - texto: 6.1. Enfoque de igualdad y equidad de género
+    pagina: 11
+  enfoques:
+  - inclusion-gestion-programas-sociales
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Incorporará criterios de igualdad" es una intención sin cantidad ni resultado medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incorporará criterios de igualdad» y «se utilizarán datos diferenciados» describen prácticas sin una
+          cantidad o cobertura concreta de implementación.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; solo "Cuando sea aplicable".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Incorporará criterios de igualdad en la planificación» no indica una fecha ni una etapa fechada para
+          hacerlo.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a la «priorización presupuestaria» no asigna un monto, una fuente ni un mecanismo de
+          financiamiento a esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La planificación y priorización presupuestaria municipal dependen del GAD.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Que «El GAD Municipal incorporará criterios de igualdad en la planificación» corresponde a su gestión
+          institucional y a sus funciones de equidad e inclusión.
+- id: david-mendez-87901489
+  tema: inclusion
+  resumen: Incorporar criterios de accesibilidad universal en instalaciones, servicios, canales de información y mecanismos
+    de participación municipal.
+  cita: Las instalaciones, servicios, canales de información y mecanismos de participación municipal in-corporarán progresivamente
+    criterios de accesibilidad universal
+  pagina: 12
+  cita_verificada: true
+  enfoques:
+  - inclusion-acceso-autonomia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice que incorporarán 'progresivamente criterios de accesibilidad universal', sin cantidad ni
+          alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La incorporación de «criterios de accesibilidad universal» no establece una cantidad ni una cobertura
+          verificable de instalaciones o servicios.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Progresivamente'' no indica fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «incorporarán progresivamente» no fija una fecha ni una duración para cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La incorporación de «criterios de accesibilidad universal» no se acompaña de un monto ni de una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se refiere a instalaciones, servicios y mecanismos de participación municipales, que son de competencia
+          del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta se refiere a «instalaciones, servicios, canales de información y mecanismos de participación
+          municipal», cuya accesibilidad puede garantizar el Municipio.
+- id: david-mendez-9bdfd614
+  tema: cultura
+  resumen: Impulsar la conservación del patrimonio material e inmaterial, la recuperación de la memoria local y el fortalecimiento
+    de expresiones artísticas y culturales.
+  cita: La gestión municipal impulsará, dentro de sus competencias, la conservación del patrimonio mate-rial e inmaterial,
+    la recuperación de la memoria local, el fortalecimiento de las expresiones artísti-cas y culturales y la protección de
+    los espacios que forman parte de la identidad cantonal.
+  pagina: 12
+  cita_verificada: true
+  contexto:
+  - texto: 6.2. Enfoque intercultural
+    pagina: 12
+  enfoques:
+  - cultura-cuidar-el-patrimonio
+  - cultura-impulsar-cultura-y-deporte
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Impulsará... la conservación del patrimonio" es una intención genérica sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Impulsará» la conservación, recuperación y protección cultural expresa intenciones sin cantidades,
+          cobertura definida u obras únicas localizadas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «La gestión municipal impulsará» no establece una fecha ni una etapa con duración determinada.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El compromiso con la «conservación del patrimonio material e inmaterial» no incluye un monto ni una
+          fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Patrimonio, cultura y espacios de identidad son competencias municipales, y dice "dentro de sus competencias".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «conservación del patrimonio material e inmaterial» y el fortalecimiento de las «expresiones artísticas
+          y culturales» son funciones municipales.
+- id: david-mendez-770d4d4a
+  tema: inclusion
+  resumen: Mantener atención presencial y mecanismos de acceso para personas sin conectividad, dispositivos o conocimientos
+    para utilizar plataformas digitales.
+  cita: Las herramientas digitales complementarán, pero no reemplazarán, la atención presencial ni el contacto directo con
+    las parroquias y comunidades. Se mantendrán mecanismos accesibles para las personas que no dispongan de conectividad,
+    dispositivos tecnológicos o conocimientos sufi-cientes para utilizar plataformas digitales.
+  pagina: 14
+  cita_verificada: true
+  enfoques:
+  - inclusion-acceso-autonomia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo expresa que las herramientas digitales "complementarán" la atención, sin cantidad ni resultado
+          verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se mantendrán mecanismos accesibles» no precisa cuáles serán, cuántos habrá ni a cuántas personas
+          atenderán.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se mantendrán mecanismos accesibles» no establece una fecha, año o duración de implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de complementar «la atención presencial» con «herramientas digitales» no menciona montos
+          ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La atención presencial y los trámites municipales dependen del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Mantener «la atención presencial» y mecanismos accesibles de contacto con «parroquias y comunidades»
+          está dentro de las funciones municipales de atención e inclusión.
+- id: david-mendez-aef666c6
+  tema: ambiente
+  resumen: Implementar educación ambiental y preparación comunitaria junto con acciones coordinadas de prevención de riesgos
+    y adaptación climática.
+  cita: e implementar acciones coordinadas de prevención de riesgos, adaptación climática, reforestación, educación ambiental
+    y preparación comunitaria.
+  pagina: 25
+  cita_verificada: true
+  contexto:
+  - texto: Estrategias para el Programa 1
+    pagina: 25
+  enfoques:
+  - ambiente-participacion-y-educacion
+  - ambiente-prevencion-y-control
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"acciones coordinadas de prevención de riesgos, adaptación climática, reforestación" no indica cantidad
+          ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Implementar acciones coordinadas» enumera ámbitos de intervención sin cantidades, cobertura ni obras
+          físicas delimitadas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal en la cita ni en el contexto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Estrategias para el Programa 1» no establece una fase con fechas ni otro plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «acciones coordinadas de prevención de riesgos, adaptación climática, reforestación» no incluyen
+          costos ni fuentes o mecanismos de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Gestión de riesgos, reforestación y educación ambiental son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «prevención de riesgos, adaptación climática, reforestación, educación ambiental y preparación comunitaria»
+          corresponde a funciones municipales ambientales y de gestión de riesgos.
+- id: david-mendez-a6f5e052
+  tema: seguridad
+  resumen: Promover la seguridad preventiva con tecnología, iluminación, recuperación de espacios públicos, cultura, deporte
+    y coordinación institucional.
+  cita: promo-ver la seguridad preventiva mediante tecnología, iluminación, recuperación de espacios públicos, cultura, deporte,
+    participación comunitaria y coordinación con las instituciones competentes.
+  pagina: 26
+  cita_verificada: true
+  contexto:
+  - texto: Seguridad preventiva, convivencia ciudadana, recuperación cultural, deporte y uso comunitario de los espacios públicos.
+    pagina: 28
+  - texto: Ejecución anual 2027-2031
+    pagina: 31
+  enfoques:
+  - seguridad-vigilancia-iluminacion
+  - seguridad-comunidad-espacios-publicos
+  - seguridad-coordinacion-preventiva
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Promover la seguridad preventiva mediante tecnología, iluminación...'' no dice cuánto ni dónde.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Promover la seguridad preventiva mediante tecnología, iluminación, recuperación de espacios públicos»
+          no establece cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Ejecución anual 2027-2031'' es el período completo de gobierno y una periodicidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Ejecución anual 2027-2031» indica una periodicidad y el período completo de gobierno, pero no cuándo
+          estará cumplida la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las acciones de «tecnología, iluminación, recuperación de espacios públicos» no tienen un monto ni
+          una fuente de financiamiento asignados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Iluminación, espacios públicos, cultura y deporte son competencias municipales y la coordinación con
+          otras instituciones no la anula.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «iluminación, recuperación de espacios públicos, cultura, deporte, participación comunitaria» son
+          instrumentos municipales de prevención y convivencia ciudadana.
+- id: david-mendez-43e451c2
+  tema: riesgos
+  resumen: Hacer estudios e intervenciones para prevenir y mitigar riesgos naturales y antrópicos, buscando reducir hasta
+    450 los habitantes expuestos en zonas críticas.
+  cita: Estudios e intervenciones prioritarias para la pre-vención y mitigación de riesgos naturales y antró-picos.
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: reducir hasta 450 el nú-mero de habitantes ex-puestos en las zonas críti-cas priorizadas, mediante estudios y medidas
+      de prevención o mitigación.
+    pagina: 33
+  - texto: Sectores críticos identificados en el PDOT.
+    pagina: 27
+  enfoques:
+  - riesgos-planificar-y-regular
+  - riesgos-intervenir-zonas-de-riesgo
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "reducir hasta 450 el número de habitantes expuestos" en zonas críticas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta fija un resultado cuantificado al «reducir hasta 450 el número de habitantes expuestos»
+          en zonas críticas.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «estudios y medidas de prevención o mitigación» no tienen una fecha o duración de cumplimiento
+          indicada.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «estudios e intervenciones prioritarias» no cuentan con un monto o una fuente de financiamiento
+          especificados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de riesgos es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «prevención y mitigación de riesgos naturales y antrópicos» en sectores del cantón corresponde a
+          la gestión municipal de riesgos.
+- id: david-mendez-47198eef
+  tema: movilidad
+  resumen: Mejorar la conectividad vial, la movilidad segura y la accesibilidad, interviniendo al menos 80 km de red vial
+    y mejorando 5 % la movilidad y seguridad vial al 2031.
+  cita: Mejoramiento de la co-nectividad vial, la movili-dad segura y la accesibili-dad universal.
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, intervenir al me-nos 80 kilómetros de la red vial priorizada
+    pagina: 33
+  - texto: ejecutar medi-das que permitan mejorar en un 5 % las condiciones de movilidad y seguridad vial.
+    pagina: 33
+  - texto: Vialidad urbana y movilidad de com-petencia municipal; vialidad rural me-diante convenios.
+    pagina: 27
+  - texto: USD 5.400.000
+    pagina: 33
+  enfoques:
+  - movilidad-mantener-vias
+  - movilidad-peatones-seguridad
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice 'intervenir al menos 80 kilómetros de la red vial priorizada'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija el resultado cuantificado de «intervenir al menos 80 kilómetros de la red vial priorizada».
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Indica 'Al 2031', un año concreto de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La expresión «Al 2031» establece un año límite explícito para la intervención.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto asigna 'USD 5.400.000'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 5.400.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Dice 'Vialidad urbana y movilidad de competencia municipal; vialidad rural mediante convenios'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto delimita la actuación a «vialidad urbana y movilidad de competencia municipal» y a «vialidad
+          rural mediante convenios».
+- id: david-mendez-554c163c
+  tema: ambiente
+  resumen: Fortalecer la gestión integral de residuos sólidos y mejorar la recolección, el tratamiento y la disposición final
+    con una solución técnica operativa.
+  cita: Fortalecimiento de la ges-tión integral de residuos sólidos y mejoramiento progresivo de su recolec-ción, tratamiento
+    y dispo-sición final.
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: mantener operativa una solución técnica para el tratamiento y disposición final de residuos sólidos.
+    pagina: 33
+  - texto: Todo el cantón.
+    pagina: 27
+  enfoques:
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Fortalecimiento" y "mejoramiento progresivo" son verbos genéricos; "Todo el cantón" da cobertura
+          pero no un resultado medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mejoramiento progresivo» y «mantener operativa una solución técnica» no cuantifican la mejora ni definen
+          una solución física concreta, mientras «Todo el cantón» solo delimita el ámbito territorial.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"progresivo" no es una fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Mejoramiento progresivo» no establece una fecha ni una duración para alcanzar el resultado.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «gestión integral de residuos sólidos» no tiene un monto, una fuente ni un mecanismo de financiamiento
+          señalado.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los desechos sólidos son competencia exclusiva municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «recolección, tratamiento y disposición final» de residuos sólidos es una competencia municipal.
+- id: david-mendez-79d42e95
+  tema: ambiente
+  resumen: Proteger zonas de recarga hídrica y fuentes de agua y restaurar ecosistemas estratégicos, con meta de al menos
+    158,53 hectáreas anuales al 2031.
+  cita: Protección de zonas de recarga hídrica, fuentes de agua y restauración de ecosistemas estratégicos.
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, mantener bajo acciones de conservación y restauración al menos 158,53 hectáreas anuales
+    pagina: 33
+  - texto: USD 1.900.000
+    pagina: 33
+  - texto: 2027-2031, por fases
+    pagina: 31
+  enfoques:
+  - ambiente-agua-y-vida
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "al menos 158,53 hectáreas anuales" bajo conservación y restauración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta cuantifica su alcance en «al menos 158,53 hectáreas anuales» bajo conservación y restauración.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto da "Al 2031" y "2027-2031, por fases", que es todo el período de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Al 2031» coincide con el cierre del período «2027-2031» y «por fases» no aporta fechas intermedias.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto asigna un monto de "USD 1.900.000".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 1.900.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La protección de fuentes de agua y la gestión ambiental local son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «protección de zonas de recarga hídrica» y la «restauración de ecosistemas» corresponden a funciones
+          municipales de gestión ambiental y protección del agua.
+- id: david-mendez-ef6b7e53
+  tema: agua-servicios
+  resumen: Ampliar, rehabilitar y mejorar agua potable, alcantarillado y depuración, subiendo cuatro puntos la cobertura de
+    agua y dos la de alcantarillado al 2031.
+  cita: Ampliación, rehabilitación y mejoramiento de los sistemas de agua potable, alcantarillado y depura-ción de aguas residuales.
+  pagina: 27
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, incrementar al menos cuatro puntos por-centuales la cobertura de agua potable y dos puntos porcentuales
+      la cobertura de alcantarillado respecto de la línea base de 2027
+    pagina: 33
+  - texto: USD 4.500.000
+    pagina: 33
+  - texto: Sectores urba-nos y rurales con mayores bre-chas.
+    pagina: 27
+  enfoques:
+  - agua-servicios-mejorar-agua-potable
+  - agua-servicios-alcantarillado-tratamiento
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "incrementar al menos cuatro puntos porcentuales la cobertura de agua potable y dos
+          puntos... de alcantarillado".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Se propone incrementar «al menos cuatro puntos porcentuales la cobertura de agua potable y dos puntos
+          porcentuales la cobertura de alcantarillado» respecto de una línea base.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "Al 2031", que es una fecha dentro del período de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La expresión «Al 2031» establece un año concreto para alcanzar los incrementos de cobertura.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica un monto de "USD 4.500.000".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 4.500.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Agua potable, alcantarillado y depuración son competencias exclusivas municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «ampliación, rehabilitación y mejoramiento de los sistemas de agua potable, alcantarillado y depuración
+          de aguas residuales» corresponde a competencias municipales.
+- id: david-mendez-25821bd6
+  tema: cultura
+  resumen: Gestionar el turismo sostenible, cultural, rural, gastronómico y de naturaleza, buscando incrementar 20 % el flujo
+    turístico respecto de 2027.
+  cita: Gestión integral del turis-mo sostenible, cultural, rural, gastronómico y de naturaleza.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: incrementar en un 20 % el flujo turístico respecto de la línea base de 2027
+    pagina: 34
+  - texto: Cabecera canto-nal y siete pa-rroquias rurales.
+    pagina: 28
+  enfoques:
+  - cultura-promover-el-turismo
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija 'incrementar en un 20 % el flujo turístico respecto de la línea base de 2027'.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija el resultado de «incrementar en un 20 % el flujo turístico respecto de la línea base
+          de 2027».
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona 2027 como línea base, sin fecha de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «línea base de 2027» señala el año de referencia para medir el incremento, pero no cuándo deberá
+          alcanzarse.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «gestión integral del turismo sostenible, cultural, rural, gastronómico y de naturaleza» no incluye
+          monto, fuente ni mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El turismo y la cultura son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La gestión del «turismo sostenible, cultural, rural, gastronómico y de naturaleza» en la «cabecera
+          cantonal y siete parroquias rurales» corresponde a las funciones municipales de turismo y desarrollo económico local.
+- id: david-mendez-79d04c4b
+  tema: transparencia
+  resumen: Implementar el Sistema de Información Local y modernizar procesos administrativos, integrando al menos el 70 %
+    de datos priorizados al 2031.
+  cita: Implementación del Sis-tema de Información Lo-cal y modernización de los procesos administrativos y servicios municipales.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, integrar al menos el 70 % de los datos terri-toriales e institucionales priorizados en el Sistema de Información
+      Local
+    pagina: 34
+  - texto: USD 2.200.000
+    pagina: 34
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "integrar al menos el 70 % de los datos territoriales e institucionales priorizados"
+          en el Sistema de Información Local.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La meta de «integrar al menos el 70 % de los datos territoriales e institucionales priorizados» establece
+          un resultado cuantificable.
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Al 2031" como fecha de cumplimiento de la meta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La expresión «Al 2031» fija un año límite para cumplir la integración de datos.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'El contexto asigna un monto: "USD 2.200.000".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 2.200.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los sistemas de información y los procesos y servicios municipales son de gestión propia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Implementación del Sistema de Información Local» y la modernización de «procesos administrativos
+          y servicios municipales» corresponden a la gestión municipal.
+- id: david-mendez-c05f1138
+  tema: espacio-publico
+  resumen: Regenerar espacios públicos, mejorar equipamientos comunitarios y gestionar el suelo, con una meta de 15 espacios
+    o equipamientos mejorados.
+  cita: Regeneración de espacios públicos, mejoramiento de equipamientos comu-nitarios y gestión ordena-da del suelo.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: mejo-rar o recuperar 15 espa-cios públicos o equipa-mientos
+    pagina: 33
+  - texto: Área urbana, parroquias y comunidades priorizadas.
+    pagina: 28
+  enfoques:
+  - espacio-publico-renovar-espacios
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto dice "mejorar o recuperar 15 espacios públicos o equipamientos".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija «mejorar o recuperar 15 espacios públicos o equipamientos», una cantidad verificable
+          de intervenciones.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Área urbana, parroquias y comunidades priorizadas» señala un ámbito territorial, pero no una fecha
+          de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Regeneración de espacios públicos» y el «mejoramiento de equipamientos comunitarios» no tienen
+          monto ni fuente de financiamiento indicados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Espacio público y uso del suelo son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «Regeneración de espacios públicos», los «equipamientos comunitarios» y la «gestión ordenada del
+          suelo» son materias de competencia municipal.
+- id: david-mendez-c615a3fa
+  tema: empleo
+  resumen: Fortalecer la producción agropecuaria, mercados municipales, ferias y comercialización directa, apoyando al menos
+    3.650 productores y emprendimientos al 2031.
+  cita: Fortalecimiento de la pro-ducción agropecuaria, los mercados municipales, las ferias y los circuitos de comercialización
+    directa.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, fortalecer las ca-pacidades técnicas, pro-ductivas o comerciales de al menos 3.650 producto-res y emprendimientos
+    pagina: 34
+  - texto: ejecutar la intervención priorizada para el mejo-ramiento de los mercados y la comercialización.
+    pagina: 34
+  - texto: USD 1.000.000
+    pagina: 34
+  enfoques:
+  - empleo-mejorar-produccion
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "al menos 3.650 productores y emprendimientos" como meta de capacidades fortalecidas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija como resultado fortalecer las capacidades de «al menos 3.650 productores y emprendimientos».
+    plazo:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Al 2031", un año de cumplimiento (aunque coincide con el fin del período, está
+          ligado a la meta específica).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Al 2031» establece un año concreto para alcanzar la meta de fortalecimiento de capacidades.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica un monto de "USD 1.000.000".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 1.000.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Mercados municipales, ferias y desarrollo económico local son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El fortalecimiento de «los mercados municipales, las ferias y los circuitos de comercialización directa»
+          corresponde a la gestión de mercados y al desarrollo económico local.
+- id: david-mendez-e729cd3d
+  tema: inclusion
+  resumen: Atención integral, cuidados y protección de derechos de grupos prioritarios, con acceso anual de al menos 1.500
+    personas y reducción de 40 % de casos de vulneración.
+  cita: Atención integral, cuida-dos, inclusión social y pro-tección de derechos de los grupos de atención priori-taria.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: Al 2031, garantizar anual-mente el acceso de al me-nos 1.500 personas de grupos prioritarios a servi-cios de cuidado,
+      inclusión o protección
+    pagina: 33
+  - texto: reducir en un 40 % los casos registra-dos de vulneración de de-rechos respecto de la línea base de 2027.
+    pagina: 33
+  - texto: USD 3.000.000
+    pagina: 33
+  enfoques:
+  - inclusion-cuidados-bienestar
+  - inclusion-proteccion-derechos
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto fija "al menos 1.500 personas de grupos prioritarios" atendidas anualmente y reducir "en
+          un 40 %" los casos de vulneración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto fija una cobertura de «al menos 1.500 personas» y una reducción del «40 %» de los casos
+          registrados de vulneración de derechos.
+    plazo:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto indica "Al 2031" como fecha de cumplimiento de la meta y "línea base de 2027".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Al 2031» señala el horizonte final del período y «anualmente» expresa periodicidad, sin fijar un cumplimiento
+          dentro de la gestión.
+      nota_revision: 2031 es el cierre del período de gobierno y anual indica periodicidad.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El contexto menciona un monto de "USD 3.000.000".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El contexto asigna a la propuesta un monto de «USD 3.000.000».
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Inclusión social y protección de derechos son funciones municipales (equidad, inclusión y protección
+          de derechos).
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los servicios de «cuidados, inclusión social y protección de derechos» corresponden a las funciones
+          municipales de inclusión y protección de grupos prioritarios.
+- id: david-mendez-ed3ba18a
+  tema: transparencia
+  resumen: Fortalecer la planificación institucional, la participación ciudadana y la preparación de proyectos para obtener
+    financiamiento.
+  cita: Fortalecimiento de la pla-nificación institucional, la participación ciudadana y la preparación de proyec-tos para
+    financiamiento.
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: Implemen-tación progresiva 2027-2031
+    pagina: 32
+  enfoques:
+  - transparencia-modernizacion-municipal
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Fortalecimiento de la planificación institucional" es una intención genérica sin cantidad ni resultado
+          verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «Fortalecimiento de la planificación institucional» y la «preparación de proyectos» no incluyen
+          cantidades ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Implementación progresiva 2027-2031" es el período completo de gobierno, no un plazo específico.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «Implementación progresiva 2027-2031» abarca el período completo sin fijar un plazo específico dentro
+          de él.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente; solo habla de preparar proyectos para financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «preparación de proyectos para financiamiento» no identifica un monto, una fuente ni un mecanismo
+          concreto de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La planificación institucional y la participación ciudadana son responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «planificación institucional», la «participación ciudadana» y la preparación de proyectos corresponden
+          a funciones de gestión municipal.
+- id: david-mendez-54892ad6
+  tema: transparencia
+  resumen: Una evaluación técnica de la estructura orgánica, el reglamento por procesos, el plan estratégico y los procedimientos
+    administrativos del GAD.
+  cita: se realizará una evaluación técnica de la estructura orgánica, el Reglamento Orgánico de Gestión Organizacional por
+    Procesos, el Plan Estratégico Institucional y los procedimientos admi-nistrativos
+  pagina: 29
+  cita_verificada: true
+  contexto:
+  - texto: 1.1. Reestructuración institucional
+    pagina: 29
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Una "evaluación técnica" de la estructura orgánica no precisa un resultado cuantificable ni verificable
+          de alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «evaluación técnica» de instrumentos y procedimientos institucionales describe una actividad, pero
+          no fija una cantidad o cobertura verificable del resultado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración en la cita ni en el contexto "1.1. Reestructuración institucional".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El apartado «1.1. Reestructuración institucional» no establece una fecha ni una duración para la evaluación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No se menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La descripción de la «evaluación técnica de la estructura orgánica» no menciona su costo ni cómo se
+          financiará.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La organización interna y los procedimientos administrativos municipales son de resorte del propio
+          Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Evaluar la «estructura orgánica», el «Plan Estratégico Institucional» y los «procedimientos administrativos»
+          propios corresponde a la administración municipal.
+- id: david-mendez-764707b3
+  tema: transparencia
+  resumen: Integrar progresivamente los sistemas informáticos municipales y digitalizar trámites.
+  cita: Integración progresiva de los sistemas informáticos municipales y digitalización de trámites.
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Integración progresiva de los sistemas informáticos y digitalización de trámites'' no dice cuántos
+          sistemas o trámites.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «integración progresiva» y la «digitalización de trámites» no precisan cuántos sistemas o trámites
+          se intervendrán.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Progresiva'' no es una fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El término «progresiva» no establece una fecha ni una duración para completar la integración.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «integración progresiva de los sistemas informáticos municipales» no viene acompañada de un costo
+          ni de una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Los trámites municipales y sus sistemas son de responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La integración de «sistemas informáticos municipales» y la digitalización de sus trámites son actuaciones
+          de administración municipal.
+- id: david-mendez-9ac9f701
+  tema: transparencia
+  resumen: Capacitar al personal municipal según sus funciones y responsabilidades.
+  cita: Capacitación del talento humano municipal de acuerdo con sus funciones y responsabili-dades.
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Capacitación del talento humano municipal" no dice cuánto personal ni cuántas capacitaciones.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «capacitación del talento humano municipal» no indica cuántas personas serán capacitadas ni qué
+          cobertura se alcanzará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «capacitación del talento humano municipal» no incluye una fecha o duración para su cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «capacitación del talento humano municipal» no menciona costos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Capacitar a su propio personal está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Capacitar al «talento humano municipal de acuerdo con sus funciones y responsabilidades» corresponde
+          a la administración de su propio personal.
+- id: david-mendez-bd7c899c
+  tema: vivienda
+  resumen: Actualizar el Plan de Desarrollo y Ordenamiento Territorial incorporando los programas y proyectos del plan de
+    trabajo.
+  cita: se promoverá la actualización del Plan de Desarrollo y Ordenamiento Territorial vigente, incorporando las problemáticas,
+    objetivos, programas y proyec-tos contemplados en este Plan de Trabajo
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - vivienda-ordenamiento-territorial
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Nombra una obra única con alcance claro: la actualización del Plan de Desarrollo y Ordenamiento Territorial
+          vigente.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se promoverá la actualización del Plan de Desarrollo y Ordenamiento Territorial» expresa una intención
+          sin una meta cuantificada ni un resultado concreto comprometido.
+      nota_revision: Promover la actualización del PDOT no fija cantidad, cobertura ni obra física localizada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración para la actualización.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «actualización del Plan de Desarrollo y Ordenamiento Territorial vigente» no señala
+          cuándo se cumplirá.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «actualización del Plan de Desarrollo y Ordenamiento Territorial» no incluye un monto ni una fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El ordenamiento territorial y uso del suelo es competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La actualización del «Plan de Desarrollo y Ordenamiento Territorial» corresponde a las competencias
+          municipales de planificación y ordenamiento territorial.
+- id: david-mendez-fe6003dd
+  tema: transparencia
+  resumen: El mantenimiento y la renovación progresiva de la infraestructura, equipos y bienes municipales.
+  cita: Mantenimiento y renovación progresiva de la infraestructura, los equipos y los bienes mu-nicipales.
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mantenimiento y renovación progresiva" no indica cuánto ni qué bienes específicos.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «mantenimiento y renovación progresiva» no cuantifica los bienes que serán intervenidos ni fija
+          una cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Progresiva" es vago y no fija fecha ni duración.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La palabra «progresiva» no establece una fecha ni una duración para cumplir la renovación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «mantenimiento y renovación» de bienes municipales no viene acompañado de montos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se trata de bienes e infraestructura municipales, que el GAD administra.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Mantener y renovar «la infraestructura, los equipos y los bienes municipales» corresponde al Municipio.
+- id: david-mendez-5205191c
+  tema: transparencia
+  resumen: Publicar anualmente los avances físicos y presupuestarios del plan y emitir informes semestrales de avance.
+  cita: publicar anualmente los avances físicos y presupuestarios del Plan de Trabajo.
+  pagina: 34
+  cita_verificada: true
+  contexto:
+  - texto: Informes semestrales de avance físico y presupuestario.
+    pagina: 36
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Publicar "los avances físicos y presupuestarios del Plan de Trabajo" no establece una cantidad o resultado
+          verificable más allá de la publicación genérica.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Publicar anualmente los avances» e «informes semestrales» describen productos periódicos sin fijar
+          una cantidad total ni una cobertura medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anualmente" y "semestrales" son periodicidades, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Anualmente» y «semestrales» son periodicidades de publicación, no fechas de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «avances físicos y presupuestarios» son el contenido que se publicará, no una fuente ni un monto
+          para financiar la publicación.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Publicar informes de gestión municipal depende del propio Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar los «avances físicos y presupuestarios del Plan de Trabajo» corresponde a las funciones municipales
+          de transparencia y rendición de cuentas.
+- id: david-mendez-a6c8f01d
+  tema: transparencia
+  resumen: Fortalecer la gestión de ingresos propios mediante actualización de información, eficiencia recaudatoria y criterios
+    de equidad.
+  cita: Se fortalecerá su gestión mediante la actualización de la información, la eficiencia recaudatoria y la aplicación
+    de criterios de equidad.
+  pagina: 34
+  cita_verificada: true
+  contexto:
+  - texto: 1.4. Fuentes de financiamiento
+    pagina: 34
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Actualización de la información, eficiencia recaudatoria" son intenciones sin cifra.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se fortalecerá su gestión» mediante actualización y eficiencia recaudatoria expresa una intención
+          sin un resultado cuantificado.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «actualización de la información» y la «eficiencia recaudatoria» no tienen fecha ni duración de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El título "Fuentes de financiamiento" no especifica monto ni fuente para esta propuesta.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El título «Fuentes de financiamiento» no identifica un monto ni una fuente concreta que pague esta
+          propuesta de fortalecimiento de la gestión.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión de información y recaudación municipal está en manos del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «actualización de la información» y la «eficiencia recaudatoria» de la gestión municipal están bajo
+          control del Municipio.
+- id: david-mendez-bd5acbf2
+  tema: agua-servicios
+  resumen: Gestionar créditos del Banco de Desarrollo del Ecuador para proyectos de infraestructura y servicios públicos con
+    estudios y viabilidad.
+  cita: 'Créditos del Banco de Desarrollo del Ecuador: se gestionarán para proyectos estratégicos de infraestructura y servicios
+    públicos que cuenten con estudios, diseños, presupuestos y viabilidad técnica'
+  pagina: 34
+  cita_verificada: true
+  enfoques:
+  - agua-servicios-planificacion-financiamiento
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"proyectos estratégicos de infraestructura y servicios públicos" no indica cuántos ni cuáles.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Proyectos estratégicos de infraestructura y servicios públicos» no identifica cuántos proyectos se
+          financiarán ni cuáles serán sus resultados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se gestionarán» no establece una fecha para obtener los créditos o ejecutar los proyectos.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Nombra como fuente los "Créditos del Banco de Desarrollo del Ecuador".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Créditos del Banco de Desarrollo del Ecuador» identifica expresamente el mecanismo y la entidad de
+          financiamiento propuestos.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede gestionar créditos para su infraestructura y servicios.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Gestionar «créditos del Banco de Desarrollo del Ecuador» para infraestructura y servicios públicos
+          es un mecanismo disponible para financiar competencias municipales.
+- id: david-mendez-96adf16d
+  tema: transparencia
+  resumen: Elaborar una ficha técnica para cada indicador del plan con línea base, fórmula, fuente y responsable.
+  cita: 'Para cada indicador se elaborará una ficha técnica que contendrá, como mínimo:'
+  pagina: 35
+  cita_verificada: true
+  enfoques:
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Una ficha técnica para cada indicador'' describe un instrumento sin resultado medible, ni cuántos
+          indicadores.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «Para cada indicador se elaborará una ficha técnica» no indica cuántos indicadores existen
+          ni delimita una cobertura cuantificada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La frase «se elaborará una ficha técnica» no señala cuándo estará elaborada.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración de «una ficha técnica» no incluye monto, fuente ni mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Elaborar fichas de indicadores de su propio plan depende solo del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Elaborar «una ficha técnica» para indicadores es una actividad de planificación y seguimiento que el
+          Municipio puede realizar dentro de su administración.
+- id: david-mendez-b6c67738
+  tema: transparencia
+  resumen: Gestionar cooperación nacional e internacional mediante fondos, asistencia técnica y transferencia tecnológica
+    para proyectos municipales.
+  cita: 'Cooperación nacional e internacional: se gestionarán fondos reembolsables y no reembolsa-bles, asistencia técnica,
+    transferencia de tecnología y cooperación para proyectos ambientales, sociales, productivos, institucionales y de adaptación
+    al cambio climático.'
+  pagina: 35
+  cita_verificada: true
+  contexto:
+  - texto: 1.4. Fuentes de financiamiento
+    pagina: 34
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Se gestionarán fondos reembolsables y no reembolsables" no indica cuánto ni qué resultado verificable.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Se gestionarán fondos reembolsables y no reembolsables» no fija un monto por captar ni una cantidad
+          o cobertura de proyectos.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La gestión de «cooperación nacional e internacional» no establece una fecha ni un plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "cooperación nacional e internacional" de forma genérica, sin organismo nombrado ni monto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cooperación nacional e internacional» y «fondos reembolsables y no reembolsables» describen fuentes
+          genéricas para múltiples proyectos, sin monto, entidad financiadora ni asignación específica.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El Municipio puede gestionar cooperación y fondos para sus propios proyectos.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Gestionar «asistencia técnica, transferencia de tecnología y cooperación» para proyectos locales es
+          una actuación que puede realizar el Municipio.
+- id: david-mendez-c219ac77
+  tema: transparencia
+  resumen: Un informe consolidado anual presentado al Consejo de Planificación Local, reportado en el SIGAD e incluido en
+    la rendición de cuentas.
+  cita: Se elaborará un informe consolidado anual que será presentado al Consejo de Planificación Local, reportado en el SIGAD
+    e incorporado al proceso de rendición de cuentas.
+  pagina: 35
+  cita_verificada: true
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: revision_ia
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Produce un resultado verificable: "un informe consolidado anual" presentado al Consejo de Planificación
+          Local y reportado en el SIGAD.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Un informe consolidado anual» identifica un tipo de documento y su periodicidad, pero no fija una
+          cantidad total de entregables ni una cobertura medible.
+      nota_revision: Un informe anual es un tipo de documento periódico, sin cantidad total comprometida.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anual" es una periodicidad, no indica cuándo estará cumplida.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Anual» expresa la periodicidad del informe, no una fecha de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La elaboración y presentación del «informe consolidado anual» no incluye costo ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Informes de planificación y rendición de cuentas son responsabilidad municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Presentar el informe al «Consejo de Planificación Local», reportarlo en el «SIGAD» e incorporarlo a
+          la «rendición de cuentas» corresponde a las funciones municipales de planificación y transparencia.
+- id: david-mendez-1f8c0002
+  tema: transparencia
+  resumen: Sistematizar, responder y considerar en la planificación anual las observaciones ciudadanas de la rendición de
+    cuentas.
+  cita: Las observaciones y recomendaciones formuladas por la ciudadanía serán sistematizadas, respon-didas y consideradas
+    en la planificación anual.
+  pagina: 36
+  cita_verificada: true
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice que las observaciones "serán sistematizadas, respondidas y consideradas" sin cantidad ni resultado
+          verificable concreto.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Indicar que las observaciones serán «sistematizadas, respondidas y consideradas» no fija una cantidad
+          ni una cobertura cuantificada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo menciona "planificación anual", una periodicidad, no un plazo de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a la «planificación anual» expresa una periodicidad, no una fecha de cumplimiento de
+          la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La sistematización de «observaciones y recomendaciones formuladas por la ciudadanía» no viene acompañada
+          de un monto ni una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Responder observaciones ciudadanas y considerarlas en la planificación municipal es propio del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Incorporar las «observaciones y recomendaciones formuladas por la ciudadanía» en la planificación municipal
+          corresponde a sus funciones de participación ciudadana.

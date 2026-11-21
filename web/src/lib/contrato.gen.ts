@@ -4,7 +4,7 @@
  * This interface was referenced by `DatosSitio`'s JSON-Schema
  * via the `definition` "Consenso".
  */
-export type Consenso = "unanime" | "mayoria" | "humano";
+export type Consenso = "unanime" | "mayoria" | "humano" | "revision_ia";
 /**
  * This interface was referenced by `DatosSitio`'s JSON-Schema
  * via the `definition` "Proveedor".
@@ -236,7 +236,7 @@ export interface Calificacion {
    */
   votos: [VotoJurado, ...VotoJurado[]];
   /**
-   * Obligatoria si consenso = humano
+   * Obligatoria si consenso = humano o revision_ia
    */
   nota_revision: string | null;
 }

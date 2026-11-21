@@ -40,6 +40,8 @@ class Config:
     modelo_openai: str
     modelo_gemini: str
     max_usd: float
+    usar_anthropic: bool
+    usar_gemini: bool
     _claves: dict[str, str]
 
     def clave(self, nombre: str) -> str:
@@ -52,7 +54,7 @@ class Config:
         return bool(self._claves.get(nombre))
 
     def __repr__(self) -> str:  # jamás exponer claves
-        return f"Config(modo={self.modo!r}, anthropic={self.modelo_anthropic!r}, jurado_anthropic={self.modelo_jurado_anthropic!r}, openai={self.modelo_openai!r}, gemini={self.modelo_gemini!r}, max_usd={self.max_usd})"
+        return f"Config(modo={self.modo!r}, anthropic={self.modelo_anthropic!r}, jurado_anthropic={self.modelo_jurado_anthropic!r}, openai={self.modelo_openai!r}, gemini={self.modelo_gemini!r}, usar_anthropic={self.usar_anthropic}, usar_gemini={self.usar_gemini}, max_usd={self.max_usd})"
 
 
 @cache
@@ -68,5 +70,7 @@ def config() -> Config:
         modelo_openai=v.get("MODELO_OPENAI", "gpt-6.1-sol"),
         modelo_gemini=v.get("MODELO_GEMINI", "gemini-4-carbon"),
         max_usd=float(v.get("MAX_USD", "15")),
+        usar_anthropic=v.get("USE_ANTHROPIC", "true").lower() not in ("false", "0", "no") and bool(v.get("ANTHROPIC_API_KEY")),
+        usar_gemini=v.get("USE_GEMINI", "true").lower() not in ("false", "0", "no") and bool(v.get("GEMINI_API_KEY")),
         _claves={k: v[k] for k in ("ANTHROPIC_API_KEY", "OPENAI_API_KEY", "GEMINI_API_KEY") if k in v},
     )

@@ -5,7 +5,7 @@ por el hash de su entrada + versión del prompt + modelo; volver a correr solo p
     [1] extracción (Claude)                   [2] verificación de citas (sin IA)
     [3] auditoría de cobertura (Gemini)       [4] jurado a ciegas (Claude, GPT, Gemini)
     [5] consenso + kappa                      [6] enfoques (GPT propone, Claude valida)
-    [7] auditoría de neutralidad (GPT)        [8] exportación + cola de revisión humana
+    [7] auditoría de neutralidad (GPT)        [8] exportación + cola de revisión editorial
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ from .cache import Cache, huella
 from .resumenes import datos_sin_respaldo, uniformar
 from .citas import normalizar, verificar
 from .config import DIR_SALIDA, config
-from .consenso import consolidar, kappa_fleiss, resolver_humano
+from .consenso import consolidar, kappa_fleiss, resolver_humano, resolver_ia
 from .datos import DIR_DATOS, RAIZ_REPO, cargar
 from .esquemas import (
     Agrupacion,
@@ -110,7 +110,7 @@ class Reporte:
         l.append("")
         l.append("> Con criterios muy raros (p. ej. casi ninguna propuesta tiene plazo) el kappa cae aunque los jurados casi siempre coincidan: mirar también el % de unanimidad.")
         l += ["", f"Fragmentos de contexto descartados por no estar literalmente en el plan: {self.contexto_descartado}"]
-        l += ["", f"## Cola de revisión humana: {len(self.pendientes)}", ""]
+        l += ["", f"## Cola de revisión editorial: {len(self.pendientes)}", ""]
         for pid, motivo in list(self.pendientes.items())[:50]:
             l.append(f"- `{pid}`: {motivo['motivo']}")
         l += ["", f"## Auditoría de neutralidad: {len(self.neutralidad)} observaciones", ""]
@@ -194,7 +194,19 @@ def procesar_documento(c: Candidato, temas: list[Tema], eq: Equipo, cache: Cache
     except RuntimeError as e:  # la cobertura es una segunda vuelta: si falla, se publica lo ya verificado
         if isinstance(e, PresupuestoAgotado):
             raise
-        rep.errores.append(f"{c.id}: auditoría de cobertura no disponible ({str(e)[:120]})")
+        if eq.cobertura_respaldo:
+            respaldo = eq.cobertura_respaldo
+            try:
+                cob = cache.obtener("cobertura", p.version, respaldo.modelo, huella([texto.sha256, sorted(verificadas)]), Extraccion,
+                                    lambda: llamar(respaldo, sol, Extraccion))
+                incorporar(cob.propuestas, "cobertura")
+                rep.errores.append(f"{c.id}: {eq.cobertura.modelo} no auditó cobertura ({str(e)[:120]}); se usó {respaldo.modelo}")
+            except RuntimeError as error_respaldo:
+                if isinstance(error_respaldo, PresupuestoAgotado):
+                    raise
+                rep.errores.append(f"{c.id}: auditoría de cobertura no disponible ({str(e)[:120]}; respaldo: {str(error_respaldo)[:120]})")
+        else:
+            rep.errores.append(f"{c.id}: auditoría de cobertura no disponible ({str(e)[:120]})")
 
     rep.documentos[c.id] = {"paginas": len(paginas), "escaneado": texto.escaneado, "verificadas": len(verificadas), "descartadas": len(descartadas)}
     rep.descartadas += descartadas
@@ -304,7 +316,13 @@ def agrupar_enfoques(tema: Tema, props: list[PropuestaVerificada], eq: Equipo, c
     p2 = cargar_prompt("enfoques_validacion")
     u2 = p2.render(TEMA=tema.nombre, ICONOS=", ".join(sorted(iconos)), AGRUPACION=ag.model_dump_json(indent=1), PROPUESTAS=lista)
     s2 = Solicitud("enfoques_validacion", "", u2, Agrupacion, extra={"agrupacion": ag.model_dump()})
-    ag = cache.obtener("enfoques_val", p2.version, eq.enfoques_valida.modelo, huella([entrada, ag.model_dump()]), Agrupacion, lambda: llamar(eq.enfoques_valida, s2, Agrupacion))
+    try:
+        ag = cache.obtener("enfoques_val", p2.version, eq.enfoques_valida.modelo, huella([entrada, ag.model_dump()]), Agrupacion,
+                          lambda: llamar(eq.enfoques_valida, s2, Agrupacion))
+    except RuntimeError as e:
+        if isinstance(e, PresupuestoAgotado):
+            raise
+        rep.errores.append(f"{tema.id}: validación de enfoques no disponible ({str(e)[:120]}); se conserva la agrupación propuesta")
 
     # Saneamiento determinístico: prefijo de id, íconos válidos, asignaciones conocidas
     validos = {}
@@ -370,7 +388,13 @@ def ejecutar(ciudad: str, *, dir_datos: Path = DIR_DATOS, destino: Path | None =
         for k in CRITERIOS:
             decision = revision.get(pv.id, {}).get("criterios", {}).get(k)
             if decision:
-                cal[k] = resolver_humano(votos[pv.id][k], bool(decision["valor"]), decision.get("nota") or "Revisado")
+                origen = decision.get("origen", "humano")
+                if origen == "asistente_ia":
+                    cal[k] = resolver_ia(votos[pv.id][k], bool(decision["valor"]), decision.get("nota") or "")
+                elif origen == "humano":
+                    cal[k] = resolver_humano(votos[pv.id][k], bool(decision["valor"]), decision.get("nota") or "Revisado")
+                else:
+                    raise ValueError(f"{pv.id}.{k}: origen de revisión desconocido: {origen}")
             elif (cons := consolidar(votos[pv.id][k])) is not None:
                 cal[k] = cons
             else:

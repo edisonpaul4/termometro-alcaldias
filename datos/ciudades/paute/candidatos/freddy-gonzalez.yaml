@@ -1,0 +1,1008 @@
+# Generado por el pipeline. Ediciones: usar revision.yaml
+id: freddy-gonzalez
+nombre: Freddy Damián González Cárdenas
+lista: 63-1
+organizacion: Alianza La Esperanza Nos Une
+foto: fuentes/ciudades/paute/candidatos/freddy-gonzalez/foto_2026-11-20.webp
+foto_fuente:
+  url: https://votoinformado.cne.gob.ec/voto-informado/candidatos/140/8788
+  titulo: Foto oficial publicada por el CNE (Voto Informado)
+  consultado: '2026-11-20'
+  archivo: fuentes/ciudades/paute/candidatos/freddy-gonzalez/foto_2026-11-20.webp
+plan_trabajo:
+  disponible: true
+  fuente:
+    url: https://backend-apps.cne.gob.ec/vi/api/Catalogos/PlanTrabajo/140/8788/3827
+    titulo: Plan de trabajo de Freddy Damián González Cárdenas — Alcaldía de Paute 2027-2031 (CNE)
+    consultado: '2026-11-20'
+    archivo: fuentes/ciudades/paute/candidatos/freddy-gonzalez/plan-de-trabajo_2026-11-20.pdf
+  paginas: 40
+  sha256: 22305943c0e284ae035868657bc1b21af9df16613cd1fb1797cdc0f4fda288d1
+propuestas:
+- id: freddy-gonzalez-819f35fa
+  tema: empleo
+  resumen: Se impulsará el comercio local, la innovación y la economía popular y solidaria.
+  cita: impulsaremos con decisión al comercio local, la innovación y la economía popular y solidaria
+  pagina: 3
+  cita_verificada: true
+  enfoques:
+  - empleo-apoyar-negocios
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Impulsaremos con decisión" es un verbo genérico sin cantidad ni resultado.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Impulsaremos con decisión» expresa una intención sin cantidades, cobertura ni resultados verificables.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La promesa de impulsar «al comercio local, la innovación y la economía popular y solidaria» no establece
+          una fecha ni un plazo.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El impulso al «comercio local» y a la «economía popular y solidaria» no identifica monto ni fuente
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y la regulación de actividades económicas son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Promover el «comercio local, la innovación y la economía popular y solidaria» está comprendido en las
+          funciones municipales de desarrollo económico local.
+- id: freddy-gonzalez-f8d31fd0
+  tema: seguridad
+  resumen: Se abordará la seguridad ciudadana con enfoque integral, fortaleciendo el tejido social, la prevención y el rescate
+    del espacio público.
+  cita: abordaremos la seguridad ciudadana desde un enfoque integral, fortaleciendo el tejido social, la prevención y el rescate
+    del espacio público como lugar de encuentro y convivencia pacífica
+  pagina: 3
+  cita_verificada: true
+  enfoques:
+  - seguridad-comunidad-espacios-publicos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Enfoque integral, fortaleciendo el tejido social" es intención genérica sin cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortaleciendo el tejido social, la prevención y el rescate del espacio público» expresa orientaciones
+          generales sin cantidades ni resultados delimitados.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Abordaremos la seguridad ciudadana desde un enfoque integral» no fija una fecha ni una duración para
+          cumplir la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «fortalecimiento del tejido social» y el «rescate del espacio público» no incluyen costos ni fuentes
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Prevención y rescate del espacio público son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «prevención» y el «rescate del espacio público como lugar de encuentro y convivencia pacífica» corresponden
+          a las funciones municipales de convivencia y seguridad ciudadana preventiva.
+- id: freddy-gonzalez-e9c6d4bc
+  tema: inclusion
+  resumen: El gobierno municipal destinará al menos el 10% de sus ingresos no tributarios a programas sociales para grupos
+    de atención prioritaria.
+  cita: el gobierno municipal se compromete a destinar, al menos, el 10% de sus ingresos no tributarios a la planificación
+    y ejecución de programas sociales para la atención a los grupos de atención prioritaria
+  pagina: 4
+  cita_verificada: true
+  contexto:
+  - texto: 1.2. ENFOQUES OBLIGATORIOS
+    pagina: 4
+  enfoques:
+  - inclusion-gestion-programas-sociales
+  rubrica:
+    meta:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Se compromete a destinar "al menos, el 10% de sus ingresos no tributarios" a programas sociales, una
+          cifra verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El compromiso de «destinar, al menos, el 10% de sus ingresos no tributarios» fija una asignación presupuestaria
+          porcentual verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay fecha ni duración; el contexto solo es "ENFOQUES OBLIGATORIOS".
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El compromiso de «destinar» recursos y el título «ENFOQUES OBLIGATORIOS» no señalan una fecha o etapa
+          fechada de cumplimiento.
+    financiamiento:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: 'Indica la fuente: "el 10% de sus ingresos no tributarios".'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La propuesta identifica como fuente «el 10% de sus ingresos no tributarios» para financiar los programas
+          sociales.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Programas sociales municipales para grupos prioritarios son de inclusión y protección de derechos del
+          Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «planificación y ejecución de programas sociales para la atención a los grupos de atención prioritaria»
+          corresponde a las funciones municipales de inclusión y protección de derechos.
+- id: freddy-gonzalez-71958a3e
+  tema: empleo
+  resumen: Brindar apoyo técnico y económico a organizaciones agrícolas, pecuarias, turísticas, comerciales e industriales
+    con capacidad organizativa y potencial de empleo y acceso a mercados.
+  cita: 'El GAD Municipal debe brindar apoyo técnico y económico estratégico a
+
+    organizaciones agrícolas, pecuarias, turísticas, comerciales e industriales que demuestren
+
+    capacidad organizativa, gestión eficiente y potencial para generar empleo, emprendimientos y
+
+    acceso a nuevos mercados.'
+  pagina: 21
+  cita_verificada: true
+  enfoques:
+  - empleo-apoyar-negocios
+  - empleo-abrir-mercados
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Apoyo técnico y económico estratégico a organizaciones'' no dice cuántas organizaciones ni cuánto
+          apoyo.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Brindar apoyo técnico y económico estratégico» no determina cuántas organizaciones recibirán apoyo
+          ni cuánto empleo se generará.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El apoyo a organizaciones con «potencial para generar empleo» no tiene una fecha ni un plazo de ejecución.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona 'apoyo económico' pero sin monto, rubro ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Apoyo técnico y económico estratégico» describe el beneficio ofrecido, pero no identifica su monto
+          ni de dónde saldrá el dinero.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El desarrollo económico local y el fomento productivo son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Apoyar organizaciones para «generar empleo, emprendimientos y acceso a nuevos mercados» se enmarca
+          en las funciones municipales de desarrollo económico local.
+- id: freddy-gonzalez-41f55ed9
+  tema: transparencia
+  resumen: Implementar un Sistema de Información Local para centralizar y analizar información destinada a la planificación
+    y gestión territorial.
+  cita: 'Se recomienda que el GAD de Paute considere la implementación de un SIL conforme a la
+
+    normativa vigente, como el Acuerdo Ministerial 56, publicado en el Registro Oficial 556 del 31 de julio de
+
+    2015, que establece las directrices para la creación y gestión de estos sistemas.'
+  pagina: 26
+  cita_verificada: true
+  contexto:
+  - texto: 'Es importante destacar que la implementación de un SIL es fundamental para la planificación y gestión
+
+      eficiente del territorio, ya que permite centralizar y analizar información relevante para la toma de
+
+      decisiones.'
+    pagina: 26
+  enfoques:
+  - transparencia-modernizacion-municipal
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo "se recomienda... considere la implementación de un SIL", sin compromiso ni alcance verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Considere la implementación de un SIL» nombra un sistema sin cuantificar resultados o cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No indica fecha ni duración; la fecha citada es la del Acuerdo Ministerial, no de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «31 de julio de 2015» es la fecha de publicación de la normativa citada, no un plazo para implementar
+          el SIL.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «implementación de un SIL conforme a la normativa vigente» no identifica costos ni fuentes o mecanismos
+          de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Un sistema de información local para la planificación territorial puede implementarlo el GAD municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La implementación de un sistema para la «planificación y gestión eficiente del territorio» está dentro
+          de las funciones municipales de planificación y gestión de información.
+- id: freddy-gonzalez-5a4eaab7
+  tema: ambiente
+  resumen: Realizar acciones de conservación, restauración, manejo de residuos y gestión integral del riesgo para proteger
+    los recursos hídricos y naturales.
+  cita: 'Fortalecer la protección de los recursos hídricos y naturales del cantón, la gestión
+
+    ambiental, la economía circular y la prevención y reducción de riesgos, mediante
+
+    acciones de conservación, restauración, manejo de residuos y gestión integral del
+
+    riesgo.'
+  pagina: 28
+  cita_verificada: true
+  contexto:
+  - texto: 4.1 OBJETIVOS ESPECÍFICOS
+    pagina: 28
+  enfoques:
+  - ambiente-agua-y-vida
+  - ambiente-basura-y-reciclaje
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Fortalecer la protección de los recursos hídricos'' es un verbo genérico sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Fortalecer la protección de los recursos hídricos y naturales» expresa una intención general sin cantidades,
+          cobertura definida ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo aparece '4.1 OBJETIVOS ESPECÍFICOS' sin fechas.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El encabezado «4.1 OBJETIVOS ESPECÍFICOS» y las «acciones de conservación» no establecen un plazo de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «acciones de conservación, restauración, manejo de residuos y gestión integral del riesgo» no tienen
+          montos ni fuentes de financiamiento señalados.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Gestión ambiental, residuos y gestión de riesgos son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «gestión ambiental», el «manejo de residuos» y la «gestión integral del riesgo» forman parte de
+          las funciones municipales.
+- id: freddy-gonzalez-2838b40a
+  tema: transparencia
+  resumen: Modernizar la administración municipal mediante transformación digital, gestión por procesos, planificación institucional
+    y mecanismos de seguimiento.
+  cita: 'Modernizar la gestión municipal mediante transformación digital, gestión por procesos,
+
+    información pública, participación ciudadana, planificación institucional y mecanismos
+
+    de seguimiento que mejoren la eficiencia y transparencia de la administración.'
+  pagina: 29
+  cita_verificada: true
+  enfoques:
+  - transparencia-modernizacion-municipal
+  - transparencia-control-de-recursos
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Modernizar la gestión municipal" es una intención genérica sin cantidad ni resultado medible.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Modernizar la gestión municipal» enumera herramientas de gestión, pero no fija cantidades, cobertura
+          ni resultados medibles.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «transformación digital» y los demás mecanismos propuestos no tienen fecha ni plazo de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Modernizar la gestión municipal» no incluye un monto, una fuente ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La gestión institucional, los trámites y la transparencia municipales son responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «gestión por procesos», la «información pública» y la «planificación institucional» pertenecen a
+          la administración interna y transparencia municipales.
+- id: freddy-gonzalez-24211fc9
+  tema: transparencia
+  resumen: Se aplicarán presupuestos participativos para definir las prioridades de inversión municipal.
+  cita: (iii) presupuestos participativos para definir prioridades de inversión; (iv) cabildos locales en comunidades y barrios
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Menciona "presupuestos participativos" y "cabildos locales" sin decir cuántos ni qué cobertura.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «presupuestos participativos» y «cabildos locales en comunidades y barrios» no especifican cantidad
+          ni cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice "mecanismos periódicos", sin fecha ni duración de cumplimiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El encabezado «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no establece una fecha de
+          cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La referencia a «presupuestos participativos para definir prioridades de inversión» no identifica cuánto
+          costará implementar los mecanismos ni con qué fuente se pagarán.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La participación ciudadana y los presupuestos participativos son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «presupuestos participativos» y «cabildos locales» son mecanismos de participación ciudadana que
+          puede implementar el Municipio.
+- id: freddy-gonzalez-5897220a
+  tema: transparencia
+  resumen: Se promoverán veedurías ciudadanas y observatorios de gestión municipal.
+  cita: (v) veedurías ciudadanas y observatorios de gestión; (vi) portal de transparencia con información presupuestaria,
+    de obras y de contratación
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"veedurías ciudadanas y observatorios" y "portal de transparencia" son tipos de mecanismo sin cantidad
+          ni alcance concreto.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Las «veedurías ciudadanas y observatorios de gestión» y el «portal de transparencia» nombran mecanismos
+          sin cuantificar su alcance o cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"MECANISMOS PERIÓDICOS" alude a periodicidad, no a fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El título «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no establece una fecha de implementación
+          o cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona costo ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «información presupuestaria» es contenido del portal y no identifica el costo o financiamiento de
+          la propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia y participación ciudadana son competencias municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «veedurías ciudadanas» y el «portal de transparencia» corresponden a las funciones municipales
+          de participación y rendición de cuentas.
+- id: freddy-gonzalez-959cd0bc
+  tema: transparencia
+  resumen: Se habilitará la silla vacía en las sesiones del concejo municipal.
+  cita: (ii) silla vacía en las sesiones del concejo; (iii) presupuestos participativos para definir prioridades de inversión
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Silla vacía" y "presupuestos participativos" son mecanismos sin cantidad ni alcance.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «silla vacía» y los «presupuestos participativos» son mecanismos de participación sin cantidades
+          ni cobertura cuantificada.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Mecanismos periódicos" es periodicidad, no fecha de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El título «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no establece una fecha de implementación.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «presupuestos participativos para definir prioridades de inversión» describen un mecanismo de decisión,
+          no una fuente o monto para financiar esta propuesta.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Silla vacía en el concejo y presupuestos participativos son participación ciudadana municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: La «silla vacía en las sesiones del concejo» y los «presupuestos participativos» son mecanismos de
+          participación que puede implementar el Municipio.
+- id: freddy-gonzalez-b296805d
+  tema: transparencia
+  resumen: Se implementará un portal de transparencia con información presupuestaria, de obras y de contratación.
+  cita: (vi) portal de transparencia con información presupuestaria, de obras y de contratación
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Un "portal de transparencia" es un tipo de sistema sin cuánto ni alcance medible.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Un «portal de transparencia con información presupuestaria, de obras y de contratación» nombra un sistema
+          sin cuantificar su resultado ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto no da fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El contexto «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no fija cuándo estará implementado
+          el portal.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «portal de transparencia» no indica un monto ni un mecanismo de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Transparencia e información de presupuesto, obras y contratación municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Publicar «información presupuestaria, de obras y de contratación» municipal corresponde a las funciones
+          de transparencia del Municipio.
+- id: freddy-gonzalez-ccafe5da
+  tema: transparencia
+  resumen: Se realizarán cabildos locales en comunidades y barrios del cantón.
+  cita: (iv) cabildos locales en comunidades y barrios; (v) veedurías ciudadanas y observatorios de gestión
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Nombra tipos de mecanismos ("cabildos locales", "veedurías ciudadanas y observatorios") sin cantidad
+          ni alcance.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Cabildos locales», «veedurías ciudadanas y observatorios de gestión» nombran mecanismos sin precisar
+          cantidades ni cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El contexto "MECANISMOS PERIÓDICOS Y PÚBLICOS" no da fecha ni duración.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El título «MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS» no establece una fecha de cumplimiento.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «cabildos locales» y «veedurías ciudadanas» no menciona montos ni fuentes de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Participación ciudadana y rendición de cuentas son funciones municipales.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Los «cabildos locales», las «veedurías ciudadanas y observatorios de gestión» corresponden a la participación
+          ciudadana y rendición de cuentas municipales.
+- id: freddy-gonzalez-e86b6ad3
+  tema: transparencia
+  resumen: Se realizarán audiencias públicas anuales de rendición de cuentas con presencia de la ciudadanía y líderes comunitarios.
+  cita: 'Los mecanismos incluyen: (i) audiencias públicas anuales de rendición de cuentas, con presencia de la ciudadanía
+    y de líderes comunitarios'
+  pagina: 38
+  cita_verificada: true
+  contexto:
+  - texto: 7. MECANISMOS PERIÓDICOS Y PÚBLICOS DE RENDICIÓN DE CUENTAS
+    pagina: 38
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Dice "audiencias públicas anuales" sin cantidad ni cobertura verificable más allá de la periodicidad.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Audiencias públicas anuales de rendición de cuentas» señala un mecanismo periódico, pero no fija cuántas
+          audiencias se realizarán ni su cobertura.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '"Anuales" es una periodicidad, no un plazo de cumplimiento.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La palabra «anuales» establece periodicidad, no una fecha de cumplimiento de la propuesta.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La propuesta de «audiencias públicas anuales» no especifica monto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: La rendición de cuentas y la participación ciudadana son competencia municipal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: Las «audiencias públicas anuales de rendición de cuentas» corresponden a las funciones municipales
+          de transparencia y participación ciudadana.
+- id: freddy-gonzalez-1921a6bb
+  tema: transparencia
+  resumen: Se fortalecerán los mecanismos de acceso a la información pública y se abrirán espacios de diálogo con la ciudadanía.
+  cita: fortalecimiento de los mecanismos de acceso a la información pública
+  pagina: 39
+  cita_verificada: true
+  contexto:
+  - texto: 7.1 MECANISMOS ESPECÍFICOS DEL CANTÓN
+    pagina: 39
+  - texto: espacios de diálogo con la ciudadanía para conocer observaciones y propuestas de mejora
+    pagina: 39
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  - transparencia-participacion-y-vigilancia
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: '''Fortalecimiento de los mecanismos de acceso a la información pública'' es intención genérica sin
+          cantidad.'
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: El «fortalecimiento de los mecanismos de acceso a la información pública» no define cantidad, cobertura
+          ni un resultado medible.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No hay referencia temporal.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Ni el «fortalecimiento de los mecanismos» ni los «espacios de diálogo con la ciudadanía» tienen una
+          fecha o duración asignada.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: Los «mecanismos de acceso a la información pública» se proponen sin monto ni fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: El acceso a la información pública municipal es responsabilidad del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: El «acceso a la información pública» y los «espacios de diálogo con la ciudadanía» corresponden a las
+          funciones municipales de transparencia y participación.
+- id: freddy-gonzalez-e4be8475
+  tema: transparencia
+  resumen: Se difundirán periódicamente los avances del Plan de Trabajo a través de medios comunitarios y redes sociales durante
+    2027–2031.
+  cita: Durante el período 2027–2031 se impulsarán mecanismos que permitan informar de manera periódica sobre el avance del
+    presente Plan de Trabajo
+  pagina: 39
+  cita_verificada: true
+  contexto:
+  - texto: 7.1 MECANISMOS ESPECÍFICOS DEL CANTÓN
+    pagina: 39
+  - texto: (vii) difusión periódica a través de medios comunitarios y redes sociales
+    pagina: 38
+  enfoques:
+  - transparencia-informacion-y-cuentas
+  rubrica:
+    meta:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: Solo dice 'mecanismos que permitan informar de manera periódica' sin cantidad ni resultado verificable.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La expresión «se impulsarán mecanismos» no especifica cuántos se implementarán ni una cobertura verificable.
+    plazo:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: El único dato temporal es 'Durante el período 2027–2031', el período completo de gobierno.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: «Durante el período 2027–2031» abarca todo el período de gobierno y «de manera periódica» solo indica
+          periodicidad.
+    financiamiento:
+      valor: false
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: false
+        justificacion: No menciona monto ni fuente de financiamiento.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: false
+        justificacion: La «difusión periódica a través de medios comunitarios y redes sociales» no identifica un monto ni
+          una fuente de financiamiento.
+    competencia_municipal:
+      valor: true
+      consenso: mayoria
+      votos:
+      - proveedor: anthropic
+        modelo: claude-sonnet-5-5
+        valor: true
+        justificacion: Informar sobre el avance del plan es transparencia municipal, función propia del Municipio.
+      - proveedor: openai
+        modelo: gpt-6.1-sol
+        valor: true
+        justificacion: «Informar de manera periódica sobre el avance del presente Plan de Trabajo» corresponde a las funciones
+          municipales de transparencia y rendición de cuentas.
